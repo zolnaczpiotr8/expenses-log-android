@@ -1,0 +1,66 @@
+plugins {
+    `kotlin-dsl`
+}
+
+group = "zolnaczpiotr8.com.github.expenses.log.build.logic"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+        vendor = JvmVendorSpec.ORACLE
+    }
+}
+
+gradlePlugin {
+    plugins {
+        register("android-application") {
+            id = "expenses.log.android.application"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidApplicationConventionPlugin"
+        }
+        register("android-feature") {
+            id = "expenses.log.android.feature"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidFeatureConventionPlugin"
+        }
+        register("android-hilt") {
+            id = "expenses.log.android.hilt"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidHiltConventionPlugin"
+        }
+        register("android-library") {
+            id = "expenses.log.android.library"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidLibraryConventionPlugin"
+        }
+        register("android-test") {
+            id = "expenses.log.android.test"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidTestConventionPlugin"
+        }
+        register("compose-library") {
+            id = "expenses.log.compose.library"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.ComposeLibraryConventionPlugin"
+        }
+        register("jvm-library") {
+            id = "expenses.log.jvm.library"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.JvmLibraryConventionPlugin"
+        }
+        register("android-room") {
+            id = "expenses.log.android.room"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidRoomConventionPlugin"
+        }
+    }
+}
+
+dependencies {
+    compileOnly(libs.android.gradle)
+    compileOnly(libs.kotlin.gradle)
+    compileOnly(libs.kotlin.compose)
+    compileOnly(libs.room)
+    compileOnly(libs.hilt.android.gradle)
+    compileOnly(libs.dropbox.dependency.guard)
+}
