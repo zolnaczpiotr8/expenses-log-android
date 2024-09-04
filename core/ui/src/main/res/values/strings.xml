@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="add_expense_fab_description">Add an expense</string>
+	<string name="more_options_description">More options</string>
+	<string name="more_options_bottom_sheet_on_click_label">Close</string>
+	<string name="more_options_button_description">Show more options</string>
+	<string name="navigate_up_button_description">Navigate up</string>
+</resources>
