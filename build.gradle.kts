@@ -46,6 +46,6 @@ spotless {
     shell {
         target("**/*.sh")
         ignoreErrorForStep(ShfmtStep.name())
-        shfmt("v3.8.0")
+        shfmt("v3.5.1")
     }
 }

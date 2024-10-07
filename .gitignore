@@ -5,6 +5,4 @@ build-logic/convention/build/
 .gradle/
 .idea/
 .kotlin/
-*.dot
-*.jks
 local.properties
