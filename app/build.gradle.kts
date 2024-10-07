@@ -16,20 +16,11 @@ android {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
-            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+            )
         }
     }
-
-    lint {
-        disable.add("MissingApplicationIcon")
-    }
-}
-
-// Workaround for https://github.com/google/dagger/issues/2796
-tasks.withType<JavaCompile>().configureEach {
-    options.compilerArgs.add(
-        "-Xlint:-processing",
-    )
 }
 
 dependencies {

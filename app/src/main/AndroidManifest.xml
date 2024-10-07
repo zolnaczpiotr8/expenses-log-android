@@ -3,6 +3,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
 	<application android:name=".ExpensesLogApplication"
+		android:icon="@mipmap/ic_launcher"
 		android:label="@string/application_label" android:supportsRtl="true"
 		android:theme="@android:style/Theme.Material.Light.NoActionBar">
 		<profileable android:shell="true" tools:targetApi="q" />

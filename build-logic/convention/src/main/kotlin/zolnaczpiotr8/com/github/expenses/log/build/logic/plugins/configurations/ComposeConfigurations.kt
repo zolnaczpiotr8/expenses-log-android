@@ -18,8 +18,6 @@ internal fun Project.configureCompose() {
     }
 
     composeCompiler {
-        enableStrongSkippingMode.set(true)
-
         if (enableComposeCompilerMetrics()) {
             metricsDestination.set(composeCompilerDir("metrics"))
         }

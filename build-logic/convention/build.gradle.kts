@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     `kotlin-dsl`
 }
@@ -6,8 +8,22 @@ group = "zolnaczpiotr8.com.github.expenses.log.build.logic"
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
         vendor = JvmVendorSpec.ORACLE
+    }
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.compilerArgs.addAll(
+        listOf(
+            "-Xlint:all",
+        ),
+    )
+}
+
+tasks.withType<KotlinCompile>().configureEach {
+    compilerOptions {
+        allWarningsAsErrors.set(true)
     }
 }
 

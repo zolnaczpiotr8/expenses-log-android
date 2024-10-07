@@ -39,7 +39,6 @@ private fun Project.configureWarnings() {
         options.compilerArgs.addAll(
             listOf(
                 "-Xlint:all",
-                "-Werror",
             ),
         )
     }
