@@ -9,7 +9,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigateUpButton
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigationUpTooltip
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
 
 @Composable
@@ -27,9 +26,7 @@ private fun SettingsScreen() {
                     Text(stringResource(R.string.settings_screen_title))
                 },
                 navigationIcon = {
-                    NavigationUpTooltip {
-                        NavigateUpButton {
-                        }
+                    NavigateUpButton {
                     }
                 },
             )

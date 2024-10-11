@@ -18,10 +18,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseFab
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseFabTooltip
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.more.options.MoreOptionsBottomSheet
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.more.options.MoreOptionsButton
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.more.options.MoreOptionsTooltip
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
 import zolnaczpiotr8.com.github.expenses.log.feature.expenses.more.options.HelpAndFeedbackListItem
 import zolnaczpiotr8.com.github.expenses.log.feature.expenses.more.options.SettingsListItem
@@ -40,13 +38,11 @@ private fun ExpensesScreen() {
     var showMainMenu by rememberSaveable { mutableStateOf(false) }
     Scaffold(
         floatingActionButton = {
-            AddExpenseFabTooltip {
-                AddExpenseFab(
-                    Modifier
-                        .safeContentPadding(),
-                ) {
-                    // TODO
-                }
+            AddExpenseFab(
+                Modifier
+                    .safeContentPadding(),
+            ) {
+                // TODO
             }
         },
         topBar = {
@@ -55,10 +51,8 @@ private fun ExpensesScreen() {
                     Text(stringResource(R.string.expenses_screen_title))
                 },
                 actions = {
-                    MoreOptionsTooltip {
-                        MoreOptionsButton {
-                            showMainMenu = true
-                        }
+                    MoreOptionsButton {
+                        showMainMenu = true
                     }
                 },
             )
@@ -68,17 +62,6 @@ private fun ExpensesScreen() {
         val showMainMenuBottomSheet = showMainMenu
         if (showMainMenuBottomSheet) {
             MoreOptionsBottomSheet(
-                onClick = {
-                    scope
-                        .launch {
-                            mainMenuSheetState.hide()
-                        }
-                        .invokeOnCompletion {
-                            if (mainMenuSheetState.isVisible.not()) {
-                                showMainMenu = false
-                            }
-                        }
-                },
                 onDismissRequest = {
                     showMainMenu = false
                 },

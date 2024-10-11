@@ -11,10 +11,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigateUpButton
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigationUpTooltip
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
 import zolnaczpiotr8.com.github.expenses.log.feature.add.expense.save.fab.SaveFab
-import zolnaczpiotr8.com.github.expenses.log.feature.add.expense.save.fab.SaveFabTooltip
 
 @Composable
 fun AddExpenseScreen(viewModel: AddExpenseViewModel = viewModel()) {
@@ -31,20 +29,16 @@ private fun AddExpenseScreen() {
                     Text(stringResource(R.string.add_expense_screen_title))
                 },
                 navigationIcon = {
-                    NavigationUpTooltip {
-                        NavigateUpButton {
-                        }
+                    NavigateUpButton {
                     }
                 },
             )
         },
         floatingActionButton = {
-            SaveFabTooltip {
-                SaveFab(
-                    Modifier
-                        .safeContentPadding(),
-                ) {
-                }
+            SaveFab(
+                Modifier
+                    .safeContentPadding(),
+            ) {
             }
         },
     ) {

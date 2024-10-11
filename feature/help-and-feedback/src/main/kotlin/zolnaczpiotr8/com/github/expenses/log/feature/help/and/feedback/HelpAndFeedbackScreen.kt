@@ -8,7 +8,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigateUpButton
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.navigation.NavigationUpTooltip
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -21,9 +20,7 @@ fun HelpAndFeedbackScreen() {
                     Text(stringResource(R.string.help_and_feedback_screen_title))
                 },
                 navigationIcon = {
-                    NavigationUpTooltip {
-                        NavigateUpButton {
-                        }
+                    NavigateUpButton {
                     }
                 },
             )
