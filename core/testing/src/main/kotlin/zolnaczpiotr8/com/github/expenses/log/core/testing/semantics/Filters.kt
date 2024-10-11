@@ -4,8 +4,6 @@ import androidx.compose.ui.semantics.SemanticsProperties
 import androidx.compose.ui.semantics.getOrNull
 import androidx.compose.ui.test.SemanticsMatcher
 
-fun isTooltip(): SemanticsMatcher = hasPaneTitle("tooltip")
-
 fun isBottomSheet(): SemanticsMatcher = hasPaneTitle("Bottom Sheet")
 
 private fun hasPaneTitle(title: String): SemanticsMatcher =
