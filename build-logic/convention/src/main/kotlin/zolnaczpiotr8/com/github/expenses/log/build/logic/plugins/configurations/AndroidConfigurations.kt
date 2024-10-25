@@ -13,6 +13,7 @@ import java.util.Locale
 const val APPLICATION_ID = "zolnaczpiotr8.com.github.expenses.log"
 
 internal fun Project.configureAndroid() {
+    configureResources()
     configureAndroidTest()
     configureLint()
     configureNamespace()
@@ -20,6 +21,14 @@ internal fun Project.configureAndroid() {
     configureCompileSdk()
     configureMinSdk()
     configureTargetSdk()
+}
+
+private fun Project.configureResources() {
+    commonAndroid {
+        defaultConfig {
+            resourceConfigurations.addAll(listOf("en", "pl"))
+        }
+    }
 }
 
 private fun Project.configureAndroidTest() {

@@ -17,7 +17,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseFab
+import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseExtendedFab
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.more.options.MoreOptionsBottomSheet
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.more.options.MoreOptionsButton
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
@@ -38,7 +38,7 @@ private fun ExpensesScreen() {
     var showMainMenu by rememberSaveable { mutableStateOf(false) }
     Scaffold(
         floatingActionButton = {
-            AddExpenseFab(
+            AddExpenseExtendedFab(
                 Modifier
                     .safeContentPadding(),
             ) {

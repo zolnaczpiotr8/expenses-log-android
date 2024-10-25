@@ -72,6 +72,13 @@ gradlePlugin {
     }
 }
 
+tasks {
+    validatePlugins {
+        enableStricterValidation = true
+        failOnWarning = true
+    }
+}
+
 dependencies {
     compileOnly(libs.android.gradle)
     compileOnly(libs.kotlin.gradle)

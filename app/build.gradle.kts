@@ -23,9 +23,14 @@ android {
     }
 }
 
+baselineProfile {
+    dexLayoutOptimization = true
+}
+
 dependencies {
     implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.profileinstaller)
+    implementation(libs.androidx.profile.installer)
+    implementation(libs.androidx.splash.screen)
 
     baselineProfile(projects.benchmark)
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+	<style name="Theme.App.Light" parent="Theme.SplashScreen">
+		<item name="android:windowSplashScreenBehavior"
+			tools:targetApi="33">icon_preferred</item>
+		<item name="android:windowLightNavigationBar"
+			tools:targetApi="27">true</item>
+		<item name="android:windowLightStatusBar">true</item>
+		<item name="android:navigationBarColor">@color/light_on_background</item>
+		<item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+		<item name="postSplashScreenTheme">@android:style/Theme.Material.Light.NoActionBar</item>
+	</style>
+
+	<style name="Theme.App.Dark"
+		parent="Theme.SplashScreen.IconBackground">
+		<item name="android:windowSplashScreenBehavior"
+			tools:targetApi="33">icon_preferred</item>
+		<item name="android:windowLightNavigationBar"
+			tools:targetApi="27">false</item>
+		<item name="android:windowLightStatusBar">false</item>
+		<item name="android:navigationBarColor">@color/dark_on_background</item>
+		<item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+		<item name="windowSplashScreenIconBackgroundColor">@color/light_background</item>
+		<item name="postSplashScreenTheme">@android:style/Theme.Material.NoActionBar</item>
+	</style>
+
+	<style name="Theme.App" parent="Theme.App.Light" />
+</resources>
