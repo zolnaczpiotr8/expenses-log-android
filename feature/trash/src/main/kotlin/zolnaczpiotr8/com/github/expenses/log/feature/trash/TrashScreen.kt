@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseFab
+import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.add.expense.fab.AddExpenseExtendedFab
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
 
 @Composable
@@ -23,7 +23,7 @@ fun TrashScreen(viewModel: TrashViewModel = viewModel()) {
 private fun TrashScreen() {
     Scaffold(
         floatingActionButton = {
-            AddExpenseFab(
+            AddExpenseExtendedFab(
                 Modifier
                     .safeContentPadding(),
             ) {

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<style name="Theme.App" parent="Theme.App.Dark">
+		<item name="android:windowSplashScreenAnimationDuration">@integer/splash_screen_duration</item>
+		<item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+		<item name="android:navigationBarColor">@android:color/transparent</item>
+	</style>
+</resources>
