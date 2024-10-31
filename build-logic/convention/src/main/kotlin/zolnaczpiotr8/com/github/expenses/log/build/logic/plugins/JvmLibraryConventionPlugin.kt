@@ -5,11 +5,12 @@ import org.gradle.api.Project
 import zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.configurations.configureKotlinJvm
 
 class JvmLibraryConventionPlugin : Plugin<Project> {
-    override fun apply(target: Project): Unit =
+    override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
                 apply("org.jetbrains.kotlin.jvm")
             }
             configureKotlinJvm()
         }
+    }
 }

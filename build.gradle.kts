@@ -8,19 +8,19 @@ buildscript {
     }
 
     dependencies {
-        classpath(libs.dropbox.dependency.guard)
         classpath(libs.android.gradle)
         classpath(libs.kotlin.compose)
         classpath(libs.kotlin.gradle)
         classpath(libs.room)
         classpath(libs.hilt.android.gradle)
-        classpath(libs.ksp)
     }
 }
 
 plugins {
     alias(libs.plugins.spotless)
     alias(libs.plugins.git.hooks)
+    alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
 }
 
 spotless {

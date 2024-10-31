@@ -3,11 +3,8 @@ package zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.configurations
 import org.gradle.api.Project
 import org.gradle.api.file.Directory
 import org.gradle.api.provider.Provider
-import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.findByType
 import org.jetbrains.kotlin.compose.compiler.gradle.ComposeCompilerGradlePluginExtension
-import zolnaczpiotr8.com.github.expenses.log.build.logic.implementation
-import zolnaczpiotr8.com.github.expenses.log.build.logic.libs
 import java.nio.file.Paths
 
 internal fun Project.configureCompose() {
@@ -25,12 +22,6 @@ internal fun Project.configureCompose() {
         if (enableComposeCompilerReports()) {
             reportsDestination.set(composeCompilerDir("reports"))
         }
-    }
-
-    dependencies {
-        implementation(platform(libs("androidx.compose.bom")))
-        implementation(libs("androidx.compose.ui.tooling"))
-        implementation(libs("androidx.compose.ui.tooling.preview"))
     }
 }
 

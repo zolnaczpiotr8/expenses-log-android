@@ -84,7 +84,8 @@ private fun Project.libraryComponents(configuration: LibraryAndroidComponentsExt
 private fun Project.configureTestInstrumentationRunner() {
     commonAndroid {
         defaultConfig {
-            testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+            testInstrumentationRunner =
+                testInstrumentationRunner ?: "androidx.test.runner.AndroidJUnitRunner"
             testInstrumentationRunnerArguments["clearPackageData"] = "true"
         }
     }
@@ -96,7 +97,7 @@ private fun Project.configureManagedDevices() {
             managedDevices {
                 localDevices.create("compact") {
                     device = "Pixel 2"
-                    apiLevel = 34
+                    apiLevel = targetSdk()
                     systemImageSource = "aosp-atd"
                 }
             }
@@ -180,15 +181,17 @@ internal fun Project.commonAndroid(configuration: CommonExtension<*, *, *, *, *,
 }
 
 private fun Project.configureTargetSdk() {
-    val targetSdk = versions("target.sdk").toInt()
     androidApplication {
-        defaultConfig.targetSdk = targetSdk
+        defaultConfig.targetSdk = targetSdk()
     }
 
     androidTest {
-        defaultConfig.targetSdk = targetSdk
+        defaultConfig.targetSdk = targetSdk()
     }
 }
+
+private fun Project.targetSdk(): Int =
+    versions("target.sdk").toInt()
 
 private fun Project.androidApplication(configuration: ApplicationExtension.() -> Unit) {
     extensions
