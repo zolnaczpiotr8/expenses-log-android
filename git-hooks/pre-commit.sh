@@ -1,10 +1,9 @@
 #!/bin/sh
 set -ex
 
-./gradlew clean
-./gradlew dependencyGuard
-./gradlew spotlessCheck
 ./gradlew lint
+./gradlew spotlessCheck
+./gradlew clean
 ./gradlew assembleDebug
 ./gradlew testDebugUnitTest
 ./gradlew allDevicesDebugAndroidTest

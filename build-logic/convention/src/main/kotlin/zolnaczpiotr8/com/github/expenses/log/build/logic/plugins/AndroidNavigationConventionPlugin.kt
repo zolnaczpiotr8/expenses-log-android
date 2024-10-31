@@ -5,20 +5,19 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies
 import zolnaczpiotr8.com.github.expenses.log.build.logic.implementation
 import zolnaczpiotr8.com.github.expenses.log.build.logic.libs
+import zolnaczpiotr8.com.github.expenses.log.build.logic.plugins
 
-class AndroidFeatureConventionPlugin : Plugin<Project> {
+class AndroidNavigationConventionPlugin : Plugin<Project> {
+
     override fun apply(target: Project) {
         with(target) {
             with(pluginManager) {
-                apply("expenses.log.android.library")
-                apply("expenses.log.android.hilt")
-                apply("expenses.log.android.navigation")
-                apply("expenses.log.android.compose")
+                apply(plugins("kotlin.serialization"))
             }
 
             dependencies {
-                implementation(libs("hilt.navigation.compose"))
-                implementation(project(":core:ui"))
+                implementation(libs("kotlinx.serialization"))
+                implementation(libs("androidx.navigation.compose"))
             }
         }
     }

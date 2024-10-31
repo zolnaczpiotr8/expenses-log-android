@@ -27,9 +27,6 @@ include(
     ":core:database",
     ":core:datastore",
     ":core:testing",
-    ":feature:add-expense",
-    ":feature:settings",
-    ":feature:expenses",
-    ":feature:trash",
-    ":feature:help-and-feedback",
+    ":core:testing-hilt",
+    ":feature:home",
 )

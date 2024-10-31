@@ -54,11 +54,6 @@ gradlePlugin {
             implementationClass =
                 "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidTestConventionPlugin"
         }
-        register("compose-library") {
-            id = "expenses.log.compose.library"
-            implementationClass =
-                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.ComposeLibraryConventionPlugin"
-        }
         register("jvm-library") {
             id = "expenses.log.jvm.library"
             implementationClass =
@@ -68,6 +63,16 @@ gradlePlugin {
             id = "expenses.log.android.room"
             implementationClass =
                 "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidRoomConventionPlugin"
+        }
+        register("android-compose") {
+            id = "expenses.log.android.compose"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidComposeConventionPlugin"
+        }
+        register("android-navigation") {
+            id = "expenses.log.android.navigation"
+            implementationClass =
+                "zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.AndroidNavigationConventionPlugin"
         }
     }
 }
@@ -85,5 +90,4 @@ dependencies {
     compileOnly(libs.kotlin.compose)
     compileOnly(libs.room)
     compileOnly(libs.hilt.android.gradle)
-    compileOnly(libs.dropbox.dependency.guard)
 }

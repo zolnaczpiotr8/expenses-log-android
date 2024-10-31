@@ -31,18 +31,7 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.profile.installer)
     implementation(libs.androidx.splash.screen)
-
-    baselineProfile(projects.benchmark)
-
+    implementation(projects.feature.home)
     implementation(projects.core.ui)
-    implementation(projects.core.model)
-    implementation(projects.core.data)
-    implementation(projects.core.database)
-    implementation(projects.core.datastore)
-    implementation(projects.core.testing)
-    implementation(projects.feature.addExpense)
-    implementation(projects.feature.settings)
-    implementation(projects.feature.trash)
-    implementation(projects.feature.expenses)
-    implementation(projects.feature.helpAndFeedback)
+    baselineProfile(projects.benchmark)
 }

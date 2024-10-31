@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="expenses_screen_title">Wydatki</string>
-	<string name="navigate_on_click_label">nawiguj</string>
-	<string name="show_statistics_option_description">Pokaż statystyki</string>
-	<string name="settings_option_description">Ustawienia</string>
-	<string name="help_and_feedback_option_description">Pomoc</string>
-</resources>

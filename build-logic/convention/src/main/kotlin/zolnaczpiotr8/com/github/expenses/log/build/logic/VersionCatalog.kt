@@ -3,6 +3,13 @@ package zolnaczpiotr8.com.github.expenses.log.build.logic
 import org.gradle.api.Project
 import org.gradle.api.artifacts.VersionCatalogsExtension
 
+internal fun Project.plugins(alias: String): String =
+    versionCatalog
+        .findPlugin(alias)
+        .get()
+        .get()
+        .pluginId
+
 internal fun Project.libs(alias: String): String =
     versionCatalog
         .findLibrary(alias)

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="expenses_screen_title">Expenses</string>
-	<string name="navigate_on_click_label">navigate</string>
-	<string name="show_statistics_option_description">Show statistics</string>
-	<string name="settings_option_description">Settings</string>
-	<string name="help_and_feedback_option_description">Help and feedback</string>
-</resources>
