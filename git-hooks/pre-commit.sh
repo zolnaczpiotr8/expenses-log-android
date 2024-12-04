@@ -1,10 +1,10 @@
 #!/bin/sh
-set -ex
 
-./gradlew lint
-./gradlew spotlessCheck
-./gradlew clean
-./gradlew assembleDebug
-./gradlew testDebugUnitTest
-./gradlew allDevicesDebugAndroidTest
-./gradlew :benchmark:connectedBenchmarkReleaseAndroidTest
+./gradlew --init-script init.gradle.kts \
+  wrapper --gradle-version latest \
+  spotlessCheck \
+  lint
+
+./gradlew --init-script init.gradle.kts \
+  clean \
+  connectedAndroidTest

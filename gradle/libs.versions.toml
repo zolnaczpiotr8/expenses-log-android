@@ -3,32 +3,33 @@ min-sdk = "26"
 compile-sdk = "35"
 target-sdk = "35"
 ndk = "27.1.12297006"
-android-gradle = "8.7.1"
-kotlin = "2.0.21"
-kotlinx = "1.7.3"
-androidx-compose-bom = "2024.10.01"
-androidx-navigation = "2.9.0-alpha02"
-androidx-activity = "1.9.3"
-androidx-datastore = "1.1.1"
+android-gradle = "8.8.1"
+kotlin = "2.1.10"
+kotlinx-data-time = "0.6.2"
+kotlinx-serialization = "1.8.0"
+kotlinx-collections-immutable = "0.3.8"
+androidx-compose-bom = "2025.02.00"
+androidx-navigation = "2.8.7"
+androidx-activity = "1.10.0"
+androidx-datastore = "1.1.2"
 androidx-test-runner = "1.6.2"
 androidx-test-orchestrator = "1.5.1"
-androidx-test-espresso-device = "1.0.1"
 androidx-splash-screen = "1.0.1"
 androidx-benchmark = "1.3.3"
 androidx-profileinstaller = "1.4.1"
-hilt-android = "2.52"
-hilt-navigation-compose = "1.2.0"
-ksp = "2.0.21-1.0.25"
+androidx-hilt = "1.2.0"
+hilt = "2.55"
+ksp = "2.1.10-1.0.30"
 room = "2.6.1"
-spotless = "6.25.0"
-git-hooks = "1.1.0"
+spotless = "7.0.2"
+git-hooks = "1.1.1"
+protobuf-plugin = "0.9.4"
+protobuf = "4.29.3"
 
 [libraries]
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
 androidx-compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
-androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
-androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
 androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
@@ -36,36 +37,40 @@ androidx-activity-compose = { module = "androidx.activity:activity-compose", ver
 androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "androidx-datastore" }
 androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test-runner" }
 androidx-test-orchestrator = { module = "androidx.test:orchestrator", version.ref = "androidx-test-orchestrator" }
-androidx-test-espresso-device = { module = "androidx.test.espresso:espresso-device", version.ref = "androidx-test-espresso-device" }
 androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-splash-screen" }
 androidx-benchmark-macro = { module = "androidx.benchmark:benchmark-macro-junit4", version.ref = "androidx-benchmark" }
 androidx-benchmark-junit4 = { module = "androidx.benchmark:benchmark-junit4", version.ref = "androidx-benchmark" }
 androidx-profile-installer = { module = "androidx.profileinstaller:profileinstaller", version.ref = "androidx-profileinstaller" }
-hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-android" }
-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt-android" }
-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt-android" }
-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "androidx-hilt" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
 android-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradle" }
-hilt-android-gradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt-android" }
+hilt-android-gradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+kotlin-jvm = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
 kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 kotlin-compose = { module = "org.jetbrains.kotlin.plugin.compose:org.jetbrains.kotlin.plugin.compose.gradle.plugin", version.ref = "kotlin" }
-kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx" }
-room = { module = "androidx.room:room-gradle-plugin", version.ref = "room" }
+kotlinx-date-time = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-data-time" }
+kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
+kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
+kotlin-serialization = { module = "org.jetbrains.kotlin.plugin.serialization:org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "kotlin" }
+ksp = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+protobuf-compiler = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
+protobuf-kotlin-lite = { module = "com.google.protobuf:protobuf-kotlin-lite", version.ref = "protobuf" }
 
 [plugins]
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 git-hooks = { id = "eu.bambooapps.gradle.plugin.githook", version.ref = "git-hooks" }
-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+protobuf = { id = "com.google.protobuf", version.ref = "protobuf-plugin" }
+room = { id = "androidx.room", version.ref = "room" }
 androidx-baseline-profile = { id = "androidx.baselineprofile", version.ref = "androidx-benchmark" }
-expenses-log-jvm-library = { id = "expenses.log.jvm.library", version = "unspecified" }
-expenses-log-android-library = { id = "expenses.log.android.library", version = "unspecified" }
-expenses-log-android-test = { id = "expenses.log.android.test", version = "unspecified" }
-expenses-log-android-hilt = { id = "expenses.log.android.hilt", version = "unspecified" }
-expenses-log-android-feature = { id = "expenses.log.android.feature", version = "unspecified" }
-expenses-log-android-application = { id = "expenses.log.android.application", version = "unspecified" }
-expenses-log-android-room = { id = "expenses.log.android.room", version = "unspecified" }
-expenses-log-android-compose = { id = "expenses.log.android.compose", version = "unspecified" }
+expenses-log-android-library = { id = "expenses.log.android.library" }
+expenses-log-ksp-library = { id = "expenses.log.ksp.library" }
+expenses-log-test = { id = "expenses.log.test" }
+expenses-log-hilt = { id = "expenses.log.hilt" }
+expenses-log-feature = { id = "expenses.log.feature" }
+expenses-log-application = { id = "expenses.log.application" }
+expenses-log-compose = { id = "expenses.log.compose" }

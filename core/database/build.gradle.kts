@@ -1,9 +1,16 @@
 plugins {
-    alias(libs.plugins.expenses.log.android.library)
-    alias(libs.plugins.expenses.log.android.hilt)
-    alias(libs.plugins.expenses.log.android.room)
+    alias(libs.plugins.expenses.log.ksp.library)
+    alias(libs.plugins.expenses.log.hilt)
+    alias(libs.plugins.room)
+}
+
+room {
+    schemaDirectory(projectDir.resolve("schemas").toString())
 }
 
 dependencies {
-    api(projects.core.model)
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    implementation(libs.kotlinx.date.time)
+    ksp(libs.room.compiler)
 }

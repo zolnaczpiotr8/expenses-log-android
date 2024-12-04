@@ -1,8 +1,5 @@
-build/
-!build-logic/**
-build-logic/build/
-build-logic/convention/build/
-.gradle/
+**/build/
+**/.gradle/
 .idea/
-.kotlin/
+**/.kotlin/
 local.properties

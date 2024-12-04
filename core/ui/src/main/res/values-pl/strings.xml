@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="application_label">Dziennik wydatków</string>
+	<string name="new_expense">Nowy wydatek</string>
+	<string name="settings">Ustawienia</string>
+	<string name="go_back_button_description">Cofnij</string>
+	<string name="menu_label">Menu</string>
+</resources>
