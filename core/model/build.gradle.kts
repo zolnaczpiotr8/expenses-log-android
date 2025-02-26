@@ -1,3 +1,7 @@
 plugins {
-    alias(libs.plugins.expenses.log.jvm.library)
+    alias(libs.plugins.expenses.log.android.library)
+}
+
+dependencies {
+    api(libs.kotlinx.collections.immutable)
 }

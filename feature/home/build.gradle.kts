@@ -1,3 +1,8 @@
 plugins {
-    alias(libs.plugins.expenses.log.android.feature)
+    alias(libs.plugins.expenses.log.feature)
+}
+
+dependencies {
+    implementation(projects.core.data)
+    implementation(libs.kotlinx.date.time)
 }

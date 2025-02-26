@@ -1,9 +1,10 @@
 plugins {
-    alias(libs.plugins.expenses.log.android.library)
-    alias(libs.plugins.expenses.log.android.hilt)
+    alias(libs.plugins.expenses.log.ksp.library)
+    alias(libs.plugins.expenses.log.hilt)
 }
 
 dependencies {
-    api(libs.androidx.datastore)
     api(projects.core.model)
+    api(projects.core.datastore.proto)
+    api(libs.androidx.datastore)
 }

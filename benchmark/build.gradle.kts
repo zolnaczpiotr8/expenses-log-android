@@ -1,7 +1,7 @@
-import zolnaczpiotr8.com.github.expenses.log.build.logic.plugins.configurations.APPLICATION_ID
+import application.id.APPLICATION_ID
 
 plugins {
-    alias(libs.plugins.expenses.log.android.test)
+    alias(libs.plugins.expenses.log.test)
     alias(libs.plugins.androidx.baseline.profile)
 }
 
@@ -11,7 +11,7 @@ android {
         testInstrumentationRunner = "androidx.benchmark.junit4.AndroidBenchmarkRunner"
     }
 
-    targetProjectPath = projects.app.identityPath.toString()
+    targetProjectPath = projects.app.path
     experimentalProperties["android.experimental.self-instrumenting"] = true
 
     buildFeatures {

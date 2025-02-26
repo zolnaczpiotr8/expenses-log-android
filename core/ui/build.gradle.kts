@@ -1,4 +1,4 @@
 plugins {
     alias(libs.plugins.expenses.log.android.library)
-    alias(libs.plugins.expenses.log.android.compose)
+    alias(libs.plugins.expenses.log.compose)
 }
