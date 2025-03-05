@@ -56,6 +56,7 @@ import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.core.model.Categories
 import zolnaczpiotr8.com.github.expenses.log.core.model.Category
 import zolnaczpiotr8.com.github.expenses.log.core.model.Expense
+import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.IndeterminateLinearIndicator
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.Margins
 import zolnaczpiotr8.com.github.expenses.log.feature.home.R

@@ -1,7 +1,9 @@
 package zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date
 
+import androidx.compose.runtime.Stable
 import kotlinx.datetime.Instant
 
+@Stable
 sealed interface DateFilter {
 
     data object AnyDate : DateFilter

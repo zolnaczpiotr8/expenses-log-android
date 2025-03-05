@@ -1,4 +1,4 @@
-package zolnaczpiotr8.com.github.expenses.log.feature.home.ui
+package zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components
 
 import androidx.activity.ComponentActivity
 import androidx.compose.ui.test.assertIsDisplayed

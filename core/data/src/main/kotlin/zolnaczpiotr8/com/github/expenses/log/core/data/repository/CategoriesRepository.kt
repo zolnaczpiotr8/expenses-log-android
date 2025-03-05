@@ -13,6 +13,7 @@ import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.Expense
 import zolnaczpiotr8.com.github.expenses.log.core.datastore.SettingsDataSource
 import zolnaczpiotr8.com.github.expenses.log.core.model.Categories
 import zolnaczpiotr8.com.github.expenses.log.core.model.Category
+import java.math.BigDecimal
 import javax.inject.Inject
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -54,9 +55,9 @@ class CategoriesRepository @Inject constructor(
                             .values
                             .flatten()
                             .map(ExpenseEntity::amount)
-                            .reduce { first, second ->
+                            .reduceOrNull { first, second ->
                                 first.add(second)
-                            },
+                            } ?: BigDecimal.ZERO,
                         settings.currency,
                     ),
                     categories = categories
@@ -68,9 +69,9 @@ class CategoriesRepository @Inject constructor(
                                 totalAmount = CurrencyAmount(
                                     it.value
                                         .map(ExpenseEntity::amount)
-                                        .reduce { first, second ->
+                                        .reduceOrNull { first, second ->
                                             first.add(second)
-                                        },
+                                        } ?: BigDecimal.ZERO,
                                     settings.currency,
                                 ),
                             )
