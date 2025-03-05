@@ -3,6 +3,5 @@ plugins {
 }
 
 dependencies {
-    implementation(projects.core.data)
     implementation(libs.kotlinx.date.time)
 }

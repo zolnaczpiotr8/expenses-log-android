@@ -12,4 +12,5 @@ plugins {
 dependencies {
     implementation(libs("androidx.hilt.navigation.compose"))
     implementation(project(":core:ui"))
+    implementation(project(":core:data"))
 }

@@ -8,6 +8,7 @@ private val TAG = Settings::class.java.name
 
 data class Settings(
     val currencyCode: String,
+    val showEmptyCategories: Boolean,
 ) {
 
     val currency: Currency by lazy {

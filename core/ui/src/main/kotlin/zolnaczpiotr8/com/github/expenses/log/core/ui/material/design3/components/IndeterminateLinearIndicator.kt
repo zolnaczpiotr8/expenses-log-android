@@ -1,4 +1,4 @@
-package zolnaczpiotr8.com.github.expenses.log.feature.home.ui
+package zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.LinearProgressIndicator
@@ -8,7 +8,7 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 
 @Composable
-internal fun IndeterminateLinearIndicator(
+fun IndeterminateLinearIndicator(
     label: String = "",
 ) {
     LinearProgressIndicator(
