@@ -6,6 +6,7 @@ import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toPersistentList
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.dao.ExpenseDao
 import zolnaczpiotr8.com.github.expenses.log.core.datastore.SettingsDataSource
 import zolnaczpiotr8.com.github.expenses.log.core.model.Expense
@@ -41,8 +42,14 @@ class ExpensesRepository @Inject constructor(
     }
 
     @OptIn(ExperimentalUuidApi::class)
-    fun expenses(): Flow<ImmutableList<Expense>> = expenseDao
-        .expenses()
+    fun expenses(
+        start: Instant,
+        end: Instant,
+    ): Flow<ImmutableList<Expense>> = expenseDao
+        .expenses(
+            start = start,
+            end = end,
+        )
         .combine(settingsDataSource.settings) { expenses, settings ->
             expenses
                 .map {

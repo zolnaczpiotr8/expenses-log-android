@@ -5,6 +5,7 @@ plugins {
 
 dependencies {
     api(projects.core.model)
+    api(libs.kotlinx.date.time)
     api(libs.kotlinx.collections.immutable)
     implementation(projects.core.datastore)
     implementation(projects.core.database)

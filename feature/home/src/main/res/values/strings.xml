@@ -24,7 +24,6 @@
 	<string name="date_filter_custom">Custom date</string>
 	<string name="date_filter_this_month">This month</string>
 	<string name="date_filter_this_year">This year</string>
-	<string name="date_filter_this_quarter">This quarter</string>
 	<string name="date_filter_any">Any date</string>
 	<string name="is_not_empty_filter_title">Is not empty</string>
 </resources>

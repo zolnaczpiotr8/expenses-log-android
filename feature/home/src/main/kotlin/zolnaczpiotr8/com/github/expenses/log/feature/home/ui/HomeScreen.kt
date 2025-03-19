@@ -86,6 +86,10 @@ internal fun HomeScreen(
     onSettingsClick: () -> Unit = {
     },
 ) {
+    val dateFilter by viewModel.dateFilter
+        .collectAsStateWithLifecycle()
+    val isNotEmptyFilter by viewModel.isNotEmptyFilter
+        .collectAsStateWithLifecycle()
     val isLoading by viewModel.isLoading
         .collectAsStateWithLifecycle()
     val expenses by viewModel.expenses
@@ -93,7 +97,11 @@ internal fun HomeScreen(
     val categories by viewModel.categories
         .collectAsStateWithLifecycle()
     HomeScreen(
+        dateFilter = dateFilter,
+        onDateFilterClick = viewModel::onDateFilterClick,
         isLoading = isLoading,
+        isNotEmptyFilter = isNotEmptyFilter,
+        onIsNotEmptyFilterClick = viewModel::onIsNotEmptyFilterClick,
         categories = categories,
         expenses = expenses,
         onCategoryDeleteClicked = viewModel::onCategoryDeleteClicked,
@@ -106,6 +114,12 @@ internal fun HomeScreen(
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalUuidApi::class)
 @Composable
 internal fun HomeScreen(
+    dateFilter: DateFilter = DateFilter.default,
+    onDateFilterClick: (DateFilter) -> Unit = {
+    },
+    isNotEmptyFilter: Boolean = false,
+    onIsNotEmptyFilterClick: (Boolean) -> Unit = {
+    },
     isLoading: Boolean = false,
     categories: Categories,
     expenses: ImmutableList<Expense> = persistentListOf(),
@@ -186,7 +200,8 @@ internal fun HomeScreen(
 
                 item {
                     Spacer(
-                        Modifier.windowInsetsBottomHeight(WindowInsets.systemBars)
+                        Modifier
+                            .windowInsetsBottomHeight(WindowInsets.systemBars)
                             .animateContentSize(),
                     )
                 }
@@ -265,10 +280,9 @@ internal fun HomeScreen(
                         IncrementalPaddings.x1,
                     ),
                 ) {
-                    val filter: DateFilter = DateFilter.Month
-                    val sheetState = rememberDateFilterSheetState(filter)
+                    val sheetState = rememberDateFilterSheetState(dateFilter)
                     DateFilterChip(
-                        filter = filter,
+                        filter = dateFilter,
                         onClick = {
                             scope.launch {
                                 sheetState.show()
@@ -283,12 +297,13 @@ internal fun HomeScreen(
                     DateFilterModalBottomSheet(
                         state = sheetState,
                         onYearClicked = {
-                        },
-                        onQuarterClicked = {
+                            onDateFilterClick(DateFilter.Year)
                         },
                         onAnyDateClicked = {
+                            onDateFilterClick(DateFilter.AnyDate)
                         },
                         onMonthClicked = {
+                            onDateFilterClick(DateFilter.Month)
                         },
                         onCustomClicked = {
                             datePickerDialogVisible = true
@@ -297,18 +312,24 @@ internal fun HomeScreen(
 
                     if (datePickerDialogVisible) {
                         DateFilterPickerDialog(
-                            initial = filter as? DateFilter.Custom,
+                            initial = dateFilter
+                                .takeUnless {
+                                    it is DateFilter.AnyDate
+                                },
                             onDismiss = {
                                 datePickerDialogVisible = false
                             },
                             onPicked = {
+                                onDateFilterClick(it)
                                 datePickerDialogVisible = false
                             },
                         )
                     }
 
                     IsNotEmptyFilterChip(
+                        isSelected = isNotEmptyFilter,
                         onClick = {
+                            onIsNotEmptyFilterClick(isNotEmptyFilter.not())
                         },
                     )
                 }
@@ -444,7 +465,8 @@ private fun Categories(
             span = StaggeredGridItemSpan.FullLine,
         ) {
             Spacer(
-                Modifier.height(bottomPadding)
+                Modifier
+                    .height(bottomPadding)
                     .animateContentSize(),
             )
         }
