@@ -1,9 +1,9 @@
 {
     "database": {
-        "identityHash": "a8094db1515f83c8721e1d019813c946",
+        "identityHash": "bd1940c7b196cb237331f5f638ff3926",
         "setupQueries": [
             "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-            "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a8094db1515f83c8721e1d019813c946')"
+            "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'bd1940c7b196cb237331f5f638ff3926')"
         ],
         "entities": [
             {
@@ -51,7 +51,7 @@
                     "onUpdate": "CASCADE",
                     "table": "category"
                 }],
-                "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uuid` TEXT NOT NULL, `title` TEXT, `amount` TEXT NOT NULL, `category_uuid` TEXT NOT NULL, PRIMARY KEY(`uuid`), FOREIGN KEY(`category_uuid`) REFERENCES `category`(`uuid`) ON UPDATE CASCADE ON DELETE CASCADE )",
+                "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`uuid` TEXT NOT NULL, `title` TEXT, `amount` TEXT NOT NULL, `category_uuid` TEXT NOT NULL, `created` INTEGER NOT NULL, PRIMARY KEY(`uuid`), FOREIGN KEY(`category_uuid`) REFERENCES `category`(`uuid`) ON UPDATE CASCADE ON DELETE CASCADE )",
                 "fields": [
                     {
                         "notNull": true,
@@ -76,6 +76,12 @@
                         "fieldPath": "categoryUuid",
                         "columnName": "category_uuid",
                         "affinity": "TEXT"
+                    },
+                    {
+                        "notNull": true,
+                        "fieldPath": "created",
+                        "columnName": "created",
+                        "affinity": "INTEGER"
                     }
                 ],
                 "tableName": "expense",

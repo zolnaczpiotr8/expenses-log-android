@@ -4,6 +4,7 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import zolnaczpiotr8.com.github.expenses.log.core.database.converters.BigDecimalConverter
+import zolnaczpiotr8.com.github.expenses.log.core.database.converters.InstantConverter
 import zolnaczpiotr8.com.github.expenses.log.core.database.converters.UuidConverter
 import zolnaczpiotr8.com.github.expenses.log.core.database.dao.CategoryDao
 import zolnaczpiotr8.com.github.expenses.log.core.database.dao.ExpenseDao
@@ -20,6 +21,7 @@ import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.Expense
 @TypeConverters(
     UuidConverter::class,
     BigDecimalConverter::class,
+    InstantConverter::class,
 )
 internal abstract class ExpensesDatabase : RoomDatabase() {
 

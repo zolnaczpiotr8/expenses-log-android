@@ -11,6 +11,6 @@ room {
 dependencies {
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
-    implementation(libs.kotlinx.date.time)
+    api(libs.kotlinx.date.time)
     ksp(libs.room.compiler)
 }

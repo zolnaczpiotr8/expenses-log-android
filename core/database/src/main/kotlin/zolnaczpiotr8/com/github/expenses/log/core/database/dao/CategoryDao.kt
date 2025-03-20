@@ -4,6 +4,7 @@ import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
 import kotlinx.coroutines.flow.Flow
+import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryEntity
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.ExpenseEntity
 import kotlin.uuid.ExperimentalUuidApi
@@ -15,11 +16,17 @@ interface CategoryDao {
     @Query(
         """
         SELECT *
-        FROM category, expense
-        WHERE expense.category_uuid = category.uuid
+        FROM category 
+        LEFT JOIN expense
+        ON expense.category_uuid = category.uuid 
+        WHERE (expense.created >= :start) 
+            AND (expense.created <= :end)
     """,
     )
-    fun categories(): Flow<Map<CategoryEntity, List<ExpenseEntity>>>
+    fun categories(
+        start: Instant,
+        end: Instant,
+    ): Flow<Map<CategoryEntity, List<ExpenseEntity>>>
 
     @OptIn(ExperimentalUuidApi::class)
     @Transaction

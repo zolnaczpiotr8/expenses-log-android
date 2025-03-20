@@ -24,7 +24,6 @@
 	<string name="date_filter_custom">Niestandardowa</string>
 	<string name="date_filter_this_month">Bieżący miesiąc</string>
 	<string name="date_filter_this_year">Bieżący rok</string>
-	<string name="date_filter_this_quarter">Bieżący kwartał</string>
 	<string name="date_filter_any">Każda data</string>
 	<string name="is_not_empty_filter_title">Nie jest pusta</string>
 </resources>

@@ -7,7 +7,9 @@ import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.withContext
+import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.dao.CategoryDao
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.ExpenseEntity
 import zolnaczpiotr8.com.github.expenses.log.core.datastore.SettingsDataSource
@@ -45,8 +47,15 @@ class CategoriesRepository @Inject constructor(
     }
 
     @OptIn(ExperimentalUuidApi::class)
-    fun categories(): Flow<Categories> = categoryDao
-        .categories()
+    fun categories(
+        isNotEmpty: Boolean,
+        start: Instant,
+        end: Instant,
+    ): Flow<Categories> = categoryDao
+        .categories(
+            start = start,
+            end = end,
+        )
         .combine(settingsDataSource.settings) { categories, settings ->
             withContext(Dispatchers.Default) {
                 Categories(
@@ -77,6 +86,12 @@ class CategoriesRepository @Inject constructor(
                             )
                         }.toPersistentList(),
                 )
+            }
+        }.filter {
+            if (isNotEmpty) {
+                it.categories.isNotEmpty()
+            } else {
+                true
             }
         }
 }

@@ -29,7 +29,6 @@ internal fun DateFilterChip(
         is DateFilter.Month -> R.string.date_filter_this_month
         is DateFilter.Custom -> R.string.date_filter_custom
         is DateFilter.Year -> R.string.date_filter_this_year
-        is DateFilter.Quarter -> R.string.date_filter_this_quarter
     }
     FilterChip(
         modifier = modifier.semantics {

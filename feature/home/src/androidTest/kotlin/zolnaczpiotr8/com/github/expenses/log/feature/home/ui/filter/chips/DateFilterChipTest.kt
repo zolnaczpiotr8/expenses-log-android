@@ -109,32 +109,6 @@ class DateFilterChipTest {
     }
 
     @Test
-    fun whenQuarterState_thenHasQuarterLabel() {
-        composeTestRule.setContent {
-            DateFilterChip(
-                filter = DateFilter.Quarter,
-            )
-        }
-
-        composeTestRule.onNodeWithText(
-            composeTestRule.activity.getString(R.string.date_filter_this_quarter),
-        ).assertIsDisplayed()
-    }
-
-    @Test
-    fun whenQuarterState_thenIsSelected() {
-        composeTestRule.setContent {
-            DateFilterChip(
-                filter = DateFilter.Quarter,
-            )
-        }
-
-        composeTestRule.onNodeWithText(
-            composeTestRule.activity.getString(R.string.date_filter_this_quarter),
-        ).assertIsSelected()
-    }
-
-    @Test
     fun whenCustomState_thenHasCustomLabel() {
         composeTestRule.setContent {
             DateFilterChip(

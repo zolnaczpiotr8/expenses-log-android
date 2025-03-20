@@ -3,8 +3,8 @@
 ./gradlew --init-script init.gradle.kts \
   wrapper --gradle-version latest \
   spotlessCheck \
-  lint
+  lint \
+  clean
 
 ./gradlew --init-script init.gradle.kts \
-  clean \
   connectedAndroidTest

@@ -3,6 +3,7 @@ package zolnaczpiotr8.com.github.expenses.log.core.database.dao
 import androidx.room.Dao
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
+import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.ExpenseCategoryTitle
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -18,9 +19,15 @@ interface ExpenseDao {
                category.title AS categoryTitle
         FROM expense,
              category ON expense.category_uuid = category.uuid
+        WHERE 
+            (expense.created >= :start) AND 
+            (expense.created <= :end)
     """,
     )
-    fun expenses(): Flow<List<ExpenseCategoryTitle>>
+    fun expenses(
+        start: Instant,
+        end: Instant,
+    ): Flow<List<ExpenseCategoryTitle>>
 
     @OptIn(ExperimentalUuidApi::class)
     @Query(

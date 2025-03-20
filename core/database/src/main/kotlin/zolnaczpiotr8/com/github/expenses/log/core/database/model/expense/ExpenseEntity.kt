@@ -6,6 +6,7 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryEntity
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -41,4 +42,5 @@ constructor(
         name = CATEGORY_UUID_COLUMN_NAME,
     )
     val categoryUuid: Uuid,
+    val created: Instant,
 )

@@ -32,7 +32,6 @@ internal fun DateFilterModalBottomSheet(
     state: DateFilterSheetState = rememberDateFilterSheetState(DateFilter.Month),
     onYearClicked: () -> Unit = {},
     onCustomClicked: () -> Unit = {},
-    onQuarterClicked: () -> Unit = {},
     onMonthClicked: () -> Unit = {},
     onAnyDateClicked: () -> Unit = {},
 ) {
@@ -127,41 +126,6 @@ internal fun DateFilterModalBottomSheet(
             )
             Text(
                 text = stringResource(R.string.date_filter_this_month),
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(
-                    horizontal = IncrementalPaddings.x4,
-                    vertical = IncrementalPaddings.x3,
-                ),
-            )
-        }
-
-        val isQuarterSelected = state.filter is DateFilter.Quarter
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .wrapContentHeight()
-                .selectable(
-                    selected = isQuarterSelected,
-                    onClick = {
-                        scope.launch {
-                            state.hide()
-                        }.invokeOnCompletion {
-                            onQuarterClicked()
-                        }
-                    },
-                    role = Role.RadioButton,
-                ),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            RadioButton(
-                modifier = Modifier.padding(
-                    start = IncrementalPaddings.x4,
-                ),
-                selected = isQuarterSelected,
-                onClick = null,
-            )
-            Text(
-                text = stringResource(R.string.date_filter_this_quarter),
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(
                     horizontal = IncrementalPaddings.x4,
