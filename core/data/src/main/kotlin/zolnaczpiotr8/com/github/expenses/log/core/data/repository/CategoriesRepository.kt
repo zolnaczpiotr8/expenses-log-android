@@ -32,7 +32,7 @@ class CategoriesRepository @Inject constructor(
         uuid: Uuid,
     ) {
         try {
-            categoryDao.delete(uuid)
+            categoryDao.delete(uuid.toHexString())
         } catch (cancellation: CancellationException) {
             throw cancellation
         } catch (throwable: Throwable) {
@@ -73,7 +73,7 @@ class CategoriesRepository @Inject constructor(
                         .entries
                         .map {
                             Category(
-                                uuid = it.key.uuid,
+                                uuid = Uuid.parseHex(it.key.uuid),
                                 title = it.key.title,
                                 totalAmount = CurrencyAmount(
                                     it.value

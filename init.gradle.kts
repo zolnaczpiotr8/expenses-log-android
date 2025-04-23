@@ -20,7 +20,6 @@ afterProject {
     extensions.findByType<JavaPluginExtension>()?.let {
         it.toolchain {
             languageVersion = JavaLanguageVersion.of(21)
-            vendor = JvmVendorSpec.ORACLE
         }
     }
 

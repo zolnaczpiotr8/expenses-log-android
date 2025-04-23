@@ -6,4 +6,6 @@ plugins {
 dependencies {
     compileOnly(libs.hilt.android.testing)
     compileOnly(projects.core.datastore)
+    compileOnly(projects.core.datastore.proto)
+    compileOnly(libs.androidx.datastore)
 }

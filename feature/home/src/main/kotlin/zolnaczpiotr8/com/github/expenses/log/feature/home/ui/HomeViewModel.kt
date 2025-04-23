@@ -55,15 +55,18 @@ class HomeViewModel @Inject constructor(
             initialValue = DateFilter.default,
         )
 
-    val isNotEmptyFilter: StateFlow<Boolean> = settingsRepository
+    val showEmptyCategoriesFilter: StateFlow<Boolean> = settingsRepository
         .settings
+        .map {
+            it.showEmptyCategories
+        }
         .combine(
             savedStateHandle.getStateFlow<Boolean?>(
                 key = SHOW_EMPTY_CATEGORIES_FILTER,
                 initialValue = null,
             ),
-        ) { settings, local ->
-            (local ?: settings.showEmptyCategories).not()
+        ) { global, local ->
+            local ?: global
         }.distinctUntilChanged()
         .stateIn(
             scope = viewModelScope,
@@ -87,7 +90,7 @@ class HomeViewModel @Inject constructor(
         )
     val categories: StateFlow<Categories> = categoriesRepository
         .categories(
-            isNotEmpty = isNotEmptyFilter.value,
+            isNotEmpty = showEmptyCategoriesFilter.value.not(),
             start = dateFilter.value.start,
             end = dateFilter.value.end,
         )
@@ -147,12 +150,12 @@ class HomeViewModel @Inject constructor(
         )
     }
 
-    fun onIsNotEmptyFilterClick(
-        isNotEmpty: Boolean,
+    fun onShowEmptyCategoriesFilterClick(
+        show: Boolean,
     ) {
         savedStateHandle.set(
             key = SHOW_EMPTY_CATEGORIES_FILTER,
-            value = isNotEmpty.not(),
+            value = show,
         )
     }
 

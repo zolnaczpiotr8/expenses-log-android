@@ -27,7 +27,7 @@ class ExpensesRepository @Inject constructor(
         uuid: Uuid,
     ) {
         try {
-            expenseDao.delete(uuid)
+            expenseDao.delete(uuid.toHexString())
         } catch (cancellation: CancellationException) {
             throw cancellation
         } catch (throwable: Throwable) {
@@ -56,7 +56,7 @@ class ExpensesRepository @Inject constructor(
                     Expense(
                         title = it.title,
                         categoryTitle = it.categoryTitle,
-                        uuid = it.uuid,
+                        uuid = Uuid.parseHex(it.uuid),
                         amount = CurrencyAmount(
                             it.amount,
                             settings.currency,

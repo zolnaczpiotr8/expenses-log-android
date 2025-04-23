@@ -2,29 +2,32 @@
 min-sdk = "26"
 compile-sdk = "35"
 target-sdk = "35"
-ndk = "27.1.12297006"
-android-gradle = "8.9.0"
-kotlin = "2.1.10"
+ndk = "29.0.13113456"
+android-gradle = "8.9.2"
+kotlin = "2.1.20"
 kotlinx-data-time = "0.6.2"
-kotlinx-serialization = "1.8.0"
+kotlinx-serialization = "1.8.1"
 kotlinx-collections-immutable = "0.3.8"
-androidx-compose-bom = "2025.03.00"
+androidx-compose-bom = "2025.04.01"
 androidx-navigation = "2.8.9"
 androidx-activity = "1.10.1"
-androidx-datastore = "1.1.3"
+androidx-datastore = "1.1.5"
 androidx-test-runner = "1.6.2"
 androidx-test-orchestrator = "1.5.1"
 androidx-splash-screen = "1.0.1"
-androidx-benchmark = "1.3.3"
+androidx-benchmark = "1.3.4"
 androidx-profileinstaller = "1.4.1"
 androidx-hilt = "1.2.0"
-hilt = "2.55"
-ksp = "2.1.10-1.0.30"
-room = "2.6.1"
-spotless = "7.0.2"
+firebase-bom = "33.12.0"
+hilt = "2.56.2"
+ksp = "2.1.20-2.0.0"
+room = "2.7.1"
+spotless = "7.0.3"
 git-hooks = "1.1.1"
-protobuf-plugin = "0.9.4"
-protobuf = "4.30.1"
+protobuf-plugin = "0.9.5"
+protobuf = "4.30.2"
+google-services = "4.4.2"
+firebase-crashlytics = "3.0.3"
 
 [libraries]
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
@@ -59,13 +62,19 @@ kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collec
 kotlin-serialization = { module = "org.jetbrains.kotlin.plugin.serialization:org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "kotlin" }
 ksp = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 protobuf-compiler = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
-protobuf-kotlin-lite = { module = "com.google.protobuf:protobuf-kotlin-lite", version.ref = "protobuf" }
+protobuf-java-lite = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+firebase-performance = { module = "com.google.firebase:firebase-perf" }
 
 [plugins]
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 git-hooks = { id = "eu.bambooapps.gradle.plugin.githook", version.ref = "git-hooks" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobuf-plugin" }
 room = { id = "androidx.room", version.ref = "room" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics" }
 androidx-baseline-profile = { id = "androidx.baselineprofile", version.ref = "androidx-benchmark" }
 expenses-log-android-library = { id = "expenses.log.android.library" }
 expenses-log-ksp-library = { id = "expenses.log.ksp.library" }
