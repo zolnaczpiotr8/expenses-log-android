@@ -25,7 +25,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.GoBackIconButton
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.Margins
-import zolnaczpiotr8.com.github.expenses.log.feature.settings.R
 import zolnaczpiotr8.com.github.expenses.log.core.ui.R as coreUiR
 
 @Composable
@@ -85,7 +84,7 @@ private fun SettingsScreen(
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    val label = stringResource(R.string.show_empty_categories_switch_label)
+                    val label = stringResource(coreUiR.string.show_empty_categories_label)
 
                     Text(
                         modifier = Modifier

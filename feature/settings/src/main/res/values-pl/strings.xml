@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="show_empty_categories_switch_label">Pokazuj puste kategorie</string>
 	<string name="settings_progress_bar_label">ładowanie ustawień</string>
 </resources>

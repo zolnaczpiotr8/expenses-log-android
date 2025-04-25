@@ -23,5 +23,5 @@ protobuf {
 }
 
 dependencies {
-    api(libs.protobuf.kotlin.lite)
+    api(libs.protobuf.java.lite)
 }

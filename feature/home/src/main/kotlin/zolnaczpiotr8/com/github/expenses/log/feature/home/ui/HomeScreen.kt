@@ -64,7 +64,7 @@ import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.category.CategoryCa
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.category.expenseCategoryCardWidth
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.delete.DeleteDialog
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.expense.ExpenseListItem
-import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.IsNotEmptyFilterChip
+import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.ShowEmptyCategoriesFilterChip
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilterChip
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilterModalBottomSheet
@@ -88,7 +88,7 @@ internal fun HomeScreen(
 ) {
     val dateFilter by viewModel.dateFilter
         .collectAsStateWithLifecycle()
-    val isNotEmptyFilter by viewModel.isNotEmptyFilter
+    val showEmptyCategoriesFilter by viewModel.showEmptyCategoriesFilter
         .collectAsStateWithLifecycle()
     val isLoading by viewModel.isLoading
         .collectAsStateWithLifecycle()
@@ -100,8 +100,8 @@ internal fun HomeScreen(
         dateFilter = dateFilter,
         onDateFilterClick = viewModel::onDateFilterClick,
         isLoading = isLoading,
-        isNotEmptyFilter = isNotEmptyFilter,
-        onIsNotEmptyFilterClick = viewModel::onIsNotEmptyFilterClick,
+        showEmptyCategoriesFilter = showEmptyCategoriesFilter,
+        onShowEmptyCategoriesFilterClick = viewModel::onShowEmptyCategoriesFilterClick,
         categories = categories,
         expenses = expenses,
         onCategoryDeleteClicked = viewModel::onCategoryDeleteClicked,
@@ -117,8 +117,8 @@ internal fun HomeScreen(
     dateFilter: DateFilter = DateFilter.default,
     onDateFilterClick: (DateFilter) -> Unit = {
     },
-    isNotEmptyFilter: Boolean = false,
-    onIsNotEmptyFilterClick: (Boolean) -> Unit = {
+    showEmptyCategoriesFilter: Boolean = false,
+    onShowEmptyCategoriesFilterClick: (Boolean) -> Unit = {
     },
     isLoading: Boolean = false,
     categories: Categories,
@@ -326,10 +326,10 @@ internal fun HomeScreen(
                         )
                     }
 
-                    IsNotEmptyFilterChip(
-                        isSelected = isNotEmptyFilter,
+                    ShowEmptyCategoriesFilterChip(
+                        isSelected = showEmptyCategoriesFilter,
                         onClick = {
-                            onIsNotEmptyFilterClick(isNotEmptyFilter.not())
+                            onShowEmptyCategoriesFilterClick(showEmptyCategoriesFilter.not())
                         },
                     )
                 }

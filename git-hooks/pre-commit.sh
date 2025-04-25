@@ -7,4 +7,4 @@
   clean
 
 ./gradlew --init-script init.gradle.kts \
-  connectedAndroidTest
+  connectedDebugAndroidTest

@@ -7,8 +7,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryEntity
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.ExpenseEntity
-import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @Dao
 interface CategoryDao {
@@ -28,7 +26,6 @@ interface CategoryDao {
         end: Instant,
     ): Flow<Map<CategoryEntity, List<ExpenseEntity>>>
 
-    @OptIn(ExperimentalUuidApi::class)
     @Transaction
     @Query(
         """
@@ -36,6 +33,6 @@ interface CategoryDao {
         """,
     )
     suspend fun delete(
-        uuid: Uuid,
+        uuid: String,
     )
 }

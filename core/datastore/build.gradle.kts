@@ -5,6 +5,6 @@ plugins {
 
 dependencies {
     api(projects.core.model)
-    api(projects.core.datastore.proto)
-    api(libs.androidx.datastore)
+    implementation(projects.core.datastore.proto)
+    implementation(libs.androidx.datastore)
 }

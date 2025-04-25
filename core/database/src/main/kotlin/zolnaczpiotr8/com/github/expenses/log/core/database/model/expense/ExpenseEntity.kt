@@ -8,8 +8,6 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryEntity
-import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
 
@@ -30,17 +28,14 @@ private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
         ),
     ],
 )
-data class ExpenseEntity
-@OptIn(ExperimentalUuidApi::class)
-constructor(
+data class ExpenseEntity(
     @PrimaryKey
-    @OptIn(ExperimentalUuidApi::class)
-    val uuid: Uuid,
+    val uuid: String,
     val title: String?,
     val amount: BigDecimal,
     @ColumnInfo(
         name = CATEGORY_UUID_COLUMN_NAME,
     )
-    val categoryUuid: Uuid,
+    val categoryUuid: String,
     val created: Instant,
 )

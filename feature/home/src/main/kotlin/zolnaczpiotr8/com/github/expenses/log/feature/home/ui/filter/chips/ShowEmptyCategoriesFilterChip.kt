@@ -10,12 +10,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import zolnaczpiotr8.com.github.expenses.log.feature.home.R
+import zolnaczpiotr8.com.github.expenses.log.core.ui.R
 
 @Composable
-internal fun IsNotEmptyFilterChip(
+internal fun ShowEmptyCategoriesFilterChip(
     modifier: Modifier = Modifier,
-    isSelected: Boolean = false,
+    isSelected: Boolean = true,
     onClick: () -> Unit = {
     },
 ) {
@@ -24,7 +24,7 @@ internal fun IsNotEmptyFilterChip(
         selected = isSelected,
         onClick = onClick,
         label = {
-            Text(stringResource(R.string.is_not_empty_filter_title))
+            Text(stringResource(R.string.show_empty_categories_label))
         },
         leadingIcon = {
             if (isSelected) {

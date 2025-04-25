@@ -1,0 +1,17 @@
+{
+    "client": [{
+        "client_info": {
+            "android_client_info": {"package_name": "zolnaczpiotr8.com.github.expenses.log"},
+            "mobilesdk_app_id": "1:449246281666:android:692f35f7c70532ce67a05b"
+        },
+        "api_key": [{"current_key": "AIzaSyBfCphGtd80neH8ztCxspdPrwJ0dy9AlVc"}],
+        "services": {"appinvite_service": {"other_platform_oauth_client": []}},
+        "oauth_client": []
+    }],
+    "configuration_version": "1",
+    "project_info": {
+        "storage_bucket": "expenses-log-1.firebasestorage.app",
+        "project_number": "449246281666",
+        "project_id": "expenses-log-1"
+    }
+}
