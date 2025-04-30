@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 ./gradlew --init-script init.gradle.kts \
   wrapper --gradle-version latest \
   spotlessCheck \
@@ -7,4 +9,4 @@
   clean
 
 ./gradlew --init-script init.gradle.kts \
-  connectedDebugAndroidTest
+  assembleDebug

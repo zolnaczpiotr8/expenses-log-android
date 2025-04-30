@@ -1,36 +1,52 @@
 package zolnaczpiotr8.com.github.expenses.log.core.database.dao
 
 import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import androidx.room.Transaction
 import kotlinx.coroutines.flow.Flow
-import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryEntity
-import zolnaczpiotr8.com.github.expenses.log.core.database.model.expense.ExpenseEntity
+import zolnaczpiotr8.com.github.expenses.log.core.database.model.category.CategoryTotalEntity
 
 @Dao
 interface CategoryDao {
 
     @Query(
         """
-        SELECT *
-        FROM category 
-        LEFT JOIN expense
-        ON expense.category_uuid = category.uuid 
-        WHERE (expense.created >= :start) 
-            AND (expense.created <= :end)
+        SELECT title
+        FROM category
+        ORDER BY title
     """,
     )
-    fun categories(
-        start: Instant,
-        end: Instant,
-    ): Flow<Map<CategoryEntity, List<ExpenseEntity>>>
+    fun categoriesTitles(): Flow<List<String>>
 
-    @Transaction
     @Query(
         """
-            DELETE from category WHERE uuid = :uuid
-        """,
+        SELECT category.uuid AS uuid,
+        category.title AS title,
+        SUM(ifnull(expense.amount,0)) AS total_amount
+        FROM category 
+        JOIN date_filter_time_stamp
+        LEFT JOIN expense
+        ON expense.category_uuid = category.uuid
+        AND CAST(expense.created/1000 AS INT) BETWEEN 
+            date_filter_time_stamp.start AND 
+            date_filter_time_stamp.finish
+        LEFT JOIN show_empty_categories
+        GROUP BY category.uuid, category.title
+        HAVING SUM(ifnull(expense.amount,0)) + MIN(ifnull(show_empty_categories.value, 0)) > 0
+        ORDER BY category.title
+    """,
+    )
+    fun categories(): Flow<List<CategoryTotalEntity>>
+
+    @Insert(
+        onConflict = OnConflictStrategy.IGNORE,
+    )
+    suspend fun insert(entity: CategoryEntity)
+
+    @Query(
+        "DELETE from category WHERE uuid = :uuid",
     )
     suspend fun delete(
         uuid: String,

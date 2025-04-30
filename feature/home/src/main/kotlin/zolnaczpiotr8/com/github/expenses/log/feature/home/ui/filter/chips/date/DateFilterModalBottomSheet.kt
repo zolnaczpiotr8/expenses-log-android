@@ -22,12 +22,13 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.selectableGroup
 import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
+import zolnaczpiotr8.com.github.expenses.log.core.model.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.feature.home.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun DateFilterModalBottomSheet(
+fun DateFilterModalBottomSheet(
     modifier: Modifier = Modifier,
     state: DateFilterSheetState = rememberDateFilterSheetState(DateFilter.Month),
     onYearClicked: () -> Unit = {},
@@ -50,8 +51,6 @@ internal fun DateFilterModalBottomSheet(
             }
         },
         sheetState = state.internalSheetState,
-        dragHandle = {
-        },
     ) {
         Text(
             modifier = Modifier
@@ -64,7 +63,7 @@ internal fun DateFilterModalBottomSheet(
             text = stringResource(R.string.date_filter_title),
             style = MaterialTheme.typography.titleMedium,
         )
-        val anySelected = state.filter is DateFilter.AnyDate
+        val anySelected = state.filter is DateFilter.Any
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -195,7 +194,11 @@ internal fun DateFilterModalBottomSheet(
                 onClick = null,
             )
             Text(
-                text = stringResource(R.string.date_filter_custom),
+                text = if (isCustomSelected) {
+                    state.filter.toString()
+                } else {
+                    stringResource(R.string.date_filter_custom)
+                },
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(
                     horizontal = IncrementalPaddings.x4,
@@ -208,7 +211,7 @@ internal fun DateFilterModalBottomSheet(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun rememberDateFilterSheetState(
+fun rememberDateFilterSheetState(
     filter: DateFilter = DateFilter.Month,
 ): DateFilterSheetState {
     val internalSheetState = rememberModalBottomSheetState()
@@ -220,7 +223,7 @@ internal fun rememberDateFilterSheetState(
     }
 }
 
-internal class DateFilterSheetState
+class DateFilterSheetState
 @OptIn(ExperimentalMaterial3Api::class)
 constructor(
     val internalSheetState: SheetState,

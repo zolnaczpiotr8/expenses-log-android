@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="settings_progress_bar_label">settings loading</string>
+	<string name="currency_label">Currency</string>
+	<string name="currency_code_label">Currency code</string>
+	<string name="currency_code_item_label">currency code: %s</string>
+	<string name="settings_updated_message">Settings updated</string>
+	<string name="show_available_currencies_action_label">show available currencies</string>
 </resources>

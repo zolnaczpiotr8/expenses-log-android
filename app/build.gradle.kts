@@ -42,6 +42,7 @@ dependencies {
 
     implementation(projects.feature.home)
     implementation(projects.feature.expense)
+    implementation(projects.feature.category)
     implementation(projects.feature.settings)
     implementation(projects.core.ui)
 

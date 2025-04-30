@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string name="save_error_message">Unable to save due to invalid input</string>
+	<string name="clear_action_label">Clear</string>
+	<string name="title_label">Title</string>
+	<string name="required_text_field_error_label">This field can not be empty</string>
+	<string name="save_action_label">Save</string>
+	<string name="choose_action_label">Choose</string>
 	<string name="application_label">Expenses Log</string>
 	<string name="new_expense">New expense</string>
+	<string name="new_category">New category</string>
 	<string name="settings">Settings</string>
 	<string name="go_back_button_description">Go back</string>
 	<string name="menu_label">Menu</string>
 	<string name="show_empty_categories_label">Show empty categories</string>
+	<string name="character_counter_text" translatable="false">%d/%d</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Character count: %d. The limit of characters: %d</string>
 </resources>

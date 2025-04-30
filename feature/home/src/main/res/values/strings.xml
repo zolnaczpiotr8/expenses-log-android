@@ -4,22 +4,21 @@
 	<string name="add_action_label">add</string>
 	<string name="navigate_action_label">navigate</string>
 	<string name="total_amount_title">Total amount</string>
+	<string name="expenses_title">Expenses</string>
 	<string name="expenses_categories_title">Expenses categories</string>
 	<string name="show_expenses_action_label">Show expenses</string>
 	<string name="hide_expenses_action_label">Hide expenses</string>
 	<string name="new_category_menu_item_headline">New category</string>
-	<string name="edit_action_label">Edit</string>
 	<string name="delete_action_label">Delete</string>
-	<string name="details_action_label">See details</string>
 	<string name="delete_dialog_title">Permanently delete?</string>
 	<string name="confirm_action_label">OK</string>
 	<string name="cancel_action_label">Cancel</string>
 	<string name="delete_expense_category_text">Deleting the category will also remove all expenses
 		belonging to it.</string>
 	<string name="delete_expense_text">The expense will be deleted permanently.</string>
-	<string name="expenses_and_categories_progress_bar_label">expenses and categories loading</string>
 	<string name="no_expenses_title">No expenses</string>
 	<string name="filters_title">Filters</string>
+	<string name="show_all_filter">Show all filters</string>
 	<string name="date_filter_title">Date</string>
 	<string name="date_filter_custom">Custom date</string>
 	<string name="date_filter_this_month">This month</string>

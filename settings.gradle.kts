@@ -13,5 +13,6 @@ include(
     ":core:datastore:test-doubles",
     ":feature:home",
     ":feature:expense",
+    ":feature:category",
     ":feature:settings",
 )

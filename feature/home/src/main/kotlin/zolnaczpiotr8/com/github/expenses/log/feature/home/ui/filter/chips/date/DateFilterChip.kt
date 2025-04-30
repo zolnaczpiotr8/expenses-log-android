@@ -14,21 +14,22 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
+import zolnaczpiotr8.com.github.expenses.log.core.model.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.feature.home.R
 
 @Composable
-internal fun DateFilterChip(
+fun DateFilterChip(
     modifier: Modifier = Modifier,
     filter: DateFilter = DateFilter.Month,
     onClick: () -> Unit = {
     },
 ) {
-    val isSelected = filter != DateFilter.AnyDate
-    val labelResource = when (filter) {
-        is DateFilter.AnyDate -> R.string.date_filter_title
-        is DateFilter.Month -> R.string.date_filter_this_month
-        is DateFilter.Custom -> R.string.date_filter_custom
-        is DateFilter.Year -> R.string.date_filter_this_year
+    val isSelected = filter != DateFilter.Any
+    val label = when (filter) {
+        is DateFilter.Any -> stringResource(R.string.date_filter_title)
+        is DateFilter.Month -> stringResource(R.string.date_filter_this_month)
+        is DateFilter.Custom -> filter.toString()
+        is DateFilter.Year -> stringResource(R.string.date_filter_this_year)
     }
     FilterChip(
         modifier = modifier.semantics {
@@ -37,7 +38,10 @@ internal fun DateFilterChip(
         selected = isSelected,
         onClick = onClick,
         label = {
-            Text(stringResource(labelResource))
+            Text(
+                text = label,
+                maxLines = 1,
+            )
         },
         leadingIcon = {
             if (isSelected) {

@@ -2,26 +2,26 @@ package dependencies
 
 import org.gradle.api.artifacts.dsl.DependencyHandler
 
-internal fun DependencyHandler.implementation(dependencyNotation: Any) {
+fun DependencyHandler.implementation(dependencyNotation: Any) {
     add("implementation", dependencyNotation)
 }
 
-internal fun DependencyHandler.ksp(dependencyNotation: Any) {
+fun DependencyHandler.ksp(dependencyNotation: Any) {
     add("ksp", dependencyNotation)
 }
 
-internal fun DependencyHandler.kspAndroidTest(dependencyNotation: Any) {
+fun DependencyHandler.kspAndroidTest(dependencyNotation: Any) {
     add("kspAndroidTest", dependencyNotation)
 }
 
-internal fun DependencyHandler.androidTestImplementation(dependencyNotation: Any) {
+fun DependencyHandler.androidTestImplementation(dependencyNotation: Any) {
     add("androidTestImplementation", dependencyNotation)
 }
 
-internal fun DependencyHandler.debugImplementation(dependencyNotation: Any) {
+fun DependencyHandler.debugImplementation(dependencyNotation: Any) {
     add("debugImplementation", dependencyNotation)
 }
 
-internal fun DependencyHandler.androidTestUtil(dependencyNotation: Any) {
+fun DependencyHandler.androidTestUtil(dependencyNotation: Any) {
     add("androidTestUtil", dependencyNotation)
 }

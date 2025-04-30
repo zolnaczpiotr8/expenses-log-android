@@ -13,7 +13,7 @@ import androidx.compose.ui.res.stringResource
 import zolnaczpiotr8.com.github.expenses.log.core.ui.R
 
 @Composable
-internal fun ShowEmptyCategoriesFilterChip(
+fun ShowEmptyCategoriesFilterChip(
     modifier: Modifier = Modifier,
     isSelected: Boolean = true,
     onClick: () -> Unit = {
@@ -24,7 +24,10 @@ internal fun ShowEmptyCategoriesFilterChip(
         selected = isSelected,
         onClick = onClick,
         label = {
-            Text(stringResource(R.string.show_empty_categories_label))
+            Text(
+                text = stringResource(R.string.show_empty_categories_label),
+                maxLines = 1,
+            )
         },
         leadingIcon = {
             if (isSelected) {

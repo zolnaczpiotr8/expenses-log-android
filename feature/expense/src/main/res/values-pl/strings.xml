@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="clear_button_description">Wyczyść</string>
+	<string name="amount_label">Kwota</string>
+	<string name="invalid_format_error">Nieprawidłowy format</string>
+	<string name="category_label">Kategoria</string>
+	<string name="show_categories_action_label">Pokaż kategorie</string>
+	<string name="expense_created_message">Wydatek został stworzony</string>
 </resources>

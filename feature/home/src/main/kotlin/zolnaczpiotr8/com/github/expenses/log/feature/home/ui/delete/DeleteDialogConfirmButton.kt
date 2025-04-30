@@ -7,7 +7,7 @@ import androidx.compose.ui.res.stringResource
 import zolnaczpiotr8.com.github.expenses.log.feature.home.R
 
 @Composable
-internal fun DeleteDialogConfirmButton(
+fun DeleteDialogConfirmButton(
     onClick: () -> Unit = {
     },
 ) {

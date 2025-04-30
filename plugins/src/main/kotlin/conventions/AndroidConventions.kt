@@ -15,7 +15,7 @@ import org.gradle.kotlin.dsl.dependencies
 import java.io.File
 import java.util.Locale
 
-internal fun Project.configureAndroid() {
+fun Project.configureAndroid() {
     configureResources()
     configureInstrumentationTests()
     configureLint()

@@ -5,6 +5,8 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.theme.ExpensesLogTheme
+import zolnaczpiotr8.com.github.expenses.log.feature.expense.category.ui.navigateToNewCategory
+import zolnaczpiotr8.com.github.expenses.log.feature.expense.category.ui.newCategoryDestination
 import zolnaczpiotr8.com.github.expenses.log.feature.expense.ui.navigateToNewExpense
 import zolnaczpiotr8.com.github.expenses.log.feature.expense.ui.newExpenseDestination
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.Home
@@ -13,7 +15,7 @@ import zolnaczpiotr8.com.github.expenses.log.feature.settings.ui.navigateToSetti
 import zolnaczpiotr8.com.github.expenses.log.feature.settings.ui.settingsDestination
 
 @Composable
-internal fun ExpensesLogUi() {
+fun ExpensesLogUi() {
     ExpensesLogTheme {
         val navController = rememberNavController()
         NavHost(
@@ -23,6 +25,10 @@ internal fun ExpensesLogUi() {
             homeDestination(
                 onNewExpenseClick = navController::navigateToNewExpense,
                 onSettingsClick = navController::navigateToSettings,
+                onNewCategoryClick = navController::navigateToNewCategory,
+            )
+            newCategoryDestination(
+                onGoBackClick = navController::popBackStack,
             )
             newExpenseDestination(
                 onGoBackClick = navController::popBackStack,

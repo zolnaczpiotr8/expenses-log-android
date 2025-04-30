@@ -18,22 +18,9 @@ class SettingsDataSource @Inject constructor(
 
     private fun toSettings(
         settings: SettingsProto,
-    ): Settings = with(settings) {
-        Settings(
-            showEmptyCategories = showEmptyCategories,
-            currencyCode = currencyCode,
-        )
-    }
-
-    suspend fun setShowEmptyCategories(
-        show: Boolean,
-    ) {
-        tryToUpdateData {
-            it.toBuilder()
-                .setShowEmptyCategories(show)
-                .build()
-        }
-    }
+    ): Settings = Settings(
+        currencyCode = settings.currencyCode,
+    )
 
     suspend fun setCurrencyCode(
         code: String,
