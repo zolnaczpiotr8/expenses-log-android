@@ -18,16 +18,13 @@ import androidx.compose.ui.semantics.collectionItemInfo
 import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
-import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.DeleteListItem
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.NewExpenseListItem
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun CategoryMenuModalBottomSheet(
+fun CategoryMenuModalBottomSheet(
     state: CategoryMenuSheetState = rememberCategoryMenuSheetState(),
     onNewExpenseClick: () -> Unit = {
-    },
-    onEditClick: () -> Unit = {
     },
     onDeleteClick: () -> Unit = {
     },
@@ -39,7 +36,7 @@ internal fun CategoryMenuModalBottomSheet(
     ModalBottomSheet(
         modifier = Modifier.semantics {
             collectionInfo = CollectionInfo(
-                rowCount = 3,
+                rowCount = 2,
                 columnCount = 1,
             )
         },
@@ -49,8 +46,6 @@ internal fun CategoryMenuModalBottomSheet(
             }
         },
         sheetState = state.internalSheetState,
-        dragHandle = {
-        },
     ) {
         Text(
             modifier = Modifier
@@ -61,7 +56,7 @@ internal fun CategoryMenuModalBottomSheet(
                     vertical = IncrementalPaddings.x3,
                 ),
             text = state.title,
-            style = MaterialTheme.typography.titleMedium,
+            style = MaterialTheme.typography.titleLarge,
         )
         NewExpenseListItem(
             modifier = Modifier.semantics {
@@ -77,22 +72,6 @@ internal fun CategoryMenuModalBottomSheet(
                 state.hide()
             }.invokeOnCompletion {
                 onNewExpenseClick()
-            }
-        }
-        EditListItem(
-            modifier = Modifier.semantics {
-                collectionItemInfo = CollectionItemInfo(
-                    rowIndex = 1,
-                    columnIndex = 0,
-                    columnSpan = 1,
-                    rowSpan = 1,
-                )
-            },
-        ) {
-            scope.launch {
-                state.hide()
-            }.invokeOnCompletion {
-                onEditClick()
             }
         }
         DeleteListItem(
@@ -116,7 +95,7 @@ internal fun CategoryMenuModalBottomSheet(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun rememberCategoryMenuSheetState(
+fun rememberCategoryMenuSheetState(
     title: String = "",
 ): CategoryMenuSheetState {
     val internalSheetState = rememberModalBottomSheetState()
@@ -128,7 +107,7 @@ internal fun rememberCategoryMenuSheetState(
     }
 }
 
-internal class CategoryMenuSheetState
+class CategoryMenuSheetState
 @OptIn(ExperimentalMaterial3Api::class)
 constructor(
     val internalSheetState: SheetState,

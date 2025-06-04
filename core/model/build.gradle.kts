@@ -3,5 +3,6 @@ plugins {
 }
 
 dependencies {
+    api(libs.kotlinx.date.time)
     api(libs.kotlinx.collections.immutable)
 }

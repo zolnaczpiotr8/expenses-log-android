@@ -8,7 +8,9 @@ import kotlinx.serialization.Serializable
 data object Home
 
 fun NavGraphBuilder.homeDestination(
-    onNewExpenseClick: () -> Unit = {
+    onNewExpenseClick: (String?) -> Unit = {
+    },
+    onNewCategoryClick: () -> Unit = {
     },
     onSettingsClick: () -> Unit = {
     },
@@ -16,6 +18,7 @@ fun NavGraphBuilder.homeDestination(
     composable<Home> {
         HomeScreen(
             onNewExpenseClick = onNewExpenseClick,
+            onNewCategoryClick = onNewCategoryClick,
             onSettingsClick = onSettingsClick,
         )
     }

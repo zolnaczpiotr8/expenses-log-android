@@ -3,7 +3,7 @@ package zolnaczpiotr8.com.github.expenses.log.core.database.converters
 import androidx.room.TypeConverter
 import kotlinx.datetime.Instant
 
-internal class InstantConverter {
+class InstantConverter {
 
     @TypeConverter
     fun toInstant(

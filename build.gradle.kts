@@ -1,6 +1,4 @@
 import com.diffplug.spotless.extra.wtp.EclipseWtpFormatterStep
-import com.diffplug.spotless.protobuf.BufStep
-import com.diffplug.spotless.shell.ShfmtStep
 import java.nio.file.Files
 import kotlin.io.path.Path
 
@@ -36,26 +34,5 @@ spotless {
         target("**/*.xml")
         targetExclude(*ignoredFiles)
         eclipseWtp(EclipseWtpFormatterStep.XML)
-    }
-    json {
-        target("**/*.json")
-        targetExclude(*ignoredFiles)
-        simple()
-    }
-    shell {
-        target("**/*.sh")
-        targetExclude(*ignoredFiles)
-        suppressLintsFor {
-            step = ShfmtStep.name()
-        }
-        shfmt("v3.5.1")
-    }
-    protobuf {
-        target("**/*.proto")
-        targetExclude(*ignoredFiles)
-        suppressLintsFor {
-            step = BufStep.name()
-        }
-        buf("1.47.2")
     }
 }

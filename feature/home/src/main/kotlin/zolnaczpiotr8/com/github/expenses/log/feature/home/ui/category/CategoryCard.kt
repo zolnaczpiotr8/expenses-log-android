@@ -17,10 +17,10 @@ import zolnaczpiotr8.com.github.expenses.log.core.model.Category
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.MenuIconButton
 
-internal val expenseCategoryCardWidth = 150.dp
+val expenseCategoryCardWidth = 150.dp
 
 @Composable
-internal fun CategoryCard(
+fun CategoryCard(
     modifier: Modifier = Modifier,
     category: Category,
     onMenuClick: () -> Unit,

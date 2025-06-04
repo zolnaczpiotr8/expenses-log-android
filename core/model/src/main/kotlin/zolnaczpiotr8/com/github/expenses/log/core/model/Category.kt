@@ -7,10 +7,8 @@ import java.util.Locale
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
-data class Category
-@OptIn(ExperimentalUuidApi::class)
-constructor(
-    val uuid: Uuid,
+data class Category(
+    val uuid: String,
     val title: String,
     val totalAmount: CurrencyAmount,
 ) {
@@ -18,7 +16,7 @@ constructor(
     companion object {
         @OptIn(ExperimentalUuidApi::class)
         val FOOD = Category(
-            uuid = Uuid.random(),
+            uuid = Uuid.random().toHexString(),
             title = "Food",
             totalAmount = CurrencyAmount(
                 BigInteger.TEN,

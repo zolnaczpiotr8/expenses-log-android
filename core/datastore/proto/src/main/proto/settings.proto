@@ -5,5 +5,4 @@ option java_package = "zolnaczpiotr8.com.github.expenses.log.core.datastore";
 
 message SettingsProto {
   string currency_code = 1;
-  bool show_empty_categories = 2;
 }

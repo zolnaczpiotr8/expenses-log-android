@@ -6,7 +6,7 @@ import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -16,7 +16,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan
@@ -24,6 +24,7 @@ import androidx.compose.foundation.lazy.staggeredgrid.items
 import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBarDefaults
@@ -51,85 +52,84 @@ import androidx.compose.ui.unit.Dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.ImmutableList
-import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.core.model.Categories
 import zolnaczpiotr8.com.github.expenses.log.core.model.Category
+import zolnaczpiotr8.com.github.expenses.log.core.model.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.core.model.Expense
-import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.components.IndeterminateLinearIndicator
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.core.ui.material.design3.spacing.Margins
 import zolnaczpiotr8.com.github.expenses.log.feature.home.R
+import zolnaczpiotr8.com.github.expenses.log.feature.home.model.ExpenseItem
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.category.CategoryCard
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.category.expenseCategoryCardWidth
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.delete.DeleteDialog
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.expense.ExpenseListItem
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.ShowEmptyCategoriesFilterChip
-import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilterChip
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilterModalBottomSheet
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.DateFilterPickerDialog
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.filter.chips.date.rememberDateFilterSheetState
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.category.CategoryMenuModalBottomSheet
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.category.rememberCategoryMenuSheetState
-import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.expense.ExpenseMenuModalBottomSheet
-import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.expense.rememberExpenseMenuSheetState
 import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.main.MainMenuModalBottomSheet
-import kotlin.uuid.ExperimentalUuidApi
 import zolnaczpiotr8.com.github.expenses.log.core.ui.R as coreUiR
 
+private const val HEADER_CONTENT_TYPE = 1
+
 @Composable
-internal fun HomeScreen(
+fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel(),
-    onNewExpenseClick: () -> Unit = {
+    onNewCategoryClick: () -> Unit = {
+    },
+    onNewExpenseClick: (String?) -> Unit = {
     },
     onSettingsClick: () -> Unit = {
     },
 ) {
-    val dateFilter by viewModel.dateFilter
+    val categories by viewModel.categories
         .collectAsStateWithLifecycle()
     val showEmptyCategoriesFilter by viewModel.showEmptyCategoriesFilter
         .collectAsStateWithLifecycle()
-    val isLoading by viewModel.isLoading
+    val dateFilter by viewModel.dateFilter
         .collectAsStateWithLifecycle()
     val expenses by viewModel.expenses
         .collectAsStateWithLifecycle()
-    val categories by viewModel.categories
-        .collectAsStateWithLifecycle()
     HomeScreen(
-        dateFilter = dateFilter,
         onDateFilterClick = viewModel::onDateFilterClick,
-        isLoading = isLoading,
         showEmptyCategoriesFilter = showEmptyCategoriesFilter,
+        dateFilter = dateFilter,
         onShowEmptyCategoriesFilterClick = viewModel::onShowEmptyCategoriesFilterClick,
         categories = categories,
         expenses = expenses,
         onCategoryDeleteClicked = viewModel::onCategoryDeleteClicked,
         onExpenseDeleteClicked = viewModel::onExpenseDeleteClicked,
-        onNewExpenseClicked = onNewExpenseClick,
-        onSettingsClicked = onSettingsClick,
+        onNewCategoryClick = onNewCategoryClick,
+        onNewExpenseClick = onNewExpenseClick,
+        onSettingsClick = onSettingsClick,
     )
 }
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalUuidApi::class)
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun HomeScreen(
-    dateFilter: DateFilter = DateFilter.default,
+fun HomeScreen(
+    dateFilter: DateFilter = DateFilter.Any,
     onDateFilterClick: (DateFilter) -> Unit = {
     },
     showEmptyCategoriesFilter: Boolean = false,
     onShowEmptyCategoriesFilterClick: (Boolean) -> Unit = {
     },
-    isLoading: Boolean = false,
     categories: Categories,
-    expenses: ImmutableList<Expense> = persistentListOf(),
-    onExpenseDeleteClicked: (Expense) -> Unit = {
+    expenses: ImmutableList<ExpenseItem>,
+    onExpenseDeleteClicked: (String) -> Unit = {
     },
     onCategoryDeleteClicked: (Category) -> Unit = {
     },
-    onNewExpenseClicked: () -> Unit = {
+    onNewCategoryClick: () -> Unit = {
     },
-    onSettingsClicked: () -> Unit = {
+    onNewExpenseClick: (String?) -> Unit = {
+    },
+    onSettingsClick: () -> Unit = {
     },
 ) {
     val scrollBehavior =
@@ -138,72 +138,106 @@ internal fun HomeScreen(
     val scope = rememberCoroutineScope()
     BottomSheetScaffold(
         scaffoldState = scaffoldState,
-        modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+        modifier = Modifier
+            .nestedScroll(scrollBehavior.nestedScrollConnection),
         sheetContent = {
+            AnimatedVisibility(expenses.isNotEmpty()) {
+                Text(
+                    modifier = Modifier
+                        .semantics {
+                            heading()
+                        }
+                        .padding(
+                            start = IncrementalPaddings.x4,
+                        )
+                        .padding(
+                            vertical = IncrementalPaddings.x3,
+                        ),
+                    text = stringResource(R.string.expenses_title),
+                    style = MaterialTheme.typography.titleLarge,
+                )
+            }
             LazyColumn(
                 verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
-                modifier = Modifier
-                    .semantics {
-                        collectionInfo = CollectionInfo(
-                            rowCount = expenses.size,
-                            columnCount = 1,
-                        )
-                    },
+                modifier = Modifier.semantics {
+                    collectionInfo = CollectionInfo(
+                        rowCount = expenses.size,
+                        columnCount = 1,
+                    )
+                },
             ) {
-                itemsIndexed(
-                    items = expenses,
-                    key = { _, expense ->
-                        expense.uuid.toHexString()
-                    },
-                ) { index, expense ->
-                    val menuState = rememberExpenseMenuSheetState(expense.title)
-                    ExpenseListItem(
-                        modifier = Modifier.semantics {
-                            collectionItemInfo = CollectionItemInfo(
-                                rowIndex = index,
-                                rowSpan = 1,
-                                columnSpan = 1,
-                                columnIndex = 0,
-                            )
-                        },
-                        expense = expense,
-                        onMenuClick = {
-                            scope.launch {
-                                menuState.show()
+                expenses.forEachIndexed { index, expenseItem ->
+                    when (expenseItem) {
+                        is ExpenseItem.Header -> stickyHeader(
+                            contentType = expenseItem.contentType,
+                            key = expenseItem.date.toString(),
+                            content = {
+                                ListItem(
+                                    modifier = Modifier
+                                        .semantics {
+                                            heading()
+                                            collectionItemInfo = CollectionItemInfo(
+                                                rowSpan = 1,
+                                                columnSpan = 1,
+                                                columnIndex = 1,
+                                                rowIndex = index,
+                                            )
+                                        }
+                                        .animateItem(),
+                                    headlineContent = {
+                                        Text(expenseItem.date.toString())
+                                    },
+                                )
+                            },
+                        )
+                        is ExpenseItem.Expense -> item(
+                            contentType = expenseItem.contentType,
+                            key = expenseItem.uuid,
+                        ) {
+                            val dialogVisibilityState = rememberSaveable {
+                                mutableStateOf(false)
                             }
-                        },
-                    )
 
-                    var isDeleteDialogVisible by rememberSaveable {
-                        mutableStateOf(false)
+                            ExpenseListItem(
+                                modifier = Modifier
+                                    .semantics {
+                                        collectionItemInfo = CollectionItemInfo(
+                                            rowSpan = 1,
+                                            columnSpan = 1,
+                                            columnIndex = 1,
+                                            rowIndex = index,
+                                        )
+                                    }
+                                    .animateItem(),
+                                expense = expenseItem,
+                                onDeleteClick = {
+                                    dialogVisibilityState.value = true
+                                    true
+                                },
+                            )
+
+                            DeleteDialog(
+                                isVisible = dialogVisibilityState.value,
+                                onHide = {
+                                    dialogVisibilityState.value = false
+                                },
+                                text = stringResource(R.string.delete_expense_text),
+                                onDeleteClick = {
+                                    onExpenseDeleteClicked(expenseItem.uuid)
+                                },
+                            )
+                        }
                     }
-                    ExpenseMenuModalBottomSheet(
-                        state = menuState,
-                        onEditClick = {
-                        },
-                        onDeleteClick = {
-                            isDeleteDialogVisible = true
-                        },
-                    )
-
-                    DeleteDialog(
-                        isVisible = isDeleteDialogVisible,
-                        onHide = {
-                            isDeleteDialogVisible = false
-                        },
-                        text = stringResource(R.string.delete_expense_text),
-                        onDeleteClick = {
-                            onExpenseDeleteClicked(expense)
-                        },
-                    )
                 }
 
                 item {
-                    Spacer(
-                        Modifier
-                            .windowInsetsBottomHeight(WindowInsets.systemBars)
-                            .animateContentSize(),
-                    )
+                    AnimatedVisibility(expenses.isNotEmpty()) {
+                        Spacer(
+                            Modifier
+                                .windowInsetsBottomHeight(WindowInsets.systemBars)
+                                .animateContentSize(),
+                        )
+                    }
                 }
             }
         },
@@ -229,21 +263,16 @@ internal fun HomeScreen(
 
                     MainMenuModalBottomSheet(
                         state = sheetState,
-                        onNewExpenseClick = onNewExpenseClicked,
-                        expensesVisible = scaffoldState.bottomSheetState.hasExpandedState and categories.isNotEmpty(),
+                        onNewCategoryClick = onNewCategoryClick,
+                        onNewExpenseClick = {
+                            onNewExpenseClick(null)
+                        },
                         onShowExpensesClick = {
                             scope.launch {
                                 scaffoldState.bottomSheetState.expand()
                             }
                         },
-                        onHideExpensesClick = {
-                            scope.launch {
-                                scaffoldState.bottomSheetState.partialExpand()
-                            }
-                        },
-                        onNewCategoryClick = {
-                        },
-                        onSettingsClick = onSettingsClicked,
+                        onSettingsClick = onSettingsClick,
                     )
                 },
                 scrollBehavior = scrollBehavior,
@@ -254,16 +283,9 @@ internal fun HomeScreen(
             Modifier
                 .fillMaxHeight(),
         ) {
-            AnimatedVisibility(isLoading) {
-                IndeterminateLinearIndicator(
-                    stringResource(R.string.expenses_and_categories_progress_bar_label),
-                )
-            }
-            Spacer(Modifier.height(IncrementalPaddings.x1))
             Column(
                 Modifier
-                    .padding(Margins.compact)
-                    .fillMaxHeight(),
+                    .padding(Margins.compact),
                 verticalArrangement = Arrangement.spacedBy(
                     IncrementalPaddings.x1,
                 ),
@@ -275,7 +297,7 @@ internal fun HomeScreen(
                     text = stringResource(R.string.filters_title),
                     style = MaterialTheme.typography.titleMedium,
                 )
-                Row(
+                FlowRow(
                     horizontalArrangement = Arrangement.spacedBy(
                         IncrementalPaddings.x1,
                     ),
@@ -290,7 +312,7 @@ internal fun HomeScreen(
                         },
                     )
 
-                    var datePickerDialogVisible by rememberSaveable {
+                    val datePickerVisibilityState = rememberSaveable {
                         mutableStateOf(false)
                     }
 
@@ -300,28 +322,25 @@ internal fun HomeScreen(
                             onDateFilterClick(DateFilter.Year)
                         },
                         onAnyDateClicked = {
-                            onDateFilterClick(DateFilter.AnyDate)
+                            onDateFilterClick(DateFilter.Any)
                         },
                         onMonthClicked = {
                             onDateFilterClick(DateFilter.Month)
                         },
                         onCustomClicked = {
-                            datePickerDialogVisible = true
+                            datePickerVisibilityState.value = true
                         },
                     )
 
-                    if (datePickerDialogVisible) {
+                    if (datePickerVisibilityState.value) {
                         DateFilterPickerDialog(
-                            initial = dateFilter
-                                .takeUnless {
-                                    it is DateFilter.AnyDate
-                                },
+                            initial = dateFilter as? DateFilter.Custom,
                             onDismiss = {
-                                datePickerDialogVisible = false
+                                datePickerVisibilityState.value = false
                             },
                             onPicked = {
                                 onDateFilterClick(it)
-                                datePickerDialogVisible = false
+                                datePickerVisibilityState.value = false
                             },
                         )
                     }
@@ -344,6 +363,7 @@ internal fun HomeScreen(
                             onCategoryDeleteClicked = onCategoryDeleteClicked,
                             categories = categories,
                             bottomPadding = paddingValues.calculateBottomPadding(),
+                            onNewExpenseClick = onNewExpenseClick,
                         )
                     }
                 }
@@ -369,13 +389,14 @@ private fun NoExpenses(
     }
 }
 
-@OptIn(ExperimentalUuidApi::class)
 @Composable
 private fun Categories(
     modifier: Modifier = Modifier,
     bottomPadding: Dp,
     categories: Categories,
     onCategoryDeleteClicked: (Category) -> Unit = {
+    },
+    onNewExpenseClick: (String?) -> Unit = {
     },
 ) {
     val scope = rememberCoroutineScope()
@@ -414,14 +435,18 @@ private fun Categories(
             span = StaggeredGridItemSpan.FullLine,
         ) {
             Text(
+                modifier = Modifier.semantics {
+                    heading()
+                },
                 text = stringResource(R.string.expenses_categories_title),
                 style = MaterialTheme.typography.titleMedium,
             )
         }
         items(
-            items = categories.categories,
+            items = categories
+                .categories,
             key = { category ->
-                category.uuid.toHexString()
+                category.uuid
             },
         ) { category ->
             val menuState = rememberCategoryMenuSheetState(category.title)
@@ -435,24 +460,23 @@ private fun Categories(
                 },
             )
 
-            var isDeleteDialogVisible by rememberSaveable {
+            val deleteDialogVisibility = rememberSaveable {
                 mutableStateOf(false)
             }
             CategoryMenuModalBottomSheet(
                 state = menuState,
                 onNewExpenseClick = {
-                },
-                onEditClick = {
+                    onNewExpenseClick(category.title)
                 },
                 onDeleteClick = {
-                    isDeleteDialogVisible = true
+                    deleteDialogVisibility.value = true
                 },
             )
 
             DeleteDialog(
-                isVisible = isDeleteDialogVisible,
+                isVisible = deleteDialogVisibility.value,
                 onHide = {
-                    isDeleteDialogVisible = false
+                    deleteDialogVisibility.value = false
                 },
                 text = stringResource(R.string.delete_expense_category_text),
                 onDeleteClick = {

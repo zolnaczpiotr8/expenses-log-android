@@ -23,14 +23,11 @@ import zolnaczpiotr8.com.github.expenses.log.feature.home.ui.menu.NewExpenseList
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun MainMenuModalBottomSheet(
+fun MainMenuModalBottomSheet(
     state: SheetState = rememberModalBottomSheetState(),
-    expensesVisible: Boolean = false,
     onNewExpenseClick: () -> Unit = {
     },
     onShowExpensesClick: () -> Unit = {
-    },
-    onHideExpensesClick: () -> Unit = {
     },
     onNewCategoryClick: () -> Unit = {
     },
@@ -52,8 +49,6 @@ internal fun MainMenuModalBottomSheet(
                 }
             },
             sheetState = state,
-            dragHandle = {
-            },
         ) {
             Text(
                 modifier = Modifier
@@ -64,7 +59,7 @@ internal fun MainMenuModalBottomSheet(
                         vertical = IncrementalPaddings.x3,
                     ),
                 text = stringResource(R.string.menu_label),
-                style = MaterialTheme.typography.titleMedium,
+                style = MaterialTheme.typography.titleLarge,
             )
             NewExpenseListItem(
                 modifier = Modifier
@@ -83,41 +78,21 @@ internal fun MainMenuModalBottomSheet(
                     onNewExpenseClick()
                 }
             }
-            if (expensesVisible) {
-                HideExpensesListItem(
-                    modifier = Modifier
-                        .semantics {
-                            collectionItemInfo = CollectionItemInfo(
-                                rowIndex = 1,
-                                columnSpan = 1,
-                                columnIndex = 0,
-                                rowSpan = 1,
-                            )
-                        },
-                ) {
-                    scope.launch {
-                        state.hide()
-                    }.invokeOnCompletion {
-                        onHideExpensesClick()
-                    }
-                }
-            } else {
-                ShowExpensesListItem(
-                    modifier = Modifier
-                        .semantics {
-                            collectionItemInfo = CollectionItemInfo(
-                                rowIndex = 1,
-                                columnSpan = 1,
-                                columnIndex = 0,
-                                rowSpan = 1,
-                            )
-                        },
-                ) {
-                    scope.launch {
-                        state.hide()
-                    }.invokeOnCompletion {
-                        onShowExpensesClick()
-                    }
+            ShowExpensesListItem(
+                modifier = Modifier
+                    .semantics {
+                        collectionItemInfo = CollectionItemInfo(
+                            rowIndex = 1,
+                            columnSpan = 1,
+                            columnIndex = 0,
+                            rowSpan = 1,
+                        )
+                    },
+            ) {
+                scope.launch {
+                    state.hide()
+                }.invokeOnCompletion {
+                    onShowExpensesClick()
                 }
             }
             NewCategoryListItem(

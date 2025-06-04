@@ -11,7 +11,7 @@ class SettingsRepository @Inject constructor(
 
     val settings: Flow<Settings> = settingsDataSource.settings
 
-    suspend fun setShowEmptyCategories(
-        show: Boolean,
-    ): Unit = settingsDataSource.setShowEmptyCategories(show)
+    suspend fun setCurrencyCode(
+        code: String,
+    ): Unit = settingsDataSource.setCurrencyCode(code)
 }

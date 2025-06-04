@@ -14,7 +14,7 @@ import zolnaczpiotr8.com.github.expenses.log.feature.home.R
 import zolnaczpiotr8.com.github.expenses.log.core.ui.R as coreUiR
 
 @Composable
-internal fun SettingsListItem(
+fun SettingsListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
