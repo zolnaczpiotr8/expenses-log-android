@@ -1,45 +1,36 @@
 [versions]
-min-sdk = "26"
 compile-sdk = "35"
-target-sdk = "35"
-ndk = "29.0.13113456"
 android-gradle = "8.10.1"
-kotlin = "2.1.21"
+kotlin = "2.2.0"
 kotlinx-data-time = "0.6.2"
 kotlinx-serialization = "1.8.1"
 kotlinx-collections-immutable = "0.4.0"
-androidx-compose-bom = "2025.05.01"
+androidx-compose-bom = "2025.06.01"
 androidx-navigation = "2.9.0"
 androidx-activity = "1.10.1"
 androidx-datastore = "1.1.7"
-androidx-test-runner = "1.6.2"
-androidx-test-orchestrator = "1.5.1"
 androidx-splash-screen = "1.0.1"
 androidx-benchmark = "1.3.4"
 androidx-profileinstaller = "1.4.1"
 androidx-hilt = "1.2.0"
-firebase-bom = "33.14.0"
+firebase-bom = "33.15.0"
+google-services = "4.4.2"
+firebase-crashlytics = "3.0.4"
 hilt = "2.56.2"
 ksp = "2.1.21-2.0.1"
-room = "2.7.1"
+room = "2.7.2"
 spotless = "7.0.4"
 git-hooks = "1.1.1"
 protobuf-plugin = "0.9.5"
 protobuf = "4.31.1"
-google-services = "4.4.2"
-firebase-crashlytics = "3.0.3"
 
 [libraries]
 androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "androidx-compose-bom" }
 androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
 androidx-compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
-androidx-compose-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
-androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "androidx-navigation" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "androidx-datastore" }
-androidx-test-runner = { module = "androidx.test:runner", version.ref = "androidx-test-runner" }
-androidx-test-orchestrator = { module = "androidx.test:orchestrator", version.ref = "androidx-test-orchestrator" }
 androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-splash-screen" }
 androidx-benchmark-macro = { module = "androidx.benchmark:benchmark-macro-junit4", version.ref = "androidx-benchmark" }
 androidx-benchmark-junit4 = { module = "androidx.benchmark:benchmark-junit4", version.ref = "androidx-benchmark" }
@@ -47,20 +38,12 @@ androidx-profile-installer = { module = "androidx.profileinstaller:profileinstal
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "androidx-hilt" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
-android-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradle" }
-hilt-android-gradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
-kotlin-jvm = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
-kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
-kotlin-compose = { module = "org.jetbrains.kotlin.plugin.compose:org.jetbrains.kotlin.plugin.compose.gradle.plugin", version.ref = "kotlin" }
 kotlinx-date-time = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-data-time" }
 kotlinx-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
 kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections-immutable" }
-kotlin-serialization = { module = "org.jetbrains.kotlin.plugin.serialization:org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "kotlin" }
-ksp = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 protobuf-compiler = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
 protobuf-java-lite = { module = "com.google.protobuf:protobuf-javalite", version.ref = "protobuf" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
@@ -69,6 +52,14 @@ firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
 firebase-performance = { module = "com.google.firebase:firebase-perf" }
 
 [plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle" }
+android-test = { id = "com.android.test", version.ref = "android-gradle" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 git-hooks = { id = "eu.bambooapps.gradle.plugin.githook", version.ref = "git-hooks" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobuf-plugin" }
@@ -76,10 +67,3 @@ room = { id = "androidx.room", version.ref = "room" }
 google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
 firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics" }
 androidx-baseline-profile = { id = "androidx.baselineprofile", version.ref = "androidx-benchmark" }
-expenses-log-android-library = { id = "expenses.log.android.library" }
-expenses-log-ksp-library = { id = "expenses.log.ksp.library" }
-expenses-log-test = { id = "expenses.log.test" }
-expenses-log-hilt = { id = "expenses.log.hilt" }
-expenses-log-feature = { id = "expenses.log.feature" }
-expenses-log-application = { id = "expenses.log.application" }
-expenses-log-compose = { id = "expenses.log.compose" }

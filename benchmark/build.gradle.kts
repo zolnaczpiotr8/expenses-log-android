@@ -1,11 +1,16 @@
-import application.id.APPLICATION_ID
-
 plugins {
-    alias(libs.plugins.expenses.log.test)
+    alias(libs.plugins.android.test)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.androidx.baseline.profile)
 }
 
 android {
+    compileSdk =
+        libs.versions.compile.sdk
+            .get()
+            .toInt()
+    namespace = "zolnaczpiotr8.com.github.expenses.log.benchmark"
+
     defaultConfig {
         minSdk = 28
         testInstrumentationRunner = "androidx.benchmark.junit4.AndroidBenchmarkRunner"
@@ -13,18 +18,6 @@ android {
 
     targetProjectPath = projects.app.path
     experimentalProperties["android.experimental.self-instrumenting"] = true
-
-    buildFeatures {
-        buildConfig = true
-    }
-
-    defaultConfig {
-        buildConfigField(
-            type = "String",
-            name = "APPLICATION_ID",
-            value = "\"$APPLICATION_ID\"",
-        )
-    }
 }
 
 dependencies {

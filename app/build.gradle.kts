@@ -1,16 +1,69 @@
-import application.id.APPLICATION_ID
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    alias(libs.plugins.expenses.log.application)
-    alias(libs.plugins.androidx.baseline.profile)
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.google.services)
     alias(libs.plugins.firebase.crashlytics)
+    alias(libs.plugins.androidx.baseline.profile)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.room)
+    alias(libs.plugins.hilt.android)
+}
+
+composeCompiler {
+    stabilityConfigurationFiles.add(
+        layout.projectDirectory.file("compose.conf"),
+    )
+}
+
+room {
+    schemaDirectory("database-schema")
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.compilerArgs.addAll(
+        listOf(
+            "-Xlint:all",
+        ),
+    )
+}
+
+tasks.withType<KotlinCompile>().configureEach {
+    compilerOptions {
+        allWarningsAsErrors.set(true)
+    }
 }
 
 android {
+    buildFeatures {
+        compose = true
+    }
+
+    androidResources {
+        localeFilters.addAll(listOf("en", "pl"))
+    }
+
+    compileSdk =
+        libs.versions.compile.sdk
+            .get()
+            .toInt()
+    namespace = "zolnaczpiotr8.com.github.expenses.log"
+
     defaultConfig {
-        testInstrumentationRunner = "zolnaczpiotr8.com.github.expenses.log.app.runner.HiltRunner"
-        applicationId = APPLICATION_ID
+        minSdk = 26
+        targetSdk =
+            libs.versions.compile.sdk
+                .get()
+                .toInt()
         versionName = "0.0.0"
         versionCode = 1
     }
@@ -28,6 +81,12 @@ android {
 
     lint {
         disable.add("UnusedAttribute") // workaround for android:enableOnBackInvokedCallback="true"
+        warningsAsErrors = true
+        checkAllWarnings = true
+        abortOnError = true
+        ignoreWarnings = false
+        ignoreTestSources = false
+        checkTestSources = true
     }
 }
 
@@ -36,15 +95,27 @@ baselineProfile {
 }
 
 dependencies {
+    implementation(libs.kotlinx.collections.immutable)
+    implementation(libs.kotlinx.serialization)
+    implementation(libs.kotlinx.date.time)
+
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.profile.installer)
     implementation(libs.androidx.splash.screen)
 
-    implementation(projects.feature.home)
-    implementation(projects.feature.expense)
-    implementation(projects.feature.category)
-    implementation(projects.feature.settings)
-    implementation(projects.core.ui)
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.extended)
+
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.hilt.navigation.compose)
+
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+
+    implementation(projects.app.proto)
+    implementation(libs.androidx.datastore)
 
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
@@ -56,9 +127,8 @@ dependencies {
         )
     }
 
-    androidTestImplementation(libs.hilt.android.testing)
-    androidTestImplementation(projects.core.datastore.testDoubles)
-    kspAndroidTest(libs.hilt.android.compiler)
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
 
     baselineProfile(projects.benchmark)
 }

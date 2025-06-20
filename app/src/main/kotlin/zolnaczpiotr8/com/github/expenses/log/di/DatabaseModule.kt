@@ -1,0 +1,26 @@
+package zolnaczpiotr8.com.github.expenses.log.di
+
+import android.content.Context
+import androidx.room.Room
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
+import dagger.hilt.components.SingletonComponent
+import zolnaczpiotr8.com.github.expenses.log.database.ExpensesLogDatabase
+import javax.inject.Singleton
+
+@Module
+@InstallIn(SingletonComponent::class)
+object DatabaseModule {
+
+    @Provides
+    @Singleton
+    fun provideDatabase(
+        @ApplicationContext context: Context,
+    ): ExpensesLogDatabase = Room.databaseBuilder(
+        context = context,
+        klass = ExpensesLogDatabase::class.java,
+        "expenses-database",
+    ).build()
+}

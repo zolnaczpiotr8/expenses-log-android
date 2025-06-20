@@ -1,18 +1,23 @@
 rootProject.name = "Expenses-Log"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-includeBuild("plugins")
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 include(
     ":app",
+    ":app:proto",
     ":benchmark",
-    ":core:ui",
-    ":core:model",
-    ":core:data",
-    ":core:database",
-    ":core:datastore",
-    ":core:datastore:proto",
-    ":core:datastore:test-doubles",
-    ":feature:home",
-    ":feature:expense",
-    ":feature:category",
-    ":feature:settings",
 )
