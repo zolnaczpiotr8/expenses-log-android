@@ -2,11 +2,6 @@
 
 set -e
 
-./gradlew --init-script init.gradle.kts \
-  wrapper --gradle-version latest \
-  spotlessCheck \
-  lint \
-  clean
+./gradlew spotlessCheck lint
 
-./gradlew --init-script init.gradle.kts \
-  assembleDebug
+./gradlew clean assembleDebug

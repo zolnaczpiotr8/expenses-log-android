@@ -5,10 +5,20 @@ import kotlin.io.path.Path
 plugins {
     alias(libs.plugins.spotless)
     alias(libs.plugins.git.hooks)
-    alias(libs.plugins.expenses.log.android.library) apply false
-    alias(libs.plugins.expenses.log.ksp.library) apply false
-    alias(libs.plugins.expenses.log.hilt) apply false
-    alias(libs.plugins.expenses.log.feature) apply false
+
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.test) apply false
+    alias(libs.plugins.kotlin.jvm) apply false
+    alias(libs.plugins.protobuf) apply false
+    alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.compose) apply false
+    alias(libs.plugins.kotlin.serialization) apply false
+    alias(libs.plugins.google.services) apply false
+    alias(libs.plugins.firebase.crashlytics) apply false
+    alias(libs.plugins.androidx.baseline.profile) apply false
+    alias(libs.plugins.ksp) apply false
+    alias(libs.plugins.room) apply false
+    alias(libs.plugins.hilt.android) apply false
 }
 
 spotless {

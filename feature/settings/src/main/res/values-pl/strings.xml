@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="currency_label">Waluta</string>
-	<string name="currency_code_label">Kod waluty</string>
-	<string name="currency_code_item_label">kod waluty: %s</string>
-	<string name="settings_updated_message">Ustawienia zaktualizowane</string>
-	<string name="show_available_currencies_action_label">pokaż dostępne waluty</string>
-</resources>

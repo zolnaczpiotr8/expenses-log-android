@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="amount_label">Amount</string>
-	<string name="invalid_format_error">Invalid format</string>
-	<string name="category_label">Category</string>
-	<string name="show_categories_action_label">Show categories</string>
-	<string name="expense_created_message">Expense created</string>
-</resources>
