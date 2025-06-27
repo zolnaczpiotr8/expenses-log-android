@@ -4,4 +4,4 @@ set -e
 
 ./gradlew spotlessCheck lint
 
-./gradlew clean assembleDebug
+./gradlew clean :app:assembleDebug

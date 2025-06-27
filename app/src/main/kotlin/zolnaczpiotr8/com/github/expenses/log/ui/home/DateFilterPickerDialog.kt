@@ -8,9 +8,9 @@ import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberDateRangePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
+import kotlin.time.Instant
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

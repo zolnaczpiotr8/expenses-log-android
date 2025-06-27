@@ -6,8 +6,9 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 
 private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
 
@@ -28,7 +29,9 @@ private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
         ),
     ],
 )
-data class ExpenseEntity(
+data class ExpenseEntity
+@OptIn(ExperimentalTime::class)
+constructor(
     @PrimaryKey
     val uuid: String,
     val title: String?,

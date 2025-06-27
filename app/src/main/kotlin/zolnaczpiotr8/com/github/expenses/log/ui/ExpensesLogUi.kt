@@ -37,6 +37,6 @@ fun ExpensesLogUi() {
                 onGoBackClick = navController::popBackStack,
             )
         }
-        ReportDrawn()
     }
+    ReportDrawn()
 }

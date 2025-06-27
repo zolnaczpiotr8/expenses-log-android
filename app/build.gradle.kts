@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -23,12 +21,6 @@ room {
     schemaDirectory("database-schema")
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(21)
-    }
-}
-
 tasks.withType<JavaCompile>().configureEach {
     options.compilerArgs.addAll(
         listOf(
@@ -37,8 +29,10 @@ tasks.withType<JavaCompile>().configureEach {
     )
 }
 
-tasks.withType<KotlinCompile>().configureEach {
+kotlin {
+    jvmToolchain(21)
     compilerOptions {
+        optIn.addAll("kotlin.time.ExperimentalTime")
         allWarningsAsErrors.set(true)
     }
 }
@@ -126,6 +120,8 @@ dependencies {
             module = "protolite-well-known-types",
         )
     }
+
+    implementation(libs.play.services.ads)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)

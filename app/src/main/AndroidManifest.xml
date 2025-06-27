@@ -5,10 +5,13 @@
 
 	<application
 		android:name="zolnaczpiotr8.com.github.expenses.log.ExpensesLogApplication"
-		android:appCategory="productivity"
+		android:appCategory="productivity" android:hardwareAccelerated="true"
 		android:enableOnBackInvokedCallback="true"
 		android:icon="@mipmap/ic_launcher" android:theme="@style/Theme.App"
 		android:label="@string/application_label" android:supportsRtl="true">
+		<meta-data
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+			android:value="ca-app-pub-5227433167994526~8264800494" />
 		<profileable android:shell="true" tools:targetApi="q" />
 		<activity
 			android:name="zolnaczpiotr8.com.github.expenses.log.ui.MainActivity"
