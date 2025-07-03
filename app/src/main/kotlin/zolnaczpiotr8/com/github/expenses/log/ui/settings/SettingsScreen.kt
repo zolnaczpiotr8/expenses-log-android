@@ -34,6 +34,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
+import zolnaczpiotr8.com.github.expenses.log.ui.ads.InlineAdaptiveBanner
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.GoBackIconButton
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
@@ -99,12 +100,12 @@ private fun SettingsScreen(
         Column(
             modifier = Modifier
                 .padding(paddingValues)
-                .padding(Margins.compact)
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
         ) {
             Row(
                 modifier = Modifier
+                    .padding(Margins.compact)
                     .fillMaxWidth()
                     .wrapContentHeight(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -134,6 +135,10 @@ private fun SettingsScreen(
                     availableCurrencies = availableCurrencies,
                 )
             }
+
+            InlineAdaptiveBanner(
+                modifier = Modifier.fillMaxWidth(),
+            )
         }
     }
 }

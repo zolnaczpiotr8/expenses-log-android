@@ -28,6 +28,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
+import zolnaczpiotr8.com.github.expenses.log.ui.ads.InlineAdaptiveBanner
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.extended.fab.SaveExtendedFab
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.fab.SmallFabSpacer
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.GoBackIconButton
@@ -141,23 +142,32 @@ private fun NewExpenseScreen(
         Column(
             modifier = Modifier
                 .verticalScroll(scrollState)
-                .padding(Margins.compact)
                 .padding(paddingValues),
             verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
         ) {
             TitleTextField(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .padding(Margins.compact)
+                    .fillMaxWidth(),
                 state = titleState,
             )
             AmountTextField(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .padding(Margins.compact)
+                    .fillMaxWidth(),
                 state = amountState,
             )
             CategoryComboBox(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .padding(Margins.compact)
+                    .fillMaxWidth(),
                 state = categoryState,
                 onImeAction = onSave,
             )
+            InlineAdaptiveBanner(
+                modifier = Modifier.fillMaxWidth(),
+            )
+
             SmallFabSpacer()
         }
     }

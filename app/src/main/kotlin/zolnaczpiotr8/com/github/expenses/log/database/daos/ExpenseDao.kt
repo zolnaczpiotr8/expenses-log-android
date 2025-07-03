@@ -4,9 +4,10 @@ import android.icu.math.BigDecimal
 import androidx.room.Dao
 import androidx.room.Query
 import kotlinx.coroutines.flow.Flow
-import kotlinx.datetime.Clock
-import kotlinx.datetime.Instant
 import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseWithCategoryEntity
+import kotlin.time.Clock
+import kotlin.time.ExperimentalTime
+import kotlin.time.Instant
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
@@ -28,7 +29,7 @@ interface ExpenseDao {
     )
     fun expenses(): Flow<List<ExpenseWithCategoryEntity>>
 
-    @OptIn(ExperimentalUuidApi::class)
+    @OptIn(ExperimentalUuidApi::class, ExperimentalTime::class)
     @Query(
         """
         INSERT INTO expense (title, amount, uuid, category_uuid, created)

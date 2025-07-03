@@ -1,9 +1,9 @@
 package zolnaczpiotr8.com.github.expenses.log.model
 
 import androidx.compose.runtime.Stable
-import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
+import kotlin.time.Instant
 
 @Stable
 sealed interface DateFilter {
