@@ -10,9 +10,9 @@ import zolnaczpiotr8.com.github.expenses.log.R
 fun ClearIconButton(
     onClick: () -> Unit,
 ) {
-    IconButtonWithTooltip(
-        onClick = onClick,
-        imageVector = Icons.Default.Clear,
-        label = stringResource(R.string.clear_action_label),
-    )
+  IconButtonWithTooltip(
+      onClick = onClick,
+      imageVector = Icons.Default.Clear,
+      label = stringResource(R.string.clear_action_label),
+  )
 }

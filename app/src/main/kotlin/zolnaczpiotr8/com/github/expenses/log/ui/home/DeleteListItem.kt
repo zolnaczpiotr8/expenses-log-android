@@ -15,23 +15,25 @@ import zolnaczpiotr8.com.github.expenses.log.R
 @Composable
 fun DeleteListItem(
     modifier: Modifier = Modifier,
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    ListItem(
-        modifier = modifier.clickable(
-            onClick = onClick,
-        ).focusable(),
-        leadingContent = {
-            Icon(
-                imageVector = Icons.Default.Delete,
-                contentDescription = null,
-            )
-        },
-        headlineContent = {
-            Text(
-                text = stringResource(R.string.delete_action_label),
-            )
-        },
-    )
+  ListItem(
+      modifier =
+          modifier
+              .clickable(
+                  onClick = onClick,
+              )
+              .focusable(),
+      leadingContent = {
+        Icon(
+            imageVector = Icons.Default.Delete,
+            contentDescription = null,
+        )
+      },
+      headlineContent = {
+        Text(
+            text = stringResource(R.string.delete_action_label),
+        )
+      },
+  )
 }

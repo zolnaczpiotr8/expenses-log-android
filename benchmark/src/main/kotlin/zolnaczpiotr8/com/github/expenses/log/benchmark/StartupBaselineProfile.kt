@@ -7,15 +7,14 @@ import org.junit.Test
 
 class StartupBaselineProfile {
 
-    @get:Rule
-    val baselineProfileRule = BaselineProfileRule()
+  @get:Rule val baselineProfileRule = BaselineProfileRule()
 
-    @Test
-    fun generate() {
-        baselineProfileRule.collect(
-            packageName = "zolnaczpiotr8.com.github.expenses.log",
-            includeInStartupProfile = true,
-            profileBlock = MacrobenchmarkScope::startActivityAndWait,
-        )
-    }
+  @Test
+  fun generate() {
+    baselineProfileRule.collect(
+        packageName = "zolnaczpiotr8.com.github.expenses.log",
+        includeInStartupProfile = true,
+        profileBlock = MacrobenchmarkScope::startActivityAndWait,
+    )
+  }
 }

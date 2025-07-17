@@ -42,21 +42,19 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 @Composable
 fun SettingsScreen(
     viewModel: SettingsViewModel = hiltViewModel(),
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    val availableCurrencies by viewModel.availableCurrencies
-        .collectAsStateWithLifecycle(
-            minActiveState = Lifecycle.State.CREATED,
-        )
-    val currentCurrency by viewModel.currentCurrency
-        .collectAsStateWithLifecycle()
-    SettingsScreen(
-        currentCurrency = currentCurrency,
-        availableCurrencies = availableCurrencies,
-        onCurrencyClick = viewModel::onCurrencyClick,
-        onGoBackClick = onGoBackClick,
-    )
+  val availableCurrencies by
+      viewModel.availableCurrencies.collectAsStateWithLifecycle(
+          minActiveState = Lifecycle.State.CREATED,
+      )
+  val currentCurrency by viewModel.currentCurrency.collectAsStateWithLifecycle()
+  SettingsScreen(
+      currentCurrency = currentCurrency,
+      availableCurrencies = availableCurrencies,
+      onCurrencyClick = viewModel::onCurrencyClick,
+      onGoBackClick = onGoBackClick,
+  )
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -64,81 +62,62 @@ fun SettingsScreen(
 private fun SettingsScreen(
     availableCurrencies: ImmutableList<String>,
     currentCurrency: String,
-    onGoBackClick: () -> Unit = {
-    },
-    onCurrencyClick: (String) -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
+    onCurrencyClick: (String) -> Unit = {},
 ) {
-    val scrollBehavior =
-        TopAppBarDefaults.pinnedScrollBehavior()
-    val snackbarHostState = remember {
-        SnackbarHostState()
-    }
-    Scaffold(
-        modifier = Modifier
-            .nestedScroll(scrollBehavior.nestedScrollConnection)
-            .imePadding(),
-        snackbarHost = {
-            SnackbarHost(
-                hostState = snackbarHostState,
-            )
-        },
-        topBar = {
-            TopAppBar(
-                scrollBehavior = scrollBehavior,
-                title = {
-                    Text(stringResource(R.string.settings))
-                },
-                navigationIcon = {
-                    GoBackIconButton(
-                        onClick = onGoBackClick,
-                    )
-                },
-            )
-        },
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .padding(paddingValues)
-                .verticalScroll(rememberScrollState()),
-            verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
-        ) {
-            Row(
-                modifier = Modifier
-                    .padding(Margins.compact)
-                    .fillMaxWidth()
-                    .wrapContentHeight(),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(
-                    modifier = Modifier
-                        .clearAndSetSemantics {
-                        },
-                    color = MaterialTheme.colorScheme.onSurface,
-                    text = stringResource(R.string.currency_label),
-                    style = MaterialTheme.typography.bodyLarge,
-                )
+  val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
+  val snackbarHostState = remember { SnackbarHostState() }
+  Scaffold(
+      modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection).imePadding(),
+      snackbarHost = {
+        SnackbarHost(
+            hostState = snackbarHostState,
+        )
+      },
+      topBar = {
+        TopAppBar(
+            scrollBehavior = scrollBehavior,
+            title = { Text(stringResource(R.string.settings)) },
+            navigationIcon = {
+              GoBackIconButton(
+                  onClick = onGoBackClick,
+              )
+            },
+        )
+      },
+  ) { paddingValues ->
+    Column(
+        modifier = Modifier.padding(paddingValues).verticalScroll(rememberScrollState()),
+        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
+    ) {
+      Row(
+          modifier = Modifier.padding(Margins.compact).fillMaxWidth().wrapContentHeight(),
+          horizontalArrangement = Arrangement.SpaceBetween,
+          verticalAlignment = Alignment.CenterVertically,
+      ) {
+        Text(
+            modifier = Modifier.clearAndSetSemantics {},
+            color = MaterialTheme.colorScheme.onSurface,
+            text = stringResource(R.string.currency_label),
+            style = MaterialTheme.typography.bodyLarge,
+        )
 
-                val scope = rememberCoroutineScope()
-                val settingsUpdatedMessage = stringResource(R.string.settings_updated_message)
-                CurrencyComboBox(
-                    modifier = Modifier
-                        .width(200.dp),
-                    currentCurrency = currentCurrency,
-                    onCurrencyClick = {
-                        onCurrencyClick(it)
-                        scope.launch {
-                            snackbarHostState.showSnackbar(settingsUpdatedMessage)
-                        }
-                    },
-                    availableCurrencies = availableCurrencies,
-                )
-            }
+        val scope = rememberCoroutineScope()
+        val settingsUpdatedMessage = stringResource(R.string.settings_updated_message)
+        CurrencyComboBox(
+            modifier = Modifier.width(200.dp),
+            currentCurrency = currentCurrency,
+            onCurrencyClick = {
+              onCurrencyClick(it)
+              scope.launch { snackbarHostState.showSnackbar(settingsUpdatedMessage) }
+            },
+            availableCurrencies = availableCurrencies,
+        )
+      }
 
-            InlineAdaptiveBanner(
-                modifier = Modifier.fillMaxWidth(),
-            )
-        }
+      InlineAdaptiveBanner(
+          modifier = Modifier.fillMaxWidth(),
+      )
     }
+  }
 }

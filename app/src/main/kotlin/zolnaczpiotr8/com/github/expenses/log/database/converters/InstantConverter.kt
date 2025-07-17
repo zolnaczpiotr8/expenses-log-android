@@ -6,15 +6,15 @@ import kotlin.time.Instant
 
 class InstantConverter {
 
-    @OptIn(ExperimentalTime::class)
-    @TypeConverter
-    fun toInstant(
-        milliSeconds: Long?,
-    ): Instant? = milliSeconds?.let(Instant::fromEpochMilliseconds)
+  @OptIn(ExperimentalTime::class)
+  @TypeConverter
+  fun toInstant(
+      milliSeconds: Long?,
+  ): Instant? = milliSeconds?.let(Instant::fromEpochMilliseconds)
 
-    @OptIn(ExperimentalTime::class)
-    @TypeConverter
-    fun fromInstant(
-        instant: Instant?,
-    ): Long? = instant?.let(Instant::toEpochMilliseconds)
+  @OptIn(ExperimentalTime::class)
+  @TypeConverter
+  fun fromInstant(
+      instant: Instant?,
+  ): Long? = instant?.let(Instant::toEpochMilliseconds)
 }

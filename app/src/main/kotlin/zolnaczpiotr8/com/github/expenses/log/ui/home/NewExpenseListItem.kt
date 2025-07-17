@@ -17,21 +17,24 @@ fun NewExpenseListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
-    ListItem(
-        modifier = modifier.clickable(
-            onClick = onClick,
-            onClickLabel = stringResource(R.string.add_action_label),
-        ).focusable(),
-        leadingContent = {
-            Icon(
-                imageVector = Icons.Default.ShoppingCart,
-                contentDescription = null,
-            )
-        },
-        headlineContent = {
-            Text(
-                text = stringResource(R.string.new_expense),
-            )
-        },
-    )
+  ListItem(
+      modifier =
+          modifier
+              .clickable(
+                  onClick = onClick,
+                  onClickLabel = stringResource(R.string.add_action_label),
+              )
+              .focusable(),
+      leadingContent = {
+        Icon(
+            imageVector = Icons.Default.ShoppingCart,
+            contentDescription = null,
+        )
+      },
+      headlineContent = {
+        Text(
+            text = stringResource(R.string.new_expense),
+        )
+      },
+  )
 }

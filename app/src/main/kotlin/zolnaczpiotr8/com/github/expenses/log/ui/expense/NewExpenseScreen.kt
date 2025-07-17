@@ -41,134 +41,111 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 fun NewExpenseScreen(
     viewModel: NewExpenseViewModel = hiltViewModel(),
     category: String?,
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    val currencyCode by viewModel.currencyCode.collectAsStateWithLifecycle()
-    val categoriesTitles by viewModel.categoriesTitles
-        .collectAsStateWithLifecycle()
-    NewExpenseScreen(
-        onGoBackClick = onGoBackClick,
-        currencyCode = currencyCode,
-        category = category,
-        categoriesTitles = categoriesTitles,
-        save = viewModel::save,
-    )
+  val currencyCode by viewModel.currencyCode.collectAsStateWithLifecycle()
+  val categoriesTitles by viewModel.categoriesTitles.collectAsStateWithLifecycle()
+  NewExpenseScreen(
+      onGoBackClick = onGoBackClick,
+      currencyCode = currencyCode,
+      category = category,
+      categoriesTitles = categoriesTitles,
+      save = viewModel::save,
+  )
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun NewExpenseScreen(
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
     currencyCode: String,
     category: String?,
     categoriesTitles: ImmutableList<String>,
     save: (String, BigDecimal, String, String) -> Unit,
 ) {
-    val scrollBehavior =
-        TopAppBarDefaults.pinnedScrollBehavior()
-    val titleState = rememberTitleTextFieldState()
-    val amountState = rememberAmountTextFieldState(currencyCode)
-    val categoryState = rememberCategoryComboBoxState(
-        category = category ?: "",
-        titles = categoriesTitles,
-    )
-    val scrollState = rememberScrollState()
-    val snackbarHostState = remember {
-        SnackbarHostState()
+  val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
+  val titleState = rememberTitleTextFieldState()
+  val amountState = rememberAmountTextFieldState(currencyCode)
+  val categoryState =
+      rememberCategoryComboBoxState(
+          category = category ?: "",
+          titles = categoriesTitles,
+      )
+  val scrollState = rememberScrollState()
+  val snackbarHostState = remember { SnackbarHostState() }
+  val scope = rememberCoroutineScope()
+  val saveErrorMessage = stringResource(R.string.save_error_message)
+  val expenseCreatedMessage = stringResource(R.string.expense_created_message)
+  val onSave: () -> Unit = {
+    amountState.validate()
+    if (amountState.error != AmountError.None) {
+      scope.launch { snackbarHostState.showSnackbar(saveErrorMessage) }
+    } else {
+      categoryState.validate()
+      if (categoryState.isError) {
+        scope.launch { snackbarHostState.showSnackbar(saveErrorMessage) }
+      } else {
+        save(
+            titleState.text,
+            BigDecimal(amountState.text),
+            categoryState.textFieldValue.text,
+            currencyCode,
+        )
+        categoryState.collapse()
+        categoryState.onTextChange(TextFieldValue())
+        titleState.clear()
+        amountState.clear()
+        scope.launch { snackbarHostState.showSnackbar(expenseCreatedMessage) }
+      }
     }
-    val scope = rememberCoroutineScope()
-    val saveErrorMessage = stringResource(R.string.save_error_message)
-    val expenseCreatedMessage = stringResource(R.string.expense_created_message)
-    val onSave: () -> Unit = {
-        amountState.validate()
-        if (amountState.error != AmountError.None) {
-            scope.launch {
-                snackbarHostState.showSnackbar(saveErrorMessage)
-            }
-        } else {
-            categoryState.validate()
-            if (categoryState.isError) {
-                scope.launch {
-                    snackbarHostState.showSnackbar(saveErrorMessage)
-                }
-            } else {
-                save(
-                    titleState.text,
-                    BigDecimal(amountState.text),
-                    categoryState.textFieldValue.text,
-                    currencyCode,
-                )
-                categoryState.collapse()
-                categoryState.onTextChange(TextFieldValue())
-                titleState.clear()
-                amountState.clear()
-                scope.launch {
-                    snackbarHostState.showSnackbar(expenseCreatedMessage)
-                }
-            }
-        }
-    }
-    Scaffold(
-        modifier = Modifier
-            .imePadding()
-            .nestedScroll(scrollBehavior.nestedScrollConnection),
-        snackbarHost = {
-            SnackbarHost(
-                hostState = snackbarHostState,
-            )
-        },
-        topBar = {
-            TopAppBar(
-                title = {
-                    Text(stringResource(R.string.new_expense))
-                },
-                navigationIcon = {
-                    GoBackIconButton(
-                        onClick = onGoBackClick,
-                    )
-                },
-                scrollBehavior = scrollBehavior,
-            )
-        },
-        floatingActionButton = {
-            SaveExtendedFab(
-                expanded = scrollState.isScrollInProgress.not(),
-                onClick = onSave,
-            )
-        },
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .verticalScroll(scrollState)
-                .padding(paddingValues),
-            verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
-        ) {
-            TitleTextField(
-                modifier = Modifier
-                    .padding(Margins.compact)
-                    .fillMaxWidth(),
-                state = titleState,
-            )
-            AmountTextField(
-                modifier = Modifier
-                    .padding(Margins.compact)
-                    .fillMaxWidth(),
-                state = amountState,
-            )
-            CategoryComboBox(
-                modifier = Modifier
-                    .padding(Margins.compact)
-                    .fillMaxWidth(),
-                state = categoryState,
-                onImeAction = onSave,
-            )
-            InlineAdaptiveBanner(
-                modifier = Modifier.fillMaxWidth(),
-            )
+  }
+  Scaffold(
+      modifier = Modifier.imePadding().nestedScroll(scrollBehavior.nestedScrollConnection),
+      snackbarHost = {
+        SnackbarHost(
+            hostState = snackbarHostState,
+        )
+      },
+      topBar = {
+        TopAppBar(
+            title = { Text(stringResource(R.string.new_expense)) },
+            navigationIcon = {
+              GoBackIconButton(
+                  onClick = onGoBackClick,
+              )
+            },
+            scrollBehavior = scrollBehavior,
+        )
+      },
+      floatingActionButton = {
+        SaveExtendedFab(
+            expanded = scrollState.isScrollInProgress.not(),
+            onClick = onSave,
+        )
+      },
+  ) { paddingValues ->
+    Column(
+        modifier = Modifier.verticalScroll(scrollState).padding(paddingValues),
+        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
+    ) {
+      TitleTextField(
+          modifier = Modifier.padding(Margins.compact).fillMaxWidth(),
+          state = titleState,
+      )
+      AmountTextField(
+          modifier = Modifier.padding(Margins.compact).fillMaxWidth(),
+          state = amountState,
+      )
+      CategoryComboBox(
+          modifier = Modifier.padding(Margins.compact).fillMaxWidth(),
+          state = categoryState,
+          onImeAction = onSave,
+      )
+      InlineAdaptiveBanner(
+          modifier = Modifier.fillMaxWidth(),
+      )
 
-            SmallFabSpacer()
-        }
+      SmallFabSpacer()
     }
+  }
 }

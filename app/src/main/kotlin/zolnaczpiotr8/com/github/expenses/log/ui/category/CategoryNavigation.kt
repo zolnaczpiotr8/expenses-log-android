@@ -6,23 +6,20 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import kotlinx.serialization.Serializable
 
-@Serializable
-@Stable
-private data object NewCategory
+@Serializable @Stable private data object NewCategory
 
 fun NavGraphBuilder.newCategoryDestination(
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    composable<NewCategory> {
-        NewCategoryScreen(
-            onGoBackClick = onGoBackClick,
-        )
-    }
+  composable<NewCategory> {
+    NewCategoryScreen(
+        onGoBackClick = onGoBackClick,
+    )
+  }
 }
 
 fun NavController.navigateToNewCategory() {
-    navigate(
-        route = NewCategory,
-    )
+  navigate(
+      route = NewCategory,
+  )
 }

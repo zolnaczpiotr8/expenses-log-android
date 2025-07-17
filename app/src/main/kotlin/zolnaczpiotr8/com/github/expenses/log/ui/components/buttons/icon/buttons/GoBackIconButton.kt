@@ -8,12 +8,11 @@ import zolnaczpiotr8.com.github.expenses.log.R
 
 @Composable
 fun GoBackIconButton(
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    IconButtonWithTooltip(
-        imageVector = Icons.AutoMirrored.Default.ArrowBack,
-        label = stringResource(R.string.go_back_button_description),
-        onClick = onClick,
-    )
+  IconButtonWithTooltip(
+      imageVector = Icons.AutoMirrored.Default.ArrowBack,
+      label = stringResource(R.string.go_back_button_description),
+      onClick = onClick,
+  )
 }

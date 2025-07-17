@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Rijistarkudade</string>
+	<string name="menu_label">Menu</string>
+	<string name="clear_action_label">Share</string>
+	<string name="delete_action_label">Goge</string>
+	<string name="save_action_label">Ajiye</string>
+	<string name="cancel_action_label">Soke</string>
+	<string name="choose_action_label">Zaɓi</string>
+	<string name="show_action_label">nuna</string>
+	<string name="add_action_label">ƙara</string>
+	<string name="title_label">Take</string>
+	<string name="expenses_title">Kudade</string>
+	<string name="settings">Saituna</string>
+	<string name="save_error_message">Ba za a iya adanawa ba saboda shigarwar da ba ta da
+		inganci.</string>
+	<string name="go_back_button_description">Komawa</string>
+	<string name="required_text_field_error_label">Kuskure</string>
+	<string name="new_expense">Sabon Kudin</string>
+	<string name="new_category">Sabon rukuni</string>
+	<string name="show_empty_categories_label">Nuna rukunonin da babu komai</string>
+	<string name="navigate_action_label">kewaya</string>
+	<string name="confirm_action_label">To</string>
+	<string name="show_categories_action_label">Nuna rukuni</string>
+	<string name="show_available_currencies_action_label">nuna kudade masu samuwa</string>
+	<string name="date_filter_title">Kwana</string>
+	<string name="filters_title">Matattara</string>
+	<string name="currency_label">Kudi</string>
+	<string name="currency_code_label">Lambar kuɗi</string>
+	<string name="amount_label">Adadin</string>
+	<string name="category_label">Rukuni</string>
+	<string name="invalid_format_error">Tsarin da bai dace ba</string>
+	<string name="no_expenses_title">Babu kashe kuɗi</string>
+	<string name="expenses_categories_title">Rabe-raben kashe kuɗi</string>
+	<string name="total_amount_title">Jimillar adadi</string>
+	<string name="show_expenses_action_label">Nuna kudaden fita</string>
+	<string name="delete_dialog_title">A goge har abada?</string>
+	<string name="date_filter_this_month">Wannan wata</string>
+	<string name="date_filter_custom">Ranar al’ada</string>
+	<string name="date_filter_this_year">Wannan shekara</string>
+	<string name="date_filter_any">Kowace rana</string>
+	<string name="settings_updated_message">An sabunta saituna</string>
+	<string name="expense_created_message">An ƙirƙiri kuɗi</string>
+	<string name="category_created_message">An ƙirƙiri rukuni</string>
+	<string name="delete_expense_text">Za a goge kuɗin gaba ɗaya har abada.</string>
+	<string name="delete_expense_category_text">Goge rukunin zai kuma cire dukkan kuɗaɗen da ke da
+		alaƙa da shi.</string>
+	<string name="currency_code_item_label">lambar kudin: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Yawan haruffa: %d. Iyakokin haruffa: %d</string>
+</resources>

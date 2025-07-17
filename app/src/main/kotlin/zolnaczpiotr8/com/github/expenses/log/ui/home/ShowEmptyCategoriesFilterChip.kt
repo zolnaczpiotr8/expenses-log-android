@@ -17,27 +17,26 @@ import zolnaczpiotr8.com.github.expenses.log.R
 fun ShowEmptyCategoriesFilterChip(
     modifier: Modifier = Modifier,
     isSelected: Boolean = true,
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    FilterChip(
-        modifier = modifier,
-        selected = isSelected,
-        onClick = onClick,
-        label = {
-            Text(
-                text = stringResource(R.string.show_empty_categories_label),
-                maxLines = 1,
-            )
-        },
-        leadingIcon = {
-            AnimatedVisibility(isSelected) {
-                Icon(
-                    imageVector = Icons.Default.Done,
-                    contentDescription = null,
-                    modifier = Modifier.size(FilterChipDefaults.IconSize),
-                )
-            }
-        },
-    )
+  FilterChip(
+      modifier = modifier,
+      selected = isSelected,
+      onClick = onClick,
+      label = {
+        Text(
+            text = stringResource(R.string.show_empty_categories_label),
+            maxLines = 1,
+        )
+      },
+      leadingIcon = {
+        AnimatedVisibility(isSelected) {
+          Icon(
+              imageVector = Icons.Default.Done,
+              contentDescription = null,
+              modifier = Modifier.size(FilterChipDefaults.IconSize),
+          )
+        }
+      },
+  )
 }

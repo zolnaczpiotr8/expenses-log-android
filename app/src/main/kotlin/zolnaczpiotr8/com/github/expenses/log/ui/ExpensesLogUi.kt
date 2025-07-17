@@ -16,27 +16,27 @@ import zolnaczpiotr8.com.github.expenses.log.ui.theme.ExpensesLogTheme
 
 @Composable
 fun ExpensesLogUi() {
-    ExpensesLogTheme {
-        val navController = rememberNavController()
-        NavHost(
-            navController = navController,
-            startDestination = Home,
-        ) {
-            homeDestination(
-                onNewExpenseClick = navController::navigateToNewExpense,
-                onSettingsClick = navController::navigateToSettings,
-                onNewCategoryClick = navController::navigateToNewCategory,
-            )
-            settingsDestination(
-                onGoBackClick = navController::popBackStack,
-            )
-            newExpenseDestination(
-                onGoBackClick = navController::popBackStack,
-            )
-            newCategoryDestination(
-                onGoBackClick = navController::popBackStack,
-            )
-        }
+  ExpensesLogTheme {
+    val navController = rememberNavController()
+    NavHost(
+        navController = navController,
+        startDestination = Home,
+    ) {
+      homeDestination(
+          onNewExpenseClick = navController::navigateToNewExpense,
+          onSettingsClick = navController::navigateToSettings,
+          onNewCategoryClick = navController::navigateToNewCategory,
+      )
+      settingsDestination(
+          onGoBackClick = navController::popBackStack,
+      )
+      newExpenseDestination(
+          onGoBackClick = navController::popBackStack,
+      )
+      newCategoryDestination(
+          onGoBackClick = navController::popBackStack,
+      )
     }
-    ReportDrawn()
+  }
+  ReportDrawn()
 }

@@ -17,15 +17,17 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseEn
 
 @Database(
     version = 1,
-    entities = [
-        CategoryEntity::class,
-        ExpenseEntity::class,
-        DateFilterEntity::class,
-        ShowEmptyCategoriesEntity::class,
-    ],
-    views = [
-        DateFilterTimeStampEntity::class,
-    ],
+    entities =
+        [
+            CategoryEntity::class,
+            ExpenseEntity::class,
+            DateFilterEntity::class,
+            ShowEmptyCategoriesEntity::class,
+        ],
+    views =
+        [
+            DateFilterTimeStampEntity::class,
+        ],
 )
 @TypeConverters(
     BigDecimalConverter::class,
@@ -33,8 +35,11 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseEn
 )
 abstract class ExpensesLogDatabase : RoomDatabase() {
 
-    abstract fun categoryDao(): CategoryDao
-    abstract fun expenseDao(): ExpenseDao
-    abstract fun dateFilterDao(): DateFilterDao
-    abstract fun showEmptyCategoriesDao(): ShowEmptyCategoriesDao
+  abstract fun categoryDao(): CategoryDao
+
+  abstract fun expenseDao(): ExpenseDao
+
+  abstract fun dateFilterDao(): DateFilterDao
+
+  abstract fun showEmptyCategoriesDao(): ShowEmptyCategoriesDao
 }

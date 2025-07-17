@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">BukuLogalayandalama</string>
+	<string name="menu_label">Menyu</string>
+	<string name="clear_action_label">Tsekulani</string>
+	<string name="delete_action_label">Chotsani</string>
+	<string name="save_action_label">Sungani</string>
+	<string name="cancel_action_label">Letsani</string>
+	<string name="choose_action_label">Sankhani</string>
+	<string name="show_action_label">onetsani</string>
+	<string name="add_action_label">onjezerani</string>
+	<string name="title_label">Mutu</string>
+	<string name="expenses_title">Zogwiritsa</string>
+	<string name="settings">Zikhazikiko</string>
+	<string name="save_error_message">Sindingathe kusunga chifukwa cha lowetsedwa
+		losavomerezeka.</string>
+	<string name="go_back_button_description">Bwererani</string>
+	<string name="required_text_field_error_label">Cholakwika</string>
+	<string name="new_expense">Mtengo Watsopano</string>
+	<string name="new_category">Gulu latsopano</string>
+	<string name="show_empty_categories_label">Onetsani magulu osatsekedwa</string>
+	<string name="navigate_action_label">yendetsani</string>
+	<string name="confirm_action_label">Chabwino</string>
+	<string name="show_categories_action_label">Onetsani magulu</string>
+	<string name="show_available_currencies_action_label">onetsani ndalama zomwe zilipo</string>
+	<string name="date_filter_title">Tsiku</string>
+	<string name="filters_title">Zosefera</string>
+	<string name="currency_label">Ndalama</string>
+	<string name="currency_code_label">Nambala ya ndalama</string>
+	<string name="amount_label">Chiwerengero</string>
+	<string name="category_label">Gawo</string>
+	<string name="invalid_format_error">Fomati yosavomerezeka</string>
+	<string name="no_expenses_title">Palibe ndalama zomwe zapangidwa</string>
+	<string name="expenses_categories_title">Magulu a ndalama zogwiritsa ntchito</string>
+	<string name="total_amount_title">Ndalama zonse</string>
+	<string name="show_expenses_action_label">Onetsani ndalama zogwiritsidwa ntchito</string>
+	<string name="delete_dialog_title">Mukufuna kuchotsa kwamuyaya?</string>
+	<string name="date_filter_this_month">Mwezi uno</string>
+	<string name="date_filter_custom">Tsiku lokhazikitsidwa</string>
+	<string name="date_filter_this_year">Chaka chino</string>
+	<string name="date_filter_any">Tsiku lililonse</string>
+	<string name="settings_updated_message">Zikhazikiko zasinthidwa</string>
+	<string name="expense_created_message">Ndalama zapangidwa</string>
+	<string name="category_created_message">Gulu lapangidwa</string>
+	<string name="delete_expense_text">Mtengo udzachotsedwa kwamuyaya.</string>
+	<string name="delete_expense_category_text">Kufufuta gulu kudzachotsanso ndalama zonse zomwe
+		zili m’gululo.</string>
+	<string name="currency_code_item_label">chizindikiro cha ndalama: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Chiwerengero cha zilembo: %d. Malire a zilembo: %d</string>
+</resources>

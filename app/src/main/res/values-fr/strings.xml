@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Journaldesdépenses</string>
+	<string name="menu_label">Menu</string>
+	<string name="clear_action_label">Effacer</string>
+	<string name="delete_action_label">Supprimer</string>
+	<string name="save_action_label">Enregistrer</string>
+	<string name="cancel_action_label">Annuler</string>
+	<string name="choose_action_label">Choisir</string>
+	<string name="show_action_label">afficher</string>
+	<string name="add_action_label">ajouter</string>
+	<string name="title_label">Titre</string>
+	<string name="expenses_title">Dépenses</string>
+	<string name="settings">Paramètres</string>
+	<string name="save_error_message">Impossible d’enregistrer en raison d’une saisie
+		invalide.</string>
+	<string name="go_back_button_description">Revenir</string>
+	<string name="required_text_field_error_label">Erreur</string>
+	<string name="new_expense">Nouvelle Dépense</string>
+	<string name="new_category">Nouvelle catégorie</string>
+	<string name="show_empty_categories_label">Afficher les catégories vides</string>
+	<string name="navigate_action_label">naviguer</string>
+	<string name="confirm_action_label">D’accord</string>
+	<string name="show_categories_action_label">Afficher les catégories</string>
+	<string name="show_available_currencies_action_label">afficher les devises disponibles</string>
+	<string name="date_filter_title">Date</string>
+	<string name="filters_title">Filtres</string>
+	<string name="currency_label">Devise</string>
+	<string name="currency_code_label">Code de devise</string>
+	<string name="amount_label">Montant</string>
+	<string name="category_label">Catégorie</string>
+	<string name="invalid_format_error">Format invalide</string>
+	<string name="no_expenses_title">Pas de dépenses</string>
+	<string name="expenses_categories_title">Catégories de dépenses</string>
+	<string name="total_amount_title">Montant total</string>
+	<string name="show_expenses_action_label">Afficher les dépenses</string>
+	<string name="delete_dialog_title">Supprimer définitivement ?</string>
+	<string name="date_filter_this_month">Ce mois-ci</string>
+	<string name="date_filter_custom">Date personnalisée</string>
+	<string name="date_filter_this_year">Cette année</string>
+	<string name="date_filter_any">N’importe quelle date</string>
+	<string name="settings_updated_message">Paramètres mis à jour</string>
+	<string name="expense_created_message">Dépense créée</string>
+	<string name="category_created_message">Catégorie créée</string>
+	<string name="delete_expense_text">La dépense sera supprimée définitivement.</string>
+	<string name="delete_expense_category_text">La suppression de la catégorie entraînera également
+		la suppression de toutes les dépenses qui y sont associées.</string>
+	<string name="currency_code_item_label">code monétaire: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Nombre de caractères : %d. Limite de caractères : %d</string>
+</resources>

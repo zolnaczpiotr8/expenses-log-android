@@ -4,7 +4,8 @@ import androidx.room.DatabaseView
 
 @DatabaseView(
     viewName = "date_filter_time_stamp",
-    value = """
+    value =
+        """
         SELECT (
                 CASE title
                     WHEN 'Year' THEN unixepoch('now', 'start of year')

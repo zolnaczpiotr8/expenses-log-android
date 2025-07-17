@@ -22,43 +22,41 @@ import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
 fun DateFilterChip(
     modifier: Modifier = Modifier,
     filter: DateFilter = DateFilter.Month,
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    val isSelected = filter != DateFilter.Any
-    val label = when (filter) {
+  val isSelected = filter != DateFilter.Any
+  val label =
+      when (filter) {
         is DateFilter.Any -> stringResource(R.string.date_filter_title)
         is DateFilter.Month -> stringResource(R.string.date_filter_this_month)
         is DateFilter.Custom -> filter.toString()
         is DateFilter.Year -> stringResource(R.string.date_filter_this_year)
-    }
-    FilterChip(
-        modifier = modifier.semantics {
-            role = Role.DropdownList
-        },
-        selected = isSelected,
-        onClick = onClick,
-        label = {
-            Text(
-                text = label,
-                maxLines = 1,
-            )
-        },
-        leadingIcon = {
-            AnimatedVisibility(isSelected) {
-                Icon(
-                    imageVector = Icons.Default.Done,
-                    contentDescription = null,
-                    modifier = Modifier.size(FilterChipDefaults.IconSize),
-                )
-            }
-        },
-        trailingIcon = {
-            Icon(
-                imageVector = Icons.Default.ArrowDropDown,
-                contentDescription = null,
-                modifier = Modifier.size(FilterChipDefaults.IconSize),
-            )
-        },
-    )
+      }
+  FilterChip(
+      modifier = modifier.semantics { role = Role.DropdownList },
+      selected = isSelected,
+      onClick = onClick,
+      label = {
+        Text(
+            text = label,
+            maxLines = 1,
+        )
+      },
+      leadingIcon = {
+        AnimatedVisibility(isSelected) {
+          Icon(
+              imageVector = Icons.Default.Done,
+              contentDescription = null,
+              modifier = Modifier.size(FilterChipDefaults.IconSize),
+          )
+        }
+      },
+      trailingIcon = {
+        Icon(
+            imageVector = Icons.Default.ArrowDropDown,
+            contentDescription = null,
+            modifier = Modifier.size(FilterChipDefaults.IconSize),
+        )
+      },
+  )
 }

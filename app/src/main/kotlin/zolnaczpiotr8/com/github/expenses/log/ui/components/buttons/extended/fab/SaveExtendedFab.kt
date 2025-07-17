@@ -14,17 +14,15 @@ fun SaveExtendedFab(
     expanded: Boolean = false,
     onClick: () -> Unit,
 ) {
-    ExtendedFloatingActionButton(
-        expanded = expanded,
-        onClick = onClick,
-        text = {
-            Text(stringResource(R.string.save_action_label))
-        },
-        icon = {
-            Icon(
-                imageVector = Icons.Default.Save,
-                contentDescription = null,
-            )
-        },
-    )
+  ExtendedFloatingActionButton(
+      expanded = expanded,
+      onClick = onClick,
+      text = { Text(stringResource(R.string.save_action_label)) },
+      icon = {
+        Icon(
+            imageVector = Icons.Default.Save,
+            contentDescription = null,
+        )
+      },
+  )
 }

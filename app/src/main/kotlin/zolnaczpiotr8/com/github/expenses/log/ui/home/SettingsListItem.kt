@@ -17,21 +17,24 @@ fun SettingsListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
-    ListItem(
-        modifier = modifier.clickable(
-            onClick = onClick,
-            onClickLabel = stringResource(R.string.navigate_action_label),
-        ).focusable(),
-        leadingContent = {
-            Icon(
-                imageVector = Icons.Default.Settings,
-                contentDescription = null,
-            )
-        },
-        headlineContent = {
-            Text(
-                text = stringResource(R.string.settings),
-            )
-        },
-    )
+  ListItem(
+      modifier =
+          modifier
+              .clickable(
+                  onClick = onClick,
+                  onClickLabel = stringResource(R.string.navigate_action_label),
+              )
+              .focusable(),
+      leadingContent = {
+        Icon(
+            imageVector = Icons.Default.Settings,
+            contentDescription = null,
+        )
+      },
+      headlineContent = {
+        Text(
+            text = stringResource(R.string.settings),
+        )
+      },
+  )
 }

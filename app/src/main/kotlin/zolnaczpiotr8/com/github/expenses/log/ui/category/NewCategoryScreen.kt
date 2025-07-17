@@ -36,97 +36,82 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 @Composable
 fun NewCategoryScreen(
     viewModel: NewCategoryViewModel = hiltViewModel(),
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    NewCategoryScreen(
-        onGoBackClick = onGoBackClick,
-        onSaveClick = viewModel::create,
-    )
+  NewCategoryScreen(
+      onGoBackClick = onGoBackClick,
+      onSaveClick = viewModel::create,
+  )
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun NewCategoryScreen(
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
     onSaveClick: (String) -> Unit,
 ) {
-    val scrollBehavior =
-        TopAppBarDefaults.pinnedScrollBehavior()
-    val titleState = rememberTitleTextFieldState()
-    val scrollState = rememberScrollState()
-    val snackbarHostState = remember {
-        SnackbarHostState()
-    }
-    val scope = rememberCoroutineScope()
-    val saveErrorMessage = stringResource(R.string.save_error_message)
-    val categoryCreatedMessage = stringResource(R.string.category_created_message)
-    val onSave: () -> Unit = {
-        titleState.validate()
-        when (titleState.isError) {
-            true -> scope.launch {
-                snackbarHostState.showSnackbar(saveErrorMessage)
-            }
-            false -> {
-                onSaveClick(titleState.text)
-                titleState.clear()
-                scope.launch {
-                    snackbarHostState.showSnackbar(
-                        categoryCreatedMessage,
-                    )
-                }
-            }
+  val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
+  val titleState = rememberTitleTextFieldState()
+  val scrollState = rememberScrollState()
+  val snackbarHostState = remember { SnackbarHostState() }
+  val scope = rememberCoroutineScope()
+  val saveErrorMessage = stringResource(R.string.save_error_message)
+  val categoryCreatedMessage = stringResource(R.string.category_created_message)
+  val onSave: () -> Unit = {
+    titleState.validate()
+    when (titleState.isError) {
+      true -> scope.launch { snackbarHostState.showSnackbar(saveErrorMessage) }
+      false -> {
+        onSaveClick(titleState.text)
+        titleState.clear()
+        scope.launch {
+          snackbarHostState.showSnackbar(
+              categoryCreatedMessage,
+          )
         }
+      }
     }
-    Scaffold(
-        modifier = Modifier
-            .imePadding()
-            .nestedScroll(scrollBehavior.nestedScrollConnection),
-        snackbarHost = {
-            SnackbarHost(
-                hostState = snackbarHostState,
-            )
-        },
-        floatingActionButton = {
-            SaveExtendedFab(
-                expanded = scrollState.isScrollInProgress.not(),
-                onClick = onSave,
-            )
-        },
-        topBar = {
-            TopAppBar(
-                title = {
-                    Text(stringResource(R.string.new_category))
-                },
-                navigationIcon = {
-                    GoBackIconButton(
-                        onClick = onGoBackClick,
-                    )
-                },
-                scrollBehavior = scrollBehavior,
-            )
-        },
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .verticalScroll(scrollState)
-                .padding(paddingValues),
-            verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
-        ) {
-            TitleTextField(
-                modifier = Modifier
-                    .padding(Margins.compact)
-                    .fillMaxWidth(),
-                state = titleState,
-                imeAction = ImeAction.Done,
-                onImeAction = onSave,
-            )
-            InlineAdaptiveBanner(
-                modifier = Modifier.fillMaxWidth(),
-            )
+  }
+  Scaffold(
+      modifier = Modifier.imePadding().nestedScroll(scrollBehavior.nestedScrollConnection),
+      snackbarHost = {
+        SnackbarHost(
+            hostState = snackbarHostState,
+        )
+      },
+      floatingActionButton = {
+        SaveExtendedFab(
+            expanded = scrollState.isScrollInProgress.not(),
+            onClick = onSave,
+        )
+      },
+      topBar = {
+        TopAppBar(
+            title = { Text(stringResource(R.string.new_category)) },
+            navigationIcon = {
+              GoBackIconButton(
+                  onClick = onGoBackClick,
+              )
+            },
+            scrollBehavior = scrollBehavior,
+        )
+      },
+  ) { paddingValues ->
+    Column(
+        modifier = Modifier.verticalScroll(scrollState).padding(paddingValues),
+        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
+    ) {
+      TitleTextField(
+          modifier = Modifier.padding(Margins.compact).fillMaxWidth(),
+          state = titleState,
+          imeAction = ImeAction.Done,
+          onImeAction = onSave,
+      )
+      InlineAdaptiveBanner(
+          modifier = Modifier.fillMaxWidth(),
+      )
 
-            SmallFabSpacer()
-        }
+      SmallFabSpacer()
     }
+  }
 }

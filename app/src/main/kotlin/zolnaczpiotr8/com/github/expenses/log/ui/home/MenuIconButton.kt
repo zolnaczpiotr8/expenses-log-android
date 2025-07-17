@@ -13,11 +13,11 @@ fun MenuIconButton(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
-    IconButtonWithTooltip(
-        modifier = modifier,
-        imageVector = Icons.Default.MoreVert,
-        label = stringResource(R.string.menu_label),
-        onClick = onClick,
-        onClickLabel = stringResource(R.string.show_action_label),
-    )
+  IconButtonWithTooltip(
+      modifier = modifier,
+      imageVector = Icons.Default.MoreVert,
+      label = stringResource(R.string.menu_label),
+      onClick = onClick,
+      onClickLabel = stringResource(R.string.show_action_label),
+  )
 }

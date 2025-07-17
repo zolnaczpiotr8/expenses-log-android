@@ -23,73 +23,65 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 @Composable
 fun CategoryMenuModalBottomSheet(
     state: CategoryMenuSheetState = rememberCategoryMenuSheetState(),
-    onNewExpenseClick: () -> Unit = {
-    },
-    onDeleteClick: () -> Unit = {
-    },
+    onNewExpenseClick: () -> Unit = {},
+    onDeleteClick: () -> Unit = {},
 ) {
-    if (state.isHidden) {
-        return
-    }
-    val scope = rememberCoroutineScope()
-    ModalBottomSheet(
-        modifier = Modifier.semantics {
-            collectionInfo = CollectionInfo(
-                rowCount = 2,
-                columnCount = 1,
-            )
-        },
-        onDismissRequest = {
-            scope.launch {
-                state.hide()
-            }
-        },
-        sheetState = state.internalSheetState,
-    ) {
-        Text(
-            modifier = Modifier
-                .padding(
+  if (state.isHidden) {
+    return
+  }
+  val scope = rememberCoroutineScope()
+  ModalBottomSheet(
+      modifier =
+          Modifier.semantics {
+            collectionInfo =
+                CollectionInfo(
+                    rowCount = 2,
+                    columnCount = 1,
+                )
+          },
+      onDismissRequest = { scope.launch { state.hide() } },
+      sheetState = state.internalSheetState,
+  ) {
+    Text(
+        modifier =
+            Modifier.padding(
                     start = IncrementalPaddings.x4,
                 )
                 .padding(
                     vertical = IncrementalPaddings.x3,
                 ),
-            text = state.title,
-            style = MaterialTheme.typography.titleLarge,
-        )
-        NewExpenseListItem(
-            modifier = Modifier.semantics {
-                collectionItemInfo = CollectionItemInfo(
-                    rowIndex = 0,
-                    columnIndex = 0,
-                    columnSpan = 1,
-                    rowSpan = 1,
-                )
+        text = state.title,
+        style = MaterialTheme.typography.titleLarge,
+    )
+    NewExpenseListItem(
+        modifier =
+            Modifier.semantics {
+              collectionItemInfo =
+                  CollectionItemInfo(
+                      rowIndex = 0,
+                      columnIndex = 0,
+                      columnSpan = 1,
+                      rowSpan = 1,
+                  )
             },
-        ) {
-            scope.launch {
-                state.hide()
-            }.invokeOnCompletion {
-                onNewExpenseClick()
-            }
-        }
-        DeleteListItem(
-            modifier = Modifier.semantics {
-                collectionItemInfo = CollectionItemInfo(
-                    rowIndex = 2,
-                    columnSpan = 1,
-                    columnIndex = 0,
-                    rowSpan = 1,
-                )
-            },
-        ) {
-            scope.launch {
-                state.hide()
-            }.invokeOnCompletion {
-                onDeleteClick()
-            }
-        }
+    ) {
+      scope.launch { state.hide() }.invokeOnCompletion { onNewExpenseClick() }
     }
+    DeleteListItem(
+        modifier =
+            Modifier.semantics {
+              collectionItemInfo =
+                  CollectionItemInfo(
+                      rowIndex = 2,
+                      columnSpan = 1,
+                      columnIndex = 0,
+                      rowSpan = 1,
+                  )
+            },
+    ) {
+      scope.launch { state.hide() }.invokeOnCompletion { onDeleteClick() }
+    }
+  }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -97,13 +89,13 @@ fun CategoryMenuModalBottomSheet(
 fun rememberCategoryMenuSheetState(
     title: String = "",
 ): CategoryMenuSheetState {
-    val internalSheetState = rememberModalBottomSheetState()
-    return remember(title) {
-        CategoryMenuSheetState(
-            internalSheetState = internalSheetState,
-            title = title,
-        )
-    }
+  val internalSheetState = rememberModalBottomSheetState()
+  return remember(title) {
+    CategoryMenuSheetState(
+        internalSheetState = internalSheetState,
+        title = title,
+    )
+  }
 }
 
 class CategoryMenuSheetState
@@ -113,17 +105,17 @@ constructor(
     val title: String,
 ) {
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    val isHidden: Boolean
-        get() = internalSheetState.isVisible.not()
+  @OptIn(ExperimentalMaterial3Api::class)
+  val isHidden: Boolean
+    get() = internalSheetState.isVisible.not()
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    suspend fun show() {
-        internalSheetState.show()
-    }
+  @OptIn(ExperimentalMaterial3Api::class)
+  suspend fun show() {
+    internalSheetState.show()
+  }
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    suspend fun hide() {
-        internalSheetState.hide()
-    }
+  @OptIn(ExperimentalMaterial3Api::class)
+  suspend fun hide() {
+    internalSheetState.hide()
+  }
 }

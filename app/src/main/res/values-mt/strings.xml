@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Reġistrutal-ispejjeż</string>
+	<string name="menu_label">Menu</string>
+	<string name="clear_action_label">Iċċara</string>
+	<string name="delete_action_label">Ħassar</string>
+	<string name="save_action_label">Issejvja</string>
+	<string name="cancel_action_label">Ikkanċella</string>
+	<string name="choose_action_label">Agħżel</string>
+	<string name="show_action_label">uri</string>
+	<string name="add_action_label">żid</string>
+	<string name="title_label">Titlu</string>
+	<string name="expenses_title">Spejjeż</string>
+	<string name="settings">Settings</string>
+	<string name="save_error_message">Ma jistax isir is-salvament minħabba input mhux
+		valida.</string>
+	<string name="go_back_button_description">Mur lura</string>
+	<string name="required_text_field_error_label">Żball</string>
+	<string name="new_expense">Spiża Ġdida</string>
+	<string name="new_category">Kategorija ġdida</string>
+	<string name="show_empty_categories_label">Uri kategoriji vojta</string>
+	<string name="navigate_action_label">naviga</string>
+	<string name="confirm_action_label">Tajjeb</string>
+	<string name="show_categories_action_label">Uri l-kategoriji</string>
+	<string name="show_available_currencies_action_label">uri l-muniti disponibbli</string>
+	<string name="date_filter_title">Data</string>
+	<string name="filters_title">Filtri</string>
+	<string name="currency_label">Munita</string>
+	<string name="currency_code_label">Kodiċi tal-munita</string>
+	<string name="amount_label">Ammont</string>
+	<string name="category_label">Kategorija</string>
+	<string name="invalid_format_error">Format invalidu</string>
+	<string name="no_expenses_title">M’hemm l-ebda spejjeż</string>
+	<string name="expenses_categories_title">Kategoriji tal-ispejjeż</string>
+	<string name="total_amount_title">Ammont totali</string>
+	<string name="show_expenses_action_label">Uri l-ispejjeż</string>
+	<string name="delete_dialog_title">Ħassar permanentement?</string>
+	<string name="date_filter_this_month">Dan ix-xahar</string>
+	<string name="date_filter_custom">Data personalizzata</string>
+	<string name="date_filter_this_year">Din is-sena</string>
+	<string name="date_filter_any">Kull data</string>
+	<string name="settings_updated_message">Is-settings ġew aġġornati</string>
+	<string name="expense_created_message">Spejjeż maħluqa</string>
+	<string name="category_created_message">Kategorija maħluqa</string>
+	<string name="delete_expense_text">L-ispiża se titħassar b’mod permanenti.</string>
+	<string name="delete_expense_category_text">It-tħassir tal-kategorija se jneħħi wkoll
+		l-ispejjeż kollha li jappartjenu għaliha.</string>
+	<string name="currency_code_item_label">kodiċi tal-munita: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Għadd ta’ karattri: %d. Limitu tal-karattri: %d</string>
+</resources>

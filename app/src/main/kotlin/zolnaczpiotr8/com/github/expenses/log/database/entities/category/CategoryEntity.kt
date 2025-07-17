@@ -6,15 +6,15 @@ import androidx.room.PrimaryKey
 
 @Entity(
     tableName = "category",
-    indices = [
-        Index(
-            "title",
-            unique = true,
-        ),
-    ],
+    indices =
+        [
+            Index(
+                "title",
+                unique = true,
+            ),
+        ],
 )
 data class CategoryEntity(
-    @PrimaryKey
-    val uuid: String,
+    @PrimaryKey val uuid: String,
     val title: String,
 )

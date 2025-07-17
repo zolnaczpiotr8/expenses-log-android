@@ -20,29 +20,26 @@ fun TextFieldCharacterCounter(
     count: Int,
     limit: Int,
 ) {
-    val label = stringResource(
-        R.string.character_count_and_limit_label,
-        count,
-        limit,
-    )
+  val label =
+      stringResource(
+          R.string.character_count_and_limit_label,
+          count,
+          limit,
+      )
 
-    Row(
-        modifier = modifier
-            .fillMaxWidth()
-            .semantics(mergeDescendants = true) {
-                contentDescription = label
-            },
-        horizontalArrangement = Arrangement.End,
-    ) {
-        Text(
-            modifier = Modifier
-                .clearAndSetSemantics {
-                },
-            text = stringResource(
+  Row(
+      modifier =
+          modifier.fillMaxWidth().semantics(mergeDescendants = true) { contentDescription = label },
+      horizontalArrangement = Arrangement.End,
+  ) {
+    Text(
+        modifier = Modifier.clearAndSetSemantics {},
+        text =
+            stringResource(
                 R.string.character_counter_text,
                 count,
                 limit,
             ),
-        )
-    }
+    )
+  }
 }

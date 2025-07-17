@@ -38,123 +38,115 @@ fun CategoryComboBox(
     modifier: Modifier = Modifier,
     state: CategoryComboBoxState,
     imeAction: ImeAction = ImeAction.Done,
-    onImeAction: () -> Unit = {
-    },
+    onImeAction: () -> Unit = {},
 ) {
-    val errorLabel = stringResource(R.string.required_text_field_error_label)
-    ExposedDropdownMenuBox(
-        expanded = state.isExpanded,
-        onExpandedChange = state::expand,
-    ) {
-        OutlinedTextField(
-            modifier = modifier
-                .menuAnchor(MenuAnchorType.PrimaryEditable)
-                .semantics {
-                    if (state.isError) {
-                        error(errorLabel)
-                    }
-                },
-            isError = state.isError,
-            label = {
-                Text(stringResource(R.string.category_label))
+  val errorLabel = stringResource(R.string.required_text_field_error_label)
+  ExposedDropdownMenuBox(
+      expanded = state.isExpanded,
+      onExpandedChange = state::expand,
+  ) {
+    OutlinedTextField(
+        modifier =
+            modifier.menuAnchor(MenuAnchorType.PrimaryEditable).semantics {
+              if (state.isError) {
+                error(errorLabel)
+              }
             },
-            keyboardOptions = KeyboardOptions(
+        isError = state.isError,
+        label = { Text(stringResource(R.string.category_label)) },
+        keyboardOptions =
+            KeyboardOptions(
                 keyboardType = KeyboardType.Text,
                 imeAction = imeAction,
             ),
-            keyboardActions = KeyboardActions(
-                onAny = {
-                    onImeAction()
-                },
+        keyboardActions =
+            KeyboardActions(
+                onAny = { onImeAction() },
             ),
-            supportingText = {
-                Crossfade(state.isError) {
-                    if (it) {
-                        Text(
-                            modifier = Modifier
-                                .clearAndSetSemantics {
-                                },
-                            text = errorLabel,
-                        )
-                    } else {
-                        TextFieldCharacterCounter(
-                            count = state.textFieldValue.text.length,
-                            limit = TITLE_CHARACTERS_LIMIT,
-                        )
-                    }
-                }
-            },
-            onValueChange = {
-                state.onTextChange(
-                    it.copy(
-                        text = it.text.take(TITLE_CHARACTERS_LIMIT),
-                    ),
-                )
-            },
-            trailingIcon = {
-                val onClickLabel = stringResource(R.string.show_categories_action_label)
-                ExposedDropdownMenuDefaults.TrailingIcon(
-                    expanded = state.isExpanded,
-                    modifier = Modifier
-                        .menuAnchor(MenuAnchorType.SecondaryEditable)
-                        .semantics {
-                            onClick(
-                                label = onClickLabel,
-                                action = null,
-                            )
-                        },
-                )
-            },
-            singleLine = true,
-            value = state.textFieldValue,
-            colors = ExposedDropdownMenuDefaults.outlinedTextFieldColors(),
-        )
-
-        ExposedDropdownMenu(
-            expanded = state.isExpanded,
-            onDismissRequest = state::collapse,
-        ) {
-            state.titles
-                .filter {
-                    it.contains(
-                        other = state.textFieldValue.text,
-                        ignoreCase = true,
+        supportingText = {
+          Crossfade(state.isError) {
+            if (it) {
+              Text(
+                  modifier = Modifier.clearAndSetSemantics {},
+                  text = errorLabel,
+              )
+            } else {
+              TextFieldCharacterCounter(
+                  count = state.textFieldValue.text.length,
+                  limit = TITLE_CHARACTERS_LIMIT,
+              )
+            }
+          }
+        },
+        onValueChange = {
+          state.onTextChange(
+              it.copy(
+                  text = it.text.take(TITLE_CHARACTERS_LIMIT),
+              ),
+          )
+        },
+        trailingIcon = {
+          val onClickLabel = stringResource(R.string.show_categories_action_label)
+          ExposedDropdownMenuDefaults.TrailingIcon(
+              expanded = state.isExpanded,
+              modifier =
+                  Modifier.menuAnchor(MenuAnchorType.SecondaryEditable).semantics {
+                    onClick(
+                        label = onClickLabel,
+                        action = null,
                     )
-                }.forEach {
-                    key(it) {
-                        val onClickLabel = stringResource(R.string.choose_action_label)
-                        DropdownMenuItem(
-                            modifier = Modifier.semantics {
-                                onClick(
-                                    label = onClickLabel,
-                                    action = null,
-                                )
-                            },
-                            onClick = {
-                                if (
-                                    it.equals(
-                                        other = state.textFieldValue.text,
-                                        ignoreCase = true,
-                                    ).not()
-                                ) {
-                                    state.onTextChange(
-                                        TextFieldValue(
-                                            text = it,
-                                            selection = TextRange(it.length),
-                                        ),
-                                    )
-                                    state.collapse()
-                                }
-                            },
-                            text = {
-                                Text(text = it)
-                            },
-                            contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding,
+                  },
+          )
+        },
+        singleLine = true,
+        value = state.textFieldValue,
+        colors = ExposedDropdownMenuDefaults.outlinedTextFieldColors(),
+    )
+
+    ExposedDropdownMenu(
+        expanded = state.isExpanded,
+        onDismissRequest = state::collapse,
+    ) {
+      state.titles
+          .filter {
+            it.contains(
+                other = state.textFieldValue.text,
+                ignoreCase = true,
+            )
+          }
+          .forEach {
+            key(it) {
+              val onClickLabel = stringResource(R.string.choose_action_label)
+              DropdownMenuItem(
+                  modifier =
+                      Modifier.semantics {
+                        onClick(
+                            label = onClickLabel,
+                            action = null,
                         )
+                      },
+                  onClick = {
+                    if (it.equals(
+                            other = state.textFieldValue.text,
+                            ignoreCase = true,
+                        )
+                        .not()) {
+                      state.onTextChange(
+                          TextFieldValue(
+                              text = it,
+                              selection = TextRange(it.length),
+                          ),
+                      )
+                      state.collapse()
                     }
-                }
-        }
+                  },
+                  text = { Text(text = it) },
+                  contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding,
+              )
+            }
+          }
     }
+  }
 }
 
 @Composable
@@ -162,31 +154,28 @@ fun rememberCategoryComboBoxState(
     category: String,
     titles: ImmutableList<String>,
 ): CategoryComboBoxState {
-    val textFieldValueState = rememberSaveable(
-        category,
-        stateSaver = TextFieldValue.Saver,
-    ) {
+  val textFieldValueState =
+      rememberSaveable(
+          category,
+          stateSaver = TextFieldValue.Saver,
+      ) {
         mutableStateOf(
             TextFieldValue(
                 text = category,
                 selection = TextRange(category.length),
             ),
         )
-    }
-    val expandedState = rememberSaveable {
-        mutableStateOf(false)
-    }
-    val errorState = rememberSaveable {
-        mutableStateOf(false)
-    }
-    return remember(titles) {
-        CategoryComboBoxState(
-            titles = titles,
-            expandedState = expandedState,
-            textFieldValueState = textFieldValueState,
-            errorState = errorState,
-        )
-    }
+      }
+  val expandedState = rememberSaveable { mutableStateOf(false) }
+  val errorState = rememberSaveable { mutableStateOf(false) }
+  return remember(titles) {
+    CategoryComboBoxState(
+        titles = titles,
+        expandedState = expandedState,
+        textFieldValueState = textFieldValueState,
+        errorState = errorState,
+    )
+  }
 }
 
 class CategoryComboBoxState(
@@ -195,29 +184,29 @@ class CategoryComboBoxState(
     private val errorState: MutableState<Boolean>,
     private val expandedState: MutableState<Boolean>,
 ) {
-    val textFieldValue: TextFieldValue by textFieldValueState
-    val isError: Boolean by errorState
-    val isExpanded: Boolean by expandedState
+  val textFieldValue: TextFieldValue by textFieldValueState
+  val isError: Boolean by errorState
+  val isExpanded: Boolean by expandedState
 
-    fun collapse() {
-        expand(false)
-    }
+  fun collapse() {
+    expand(false)
+  }
 
-    fun expand(
-        expand: Boolean,
-    ) {
-        expandedState.value = expand
-        errorState.value = false
-    }
+  fun expand(
+      expand: Boolean,
+  ) {
+    expandedState.value = expand
+    errorState.value = false
+  }
 
-    fun validate() {
-        errorState.value = textFieldValue.text.isBlank()
-    }
+  fun validate() {
+    errorState.value = textFieldValue.text.isBlank()
+  }
 
-    fun onTextChange(
-        textFieldValue: TextFieldValue,
-    ) {
-        textFieldValueState.value = textFieldValue
-        errorState.value = false
-    }
+  fun onTextChange(
+      textFieldValue: TextFieldValue,
+  ) {
+    textFieldValueState.value = textFieldValue
+    errorState.value = false
+  }
 }

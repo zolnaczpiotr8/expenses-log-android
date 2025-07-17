@@ -14,21 +14,20 @@ private data class NewExpense(
 )
 
 fun NavGraphBuilder.newExpenseDestination(
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    composable<NewExpense> {
-        NewExpenseScreen(
-            category = it.toRoute<NewExpense>().category,
-            onGoBackClick = onGoBackClick,
-        )
-    }
+  composable<NewExpense> {
+    NewExpenseScreen(
+        category = it.toRoute<NewExpense>().category,
+        onGoBackClick = onGoBackClick,
+    )
+  }
 }
 
 fun NavController.navigateToNewExpense(
     category: String? = null,
 ) {
-    navigate(
-        route = NewExpense(category),
-    )
+  navigate(
+      route = NewExpense(category),
+  )
 }
