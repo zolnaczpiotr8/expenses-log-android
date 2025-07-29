@@ -14,23 +14,23 @@ import zolnaczpiotr8.com.github.expenses.log.database.daos.ShowEmptyCategoriesDa
 @InstallIn(SingletonComponent::class)
 object DaosModule {
 
-    @Provides
-    fun provideShowEmptyCategoriesDao(
-        database: ExpensesLogDatabase,
-    ): ShowEmptyCategoriesDao = database.showEmptyCategoriesDao()
+  @Provides
+  fun provideShowEmptyCategoriesDao(
+      database: ExpensesLogDatabase,
+  ): ShowEmptyCategoriesDao = database.showEmptyCategoriesDao()
 
-    @Provides
-    fun provideDateFilterDao(
-        database: ExpensesLogDatabase,
-    ): DateFilterDao = database.dateFilterDao()
+  @Provides
+  fun provideDateFilterDao(
+      database: ExpensesLogDatabase,
+  ): DateFilterDao = database.dateFilterDao()
 
-    @Provides
-    fun provideCategoryDao(
-        database: ExpensesLogDatabase,
-    ): CategoryDao = database.categoryDao()
+  @Provides
+  fun provideCategoryDao(
+      database: ExpensesLogDatabase,
+  ): CategoryDao = database.categoryDao()
 
-    @Provides
-    fun provideExpenseDao(
-        database: ExpensesLogDatabase,
-    ): ExpenseDao = database.expenseDao()
+  @Provides
+  fun provideExpenseDao(
+      database: ExpensesLogDatabase,
+  ): ExpenseDao = database.expenseDao()
 }

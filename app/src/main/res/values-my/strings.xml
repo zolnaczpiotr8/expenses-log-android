@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">ค่าใช้จ่ายမှတ်တမ်း</string>
+	<string name="menu_label">မီနူး</string>
+	<string name="clear_action_label">ရှင်းပါ</string>
+	<string name="delete_action_label">ဖျက်ပါ</string>
+	<string name="save_action_label">သိမ်းပါ</string>
+	<string name="cancel_action_label">ဖျက်ပါ</string>
+	<string name="choose_action_label">ရွေးပါ</string>
+	<string name="show_action_label">ပြပါ</string>
+	<string name="add_action_label">ထည့်ပါ</string>
+	<string name="title_label">ခေါင်းစဉ်</string>
+	<string name="expenses_title">အသုံးစရိတ်များ</string>
+	<string name="settings">ဆက်တင်များ</string>
+	<string name="save_error_message">အမှန်မဖြစ်သော ဒေတာလျှောက်မှုကြောင့် သိမ်းဆည်း၍
+		မရနိုင်ပါ။</string>
+	<string name="go_back_button_description">ပြန်သွားပါ</string>
+	<string name="required_text_field_error_label">အမှား</string>
+	<string name="new_expense">အသစ်အသုံး</string>
+	<string name="new_category">အမျိုးအစားအသစ်</string>
+	<string name="show_empty_categories_label">အလွတ်အကြောင်းအမျိုးအစားများကို ပြပါ</string>
+	<string name="navigate_action_label">သွားပါ</string>
+	<string name="confirm_action_label">အိုကေ</string>
+	<string name="show_categories_action_label">အမျိုးအစားများ ပြပါ</string>
+	<string name="show_available_currencies_action_label">ရနိုင်သောငွေကြေးများကိုပြပါ</string>
+	<string name="date_filter_title">ရက်စွဲ</string>
+	<string name="filters_title">ဖီလ်တာများ</string>
+	<string name="currency_label">ငွေကြေး</string>
+	<string name="currency_code_label">ငွေကြေးကုဒ်</string>
+	<string name="amount_label">ပမာဏ</string>
+	<string name="category_label">အမျိုးအစား</string>
+	<string name="invalid_format_error">မမှန်ကန်သောဖော်မက်</string>
+	<string name="no_expenses_title">ဘိုးချမှုများ မရှိပါ</string>
+	<string name="expenses_categories_title">အသုံးစရိတ်အမျိုးအစားများ</string>
+	<string name="total_amount_title">စုစုပေါင်းငွေပမာဏ</string>
+	<string name="show_expenses_action_label">အသုံးစရိတ်များ ပြပါ</string>
+	<string name="delete_dialog_title">အမြဲတမ်းဖျက်မှာလား?</string>
+	<string name="date_filter_this_month">ဒီလ</string>
+	<string name="date_filter_custom">မိမိစိတ်ကြိုက်ရက်စွဲ</string>
+	<string name="date_filter_this_year">ဒီနှစ်</string>
+	<string name="date_filter_any">မည်သည့်ရက်စွဲမဆို</string>
+	<string name="settings_updated_message">ဆက်တင်များကိုအသစ်ပြင်ဆင်ပြီးပါပြီ</string>
+	<string name="expense_created_message">ချေးငွေဖန်တီးပြီးပါပြီ</string>
+	<string name="category_created_message">အုပ်စုကိုဖန်တီးပြီးပါပြီ</string>
+	<string name="delete_expense_text">အသုံးစရိတ်ကိုအမြဲတမ်းဖျက်သိမ်းပါမည်။</string>
+	<string name="delete_expense_category_text">အမျိုးအစားကို ဖျက်လိုက်သည်ဖြင့်၊ ထိုအမျိုးအစားနှင့်
+		ဆက်စပ်နေသော အသုံးစရိတ်အားလုံးလည်း ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
+	<string name="currency_code_item_label">ငွေကြေးကုဒ်: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">အက္ခရာအရေအတွက်: %d။ အက္ခရာကန့်သတ်ချက်: %d</string>
+</resources>

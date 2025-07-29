@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey
     tableName = "show_empty_categories",
 )
 data class ShowEmptyCategoriesEntity(
-    @PrimaryKey
-    val id: Int = 1,
+    @PrimaryKey val id: Int = 1,
     val value: Boolean,
 )

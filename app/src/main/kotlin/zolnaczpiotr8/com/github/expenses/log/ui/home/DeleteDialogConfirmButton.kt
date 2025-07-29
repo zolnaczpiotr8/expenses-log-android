@@ -8,10 +8,7 @@ import zolnaczpiotr8.com.github.expenses.log.R
 
 @Composable
 fun DeleteDialogConfirmButton(
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    TextButton(onClick = onClick) {
-        Text(stringResource(R.string.delete_action_label))
-    }
+  TextButton(onClick = onClick) { Text(stringResource(R.string.delete_action_label)) }
 }

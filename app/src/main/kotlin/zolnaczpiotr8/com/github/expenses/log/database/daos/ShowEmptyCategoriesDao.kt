@@ -10,18 +10,18 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.ShowEmptyCategori
 @Dao
 interface ShowEmptyCategoriesDao {
 
-    @Query(
-        """
+  @Query(
+      """
             SELECT * 
             FROM show_empty_categories
         """,
-    )
-    fun showEmptyCategories(): Flow<ShowEmptyCategoriesEntity?>
+  )
+  fun showEmptyCategories(): Flow<ShowEmptyCategoriesEntity?>
 
-    @Insert(
-        onConflict = OnConflictStrategy.REPLACE,
-    )
-    suspend fun insert(
-        entity: ShowEmptyCategoriesEntity,
-    )
+  @Insert(
+      onConflict = OnConflictStrategy.REPLACE,
+  )
+  suspend fun insert(
+      entity: ShowEmptyCategoriesEntity,
+  )
 }

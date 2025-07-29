@@ -12,22 +12,22 @@ import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun ExpensesLogTheme(content: @Composable () -> Unit) {
-    val dynamicColor = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
-    val colorScheme =
-        when {
-            dynamicColor && isSystemInDarkTheme() -> dynamicDarkColorScheme(LocalContext.current)
-            dynamicColor && isSystemInDarkTheme().not() ->
-                dynamicLightColorScheme(
-                    LocalContext.current,
-                )
-            isSystemInDarkTheme() -> darkColorScheme
-            else -> lightColorScheme
-        }
+  val dynamicColor = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+  val colorScheme =
+      when {
+        dynamicColor && isSystemInDarkTheme() -> dynamicDarkColorScheme(LocalContext.current)
+        dynamicColor && isSystemInDarkTheme().not() ->
+            dynamicLightColorScheme(
+                LocalContext.current,
+            )
+        isSystemInDarkTheme() -> darkColorScheme
+        else -> lightColorScheme
+      }
 
-    MaterialTheme(
-        content = content,
-        colorScheme = colorScheme,
-    )
+  MaterialTheme(
+      content = content,
+      colorScheme = colorScheme,
+  )
 }
 
 private val lightColorScheme =

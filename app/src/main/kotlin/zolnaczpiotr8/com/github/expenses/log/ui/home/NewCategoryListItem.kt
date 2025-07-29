@@ -17,21 +17,24 @@ fun NewCategoryListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
-    ListItem(
-        modifier = modifier.clickable(
-            onClick = onClick,
-            onClickLabel = stringResource(R.string.add_action_label),
-        ).focusable(),
-        leadingContent = {
-            Icon(
-                imageVector = Icons.Default.Category,
-                contentDescription = null,
-            )
-        },
-        headlineContent = {
-            Text(
-                text = stringResource(R.string.new_category),
-            )
-        },
-    )
+  ListItem(
+      modifier =
+          modifier
+              .clickable(
+                  onClick = onClick,
+                  onClickLabel = stringResource(R.string.add_action_label),
+              )
+              .focusable(),
+      leadingContent = {
+        Icon(
+            imageVector = Icons.Default.Category,
+            contentDescription = null,
+        )
+      },
+      headlineContent = {
+        Text(
+            text = stringResource(R.string.new_category),
+        )
+      },
+  )
 }

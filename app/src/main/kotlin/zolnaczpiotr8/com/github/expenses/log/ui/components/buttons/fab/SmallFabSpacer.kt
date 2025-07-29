@@ -8,10 +8,9 @@ import zolnaczpiotr8.com.github.expenses.log.ui.components.Measurements
 
 @Composable
 fun SmallFabSpacer() {
-    Spacer(
-        Modifier.height(
-            Measurements.SmallFab.height +
-                Measurements.SmallFab.padding,
-        ),
-    )
+  Spacer(
+      Modifier.height(
+          Measurements.SmallFab.height + Measurements.SmallFab.padding,
+      ),
+  )
 }

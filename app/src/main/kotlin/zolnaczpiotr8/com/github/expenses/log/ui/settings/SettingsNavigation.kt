@@ -6,23 +6,20 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import kotlinx.serialization.Serializable
 
-@Serializable
-@Stable
-private data object Settings
+@Serializable @Stable private data object Settings
 
 fun NavGraphBuilder.settingsDestination(
-    onGoBackClick: () -> Unit = {
-    },
+    onGoBackClick: () -> Unit = {},
 ) {
-    composable<Settings> {
-        SettingsScreen(
-            onGoBackClick = onGoBackClick,
-        )
-    }
+  composable<Settings> {
+    SettingsScreen(
+        onGoBackClick = onGoBackClick,
+    )
+  }
 }
 
 fun NavController.navigateToSettings() {
-    navigate(
-        route = Settings,
-    )
+  navigate(
+      route = Settings,
+  )
 }

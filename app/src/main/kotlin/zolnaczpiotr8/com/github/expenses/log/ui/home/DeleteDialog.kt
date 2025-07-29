@@ -15,48 +15,45 @@ import zolnaczpiotr8.com.github.expenses.log.R
 @Composable
 fun DeleteDialog(
     isVisible: Boolean = false,
-    onHide: () -> Unit = {
-    },
-    onDeleteClick: () -> Unit = {
-    },
+    onHide: () -> Unit = {},
+    onDeleteClick: () -> Unit = {},
     text: String = "",
 ) {
-    if (isVisible.not()) {
-        return
-    }
-    AlertDialog(
-        icon = {
-            Icon(
-                imageVector = Icons.Default.Delete,
-                contentDescription = null,
-            )
-        },
-        title = {
-            Text(
-                stringResource(R.string.delete_dialog_title),
-            )
-        },
-        text = {
-            Text(
-                modifier = Modifier
-                    .fillMaxWidth(),
-                textAlign = TextAlign.Center,
-                text = text,
-            )
-        },
-        onDismissRequest = onHide,
-        confirmButton = {
-            DeleteDialogConfirmButton(
-                onClick = {
-                    onDeleteClick()
-                    onHide()
-                },
-            )
-        },
-        dismissButton = {
-            DeleteDialogDismissButton(
-                onClick = onHide,
-            )
-        },
-    )
+  if (isVisible.not()) {
+    return
+  }
+  AlertDialog(
+      icon = {
+        Icon(
+            imageVector = Icons.Default.Delete,
+            contentDescription = null,
+        )
+      },
+      title = {
+        Text(
+            stringResource(R.string.delete_dialog_title),
+        )
+      },
+      text = {
+        Text(
+            modifier = Modifier.fillMaxWidth(),
+            textAlign = TextAlign.Center,
+            text = text,
+        )
+      },
+      onDismissRequest = onHide,
+      confirmButton = {
+        DeleteDialogConfirmButton(
+            onClick = {
+              onDeleteClick()
+              onHide()
+            },
+        )
+      },
+      dismissButton = {
+        DeleteDialogDismissButton(
+            onClick = onHide,
+        )
+      },
+  )
 }

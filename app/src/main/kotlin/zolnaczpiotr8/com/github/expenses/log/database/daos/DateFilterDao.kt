@@ -10,18 +10,18 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.date.filter.DateF
 @Dao
 interface DateFilterDao {
 
-    @Query(
-        """
+  @Query(
+      """
             SELECT * 
             FROM date_filter
         """,
-    )
-    fun dateFilter(): Flow<DateFilterEntity?>
+  )
+  fun dateFilter(): Flow<DateFilterEntity?>
 
-    @Insert(
-        onConflict = OnConflictStrategy.REPLACE,
-    )
-    suspend fun insert(
-        entity: DateFilterEntity,
-    )
+  @Insert(
+      onConflict = OnConflictStrategy.REPLACE,
+  )
+  suspend fun insert(
+      entity: DateFilterEntity,
+  )
 }

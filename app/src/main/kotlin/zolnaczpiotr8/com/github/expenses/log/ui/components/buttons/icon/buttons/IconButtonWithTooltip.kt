@@ -24,47 +24,45 @@ fun IconButtonWithTooltip(
     modifier: Modifier = Modifier,
     imageVector: ImageVector,
     label: String,
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
     onClickLabel: String? = null,
 ) {
-    val interactionSource = remember {
-        MutableInteractionSource()
+  val interactionSource = remember { MutableInteractionSource() }
+  val state = rememberTooltipState()
+  val isFocused by interactionSource.collectIsFocusedAsState()
+  LaunchedEffect(isFocused) {
+    if (isFocused) {
+      state.show()
+    } else {
+      state.dismiss()
     }
-    val state = rememberTooltipState()
-    val isFocused by interactionSource.collectIsFocusedAsState()
-    LaunchedEffect(isFocused) {
-        if (isFocused) {
-            state.show()
-        } else {
-            state.dismiss()
-        }
-    }
-    TooltipBox(
-        modifier = modifier,
-        positionProvider = TooltipDefaults.rememberPlainTooltipPositionProvider(),
-        state = state,
-        focusable = false,
-        tooltip = {
-            Text(
-                text = label,
-            )
-        },
-    ) {
-        IconButton(
-            modifier = Modifier.semantics {
-                onClick(
-                    action = null,
-                    label = onClickLabel,
-                )
+  }
+  TooltipBox(
+      modifier = modifier,
+      positionProvider = TooltipDefaults.rememberPlainTooltipPositionProvider(),
+      state = state,
+      focusable = false,
+      tooltip = {
+        Text(
+            text = label,
+        )
+      },
+  ) {
+    IconButton(
+        modifier =
+            Modifier.semantics {
+              onClick(
+                  action = null,
+                  label = onClickLabel,
+              )
             },
-            onClick = onClick,
-            interactionSource = interactionSource,
-        ) {
-            Icon(
-                imageVector = imageVector,
-                contentDescription = label,
-            )
-        }
+        onClick = onClick,
+        interactionSource = interactionSource,
+    ) {
+      Icon(
+          imageVector = imageVector,
+          contentDescription = label,
+      )
     }
+  }
 }

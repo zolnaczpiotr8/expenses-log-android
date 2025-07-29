@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Kuluderegister</string>
+	<string name="menu_label">Menüü</string>
+	<string name="clear_action_label">Puhasta</string>
+	<string name="delete_action_label">Kustuta</string>
+	<string name="save_action_label">Salvesta</string>
+	<string name="cancel_action_label">Tühista</string>
+	<string name="choose_action_label">Vali</string>
+	<string name="show_action_label">kuva</string>
+	<string name="add_action_label">lisa</string>
+	<string name="title_label">Pealkiri</string>
+	<string name="expenses_title">Kulud</string>
+	<string name="settings">Seaded</string>
+	<string name="save_error_message">Salvestamine ebaõnnestus – sisend ei vasta
+		nõuetele.</string>
+	<string name="go_back_button_description">Mine tagasi</string>
+	<string name="required_text_field_error_label">Viga</string>
+	<string name="new_expense">Uus Kulu</string>
+	<string name="new_category">Uus kategooria</string>
+	<string name="show_empty_categories_label">Näita tühje kategooriaid</string>
+	<string name="navigate_action_label">navigeeri</string>
+	<string name="confirm_action_label">Olgu</string>
+	<string name="show_categories_action_label">Kuva kategooriad</string>
+	<string name="show_available_currencies_action_label">kuva saadaval olevad valuutad</string>
+	<string name="date_filter_title">Kuupäev</string>
+	<string name="filters_title">Filtrid</string>
+	<string name="currency_label">Valuuta</string>
+	<string name="currency_code_label">Valuuta kood</string>
+	<string name="amount_label">Summa</string>
+	<string name="category_label">Kategooria</string>
+	<string name="invalid_format_error">Vigane vorming</string>
+	<string name="no_expenses_title">Kulutusi pole</string>
+	<string name="expenses_categories_title">Kulukategooriad</string>
+	<string name="total_amount_title">Kogusumma</string>
+	<string name="show_expenses_action_label">Kuva kulud</string>
+	<string name="delete_dialog_title">Püsivalt kustutada?</string>
+	<string name="date_filter_this_month">See kuu</string>
+	<string name="date_filter_custom">Kohandatud kuupäev</string>
+	<string name="date_filter_this_year">Sel aastal</string>
+	<string name="date_filter_any">Suvaline kuupäev</string>
+	<string name="settings_updated_message">Seaded on uuendatud</string>
+	<string name="expense_created_message">Kulu loodud</string>
+	<string name="category_created_message">Kategooria loodud</string>
+	<string name="delete_expense_text">Kulu kustutatakse jäädavalt.</string>
+	<string name="delete_expense_category_text">Kategooria kustutamine eemaldab ka kõik sellega
+		seotud kulud.</string>
+	<string name="currency_code_item_label">valuutakood: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Märkide arv: %d. Märkide piirang: %d</string>
+</resources>

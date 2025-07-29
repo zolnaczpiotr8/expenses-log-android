@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Сабтихарҷҳо</string>
+	<string name="menu_label">Меню</string>
+	<string name="clear_action_label">Тоза кардан</string>
+	<string name="delete_action_label">Нест кардан</string>
+	<string name="save_action_label">Нигоҳ дор</string>
+	<string name="cancel_action_label">Бекор кардан</string>
+	<string name="choose_action_label">Интихоб кунед</string>
+	<string name="show_action_label">нишон додан</string>
+	<string name="add_action_label">илова кунед</string>
+	<string name="title_label">Сарлавҳа</string>
+	<string name="expenses_title">Хароҷот</string>
+	<string name="settings">Танзимот</string>
+	<string name="save_error_message">Аз сабаби воридоти номӯътабар наметавонад захира
+		кунад.</string>
+	<string name="go_back_button_description">Бозгашт</string>
+	<string name="required_text_field_error_label">Хато</string>
+	<string name="new_expense">Харҷи Нав</string>
+	<string name="new_category">Категорияи нав</string>
+	<string name="show_empty_categories_label">Намоиши категорияҳои холӣ</string>
+	<string name="navigate_action_label">паймоиш кунед</string>
+	<string name="confirm_action_label">Хуб</string>
+	<string name="show_categories_action_label">Нишон додани категорияҳо</string>
+	<string name="show_available_currencies_action_label">нишон додани асъори дастрас</string>
+	<string name="date_filter_title">Сана</string>
+	<string name="filters_title">Филтрҳо</string>
+	<string name="currency_label">Асъор</string>
+	<string name="currency_code_label">Рамзи асъор</string>
+	<string name="amount_label">Маблағ</string>
+	<string name="category_label">Категория</string>
+	<string name="invalid_format_error">Формати нодуруст</string>
+	<string name="no_expenses_title">Ҳеҷ хароҷот нест</string>
+	<string name="expenses_categories_title">Категорияҳои хароҷот</string>
+	<string name="total_amount_title">Ҳамаги маблағ</string>
+	<string name="show_expenses_action_label">Нишон додани хароҷот</string>
+	<string name="delete_dialog_title">Доимӣ нест кардан?</string>
+	<string name="date_filter_this_month">Ин моҳ</string>
+	<string name="date_filter_custom">Санаи фармоишӣ</string>
+	<string name="date_filter_this_year">Имсол</string>
+	<string name="date_filter_any">Ҳар сана</string>
+	<string name="settings_updated_message">Танзимот нав шуд</string>
+	<string name="expense_created_message">Хароҷот эҷод шуд</string>
+	<string name="category_created_message">Категория эҷод шуд</string>
+	<string name="delete_expense_text">Хароҷот ба таври доимӣ ҳазф карда мешавад.</string>
+	<string name="delete_expense_category_text">Ҳузфи категория инчунин ҳамаи хароҷотҳои вобастаро
+		низ ҳазф мекунад.</string>
+	<string name="currency_code_item_label">рамзи асъор: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Миқдори ҳарфҳо: %d. Ҳадди ҳарфҳо: %d</string>
+</resources>

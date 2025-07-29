@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Logcostais</string>
+	<string name="menu_label">Roghchlár</string>
+	<string name="clear_action_label">Glan</string>
+	<string name="delete_action_label">Scrios</string>
+	<string name="save_action_label">Sábháil</string>
+	<string name="cancel_action_label">Cealaigh</string>
+	<string name="choose_action_label">Roghnaigh</string>
+	<string name="show_action_label">taispeáin</string>
+	<string name="add_action_label">cuir leis</string>
+	<string name="title_label">Teideal</string>
+	<string name="expenses_title">Caiteachais</string>
+	<string name="settings">Socruithe</string>
+	<string name="save_error_message">Ní féidir sábháil mar gheall ar ionchur
+		neamhbhailí.</string>
+	<string name="go_back_button_description">Téigh ar ais</string>
+	<string name="required_text_field_error_label">Earráid</string>
+	<string name="new_expense">Costas Nua</string>
+	<string name="new_category">Catagóir nua</string>
+	<string name="show_empty_categories_label">Taispeáin catagóirí folmha</string>
+	<string name="navigate_action_label">nascleanúint</string>
+	<string name="confirm_action_label">Ceart go leor</string>
+	<string name="show_categories_action_label">Taispeáin catagóirí</string>
+	<string name="show_available_currencies_action_label">taispeáin na hairgeadraí atá ar fáil</string>
+	<string name="date_filter_title">Dáta</string>
+	<string name="filters_title">Scagairí</string>
+	<string name="currency_label">Airgeadra</string>
+	<string name="currency_code_label">Cód airgeadra</string>
+	<string name="amount_label">Méid</string>
+	<string name="category_label">Catagóir</string>
+	<string name="invalid_format_error">Formáid neamhbhailí</string>
+	<string name="no_expenses_title">Níl aon chaiteachas</string>
+	<string name="expenses_categories_title">Catagóirí caiteachais</string>
+	<string name="total_amount_title">Méid iomlán</string>
+	<string name="show_expenses_action_label">Taispeáin caiteachais</string>
+	<string name="delete_dialog_title">Scrios go buan?</string>
+	<string name="date_filter_this_month">An mhí seo</string>
+	<string name="date_filter_custom">Dáta saincheaptha</string>
+	<string name="date_filter_this_year">I mbliana</string>
+	<string name="date_filter_any">Aon dáta</string>
+	<string name="settings_updated_message">Socruithe nuashonraithe</string>
+	<string name="expense_created_message">Costas cruthaithe</string>
+	<string name="category_created_message">Cruthaíodh an chatagóir</string>
+	<string name="delete_expense_text">Scriosfar an costas go buan.</string>
+	<string name="delete_expense_category_text">Má scriostar an chatagóir, scriosfar freisin gach
+		costas a bhaineann léi.</string>
+	<string name="currency_code_item_label">cód airgeadais: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Líon carachtar: %d. Teorainn charachtar: %d</string>
+</resources>

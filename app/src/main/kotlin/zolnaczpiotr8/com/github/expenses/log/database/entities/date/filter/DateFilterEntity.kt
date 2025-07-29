@@ -11,8 +11,7 @@ import kotlin.time.Instant
 data class DateFilterEntity
 @OptIn(ExperimentalTime::class)
 constructor(
-    @PrimaryKey
-    val id: Int = 1,
+    @PrimaryKey val id: Int = 1,
     val title: String,
     val start: Instant? = null,
     val finish: Instant? = null,

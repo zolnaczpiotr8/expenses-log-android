@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Regjistriishpenzimeve</string>
+	<string name="menu_label">Meny</string>
+	<string name="clear_action_label">Pastro</string>
+	<string name="delete_action_label">Fshij</string>
+	<string name="save_action_label">Ruaj</string>
+	<string name="cancel_action_label">Anulo</string>
+	<string name="choose_action_label">Zgjidh</string>
+	<string name="show_action_label">shfaq</string>
+	<string name="add_action_label">shto</string>
+	<string name="title_label">Titull</string>
+	<string name="expenses_title">Shpenzimet</string>
+	<string name="settings">Cilësimet</string>
+	<string name="save_error_message">E pamundur për të ruajtur për shkak të hyrjes së
+		pavlefshme.</string>
+	<string name="go_back_button_description">Kthehu</string>
+	<string name="required_text_field_error_label">Gabim</string>
+	<string name="new_expense">Shpenzim i Ri</string>
+	<string name="new_category">Kategori e re</string>
+	<string name="show_empty_categories_label">Trego kategori të zbrazëta</string>
+	<string name="navigate_action_label">lundro</string>
+	<string name="confirm_action_label">Në rregull</string>
+	<string name="show_categories_action_label">Shfaq kategoritë</string>
+	<string name="show_available_currencies_action_label">shfaq monedhat e disponueshme</string>
+	<string name="date_filter_title">Datë</string>
+	<string name="filters_title">Filtër</string>
+	<string name="currency_label">Monedhë</string>
+	<string name="currency_code_label">Kodi i monedhës</string>
+	<string name="amount_label">Shumë</string>
+	<string name="category_label">Kategoria</string>
+	<string name="invalid_format_error">Format i pavlefshëm</string>
+	<string name="no_expenses_title">Asnjë shpenzim</string>
+	<string name="expenses_categories_title">Kategoritë e shpenzimeve</string>
+	<string name="total_amount_title">Shuma totale</string>
+	<string name="show_expenses_action_label">Shfaq shpenzimet</string>
+	<string name="delete_dialog_title">Fshini përgjithmonë?</string>
+	<string name="date_filter_this_month">Këtë muaj</string>
+	<string name="date_filter_custom">Datë e personalizuar</string>
+	<string name="date_filter_this_year">Këtë vit</string>
+	<string name="date_filter_any">Çdo datë</string>
+	<string name="settings_updated_message">Cilësimet u përditësuan</string>
+	<string name="expense_created_message">Shpenzimi u krijua</string>
+	<string name="category_created_message">Kategoria u krijua</string>
+	<string name="delete_expense_text">Shpenzimi do të fshihet përgjithmonë.</string>
+	<string name="delete_expense_category_text">Fshirja e kategorisë do të heqë gjithashtu të
+		gjitha shpenzimet që i përkasin asaj.</string>
+	<string name="currency_code_item_label">kodi i monedhës: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Numri i karaktereve: %d. Kufiri i karaktereve: %d</string>
+</resources>

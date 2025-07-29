@@ -1,19 +1,20 @@
 rootProject.name = "Expenses-Log"
+
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
+  repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
+  }
 }
 
 dependencyResolutionManagement {
-    repositories {
-        google()
-        mavenCentral()
-    }
+  repositories {
+    google()
+    mavenCentral()
+  }
 }
 
 include(

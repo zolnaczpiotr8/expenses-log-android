@@ -8,12 +8,11 @@ import zolnaczpiotr8.com.github.expenses.log.R
 
 @Composable
 fun DeleteDialogDismissButton(
-    onClick: () -> Unit = {
-    },
+    onClick: () -> Unit = {},
 ) {
-    TextButton(
-        onClick = onClick,
-    ) {
-        Text(stringResource(R.string.cancel_action_label))
-    }
+  TextButton(
+      onClick = onClick,
+  ) {
+    Text(stringResource(R.string.cancel_action_label))
+  }
 }

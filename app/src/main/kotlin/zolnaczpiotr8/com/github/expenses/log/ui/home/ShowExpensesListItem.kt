@@ -17,20 +17,23 @@ fun ShowExpensesListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
-    ListItem(
-        modifier = modifier.clickable(
-            onClick = onClick,
-        ).focusable(),
-        leadingContent = {
-            Icon(
-                imageVector = Icons.Default.Visibility,
-                contentDescription = null,
-            )
-        },
-        headlineContent = {
-            Text(
-                text = stringResource(R.string.show_expenses_action_label),
-            )
-        },
-    )
+  ListItem(
+      modifier =
+          modifier
+              .clickable(
+                  onClick = onClick,
+              )
+              .focusable(),
+      leadingContent = {
+        Icon(
+            imageVector = Icons.Default.Visibility,
+            contentDescription = null,
+        )
+      },
+      headlineContent = {
+        Text(
+            text = stringResource(R.string.show_expenses_action_label),
+        )
+      },
+  )
 }

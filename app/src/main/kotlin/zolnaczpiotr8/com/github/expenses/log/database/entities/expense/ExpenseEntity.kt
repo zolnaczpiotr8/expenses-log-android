@@ -6,34 +6,35 @@ import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
 import kotlin.time.ExperimentalTime
 import kotlin.time.Instant
+import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
 
 private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
 
 @Entity(
     tableName = "expense",
-    foreignKeys = [
-        ForeignKey(
-            entity = CategoryEntity::class,
-            parentColumns = ["uuid"],
-            childColumns = [CATEGORY_UUID_COLUMN_NAME],
-            onDelete = ForeignKey.CASCADE,
-            onUpdate = ForeignKey.CASCADE,
-        ),
-    ],
-    indices = [
-        Index(
-            CATEGORY_UUID_COLUMN_NAME,
-        ),
-    ],
+    foreignKeys =
+        [
+            ForeignKey(
+                entity = CategoryEntity::class,
+                parentColumns = ["uuid"],
+                childColumns = [CATEGORY_UUID_COLUMN_NAME],
+                onDelete = ForeignKey.CASCADE,
+                onUpdate = ForeignKey.CASCADE,
+            ),
+        ],
+    indices =
+        [
+            Index(
+                CATEGORY_UUID_COLUMN_NAME,
+            ),
+        ],
 )
 data class ExpenseEntity
 @OptIn(ExperimentalTime::class)
 constructor(
-    @PrimaryKey
-    val uuid: String,
+    @PrimaryKey val uuid: String,
     val title: String?,
     val amount: BigDecimal,
     @ColumnInfo(

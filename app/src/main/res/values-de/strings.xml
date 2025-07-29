@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="DuplicateStrings">
+	<string name="application_label">Ausgabenprotokoll</string>
+	<string name="menu_label">Menü</string>
+	<string name="clear_action_label">Löschen</string>
+	<string name="delete_action_label">Löschen</string>
+	<string name="save_action_label">Speichern</string>
+	<string name="cancel_action_label">Abbrechen</string>
+	<string name="choose_action_label">Wählen</string>
+	<string name="show_action_label">anzeigen</string>
+	<string name="add_action_label">hinzufügen</string>
+	<string name="title_label">Titel</string>
+	<string name="expenses_title">Ausgaben</string>
+	<string name="settings">Einstellungen</string>
+	<string name="save_error_message">Speichern nicht möglich aufgrund ungültiger
+		Eingabe.</string>
+	<string name="go_back_button_description">Zurückgehen</string>
+	<string name="required_text_field_error_label">Fehler</string>
+	<string name="new_expense">Neue Ausgabe</string>
+	<string name="new_category">Neue Kategorie</string>
+	<string name="show_empty_categories_label">Leere Kategorien anzeigen</string>
+	<string name="navigate_action_label">navigieren</string>
+	<string name="confirm_action_label">OK</string>
+	<string name="show_categories_action_label">Kategorien anzeigen</string>
+	<string name="show_available_currencies_action_label">verfügbare Währungen anzeigen</string>
+	<string name="date_filter_title">Datum</string>
+	<string name="filters_title">Filter</string>
+	<string name="currency_label">Währung</string>
+	<string name="currency_code_label">Währungscode</string>
+	<string name="amount_label">Betrag</string>
+	<string name="category_label">Kategorie</string>
+	<string name="invalid_format_error">Ungültiges Format</string>
+	<string name="no_expenses_title">Keine Ausgaben</string>
+	<string name="expenses_categories_title">Ausgabenkategorien</string>
+	<string name="total_amount_title">Gesamtbetrag</string>
+	<string name="show_expenses_action_label">Ausgaben anzeigen</string>
+	<string name="delete_dialog_title">Dauerhaft löschen?</string>
+	<string name="date_filter_this_month">Diesen Monat</string>
+	<string name="date_filter_custom">Benutzerdefiniertes Datum</string>
+	<string name="date_filter_this_year">Dieses Jahr</string>
+	<string name="date_filter_any">Beliebiges Datum</string>
+	<string name="settings_updated_message">Einstellungen aktualisiert</string>
+	<string name="expense_created_message">Ausgabe erstellt</string>
+	<string name="category_created_message">Kategorie erstellt</string>
+	<string name="delete_expense_text">Die Ausgabe wird dauerhaft gelöscht.</string>
+	<string name="delete_expense_category_text">Das Löschen der Kategorie entfernt auch alle
+		dazugehörigen Ausgaben.</string>
+	<string name="currency_code_item_label">Währungscode: %s</string>
+	<string name="character_count_and_limit_label"
+		tools:ignore="PluralsCandidate">Anzahl der Zeichen: %d. Zeichenlimit: %d</string>
+</resources>

@@ -36,177 +36,164 @@ fun DateFilterModalBottomSheet(
     onMonthClicked: () -> Unit = {},
     onAnyDateClicked: () -> Unit = {},
 ) {
-    if (state.isHidden) {
-        return
-    }
+  if (state.isHidden) {
+    return
+  }
 
-    val scope = rememberCoroutineScope()
-    ModalBottomSheet(
-        modifier = modifier.semantics {
-            selectableGroup()
-        },
-        onDismissRequest = {
-            scope.launch {
-                state.hide()
-            }
-        },
-        sheetState = state.internalSheetState,
-    ) {
-        Text(
-            modifier = Modifier
-                .padding(
+  val scope = rememberCoroutineScope()
+  ModalBottomSheet(
+      modifier = modifier.semantics { selectableGroup() },
+      onDismissRequest = { scope.launch { state.hide() } },
+      sheetState = state.internalSheetState,
+  ) {
+    Text(
+        modifier =
+            Modifier.padding(
                     start = IncrementalPaddings.x4,
                 )
                 .padding(
                     vertical = IncrementalPaddings.x3,
                 ),
-            text = stringResource(R.string.date_filter_title),
-            style = MaterialTheme.typography.titleMedium,
-        )
-        val anySelected = state.filter is DateFilter.Any
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
+        text = stringResource(R.string.date_filter_title),
+        style = MaterialTheme.typography.titleLarge,
+    )
+    val anySelected = state.filter is DateFilter.Any
+    Row(
+        modifier =
+            Modifier.fillMaxWidth()
                 .wrapContentHeight()
                 .selectable(
                     selected = anySelected,
                     onClick = {
-                        scope.launch {
-                            state.hide()
-                        }.invokeOnCompletion {
-                            onAnyDateClicked()
-                        }
+                      scope.launch { state.hide() }.invokeOnCompletion { onAnyDateClicked() }
                     },
                     role = Role.RadioButton,
                 ),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            RadioButton(
-                modifier = Modifier.padding(
-                    start = IncrementalPaddings.x4,
-                ),
-                selected = anySelected,
-                onClick = null,
-            )
-            Text(
-                text = stringResource(R.string.date_filter_any),
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(
-                    horizontal = IncrementalPaddings.x4,
-                    vertical = IncrementalPaddings.x3,
-                ),
-            )
-        }
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+      RadioButton(
+          modifier =
+              Modifier.padding(
+                  start = IncrementalPaddings.x4,
+              ),
+          selected = anySelected,
+          onClick = null,
+      )
+      Text(
+          text = stringResource(R.string.date_filter_any),
+          style = MaterialTheme.typography.bodyLarge,
+          modifier =
+              Modifier.padding(
+                  horizontal = IncrementalPaddings.x4,
+                  vertical = IncrementalPaddings.x3,
+              ),
+      )
+    }
 
-        val isMonthSelected = state.filter is DateFilter.Month
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
+    val isMonthSelected = state.filter is DateFilter.Month
+    Row(
+        modifier =
+            Modifier.fillMaxWidth()
                 .wrapContentHeight()
                 .selectable(
                     selected = isMonthSelected,
                     onClick = {
-                        scope.launch {
-                            state.hide()
-                        }.invokeOnCompletion {
-                            onMonthClicked()
-                        }
+                      scope.launch { state.hide() }.invokeOnCompletion { onMonthClicked() }
                     },
                     role = Role.RadioButton,
                 ),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            RadioButton(
-                modifier = Modifier.padding(
-                    start = IncrementalPaddings.x4,
-                ),
-                selected = isMonthSelected,
-                onClick = null,
-            )
-            Text(
-                text = stringResource(R.string.date_filter_this_month),
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(
-                    horizontal = IncrementalPaddings.x4,
-                    vertical = IncrementalPaddings.x3,
-                ),
-            )
-        }
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+      RadioButton(
+          modifier =
+              Modifier.padding(
+                  start = IncrementalPaddings.x4,
+              ),
+          selected = isMonthSelected,
+          onClick = null,
+      )
+      Text(
+          text = stringResource(R.string.date_filter_this_month),
+          style = MaterialTheme.typography.bodyLarge,
+          modifier =
+              Modifier.padding(
+                  horizontal = IncrementalPaddings.x4,
+                  vertical = IncrementalPaddings.x3,
+              ),
+      )
+    }
 
-        val isYearSelected = state.filter is DateFilter.Year
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
+    val isYearSelected = state.filter is DateFilter.Year
+    Row(
+        modifier =
+            Modifier.fillMaxWidth()
                 .wrapContentHeight()
                 .selectable(
                     selected = isYearSelected,
                     onClick = {
-                        scope.launch {
-                            state.hide()
-                        }.invokeOnCompletion {
-                            onYearClicked()
-                        }
+                      scope.launch { state.hide() }.invokeOnCompletion { onYearClicked() }
                     },
                     role = Role.RadioButton,
                 ),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            RadioButton(
-                modifier = Modifier.padding(
-                    start = IncrementalPaddings.x4,
-                ),
-                selected = isYearSelected,
-                onClick = null,
-            )
-            Text(
-                text = stringResource(R.string.date_filter_this_year),
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(
-                    horizontal = IncrementalPaddings.x4,
-                    vertical = IncrementalPaddings.x3,
-                ),
-            )
-        }
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+      RadioButton(
+          modifier =
+              Modifier.padding(
+                  start = IncrementalPaddings.x4,
+              ),
+          selected = isYearSelected,
+          onClick = null,
+      )
+      Text(
+          text = stringResource(R.string.date_filter_this_year),
+          style = MaterialTheme.typography.bodyLarge,
+          modifier =
+              Modifier.padding(
+                  horizontal = IncrementalPaddings.x4,
+                  vertical = IncrementalPaddings.x3,
+              ),
+      )
+    }
 
-        val isCustomSelected = state.filter is DateFilter.Custom
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
+    val isCustomSelected = state.filter is DateFilter.Custom
+    Row(
+        modifier =
+            Modifier.fillMaxWidth()
                 .wrapContentHeight()
                 .selectable(
                     selected = isCustomSelected,
                     onClick = {
-                        scope.launch {
-                            state.hide()
-                        }.invokeOnCompletion {
-                            onCustomClicked()
-                        }
+                      scope.launch { state.hide() }.invokeOnCompletion { onCustomClicked() }
                     },
                     role = Role.RadioButton,
                 ),
-            verticalAlignment = Alignment.CenterVertically,
-        ) {
-            RadioButton(
-                modifier = Modifier.padding(
-                    start = IncrementalPaddings.x4,
-                ),
-                selected = isCustomSelected,
-                onClick = null,
-            )
-            Text(
-                text = if (isCustomSelected) {
-                    state.filter.toString()
-                } else {
-                    stringResource(R.string.date_filter_custom)
-                },
-                style = MaterialTheme.typography.bodyLarge,
-                modifier = Modifier.padding(
-                    horizontal = IncrementalPaddings.x4,
-                    vertical = IncrementalPaddings.x3,
-                ),
-            )
-        }
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+      RadioButton(
+          modifier =
+              Modifier.padding(
+                  start = IncrementalPaddings.x4,
+              ),
+          selected = isCustomSelected,
+          onClick = null,
+      )
+      Text(
+          text =
+              if (isCustomSelected) {
+                state.filter.toString()
+              } else {
+                stringResource(R.string.date_filter_custom)
+              },
+          style = MaterialTheme.typography.bodyLarge,
+          modifier =
+              Modifier.padding(
+                  horizontal = IncrementalPaddings.x4,
+                  vertical = IncrementalPaddings.x3,
+              ),
+      )
     }
+  }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -214,13 +201,13 @@ fun DateFilterModalBottomSheet(
 fun rememberDateFilterSheetState(
     filter: DateFilter = DateFilter.Month,
 ): DateFilterSheetState {
-    val internalSheetState = rememberModalBottomSheetState()
-    return remember(filter) {
-        DateFilterSheetState(
-            internalSheetState = internalSheetState,
-            filter = filter,
-        )
-    }
+  val internalSheetState = rememberModalBottomSheetState()
+  return remember(filter) {
+    DateFilterSheetState(
+        internalSheetState = internalSheetState,
+        filter = filter,
+    )
+  }
 }
 
 class DateFilterSheetState
@@ -230,17 +217,17 @@ constructor(
     val filter: DateFilter,
 ) {
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    val isHidden: Boolean
-        get() = internalSheetState.isVisible.not()
+  @OptIn(ExperimentalMaterial3Api::class)
+  val isHidden: Boolean
+    get() = internalSheetState.isVisible.not()
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    suspend fun show() {
-        internalSheetState.show()
-    }
+  @OptIn(ExperimentalMaterial3Api::class)
+  suspend fun show() {
+    internalSheetState.show()
+  }
 
-    @OptIn(ExperimentalMaterial3Api::class)
-    suspend fun hide() {
-        internalSheetState.hide()
-    }
+  @OptIn(ExperimentalMaterial3Api::class)
+  suspend fun hide() {
+    internalSheetState.hide()
+  }
 }

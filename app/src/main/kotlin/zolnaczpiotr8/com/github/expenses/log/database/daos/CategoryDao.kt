@@ -11,17 +11,17 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.category.Category
 @Dao
 interface CategoryDao {
 
-    @Query(
-        """
+  @Query(
+      """
         SELECT title
         FROM category
         ORDER BY title
     """,
-    )
-    fun categoriesTitles(): Flow<List<String>>
+  )
+  fun categoriesTitles(): Flow<List<String>>
 
-    @Query(
-        """
+  @Query(
+      """
         SELECT category.uuid AS uuid,
         category.title AS title,
         SUM(ifnull(expense.amount,0)) AS total_amount
@@ -37,18 +37,18 @@ interface CategoryDao {
         HAVING SUM(ifnull(expense.amount,0)) + MIN(ifnull(show_empty_categories.value, 0)) > 0
         ORDER BY category.title
     """,
-    )
-    fun categories(): Flow<List<CategoryTotalEntity>>
+  )
+  fun categories(): Flow<List<CategoryTotalEntity>>
 
-    @Insert(
-        onConflict = OnConflictStrategy.IGNORE,
-    )
-    suspend fun insert(entity: CategoryEntity)
+  @Insert(
+      onConflict = OnConflictStrategy.IGNORE,
+  )
+  suspend fun insert(entity: CategoryEntity)
 
-    @Query(
-        "DELETE from category WHERE uuid = :uuid",
-    )
-    suspend fun delete(
-        uuid: String,
-    )
+  @Query(
+      "DELETE from category WHERE uuid = :uuid",
+  )
+  suspend fun delete(
+      uuid: String,
+  )
 }

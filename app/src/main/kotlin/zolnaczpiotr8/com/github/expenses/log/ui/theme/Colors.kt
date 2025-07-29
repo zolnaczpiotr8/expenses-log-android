@@ -1,4 +1,5 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.theme
+
 import androidx.compose.ui.graphics.Color
 
 val lightPrimary = Color(0Xff9C413D)

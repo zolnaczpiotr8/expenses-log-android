@@ -4,22 +4,18 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
 import kotlinx.serialization.Serializable
 
-@Serializable
-data object Home
+@Serializable data object Home
 
 fun NavGraphBuilder.homeDestination(
-    onNewExpenseClick: (String?) -> Unit = {
-    },
-    onNewCategoryClick: () -> Unit = {
-    },
-    onSettingsClick: () -> Unit = {
-    },
+    onNewExpenseClick: (String?) -> Unit = {},
+    onNewCategoryClick: () -> Unit = {},
+    onSettingsClick: () -> Unit = {},
 ) {
-    composable<Home> {
-        HomeScreen(
-            onNewExpenseClick = onNewExpenseClick,
-            onNewCategoryClick = onNewCategoryClick,
-            onSettingsClick = onSettingsClick,
-        )
-    }
+  composable<Home> {
+    HomeScreen(
+        onNewExpenseClick = onNewExpenseClick,
+        onNewCategoryClick = onNewCategoryClick,
+        onSettingsClick = onSettingsClick,
+    )
+  }
 }
