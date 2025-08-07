@@ -26,7 +26,6 @@
 	<string name="date_filter_title">ਤਾਰੀਖ</string>
 	<string name="filters_title">ਫਿਲਟਰ</string>
 	<string name="currency_label">ਮੁਦਰਾ</string>
-	<string name="currency_code_label">ਕਰੰਸੀ ਕੋਡ</string>
 	<string name="amount_label">ਰਕਮ</string>
 	<string name="category_label">ਸ਼੍ਰੇਣੀ</string>
 	<string name="invalid_format_error">ਗਲਤ ਫਾਰਮੈਟ</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">ਕਰੰਸੀ ਕੋਡ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ਅੱਖਰ ਗਿਣਤੀ: %d। ਅੱਖਰ ਸੀਮਾ: %d</string>
+	<string name="privacy_policy">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ਤੁਹਾਡੇ ਡੇਟਾ ਤੁਹਾਡੇ ਕੋਲ ਰਹਿੰਦੇ ਹਨ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">ਅਸੀਂ ਤੁਹਾਡੀ ਗੋਪਨੀਯਤਾ ਦਾ ਸਤਿਕਾਰ ਕਰਦੇ ਹਾਂ। ਇਹ ਐਪ ਪੂਰੀ
+		ਤਰ੍ਹਾਂ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਕੋਈ ਵੀ ਡਾਟਾ ਇਕੱਠਾ ਜਾਂ ਸਾਂਝਾ ਨਹੀਂ ਕਰਦੀ।
+		ਇਹ ਨੀਤੀ ਸਾਰੀ ਦੁਨੀਆ ਦੇ ਸਾਰੇ ਉਪਭੋਗਤਿਆਂ ਲਈ ਲਾਗੂ ਹੁੰਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਹਰ ਉਮਰ
+		ਦੇ ਬੱਚੇ ਵੀ ਸ਼ਾਮਲ ਹਨ। ਅਸੀਂ ਕੋਈ ਵੀ ਨਿੱਜੀ ਜਾਂ ਗੈਰ-ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਇਕੱਠੀ,
+		ਸਟੋਰ, ਪ੍ਰਸਾਰਿਤ ਜਾਂ ਸਾਂਝੀ ਨਹੀਂ ਕਰਦੇ। ਐਪ ਪੂਰੀ ਤਰ੍ਹਾਂ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦੀ ਹੈ।
+		ਸਾਰੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਬਿਨਾਂ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਦੇ ਵਰਤੀ ਜਾ ਸਕਦੀਆਂ ਹਨ, ਅਤੇ
+		ਕਦੇ ਵੀ ਕੋਈ ਡਾਟਾ ਐਕਸੈਸ ਜਾਂ ਭੇਜਿਆ ਨਹੀਂ ਜਾਂਦਾ।</string>
+	<string name="privacy_policy_local_only_data_storage_title">ਸਿਰਫ਼ ਸਥਾਨਕ ਡਾਟਾ ਸਟੋਰੇਜ</string>
+	<string name="privacy_policy_local_only_data_storage_body">ਤੁਸੀਂ ਐਪ ਵਿੱਚ ਭਰਿਆ ਹੋਇਆ ਸਾਰਾ ਜਾਣਕਾਰੀ ਸਿਰਫ ਤੁਹਾਡੇ
+		ਆਪਣੇ ਡਿਵਾਈਸ ਵਿੱਚ ਹੀ ਸਟੋਰ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਹ ਕਦੇ ਵੀ ਅੱਪਲੋਡ ਨਹੀਂ ਕੀਤੀ
+		ਜਾਂਦੀ, ਨਾ ਹੀ ਬਾਹਰੀ ਸਰਵਰਾਂ ’ਤੇ ਬੈਕਅੱਪ ਜਾਂ ਕਿਸੇ ਨਾਲ ਸਾਂਝੀ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।
+		ਅਸੀਂ ਇਸ ਜਾਣਕਾਰੀ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕਰ ਸਕਦੇ ਅਤੇ ਨਾ ਹੀ ਕਰ ਸਕਦੇ ਹਾਂ।</string>
+	<string name="privacy_policy_no_third_party_services_title">ਕੋਈ ਤੀਜੀ ਪੱਖ ਦੀਆਂ ਸੇਵਾਵਾਂ ਨਹੀਂ</string>
+	<string name="privacy_policy_no_third_party_services_body">ਐਪ ਤੀਜੀ ਪੱਖੀ SDK, ਵਿਸ਼ਲੇਸ਼ਣ ਟੂਲ, ਵਿਗਿਆਪਨ ਨੈੱਟਵਰਕ
+		ਜਾਂ ਕੋਈ ਵੀ ਬਾਹਰੀ ਸੇਵਾ ਜੋ ਡੇਟਾ ਇਕੱਠਾ ਕਰਦੀ ਹੈ, ਵਰਤੋਂ ਨਹੀਂ ਕਰਦੀ। ਸਾਡੇ
+		ਸਮੇਤ ਹੋਰ ਕਿਸੇ ਨੂੰ ਵੀ ਤੁਹਾਡੇ ਐਪ ਦੇ ਇਸਤੇਮਾਲ ਜਾਂ ਡੇਟਾ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਹੈ।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ਡਾਟਾ ਨਿਯੰਤਰਣ ਅਤੇ ਮਿਟਾਉਣਾ</string>
+	<string name="privacy_policy_data_control_and_deletion_body">ਤੁਸੀਂ ਭਰਦੇ ਹੋਏ ਜਾਣਕਾਰੀ ’ਤੇ ਪੂਰਾ ਕੰਟਰੋਲ ਰੱਖਦੇ ਹੋ।
+		ਤੁਸੀਂ ਐਪ ਨੂੰ ਅਣਇੰਸਟਾਲ ਕਰਕੇ ਜਾਂ ਇਸਦੀ ਸਟੋਰੇਜ ਨੂੰ ਸਾਫ ਕਰਕੇ ਕਿਸੇ ਵੀ ਵੇਲੇ
+		ਆਪਣਾ ਡੇਟਾ ਮਿਟਾ ਸਕਦੇ ਹੋ। ਕਿਉਂਕਿ ਕੁਝ ਵੀ ਬਾਹਰਲੀ ਤੌਰ ’ਤੇ ਸਟੋਰ ਨਹੀਂ ਹੁੰਦਾ,
+		ਹੋਰ ਕਦਮ ਲੈਣ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ।</string>
+	<string name="privacy_policy_children_privacy_title">ਬੱਚਿਆਂ ਦੀ ਪਰਦਾਧਾਰੀ</string>
+	<string name="privacy_policy_children_privacy_body">ਐਪ ਸਾਰੇ ਯੂਜ਼ਰਾਂ ਲਈ ਸੁਰੱਖਿਅਤ ਹੈ, ਜਿਸ ਵਿੱਚ 13 ਸਾਲ ਤੋਂ
+		ਘੱਟ ਉਮਰ ਦੇ ਬੱਚੇ ਵੀ ਸ਼ਾਮਲ ਹਨ। ਕੋਈ ਵੀ ਨਿੱਜੀ ਡੇਟਾ ਇਕੱਠਾ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ,
+		ਜੋ ਕਿ ਇਸ ਨੂੰ COPPA ਅਤੇ GDPR-K ਵਰਗੇ ਗਲੋਬਲ ਬੱਚਿਆਂ ਦੀ ਪਰਦੇਦਾਰੀ ਕਾਨੂੰਨਾਂ
+		ਦੇ ਅਨੁਕੂਲ ਬਣਾਉਂਦਾ ਹੈ।</string>
+	<string name="privacy_policy_your_rights_title">ਤੁਹਾਡੇ ਅਧਿਕਾਰ</string>
+	<string name="privacy_policy_your_rights_body">ਜਿਵੇਂ ਕੋਈ ਡੇਟਾ ਇਕੱਤਰ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਇਸ ਲਈ ਤੁਹਾਡੇ
+		ਲਈ ਸਾਡੀ ਰਾਹੀਂ ਪਹੁੰਚ ਕਰਨ, ਅੱਪਡੇਟ ਕਰਨ ਜਾਂ ਮਿਟਾਉਣ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਹੈ। ਸਾਰਾ
+		ਡੇਟਾ ਤੁਹਾਡਾ ਹੀ ਹੈ ਅਤੇ ਸਿਰਫ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ’ਤੇ ਹੀ ਰਹਿੰਦਾ ਹੈ।</string>
+	<string name="privacy_policy_contact_information_title">ਸੰਪਰਕ ਜਾਣਕਾਰੀ</string>
+	<string name="privacy_policy_changes_title">ਇਸ ਨੀਤੀ ਵਿੱਚ ਤਬਦੀਲੀਆਂ</string>
+	<string name="privacy_policy_effective_date_title">ਪ੍ਰਭਾਵੀ ਮਿਤੀ</string>
+	<string name="privacy_policy_email_subject">ਪਰਦਾਅ ਨੀਤੀ ਬਾਰੇ ਪੁੱਛਗਿੱਛ – %s</string>
+	<string name="policies">ਨੀਤੀਆਂ</string>
+	<string name="privacy_policy_contact_information_body">ਜੇ ਤੁਹਾਨੂੰ ਇਸ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਜਾਂ ਚਿੰਤਾ
+		ਹੋਵੇ, ਤਾਂ ਤੁਸੀਂ ਸਾਨੂੰ ਈਮੇਲ ਰਾਹੀਂ ਸੰਪਰਕ ਕਰ ਸਕਦੇ ਹੋ।</string>
+	<string name="privacy_policy_changes_body">ਜੇਕਰ ਐਪ ਦੀ ਕਾਰਗੁਜ਼ਾਰੀ ਕਿਸੇ ਅਜਿਹੇ ਢੰਗ ਨਾਲ ਬਦਲਦੀ ਹੈ
+		ਜੋ ਤੁਹਾਡੀ ਪਰਦੇਦਾਰੀ ਨੂੰ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀ ਹੈ, ਤਾਂ ਇਹ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਅਨੁਸਾਰ
+		ਅੱਪਡੇਟ ਕੀਤੀ ਜਾਵੇਗੀ। ਅਸੀਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਕਈ ਵਾਰ ਨੀਤੀ ਦੀ ਸਮੀਖਿਆ ਕਰਨ ਲਈ
+		ਉਤਸ਼ਾਹਤ ਕਰਦੇ ਹਾਂ।</string>
+	<string name="privacy_policy_effective_date_body">ਪ੍ਰਭਾਵੀ ਮਿਤੀ ਦਾ ਅਰਥ ਹੈ ਉਹ ਦਿਨ ਜਦੋਂ ਇਹ ਗੋਪਨੀਯਤਾ ਨੀਤੀ
+		ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤੀ ਗਈ ਸੀ ਜਾਂ ਲਾਗੂ ਹੋਈ ਸੀ। ਐਪ ਤੁਹਾਡੇ ਡਾਟਾ ਨੂੰ ਕਿਵੇਂ
+		ਹੈਂਡਲ ਕਰਦਾ ਹੈ, ਇਸ ਵਿੱਚ ਹੋਣ ਵਾਲੀਆਂ ਕੋਈ ਵੀ ਤਬਦੀਲੀਆਂ ਇਸ ਨੀਤੀ ਦੇ ਅੱਪਡੇਟ
+		ਕੀਤੇ ਗਏ ਸੰਸਕਰਨ ਵਿੱਚ ਦਰਸਾਈਆਂ ਜਾਣਗੀਆਂ। ਅਸੀਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਇਹ ਨੀਤੀ
+		ਸਮੇਂ-ਸਮੇਂ ਤੇ ਸਮੀਖਿਆ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਜੋ ਉਹ ਆਪਣੀ ਜਾਣਕਾਰੀ ਨਾਲ
+		ਕਿਵੇਂ ਵਿਵਹਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਇਸ ਬਾਰੇ ਜਾਣੂ ਰਹਿ ਸਕਣ।</string>
 </resources>

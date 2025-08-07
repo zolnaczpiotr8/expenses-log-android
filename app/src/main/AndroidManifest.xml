@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:tools="http://schemas.android.com/tools"
-	android:installLocation="auto"
+	android:installLocation="auto" android:versionName="0.0.0"
+	android:versionCode="0"
 	xmlns:android="http://schemas.android.com/apk/res/android">
 
-	<application
-		android:name="zolnaczpiotr8.com.github.expenses.log.ExpensesLogApplication"
+	<application android:name=".ExpensesLogApplication"
 		android:appCategory="productivity" android:hardwareAccelerated="true"
 		android:enableOnBackInvokedCallback="true"
 		android:icon="@mipmap/ic_launcher" android:theme="@style/Theme.App"
 		android:label="@string/application_label" android:supportsRtl="true">
-		<meta-data
-			android:name="com.google.android.gms.ads.APPLICATION_ID"
-			android:value="ca-app-pub-5227433167994526~8264800494" />
 		<profileable android:shell="true" tools:targetApi="q" />
-		<activity
-			android:name="zolnaczpiotr8.com.github.expenses.log.ui.MainActivity"
+		<activity android:name=".ui.MainActivity"
 			android:exported="true" android:windowSoftInputMode="adjustResize">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />

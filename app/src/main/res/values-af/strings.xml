@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filters</string>
 	<string name="currency_label">Geldeenheid</string>
-	<string name="currency_code_label">Geldeenheidkode</string>
 	<string name="amount_label">Bedrag</string>
 	<string name="category_label">Kategorie</string>
 	<string name="invalid_format_error">Ongeldige formaat</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">geldeenheidkode: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karaktertelling: %d. Karakterlimiet: %d</string>
+	<string name="privacy_policy">Privaatheidsbeleid</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Jou data bly by jou</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Ons respekteer jou privaatheid. Hierdie app werk
+		heeltemal aflyn en versamel of deel geen data nie. Hierdie beleid geld
+		vir alle gebruikers wêreldwyd, insluitend kinders van alle ouderdomme.
+		Ons versamel, stoor, stuur of deel geen persoonlike of nie-persoonlike
+		inligting nie. Die app werk heeltemal aflyn. Alle funksies kan sonder
+		internetverbinding gebruik word, en geen data word ooit toeganklik
+		gemaak of gestuur nie.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Slegs Plaaslike Data Berging</string>
+	<string name="privacy_policy_local_only_data_storage_body">Alle inligting wat jy in die app invoer, word slegs
+		op jou eie toestel gestoor. Dit word nooit opgelaai, na eksterne
+		bedieners gesteun, of met enigiemand gedeel nie. Ons het nie toegang
+		tot hierdie inligting nie en kan dit nie kry nie.</string>
+	<string name="privacy_policy_no_third_party_services_title">Geen Derdeparty-Dienste</string>
+	<string name="privacy_policy_no_third_party_services_body">Die app gebruik nie derdeparty-SDK’s, analitiese
+		gereedskap, advertensienetwerke of enige eksterne dienste wat data
+		versamel nie. Niemand anders, insluitend ons, het toegang tot jou
+		appgebruik of data nie.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Databeheer en Skrapping</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Jy het volle beheer oor die inligting wat jy
+		invoer. Jy kan jou data enige tyd uitvee deur die toepassing te
+		verwyder of sy stoorplek skoon te maak. Omdat niks eksterne gestoor
+		word nie, is geen verdere stappe nodig nie.</string>
+	<string name="privacy_policy_children_privacy_title">Kinders se Privaatheid</string>
+	<string name="privacy_policy_children_privacy_body">Die toepassing is veilig vir alle gebruikers,
+		insluitend kinders onder die ouderdom van 13. Geen persoonlike data
+		word ingesamel nie, wat dit in ooreenstemming maak met wêreldwye
+		kinderprivaatheidswette soos COPPA en GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Jou Regte</string>
+	<string name="privacy_policy_your_rights_body">Aangesien geen data versamel word nie, is daar niks
+		wat jy via ons kan toegang kry, opdateer of verwyder nie. Alle data is
+		joune en bly uitsluitlik op jou toestel.</string>
+	<string name="privacy_policy_contact_information_title">Kontakinligting</string>
+	<string name="privacy_policy_changes_title">Veranderinge aan hierdie beleid</string>
+	<string name="privacy_policy_effective_date_title">Inwerkingtredingsdatum</string>
+	<string name="privacy_policy_email_subject">Privaatheidsbeleid Navraag – %s</string>
+	<string name="policies">Beleid</string>
+	<string name="privacy_policy_contact_information_body">As u enige vrae of bekommernisse rakende hierdie
+		Privaatheidsbeleid het, kan u ons per e-pos kontak.</string>
+	<string name="privacy_policy_changes_body">As die funksionaliteit van die toepassing verander
+		op ’n manier wat jou privaatheid beïnvloed, sal hierdie
+		Privaatheidsbeleid dienooreenkomstig opgedateer word. Ons moedig
+		gebruikers aan om die beleid van tyd tot tyd na te gaan.</string>
+	<string name="privacy_policy_effective_date_body">Die effektiewe datum verwys na die dag waarop
+		hierdie Privaatheidsbeleid laas bygewerk of in werking gestel is.
+		Enige veranderinge aan hoe die toepassing jou data hanteer, sal in ’n
+		bygewerkte weergawe van hierdie beleid weerspieël word. Ons moedig
+		gebruikers aan om hierdie beleid gereeld te hersien om ingelig te bly
+		oor hoe hul inligting hanteer word.</string>
 </resources>

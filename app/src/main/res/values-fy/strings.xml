@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filters</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Muntkoade</string>
 	<string name="amount_label">Bedrach</string>
 	<string name="category_label">Kategory</string>
 	<string name="invalid_format_error">Unjildich formaat</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">faluta koade: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Tekenantal: %d. Tekenlimyt: %d</string>
+	<string name="privacy_policy">Privacybelied</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Jo gegevens bliuwe by jo</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Wy respektearje jo privacy. Dizze app wurket
+		folslein offline en sammelt of dielt gjin gegevens. Dit belied jildt
+		foar alle brûkers wrâldwiid, ynklusyf bern fan alle leeftiden. Wy
+		sammelje, bewarje, stjoere of diele gjin persoanlike of
+		net-persoanlike ynformaasje. De app wurket folslein offline. Alle
+		funksjes kinne brûkt wurde sûnder ynternetferbining, en gjin gegevens
+		wurde ea tagong krigen of ferstjoerd.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Allinnich Lokale Gegevensopslach</string>
+	<string name="privacy_policy_local_only_data_storage_body">Alle ynformaasje dy’t jo ynfiere yn de app wurdt
+		allinnich opslein op jo eigen apparaat. It wurdt nea opladen, bewarre
+		op eksterne servers, of dield mei immen oars. Wy hawwe gjin tagong ta
+		dizze ynformaasje en kinne it ek net besjen.</string>
+	<string name="privacy_policy_no_third_party_services_title">Gjin Tredde-Partij Tsjinsten</string>
+	<string name="privacy_policy_no_third_party_services_body">De app brûkt gjin tredde-partij SDK’s, analytyske
+		ark, advertinsjenetwurken of eksterne tsjinsten dy’t gegevens
+		sammelje. Nimmen oars, ynklusyf ús, hat tagong ta jo app-gebrûk of
+		gegevens.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Gegevenskontrôle en Wiskjen</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Do hast folsleine kontrôle oer de ynformaasje
+		dy’tsto ynfierst. Do kinst dyn gegevens op elk momint wiskje troch de
+		app te deïnstallearjen of syn opslach skjin te meitsjen. Om’t der neat
+		eksterne opslein wurdt, binne gjin ekstra stappen nedich.</string>
+	<string name="privacy_policy_children_privacy_title">Bern har Privacy</string>
+	<string name="privacy_policy_children_privacy_body">De app is feilich foar alle brûkers, ynklusyf bern
+		ûnder de 13 jier. Der wurdt gjin persoanlike ynformaasje sammele, wat
+		it neilibjen fan wrâldwide wetten oer bernesprivacy lykas COPPA en
+		GDPR-K mooglik makket.</string>
+	<string name="privacy_policy_your_rights_title">Jo Rjochten</string>
+	<string name="privacy_policy_your_rights_body">Om’t gjin gegevens sammele wurde, is der neat dat
+		jo fia ús besjen, bywurkje of wiskje kinne. Alle gegevens binne fan jo
+		en bliuwe allinnich op jo apparaat.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktgegevens</string>
+	<string name="privacy_policy_changes_title">Wizigingen yn dit belied</string>
+	<string name="privacy_policy_effective_date_title">Ynfiersdatum</string>
+	<string name="privacy_policy_email_subject">Fersyk oer Privacybelied – %s</string>
+	<string name="policies">Belied</string>
+	<string name="privacy_policy_contact_information_body">As jo fragen of soargen hawwe oer dit
+		privacybelied, kinne jo kontakt mei ús opnimme fia e-mail.</string>
+	<string name="privacy_policy_changes_body">As de funksjonaliteit fan de app feroaret op in
+		wize dy’t jo privacy beynfloedet, sil dit Privacybelied dêroan oanpast
+		wurde. Wy stimulearje brûkers om it belied sa no en dan troch te
+		nimmen.</string>
+	<string name="privacy_policy_effective_date_body">De ynfiersdatum ferwiist nei de dei dat dit
+		Privacybelied foar it lêst bywurke of fan krêft wurden is. Alle
+		feroarings yn hoe’t de app jo gegevens behannelet, sille werjûn wurde
+		yn in bywurke ferzje fan dit belied. Wy riede brûkers oan om dit
+		belied geregeld te besjen om ynformearre te bliuwen oer hoe’t harren
+		ynformaasje behannele wurdt.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filteri</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Valutni kod</string>
 	<string name="amount_label">Iznos</string>
 	<string name="category_label">Kategorija</string>
 	<string name="invalid_format_error">Nevažeći format</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">kod valute: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Broj znakova: %d. Ograničenje znakova: %d</string>
+	<string name="privacy_policy">Pravila privatnosti</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Vaši podaci ostaju kod vas</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Poštujemo vašu privatnost. Ova aplikacija
+		funkcionira u potpunosti offline i ne prikuplja niti dijeli nikakve
+		podatke. Ova politika vrijedi za sve korisnike širom svijeta,
+		uključujući djecu svih dobnih skupina. Ne prikupljamo, ne
+		pohranjujemo, ne prenosimo niti dijelimo bilo kakve osobne ili
+		neosobne informacije. Aplikacija radi potpuno offline. Sve funkcije
+		mogu se koristiti bez internetske veze i nikakvi podaci nikada nisu
+		pristupljeni niti poslani bilo gdje.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Lokalno Pohranjivanje Podataka</string>
+	<string name="privacy_policy_local_only_data_storage_body">Sve informacije koje unesete u aplikaciju
+		pohranjuju se isključivo na vašem uređaju. Nikada se ne učitavaju, ne
+		spremaju na vanjske poslužitelje niti dijele s bilo kim. Mi nemamo i
+		ne možemo imati pristup tim informacijama.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nema Usluga Trećih Strana</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikacija ne koristi SDK-ove trećih strana,
+		analitičke alate, mreže za oglašavanje niti bilo koje vanjske usluge
+		koje prikupljaju podatke. Nitko, uključujući nas, nema pristup vašem
+		korištenju aplikacije ili podacima.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Upravljanje i Brisanje Podataka</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Imate potpunu kontrolu nad informacijama koje
+		unosite. Možete izbrisati svoje podatke u bilo kojem trenutku
+		deinstalacijom aplikacije ili čišćenjem njezine pohrane. Budući da se
+		ništa ne pohranjuje izvanjski, nisu potrebni dodatni koraci.</string>
+	<string name="privacy_policy_children_privacy_title">Privatnost Djece</string>
+	<string name="privacy_policy_children_privacy_body">Aplikacija je sigurna za sve korisnike, uključujući
+		djecu mlađu od 13 godina. Ne prikupljaju se osobni podaci, što je čini
+		usklađenom s globalnim zakonima o privatnosti djece kao što su COPPA i
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Vaša Prava</string>
+	<string name="privacy_policy_your_rights_body">Kako se ne prikupljaju podaci, ne postoji ništa
+		čemu možete pristupiti, ažurirati ili izbrisati putem nas. Svi podaci
+		su vaši i ostaju isključivo na vašem uređaju.</string>
+	<string name="privacy_policy_contact_information_title">Kontakt informacije</string>
+	<string name="privacy_policy_changes_title">Promjene ove politike</string>
+	<string name="privacy_policy_effective_date_title">Datum stupanja na snagu</string>
+	<string name="privacy_policy_email_subject">Upit o Politici Privatnosti – %s</string>
+	<string name="policies">Politike</string>
+	<string name="privacy_policy_contact_information_body">Ako imate bilo kakva pitanja ili nedoumice u vezi s
+		ovom Politikom privatnosti, možete nas kontaktirati putem e-pošte.</string>
+	<string name="privacy_policy_changes_body">Ako se funkcionalnost aplikacije promijeni na način
+		koji utječe na vašu privatnost, ova Pravila o privatnosti bit će
+		ažurirana u skladu s tim. Preporučujemo korisnicima da povremeno
+		pregledaju pravila.</string>
+	<string name="privacy_policy_effective_date_body">Datum stupanja na snagu odnosi se na dan kada je
+		ova Politika privatnosti posljednji put ažurirana ili je stupila na
+		snagu. Sve promjene u načinu na koji aplikacija rukuje vašim podacima
+		bit će odražene u ažuriranoj verziji ove politike. Preporučujemo
+		korisnicima da povremeno pregledaju ovu politiku kako bi bili
+		informirani o načinu na koji se postupa s njihovim informacijama.</string>
 </resources>

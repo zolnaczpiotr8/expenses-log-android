@@ -1,6 +1,5 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.home
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -24,7 +23,6 @@ import zolnaczpiotr8.com.github.expenses.log.model.Category
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
 
 private const val STOP_SHARING_COROUTINE_DELAY = 5_000L
-private val TAG = HomeViewModel::class.java.name
 
 @HiltViewModel
 class HomeViewModel
@@ -58,15 +56,7 @@ constructor(
                 }
                 .toPersistentList()
           }
-          .catch {
-            if (Log.isLoggable(TAG, Log.ERROR)) {
-              Log.e(
-                  TAG,
-                  it.message,
-                  it,
-              )
-            }
-          }
+          .catch {}
           .stateIn(
               scope = viewModelScope,
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
@@ -76,15 +66,7 @@ constructor(
       categoriesRepository
           .categories()
           .distinctUntilChanged()
-          .catch {
-            if (Log.isLoggable(TAG, Log.ERROR)) {
-              Log.e(
-                  TAG,
-                  it.message,
-                  it,
-              )
-            }
-          }
+          .catch {}
           .stateIn(
               scope = viewModelScope,
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
@@ -94,15 +76,7 @@ constructor(
       dateFilterRepository
           .dateFilter()
           .distinctUntilChanged()
-          .catch {
-            if (Log.isLoggable(TAG, Log.ERROR)) {
-              Log.e(
-                  TAG,
-                  it.message,
-                  it,
-              )
-            }
-          }
+          .catch {}
           .stateIn(
               scope = viewModelScope,
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
@@ -112,15 +86,7 @@ constructor(
       showEmptyCategoriesRepository
           .showEmptyCategory()
           .distinctUntilChanged()
-          .catch {
-            if (Log.isLoggable(TAG, Log.ERROR)) {
-              Log.e(
-                  TAG,
-                  it.message,
-                  it,
-              )
-            }
-          }
+          .catch {}
           .stateIn(
               scope = viewModelScope,
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),

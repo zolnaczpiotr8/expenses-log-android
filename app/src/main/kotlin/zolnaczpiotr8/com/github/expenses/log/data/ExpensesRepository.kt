@@ -4,7 +4,6 @@ import android.icu.math.BigDecimal
 import android.icu.util.Currency
 import android.icu.util.CurrencyAmount
 import android.icu.util.ULocale
-import android.util.Log
 import javax.inject.Inject
 import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.coroutines.flow.Flow
@@ -14,8 +13,6 @@ import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import zolnaczpiotr8.com.github.expenses.log.database.daos.ExpenseDao
 import zolnaczpiotr8.com.github.expenses.log.model.Expense
-
-private val TAG = ExpensesRepository::class.java.name
 
 class ExpensesRepository
 @Inject
@@ -64,15 +61,7 @@ constructor(
       )
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (throwable: Throwable) {
-      if (Log.isLoggable(TAG, Log.ERROR)) {
-        Log.e(
-            TAG,
-            throwable.message,
-            throwable,
-        )
-      }
-    }
+    } catch (_: Throwable) {}
   }
 
   suspend fun delete(
@@ -82,14 +71,6 @@ constructor(
       expenseDao.delete(uuid)
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (throwable: Throwable) {
-      if (Log.isLoggable(TAG, Log.ERROR)) {
-        Log.e(
-            TAG,
-            throwable.message,
-            throwable,
-        )
-      }
-    }
+    } catch (_: Throwable) {}
   }
 }

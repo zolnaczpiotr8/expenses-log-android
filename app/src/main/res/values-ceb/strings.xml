@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Petsa</string>
 	<string name="filters_title">Mga pansala</string>
 	<string name="currency_label">Salapi</string>
-	<string name="currency_code_label">Currency code</string>
 	<string name="amount_label">Kantidad</string>
 	<string name="category_label">Kategorya</string>
 	<string name="invalid_format_error">Dili balido nga pormat</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">kodigo sa kwarta: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Gidaghanon sa karakter: %d. Limit sa karakter: %d</string>
+	<string name="privacy_policy">Palisiya sa Privacy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ang imong datos nagpabilin uban nimo</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Girespeto namo ang imong pribasiya. Kini nga app
+		naglihok og hingpit offline ug wala nagkolekta o nagpaambit og bisan
+		unsang datos. Kini nga polisiya nag-aplikar sa tanan nga mga tiggamit
+		sa tibuok kalibutan, lakip na ang mga bata sa tanang edad. Wala kami
+		nagkolekta, nagtipig, nagpadala, o nagpaambit og bisan unsang personal
+		o dili personal nga impormasyon. Ang app naglihok hingpit offline.
+		Tanang mga bahin mahimong gamiton bisan walay koneksyon sa internet,
+		ug walay datos nga gi-access o gipadala bisan asa.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Lokal ra nga Pagtipig sa Datos</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ang tanan nga impormasyon nga imong gisulod sa app
+		gitipigan ra sa imong kaugalingong device. Wala kini i-upload,
+		i-backup sa external servers, o ipaambit sa bisan kinsa. Dili namo ug
+		dili usab namo makuha ang maong impormasyon.</string>
+	<string name="privacy_policy_no_third_party_services_title">Walay Serbisyo Gikan sa Ikatulong Partido</string>
+	<string name="privacy_policy_no_third_party_services_body">Ang app wala maggamit og third-party SDKs,
+		analytics tools, ad networks, o bisan unsang external nga serbisyo nga
+		nagkolekta og data. Wala’y lain, apil kami, nga adunay access sa imong
+		paggamit sa app o data.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Pagkontrol ug Pag-delete sa Datos</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Aduna kay hingpit nga kontrol sa impormasyon nga
+		imong gisulod. Mahimo nimong papason ang imong datos bisan kanus-a
+		pinaagi sa pag-uninstall sa app o paglimpyo sa storage niini. Tungod
+		kay walay gibutang sa gawas, walay dugang nga mga lakang nga
+		gikinahanglan.</string>
+	<string name="privacy_policy_children_privacy_title">Pagkapribado sa mga Bata</string>
+	<string name="privacy_policy_children_privacy_body">Luwas ang app para sa tanan nga tiggamit, lakip na
+		ang mga bata nga ubos sa edad nga 13. Walay personal nga datos nga
+		gilakip, nga naghimo niini nga masubay sa mga global nga balaod sa
+		privacy sa bata sama sa COPPA ug GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Imong mga Katungod</string>
+	<string name="privacy_policy_your_rights_body">Tungod kay wala’y datos nga gikolekta, walay butang
+		nga imong ma-access, ma-update, o ma-delete pinaagi namo. Ang tanang
+		datos imoha ug nagpabilin ra sa imong device.</string>
+	<string name="privacy_policy_contact_information_title">Impormasyon sa Kontak</string>
+	<string name="privacy_policy_changes_title">Mga kausaban sa kini nga palisiya</string>
+	<string name="privacy_policy_effective_date_title">Epektibong petsa</string>
+	<string name="privacy_policy_email_subject">Pangutana sa Patakaran sa Privacy – %s</string>
+	<string name="policies">Mga palisiya</string>
+	<string name="privacy_policy_contact_information_body">Kung adunay ka mga pangutana o kabalaka bahin sa
+		kini nga Patakaran sa Pagkapribado, mahimo ka makig-uban namo pinaagi
+		sa email.</string>
+	<string name="privacy_policy_changes_body">Kung ang functionality sa app mausab nga makaapekto
+		sa imong privacy, ang Privacy Policy i-update sumala niini. Gidasig
+		namo ang mga tiggamit nga usahay tan-awon ang palisiya.</string>
+	<string name="privacy_policy_effective_date_body">Ang epektibong petsa nagtumong sa adlaw nga kining
+		Palisiya sa Privacy katapusan nga gi-update o gisugdan ang bisa. Ang
+		bisan unsang kausaban kung giunsa sa app pagdumala ang imong datos
+		ipakita sa gi-update nga bersyon sa kini nga palisiya. Gina-awhag namo
+		ang mga tiggamit nga usahay-usahayon pagtan-aw niining palisiya aron
+		magpabiling nasayud kung giunsa pagtratar ang ilang impormasyon.</string>
 </resources>

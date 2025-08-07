@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Фільтры</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Код валюты</string>
 	<string name="amount_label">Сума</string>
 	<string name="category_label">Катэгорыя</string>
 	<string name="invalid_format_error">Няправільны фармат</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">код валюты: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Колькасць знакаў: %d. Ліміт знакаў: %d</string>
+	<string name="privacy_policy">Палітыка канфідэнцыяльнасці</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Вашы даныя застаюцца з вамі</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Мы паважаем вашу прыватнасць. Гэта прыкладанне
+		працуе цалкам у аўтаномным рэжыме і не збірае і не перадае ніякіх
+		дадзеных. Гэтая палітыка распаўсюджваецца на ўсіх карыстальнікаў ва
+		ўсім свеце, уключаючы дзяцей усіх узростаў. Мы не збіраем, не
+		захоўваем, не перадаём і не дзелімся ніякай асабістай або
+		неабавязковай інфармацыяй. Прыкладанне працуе цалкам у аўтаномным
+		рэжыме. Усе функцыі можна выкарыстоўваць без інтэрнэт-злучэння, і
+		ніводныя дадзеныя ніколі не атрымліваюцца і не адпраўляюцца нікуды.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Толькі Лакальнае Захоўванне Дадзеных</string>
+	<string name="privacy_policy_local_only_data_storage_body">Уся інфармацыя, якую вы ўводзіце ў дадатак,
+		захоўваецца толькі на вашай прыладзе. Яна ніколі не загружаецца, не
+		рэзервуецца на знешнія серверы і не перадаецца іншым. Мы не маем
+		доступу да гэтай інфармацыі і не можам яго мець.</string>
+	<string name="privacy_policy_no_third_party_services_title">Няма Паслуг Трэціх Бакаў</string>
+	<string name="privacy_policy_no_third_party_services_body">Праграма не выкарыстоўвае SDK трэціх бакоў,
+		аналітычныя інструменты, рэкламныя сеткі або якія-небудзь знешнія
+		сэрвісы, якія збіраюць дадзеныя. Ніхто, уключаючы нас, не мае доступу
+		да вашага выкарыстання праграмы або дадзеных.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Кантроль і Выдаленне Дадзеных</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Вы поўнасцю кантралюеце інфармацыю, якую ўводзіце.
+		Вы можаце выдаліць свае дадзеныя ў любы час, выдаліўшы праграму або
+		ачысціўшы яе захоўванне. Паколькі нічога не захоўваецца знешне,
+		дадатковыя дзеянні не патрабуюцца.</string>
+	<string name="privacy_policy_children_privacy_title">Прыватнасць дзяцей</string>
+	<string name="privacy_policy_children_privacy_body">Праграма бяспечная для ўсіх карыстальнікаў, у тым
+		ліку для дзяцей да 13 гадоў. Асабістыя дадзеныя не збіраюцца, што
+		робіць яе сумяшчальнай з глабальнымі законамі аб прыватнасці дзяцей,
+		такімі як COPPA і GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Вашы Правы</string>
+	<string name="privacy_policy_your_rights_body">Паколькі дадзеныя не збіраюцца, вам няма чаго
+		праглядаць, абнаўляць або выдаляць праз нас. Усе дадзеныя належаць вам
+		і застаюцца выключна на вашай прыладзе.</string>
+	<string name="privacy_policy_contact_information_title">Кантактная інфармацыя</string>
+	<string name="privacy_policy_changes_title">Змены ў гэтай палітыцы</string>
+	<string name="privacy_policy_effective_date_title">Дата ўступлення ў сілу</string>
+	<string name="privacy_policy_email_subject">Запыт пра Палітыку Прыватнасці – %s</string>
+	<string name="policies">Палітыкі</string>
+	<string name="privacy_policy_contact_information_body">Калі ў вас ёсць пытанні або занепакоенасць адносна
+		гэтай Палітыкі канфідэнцыйнасці, вы можаце звязацца з намі па
+		электроннай пошце.</string>
+	<string name="privacy_policy_changes_body">Калі функцыянальнасць праграмы зменіцца такім
+		чынам, што гэта паўплывае на вашу прыватнасць, гэтая Палітыка
+		прыватнасці будзе адпаведна абноўлена. Мы рэкамендуем карыстальнікам
+		час ад часу праглядаць палітыку.</string>
+	<string name="privacy_policy_effective_date_body">Дата ўступлення ў сілу адносіцца да дня, калі гэтая
+		Палітыка прыватнасці была апошні раз абноўлена або ўступіла ў сілу.
+		Любыя змены ў тым, як дадатак апрацоўвае вашы даныя, будуць
+		адлюстраваны ў абноўленай версіі гэтай палітыкі. Мы раім
+		карыстальнікам перыядычна пераглядаць гэтую палітыку, каб заставацца ў
+		курсе таго, як апрацоўваецца іх інфармацыя.</string>
 </resources>

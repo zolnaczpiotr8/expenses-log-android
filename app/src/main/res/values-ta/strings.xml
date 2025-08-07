@@ -26,7 +26,6 @@
 	<string name="date_filter_title">தேதி</string>
 	<string name="filters_title">வடிப்பான்</string>
 	<string name="currency_label">நாணயம்</string>
-	<string name="currency_code_label">நாணயக் குறியீடு</string>
 	<string name="amount_label">தொகை</string>
 	<string name="category_label">வகை</string>
 	<string name="invalid_format_error">தவறான வடிவமைப்பு</string>
@@ -48,4 +47,60 @@
 	<string name="currency_code_item_label">பணம் குறியீடு: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">எழுத்துக்களின் எண்ணிக்கை: %d. எழுத்துக்களின் வரம்பு: %d</string>
+	<string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">உங்கள் தரவுகள் உங்களுடன் தங்கும்</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம். இந்த
+		பயன்பாடு முழுமையாக ஆன்லைன் இல்லாமல் செயல்படுகிறது மற்றும் எந்த
+		தரவையும் சேகரிக்கவோ பகிரவோ செய்யவில்லை. இந்த கொள்கை உலகம் முழுவதும்
+		உள்ள அனைத்து பயனர்களுக்கும் பொருந்தும், அனைத்து வயதினரான குழந்தைகள்
+		உட்பட. நாங்கள் எந்தவொரு தனிப்பட்ட அல்லது தனிப்பட்டதல்லாத தகவல்களையும்
+		சேகரிக்கவில்லை, சேமிக்கவில்லை, அனுப்பவில்லை அல்லது பகிரவில்லை.
+		பயன்பாடு முற்றிலும் ஆன்லைன் இல்லாமல் இயங்குகிறது. அனைத்து அம்சங்களும்
+		இணையதள இணைப்பு இல்லாமல் பயன்படுத்தக்கூடியவை மற்றும் எந்த தரவும்
+		எங்கேயும் அணுகப்படவோ அனுப்பப்படவோ செய்வதில்லை.</string>
+	<string name="privacy_policy_local_only_data_storage_title">உள்ளூர் தரவுகளை மட்டும் சேமித்தல்</string>
+	<string name="privacy_policy_local_only_data_storage_body">நீங்கள் பயன்பாட்டில் உள்ளிடும் அனைத்து தகவல்களும்
+		உங்கள் சொந்த சாதனத்தில் மட்டுமே சேமிக்கப்படும். அவை ஒருபோதும் வெளியான
+		சேவையகங்களுக்கு பதிவேற்றம் செய்யப்படாது, காப்புப்பிரதி எடுக்கப்படாது
+		அல்லது யாருடனும் பகிரப்படாது. இந்தத் தகவல்களுக்காக எங்களிடம் அணுகல்
+		இல்லை, எங்களால் அணுகவும் முடியாது.</string>
+	<string name="privacy_policy_no_third_party_services_title">மூன்றாம் தரப்பு சேவைகள் இல்லை</string>
+	<string name="privacy_policy_no_third_party_services_body">பயன்பாடு மூன்றாம் தரப்பு SDKகளை, பகுப்பாய்வு
+		கருவிகள், விளம்பர வலைப்பின்னல்கள் அல்லது தரவு சேகரிக்கும் எந்தவொரு
+		வெளிப்புற சேவைகளையும் பயன்படுத்துவதில்லை. நாங்கள் உட்பட வேறு யாரும்
+		உங்கள் பயன்பாட்டின் பயன்பாடு அல்லது தரவுக்கு அணுகல் கிடைக்கவில்லை.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">தரவு கட்டுப்பாடு மற்றும் அழித்தல்</string>
+	<string name="privacy_policy_data_control_and_deletion_body">நீங்கள் உள்ளிடும் தகவல்களில் முழுமையான கட்டுப்பாடு
+		உங்களுக்குள்ளது. நீங்கள் எந்த நேரத்திலும் பயன்பாட்டை அகற்றுவதன் மூலம்
+		அல்லது அதன் சேமிப்பைக் காலியாக்குவதன் மூலம் உங்கள் தரவுகளை நீக்கலாம்.
+		எதுவும் வெளியில் சேமிக்கப்படுவதில்லை என்பதால் கூடுதல் நடவடிக்கைகள்
+		தேவையில்லை.</string>
+	<string name="privacy_policy_children_privacy_title">குழந்தைகள் தனியுரிமை</string>
+	<string name="privacy_policy_children_privacy_body">13 வயதிற்குள் உள்ள குழந்தைகளை உள்ளடக்கி அனைத்து
+		பயனர்களுக்கும் இந்த செயலி பாதுகாப்பானது. தனிப்பட்ட தரவுகள் எந்தவொரு
+		முறையிலும் சேகரிக்கப்படுவதில்லை, இதனால் இது COPPA மற்றும் GDPR-K போன்ற
+		உலகளாவிய குழந்தைகளின் தனியுரிமை சட்டங்களுக்கு இணங்க உள்ளது.</string>
+	<string name="privacy_policy_your_rights_title">உங்கள் உரிமைகள்</string>
+	<string name="privacy_policy_your_rights_body">எந்த தரவையும் சேகரிக்கவில்லை என்பதால், எங்களை
+		மூலமாக நீங்கள் அணுக, புதுப்பிக்க அல்லது நீக்க எதுவும் இல்லை. அனைத்து
+		தரவுகளும் உங்களுடையதே, மேலும் உங்கள் சாதனத்தில் மட்டும் உள்ளது.</string>
+	<string name="privacy_policy_contact_information_title">தொடர்பு தகவல்</string>
+	<string name="privacy_policy_changes_title">இந்த கொள்கையில் மாற்றங்கள்</string>
+	<string name="privacy_policy_effective_date_title">செயல்படுத்தும் தேதி</string>
+	<string name="privacy_policy_email_subject">தனியுரிமைக் கொள்கை குறித்த கேள்வி – %s</string>
+	<string name="policies">கொள்கைகள்</string>
+	<string name="privacy_policy_contact_information_body">இந்த தனியுரிமைக் கொள்கையைப் பற்றிய ஏதேனும்
+		கேள்விகள் அல்லது கவலைகள் இருந்தால், எங்களை மின்னஞ்சல் மூலம்
+		தொடர்புகொள்ளலாம்.</string>
+	<string name="privacy_policy_changes_body">பயன்பாட்டின் செயல்பாடு உங்கள் தனிப்பட்ட தகவல்களை
+		பாதிக்கும் வகையில் மாறினால், இந்த தனியுரிமைக் கொள்கை அதற்கேற்ப
+		புதுப்பிக்கப்படும். பயனர்கள் அவ்வப்போது கொள்கையை பரிசீலிக்குமாறு
+		ஊக்குவிக்கப்படுகிறார்கள்.</string>
+	<string name="privacy_policy_effective_date_body">செயல்பாட்டுக் குறிக்கும் தேதி, இந்த தனியுரிமைக்
+		கொள்கை கடைசியாக புதுப்பிக்கப்பட்ட அல்லது நடைமுறையில் வந்த நாளைக்
+		குறிக்கிறது. உங்கள் தரவை செயலி எவ்வாறு கையாள்கிறது என்பதைப் பற்றிய
+		மாற்றங்கள் இந்த கொள்கையின் புதுப்பிக்கப்பட்ட பதிப்பில் பிரதிபலிக்கும்.
+		உங்கள் தகவல் எவ்வாறு கையாளப்படுகிறது என்பதைப் பற்றிய விழிப்புணர்வுடன்
+		இருப்பதற்காக, இந்தக் கொள்கையை பயனர்கள் தவணை தவணையாக மதிப்பாய்வு
+		செய்வதை எங்களால் பரிந்துரைக்கப்படுகிறது.</string>
 </resources>

@@ -3,8 +3,6 @@ plugins {
   alias(libs.plugins.kotlin.android)
   alias(libs.plugins.kotlin.compose)
   alias(libs.plugins.kotlin.serialization)
-  alias(libs.plugins.google.services)
-  alias(libs.plugins.firebase.crashlytics)
   alias(libs.plugins.androidx.baseline.profile)
   alias(libs.plugins.ksp)
   alias(libs.plugins.room)
@@ -41,6 +39,7 @@ android {
   androidResources {
     generateLocaleConfig = true
     localeFilters.apply {
+      add("pl")
       add("af")
       add("sq")
       add("am")
@@ -130,14 +129,12 @@ android {
     }
   }
 
-  compileSdk = libs.versions.compile.sdk.get().toInt()
+  compileSdk = libs.versions.target.sdk.get().toInt()
   namespace = "zolnaczpiotr8.com.github.expenses.log"
 
   defaultConfig {
     minSdk = 26
-    targetSdk = libs.versions.compile.sdk.get().toInt()
-    versionName = "0.0.0"
-    versionCode = 1
+    targetSdk = libs.versions.target.sdk.get().toInt()
   }
 
   buildTypes {
@@ -186,18 +183,6 @@ dependencies {
 
   implementation(projects.app.proto)
   implementation(libs.androidx.datastore)
-
-  implementation(platform(libs.firebase.bom))
-  implementation(libs.firebase.analytics)
-  implementation(libs.firebase.crashlytics)
-  implementation(libs.firebase.performance) {
-    // Workaround for issue: https://github.com/firebase/firebase-android-sdk/issues/5997
-    exclude(
-        module = "protolite-well-known-types",
-    )
-  }
-
-  implementation(libs.play.services.ads)
 
   implementation(libs.hilt.android)
   ksp(libs.hilt.android.compiler)

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Filtrai</string>
 	<string name="currency_label">Valiuta</string>
-	<string name="currency_code_label">Valiutos kodas</string>
 	<string name="amount_label">Suma</string>
 	<string name="category_label">Kategorija</string>
 	<string name="invalid_format_error">Neteisingas formatas</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">valiutos kodas: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Simbolių skaičius: %d. Simbolių riba: %d</string>
+	<string name="privacy_policy">Privatumo politika</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Jūsų duomenys lieka pas jus</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Gerbiame jūsų privatumą. Ši programa veikia
+		visiškai neprisijungus prie interneto ir nerenka bei nesidalija
+		jokiais duomenimis. Ši politika taikoma visiems vartotojams visame
+		pasaulyje, įskaitant vaikus visų amžių. Mes nerenkame, nesaugome,
+		neperduodame ir neshare’iname jokios asmeninės ar neasmeninės
+		informacijos. Programa veikia visiškai neprisijungusi prie interneto.
+		Visos funkcijos gali būti naudojamos be interneto ryšio, ir duomenys
+		niekada nėra pasiekiami ar siunčiami niekur.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Tik Vietinis Duomenų Saugojimas</string>
+	<string name="privacy_policy_local_only_data_storage_body">Visa informacija, kurią įvedate į programėlę,
+		saugoma tik jūsų įrenginyje. Ji niekada nėra įkeliama, kaupiama
+		išoriniuose serveriuose ar dalijama su kitais. Mes neturime ir
+		negalime turėti prieigos prie šios informacijos.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nėra Trečiųjų Šalių Paslaugų</string>
+	<string name="privacy_policy_no_third_party_services_body">Programėlė nenaudoja trečiųjų šalių SDK, analizės
+		įrankių, reklamos tinklų ar jokių išorinių paslaugų, kurios renka
+		duomenis. Niekas kitas, įskaitant mus, neturi prieigos prie jūsų
+		programėlės naudojimo ar duomenų.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Duomenų Kontrolė ir Ištrynimas</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Jūs visiškai kontroliuojate įvestą informaciją.
+		Galite bet kada ištrinti savo duomenis pašalindami programėlę arba
+		išvalydami jos saugyklą. Kadangi niekas nėra saugoma išoriškai,
+		papildomi veiksmai nereikalingi.</string>
+	<string name="privacy_policy_children_privacy_title">Vaikų Privatumas</string>
+	<string name="privacy_policy_children_privacy_body">Programa yra saugi visiems vartotojams, įskaitant
+		jaunesnius nei 13 metų vaikus. Jokie asmens duomenys nerenkami, todėl
+		ji atitinka pasaulinius vaikų privatumo įstatymus, tokius kaip COPPA
+		ir GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Jūsų Teisės</string>
+	<string name="privacy_policy_your_rights_body">Kadangi duomenys nerenkami, per mus nėra nieko, ką
+		galėtumėte pasiekti, atnaujinti ar ištrinti. Visi duomenys priklauso
+		jums ir lieka tik jūsų įrenginyje.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinė informacija</string>
+	<string name="privacy_policy_changes_title">Šios politikos pakeitimai</string>
+	<string name="privacy_policy_effective_date_title">Įsigaliojimo data</string>
+	<string name="privacy_policy_email_subject">Privatumo Politikos Užklausa – %s</string>
+	<string name="policies">Politika</string>
+	<string name="privacy_policy_contact_information_body">Jei turite klausimų ar rūpesčių dėl šios Privatumo
+		politikos, galite su mumis susisiekti el. paštu.</string>
+	<string name="privacy_policy_changes_body">Jei programėlės funkcionalumas pasikeičia taip, kad
+		tai daro įtaką jūsų privatumui, ši Privatumo politika bus atnaujinta
+		atitinkamai. Raginame vartotojus kartkartėmis peržiūrėti šią politiką.</string>
+	<string name="privacy_policy_effective_date_body">Įsigaliojimo data nurodo dieną, kada ši Privatumo
+		politika paskutinį kartą buvo atnaujinta arba įsigaliojo. Bet kokie
+		pakeitimai, kaip programa tvarko jūsų duomenis, bus atspindėti
+		atnaujintoje šios politikos versijoje. Raginame vartotojus periodiškai
+		peržiūrėti šią politiką, kad žinotų, kaip yra tvarkoma jų informacija.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">日付</string>
 	<string name="filters_title">フィルター</string>
 	<string name="currency_label">通貨</string>
-	<string name="currency_code_label">通貨コード</string>
 	<string name="amount_label">金額</string>
 	<string name="category_label">カテゴリ</string>
 	<string name="invalid_format_error">無効な形式</string>
@@ -47,4 +46,25 @@
 	<string name="currency_code_item_label">通貨コード: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">文字数：%d。文字数制限：%d</string>
+	<string name="privacy_policy">プライバシーポリシー</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">あなたのデータはあなたのもとに留まります</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">私たちはあなたのプライバシーを尊重します。このアプリは完全にオフラインで動作し、データを収集または共有しません。このポリシーは、全世界のすべてのユーザー、すべての年齢の子供を含みます。私たちは個人情報や非個人情報を収集、保存、送信、共有</string>
+	<string name="privacy_policy_local_only_data_storage_title">ローカルのみのデータ保存</string>
+	<string name="privacy_policy_local_only_data_storage_body">アプリに入力したすべての情報は、あなただけのデバイスに保存されます。外部サーバーにアップロードされたり、バックアップされたり、他人と共有されたりすることは決してありません。私たちはこの情報にアクセスすることはできませんし、アクセスする手段もありません。</string>
+	<string name="privacy_policy_no_third_party_services_title">第三者サービスなし</string>
+	<string name="privacy_policy_no_third_party_services_body">このアプリはサードパーティのSDK、分析ツール、広告ネットワーク、またはデータを収集する外部サービスを使用していません。私たちを含め、他の誰もあなたのアプリの使用状況やデータにアクセスすることはありません。</string>
+	<string name="privacy_policy_data_control_and_deletion_title">データの管理と削除</string>
+	<string name="privacy_policy_data_control_and_deletion_body">入力した情報は完全にあなたが管理できます。アプリをアンインストールするか、そのストレージを消去することで、いつでもデータを削除できます。外部に保存されることはないため、追加の手順は必要ありません。</string>
+	<string name="privacy_policy_children_privacy_title">子供のプライバシー</string>
+	<string name="privacy_policy_children_privacy_body">このアプリは、13歳未満の子供を含むすべてのユーザーにとって安全です。個人情報は一切収集されないため、COPPAやGDPR-Kなどの世界的な子供のプライバシー法に準拠しています。</string>
+	<string name="privacy_policy_your_rights_title">あなたの権利</string>
+	<string name="privacy_policy_your_rights_body">データが収集されていないため、当社を通じてアクセス、更新、削除できるものはありません。すべてのデータはあなたのものであり、あなたのデバイスにのみ保存されます。</string>
+	<string name="privacy_policy_contact_information_title">連絡先情報</string>
+	<string name="privacy_policy_changes_title">このポリシーの変更</string>
+	<string name="privacy_policy_effective_date_title">発効日</string>
+	<string name="privacy_policy_email_subject">プライバシーポリシーに関するお問い合わせ – %s</string>
+	<string name="policies">ポリシー</string>
+	<string name="privacy_policy_contact_information_body">このプライバシーポリシーに関してご質問やご不明な点がある場合は、メールでご連絡ください。</string>
+	<string name="privacy_policy_changes_body">アプリの機能がプライバシーに影響を与える形で変更された場合、本プライバシーポリシーはそれに応じて更新されます。ユーザーの皆様には、随時ポリシーを確認されることをお勧めします。</string>
+	<string name="privacy_policy_effective_date_body">発効日は、このプライバシーポリシーが最後に更新された日、または有効になった日を指します。アプリがあなたのデータをどのように取り扱うかに変更があった場合は、このポリシーの更新版に反映されます。ユーザーの皆様には、自分の情報がどのように取り扱われているかを把握するために、定期的に本ポリシーをご確認いただくようお願いしています。</string>
 </resources>

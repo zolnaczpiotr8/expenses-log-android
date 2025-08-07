@@ -26,7 +26,6 @@
 	<string name="date_filter_title">วันที่</string>
 	<string name="filters_title">ตัวกรอง</string>
 	<string name="currency_label">สกุลเงิน</string>
-	<string name="currency_code_label">รหัสสกุลเงิน</string>
 	<string name="amount_label">จำนวนเงิน</string>
 	<string name="category_label">หมวดหมู่</string>
 	<string name="invalid_format_error">รูปแบบไม่ถูกต้อง</string>
@@ -47,4 +46,50 @@
 	<string name="currency_code_item_label">รหัสสกุลเงิน: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">จำนวนอักขระ: %d. ขีดจำกัดอักขระ: %d</string>
+	<string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ข้อมูลของคุณยังคงอยู่กับคุณ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">เราเคารพความเป็นส่วนตัวของคุณ
+		แอปนี้ทำงานแบบออฟไลน์ทั้งหมดและไม่รวบรวมหรือแบ่งปันข้อมูลใดๆ
+		นโยบายนี้ใช้กับผู้ใช้ทุกคนทั่วโลก รวมถึงเด็กทุกวัย เราไม่เก็บ รักษา
+		ส่ง หรือแบ่งปันข้อมูลส่วนตัวหรือไม่เป็นส่วนตัวใดๆ ทั้งสิ้น
+		แอปทำงานแบบออฟไลน์อย่างสมบูรณ์
+		ฟีเจอร์ทั้งหมดสามารถใช้งานได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
+		และไม่มีข้อมูลใดๆ ถูกเข้าถึงหรือส่งไปที่ใดเลย</string>
+	<string name="privacy_policy_local_only_data_storage_title">การจัดเก็บข้อมูลในเครื่องเท่านั้น</string>
+	<string name="privacy_policy_local_only_data_storage_body">ข้อมูลทั้งหมดที่คุณป้อนลงในแอปจะถูกจัดเก็บไว้ในอุปกรณ์ของคุณเท่านั้น
+		จะไม่มีการอัปโหลด สำรองข้อมูลไปยังเซิร์ฟเวอร์ภายนอก
+		หรือแบ่งปันกับใครทั้งสิ้น เราไม่สามารถเข้าถึงข้อมูลนี้ได้
+		และจะไม่สามารถเข้าถึงได้</string>
+	<string name="privacy_policy_no_third_party_services_title">ไม่มีบริการจากบุคคลที่สาม</string>
+	<string name="privacy_policy_no_third_party_services_body">แอปไม่ใช้ SDK ของบุคคลที่สาม เครื่องมือวิเคราะห์
+		เครือข่ายโฆษณา หรือบริการภายนอกที่เก็บข้อมูล ไม่มีใคร รวมถึงเรา
+		สามารถเข้าถึงการใช้งานหรือข้อมูลแอปของคุณได้</string>
+	<string name="privacy_policy_data_control_and_deletion_title">การควบคุมและลบข้อมูล</string>
+	<string name="privacy_policy_data_control_and_deletion_body">คุณมีการควบคุมข้อมูลที่คุณป้อนได้อย่างสมบูรณ์
+		คุณสามารถลบข้อมูลของคุณได้ทุกเวลาโดยการถอนการติดตั้งแอปหรือการล้างพื้นที่จัดเก็บข้อมูล
+		เนื่องจากไม่มีการจัดเก็บข้อมูลภายนอก
+		จึงไม่จำเป็นต้องดำเนินการเพิ่มเติม</string>
+	<string name="privacy_policy_children_privacy_title">ความเป็นส่วนตัวของเด็ก</string>
+	<string name="privacy_policy_children_privacy_body">แอปนี้ปลอดภัยสำหรับผู้ใช้ทุกคน
+		รวมถึงเด็กที่มีอายุต่ำกว่า 13 ปี ไม่มีการเก็บรวบรวมข้อมูลส่วนบุคคลใด ๆ
+		ซึ่งทำให้แอปสอดคล้องกับกฎหมายความเป็นส่วนตัวของเด็กระดับโลก เช่น COPPA
+		และ GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">สิทธิของคุณ</string>
+	<string name="privacy_policy_your_rights_body">เนื่องจากไม่มีการเก็บข้อมูลใด ๆ
+		คุณจึงไม่สามารถเข้าถึง อัปเดต หรือ ลบข้อมูลผ่านเราได้
+		ข้อมูลทั้งหมดเป็นของคุณและยังคงอยู่เฉพาะในอุปกรณ์ของคุณ</string>
+	<string name="privacy_policy_contact_information_title">ข้อมูลการติดต่อ</string>
+	<string name="privacy_policy_changes_title">การเปลี่ยนแปลงในนโยบายนี้</string>
+	<string name="privacy_policy_effective_date_title">วันที่มีผลบังคับใช้</string>
+	<string name="privacy_policy_email_subject">สอบถามเกี่ยวกับนโยบายความเป็นส่วนตัว – %s</string>
+	<string name="policies">นโยบาย</string>
+	<string name="privacy_policy_contact_information_body">หากคุณมีคำถามหรือข้อกังวลใด ๆ
+		เกี่ยวกับนโยบายความเป็นส่วนตัวนี้ คุณสามารถติดต่อเราได้ทางอีเมล</string>
+	<string name="privacy_policy_changes_body">หากฟังก์ชันการทำงานของแอปมีการเปลี่ยนแปลงที่ส่งผลต่อความเป็นส่วนตัวของคุณ
+		นโยบายความเป็นส่วนตัวนี้จะได้รับการอัปเดตตามความเหมาะสม
+		เราขอแนะนำให้ผู้ใช้ตรวจสอบนโยบายนี้เป็นระยะ</string>
+	<string name="privacy_policy_effective_date_body">วันที่มีผลบังคับใช้หมายถึงวันที่นโยบายความเป็นส่วนตัวฉบับนี้ได้รับการปรับปรุงครั้งล่าสุดหรือมีผลใช้บังคับ
+		การเปลี่ยนแปลงใด ๆ
+		เกี่ยวกับวิธีที่แอปจัดการข้อมูลของคุณจะสะท้อนอยู่ในเวอร์ชันที่อัปเดตของนโยบายนี้
+		เราขอแนะนำให้ผู้ใช้ตรวจสอบนโยบายนี้เป็นระยะเพื่อรับทราบว่าข้อมูลของตนถูกจัดการอย่างไร</string>
 </resources>

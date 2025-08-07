@@ -26,7 +26,6 @@
 	<string name="date_filter_title">កាលបរិច្ឆេទ</string>
 	<string name="filters_title">តម្រង</string>
 	<string name="currency_label">រូបិយវត្ថុ</string>
-	<string name="currency_code_label">កូដរូបិយប័ណ្ណ</string>
 	<string name="amount_label">ចំនួនទឹកប្រាក់</string>
 	<string name="category_label">ប្រភេទ</string>
 	<string name="invalid_format_error">ទ្រង់ទ្រាយមិនត្រឹមត្រូវ</string>
@@ -47,4 +46,56 @@
 	<string name="currency_code_item_label">កូដរូបិយប័ណ្ណ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ចំនួនអក្សរ៖ %d។ កំណត់អក្សរ៖ %d</string>
+	<string name="privacy_policy">នយោបាយភាពឯកជន</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ទិន្នន័យរបស់អ្នកនៅជាមួយអ្នក</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">យើងគោរពភាពឯកជនរបស់អ្នក។
+		កម្មវិធីនេះដំណើរការបានពេញលេញក្រៅបណ្តាញ ហើយមិនប្រមូល
+		ឬចែករំលែកទិន្នន័យណាមួយទេ។
+		គោលនយោបាយនេះមានសុពលភាពសម្រាប់អ្នកប្រើទាំងអស់ជាសកលលោក
+		រួមទាំងកុមារគ្រប់អាយុ។ យើងមិនប្រមូល ស្តុក ផ្ញើ
+		ឬចែករំលែកព័ត៌មានផ្ទាល់ខ្លួន ឬព័ត៌មានមិនផ្ទាល់ខ្លួនទេ។
+		កម្មវិធីដំណើរការបានពេញលេញក្រៅបណ្តាញ។
+		មុខងារទាំងអស់អាចប្រើបានដោយគ្មានការតភ្ជាប់អ៊ីនធឺណិត
+		ហើយទិន្នន័យមិនដែលត្រូវបានចូលដំណើរការឬផ្ញើទៅកន្លែងណាមួយទេ។</string>
+	<string name="privacy_policy_local_only_data_storage_title">ការផ្ទុកទិន្នន័យតែជាស្ថានីយ</string>
+	<string name="privacy_policy_local_only_data_storage_body">ព័ត៌មានទាំងអស់ដែលអ្នកបញ្ចូលទៅក្នុងកម្មវិធី
+		ត្រូវបានរក្សាទុកតែប៉ុណ្ណោះនៅលើឧបករណ៍ផ្ទាល់ខ្លួនរបស់អ្នក។
+		ព័ត៌មានទាំងនេះមិនដែលត្រូវបានផ្ទុកឡើង ទុកជាចំារៀងទៅម៉ាស៊ីនមេខាងក្រៅ
+		ឬចែករំលែកជាមួយនរណាម្នាក់ឡើយ។
+		យើងមិនមានសិទ្ធិឬសមត្ថភាពក្នុងការចូលទៅកាន់ព័ត៌មានទាំងនេះទេ។</string>
+	<string name="privacy_policy_no_third_party_services_title">មិនមានសេវាកម្មភាគីទីបី</string>
+	<string name="privacy_policy_no_third_party_services_body">កម្មវិធីនេះមិនប្រើ SDK ពីភាគីទីបី ឧបករណ៍វិភាគ
+		បណ្ដាញ광្សា ឬសេវាកម្មខាងក្រៅណាមួយដែលប្រមូលទិន្នន័យទេ។ គ្មាននរណាផ្សេងទៀត
+		រួមទាំងយើង គឺអាចចូលដំណើរការប្រើប្រាស់កម្មវិធីឬទិន្នន័យរបស់អ្នកបានទេ។</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ការត្រួតពិនិត្យ និងលុបទិន្នន័យ</string>
+	<string name="privacy_policy_data_control_and_deletion_body">អ្នកមានការត្រួតពិនិត្យពេញលេញលើព័ត៌មានដែលអ្នកបញ្ចូល។
+		អ្នកអាចលុបទិន្នន័យរបស់អ្នកបានគ្រប់ពេលដោយការលុបកម្មកម្មវិធីឬសម្អាតទំហំផ្ទុករបស់វា។
+		ពីព្រោះគ្មានអ្វីត្រូវបានរក្សាទុកខាងក្រៅទេ
+		ដូច្នេះមិនចាំបាច់មានជំហានបន្ថែមទៀតទេ។</string>
+	<string name="privacy_policy_children_privacy_title">ភាពឯកជនរបស់កុមារ</string>
+	<string name="privacy_policy_children_privacy_body">កម្មវិធីនេះមានសុវត្ថិភាពសម្រាប់អ្នកប្រើប្រាស់ទាំងអស់
+		រួមទាំងកុមារដែលមានអាយុក្រោម 13 ឆ្នាំផងដែរ។
+		គ្មានទិន្នន័យផ្ទាល់ខ្លួនណាត្រូវបានប្រមូលឡើយ
+		ដែលធ្វើឲ្យវាពិភាក្សារួមនឹងច្បាប់ភាពឯកជនរបស់កុមារជាសកលដូចជា COPPA និង
+		GDPR-K ។</string>
+	<string name="privacy_policy_your_rights_title">សិទ្ធិរបស់អ្នក</string>
+	<string name="privacy_policy_your_rights_body">ពីព្រោះគ្មានទិន្នន័យណាត្រូវបានប្រមូលទេ
+		អ្នកមិនអាចចូលប្រើ បច្ចុប្បន្នភាព ឬលុបទិន្នន័យតាមរយៈពួកយើងបានទេ។
+		ទិន្នន័យទាំងអស់ជារបស់អ្នក ហើយនៅតែមាននៅលើឧបករណ៍របស់អ្នកតែប៉ុណ្ណោះ។</string>
+	<string name="privacy_policy_contact_information_title">ព័ត៌មានទំនាក់ទំនង</string>
+	<string name="privacy_policy_changes_title">ការផ្លាស់ប្តូរនៅក្នុងគោលការណ៍នេះ</string>
+	<string name="privacy_policy_effective_date_title">កាលបរិច្ឆេទ有ប្រសិទ្ធិភាព</string>
+	<string name="privacy_policy_email_subject">សំណួរអំពីគោលនយោបាយភាពឯកជន – %s</string>
+	<string name="policies">គោលនយោបាយ</string>
+	<string name="privacy_policy_contact_information_body">ប្រសិនបើអ្នកមានសំណួរ
+		ឬកង្វល់ណាមួយទាក់ទងនឹងគោលនយោបាយឯកជនភាពនេះ អ្នកអាចទាក់ទងយើងតាមអ៊ីមែលបាន។</string>
+	<string name="privacy_policy_changes_body">ប្រសិនបើមុខងាររបស់កម្មវិធីផ្លាស់ប្ដូរដោយវិធីណាមួយដែលប៉ះពាល់ដល់ភាពឯកជនរបស់អ្នក
+		គោលនយោបាយឯកជនភាពនេះនឹងត្រូវបានធ្វើបច្ចុប្បន្នភាពអនុលោម។
+		យើងអំពាវនាវឱ្យអ្នកប្រើពិនិត្យមើលគោលនយោបាយជាបណ្ដើរៗ។</string>
+	<string name="privacy_policy_effective_date_body">កាលបរិច្ឆេទមានប្រសិទ្ធិភាព
+		គឺសំដៅទៅលើថ្ងៃដែលគោលនយោបាយឯកជនភាពនេះត្រូវបានធ្វើបច្ចុប្បន្នភាពចុងក្រោយឬចូលជាធរមាន។
+		ការផ្លាស់ប្តូរណាមួយអំពីរបៀបដែលកម្មវិធីដំណើរការទិន្នន័យរបស់អ្នក
+		នឹងត្រូវបង្ហាញក្នុងកំណែថ្មីនៃគោលនយោបាយនេះ។
+		យើងអំពាវនាវឱ្យអ្នកប្រើពិនិត្យមើលគោលនយោបាយនេះជាប្រចាំ
+		ដើម្បីដឹងពីរបៀបដែលព័ត៌មានរបស់ពួកគេត្រូវបានគ្រប់គ្រង។</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Filtres</string>
 	<string name="currency_label">Moneda</string>
-	<string name="currency_code_label">Codi de moneda</string>
 	<string name="amount_label">Import</string>
 	<string name="category_label">Categoria</string>
 	<string name="invalid_format_error">Format no vàlid</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">codi de moneda: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Recompte de caràcters: %d. Límite de caràcters: %d</string>
+	<string name="privacy_policy">Política de privacitat</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Les teves dades es queden amb tu</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Respectem la teva privadesa. Aquesta aplicació
+		funciona totalment fora de línia i no recopila ni comparteix cap dada.
+		Aquesta política s’aplica a tots els usuaris a tot el món, inclosos
+		els infants de totes les edats. No recollim, emmagatzemem, transmetem
+		ni compartim cap informació personal o no personal. L’aplicació
+		funciona completament fora de línia. Totes les funcions es poden
+		utilitzar sense connexió a Internet i mai s’accedeix ni s’envia cap
+		dada.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Emmagatzematge de Dades Només Local</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tota la informació que introdueixis a l’aplicació
+		es desa només al teu dispositiu. Mai no es puja, es fa còpia de
+		seguretat en servidors externs ni es comparteix amb ningú. No tenim
+		accés ni podem accedir a aquesta informació.</string>
+	<string name="privacy_policy_no_third_party_services_title">Sense Serveis de Tercers</string>
+	<string name="privacy_policy_no_third_party_services_body">L’aplicació no utilitza SDK de tercers, eines
+		d’analítica, xarxes publicitàries ni cap servei extern que recopili
+		dades. Ningú més, inclosos nosaltres, té accés a l’ús o les dades de
+		la teva aplicació.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Control i Eliminació de Dades</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Tens el control total sobre la informació que
+		introdueixes. Pots suprimir les teves dades en qualsevol moment
+		desinstal·lant l’aplicació o netejant-ne l’emmagatzematge. Com que no
+		es desa res externament, no calen passos addicionals.</string>
+	<string name="privacy_policy_children_privacy_title">Privacitat dels Infants</string>
+	<string name="privacy_policy_children_privacy_body">L’aplicació és segura per a tots els usuaris,
+		inclosos els nens menors de 13 anys. No es recopilen dades personals,
+		la qual cosa la fa compatible amb les lleis globals de privadesa
+		infantil com COPPA i GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Els Teus Drets</string>
+	<string name="privacy_policy_your_rights_body">Com que no es recopilen dades, no hi ha res al que
+		puguis accedir, actualitzar o suprimir a través nostre. Totes les
+		dades són teves i romanen exclusivament al teu dispositiu.</string>
+	<string name="privacy_policy_contact_information_title">Informació de contacte</string>
+	<string name="privacy_policy_changes_title">Canvis en aquesta política</string>
+	<string name="privacy_policy_effective_date_title">Data d’entrada en vigor</string>
+	<string name="privacy_policy_email_subject">Consulta sobre la Política de Privacitat – %s</string>
+	<string name="policies">Polítiques</string>
+	<string name="privacy_policy_contact_information_body">Si teniu cap pregunta o preocupació sobre aquesta
+		Política de Privadesa, ens podeu contactar per correu electrònic.</string>
+	<string name="privacy_policy_changes_body">Si la funcionalitat de l’aplicació canvia d’una
+		manera que afecta la teva privacitat, aquesta Política de Privacitat
+		s’actualitzarà en conseqüència. Animem els usuaris a revisar la
+		política de tant en tant.</string>
+	<string name="privacy_policy_effective_date_body">La data d’entrada en vigor fa referència al dia en
+		què aquesta Política de Privacitat va ser actualitzada per última
+		vegada o va entrar en vigor. Qualsevol canvi en la manera com
+		l’aplicació gestiona les teves dades es reflectirà en una versió
+		actualitzada d’aquesta política. Recomanem als usuaris que revisin
+		aquesta política periòdicament per estar informats sobre com es tracta
+		la seva informació.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tanggal</string>
 	<string name="filters_title">Saringan</string>
 	<string name="currency_label">Mata Uang</string>
-	<string name="currency_code_label">Kode mata uang</string>
 	<string name="amount_label">Jumlah</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Format henteu sah</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">kode mata uang: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Jumlah karakter: %d. Wates karakter: %d</string>
+	<string name="privacy_policy">Kawijakan Privacy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Data anjeun tetep sareng anjeun</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Kami ngahargaan privasi anjeun. Aplikasi ieu
+		fungsina lengkep offline sarta henteu ngumpulkeun atawa ngabagi data
+		naon waé. Kabijakan ieu lumaku pikeun sadaya pamaké di sakuliah dunya,
+		kaasup barudak sagala umur. Kami henteu ngumpulkeun, nyimpen, ngirim,
+		atawa ngabagi inpormasi pribadi atawa non-pribadi. Aplikasi ieu
+		jalanna lengkep offline. Sadaya fitur tiasa dianggo tanpa sambungan
+		internét, sarta euweuh data anu diaksés atawa dikirim ka mana waé.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Ngan Nyimpen Data Lokal</string>
+	<string name="privacy_policy_local_only_data_storage_body">Sadaya inpormasi anu anjeun lebetkeun kana aplikasi
+		disimpen ngan dina alat anjeun sorangan. Éta henteu pernah diunggah,
+		dicadangkeun ka server éksternal, atanapi dibagikeun ka saha waé. Kami
+		henteu ngagaduhan aksés kana inpormasi ieu sareng henteu tiasa
+		kéngingkeunana.</string>
+	<string name="privacy_policy_no_third_party_services_title">Henteu Aya Layanan Pihak Katilu</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikasi henteu nganggo SDK pihak katilu, alat
+		analitik, jaringan iklan, atanapi jasa eksternal naon waé anu
+		ngumpulkeun data. Teu aya batur, kaasup kami, anu gaduh aksés kana
+		pamakean atanapi data aplikasi anjeun.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontrol jeung Ngahapus Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Anjeun gaduh kadali lengkep kana inpormasi anu
+		anjeun lebetkeun. Anjeun tiasa mupus data anjeun iraha waé ku
+		ngaleungitkeun aplikasi atanapi beberes panyimpenanna. Kusabab euweuh
+		nu disimpen sacara éksternal, teu diperlukeun léngkah tambahan.</string>
+	<string name="privacy_policy_children_privacy_title">Privasi Barudak</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasi ieu aman pikeun sadaya pangguna, kaasup
+		barudak di handapeun umur 13 taun. Teu aya data pribadi anu
+		dikumpulkeun, ngajadikeun éta saluyu jeung hukum privasi barudak
+		sacara global sapertos COPPA jeung GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Hak Anjeun</string>
+	<string name="privacy_policy_your_rights_body">Kusabab euweuh data anu dikumpulkeun, teu aya
+		naon-naon anu tiasa diaksés, diropéa, atanapi dipupus ngalangkungan
+		kami. Sadaya data milik anjeun sareng tetep ngan ukur dina alat
+		anjeun.</string>
+	<string name="privacy_policy_contact_information_title">Inpormasi Kontak</string>
+	<string name="privacy_policy_changes_title">Parobahan kana kawijakan ieu</string>
+	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
+	<string name="privacy_policy_email_subject">Patanyaan ngeunaan Kabijakan Privasi – %s</string>
+	<string name="policies">Kawijakan</string>
+	<string name="privacy_policy_contact_information_body">Upami anjeun gaduh patanyaan atanapi hariwang
+		ngeunaan Kabijakan Privasi ieu, anjeun tiasa ngahubungi kami ku email.</string>
+	<string name="privacy_policy_changes_body">Lamun fungsionalitas aplikasi robah ku cara nu
+		mangaruhan kana privasi anjeun, Kabijakan Privasi ieu bakal diénggalan
+		sakumaha kuduna. Urang nyarankeun ka pamaké pikeun marios kabijakan
+		ieu tina waktu ka waktu.</string>
+	<string name="privacy_policy_effective_date_body">Tanggal berlaku nujul kana dinten nalika Kawijakan
+		Privasi ieu terakhir diropéa atanapi mimiti diberlakukan. Parobahan
+		naon waé ngeunaan kumaha aplikasi ngatur data anjeun bakal kagambar
+		dina versi anu diropéa tina kawijakan ieu. Kami nyarankeun ka pamaké
+		pikeun marios kawijakan ieu sacara rutin pikeun tetep terang kumaha
+		inpormasina diatur.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filters</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Valutacode</string>
 	<string name="amount_label">Bedrag</string>
 	<string name="category_label">Categorie</string>
 	<string name="invalid_format_error">Ongeldig formaat</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">valutacode: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Aantal tekens: %d. Tekenlimiet: %d</string>
+	<string name="privacy_policy">Privacybeleid</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Jouw gegevens blijven bij jou</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">We respecteren je privacy. Deze app functioneert
+		volledig offline en verzamelt of deelt geen gegevens. Dit beleid is
+		van toepassing op alle gebruikers wereldwijd, inclusief kinderen van
+		alle leeftijden. We verzamelen, bewaren, verzenden of delen geen
+		persoonlijke of niet-persoonlijke informatie. De app werkt volledig
+		offline. Alle functies kunnen worden gebruikt zonder
+		internetverbinding en er wordt nooit ergens data benaderd of
+		verzonden.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Alleen Lokale Gegevensopslag</string>
+	<string name="privacy_policy_local_only_data_storage_body">Alle informatie die u invoert in de app wordt
+		alleen opgeslagen op uw eigen apparaat. Het wordt nooit geüpload,
+		geback-upt naar externe servers of gedeeld met anderen. Wij hebben
+		geen toegang tot deze informatie en kunnen deze ook niet verkrijgen.</string>
+	<string name="privacy_policy_no_third_party_services_title">Geen Derde Partijdiensten</string>
+	<string name="privacy_policy_no_third_party_services_body">De app maakt geen gebruik van SDK’s van derden,
+		analysetools, advertentienetwerken of externe diensten die gegevens
+		verzamelen. Niemand anders, inclusief ons, heeft toegang tot jouw
+		appgebruik of data.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Gegevensbeheer en Verwijdering</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Je hebt volledige controle over de informatie die
+		je invoert. Je kunt je gegevens op elk moment verwijderen door de app
+		te verwijderen of de opslag ervan te wissen. Omdat er niets extern
+		wordt opgeslagen, zijn er geen extra stappen nodig.</string>
+	<string name="privacy_policy_children_privacy_title">Privacy van Kinderen</string>
+	<string name="privacy_policy_children_privacy_body">De app is veilig voor alle gebruikers, inclusief
+		kinderen jonger dan 13 jaar. Er worden geen persoonlijke gegevens
+		verzameld, waardoor de app voldoet aan wereldwijde kinderprivacywetten
+		zoals COPPA en GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Uw Rechten</string>
+	<string name="privacy_policy_your_rights_body">Omdat er geen gegevens worden verzameld, is er
+		niets dat u via ons kunt openen, bijwerken of verwijderen. Alle
+		gegevens zijn van u en blijven uitsluitend op uw apparaat.</string>
+	<string name="privacy_policy_contact_information_title">Contactgegevens</string>
+	<string name="privacy_policy_changes_title">Wijzigingen in dit beleid</string>
+	<string name="privacy_policy_effective_date_title">Ingangsdatum</string>
+	<string name="privacy_policy_email_subject">Privacybeleid Vraag – %s</string>
+	<string name="policies">Beleid</string>
+	<string name="privacy_policy_contact_information_body">Als u vragen of opmerkingen heeft over dit
+		privacybeleid, kunt u contact met ons opnemen via e-mail.</string>
+	<string name="privacy_policy_changes_body">Als de functionaliteit van de app verandert op een
+		manier die invloed heeft op je privacy, wordt dit privacybeleid
+		dienovereenkomstig bijgewerkt. We moedigen gebruikers aan om het
+		beleid van tijd tot tijd te bekijken.</string>
+	<string name="privacy_policy_effective_date_body">De ingangsdatum verwijst naar de dag waarop dit
+		privacybeleid voor het laatst is bijgewerkt of van kracht is geworden.
+		Eventuele wijzigingen in de manier waarop de app met uw gegevens
+		omgaat, worden weerspiegeld in een bijgewerkte versie van dit beleid.
+		We moedigen gebruikers aan dit beleid regelmatig te bekijken om op de
+		hoogte te blijven van hoe hun informatie wordt behandeld.</string>
 </resources>

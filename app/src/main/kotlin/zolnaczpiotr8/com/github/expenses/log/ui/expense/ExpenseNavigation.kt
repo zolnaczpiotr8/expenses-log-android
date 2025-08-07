@@ -1,6 +1,5 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.expense
 
-import androidx.compose.runtime.Stable
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
@@ -8,7 +7,6 @@ import androidx.navigation.toRoute
 import kotlinx.serialization.Serializable
 
 @Serializable
-@Stable
 private data class NewExpense(
     val category: String? = null,
 )

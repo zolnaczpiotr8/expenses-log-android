@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Sana</string>
 	<string name="filters_title">Filtrlar</string>
 	<string name="currency_label">Valyuta</string>
-	<string name="currency_code_label">Valyuta kodi</string>
 	<string name="amount_label">Miqdor</string>
 	<string name="category_label">Kategoriya</string>
 	<string name="invalid_format_error">Noto‘g‘ri format</string>
@@ -48,4 +47,58 @@
 	<string name="currency_code_item_label">valyuta kodi: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Belgilar soni: %d. Belgilar cheklovi: %d</string>
+	<string name="privacy_policy">Maxfiylik siyosati</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ma’lumotlaringiz siz bilan qoladi</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Biz sizning maxfiyligingizni hurmat qilamiz. Ilova
+		to‘liq oflayn rejimda ishlaydi va hech qanday ma’lumotni yig‘maydi
+		yoki ulashmaydi. Ushbu siyosat butun dunyo foydalanuvchilari, shu
+		jumladan har qanday yoshdagi bolalar uchun amal qiladi. Biz shaxsiy
+		yoki shaxsiy bo‘lmagan ma’lumotlarni yig‘maymiz, saqlamaymiz,
+		uzatmaymiz va ulashmaymiz. Ilova to‘liq oflayn ishlaydi. Barcha
+		funksiyalar internetga ulanmasdan ishlatilishi mumkin va hech qanday
+		ma’lumot hech qayerga uzatilmaydi yoki yuborilmaydi.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Faqat Mahalliy Ma’lumotlar Saqlanishi</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ilovaga kiritgan barcha ma’lumotlaringiz faqat
+		o‘zingizning qurilmangizda saqlanadi. Ular hech qachon tashqi
+		serverlarga yuklanmaydi, zaxira qilinmaydi yoki hech kim bilan baham
+		ko‘rilmaydi. Biz bu ma’lumotlarga kira olmaymiz va kira olmaymiz.</string>
+	<string name="privacy_policy_no_third_party_services_title">Uchinchi Tomon Xizmatlari Yo’q</string>
+	<string name="privacy_policy_no_third_party_services_body">Ilova uchinchi tomon SDKlari, tahlil vositalari,
+		reklama tarmoqlari yoki ma’lumot yig‘uvchi har qanday tashqi
+		xizmatlardan foydalanmaydi. Biz hamda hech kim sizning ilovangizdan
+		foydalanish yoki ma’lumotlarga kira olmaydi.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Maʼlumotlarni Nazorat qilish va Oʻchirish</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Siz kiritgan maʼlumotlar ustidan toʻliq nazoratga
+		egasiz. Ilovani oʻchirib tashlash yoki uning xotirasini tozalash
+		orqali istalgan vaqtda maʼlumotlaringizni oʻchirishingiz mumkin. Hech
+		narsa tashqi tarzda saqlanmaydi, shuning uchun qoʻshimcha qadamlar
+		talab qilinmaydi.</string>
+	<string name="privacy_policy_children_privacy_title">Bolalar Maxfiyligi</string>
+	<string name="privacy_policy_children_privacy_body">Ilova barcha foydalanuvchilar, jumladan 13 yoshdan
+		kichik bolalar uchun xavfsizdir. Hech qanday shaxsiy maʼlumotlar
+		toʻplanmaydi, bu esa uni COPPA va GDPR-K kabi global bolalar maxfiylik
+		qonunlariga muvofiq qiladi.</string>
+	<string name="privacy_policy_your_rights_title">Sizning Huquqlaringiz</string>
+	<string name="privacy_policy_your_rights_body">Maʼlumotlar yigʻilmayotgani sababli, biz orqali siz
+		kira oladigan, yangilaydigan yoki oʻchira oladigan hech narsa yoʻq.
+		Barcha maʼlumotlar sizga tegishli va faqat qurilmangizda saqlanadi.</string>
+	<string name="privacy_policy_contact_information_title">Aloqa ma’lumotlari</string>
+	<string name="privacy_policy_changes_title">Ushbu siyosatdagi o‘zgarishlar</string>
+	<string name="privacy_policy_effective_date_title">Kuchga kirish sanasi</string>
+	<string name="privacy_policy_email_subject">Maxfiylik Siyosati Bo‘yicha So‘rov – %s</string>
+	<string name="policies">Siyosatlar</string>
+	<string name="privacy_policy_contact_information_body">Agar sizda ushbu Maxfiylik Siyosati bo‘yicha savol
+		yoki xavotirlar bo‘lsa, biz bilan elektron pochta orqali
+		bog‘lanishingiz mumkin.</string>
+	<string name="privacy_policy_changes_body">Agar ilovaning funksionalligi sizning
+		maxfiyligingizga ta’sir qiladigan tarzda o‘zgarsa, ushbu Maxfiylik
+		Siyosati tegishli tarzda yangilanadi. Foydalanuvchilarga vaqti-vaqti
+		bilan siyosatni ko‘rib chiqish tavsiya etiladi.</string>
+	<string name="privacy_policy_effective_date_body">Kuchga kirish sanasi ushbu Maxfiylik Siyosati
+		oxirgi marta yangilangan yoki kuchga kirgan kundan dalolat beradi.
+		Ilova sizning ma’lumotlaringizni qanday boshqarishini o’zgartirsa, bu
+		o’zgarishlar siyosatning yangilangan versiyasida aks ettiriladi.
+		Foydalanuvchilarga o’z ma’lumotlari qanday ishlov berilayotganidan
+		xabardor bo‘lishlari uchun ushbu siyosatni vaqti-vaqti bilan ko‘rib
+		chiqish tavsiya etiladi.</string>
 </resources>

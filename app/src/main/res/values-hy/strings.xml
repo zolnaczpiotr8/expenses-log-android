@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Ամսաթիվ</string>
 	<string name="filters_title">Ֆիլտրեր</string>
 	<string name="currency_label">Արժույթ</string>
-	<string name="currency_code_label">Տարադրամի կոդ</string>
 	<string name="amount_label">Գումար</string>
 	<string name="category_label">Կատեգորիա</string>
 	<string name="invalid_format_error">Անվավեր ձևաչափ</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">արժույթի կոդ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Նիշերի քանակը՝ %d։ Նիշերի սահմանը՝ %d</string>
+	<string name="privacy_policy">Գաղտնիության քաղաքականություն</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ձեր տվյալները մնում են ձեզ հետ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Մենք հարգում ենք ձեր գաղտնիությունը։ Այս հավելվածը
+		գործում է ամբողջությամբ օֆլայն և չի հավաքում կամ կիսում որևէ տվյալ։
+		Այս քաղաքականությունը վերաբերում է աշխարհի բոլոր օգտվողներին, այդ
+		թվում՝ բոլոր տարիքային խմբերի երեխաներին։ Մենք չենք հավաքում,
+		պահպանվում, փոխանցում կամ կիսում որևէ անձնական կամ ոչ անձնական
+		տեղեկություններ։ Հավելվածը գործում է ամբողջությամբ օֆլայն։ Բոլոր
+		ֆունկցիաները կարող են օգտագործվել առանց ինտերնետ կապի, և որևէ տվյալ
+		երբեք չի օգտագործվում կամ ուղարկվում։</string>
+	<string name="privacy_policy_local_only_data_storage_title">Տեղային Տվյալների Պահպանում Միայն</string>
+	<string name="privacy_policy_local_only_data_storage_body">Դիմումում մուտքագրած բոլոր տվյալները պահվում են
+		միայն ձեր սարքում։ Դրանք երբեք չեն վերբեռնվում, պահուստավորվում
+		արտաքին սերվերների վրա կամ կիսվում որևէ մեկի հետ։ Մենք չենք կարող և
+		չունենք մուտք այդ տեղեկատվությանը։</string>
+	<string name="privacy_policy_no_third_party_services_title">Երրորդ կողմի ծառայություններ չկան</string>
+	<string name="privacy_policy_no_third_party_services_body">Հավելվածը չի օգտագործում երրորդ կողմի SDK-ներ,
+		վերլուծական գործիքներ, գովազդային ցանցեր կամ որևէ արտաքին
+		ծառայություններ, որոնք հավաքում են տվյալներ։ Ոչ ոք, ներառյալ մենք,
+		չունի մուտք Ձեր հավելվածի օգտագործման կամ տվյալների հասանելիությանը։</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Տվյալների Կառավարում և Ջնջում</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Դուք լիովին վերահսկում եք մուտքագրած
+		տեղեկատվությունը։ Դուք կարող եք ցանկացած պահի ջնջել ձեր տվյալները՝
+		ապատեղադրելով հավելվածը կամ մաքրելով դրա պահոցը։ Քանի որ ոչինչ արտաքին
+		չի պահպանվում, լրացուցիչ քայլեր անհրաժեշտ չեն։</string>
+	<string name="privacy_policy_children_privacy_title">Երեխաների Գաղտնիություն</string>
+	<string name="privacy_policy_children_privacy_body">Ծրագրը անվտանգ է բոլոր օգտատերերի, այդ թվում՝ 13
+		տարեկանից փոքր երեխաների համար։ Անձնական տվյալներ չեն հավաքագրվում,
+		ինչը այն համահունչ է դարձնում երեխաների գաղտնիության համաշխարհային
+		օրենքներին, ինչպիսիք են COPPA-ն և GDPR-K-ն։</string>
+	<string name="privacy_policy_your_rights_title">Ձեր Իրավունքները</string>
+	<string name="privacy_policy_your_rights_body">Քանի որ տվյալներ չեն հավաքագրվում, ձեր կողմից մեզ
+		միջոցով հասանելի, թարմացվող կամ ջնջվող ոչինչ չկա։ Բոլոր տվյալները ձերն
+		են և մնում են բացառապես ձեր սարքում։</string>
+	<string name="privacy_policy_contact_information_title">Կապի տեղեկատվություն</string>
+	<string name="privacy_policy_changes_title">Այս քաղաքականության փոփոխությունները</string>
+	<string name="privacy_policy_effective_date_title">Ուժի մեջ մտնելու ամսաթիվը</string>
+	<string name="privacy_policy_email_subject">Գաղտնիության Քաղաքականության Հարցում – %s</string>
+	<string name="policies">Քաղաքականություններ</string>
+	<string name="privacy_policy_contact_information_body">Եթե այս Գաղտնիության քաղաքականության վերաբերյալ
+		որևէ հարց կամ մտահոգություն ունեք, կարող եք կապվել մեզ հետ էլ. փոստով</string>
+	<string name="privacy_policy_changes_body">Եթե հավելվածի գործառույթը փոխվում է այնպես, որ
+		ազդում է ձեր անձնական կյանքի վրա, ապա այս Գաղտնիության
+		Քաղաքականությունը համապատասխանաբար կթարմացվի։ Մենք խրախուսում ենք
+		օգտատերերին ժամանակ առ ժամանակ վերանայել քաղաքականությունը։</string>
+	<string name="privacy_policy_effective_date_body">Ակտիվացման օրը վերաբերում է այն օրվան, երբ այս
+		Գաղտնիության քաղաքականությունը վերջին անգամ թարմացվել կամ ուժի մեջ է
+		մտել։ Ձեր տվյալների մշակման ձևում կատարված ցանկացած փոփոխություն
+		կարտացոլվի քաղաքականության թարմացված տարբերակում։ Մենք խրախուսում ենք
+		օգտվողներին պարբերաբար վերանայել այս քաղաքականությունը՝ տեղեկացված
+		լինելու իրենց տեղեկատվության մշակման ձևի մասին։</string>
 </resources>

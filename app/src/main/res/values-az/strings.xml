@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tarix</string>
 	<string name="filters_title">Filtrlər</string>
 	<string name="currency_label">Valyuta</string>
-	<string name="currency_code_label">Valyuta kodu</string>
 	<string name="amount_label">Məbləğ</string>
 	<string name="category_label">Kateqoriya</string>
 	<string name="invalid_format_error">Etibarsız format</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">valyuta kodu: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Simvol sayı: %d. Simvol limiti: %d</string>
+	<string name="privacy_policy">Məxfilik Siyasəti</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Məlumatlarınız sizinlə qalır</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Biz sizin məxfiliyinizə hörmət edirik. Bu tətbiq
+		tamamilə offline işləyir və heç bir məlumat toplamaz və ya paylaşmaz.
+		Bu siyasət bütün dünya üzrə istifadəçilərə, o cümlədən bütün yaş
+		qruplarından uşaqlara şamil edilir. Biz heç bir şəxsi və ya
+		qeyri-şəxsi məlumatı toplamayır, saxlamır, ötürmür və paylaşmırıq.
+		Tətbiq tamamilə offline işləyir. Bütün funksiyalar internet bağlantısı
+		olmadan istifadə edilə bilər və heç bir məlumat heç vaxt əldə edilmir
+		və ya göndərilmir.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Yalnız Yerli Məlumatların Saxlanması</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tətbiqə daxil etdiyiniz bütün məlumatlar yalnız
+		sizin cihazınızda saxlanılır. Heç vaxt xarici serverlərə yüklənmir,
+		ehtiyat nüsxəsi çıxarılmır və heç kimlə paylaşılmır. Biz bu
+		məlumatlara daxil ola bilmirik və daxil ola bilmərik.</string>
+	<string name="privacy_policy_no_third_party_services_title">Üçüncü Tərəf Xidmətləri Yoxdur</string>
+	<string name="privacy_policy_no_third_party_services_body">Tətbiq üçüncü tərəf SDK-ları, analitika alətləri,
+		reklam şəbəkələri və ya məlumat toplayan heç bir xarici xidmət
+		istifadə etmir. Heç kim, o cümlədən biz, sizin tətbiq istifadənizə və
+		ya məlumatlarınıza daxil ola bilməz.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Məlumatların İdarə Olunması və Silinməsi</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Daxil etdiyiniz məlumat üzərində tam nəzarət
+		sizdədir. Proqramı silməklə və ya onun yaddaşını təmizləməklə
+		məlumatlarınızı istənilən vaxt silə bilərsiniz. Xarici yaddaşda heç nə
+		saxlanmadığı üçün əlavə addımlara ehtiyac yoxdur.</string>
+	<string name="privacy_policy_children_privacy_title">Uşaqların Məxfiliyi</string>
+	<string name="privacy_policy_children_privacy_body">Tətbiq bütün istifadəçilər, o cümlədən 13 yaşdan
+		kiçik uşaqlar üçün təhlükəsizdir. Heç bir şəxsi məlumat toplanmır, bu
+		da onu COPPA və GDPR-K kimi qlobal uşaq məxfiliyi qanunlarına uyğun
+		edir.</string>
+	<string name="privacy_policy_your_rights_title">Sizin Hüquqlarınız</string>
+	<string name="privacy_policy_your_rights_body">Heç bir məlumat toplanmadığı üçün bizim vasitəmizlə
+		daxil ola, yeniləyə və ya silə biləcəyiniz heç nə yoxdur. Bütün
+		məlumatlar sizindir və yalnız cihazınızda qalır.</string>
+	<string name="privacy_policy_contact_information_title">Əlaqə Məlumatları</string>
+	<string name="privacy_policy_changes_title">Bu siyasətdəki dəyişikliklər</string>
+	<string name="privacy_policy_effective_date_title">Qüvvəyə minmə tarixi</string>
+	<string name="privacy_policy_email_subject">Məxfilik Siyasəti Sorğusu – %s</string>
+	<string name="policies">Siyasətlər</string>
+	<string name="privacy_policy_contact_information_body">Bu Məxfilik Siyasəti ilə bağlı hər hansı bir
+		sualınız və ya narahatlığınız varsa, bizimlə e-poçt vasitəsilə əlaqə
+		saxlaya bilərsiniz.</string>
+	<string name="privacy_policy_changes_body">Əgər tətbiqin funksionallığı məxfiliyinizi təsir
+		edəcək şəkildə dəyişərsə, bu Məxfilik Siyasəti müvafiq olaraq
+		yenilənəcək. İstifadəçilərə siyasəti vaxtaşırı nəzərdən keçirməyi
+		tövsiyə edirik.</string>
+	<string name="privacy_policy_effective_date_body">Effektiv tarix, bu Məxfilik Siyasətinin sonuncu
+		dəfə yeniləndiyi və ya qüvvəyə mindiyi günü bildirir. Tətbiqin
+		məlumatlarınızı necə emal etməsi ilə bağlı edilən hər hansı dəyişiklik
+		bu siyasətin yenilənmiş versiyasında əks olunacaq. İstifadəçilərə
+		məlumatlarının necə idarə edildiyi barədə məlumatlı qalmaq üçün bu
+		siyasəti vaxtaşırı nəzərdən keçirmələri tövsiyə olunur.</string>
 </resources>

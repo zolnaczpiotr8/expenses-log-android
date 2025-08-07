@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Filtri</string>
 	<string name="currency_label">Munita</string>
-	<string name="currency_code_label">Kodiċi tal-munita</string>
 	<string name="amount_label">Ammont</string>
 	<string name="category_label">Kategorija</string>
 	<string name="invalid_format_error">Format invalidu</string>
@@ -49,4 +48,55 @@
 	<string name="currency_code_item_label">kodiċi tal-munita: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Għadd ta’ karattri: %d. Limitu tal-karattri: %d</string>
+	<string name="privacy_policy">Politika dwar il-Privatezza</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Id-dejta tiegħek tibqa’ miegħek</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Nirrispettaw il-privatezza tiegħek. Din l-app
+		taħdem kompletament offline u ma tiġborx jew taqsam data. Din
+		il-politika tapplika għal kull utent madwar id-dinja, inklużi t-tfal
+		ta’ kull età. Aħna ma niġbru, ma naħżnux, ma nittrasmettux jew naqsmu
+		informazzjoni personali jew mhux personali. L-app taħdem kompletament
+		offline. Il-karatteristiċi kollha jistgħu jintużaw mingħajr
+		konnessjoni tal-internet, u l-ebda data qatt ma tiġi aċċessata jew
+		mibgħuta xi mkien.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Ħażna tad-Data Lokali Biss</string>
+	<string name="privacy_policy_local_only_data_storage_body">L-informazzjoni kollha li ddaħħal fl-app tinżamm
+		biss fuq it-tagħmir tiegħek. Qatt ma tiġi mtellgħa, issalvata fuq
+		servers esterni jew maqsumha ma’ ħaddieħor. M’għandniex aċċess għal
+		din l-informazzjoni u lanqas ma nistgħu jkollna.</string>
+	<string name="privacy_policy_no_third_party_services_title">L-ebda Servizzi ta’ Parti Terza</string>
+	<string name="privacy_policy_no_third_party_services_body">L-app ma tużax SDK ta’ partijiet terzi, għodod ta’
+		analiżi, netwerks ta’ reklamar jew xi servizzi esterni li jiġbru data.
+		Ħaddieħor, inkluż aħna, m’għandux aċċess għall-użu jew id-data tal-app
+		tiegħek.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontroll u Tħassir tad-Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Għandek kontroll sħiħ fuq l-informazzjoni li
+		ddaħħal. Tista’ tħassar id-dejta tiegħek fi kwalunkwe ħin billi
+		tiddiżinstalla l-app jew tnaddaf il-ħażna tagħha. Peress li xejn ma
+		jinħażen esternament, m’hemmx bżonn ta’ passi addizzjonali.</string>
+	<string name="privacy_policy_children_privacy_title">Privatezza tat-Tfal</string>
+	<string name="privacy_policy_children_privacy_body">L-app hija sigura għal kulħadd, inklużi tfal taħt
+		l-età ta’ 13-il sena. L-ebda data personali ma tiġi miġbura, u dan
+		jagħmilha konformi mal-liġijiet globali dwar il-privatezza tat-tfal
+		bħal COPPA u GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Id-Drittijiet Tiegħek</string>
+	<string name="privacy_policy_your_rights_body">Peress li ma jiġbor l-ebda data, m’hemm xejn li
+		tista’ taċċessa, taġġorna jew tħassar permezz tagħna. Id-dejta kollha
+		hija tiegħek u tibqa’ biss fuq l-apparat tiegħek.</string>
+	<string name="privacy_policy_contact_information_title">Informazzjoni ta’ Kuntatt</string>
+	<string name="privacy_policy_changes_title">Bidliet f’din il-politika</string>
+	<string name="privacy_policy_effective_date_title">Data tad-dħul fis-seħħ</string>
+	<string name="privacy_policy_email_subject">Mistoqsija dwar il-Politika tal-Privatezza – %s</string>
+	<string name="policies">Politiki</string>
+	<string name="privacy_policy_contact_information_body">Jekk għandek xi mistoqsijiet jew tħassib rigward
+		din il-Politika tal-Privatezza, tista’ tikkuntattjana bl-email.</string>
+	<string name="privacy_policy_changes_body">Jekk il-funzjonalità tal-app tinbidel b’mod li
+		jaffettwa l-privatezza tiegħek, din il-Politika tal-Privatezza se tiġi
+		aġġornata kif xieraq. Inħeġġu lill-utenti jrevedu l-politika minn
+		żmien għal żmien.</string>
+	<string name="privacy_policy_effective_date_body">Id-data effettiva tirreferi għat-tieni li din
+		il-Politika tal-Privatezza ġiet aġġornata l-aħħar jew daħlet fis-seħħ.
+		Kull bidla dwar kif l-app tittratta d-dejta tiegħek se tkun riflessa
+		f’verżjoni aġġornata ta’ din il-politika. Inħeġġu lill-utenti jrevedu
+		din il-politika perjodikament biex jibqgħu infurmati dwar kif qed tiġi
+		ttrattata l-informazzjoni tagħhom.</string>
 </resources>

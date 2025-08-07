@@ -26,7 +26,6 @@
 	<string name="date_filter_title">ದಿನಾಂಕ</string>
 	<string name="filters_title">ಫಿಲ್ಟರ್‌ಗಳು</string>
 	<string name="currency_label">ಮುದ್ರೆ</string>
-	<string name="currency_code_label">ಕರೆನ್ಸಿ ಕೋಡ್</string>
 	<string name="amount_label">ಮೊತ್ತ</string>
 	<string name="category_label">ವರ್ಗ</string>
 	<string name="invalid_format_error">ಅಮಾನ್ಯವಾದ ಸ್ವರೂಪ</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">ಕರೆನ್ಸಿ ಕೋಡ್: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ: %d. ಅಕ್ಷರ ಮಿತಿಯು: %d</string>
+	<string name="privacy_policy">ಗೌಪ್ಯತೆ ನೀತಿ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ನಿಮ್ಮ ಡೇಟಾ ನಿಮ್ಮೊಂದಿಗೆ ಇರುತ್ತದೆ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">ನಾವು ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ಈ ಅಪ್ಲಿಕೇಶನ್
+		ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಯಾವುದೇ ಡೇಟಾವನ್ನು
+		ಸಂಗ್ರಹಿಸದೆ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ. ಈ ನೀತಿ ಎಲ್ಲಾ ವಯಸ್ಸಿನ ಮಕ್ಕಳನ್ನು
+		ಸೇರಿಸಿ ಜಾಗತಿಕವಾಗಿ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೆ ಅನ್ವಯಿಸುತ್ತದೆ. ನಾವು ಯಾವುದೇ
+		ವೈಯಕ್ತಿಕ ಅಥವಾ ವೈಯಕ್ತಿಕವಲ್ಲದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ,
+		ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ, ಪ್ರಸಾರ ಮಾಡುವುದಿಲ್ಲ ಅಥವಾ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ.
+		ಅಪ್ಲಿಕೇಶನ್ ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಎಲ್ಲಾ
+		ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲದೆ ಬಳಸಬಹುದು, ಮತ್ತು ಯಾವುದೇ
+		ಡೇಟಾವನ್ನು ಎಂದಿಗೂ ಪ್ರವೇಶಿಸುವುದಿಲ್ಲ ಅಥವಾ ಕಳುಹಿಸುವುದಿಲ್ಲ.</string>
+	<string name="privacy_policy_local_only_data_storage_title">ಸ್ಥಳೀಯವಾಗಿ ಮಾತ್ರ ಡೇಟಾ ಸಂಗ್ರಹಣೆ</string>
+	<string name="privacy_policy_local_only_data_storage_body">ನೀವು ಆಪ್‌ನಲ್ಲಿ ನಮೂದಿಸುವ ಎಲ್ಲಾ ಮಾಹಿತಿಯು ನಿಮ್ಮದೇ
+		ಡಿವೈಸ್‌ನಲ್ಲಿ ಮಾತ್ರ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು ಹೊರಗಿನ ಸರ್ವರ್‌ಗಳಿಗೆ
+		ಅಪ್‌ಲೋಡ್ ಮಾಡುವುದಿಲ್ಲ, ಬ್ಯಾಕ್‌ಅಪ್ ಮಾಡುವುದಿಲ್ಲ ಅಥವಾ ಯಾರೊಂದಿಗೂ
+		ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ. ನಾವು ಈ ಮಾಹಿತಿಗೆ ಪ್ರವೇಶವಿಲ್ಲ ಮತ್ತು ಪ್ರವೇಶಿಸಲಾರರೂ.</string>
+	<string name="privacy_policy_no_third_party_services_title">ಮೂರನೇ ಪಕ್ಷದ ಸೇವೆಗಳು ಇಲ್ಲ</string>
+	<string name="privacy_policy_no_third_party_services_body">ಆಪ್ ತೃತೀಯ ಪಕ್ಷ SDKಗಳು, ವಿಶ್ಲೇಷಣೆ ಸಾಧನಗಳು, ಜಾಹೀರಾತು
+		ಜಾಲಗಳು ಅಥವಾ ಡೇಟಾ ಸಂಗ್ರಹಿಸುವ ಯಾವುದೇ ಬಾಹ್ಯ ಸೇವೆಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ. ನಾವು
+		ಸೇರಿದಂತೆ ಯಾರಿಗೂ ನಿಮ್ಮ ಆಪ್ ಬಳಕೆ ಅಥವಾ ಡೇಟಾಕ್ಕೆ ಪ್ರವೇಶವಿಲ್ಲ.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ಡೇಟಾ ನಿಯಂತ್ರಣ ಮತ್ತು ಅಳಿಸಲು</string>
+	<string name="privacy_policy_data_control_and_deletion_body">ನೀವು ನಮೂದಿಸುವ ಮಾಹಿತಿಯ ಮೇಲೆ ನೀವು ಸಂಪೂರ್ಣ ನಿಯಂತ್ರಣ
+		ಹೊಂದಿರುತ್ತೀರಿ. ನೀವು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಆ್ಯಪ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವ ಅಥವಾ
+		ಅದರ ಸಂಗ್ರಹಣೆಯನ್ನು ಕ್ಲೀಯರ್ ಮಾಡುವ ಮೂಲಕ ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಅಳಿಸಬಹುದು. ಯಾವುದೇ
+		ವಿಷಯವನ್ನು ಹೊರಗಿನ ಪರಿಕರದಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲವಾದ್ದರಿಂದ ಯಾವುದೇ
+		ಹೆಚ್ಚುವರಿ ಕ್ರಮಗಳ ಅಗತ್ಯವಿಲ್ಲ.</string>
+	<string name="privacy_policy_children_privacy_title">ಮಕ್ಕಳ ಗೌಪ್ಯತೆ</string>
+	<string name="privacy_policy_children_privacy_body">13 ವರ್ಷಕ್ಕಿಂತ ಕಡಿಮೆ ವಯಸ್ಸಿನ ಮಕ್ಕಳನ್ನು ಸೇರಿಸಿ ಎಲ್ಲಾ
+		ಬಳಕೆದಾರರಿಗೆ ಆ್ಯಪ್ ಸುರಕ್ಷಿತವಾಗಿದೆ. ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು
+		ಸಂಗ್ರಹಿಸಲಾಗದು, ಇದರಿಂದಾಗಿ ಇದು COPPA ಮತ್ತು GDPR-K ಮುಂತಾದ ಜಾಗತಿಕ ಮಕ್ಕಳ
+		ಗೌಪ್ಯತಾ ಕಾನೂನುಗಳಿಗೆ ಅನುಗುಣವಾಗಿರುತ್ತದೆ.</string>
+	<string name="privacy_policy_your_rights_title">ನಿಮ್ಮ ಹಕ್ಕುಗಳು</string>
+	<string name="privacy_policy_your_rights_body">ಯಾವುದೇ ಡೇಟಾ ಸಂಗ್ರಹಿಸಲಾಗದ ಕಾರಣ, ನೀವು ನಮಮೂಲಕ
+		ಪ್ರವೇಶಿಸಬಹುದಾದ, ನವೀಕರಿಸಬಹುದಾದ ಅಥವಾ ಅಳಿಸಬಹುದಾದ ಯಾವ ಮಾಹಿತಿಯೂ ಇಲ್ಲ. ಎಲ್ಲಾ
+		ಡೇಟಾ ನಿಮ್ಮದು ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಇರುತ್ತದೆ.</string>
+	<string name="privacy_policy_contact_information_title">ಸಂಪರ್ಕ ಮಾಹಿತಿ</string>
+	<string name="privacy_policy_changes_title">ಈ ನೀತಿಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳು</string>
+	<string name="privacy_policy_effective_date_title">ಪರಿಣಾಮಕಾರಿಯಾದ ದಿನಾಂಕ</string>
+	<string name="privacy_policy_email_subject">ಗೌಪ್ಯತಾ ನೀತಿಯ ಕುರಿತು ವಿಚಾರಣೆ – %s</string>
+	<string name="policies">ನೀತಿಗಳು</string>
+	<string name="privacy_policy_contact_information_body">ಈ ಗೌಪ್ಯತಾ ನೀತಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ನಿಮಗೆ ಯಾವುದೇ
+		ಪ್ರಶ್ನೆಗಳಾಗಿದ್ರೆ ಅಥವಾ ಚಿಂತೆಗಳಿದ್ರೆ, ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಇಮೇಲ್ ಮೂಲಕ
+		ಸಂಪರ್ಕಿಸಿ.</string>
+	<string name="privacy_policy_changes_body">ಆ್ಯಪ್‌ನ ಕಾರ್ಯಕ್ಷಮತೆ ನಿಮ್ಮ ಗೌಪ್ಯತೆಗೆ ಪರಿಣಾಮ ಬೀರುವ
+		ರೀತಿಯಲ್ಲಿ ಬದಲಾಗಿದ್ರೆ, ಈ ಗೌಪ್ಯತಾ ನೀತಿಯು ಅನುಗುಣವಾಗಿ ನವೀಕರಿಸಲಾಗುತ್ತದೆ.
+		ಬಳಕೆದಾರರು ಕಾಲಕಾಲಕ್ಕೆ ನೀತಿಯನ್ನು ಪರಿಶೀಲಿಸಲು ನಾವು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತೇವೆ.</string>
+	<string name="privacy_policy_effective_date_body">ಪರಿಣಾಮಕಾರಿಯಾದ ದಿನಾಂಕವು ಈ ಗೌಪ್ಯತಾ ಧೋರಣೆಯನ್ನು
+		ಕೊನೆಯದಾಗಿ ನವೀಕರಿಸಲಾದ ಅಥವಾ ಪ್ರಭಾವಿ ಆಗಿದಿನವನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಅಪ್ಲಿಕೇಶನ್
+		ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸುತ್ತದೆ ಎಂಬುದರಲ್ಲಿರುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ಈ
+		ಧೋರಣೆಯ ನವೀಕರಿಸಿದ ಆವೃತ್ತಿಯಲ್ಲಿ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು
+		ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ ಎಂಬುದರ ಬಗ್ಗೆ ತಿಳಿದುಕೊಳ್ಳಲು ಬಳಕೆದಾರರು ಈ
+		ಧೋರಣೆಯನ್ನು ಕಾಲಕಾಲಕ್ಕೆ ಪರಿಶೀಲಿಸಲು ನಾವು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತೇವೆ.</string>
 </resources>

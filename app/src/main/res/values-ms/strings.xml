@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tarikh</string>
 	<string name="filters_title">Penapis</string>
 	<string name="currency_label">Mata Wang</string>
-	<string name="currency_code_label">Kod mata wang</string>
 	<string name="amount_label">Jumlah</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Format tidak sah</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">kod mata wang: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Kiraan aksara: %d. Had aksara: %d</string>
+	<string name="privacy_policy">Dasar Privasi</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Data anda tetap bersama anda</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Kami menghormati privasi anda. Aplikasi ini
+		berfungsi sepenuhnya tanpa talian dan tidak mengumpul atau berkongsi
+		sebarang data. Polisi ini terpakai kepada semua pengguna di seluruh
+		dunia, termasuk kanak-kanak dari semua peringkat umur. Kami tidak
+		mengumpul, menyimpan, menghantar atau berkongsi sebarang maklumat
+		peribadi atau bukan peribadi. Aplikasi ini berfungsi sepenuhnya tanpa
+		talian. Semua ciri boleh digunakan tanpa sambungan internet, dan tiada
+		data pernah diakses atau dihantar ke mana-mana.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Penyimpanan Data Tempatan Sahaja</string>
+	<string name="privacy_policy_local_only_data_storage_body">Semua maklumat yang anda masukkan ke dalam aplikasi
+		hanya disimpan pada peranti anda sendiri. Ia tidak pernah dimuat naik,
+		disandarkan ke pelayan luar, atau dikongsi dengan sesiapa pun. Kami
+		tidak mempunyai dan tidak boleh mengakses maklumat ini.</string>
+	<string name="privacy_policy_no_third_party_services_title">Tiada Perkhidmatan Pihak Ketiga</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikasi ini tidak menggunakan SDK pihak ketiga,
+		alat analitik, rangkaian iklan, atau perkhidmatan luaran yang
+		mengumpul data. Tiada siapa pun, termasuk kami, mempunyai akses kepada
+		penggunaan atau data aplikasi anda.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kawalan dan Pemadaman Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Anda mempunyai kawalan penuh terhadap maklumat yang
+		anda masukkan. Anda boleh memadam data anda pada bila-bila masa dengan
+		menyahpasang aplikasi atau membersihkan storannya. Oleh kerana tiada
+		apa-apa disimpan secara luaran, tiada langkah tambahan diperlukan.</string>
+	<string name="privacy_policy_children_privacy_title">Privasi Kanak-kanak</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasi ini selamat untuk semua pengguna, termasuk
+		kanak-kanak di bawah umur 13 tahun. Tiada data peribadi dikumpulkan,
+		menjadikannya mematuhi undang-undang privasi kanak-kanak global
+		seperti COPPA dan GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Hak Anda</string>
+	<string name="privacy_policy_your_rights_body">Oleh kerana tiada data dikumpulkan, tiada apa yang
+		boleh anda akses, kemas kini atau padam melalui kami. Semua data
+		adalah milik anda dan kekal hanya pada peranti anda.</string>
+	<string name="privacy_policy_contact_information_title">Maklumat Perhubungan</string>
+	<string name="privacy_policy_changes_title">Perubahan kepada dasar ini</string>
+	<string name="privacy_policy_effective_date_title">Tarikh berkuat kuasa</string>
+	<string name="privacy_policy_email_subject">Pertanyaan Polisi Privasi – %s</string>
+	<string name="policies">Polisi</string>
+	<string name="privacy_policy_contact_information_body">Jika anda mempunyai sebarang pertanyaan atau
+		kebimbangan mengenai Dasar Privasi ini, anda boleh menghubungi kami
+		melalui e-mel.</string>
+	<string name="privacy_policy_changes_body">Jika fungsi aplikasi berubah dengan cara yang
+		mempengaruhi privasi anda, Polisi Privasi ini akan dikemas kini
+		sewajarnya. Kami menggalakkan pengguna untuk menyemak polisi dari
+		semasa ke semasa.</string>
+	<string name="privacy_policy_effective_date_body">Tarikh berkuat kuasa merujuk kepada hari dasar
+		Privasi ini kali terakhir dikemas kini atau mula berkuat kuasa.
+		Sebarang perubahan mengenai cara aplikasi mengendalikan data anda akan
+		dicerminkan dalam versi dasar yang dikemas kini. Kami menggalakkan
+		pengguna menyemak dasar ini dari semasa ke semasa untuk mengetahui
+		cara maklumat mereka dikendalikan.</string>
 </resources>

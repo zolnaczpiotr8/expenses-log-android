@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Päivämäärä</string>
 	<string name="filters_title">Suodattimet</string>
 	<string name="currency_label">Valuutta</string>
-	<string name="currency_code_label">Valuuttakoodi</string>
 	<string name="amount_label">Määrä</string>
 	<string name="category_label">Kategoria</string>
 	<string name="invalid_format_error">Virheellinen muoto</string>
@@ -48,4 +47,51 @@
 	<string name="currency_code_item_label">valuuttakoodi: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Merkkimäärä: %d. Merkkiraja: %d</string>
+	<string name="privacy_policy">Tietosuojakäytäntö</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Tietosi pysyvät sinun hallussasi</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Kunnioitamme yksityisyyttäsi. Tämä sovellus toimii
+		kokonaan offline-tilassa eikä kerää tai jaa mitään tietoja. Tämä
+		käytäntö koskee kaikkia käyttäjiä maailmanlaajuisesti, mukaan lukien
+		kaikki ikäryhmät lapset. Emme kerää, tallenna, siirrä tai jaa mitään
+		henkilökohtaisia tai ei-henkilökohtaisia tietoja. Sovellus toimii
+		täysin offline-tilassa. Kaikki ominaisuudet voidaan käyttää ilman
+		internet-yhteyttä, eikä tietoja koskaan päästetä käsiksi tai lähetetä
+		mihinkään.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Vain Paikallinen Tietojen Tallennus</string>
+	<string name="privacy_policy_local_only_data_storage_body">Kaikki sovellukseen syöttämäsi tiedot tallennetaan
+		vain omalle laitteellesi. Niitä ei koskaan ladata, varmuuskopioida
+		ulkoisille palvelimille tai jaeta kenellekään. Me emme pääse käsiksi
+		näihin tietoihin emmekä voi päästäkään.</string>
+	<string name="privacy_policy_no_third_party_services_title">Ei Kolmannen Osapuolen Palveluita</string>
+	<string name="privacy_policy_no_third_party_services_body">Sovellus ei käytä kolmannen osapuolen SDK</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Tietojen Hallinta ja Poistaminen</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Sinulla on täydellinen hallinta syöttämääsi
+		tietoon. Voit poistaa tietosi milloin tahansa poistamalla sovelluksen
+		tai tyhjentämällä sen tallennustilan. Koska mitään ei tallenneta
+		ulkoisesti, lisätoimia ei tarvita.</string>
+	<string name="privacy_policy_children_privacy_title">Lasten Tietosuoja</string>
+	<string name="privacy_policy_children_privacy_body">Sovellus on turvallinen kaikille käyttäjille,
+		mukaan lukien alle 13-vuotiaat lapset. Henkilötietoja ei kerätä, mikä
+		tekee siitä COPPA</string>
+	<string name="privacy_policy_your_rights_title">Oikeutesi</string>
+	<string name="privacy_policy_your_rights_body">Koska mitään tietoja ei kerätä, ei ole mitään, mitä
+		voisit käyttää, päivittää tai poistaa meidän kauttamme. Kaikki tiedot
+		ovat sinun ja pysyvät ainoastaan laitteessasi.</string>
+	<string name="privacy_policy_contact_information_title">Yhteystiedot</string>
+	<string name="privacy_policy_changes_title">Muutokset tähän käytäntöön</string>
+	<string name="privacy_policy_effective_date_title">Voimaantulopäivä</string>
+	<string name="privacy_policy_email_subject">Tietosuojakysely – %s</string>
+	<string name="policies">Käytännöt</string>
+	<string name="privacy_policy_contact_information_body">Jos sinulla on kysyttävää tai huolenaiheita tästä
+		tietosuojakäytännöstä, voit ottaa meihin yhteyttä sähköpostitse.</string>
+	<string name="privacy_policy_changes_body">Jos sovelluksen toiminnallisuus muuttuu tavalla,
+		joka vaikuttaa yksityisyyteesi, tätä tietosuojakäytäntöä päivitetään
+		asianmukaisesti. Kehotamme käyttäjiä tarkistamaan käytännön aika
+		ajoin.</string>
+	<string name="privacy_policy_effective_date_body">Voimaantulopäivämäärä viittaa päivään, jolloin tämä
+		tietosuojakäytäntö viimeksi päivitettiin tai tuli voimaan. Kaikki
+		muutokset siihen, miten sovellus käsittelee tietojasi, näkyvät tämän
+		käytännön päivitetystä versiosta. Kehotamme käyttäjiä tarkistamaan
+		tämän käytännön säännöllisesti pysyäkseen ajan tasalla siitä, miten
+		heidän tietojaan käsitellään.</string>
 </resources>

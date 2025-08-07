@@ -26,7 +26,6 @@
 	<string name="date_filter_title">তাৰিখ</string>
 	<string name="filters_title">ফিল্টাৰসমূহ</string>
 	<string name="currency_label">মুদ্ৰা</string>
-	<string name="currency_code_label">মুদ্ৰা ক’ড</string>
 	<string name="amount_label">পৰিমাণ</string>
 	<string name="category_label">বৰ্গ</string>
 	<string name="invalid_format_error">অবৈধ ফৰ্মেট</string>
@@ -48,4 +47,52 @@
 	<string name="currency_code_item_label">মুদ্ৰা সংকেত: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">অক্ষৰৰ সংখ্যা: %d। অক্ষৰৰ সীমা: %d</string>
+	<string name="privacy_policy">গোপনীয়তা নীতি</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">আপোনাৰ তথ্য আপোনাৰ সৈতে থাকে</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">আমি আপোনাৰ গোপনীয়তাৰ সন্মান কৰোঁ। এই এপ্লিকেশ্বনটো
+		সম্পূৰ্ণৰূপে অফলাইনতে কাম কৰে আৰু কোনো তথ্য সংগ্ৰহ বা ভাগ-বতৰা নকৰে।
+		এই নীতি বিশ্বৰ সকলো ব্যৱহাৰকাৰীক, সকলো বয়সৰ শিশুসকলকো ধৰি প্ৰযোজ্য।
+		আমি কোনো ব্যক্তিগত বা অব্যক্তিগত তথ্য সংগ্ৰহ, সংৰক্ষণ, প্ৰেৰণ বা
+		ভাগ-বতৰা নকৰো। এপ্লিকেশ্বনটো সম্পূৰ্ণৰূপে অফলাইনতে কাম কৰে। সকলো
+		সুবিধা ইন্টাৰনেট সংযোগ নথকাকৈ ব্যৱহাৰ কৰিব পাৰি আৰু কোনো তথ্য কেতিয়াও
+		প্ৰৱেশ বা প্ৰেৰণ কৰা নহয়।</string>
+	<string name="privacy_policy_local_only_data_storage_title">কেৱল স্থানীয় ডাটা সংৰক্ষণ</string>
+	<string name="privacy_policy_local_only_data_storage_body">আপুনি এপ্‌টোত ভৰোৱা সকলো তথ্য কেৱল আপোনাৰ নিজা
+		ডিভাইচত সংৰক্ষিত হয়। এই তথ্য বাহ্যিক ছাৰ্ভাৰত আপল’ড, বেক-আপ বা আন কাকো
+		প্ৰদান কৰা নহয়। আমি এই তথ্যত প্ৰৱেশ কৰিব নোৱাৰোঁ আৰু কৰিবও নোৱাৰি।</string>
+	<string name="privacy_policy_no_third_party_services_title">তৃতীয় পক্ষৰ সেৱাসমূহ নাই</string>
+	<string name="privacy_policy_no_third_party_services_body">এপ্লিকে’শনে তৃতীয় পক্ষৰ SDK, বিশ্লেষণ টুল, বিজ্ঞাপন
+		নেটৱৰ্ক বা যিকোনো বাহ্যিক সেৱা যি ডাটা সংগ্ৰহ কৰে, ব্যৱহাৰ নকৰে। আমি
+		সহ আন কাকো আপোনাৰ এপ্লিকে’শ্যনৰ ব্যৱহাৰ বা ডাটাত প্ৰৱেশ নাই।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ডাটা নিয়ন্ত্ৰণ আৰু মচি পেলোৱা</string>
+	<string name="privacy_policy_data_control_and_deletion_body">আপুনি নিবিষ্ট কৰা তথ্যৰ ওপৰত আপোনাৰ সম্পূৰ্ণ
+		নিয়ন্ত্ৰণ আছে। আপুনি যিকোনো সময়ত এপ্‌টো আনইনষ্টল কৰি বা ইয়াৰ সংৰক্ষণ
+		পৰিষ্কাৰ কৰি আপোনাৰ তথ্য ডিলিট কৰিব পাৰে। বাহিৰে একো সংৰক্ষণ নহয় বুলি,
+		অতিৰিক্ত পদক্ষেপৰ প্ৰয়োজন নাই।</string>
+	<string name="privacy_policy_children_privacy_title">শিশুৰ গোপনীয়তা</string>
+	<string name="privacy_policy_children_privacy_body">এই এপটো সকলো ব্যৱহাৰকাৰীৰ বাবে, ১৩ বছৰৰ তলৰ
+		শিশুবোৰকো ধৰি, নিৰাপদ। একো ব্যক্তিগত তথ্য সংগ্ৰহ কৰা নহয়, যাৰ ফলত এই
+		এপটো COPPA আৰু GDPR-K যেনে বিশ্বজনীন শিশুৰ গোপনীয়তা-সন্মত বিধিসমূহৰ
+		সৈতে সামঞ্জস্যপূর্ণ।</string>
+	<string name="privacy_policy_your_rights_title">আপোনাৰ অধিকাৰসমূহ</string>
+	<string name="privacy_policy_your_rights_body">কোনো ডাটা সংগ্ৰহ কৰা নহয় বুলি, আপোনাৰ বাবে আমাৰ
+		জৰিয়তে একো এক্সেছ, আপডেট বা ডিলিট কৰাৰ একো নাই। সকলো ডাটা আপোনাৰেই
+		আৰু কেৱল আপোনাৰ ডিভাইচত থাকে।</string>
+	<string name="privacy_policy_contact_information_title">যোগাযোগৰ তথ্য</string>
+	<string name="privacy_policy_changes_title">এই নীতিত সলনি</string>
+	<string name="privacy_policy_effective_date_title">কাৰ্যকৰী তাৰিখ</string>
+	<string name="privacy_policy_email_subject">গোপনীয়তা নীতি অনুসন্ধান – %s</string>
+	<string name="policies">নীতিসমূহ</string>
+	<string name="privacy_policy_contact_information_body">যদি আপোনাৰ এই গোপনীয়তা নীতিটো সম্পৰ্কে কোনো প্ৰশ্ন
+		বা চিন্তা থাকে, তেন্তে আপুনি আমাক ইমেইলযোগে যোগাযোগ কৰিব পাৰে।</string>
+	<string name="privacy_policy_changes_body">যদি এপ্লিকেচনৰ কাৰ্যক্ষমতা এনেদৰে সলনি হয় যিয়ে
+		আপোনাৰ গোপনীয়তাত প্ৰভাৱ পেলায়, তেন্তে এই গোপনীয়তা নীতি অনুসৰি সলনি
+		কৰা হ’ব। আমি ব্যৱহাৰকাৰীক সময়ে সময়ে নীতি পৰ্যালোচনা কৰিবলৈ উৎসাহিত
+		কৰোঁ।</string>
+	<string name="privacy_policy_effective_date_body">কার্যকৰী তাৰিখটো সেই দিনটোলৈ সঁপোৱা হয় যি দিনা এই
+		গোপনীয়তা নীতি শেষবাৰৰ বাবে আপডেট কৰা হৈছিল বা কাৰ্যকৰী হৈছিল। আপোনাৰ
+		ডেটা কেনেকৈ হেণ্ডেল কৰা হয় তাৰ যিকোনো পৰিৱর্তন এই নীতিৰ এটা আপডেট কৰা
+		সংস্কৰণত প্ৰতিফলিত হ’ব। আপুনালোকক এই নীতিটো সময় সময়ত পৰ্যালোচনা কৰাৰ
+		পৰামৰ্শ দিয়া হয় যাতে আপোনাৰ তথ্য কেনেকৈ ব্যৱহাৰ কৰা হৈছে সেই বিষয়ে
+		সদায় অৱগত থাকিব পাৰে।</string>
 </resources>

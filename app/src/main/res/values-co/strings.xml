@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Filtri</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Codice di valuta</string>
 	<string name="amount_label">Importu</string>
 	<string name="category_label">Categoria</string>
 	<string name="invalid_format_error">Formatu micca validu</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">codice valuta: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Conte di caratteri: %d. Limitu di caratteri: %d</string>
+	<string name="privacy_policy">Pulitica di privacy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">I vostri dati restanu cun voi</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Respectemu a vostra privacy. Questa app funziona
+		interamente offline è ùn raccoglie nè sparte alcun dati. Questa
+		pulitica si applica à tutti l’utilizatori in u mondu sanu, cumpresi i
+		zitelli di ogni età. Ùn raccogliemu, micca archiviemu, trasmettemu o
+		spartemu alcuna infurmazione persunale o micca persunale. L’app
+		funziona cumplettamente offline. Tutte e funzioni ponu esse usate
+		senza cunnessione internet, è nisun dati ùn hè mai accessu o mandatu
+		in qualunque locu.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Solu Arregistramentu Lucale di i Dati</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tutte l’infurmazioni chì inserite in l’app sò
+		almacenate solu nant’à u vostru dispositivu. Ùn sò mai carricate,
+		salvate in servitori esterni, o spartute cù nimu. Ùn avemu è ùn pudemu
+		micca avè accessu à st’infurmazioni.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nisun Serviziu di Terze Parti</string>
+	<string name="privacy_policy_no_third_party_services_body">L’app ùn utilizza micca SDK di terze parti,
+		strumenti di analisi, rete publicitarie o servizii esterni chì cullanu
+		dati. Nimu altru, cumpresi noi, hà accessu à l’usu di a vostra app o à
+		i vostri dati.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Cuntrollu è Eliminazione di i Dati</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Avete un cuntrollu tutale nant’à l’infurmazioni chì
+		inserite. Pudete sguassà i vostri dati in ogni mumentu disinstallendu
+		l’app o pulendu u so almacenamentu. Postu chì nunda ùn hè arregistratu
+		esternamente, ùn sò richiesti passi supplementari.</string>
+	<string name="privacy_policy_children_privacy_title">Privacy di i Zitelli</string>
+	<string name="privacy_policy_children_privacy_body">L’app hè sicura per tutti l’utilizatori, cumpresi i
+		zitelli sottu à l’età di 13 anni. Nisuna infurmazione persunale hè
+		culligata, rendendu l’app cunforme à e lege mundiali di privacy di i
+		zitelli cum’è COPPA è GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">I Vostri Diritti</string>
+	<string name="privacy_policy_your_rights_body">Siccomu nisun datu hè raccoltu, ùn ci hè nunda chì
+		pudete accede, aghjurnà o sguassà per mezu di noi. Tutti i dati sò
+		vostri è fermanu solu nant’à u vostru dispositivu.</string>
+	<string name="privacy_policy_contact_information_title">Infurmazione di cuntattu</string>
+	<string name="privacy_policy_changes_title">Cambiamenti à sta pulitica</string>
+	<string name="privacy_policy_effective_date_title">Data d’entrata in vigore</string>
+	<string name="privacy_policy_email_subject">Richiesta nantu à a Pulitica di Privacy – %s</string>
+	<string name="policies">Politiche</string>
+	<string name="privacy_policy_contact_information_body">Se avete qualchì dumanda o preoccupazione riguardu
+		à sta Pulitica di Privacy, ci pudete cuntattà per email.</string>
+	<string name="privacy_policy_changes_body">S’è a funziunalità di l’app cambia in un modu chì
+		tocca a vostra privacy, sta Pulitica di Privacy serà aghjurnata in
+		cunseguenza. Incuremu l’utilizatori à rivede a pulitica di tantu in
+		tantu.</string>
+	<string name="privacy_policy_effective_date_body">A data efficace si riferisce à u ghjornu in cui sta
+		Pulitica di Privacy hè stata aggiornata per l’ultima volta o hè
+		entrata in vigore. Ogni cambiamentu nantu à cumu l’app gestisce i
+		vostri dati serà riflessu in una versione aggiornata di sta pulitica.
+		Incuragemu l’utilizatori à rivede sta pulitica periodicamente per stà
+		infurmati nantu à cumu a so infurmazione hè trattata.</string>
 </resources>

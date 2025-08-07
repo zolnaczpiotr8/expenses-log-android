@@ -4,7 +4,6 @@ import android.icu.math.BigDecimal
 import android.icu.util.Currency
 import android.icu.util.CurrencyAmount
 import android.icu.util.ULocale
-import android.util.Log
 import javax.inject.Inject
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -23,8 +22,6 @@ import zolnaczpiotr8.com.github.expenses.log.datastore.SettingsDataSource
 import zolnaczpiotr8.com.github.expenses.log.model.Categories
 import zolnaczpiotr8.com.github.expenses.log.model.Category
 
-private val TAG = CategoriesRepository::class.java.name
-
 class CategoriesRepository
 @Inject
 constructor(
@@ -39,15 +36,7 @@ constructor(
       categoryDao.delete(uuid)
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (throwable: Throwable) {
-      if (Log.isLoggable(TAG, Log.ERROR)) {
-        Log.e(
-            TAG,
-            throwable.message,
-            throwable,
-        )
-      }
-    }
+    } catch (_: Throwable) {}
   }
 
   @OptIn(ExperimentalUuidApi::class)
@@ -63,15 +52,7 @@ constructor(
       )
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (throwable: Throwable) {
-      if (Log.isLoggable(TAG, Log.ERROR)) {
-        Log.e(
-            TAG,
-            throwable.message,
-            throwable,
-        )
-      }
-    }
+    } catch (_: Throwable) {}
   }
 
   fun categoriesTitles(): Flow<ImmutableList<String>> =

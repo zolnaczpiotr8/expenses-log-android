@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tanggal</string>
 	<string name="filters_title">Filter</string>
 	<string name="currency_label">Mata Uang</string>
-	<string name="currency_code_label">Kode mata uang</string>
 	<string name="amount_label">Jumlah</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Format tidak valid</string>
@@ -48,4 +47,57 @@
 	<string name="currency_code_item_label">kode mata uang: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Jumlah karakter: %d. Batas karakter: %d</string>
+	<string name="privacy_policy">Kebijakan Privasi</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Data Anda tetap bersama Anda</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Kami menghormati privasi Anda. Aplikasi ini
+		berfungsi sepenuhnya offline dan tidak mengumpulkan atau membagikan
+		data apapun. Kebijakan ini berlaku untuk semua pengguna di seluruh
+		dunia, termasuk anak-anak dari semua usia. Kami tidak mengumpulkan,
+		menyimpan, mengirimkan, atau membagikan informasi pribadi maupun
+		non-pribadi. Aplikasi ini berfungsi sepenuhnya offline. Semua fitur
+		dapat digunakan tanpa koneksi internet, dan tidak ada data yang pernah
+		diakses atau dikirimkan ke mana pun.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Penyimpanan Data Lokal Saja</string>
+	<string name="privacy_policy_local_only_data_storage_body">Semua informasi yang Anda masukkan ke dalam
+		aplikasi hanya disimpan di perangkat Anda sendiri. Tidak pernah
+		diunggah, dicadangkan ke server eksternal, atau dibagikan kepada siapa
+		pun. Kami tidak memiliki dan tidak dapat mengakses informasi ini.</string>
+	<string name="privacy_policy_no_third_party_services_title">Tidak Ada Layanan Pihak Ketiga</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikasi tidak menggunakan SDK pihak ketiga, alat
+		analitik, jaringan iklan, atau layanan eksternal lain yang
+		mengumpulkan data. Tidak ada orang lain, termasuk kami, yang memiliki
+		akses ke penggunaan atau data aplikasi Anda.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Pengendalian dan Penghapusan Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Anda memiliki kendali penuh atas informasi yang
+		Anda masukkan. Anda dapat menghapus data Anda kapan saja dengan
+		menghapus instalasi aplikasi atau membersihkan penyimpanannya. Karena
+		tidak ada yang disimpan secara eksternal, tidak diperlukan langkah
+		tambahan.</string>
+	<string name="privacy_policy_children_privacy_title">Privasi Anak</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasi ini aman untuk semua pengguna, termasuk
+		anak-anak di bawah usia 13 tahun. Tidak ada data pribadi yang
+		dikumpulkan, sehingga aplikasi ini mematuhi undang-undang privasi anak
+		global seperti COPPA dan GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Hak Anda</string>
+	<string name="privacy_policy_your_rights_body">Karena tidak ada data yang dikumpulkan, tidak ada
+		yang dapat Anda akses, perbarui, atau hapus melalui kami. Semua data
+		adalah milik Anda dan tetap berada di perangkat Anda.</string>
+	<string name="privacy_policy_contact_information_title">Informasi Kontak</string>
+	<string name="privacy_policy_changes_title">Perubahan pada kebijakan ini</string>
+	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
+	<string name="privacy_policy_email_subject">Permintaan Kebijakan Privasi – %s</string>
+	<string name="policies">Kebijakan</string>
+	<string name="privacy_policy_contact_information_body">Jika Anda memiliki pertanyaan atau kekhawatiran
+		mengenai Kebijakan Privasi ini, Anda dapat menghubungi kami melalui
+		email.</string>
+	<string name="privacy_policy_changes_body">Jika fungsi aplikasi berubah dengan cara yang
+		memengaruhi privasi Anda, Kebijakan Privasi ini akan diperbarui
+		sesuai. Kami menganjurkan pengguna untuk meninjau kebijakan dari waktu
+		ke waktu.</string>
+	<string name="privacy_policy_effective_date_body">Tanggal berlaku mengacu pada hari ketika Kebijakan
+		Privasi ini terakhir diperbarui atau mulai berlaku. Setiap perubahan
+		dalam cara aplikasi menangani data Anda akan tercermin dalam versi
+		kebijakan yang diperbarui. Kami menganjurkan pengguna untuk meninjau
+		kebijakan ini secara berkala agar tetap mendapat informasi tentang
+		bagaimana informasi mereka diperlakukan.</string>
 </resources>

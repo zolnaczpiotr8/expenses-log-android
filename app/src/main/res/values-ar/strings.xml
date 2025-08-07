@@ -26,7 +26,6 @@
 	<string name="date_filter_title">تاريخ</string>
 	<string name="filters_title">المرشحات</string>
 	<string name="currency_label">العملة</string>
-	<string name="currency_code_label">رمز العملة</string>
 	<string name="amount_label">المبلغ</string>
 	<string name="category_label">فئة</string>
 	<string name="invalid_format_error">تنسيق غير صالح</string>
@@ -48,4 +47,49 @@
 	<string name="currency_code_item_label">رمز العملة: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">عدد الأحرف: %d. الحد الأقصى للأحرف: %d</string>
+	<string name="privacy_policy">سياسة الخصوصية</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">بياناتك تبقى معك</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">نحن نحترم خصوصيتك. يعمل هذا التطبيق بالكامل دون
+		اتصال بالإنترنت ولا يجمع أو يشارك أي بيانات. تنطبق هذه السياسة على
+		جميع المستخدمين في جميع أنحاء العالم، بما في ذلك الأطفال من جميع
+		الأعمار. نحن لا نجمع أو نخزن أو ننقل أو نشارك أي معلومات شخصية أو غير
+		شخصية. التطبيق يعمل بالكامل دون اتصال بالإنترنت. يمكن استخدام جميع
+		الميزات بدون اتصال بالإنترنت، ولا يتم الوصول إلى أي بيانات أو إرسالها
+		إلى أي مكان.</string>
+	<string name="privacy_policy_local_only_data_storage_title">تخزين البيانات المحلي فقط</string>
+	<string name="privacy_policy_local_only_data_storage_body">يتم تخزين جميع المعلومات التي تدخلها في التطبيق على
+		جهازك فقط. لا يتم تحميلها أو نسخها احتياطيًا على خوادم خارجية، ولا يتم
+		مشاركتها مع أي شخص. نحن لا نصل إلى هذه المعلومات ولا يمكننا الوصول
+		إليها.</string>
+	<string name="privacy_policy_no_third_party_services_title">لا خدمات من طرف ثالث</string>
+	<string name="privacy_policy_no_third_party_services_body">التطبيق لا يستخدم SDKs من طرف ثالث، أدوات تحليلية،
+		شبكات إعلانية، أو أي خدمات خارجية تجمع البيانات. لا أحد غيرك، بما في
+		ذلك نحن، يمكنه الوصول إلى استخدامك للتطبيق أو بياناتك.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">التحكم في البيانات وحذفها</string>
+	<string name="privacy_policy_data_control_and_deletion_body">لديك سيطرة كاملة على المعلومات التي تدخلها. يمكنك
+		حذف بياناتك في أي وقت عن طريق إلغاء تثبيت التطبيق أو مسح التخزين الخاص
+		به. نظرًا لعدم تخزين أي شيء خارجيًا، لا توجد خطوات إضافية مطلوبة.</string>
+	<string name="privacy_policy_children_privacy_title">خصوصية الأطفال</string>
+	<string name="privacy_policy_children_privacy_body">التطبيق آمن لجميع المستخدمين، بما في ذلك الأطفال
+		دون سن 13 عامًا. لا يتم جمع أي بيانات شخصية، مما يجعله متوافقًا مع
+		قوانين خصوصية الأطفال العالمية مثل COPPA وGDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">حقوقك</string>
+	<string name="privacy_policy_your_rights_body">نظرًا لعدم جمع أي بيانات، فلا يوجد ما يمكنك الوصول
+		إليه أو تحديثه أو حذفه من خلالنا. جميع البيانات ملكك وتبقى فقط على
+		جهازك.</string>
+	<string name="privacy_policy_contact_information_title">معلومات الاتصال</string>
+	<string name="privacy_policy_changes_title">التغييرات على هذه السياسة</string>
+	<string name="privacy_policy_effective_date_title">تاريخ النفاذ</string>
+	<string name="privacy_policy_email_subject">استفسار حول سياسة الخصوصية – %s</string>
+	<string name="policies">السياسات</string>
+	<string name="privacy_policy_contact_information_body">إذا كانت لديك أي أسئلة أو استفسارات بخصوص سياسة
+		الخصوصية هذه، يمكنك الاتصال بنا عبر البريد الإلكتروني.</string>
+	<string name="privacy_policy_changes_body">إذا تغيرت وظائف التطبيق بطريقة تؤثر على خصوصيتك،
+		فسيتم تحديث سياسة الخصوصية هذه وفقًا لذلك. نشجع المستخدمين على مراجعة
+		السياسة من وقت لآخر.</string>
+	<string name="privacy_policy_effective_date_body">يشير تاريخ السريان إلى اليوم الذي تم فيه تحديث
+		سياسة الخصوصية هذه أو بدأ سريانها. سيتم عكس أي تغييرات يتم إجراؤها على
+		كيفية تعامل التطبيق مع بياناتك في إصدار محدث من هذه السياسة. نشجع
+		المستخدمين على مراجعة هذه السياسة بشكل دوري للبقاء على اطلاع حول كيفية
+		التعامل مع معلوماتهم.</string>
 </resources>

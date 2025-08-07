@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Datë</string>
 	<string name="filters_title">Filtër</string>
 	<string name="currency_label">Monedhë</string>
-	<string name="currency_code_label">Kodi i monedhës</string>
 	<string name="amount_label">Shumë</string>
 	<string name="category_label">Kategoria</string>
 	<string name="invalid_format_error">Format i pavlefshëm</string>
@@ -49,4 +48,55 @@
 	<string name="currency_code_item_label">kodi i monedhës: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Numri i karaktereve: %d. Kufiri i karaktereve: %d</string>
+	<string name="privacy_policy">Politika e Privatësisë</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Të dhënat tuaja qëndrojnë me ju</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Ne respektojmë privatësinë tuaj. Ky aplikacion
+		funksionon plotësisht offline dhe nuk mbledh apo ndan asnjë të dhënë.
+		Kjo politikë zbatohet për të gjithë përdoruesit në mbarë botën, duke
+		përfshirë fëmijët e të gjitha moshave. Ne nuk mbledhim, ruajmë,
+		transmetojmë apo ndajmë asnjë informacion personal apo jo personal.
+		Aplikacioni funksionon plotësisht offline. Të gjitha veçoritë mund të
+		përdoren pa lidhje interneti, dhe asnjë të dhënë nuk aksesohet apo
+		dërgohet askund.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Ruajtja e të Dhënave Vetëm Lokale</string>
+	<string name="privacy_policy_local_only_data_storage_body">Të gjitha informacionet që futni në aplikacion
+		ruhen vetëm në pajisjen tuaj. Kurrë nuk ngarkohen në serverë të
+		jashtëm, nuk ruhen jashtë apo ndahen me askënd. Ne nuk i kemi dhe nuk
+		mund t’i aksesojmë këto të dhëna.</string>
+	<string name="privacy_policy_no_third_party_services_title">Pa Shërbime Të Palëve Të Treta</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikacioni nuk përdor SDK-të e palëve të treta,
+		mjetet e analizës, rrjetet e reklamave ose shërbime të jashtme që
+		mbledhin të dhëna. Askush tjetër, përfshirë ne, nuk ka akses në
+		përdorimin ose të dhënat e aplikacionit tuaj.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontrolli dhe Fshirja e të Dhënave</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Ju keni kontroll të plotë mbi informacionin që
+		futni. Ju mund t’i fshini të dhënat tuaja në çdo kohë duke çinstaluar
+		aplikacionin ose duke pastruar ruajtjen e tij. Meqenëse asgjë nuk
+		ruhet jashtë, nuk kërkohen hapa shtesë.</string>
+	<string name="privacy_policy_children_privacy_title">Privatësia e Fëmijëve</string>
+	<string name="privacy_policy_children_privacy_body">Aplikacioni është i sigurt për të gjithë
+		përdoruesit, përfshirë fëmijët nën moshën 13 vjeç. Nuk mblidhen të
+		dhëna personale, gjë që e bën atë në përputhje me ligjet globale për
+		privatësinë e fëmijëve si COPPA dhe GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Të Drejtat Tuaja</string>
+	<string name="privacy_policy_your_rights_body">Pasi nuk mblidhet asnjë të dhënë, nuk ka asgjë që
+		ju mund të aksesoni, përditësoni ose fshini përmes nesh. Të gjitha të
+		dhënat janë tuaja dhe mbeten vetëm në pajisjen tuaj.</string>
+	<string name="privacy_policy_contact_information_title">Informacion Kontakti</string>
+	<string name="privacy_policy_changes_title">Ndryshime në këtë politikë</string>
+	<string name="privacy_policy_effective_date_title">Data e hyrjes në fuqi</string>
+	<string name="privacy_policy_email_subject">Kërkesë për Politikën e Privatësisë – %s</string>
+	<string name="policies">Politikat</string>
+	<string name="privacy_policy_contact_information_body">Nëse keni ndonjë pyetje ose shqetësim në lidhje me
+		këtë Politikë të Privatësisë, mund të na kontaktoni me email.</string>
+	<string name="privacy_policy_changes_body">Nëse funksionaliteti i aplikacionit ndryshon në një
+		mënyrë që ndikon në privatësinë tuaj, kjo Politikë e Privatësisë do të
+		përditësohet në përputhje me rrethanat. Ne inkurajojmë përdoruesit të
+		rishikojnë herë pas here politikën.</string>
+	<string name="privacy_policy_effective_date_body">Data e vlefshme i referohet ditës kur kjo Politikë
+		e Privatësisë është përditësuar ose ka hyrë në fuqi. Çdo ndryshim në
+		mënyrën se si aplikacioni trajton të dhënat tuaja do të pasqyrohet në
+		një version të përditësuar të kësaj politike. Ne i inkurajojmë
+		përdoruesit të rishikojnë këtë politikë periodikisht për të qëndruar
+		të informuar rreth mënyrës se si trajtohen informacionet e tyre.</string>
 </resources>

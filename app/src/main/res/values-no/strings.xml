@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dato</string>
 	<string name="filters_title">Filtre</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Valutakode</string>
 	<string name="amount_label">Beløp</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Ugyldig format</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">valutakode: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Tegnantall: %d. Tegngrense: %d</string>
+	<string name="privacy_policy">Personvernregler</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Dine data forblir hos deg</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterer ditt personvern. Denne appen
+		fungerer helt offline og samler inn eller deler ingen data. Denne
+		policyen gjelder for alle brukere over hele verden, inkludert barn i
+		alle aldre. Vi samler ikke inn, lagrer, overfører eller deler noen
+		personlige eller ikke-personlige opplysninger. Appen fungerer helt
+		offline. Alle funksjoner kan brukes uten internettforbindelse, og
+		ingen data blir noen gang tilgang til eller sendt noe sted.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Kun Lokal Dataglagring</string>
+	<string name="privacy_policy_local_only_data_storage_body">All informasjon du skriver inn i appen lagres kun
+		på din egen enhet. Den lastes aldri opp, sikkerhetskopieres til
+		eksterne servere eller deles med noen. Vi har ikke tilgang til denne
+		informasjonen og kan heller ikke få det.</string>
+	<string name="privacy_policy_no_third_party_services_title">Ingen Tjenester fra Tredjepart</string>
+	<string name="privacy_policy_no_third_party_services_body">Appen bruker ikke tredjeparts SDK-er,
+		analyserverktøy, annonse-nettverk eller noen eksterne tjenester som
+		samler inn data. Ingen andre, inkludert oss, har tilgang til
+		app-bruken eller dataene dine.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datakontroll og Sletting</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Du har full kontroll over informasjonen du legger
+		inn. Du kan slette dataene dine når som helst ved å avinstallere appen
+		eller tømme lagringsplassen. Siden ingenting lagres eksternt, kreves
+		ingen ekstra trinn.</string>
+	<string name="privacy_policy_children_privacy_title">Barns Personvern</string>
+	<string name="privacy_policy_children_privacy_body">Appen er trygg for alle brukere, inkludert barn
+		under 13 år. Ingen personlige data samles inn, noe som gjør den i
+		samsvar med globale lover om barns personvern som COPPA og GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Dine Rettigheter</string>
+	<string name="privacy_policy_your_rights_body">Siden ingen data samles inn, er det ingenting du
+		kan få tilgang til, oppdatere eller slette gjennom oss. All data er
+		din og forblir utelukkende på enheten din.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinformasjon</string>
+	<string name="privacy_policy_changes_title">Endringer i denne policyen</string>
+	<string name="privacy_policy_effective_date_title">Ikrafttredelsesdato</string>
+	<string name="privacy_policy_email_subject">Forespørsel om Personvernpolicy – %s</string>
+	<string name="policies">Retningslinjer</string>
+	<string name="privacy_policy_contact_information_body">Hvis du har spørsmål eller bekymringer angående
+		denne personvernerklæringen, kan du kontakte oss via e-post.</string>
+	<string name="privacy_policy_changes_body">Hvis appens funksjonalitet endres på en måte som
+		påvirker personvernet ditt, vil denne personvernerklæringen bli
+		oppdatert deretter. Vi oppfordrer brukerne til å gjennomgå
+		retningslinjene med jevne mellomrom.</string>
+	<string name="privacy_policy_effective_date_body">Ikrafttredelsesdatoen refererer til dagen da denne
+		personvernerklæringen sist ble oppdatert eller trådte i kraft.
+		Eventuelle endringer i hvordan appen behandler dataene dine vil bli
+		gjenspeilet i en oppdatert versjon av denne erklæringen. Vi oppfordrer
+		brukere til å gjennomgå denne erklæringen jevnlig for å holde seg
+		informert om hvordan informasjonen deres behandles.</string>
 </resources>

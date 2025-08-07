@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Date</string>
 	<string name="filters_title">Filters</string>
 	<string name="currency_label">Currency</string>
-	<string name="currency_code_label">Currency code</string>
 	<string name="amount_label">Amount</string>
 	<string name="category_label">Category</string>
 	<string name="invalid_format_error">Invalid format</string>
@@ -48,4 +47,71 @@
 	<string name="currency_code_item_label">currency code: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Character count: %d. Character limit: %d</string>
+	<string name="privacy_policy">Privacy Policy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Your
+		Data Stays With You</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">We
+		respect your privacy. This app functions entirely
+		offline and does not
+		collect or share any data. This policy applies to
+		all users worldwide,
+		including children of all ages.
+		We do not collect,
+		store, transmit, or share any personal or
+		non-personal information. The
+		app works completely offline. All
+		features can be used without an
+		internet connection, and no data is
+		ever accessed or sent anywhere.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Local-Only
+		Data Storage</string>
+	<string name="privacy_policy_local_only_data_storage_body">All
+		information you enter into the app is stored
+		only on your own device.
+		It is never uploaded, backed up to external
+		servers, or shared with
+		anyone. We do not and cannot access this
+		information.</string>
+	<string name="privacy_policy_no_third_party_services_title">No
+		Third-Party Services</string>
+	<string name="privacy_policy_no_third_party_services_body">The
+		app does not use third-party SDKs, analytics
+		tools, ad networks, or
+		any external services that collect data. No one
+		else, including us,
+		has access to your app usage or data.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Data
+		Control and Deletion</string>
+	<string name="privacy_policy_data_control_and_deletion_body">You have complete control over the information you
+		enter. You can delete your data at any time by uninstalling the app or
+		clearing its storage. Since nothing is stored externally, no
+		additional steps are required.</string>
+	<string name="privacy_policy_children_privacy_title">Children’s Privacy</string>
+	<string name="privacy_policy_children_privacy_body">The app is safe for all users, including children
+		under the age of 13. No personal data is collected, making it
+		compliant with global child privacy laws such as COPPA and GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Your Rights</string>
+	<string name="privacy_policy_your_rights_body">As no data is collected, there is nothing for you
+		to access, update, or delete through us. All data is yours and remains
+		solely on your device.</string>
+	<string name="privacy_policy_contact_information_title">Contact
+		Information</string>
+	<string name="privacy_policy_changes_title">Changes to This
+		Policy</string>
+	<string name="privacy_policy_effective_date_title">Effective date</string>
+	<string name="privacy_policy_email_subject">Privacy Policy
+		Inquiry – %s</string>
+	<string name="policies">Policies</string>
+	<string name="privacy_policy_contact_information_body">If you
+		have any questions or concerns regarding this
+		Privacy Policy, you may
+		contact us by email.</string>
+	<string name="privacy_policy_changes_body">If the app’s functionality changes in a way that
+		affects your privacy, this Privacy Policy will be updated accordingly.
+		We encourage users to review the policy from time to time.</string>
+	<string name="privacy_policy_effective_date_body">The effective date refers to the day this Privacy
+		Policy was last updated or went into effect. Any changes made to how
+		the app handles your data will be reflected in an updated version of
+		this policy. We encourage users to review this policy periodically to
+		stay informed about how their information is treated.</string>
 </resources>

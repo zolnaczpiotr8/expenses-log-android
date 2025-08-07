@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Ngày</string>
 	<string name="filters_title">Bộ lọc</string>
 	<string name="currency_label">Tiền tệ</string>
-	<string name="currency_code_label">Mã tiền tệ</string>
 	<string name="amount_label">Số tiền</string>
 	<string name="category_label">Danh mục</string>
 	<string name="invalid_format_error">Định dạng không hợp lệ</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">mã tiền tệ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Số ký tự: %d. Giới hạn ký tự: %d</string>
+	<string name="privacy_policy">Chính sách bảo mật</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Dữ liệu của bạn vẫn thuộc về bạn</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Chúng tôi tôn trọng quyền riêng tư của bạn. Ứng
+		dụng này hoạt động hoàn toàn ngoại tuyến và không thu thập hoặc chia
+		sẻ bất kỳ dữ liệu nào. Chính sách này áp dụng cho tất cả người dùng
+		trên toàn thế giới, bao gồm cả trẻ em ở mọi độ tuổi. Chúng tôi không
+		thu thập, lưu trữ, truyền tải hoặc chia sẻ bất kỳ thông tin cá nhân
+		hay phi cá nhân nào. Ứng dụng hoạt động hoàn toàn ngoại tuyến. Tất cả
+		các tính năng có thể được sử dụng mà không cần kết nối internet và
+		không có dữ liệu nào được truy cập hoặc gửi đi đâu cả.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Chỉ Lưu Trữ Dữ Liệu Cục Bộ</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tất cả thông tin bạn nhập vào ứng dụng chỉ được lưu
+		trữ trên thiết bị của bạn. Thông tin này sẽ không bao giờ được tải
+		lên, sao lưu lên máy chủ bên ngoài hay chia sẻ với bất kỳ ai. Chúng
+		tôi không có và cũng không thể có quyền truy cập vào thông tin này.</string>
+	<string name="privacy_policy_no_third_party_services_title">Không Có Dịch Vụ Bên Thứ Ba</string>
+	<string name="privacy_policy_no_third_party_services_body">Ứng dụng không sử dụng SDK bên thứ ba, công cụ phân
+		tích, mạng quảng cáo hoặc bất kỳ dịch vụ bên ngoài nào thu thập dữ
+		liệu. Không ai khác, bao gồm cả chúng tôi, có quyền truy cập vào việc
+		sử dụng hoặc dữ liệu ứng dụng của bạn.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kiểm Soát và Xóa Dữ Liệu</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Bạn có toàn quyền kiểm soát thông tin mà bạn nhập
+		vào. Bạn có thể xóa dữ liệu của mình bất cứ lúc nào bằng cách gỡ cài
+		đặt ứng dụng hoặc xóa bộ nhớ của nó. Vì không có gì được lưu trữ bên
+		ngoài, nên không cần thêm bước nào khác.</string>
+	<string name="privacy_policy_children_privacy_title">Quyền Riêng Tư của Trẻ Em</string>
+	<string name="privacy_policy_children_privacy_body">Ứng dụng này an toàn cho tất cả người dùng, bao gồm
+		cả trẻ em dưới 13 tuổi. Không thu thập bất kỳ dữ liệu cá nhân nào,
+		giúp ứng dụng tuân thủ các luật bảo mật trẻ em toàn cầu như COPPA và
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Quyền Lợi Của Bạn</string>
+	<string name="privacy_policy_your_rights_body">Vì không có dữ liệu nào được thu thập nên bạn không
+		có gì để truy cập, cập nhật hoặc xóa thông qua chúng tôi. Mọi dữ liệu
+		đều thuộc về bạn và chỉ tồn tại trên thiết bị của bạn.</string>
+	<string name="privacy_policy_contact_information_title">Thông tin liên hệ</string>
+	<string name="privacy_policy_changes_title">Những thay đổi đối với chính sách này</string>
+	<string name="privacy_policy_effective_date_title">Ngày có hiệu lực</string>
+	<string name="privacy_policy_email_subject">Yêu Cầu về Chính Sách Quyền Riêng Tư – %s</string>
+	<string name="policies">Chính sách</string>
+	<string name="privacy_policy_contact_information_body">Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về
+		Chính sách quyền riêng tư này, bạn có thể liên hệ với chúng tôi qua
+		email.</string>
+	<string name="privacy_policy_changes_body">Nếu chức năng của ứng dụng thay đổi theo cách ảnh
+		hưởng đến quyền riêng tư của bạn, Chính sách Quyền riêng tư này sẽ
+		được cập nhật cho phù hợp. Chúng tôi khuyến khích người dùng xem lại
+		chính sách theo thời gian.</string>
+	<string name="privacy_policy_effective_date_body">Ngày có hiệu lực đề cập đến ngày Chính sách quyền
+		riêng tư này được cập nhật lần cuối hoặc bắt đầu có hiệu lực. Mọi thay
+		đổi về cách ứng dụng xử lý dữ liệu của bạn sẽ được phản ánh trong
+		phiên bản cập nhật của chính sách này. Chúng tôi khuyến khích người
+		dùng xem lại chính sách này định kỳ để luôn được cập nhật về cách
+		thông tin của họ được xử lý.</string>
 </resources>

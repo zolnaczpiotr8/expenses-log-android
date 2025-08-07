@@ -26,7 +26,6 @@
 	<string name="date_filter_title">तिथि</string>
 	<string name="filters_title">फ़िल्टर</string>
 	<string name="currency_label">मुद्रा</string>
-	<string name="currency_code_label">मुद्रा कोड</string>
 	<string name="amount_label">राशि</string>
 	<string name="category_label">श्रेणी</string>
 	<string name="invalid_format_error">अमान्य प्रारूप</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">मुद्रा कोड: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षरों की संख्या: %d. अक्षर सीमा: %d</string>
+	<string name="privacy_policy">गोपनीयता नीति</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">आपका डेटा आपके साथ रहता है</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">हम आपकी गोपनीयता का सम्मान करते हैं। यह ऐप पूरी तरह
+		ऑफलाइन काम करता है और कोई डेटा एकत्रित या साझा नहीं करता। यह नीति
+		दुनिया भर के सभी उपयोगकर्ताओं पर लागू होती है, जिसमें सभी उम्र के
+		बच्चे शामिल हैं। हम कोई भी व्यक्तिगत या गैर-व्यक्तिगत जानकारी एकत्रित,
+		संग्रहीत, प्रसारित या साझा नहीं करते। ऐप पूरी तरह ऑफलाइन काम करता है।
+		सभी सुविधाएं बिना इंटरनेट कनेक्शन के इस्तेमाल की जा सकती हैं, और कोई
+		भी डेटा कभी एक्सेस या भेजा नहीं जाता।</string>
+	<string name="privacy_policy_local_only_data_storage_title">केवल स्थानीय डेटा भंडारण</string>
+	<string name="privacy_policy_local_only_data_storage_body">आप ऐप में जो भी जानकारी दर्ज करते हैं, वह केवल आपके
+		डिवाइस पर ही संग्रहीत होती है। यह कभी भी अपलोड नहीं की जाती, बाहरी
+		सर्वर पर बैकअप नहीं होती, और न ही किसी के साथ साझा की जाती है। हमें इस
+		जानकारी तक कोई पहुँच नहीं है और हम इसे एक्सेस नहीं कर सकते।</string>
+	<string name="privacy_policy_no_third_party_services_title">कोई तृतीय पक्ष सेवा नहीं</string>
+	<string name="privacy_policy_no_third_party_services_body">ऐप तीसरे पक्ष के SDK, एनालिटिक्स टूल, विज्ञापन
+		नेटवर्क या किसी भी बाहरी सेवा का उपयोग नहीं करता जो डेटा एकत्रित करती
+		है। हम सहित कोई और आपके ऐप उपयोग या डेटा तक पहुंच नहीं रखता।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">डेटा नियंत्रण और हटाना</string>
+	<string name="privacy_policy_data_control_and_deletion_body">आपके द्वारा दर्ज की गई जानकारी पर आपका पूरा
+		नियंत्रण है। आप किसी भी समय ऐप को अनइंस्टॉल करके या उसका स्टोरेज साफ़
+		करके अपने डेटा को हटा सकते हैं। चूंकि कुछ भी बाहरी रूप से संग्रहीत
+		नहीं होता है, इसलिए कोई अतिरिक्त कदम आवश्यक नहीं हैं।</string>
+	<string name="privacy_policy_children_privacy_title">बच्चों की गोपनीयता</string>
+	<string name="privacy_policy_children_privacy_body">यह ऐप सभी उपयोगकर्ताओं के लिए सुरक्षित है, जिनमें
+		13 वर्ष से कम आयु के बच्चे भी शामिल हैं। कोई व्यक्तिगत डेटा एकत्र नहीं
+		किया जाता, जिससे यह COPPA और GDPR-K जैसे वैश्विक बाल गोपनीयता कानूनों
+		के अनुरूप बनता है।</string>
+	<string name="privacy_policy_your_rights_title">आपके अधिकार</string>
+	<string name="privacy_policy_your_rights_body">चूंकि कोई डेटा एकत्र नहीं किया जाता है, इसलिए आपके
+		लिए हमारे माध्यम से एक्सेस, अपडेट या हटाने के लिए कुछ भी नहीं है। सभी
+		डेटा आपका है और केवल आपके डिवाइस पर रहता है।</string>
+	<string name="privacy_policy_contact_information_title">संपर्क जानकारी</string>
+	<string name="privacy_policy_changes_title">इस नीति में परिवर्तन</string>
+	<string name="privacy_policy_effective_date_title">प्रभावी तिथि</string>
+	<string name="privacy_policy_email_subject">गोपनीयता नीति संबंधी पूछताछ – %s</string>
+	<string name="policies">नीतियाँ</string>
+	<string name="privacy_policy_contact_information_body">यदि आपको इस गोपनीयता नीति के संबंध में कोई प्रश्न
+		या चिंता है, तो आप हमसे ईमेल के माध्यम से संपर्क कर सकते हैं।</string>
+	<string name="privacy_policy_changes_body">यदि ऐप की कार्यक्षमता इस तरह से बदलती है जिससे आपकी
+		गोपनीयता प्रभावित होती है, तो इस गोपनीयता नीति को तदनुसार अपडेट किया
+		जाएगा। हम उपयोगकर्ताओं को समय-समय पर नीति की समीक्षा करने के लिए
+		प्रोत्साहित करते हैं।</string>
+	<string name="privacy_policy_effective_date_body">प्रभावी तिथि उस दिन को संदर्भित करती है जब इस
+		गोपनीयता नीति को अंतिम बार अपडेट किया गया था या यह लागू हुई थी। आपके
+		डेटा को ऐप द्वारा कैसे संभाला जाता है, इसमें किए गए किसी भी परिवर्तन
+		को इस नीति के अपडेटेड संस्करण में दर्शाया जाएगा। हम उपयोगकर्ताओं को
+		सलाह देते हैं कि वे समय-समय पर इस नीति की समीक्षा करें ताकि वे जान
+		सकें कि उनकी जानकारी के साथ कैसे व्यवहार किया जा रहा है।</string>
 </resources>

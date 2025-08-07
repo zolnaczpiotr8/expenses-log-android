@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Iragazkiak</string>
 	<string name="currency_label">Txanpona</string>
-	<string name="currency_code_label">Moneta-kodea</string>
 	<string name="amount_label">Zenbateko</string>
 	<string name="category_label">Kategoria</string>
 	<string name="invalid_format_error">Baliogabeko formatua</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">moneta kodea: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karaktere kopurua: %d. Karaktere muga: %d</string>
+	<string name="privacy_policy">Pribatutasun politika</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Zure datuak zurekin geratzen dira</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Zure pribatutasuna errespetatzen dugu. Aplikazio
+		honek guztiz offline funtzionatzen du eta ez du daturik biltzen edo
+		partekatzen. Politika honek mundu osoko erabiltzaile guztiei
+		aplikatzen die, adin guztietako haurrek barne. Ez dugu informazio
+		pertsonalik edo pertsonalik gabeko informaziorik jasotzen, gordetzen,
+		transmititzen edo partekatzen. Aplikazioa guztiz offline funtzionatzen
+		du. Ezaugarri guztiak interneteko konexiorik gabe erabili daitezke,
+		eta inoiz ez da daturik sarbiderik edo bidalpenik egiten.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Tokiko Datu Biltegiratze Soila</string>
+	<string name="privacy_policy_local_only_data_storage_body">Aplikazioan sartzen duzun informazio guztia zure
+		gailuan bakarrik gordetzen da. Ez da inoiz kanpoko zerbitzarietara
+		igo, ezta babeskopiarik egiten edo inorekin partekatzen ere. Guk ez
+		dugu informazio horretarako sarbiderik eta ezin dugu izan.</string>
+	<string name="privacy_policy_no_third_party_services_title">Hirugarren Aldeen Zerbitzurik Ez</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikazioak ez du hirugarren alderdiko SDK,
+		analitika tresnarik, publizitate sareik edo datuak biltzen dituzten
+		kanpoko zerbitzurik erabiltzen. Inork ez du, guk barne, zure
+		aplikazioaren erabilera edo datuetara sarbiderik.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datuen Kontrola eta Ezabaketa</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Zuk sartzen duzun informazioaren kontrol osoa duzu.
+		Edozein unetan zure datuak ezaba ditzakezu aplikazioa desinstalatuz
+		edo haren biltegiratzea garbituz. Kanpoan ezer ez denez gordetzen, ez
+		da beste urratsik behar.</string>
+	<string name="privacy_policy_children_privacy_title">Haurren Pribatutasuna</string>
+	<string name="privacy_policy_children_privacy_body">Aplikazioa segurua da erabiltzaile guztientzat, 13
+		urtetik beherako haurrak barne. Ez da datu pertsonalik biltzen, eta
+		horrek aplikazioa COPPA eta GDPR-K bezalako haurren pribatutasunari
+		buruzko lege globalekin bat datorrela ziurtatzen du.</string>
+	<string name="privacy_policy_your_rights_title">Zure Eskubideak</string>
+	<string name="privacy_policy_your_rights_body">Datuak ez direlako biltzen, ez dago gure bidez
+		atzitu, eguneratu edo ezabatzeko ezer. Datu guztiak zureak dira eta
+		zure gailuan soilik geratzen dira.</string>
+	<string name="privacy_policy_contact_information_title">Harremanetarako informazioa</string>
+	<string name="privacy_policy_changes_title">Politika honen aldaketak</string>
+	<string name="privacy_policy_effective_date_title">Indarrean sartzeko data</string>
+	<string name="privacy_policy_email_subject">Pribatutasun Politikaren Kontsulta – %s</string>
+	<string name="policies">Politikak</string>
+	<string name="privacy_policy_contact_information_body">Pribatutasun Politika honi buruzko galderarik edo
+		kezkarik baduzu, gurekin harremanetan jar zaitezke posta elektronikoz.</string>
+	<string name="privacy_policy_changes_body">Aplikazioaren funtzionalitateak zure
+		pribatutasunean eragiten duen moduan aldatzen bada, Pribatutasun
+		Politika hau dagokion moduan eguneratuko da. Erabiltzaileei
+		gomendatzen diegu noizean behin politika berrikustea.</string>
+	<string name="privacy_policy_effective_date_body">Indarrean dagoen data Pribatutasun Politika hau
+		azken aldiz noiz eguneratu edo indarrean jarri zen adierazten du.
+		Aplikazioak zure datuak nola kudeatzen dituen aldaketak politika honen
+		eguneratutako bertsioan islatuko dira. Erabiltzaileei gomendatzen
+		diegu politika hau aldian behin berrikustea, haien informazioa nola
+		tratatzen den jakitun egoteko.</string>
 </resources>

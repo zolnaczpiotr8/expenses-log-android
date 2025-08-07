@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-  compileSdk = libs.versions.compile.sdk.get().toInt()
+  compileSdk = libs.versions.target.sdk.get().toInt()
   namespace = "zolnaczpiotr8.com.github.expenses.log.benchmark"
 
   defaultConfig {

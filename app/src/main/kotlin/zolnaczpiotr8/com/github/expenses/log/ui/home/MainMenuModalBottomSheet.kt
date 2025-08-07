@@ -20,6 +20,8 @@ import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 
+private const val ITEMS = 5
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainMenuModalBottomSheet(
@@ -28,6 +30,7 @@ fun MainMenuModalBottomSheet(
     onShowExpensesClick: () -> Unit = {},
     onNewCategoryClick: () -> Unit = {},
     onSettingsClick: () -> Unit = {},
+    onPoliciesClick: () -> Unit = {}
 ) {
   if (state.isVisible) {
     val scope = rememberCoroutineScope()
@@ -36,7 +39,7 @@ fun MainMenuModalBottomSheet(
             Modifier.semantics {
               collectionInfo =
                   CollectionInfo(
-                      rowCount = 4,
+                      rowCount = ITEMS,
                       columnCount = 1,
                   )
             },
@@ -109,6 +112,21 @@ fun MainMenuModalBottomSheet(
               },
       ) {
         scope.launch { state.hide() }.invokeOnCompletion { onSettingsClick() }
+      }
+
+      PoliciesListItem(
+          modifier =
+              Modifier.semantics {
+                collectionItemInfo =
+                    CollectionItemInfo(
+                        rowIndex = 4,
+                        columnSpan = 1,
+                        columnIndex = 0,
+                        rowSpan = 1,
+                    )
+              },
+      ) {
+        scope.launch { state.hide() }.invokeOnCompletion { onPoliciesClick() }
       }
     }
   }

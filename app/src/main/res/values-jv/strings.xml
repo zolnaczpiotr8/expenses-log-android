@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tanggal</string>
 	<string name="filters_title">Saringan</string>
 	<string name="currency_label">Mata Uang</string>
-	<string name="currency_code_label">Kode mata uang</string>
 	<string name="amount_label">Jumlah</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Format ora valid</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">kode mata uang: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Cacah karakter: %d. Watesan karakter: %d</string>
+	<string name="privacy_policy">Kabijakan Privasi</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Data sampeyan tetep karo sampeyan</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Kita ngajeni privasi panjenengan. Aplikasi iki bisa
+		digunakake kanthi offline kanthi lengkap lan ora nglumpukake utawa
+		nuduhake data apa wae. Kabijakan iki ditrapake kanggo kabeh pangguna
+		ing saindenging jagad, kalebu bocah-bocah saka kabeh umur. Kita ora
+		nglumpukake, nyimpen, ngirim, utawa nuduhake informasi pribadi utawa
+		non-pribadi. Aplikasi iki bisa digunakake tanpa sambungan internet,
+		lan ora ana data sing tau diakses utawa dikirim menyang endi wae.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Panyimpenan Data Lokal Mung</string>
+	<string name="privacy_policy_local_only_data_storage_body">Kabeh informasi sing sampeyan lebokaké ing aplikasi
+		disimpen mung ing piranti pribadi sampeyan. Ora tau diunggah,
+		dicadangkan menyang server eksternal, utawa dibagikaké karo sapa waé.
+		Kita ora bisa lan ora bakal bisa ngakses informasi iki.</string>
+	<string name="privacy_policy_no_third_party_services_title">Ora Ana Layanan Pihak Katelu</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikasi iki ora nggunakake SDK pihak katelu,
+		piranti analitik, jaringan iklan, utawa layanan eksternal sing
+		nglumpukake data. Ora ana wong liya, kalebu kita, sing duwe akses
+		menyang panggunaan aplikasi utawa data sampeyan.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontrol lan Mbusak Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Sampeyan nduweni kontrol lengkap marang informasi
+		sing sampeyan lebokake. Sampeyan bisa mbusak data kapan wae kanthi
+		ngilangake aplikasi utawa ngresiki panyimpenane. Amarga ora ana sing
+		disimpen kanthi eksternal, ora dibutuhake langkah tambahan.</string>
+	<string name="privacy_policy_children_privacy_title">Privasi Anak</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasi iki aman kanggo kabeh pangguna, kalebu
+		bocah ing ngisor umur 13 taun. Ora ana data pribadi sing diklumpukake,
+		saéngga aplikasi iki selaras karo hukum privasi anak global kaya COPPA
+		lan GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Hak-Hakmu</string>
+	<string name="privacy_policy_your_rights_body">Amarga ora ana data sing diklumpukake, ora ana sing
+		bisa sampeyan akses, dianyari, utawa dibusak liwat kita. Kabeh data
+		iku kagungane sampeyan lan mung ana ing piranti sampeyan.</string>
+	<string name="privacy_policy_contact_information_title">Informasi Kontak</string>
+	<string name="privacy_policy_changes_title">Owah-owahan ing kabijakan iki</string>
+	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
+	<string name="privacy_policy_email_subject">Pitakon Bab Kawicaksanan Privasi – %s</string>
+	<string name="policies">Kabijakan</string>
+	<string name="privacy_policy_contact_information_body">Yen sampeyan duwe pitakon utawa kuwatir babagan
+		Kabijakan Privasi iki, sampeyan bisa hubungi kita liwat email.</string>
+	<string name="privacy_policy_changes_body">Yen fungsi aplikasi owah kanthi cara sing mengaruhi
+		privasimu, Kabijakan Privasi iki bakal dianyari miturut kabutuhan.
+		Kita nyengkuyung pangguna kanggo mriksa kabijakan saka wektu ke wektu.</string>
+	<string name="privacy_policy_effective_date_body">Tanggal berlaku nuduhake dina nalika Kabijakan
+		Privasi iki pungkasan dianyari utawa wiwit ditrapake. Saben
+		owah-owahan babagan carane aplikasi nangani data panjenengan bakal
+		katon ing versi kabijakan sing dianyari. Kita nyengkuyung pangguna
+		kanggo mriksa kabijakan iki sacara rutin supaya tetep ngerti babagan
+		carane informasi panjenengan diolah.</string>
 </resources>

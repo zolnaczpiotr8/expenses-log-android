@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filter</string>
 	<string name="currency_label">Währung</string>
-	<string name="currency_code_label">Währungscode</string>
 	<string name="amount_label">Betrag</string>
 	<string name="category_label">Kategorie</string>
 	<string name="invalid_format_error">Ungültiges Format</string>
@@ -49,4 +48,59 @@
 	<string name="currency_code_item_label">Währungscode: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Anzahl der Zeichen: %d. Zeichenlimit: %d</string>
+	<string name="privacy_policy">Datenschutzerklärung</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ihre Daten bleiben bei Ihnen</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Wir respektieren Ihre Privatsphäre. Diese App
+		funktioniert vollständig offline und sammelt oder teilt keine Daten.
+		Diese Richtlinie gilt für alle Nutzer weltweit, einschließlich Kinder
+		aller Altersgruppen. Wir sammeln, speichern, übertragen oder teilen
+		keine persönlichen oder nicht-persönlichen Informationen. Die App
+		funktioniert vollständig offline. Alle Funktionen können ohne
+		Internetverbindung genutzt werden, und es wird niemals auf Daten
+		zugegriffen oder diese gesendet.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Nur Lokale Datenspeicherung</string>
+	<string name="privacy_policy_local_only_data_storage_body">Alle Informationen, die Sie in die App eingeben,
+		werden nur auf Ihrem eigenen Gerät gespeichert. Sie werden niemals
+		hochgeladen, auf externen Servern gesichert oder mit anderen geteilt.
+		Wir haben keinen Zugriff auf diese Informationen und können ihn auch
+		nicht erhalten.</string>
+	<string name="privacy_policy_no_third_party_services_title">Keine Drittanbieter-Dienste</string>
+	<string name="privacy_policy_no_third_party_services_body">Die App verwendet keine SDKs von Drittanbietern,
+		Analysetools, Werbenetzwerke oder externe Dienste, die Daten sammeln.
+		Niemand sonst, auch wir nicht, hat Zugriff auf Ihre App-Nutzung oder
+		Daten.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datenkontrolle und -löschung</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Sie haben die vollständige Kontrolle über die
+		Informationen, die Sie eingeben. Sie können Ihre Daten jederzeit
+		löschen, indem Sie die App deinstallieren oder deren Speicher löschen.
+		Da nichts extern gespeichert wird, sind keine weiteren Schritte
+		erforderlich.</string>
+	<string name="privacy_policy_children_privacy_title">Datenschutz für Kinder</string>
+	<string name="privacy_policy_children_privacy_body">Die App ist sicher für alle Nutzer, einschließlich
+		Kindern unter 13 Jahren. Es werden keine personenbezogenen Daten
+		erhoben, wodurch sie den globalen Datenschutzgesetzen für Kinder wie
+		COPPA und GDPR-K entspricht.</string>
+	<string name="privacy_policy_your_rights_title">Ihre Rechte</string>
+	<string name="privacy_policy_your_rights_body">Da keine Daten erhoben werden, gibt es nichts,
+		worauf Sie über uns zugreifen, was Sie aktualisieren oder löschen
+		könnten. Alle Daten gehören Ihnen und verbleiben ausschließlich auf
+		Ihrem Gerät.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinformationen</string>
+	<string name="privacy_policy_changes_title">Änderungen dieser Richtlinie</string>
+	<string name="privacy_policy_effective_date_title">Gültigkeitsdatum</string>
+	<string name="privacy_policy_email_subject">Anfrage zur Datenschutzrichtlinie – %s</string>
+	<string name="policies">Richtlinien</string>
+	<string name="privacy_policy_contact_information_body">Wenn Sie Fragen oder Bedenken bezüglich dieser
+		Datenschutzrichtlinie haben, können Sie uns per E-Mail kontaktieren.</string>
+	<string name="privacy_policy_changes_body">Wenn sich die Funktionalität der App so ändert,
+		dass dies Ihre Privatsphäre betrifft, wird diese Datenschutzrichtlinie
+		entsprechend aktualisiert. Wir empfehlen den Nutzern, die Richtlinie
+		gelegentlich zu überprüfen.</string>
+	<string name="privacy_policy_effective_date_body">Das Datum des Inkrafttretens bezieht sich auf den
+		Tag, an dem diese Datenschutzrichtlinie zuletzt aktualisiert oder in
+		Kraft gesetzt wurde. Änderungen daran, wie die App Ihre Daten
+		verarbeitet, werden in einer aktualisierten Version dieser Richtlinie
+		widergespiegelt. Wir empfehlen den Nutzern, diese Richtlinie
+		regelmäßig zu überprüfen, um informiert zu bleiben, wie ihre Daten
+		behandelt werden.</string>
 </resources>

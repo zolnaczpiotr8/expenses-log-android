@@ -26,7 +26,6 @@
 	<string name="date_filter_title">मिति</string>
 	<string name="filters_title">फिल्टरहरू</string>
 	<string name="currency_label">मुद्रा</string>
-	<string name="currency_code_label">मुद्राको कोड</string>
 	<string name="amount_label">रकम</string>
 	<string name="category_label">श्रेणी</string>
 	<string name="invalid_format_error">अमान्य ढाँचा</string>
@@ -48,4 +47,52 @@
 	<string name="currency_code_item_label">मुद्रा कोड: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षर संख्या: %d। अक्षर सीमा: %d</string>
+	<string name="privacy_policy">गोपनीयता नीति</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">तपाईंको डाटा तपाईं संगै रहन्छ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">हामी तपाईंको गोपनीयतालाई सम्मान गर्छौं। यो एप पूर्ण
+		रूपमा अफलाइन रूपमा काम गर्छ र कुनै पनि डेटा सङ्कलन वा साझेदारी गर्दैन।
+		यो नीति विश्वभरिका सबै प्रयोगकर्ताहरूमा लागू हुन्छ, जसमा सबै उमेरका
+		बालबालिकाहरू समावेश छन्। हामी कुनै पनि व्यक्तिगत वा गैर-व्यक्तिगत
+		जानकारी सङ्कलन, भण्डारण, प्रसारण वा साझेदारी गर्दैनौं। एप पूर्ण रूपमा
+		अफलाइन रूपमा काम गर्छ। सबै सुविधाहरू इन्टरनेट जडान बिना प्रयोग गर्न
+		सकिन्छ, र कुनै पनि डेटा कहिल्यै पहुँच वा पठाइँदैन।</string>
+	<string name="privacy_policy_local_only_data_storage_title">स्थानीय डाटा भण्डारण मात्र</string>
+	<string name="privacy_policy_local_only_data_storage_body">तपाईंले एपमा प्रविष्ट गर्नुभएको सबै जानकारी केवल
+		तपाईंको आफ्नै यन्त्रमा मात्र भण्डारण गरिन्छ। यो कहिल्यै अपलोड गरिँदैन,
+		बाह्य सर्भरमा ब्याकअप गरिँदैन, वा कसैसँग पनि साझा गरिँदैन। हामीसँग यस
+		जानकारीमा पहुँच छैन र हुन पनि सक्दैन।</string>
+	<string name="privacy_policy_no_third_party_services_title">तेस्रो पक्ष सेवा छैन</string>
+	<string name="privacy_policy_no_third_party_services_body">एपले तेस्रो पक्षको SDK, विश्लेषण उपकरण, विज्ञापन
+		नेटवर्क वा कुनै पनि बाह्य सेवाहरू जुन डाटा सङ्कलन गर्छन्, प्रयोग
+		गर्दैन। हामीसमेत कसैले तपाईंको एप प्रयोग वा डाटामा पहुँच पाउँदैन।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">डेटा नियन्त्रण र मेट्ने काम</string>
+	<string name="privacy_policy_data_control_and_deletion_body">तपाईंले प्रविष्ट गर्नुभएको जानकारीमा तपाईंको पूर्ण
+		नियन्त्रण छ। तपाईंले एप अनइंस्टल गरेर वा यसको स्टोरेज खाली गरेर
+		जुनसुकै समयमा तपाईंको डाटा मेट्न सक्नुहुन्छ। बाह्य रूपमा केही पनि
+		संग्रहित नभएकोले थप प्रक्रिया आवश्यक पर्दैन।</string>
+	<string name="privacy_policy_children_privacy_title">बालबालिकाको गोपनीयता</string>
+	<string name="privacy_policy_children_privacy_body">यो एप सबै प्रयोगकर्ताहरूका लागि सुरक्षित छ, जसमा १३
+		वर्षभन्दा कम उमेरका बच्चाहरू पनि पर्छन्। कुनै व्यक्तिगत जानकारी सङ्कलन
+		गरिँदैन, जसले यसलाई COPPA र GDPR-K जस्ता विश्वव्यापी बाल गोपनीयता
+		कानूनसँग अनुपालन बनाउँछ।</string>
+	<string name="privacy_policy_your_rights_title">तपाईंका अधिकारहरू</string>
+	<string name="privacy_policy_your_rights_body">कुनै डाटा सङ्कलन नगरिएकाले, तपाईंले हामीमार्फत
+		पहुँच, अद्यावधिक वा मेट्न सक्ने केही छैन। सबै डाटा तपाईंको हो र
+		तपाईंको यन्त्रमै मात्र रहन्छ।</string>
+	<string name="privacy_policy_contact_information_title">सम्पर्क जानकारी</string>
+	<string name="privacy_policy_changes_title">यस नीतिमा भएका परिवर्तनहरू</string>
+	<string name="privacy_policy_effective_date_title">लागू मिति</string>
+	<string name="privacy_policy_email_subject">गोपनीयता नीति सम्बन्धी सोधपुछ – %s</string>
+	<string name="policies">नीतिहरू</string>
+	<string name="privacy_policy_contact_information_body">यदि तपाईंलाई यो गोपनीयता नीतिसम्बन्धी कुनै प्रश्न
+		वा चिन्ता छ भने, तपाईं हामीलाई इमेलमार्फत सम्पर्क गर्न सक्नुहुन्छ।</string>
+	<string name="privacy_policy_changes_body">यदि एपको कार्यक्षमता तपाईंको गोपनीयतामा असर गर्ने
+		गरी परिवर्तन हुन्छ भने, यो गोपनीयता नीति अनुसार अद्यावधिक गरिनेछ। हामी
+		प्रयोगकर्ताहरूलाई बेलाबेलामा नीति समीक्षा गर्न प्रोत्साहित गर्छौं।</string>
+	<string name="privacy_policy_effective_date_body">लागू मिति भनेको यो गोपनीयता नीतिलाई अन्तिम पटक
+		कहिले अद्यावधिक गरिएको वा कार्यान्वयन गरिएको थियो भन्ने दिन हो।
+		तपाईंको डाटालाई अनुप्रयोगले कसरी प्रयोग गर्छ भन्नेमा गरिएका कुनै पनि
+		परिवर्तनहरू यो नीतिको अद्यावधिक संस्करणमा समावेश गरिनेछ। तपाईंको
+		जानकारी कसरी ह्यान्डल गरिन्छ भन्ने जानकारी रहिरहोस् भनेर हामी
+		प्रयोगकर्ताहरूलाई यो नीति समय समयमा समीक्षा गर्न प्रोत्साहित गर्छौं।</string>
 </resources>

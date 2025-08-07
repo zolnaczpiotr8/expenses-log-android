@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tarehe</string>
 	<string name="filters_title">Vichujio</string>
 	<string name="currency_label">Sarafu</string>
-	<string name="currency_code_label">Msimbo wa sarafu</string>
 	<string name="amount_label">Kiasi</string>
 	<string name="category_label">Kategoria</string>
 	<string name="invalid_format_error">Umbizo batili</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">msimbo wa sarafu: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Idadi ya herufi: %d. Kiwango cha juu cha herufi: %d</string>
+	<string name="privacy_policy">Sera ya Faragha</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Data yako inakaa nawe</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Tunaheshimu faragha yako. Programu hii inafanya
+		kazi kabisa nje ya mtandao na haikusanyi wala kushiriki data yoyote.
+		Sera hii inatumika kwa watumiaji wote duniani kote, wakiwemo watoto wa
+		rika zote. Hatukusanyi, kuhifadhi, kusambaza wala kushiriki taarifa
+		zozote binafsi au zisizo binafsi. Programu inafanya kazi kabisa nje ya
+		mtandao. Vipengele vyote vinaweza kutumika bila muunganisho wa
+		intaneti, na hakuna data inayofikiwa au kutumwa popote.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Hifadhi ya Data ya Ndani Pekee</string>
+	<string name="privacy_policy_local_only_data_storage_body">Maelezo yote unayoingiza kwenye programu
+		yanahifadhiwa tu kwenye kifaa chako. Hayapakiwa, kuhifadhiwa kwenye
+		seva za nje, wala kushirikiwa na mtu yeyote. Hatuna na hatuwezi kuwa
+		na ufikiaji wa maelezo haya.</string>
+	<string name="privacy_policy_no_third_party_services_title">Hakuna Huduma za Watu Wengine</string>
+	<string name="privacy_policy_no_third_party_services_body">Programu haitumii SDK za watu wengine, zana za
+		uchambuzi, mitandao ya matangazo, au huduma zozote za nje
+		zinazokusanya data. Hakuna mwingine yeyote, ikiwa ni pamoja na sisi,
+		anaweza kufikia matumizi au data za programu yako.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Udhibiti na Kufuta Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Una udhibiti kamili wa maelezo unayoingiza. Unaweza
+		kufuta data zako wakati wowote kwa kuondoa programu au kusafisha
+		hifadhi yake. Kwa kuwa hakuna kinachohifadhiwa nje, hakuna hatua za
+		ziada zinazohitajika.</string>
+	<string name="privacy_policy_children_privacy_title">Faragha ya Watoto</string>
+	<string name="privacy_policy_children_privacy_body">Programu hii ni salama kwa watumiaji wote, wakiwemo
+		watoto walio na umri wa chini ya miaka 13. Hakuna data binafsi
+		inayokusanywa, jambo linaloifanya kufuata sheria za kimataifa za
+		faragha za watoto kama COPPA na GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Haki Zako</string>
+	<string name="privacy_policy_your_rights_body">Kwa kuwa hakuna data inayokusanywa, hakuna kitu
+		unachoweza kufikia, kusasisha au kufuta kupitia sisi. Data yote ni
+		yako na inabaki kwenye kifaa chako pekee.</string>
+	<string name="privacy_policy_contact_information_title">Maelezo ya Mawasiliano</string>
+	<string name="privacy_policy_changes_title">Mabadiliko ya sera hii</string>
+	<string name="privacy_policy_effective_date_title">Tarehe ya kuanza kutumika</string>
+	<string name="privacy_policy_email_subject">Uchunguzi wa Sera ya Faragha – %s</string>
+	<string name="policies">Sera</string>
+	<string name="privacy_policy_contact_information_body">Ikiwa una maswali au wasiwasi wowote kuhusu Sera
+		hii ya Faragha, unaweza kuwasiliana nasi kwa barua pepe.</string>
+	<string name="privacy_policy_changes_body">Ikiwa utendakazi wa programu utabadilika kwa njia
+		inayoathiri faragha yako, Sera hii ya Faragha itasasishwa ipasavyo.
+		Tunahimiza watumiaji kukagua sera hii mara kwa mara.</string>
+	<string name="privacy_policy_effective_date_body">Tarehe ya kuanza kutumika inarejelea siku ambayo
+		Sera hii ya Faragha ilisasishwa mwisho au ilianza kutumika. Mabadiliko
+		yoyote kuhusu jinsi programu inavyoshughulikia data yako yataonyeshwa
+		katika toleo lililosasishwa la sera hii. Tunahimiza watumiaji kupitia
+		sera hii mara kwa mara ili wabaki na taarifa kuhusu jinsi taarifa zao
+		zinavyoshughulikiwa.</string>
 </resources>

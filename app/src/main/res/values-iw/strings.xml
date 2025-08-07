@@ -26,7 +26,6 @@
 	<string name="date_filter_title">תאריך</string>
 	<string name="filters_title">מסננים</string>
 	<string name="currency_label">מטבע</string>
-	<string name="currency_code_label">קוד מטבע</string>
 	<string name="amount_label">סכום</string>
 	<string name="category_label">קטגוריה</string>
 	<string name="invalid_format_error">תבנית לא חוקית</string>
@@ -47,4 +46,46 @@
 	<string name="currency_code_item_label">קוד מטבע: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">מספר תווים: %d. מגבלת תווים: %d</string>
+	<string name="privacy_policy">מדיניות פרטיות</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">הנתונים שלך נשארים איתך</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">אנו מכבדים את פרטיותך. האפליקציה פועלת באופן מלא לא
+		מקוון ואינה אוספת או משתפת כל מידע. מדיניות זו חלה על כל המשתמשים
+		ברחבי העולם, כולל ילדים בכל הגילאים. אנו לא אוספים, מאחסנים, משדרים או
+		משתפים מידע אישי או לא אישי. האפליקציה פועלת באופן מלא לא מקוון. כל
+		הפונקציות ניתנות לשימוש ללא חיבור לאינטרנט, ולא ניגשים או שולחים
+		נתונים בשום מקום.</string>
+	<string name="privacy_policy_local_only_data_storage_title">אחסון נתונים מקומי בלבד</string>
+	<string name="privacy_policy_local_only_data_storage_body">כל המידע שאתה מזין לאפליקציה נשמר רק על המכשיר שלך.
+		הוא לעולם לא מועלה, לא מגובה לשרתי חוץ ולא משותף עם אף אחד. אין לנו
+		גישה למידע הזה ואיננו יכולים לקבל גישה אליו.</string>
+	<string name="privacy_policy_no_third_party_services_title">אין שירותי צד שלישי</string>
+	<string name="privacy_policy_no_third_party_services_body">האפליקציה אינה משתמשת ב-SDK של צד שלישי, בכלי
+		ניתוח, ברשתות פרסום או בשירותים חיצוניים אחרים שאוספים נתונים. אף אחד
+		אחר, כולל אנחנו, אין לו גישה לשימוש שלך באפליקציה או לנתונים שלך.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">בקרת נתונים ומחיקתם</string>
+	<string name="privacy_policy_data_control_and_deletion_body">יש לך שליטה מלאה על המידע שאתה מזין. תוכל למחוק את
+		הנתונים שלך בכל עת על ידי הסרת ההתקנה של האפליקציה או ניקוי האחסון
+		שלה. מאחר ושום דבר לא נשמר באופן חיצוני, אין צורך בצעדים נוספים.</string>
+	<string name="privacy_policy_children_privacy_title">פרטיות ילדים</string>
+	<string name="privacy_policy_children_privacy_body">האפליקציה בטוחה לכל המשתמשים, כולל ילדים מתחת לגיל
+		13. לא נאסף כל מידע אישי, מה שהופך אותה תואמת לחוקי פרטיות ילדים
+		עולמיים כמו COPPA ו-GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">הזכויות שלך</string>
+	<string name="privacy_policy_your_rights_body">מאחר שלא נאספים נתונים, אין דבר שניתן לגשת אליו,
+		לעדכן או למחוק דרכנו. כל הנתונים הם שלך ונשארים רק על המכשיר שלך.</string>
+	<string name="privacy_policy_contact_information_title">פרטי קשר</string>
+	<string name="privacy_policy_changes_title">שינויים במדיניות זו</string>
+	<string name="privacy_policy_effective_date_title">תאריך התחולה</string>
+	<string name="privacy_policy_email_subject">פנייה בנוגע למדיניות פרטיות – %s</string>
+	<string name="policies">מדיניות</string>
+	<string name="privacy_policy_contact_information_body">אם יש לך שאלות או חששות בנוגע למדיניות פרטיות זו,
+		תוכל ליצור איתנו קשר באמצעות דוא"ל.</string>
+	<string name="privacy_policy_changes_body">אם תפקוד האפליקציה ישתנה באופן שישפיע על הפרטיות
+		שלך, מדיניות פרטיות זו תעודכן בהתאם. אנו ממליצים למשתמשים לעיין
+		במדיניות מעת לעת.</string>
+	<string name="privacy_policy_effective_date_body">תאריך התחולה מתייחס ליום שבו מדיניות פרטיות זו
+		עודכנה לאחרונה או נכנסה לתוקף. כל שינוי שייעשה באופן שבו האפליקציה
+		מטפלת בנתוניך ישוקף בגרסה מעודכנת של מדיניות זו. אנו מעודדים משתמשים
+		לעיין במדיניות זו מדי פעם כדי להישאר מעודכנים לגבי האופן שבו מטפלים
+		במידע שלהם.</string>
 </resources>

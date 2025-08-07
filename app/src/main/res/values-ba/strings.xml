@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Фильтрҙар</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Валюта коды</string>
 	<string name="amount_label">Сумма</string>
 	<string name="category_label">Категория</string>
 	<string name="invalid_format_error">Яраҡһыҙ формат</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">валютала коды: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Символдар һаны: %d. Символдар лимиты: %d</string>
+	<string name="privacy_policy">Ҡулланыусы мәғлүмәттәр сәйәсәте</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Һеҙҙең мәғлүмәт һеҙҙең менән ҡала</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Беҙ һеҙҙең шәхси мәғлүмәттәрегеҙҙе хөрмәт итәбеҙ.
+		Был ҡушымта тулыһынса офлайн режимында эшләй һәм бер ниндәй ҙә
+		мәғлүмәт йыймай йәки бүлешмәй. Был сәясәт бөтә донъя ҡулланыусыларына,
+		шул иҫәптән бөтә йәштәге балаларға ла ҡағыла. Беҙ бер ниндәй ҙә шәхси
+		йәки шәхси булмаған мәғлүмәт йыймайбыҙ, һаҡламайбыҙ, ебәрмәйбеҙ йәки
+		бүлешмәйбеҙ. Ҡушымта тулыһынса офлайн эшләй. Барлыҡ функцияларҙы
+		интернетҡа тоташмайынса ҡулланырға мөмкин, һәм мәғлүмәт бер ҡайҙа ла
+		ҡаралмай йәки ебәрелмәй.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Тик урындағы мәғлүмәтте һаҡлау</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ҡушымтаға индергән бөтә мәғлүмәт тә тик һеҙҙең үҙ
+		ҡорамалында ғына һаҡлана. Ул бер ҡасан да сит серверҙарға йөкләнә,
+		архивҡа алына йәки кем менәндер уртаҡлашыла түгел. Беҙ был мәғлүмәткә
+		инеп тә булмайбыҙ, инеү мөмкинлегебеҙ ҙә юҡ.</string>
+	<string name="privacy_policy_no_third_party_services_title">Өсөнсө яҡ хеҙмәттәре юҡ</string>
+	<string name="privacy_policy_no_third_party_services_body">Ҡушымта өсөнсө яҡ SDK-ларын, аналитика ҡоралдарын,
+		иғлан селтәрҙәрен йәки мәғлүмәт йыйған башҡа тышҡы хеҙмәттәрҙе
+		ҡулланмай. Беҙ ҙә, башҡалар ҙа һеҙҙең ҡушымта ҡулланыуҙы йәки
+		мәғлүмәттәрҙе ҡарай алмай.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Мәғлүмәттәрҙе Контроль Һәм Юйыу</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Һеҙ индергән мәғлүмәт өҫтөндә тулы контрольгә эйә.
+		Һеҙ мәғлүмәтегеҙҙе теләгән ваҡытта ҡушымтаны алып ташлап йәки уның
+		һаҡлау урынын таҙалап юйыуығыҙ мөмкин. Сөнки бер ни ҙә тышҡы сығанаҡта
+		һаҡланмай, өҫтәмә аҙымдар талап ителмәй.</string>
+	<string name="privacy_policy_children_privacy_title">Балаларҙың шәхси мәғлүмәте</string>
+	<string name="privacy_policy_children_privacy_body">Ҡушымта бөтә ҡулланыусылар, шул иҫәптән 13 йәштән
+		кесе балалар өсөн дә хәүефһеҙ. Бер ниндәй ҙә шәхси мәғлүмәт йыйылмай,
+		был уны COPPA һәм GDPR-K кеүек бөтә донъя бала шәхси мәғлүмәт
+		ҡануниәттәренә яраҡлы итә.</string>
+	<string name="privacy_policy_your_rights_title">Һеҙҙең хоҡуҡтар</string>
+	<string name="privacy_policy_your_rights_body">Мәғлүмәт йыйылмағанлыҡтан, һеҙҙең өсөн беҙҙең аша
+		ҡарарға, яңыртырға йәки юйырға бер нимә лә юҡ. Бөтә мәғлүмәт һеҙҙеке
+		һәм ул бары тик һеҙҙең ҡоролмала һаҡлана.</string>
+	<string name="privacy_policy_contact_information_title">Бәйләнеш мәғлүмәттәре</string>
+	<string name="privacy_policy_changes_title">Был сәйәсәткә үҙгәрештәр</string>
+	<string name="privacy_policy_effective_date_title">Ғәмәлгә инеү көнө</string>
+	<string name="privacy_policy_email_subject">Хосусиә Сәйәсәте Тураһында Һорау – %s</string>
+	<string name="policies">Сәйәсәттәр</string>
+	<string name="privacy_policy_contact_information_body">Әгәр һеҙҙә был Шәхси мәғлүмәт сәйәсәте буйынса
+		ниндәй ҙә булһа һорауҙар йәки борсолоуҙар булһа, беҙгә электрон почта
+		аша мөрәжәғәт итә алаһығыҙ.</string>
+	<string name="privacy_policy_changes_body">Әгәр ҡушымтаның функциялары һеҙҙең шәхси
+		мәғлүмәтегеҙгә ҡағылышлы үҙгәрһә, был Шәхси мәғлүмәт сәйәсәте тейешле
+		рәүештә яңыртыласаҡ. Ҡулланыусыларға ваҡыт-ваҡыт сәйәсәтте ҡарап сығыу
+		тәҡдим ителә.</string>
+	<string name="privacy_policy_effective_date_body">Ғәмәлгә инеү көнө — был Шәхси мәғлүмәт тураһында
+		сәйәсәт һуңғы тапҡыр яңыртылған йәки ғәмәлгә ингән көндө аңлата.
+		Кушымта мәғлүмәтегеҙҙе нисек эшкәртеүенә индерелгән үҙгәрештәр был
+		сәйәсәттең яңыртылған версияһында сағылыш табасаҡ. Кулланыусыларға
+		мәғлүмәттәренең нисек эшкәртелеүе тураһында мәғлүмәтле булыу өсөн был
+		сәйәсәтте даими тикшереп торорға кәңәш итәбеҙ.</string>
 </resources>

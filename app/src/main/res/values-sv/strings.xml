@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filter</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Valutakod</string>
 	<string name="amount_label">Belopp</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Ogiltigt format</string>
@@ -48,4 +47,50 @@
 	<string name="currency_code_item_label">valutakod: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Teckenantal: %d. Teckengräns: %d</string>
+	<string name="privacy_policy">Integritetspolicy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Dina uppgifter stannar hos dig</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterar din integritet. Denna app fungerar
+		helt offline och samlar inte in eller delar någon data. Denna policy
+		gäller för alla användare världen över, inklusive barn i alla åldrar.
+		Vi samlar inte in, lagrar, överför eller delar någon personlig eller
+		icke-personlig information. Appen fungerar helt offline. Alla
+		funktioner kan användas utan internetuppkoppling och inga data nås
+		eller skickas någonstans.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Endast Lokal Datainlagring</string>
+	<string name="privacy_policy_local_only_data_storage_body">All information du matar in i appen lagras endast
+		på din egen enhet. Den laddas aldrig upp, säkerhetskopieras till
+		externa servrar eller delas med någon. Vi har inte tillgång till denna
+		information och kan inte få det.</string>
+	<string name="privacy_policy_no_third_party_services_title">Inga Tredjepartstjänster</string>
+	<string name="privacy_policy_no_third_party_services_body">Appen använder inte tredjeparts-SDK</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datakontroll och Radering</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Du har fullständig kontroll över den information du
+		matar in. Du kan när som helst radera dina data genom att avinstallera
+		appen eller rensa dess lagring. Eftersom ingenting lagras externt
+		krävs inga ytterligare steg.</string>
+	<string name="privacy_policy_children_privacy_title">Barns Integritet</string>
+	<string name="privacy_policy_children_privacy_body">Appen är säker för alla användare, inklusive barn
+		under 13 år. Inga personuppgifter samlas in, vilket gör den förenlig
+		med globala sekretesslagar för barn såsom COPPA och GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Dina Rättigheter</string>
+	<string name="privacy_policy_your_rights_body">Eftersom ingen data samlas in finns det inget för
+		dig att komma åt, uppdatera eller radera via oss. All data är din och
+		finns endast på din enhet.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinformation</string>
+	<string name="privacy_policy_changes_title">Ändringar i denna policy</string>
+	<string name="privacy_policy_effective_date_title">Ikraftträdandedatum</string>
+	<string name="privacy_policy_email_subject">Förfrågan om Sekretesspolicy – %s</string>
+	<string name="policies">Policyer</string>
+	<string name="privacy_policy_contact_information_body">Om du har några frågor eller funderingar angående
+		denna integritetspolicy kan du kontakta oss via e-post.</string>
+	<string name="privacy_policy_changes_body">Om appens funktionalitet förändras på ett sätt som
+		påverkar din integritet kommer denna integritetspolicy att uppdateras
+		i enlighet med detta. Vi uppmuntrar användare att granska policyn då
+		och då.</string>
+	<string name="privacy_policy_effective_date_body">Ikraftträdandedatumet avser den dag då denna
+		integritetspolicy senast uppdaterades eller trädde i kraft. Alla
+		ändringar i hur appen hanterar dina uppgifter kommer att återspeglas i
+		en uppdaterad version av denna policy. Vi uppmuntrar användare att
+		regelbundet granska denna policy för att hålla sig informerade om hur
+		deras information behandlas.</string>
 </resources>

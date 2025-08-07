@@ -26,7 +26,6 @@
 	<string name="date_filter_title">તારીખ</string>
 	<string name="filters_title">ફિલ્ટરો</string>
 	<string name="currency_label">મુદ્રા</string>
-	<string name="currency_code_label">ચલણ કોડ</string>
 	<string name="amount_label">રકમ</string>
 	<string name="category_label">શ્રેણી</string>
 	<string name="invalid_format_error">અયોગ્ય બંધારણ</string>
@@ -48,4 +47,52 @@
 	<string name="currency_code_item_label">ચલણ કોડ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">અક્ષરોની સંખ્યા: %d. અક્ષર મર્યાદા: %d</string>
+	<string name="privacy_policy">ગોપનીયતા નીતિ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">તમારું ડેટા તમારા સાથે રહે છે</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">અમે તમારી પ્રાઇવસીનો માન રાખીએ છીએ. આ એપ્લિકેશન
+		સંપૂર્ણપણે ઑફલાઇન કામ કરે છે અને કોઈ ડેટા એકત્રિત કે વહેંચતું નથી. આ
+		નીતિ સમગ્ર વિશ્વના તમામ વપરાશકર્તાઓ માટે લાગૂ પડે છે, જેમાં તમામ વયના
+		બાળકો પણ શામેલ છે. અમે કોઈપણ વ્યક્તિગત કે અજ્ઞાત માહિતી એકત્રિત,
+		સંગ્રહિત, પ્રસારિત કે વહેંચતા નથી. એપ્લિકેશન સંપૂર્ણપણે ઑફલાઇન કાર્ય
+		કરે છે. તમામ ફીચર્સ ઇન્ટરનેટ કનેક્શન વિના ઉપયોગ કરી શકાય છે અને કોઈપણ
+		ડેટા ક્યારેય ઍક્સેસ અથવા મોકલવામાં આવતી નથી.</string>
+	<string name="privacy_policy_local_only_data_storage_title">ફક્ત સ્થાનિક ડેટા સ્ટોરેજ</string>
+	<string name="privacy_policy_local_only_data_storage_body">તમે એપ્લિકેશનમાં દાખલ કરો તે તમામ માહિતી ફક્ત તમારા
+		પોતાનાં ડિવાઇસમાં જ સંગ્રહિત થાય છે. તે ક્યારેય અપલોડ થતી નથી, બાહ્ય
+		સર્વરો પર બેકઅપ લેતી નથી અથવા કોઈ સાથે શેર કરવામાં આવતી નથી. અમારું આ
+		માહિતીમાં પ્રવેશ નથી અને થઇ પણ શકતો નથી.</string>
+	<string name="privacy_policy_no_third_party_services_title">ત્રીજા પક્ષની સેવાઓ નથી</string>
+	<string name="privacy_policy_no_third_party_services_body">એપ્લિકેશન ત્રીજા પક્ષના SDKs, વિશ્લેષણ સાધનો,
+		જાહેરાત નેટવર્ક અથવા ડેટા એકત્રિત કરતી કોઇ પણ બાહ્ય સેવાઓનો ઉપયોગ કરતી
+		નથી. તમે અને અમારો સિવાય કોઈને તમારી એપનો ઉપયોગ કે ડેટા જોઈ શકતો નથી.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ડેટા નિયંત્રણ અને કાઢી નાખવું</string>
+	<string name="privacy_policy_data_control_and_deletion_body">તમે દાખલ કરો છો તે માહિતી પર તમારો સંપૂર્ણ નિયંત્રણ
+		છે. તમે કોઈપણ સમયે એપને અનઇન્સ્ટોલ કરીને અથવા તેના સ્ટોરેજને સાફ કરીને
+		તમારું ડેટા કાઢી શકો છો. બાહ્ય રીતે કશું જ સંગ્રહિત ન હોવાથી, કોઈ
+		વધારાની પગલાં જરૂરી નથી.</string>
+	<string name="privacy_policy_children_privacy_title">બાળકોની ગોપનીયતા</string>
+	<string name="privacy_policy_children_privacy_body">એપ સર્વે વપરાશકર્તાઓ માટે સુરક્ષિત છે, જેમાં 13
+		વર્ષથી ઓછા બાળકો પણ સમાવિષ્ટ છે. કોઈપણ વ્યક્તિગત માહિતી એકત્રિત
+		કરવામાં આવતી નથી, જે COPPA અને GDPR-K જેવી વૈશ્વિક બાળગોપનીયતા કાયદાઓ
+		સાથે તેની અનુરૂપતા સુનિશ્ચિત કરે છે.</string>
+	<string name="privacy_policy_your_rights_title">તમારા અધિકારો</string>
+	<string name="privacy_policy_your_rights_body">કોઈ ડેટા એકત્રિત થતો નથી, તેથી તમારું અમારી પાસે
+		પહોંચવું, અપડેટ કરવું કે કાઢી નાખવું શક્ય નથી. બધો ડેટા તમારાનો છે અને
+		માત્ર તમારા ઉપકરણમાં જ રહે છે.</string>
+	<string name="privacy_policy_contact_information_title">સંપર્ક માહિતી</string>
+	<string name="privacy_policy_changes_title">આ નીતિમાં ફેરફાર</string>
+	<string name="privacy_policy_effective_date_title">અમલમાં આવતી તારીખ</string>
+	<string name="privacy_policy_email_subject">ગોપનીયતા નીતિ સંબંધિત પૂછપરછ – %s</string>
+	<string name="policies">નીતિઓ</string>
+	<string name="privacy_policy_contact_information_body">જો તમને આ ગોપનીયતા નીતિ અંગે કોઈ પ્રશ્નો કે ચિંતાઓ
+		હોય, તો તમે અમારો સંપર્ક ઇમેઇલ દ્વારા કરી શકો છો.</string>
+	<string name="privacy_policy_changes_body">જો ઍપની કાર્યક્ષમતા એવી રીતે બદલાય છે કે જે તમારી
+		ગોપનીયતાને અસર કરે છે, તો આ ગોપનીયતા નીતિને અનુરૂપ સુધારવામાં આવશે.
+		અમે વપરાશકર્તાઓને સમયાંતરે નીતિની સમીક્ષા કરવા પ્રોત્સાહિત કરીએ છીએ.</string>
+	<string name="privacy_policy_effective_date_body">અમલ તારીખ એ દિવસને દર્શાવે છે જ્યારે આ ગોપનીયતા
+		નીતિ છેલ્લે અપડેટ કરવામાં આવી હતી અથવા અમલમાં આવી હતી. એપ તમારી માહિતી
+		સાથે કેવી રીતે વર્તે છે તેમાં કોઈપણ ફેરફાર આ નીતિના અપડેટ કરાયેલા
+		સંસ્કરણમાં દર્શાવવામાં આવશે. અમે વપરાશકર્તાઓને પ્રોત્સાહન આપીએ છીએ કે
+		તેઓ સમયાંતરે આ નીતિની સમીક્ષા કરે જેથી તેમને પોતાની માહિતી કેવી રીતે
+		હેન્ડલ થાય છે તેની જાણ રહે.</string>
 </resources>

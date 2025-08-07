@@ -67,13 +67,6 @@ fun CurrencyComboBox(
                 imeAction = ImeAction.None,
             ),
         singleLine = true,
-        label = {
-          val label = stringResource(R.string.currency_code_label)
-          Text(
-              modifier = Modifier.clearAndSetSemantics { contentDescription = label },
-              text = stringResource(R.string.currency_label),
-          )
-        },
         trailingIcon = {
           val onClickLabel = stringResource(R.string.show_available_currencies_action_label)
           ExposedDropdownMenuDefaults.TrailingIcon(

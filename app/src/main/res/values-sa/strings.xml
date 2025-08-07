@@ -26,7 +26,6 @@
 	<string name="date_filter_title">तिथि</string>
 	<string name="filters_title">छनकाः</string>
 	<string name="currency_label">मुद्रा</string>
-	<string name="currency_code_label">मुद्रा संकेतः</string>
 	<string name="amount_label">राशिः</string>
 	<string name="category_label">वर्गः</string>
 	<string name="invalid_format_error">अमान्यः प्रारूपः</string>
@@ -48,4 +47,50 @@
 	<string name="currency_code_item_label">मुद्रा संकेतः: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षरगणना: %d। अक्षरसীমा: %d</string>
+	<string name="privacy_policy">गोपनीयता निति</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">तव दत्तांशाः तव सङ्गं स्थास्यन्ति</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">वयं भवतः गोपनीयतां सम्मानयामः। अयं अनुप्रयोगः
+		सम्पूर्णतया अफलाइन् कार्यं करोति तथा न किञ्चिद् दत्तांशं सङ्गृह्णाति
+		वा वितरति। एषा नीतिः समस्तजगतां सर्वेभ्यः उपयोक्तृभ्यः, बालकैः
+		सर्वेषां वयस्कृता अपि, प्रवर्तते। वयं न किञ्चित् व्यक्तिगतं न च
+		अग्रेस्व व्यक्तिगतरूपं सूचनां सङ्गृह्णामः, न संचयामः, न प्रेषयामः, न च
+		वितरयामः। अनुप्रयोगः सम्पूर्णतया अफलाइन् कार्यं करोति। सर्वे सुविधाः
+		इन्टरनेट् सम्बन्धविना उपयोगेयानि स्युः, न कदापि दत्तानि प्राप्तानि वा
+		प्रेषितानि भवन्ति।</string>
+	<string name="privacy_policy_local_only_data_storage_title">केवलं स्थानीयदत्तांशसंग्रहः</string>
+	<string name="privacy_policy_local_only_data_storage_body">यत् सर्वं विवरणं यूयं अनुप्रयोगे निवेशयथ, तत् केवलं
+		स्वगृहे उपकरणे सुरक्षितं भवति। तत् कदापि बाह्यसर्वरेषु न अपि अपलोड्
+		कृतं, न च सञ्चितं, न च कस्यापि सह विभाजितं भवति। वयं एषां विवरणानां
+		प्रवेशं न कर्तुं शक्नुमः, न च करिष्यामः।</string>
+	<string name="privacy_policy_no_third_party_services_title">तृतीयपक्षसेवाः नास्ति</string>
+	<string name="privacy_policy_no_third_party_services_body">अनुप्रयोगः तृतीयपक्षीय SDK, विश्लेषणोपकरणानि,
+		विज्ञापनजालानि वा अन्यानि बहिर्मुखानि सेवाः येषां दत्तांशसंग्रहः भवति
+		न उपयोग्यन्ते। मया सहितः अन्यः कश्चित् अपि तव अनुप्रयोगस्य उपयोगं वा
+		दत्तांशं प्राप्नोति न।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">दत्तांशनियन्त्रणं च विलोपनम्</string>
+	<string name="privacy_policy_data_control_and_deletion_body">यः सूचना</string>
+	<string name="privacy_policy_children_privacy_title">बालानां गोपनीयता</string>
+	<string name="privacy_policy_children_privacy_body">एषः अनुप्रयोगः सर्वेषां उपयोगकर्तॄणां कृते
+		सुरक्षितः अस्ति, त्रयोदशवर्षात् अधः बालान् अपि सम्मिल्य। न कापि
+		व्यक्तिगतदत्ता संगृहीता, यः एषं COPPA तथा GDPR-K इत्यादिषु
+		वैश्विकबालगोपनीयतानियमेषु सुसंगतं करोति।</string>
+	<string name="privacy_policy_your_rights_title">तव अधिकाराः</string>
+	<string name="privacy_policy_your_rights_body">यः कश्चन डेटा न संकलितः, अतः न किमपि अस्ति यं त्वं
+		अस्मद् माध्यमेन अभिगम्य, अद्यतनं वा कर्तुं शक्नोषि वा मेटुम्। सर्वे
+		डेटा</string>
+	<string name="privacy_policy_contact_information_title">सम्पर्क विवरणम्</string>
+	<string name="privacy_policy_changes_title">अस्मिन् नीतौ परिवर्तनानि</string>
+	<string name="privacy_policy_effective_date_title">प्रवर्त्य तिथि</string>
+	<string name="privacy_policy_email_subject">गोपनीयता नीतिः प्रश्नः – %s</string>
+	<string name="policies">नीतयः</string>
+	<string name="privacy_policy_contact_information_body">यदि ते गोपनीयतानीतिं प्रति कश्चन प्रश्नः वा चिन्ता
+		वा अस्ति, तर्हि त्वं अस्मान् ईमेल् द्वारा सम्पर्कुं शक्नोषि।</string>
+	<string name="privacy_policy_changes_body">यदि अनुप्रयोगस्य कार्यप्रणाली गोपनीयतायाः प्रभावं
+		करोतु परिवर्तनं यः भवति, तर्हि एषा गोपनीयता नीति</string>
+	<string name="privacy_policy_effective_date_body">प्रभावी तिथि सा दिनांक अस्ति या दिनं यदा एषा
+		गोपनीयता नीति अन्तिमवारं अद्यतनिता आसीत् अथवा प्रवृत्ता अभवत्। यथाऽपि
+		अनुप्रयोगेन भवतः दत्तांशः कथं सञ्चाल्यते इत्यस्मिन् परिवर्तनं
+		भविष्यति, तत् एष्यां नीत्यां अद्यतनरूपेण प्रकटिष्यते। उपयोगकर्तॄन्
+		समये समये एतां नीतिं निरीक्ष्य सूचना प्राप्तुं प्रेरयामः यथा तेषां
+		सूचना कथं व्यवह्रियते इति ज्ञातुं शक्यते।</string>
 </resources>

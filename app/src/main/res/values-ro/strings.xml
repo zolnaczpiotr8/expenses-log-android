@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dată</string>
 	<string name="filters_title">Filtre</string>
 	<string name="currency_label">Valută</string>
-	<string name="currency_code_label">Cod valutar</string>
 	<string name="amount_label">Sumă</string>
 	<string name="category_label">Categorie</string>
 	<string name="invalid_format_error">Format invalid</string>
@@ -48,4 +47,58 @@
 	<string name="currency_code_item_label">cod valută: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Număr de caractere: %d. Limită de caractere: %d</string>
+	<string name="privacy_policy">Politica de confidențialitate</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Datele tale rămân cu tine</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Respectăm confidențialitatea dvs. Această aplicație
+		funcționează complet offline și nu colectează sau partajează niciun
+		fel de date. Această politică se aplică tuturor utilizatorilor din
+		întreaga lume, inclusiv copiilor de toate vârstele. Nu colectăm,
+		stocăm, transmitem sau partajăm nicio informație personală sau
+		nepersonală. Aplicația funcționează complet offline. Toate funcțiile
+		pot fi utilizate fără conexiune la internet, iar niciun fel de date nu
+		sunt accesate sau trimise nicăieri.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Doar Stocare Locală de Date</string>
+	<string name="privacy_policy_local_only_data_storage_body">Toate informațiile introduse în aplicație sunt
+		stocate doar pe propriul dumneavoastră dispozitiv. Ele nu sunt
+		niciodată încărcate, salvate pe servere externe sau partajate cu
+		altcineva. Nu avem acces la aceste informații și nu putem avea.</string>
+	<string name="privacy_policy_no_third_party_services_title">Fără Servicii Terțe</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplicația nu utilizează SDK-uri terțe, instrumente
+		de analiză, rețele de publicitate sau servicii externe care colectează
+		date. Nimeni altcineva, inclusiv noi, nu are acces la utilizarea sau
+		datele aplicației tale.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Controlul și Ștergerea Datelor</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Aveți control total asupra informațiilor pe care le
+		introduceți. Vă puteți șterge datele oricând, dezinstalând aplicația
+		sau curățând spațiul de stocare. Deoarece nimic nu este stocat extern,
+		nu sunt necesari pași suplimentari.</string>
+	<string name="privacy_policy_children_privacy_title">Confidențialitatea Copiilor</string>
+	<string name="privacy_policy_children_privacy_body">Aplicația este sigură pentru toți utilizatorii,
+		inclusiv pentru copiii sub 13 ani. Nu sunt colectate date personale,
+		ceea ce o face conformă cu legile globale privind confidențialitatea
+		copiilor, cum ar fi COPPA și GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Drepturile Tale</string>
+	<string name="privacy_policy_your_rights_body">Deoarece nu sunt colectate date, nu există nimic la
+		care să aveți acces, să actualizați sau să ștergeți prin intermediul
+		nostru. Toate datele vă aparțin și rămân exclusiv pe dispozitivul
+		dumneavoastră.</string>
+	<string name="privacy_policy_contact_information_title">Informații de contact</string>
+	<string name="privacy_policy_changes_title">Modificări ale acestei politici</string>
+	<string name="privacy_policy_effective_date_title">Data intrării în vigoare</string>
+	<string name="privacy_policy_email_subject">Întrebare privind Politica de Confidențialitate –
+		%s</string>
+	<string name="policies">Politici</string>
+	<string name="privacy_policy_contact_information_body">Dacă aveți întrebări sau nelămuriri cu privire la
+		această Politică de Confidențialitate, ne puteți contacta prin e-mail.</string>
+	<string name="privacy_policy_changes_body">Dacă funcționalitatea aplicației se schimbă într-un
+		mod care vă afectează confidențialitatea, această Politică de
+		Confidențialitate va fi actualizată în consecință. Încurajăm
+		utilizatorii să revizuiască periodic politica.</string>
+	<string name="privacy_policy_effective_date_body">Data intrării în vigoare se referă la ziua în care
+		această Politică de Confidențialitate a fost actualizată ultima dată
+		sau a intrat în vigoare. Orice modificări privind modul în care
+		aplicația gestionează datele dumneavoastră vor fi reflectate într-o
+		versiune actualizată a acestei politici. Încurajăm utilizatorii să
+		revizuiască periodic această politică pentru a fi informați cu privire
+		la modul în care sunt tratate informațiile lor.</string>
 </resources>
