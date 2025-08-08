@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Сана</string>
 	<string name="filters_title">Филтрҳо</string>
 	<string name="currency_label">Асъор</string>
-	<string name="currency_code_label">Рамзи асъор</string>
 	<string name="amount_label">Маблағ</string>
 	<string name="category_label">Категория</string>
 	<string name="invalid_format_error">Формати нодуруст</string>
@@ -49,4 +48,58 @@
 	<string name="currency_code_item_label">рамзи асъор: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Миқдори ҳарфҳо: %d. Ҳадди ҳарфҳо: %d</string>
+	<string name="privacy_policy">Сиёсати махфият</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Маълумоти шумо бо шумо мемонад</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Мо ба махфиятии шумо эҳтиром мегузорем. Ин барнома
+		пурра бе интернет фаъолият мекунад ва ягон маълумотро ҷамъоварӣ ё
+		мубодила намекунад. Ин сиёсати махфият барои ҳамаи истифодабарандагони
+		ҷаҳон, аз ҷумла кӯдакони ҳар синну сол, дахл дорад. Мо ягон маълумоти
+		шахсӣ ё ғайри шахсиро ҷамъ намекунем, нигоҳ намедорем, интиқол
+		намедиҳем ва мубодила намекунем. Барнома пурра бе интернет кор
+		мекунад. Ҳамаи хусусиятҳо бе пайвастшавӣ ба интернет истифода мешаванд
+		ва ягон маълумот дастрас ё ирсол карда намешавад.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Нигоҳдории Танҳо Маҳаллии Маълумот</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ҳамаи маълумоте, ки шумо ба барнома ворид мекунед,
+		танҳо дар дастгоҳи худатон нигоҳ дошта мешавад. Он ҳеҷ гоҳ ба
+		серверҳои беруна боргузорӣ намешавад, нусхаи эҳтиётӣ гирифта намешавад
+		ва бо касе мубодила намешавад. Мо ба ин маълумот дастрасӣ надорем ва
+		наметавонем дошта бошем.</string>
+	<string name="privacy_policy_no_third_party_services_title">Хизматрасониҳои Шахсони Сеюм Не Меистанд</string>
+	<string name="privacy_policy_no_third_party_services_body">Барнома аз SDK-и тарафи сеюм, воситаҳои таҳлилӣ,
+		шабакаҳои таблиғотӣ ё ягон хизматрасонии беруна, ки маълумот ҷамъ
+		мекунад, истифода намекунад. Ҳеҷ каси дигар, аз ҷумла мо, ба истифода
+		ё маълумоти барномаи шумо дастрасӣ надорад.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Назорат ва Нест кардани Маълумот</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Шумо назорати пурра ба маълумоте, ки ворид мекунед,
+		доред. Шумо метавонед маълумотҳои худро ҳар вақт бо нест кардани
+		барнома ё тоза кардани захираи он ҳазф кунед. Азбаски чизе берунӣ
+		нигоҳ дошта намешавад, қадамҳои иловагӣ лозим нестанд.</string>
+	<string name="privacy_policy_children_privacy_title">Махфияти Кӯдакон</string>
+	<string name="privacy_policy_children_privacy_body">Ин барнома барои ҳамаи корбарон, аз ҷумла кӯдакони
+		то 13-сола, бехатар аст. Ягон маълумоти шахсӣ ҷамъоварӣ намешавад, ки
+		ин онро мувофиқ ба қонунҳои ҷаҳонии ҳимояи махфияти кӯдакон, ба
+		монанди COPPA ва GDPR-K мегардонад.</string>
+	<string name="privacy_policy_your_rights_title">Ҳуқуқҳои Шумо</string>
+	<string name="privacy_policy_your_rights_body">Азбаски ягон маълумот ҷамъоварӣ намешавад, шумо
+		чизе барои дастрас кардан, навсозӣ ё ҳазф кардан тавассути мо надоред.
+		Ҳамаи маълумот моли шумост ва танҳо дар дастгоҳи шумо боқӣ мемонад.</string>
+	<string name="privacy_policy_contact_information_title">Маълумоти тамос</string>
+	<string name="privacy_policy_changes_title">Тағйирот ба ин сиёсат</string>
+	<string name="privacy_policy_effective_date_title">Санаи ба амал баровардан</string>
+	<string name="privacy_policy_email_subject">Пурсиш Дар бораи Сиёсати Махфият – %s</string>
+	<string name="policies">Сиёсатҳо</string>
+	<string name="privacy_policy_contact_information_body">Агар шумо дар бораи ин Сиёсати Ҳифзи Шахсӣ ягон
+		савол ё нигаронӣ дошта бошед, метавонед тавассути почтаи электронӣ бо
+		мо тамос гиред.</string>
+	<string name="privacy_policy_changes_body">Агар фаъолияти барнома ба тарзе тағйир ёбад, ки ба
+		махфияти шумо таъсир расонад, ин Сиёсати Махфият мувофиқи он нав карда
+		мешавад. Мо истифодабарандагонро ташвиқ мекунем, ки сиёсиро гоҳ-гоҳ
+		баррасӣ кунанд.</string>
+	<string name="privacy_policy_effective_date_body">Санаи амалӣ шудани сиёсати махфият ба рӯзе ишора
+		мекунад, ки он охирин маротиба нав карда шудааст ё ба иҷро
+		даромадааст. Ҳар гуна тағйироте, ки дар тарзи коркарди маълумоти шумо
+		аз ҷониби барнома сурат мегирад, дар версияи навшудаи ин сиёсати
+		махфият инъикос хоҳад ёфт. Мо ба корбарон тавсия медиҳем, ки ин
+		сиёсати махфиятро гоҳ-гоҳ бозбинӣ кунанд, то бидонанд маълумоти онҳо
+		чӣ гуна коркард мешавад.</string>
 </resources>

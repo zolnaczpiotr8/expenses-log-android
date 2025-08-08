@@ -1,6 +1,5 @@
 package zolnaczpiotr8.com.github.expenses.log.data
 
-import android.util.Log
 import javax.inject.Inject
 import kotlin.coroutines.cancellation.CancellationException
 import kotlinx.coroutines.flow.Flow
@@ -8,8 +7,6 @@ import kotlinx.coroutines.flow.map
 import zolnaczpiotr8.com.github.expenses.log.database.daos.DateFilterDao
 import zolnaczpiotr8.com.github.expenses.log.database.entities.date.filter.DateFilterEntity
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
-
-private val TAG = DateFilterRepository::class.java.name
 
 class DateFilterRepository
 @Inject
@@ -24,15 +21,7 @@ constructor(
       dateFilterDao.insert(toEntity(dateFilter))
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (throwable: Throwable) {
-      if (Log.isLoggable(TAG, Log.ERROR)) {
-        Log.e(
-            TAG,
-            throwable.message,
-            throwable,
-        )
-      }
-    }
+    } catch (_: Throwable) {}
   }
 
   private fun toEntity(

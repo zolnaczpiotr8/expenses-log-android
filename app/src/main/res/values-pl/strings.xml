@@ -38,7 +38,6 @@
 	<string name="date_filter_this_year">Bieżący rok</string>
 	<string name="date_filter_any">Każda data</string>
 	<string name="currency_label">Waluta</string>
-	<string name="currency_code_label">Kod waluty</string>
 	<string name="currency_code_item_label">kod waluty: %s</string>
 	<string name="settings_updated_message">Ustawienia zaktualizowane</string>
 	<string name="show_available_currencies_action_label">pokaż dostępne waluty</string>
@@ -48,4 +47,59 @@
 	<string name="show_categories_action_label">Pokaż kategorie</string>
 	<string name="expense_created_message">Wydatek został stworzony</string>
 	<string name="category_created_message">Kategoria została stworzona</string>
+	<string name="privacy_policy">Polityka prywatności</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Twoje dane pozostają z Tobą</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Szanujemy Twoją prywatność. Ta aplikacja działa
+		całkowicie offline i nie zbiera ani nie udostępnia żadnych danych.
+		Niniejsza polityka dotyczy wszystkich użytkowników na całym świecie, w
+		tym dzieci w każdym wieku. Nie zbieramy, nie przechowujemy, nie
+		przesyłamy ani nie udostępniamy żadnych informacji osobistych ani
+		nieosobistych. Aplikacja działa całkowicie offline. Wszystkie funkcje
+		można używać bez połączenia z internetem i żadne dane nigdy nie są
+		nigdzie przesyłane ani udostępniane.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Tylko Lokalne Przechowywanie Danych</string>
+	<string name="privacy_policy_local_only_data_storage_body">Wszystkie informacje, które wpisujesz do aplikacji,
+		są przechowywane wyłącznie na Twoim własnym urządzeniu. Nigdy nie są
+		przesyłane, tworzone kopie zapasowe na zewnętrznych serwerach ani
+		udostępniane komukolwiek. Nie mamy dostępu do tych informacji i nie
+		możemy go mieć.</string>
+	<string name="privacy_policy_no_third_party_services_title">Brak Usług Stron Trzecich</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikacja nie korzysta z SDK firm trzecich,
+		narzędzi analitycznych, sieci reklamowych ani żadnych zewnętrznych
+		usług zbierających dane. Nikt inny, włącznie z nami, nie ma dostępu do
+		Twojego użytkowania aplikacji ani danych.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontrola i Usuwanie Danych</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Masz pełną kontrolę nad informacjami, które
+		wprowadzasz. Możesz usunąć swoje dane w dowolnym momencie,
+		odinstalowując aplikację lub czyszcząc jej pamięć. Ponieważ nic nie
+		jest przechowywane zewnętrznie, nie są wymagane żadne dodatkowe kroki.</string>
+	<string name="privacy_policy_children_privacy_title">Prywatność Dzieci</string>
+	<string name="privacy_policy_children_privacy_body">Aplikacja jest bezpieczna dla wszystkich
+		użytkowników, w tym dzieci poniżej 13 roku życia. Nie są gromadzone
+		żadne dane osobowe, co czyni ją zgodną z globalnymi przepisami o
+		prywatności dzieci, takimi jak COPPA i GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Twoje Prawa</string>
+	<string name="privacy_policy_your_rights_body">Ponieważ żadne dane nie są gromadzone, nie masz
+		niczego, do czego mógłbyś uzyskać dostęp, co mógłbyś zaktualizować lub
+		usunąć za naszym pośrednictwem. Wszystkie dane należą do ciebie i
+		pozostają wyłącznie na twoim urządzeniu.</string>
+	<string name="privacy_policy_contact_information_title">Informacje kontaktowe</string>
+	<string name="privacy_policy_changes_title">Zmiany w niniejszej polityce</string>
+	<string name="privacy_policy_effective_date_title">Data wejścia w życie</string>
+	<string name="privacy_policy_email_subject">Zapytanie dotyczące Polityki Prywatności – %s</string>
+	<string name="policies">Polityki</string>
+	<string name="privacy_policy_contact_information_body">Jeśli masz jakiekolwiek pytania lub wątpliwości
+		dotyczące tej Polityki Prywatności, możesz skontaktować się z nami za
+		pośrednictwem poczty elektronicznej.</string>
+	<string name="privacy_policy_changes_body">Jeśli funkcjonalność aplikacji ulegnie zmianie w
+		sposób wpływający na Twoją prywatność, niniejsza Polityka Prywatności
+		zostanie odpowiednio zaktualizowana. Zachęcamy użytkowników do
+		regularnego przeglądania polityki.</string>
+	<string name="privacy_policy_effective_date_body">Data wejścia w życie odnosi się do dnia, w którym
+		niniejsza Polityka prywatności została ostatnio zaktualizowana lub
+		weszła w życie. Wszelkie zmiany w sposobie, w jaki aplikacja
+		przetwarza Twoje dane, zostaną odzwierciedlone w zaktualizowanej
+		wersji tej polityki. Zachęcamy użytkowników do okresowego przeglądania
+		tej polityki, aby być na bieżąco z tym, jak traktowane są ich
+		informacje.</string>
 </resources>

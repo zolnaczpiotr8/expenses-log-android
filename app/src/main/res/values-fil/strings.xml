@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Petsa</string>
 	<string name="filters_title">Mga filter</string>
 	<string name="currency_label">Salapi</string>
-	<string name="currency_code_label">Currency code</string>
 	<string name="amount_label">Halaga</string>
 	<string name="category_label">Kategorya</string>
 	<string name="invalid_format_error">Di-wastong format</string>
@@ -48,4 +47,59 @@
 	<string name="currency_code_item_label">code ng pera: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Bilang ng mga karakter: %d. Limitasyon sa karakter: %d</string>
+	<string name="privacy_policy">Patakaran sa Privacy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ang iyong datos ay nananatili sa iyo</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Nirerespeto namin ang iyong privacy. Ang app na ito
+		ay gumagana nang ganap offline at hindi nangongolekta o nagbabahagi ng
+		anumang data. Ang patakarang ito ay nalalapat sa lahat ng mga
+		gumagamit sa buong mundo, kabilang ang mga bata ng lahat ng edad.
+		Hindi kami nangongolekta, nag-iimbak, nagpapadala, o nagbabahagi ng
+		anumang personal o hindi personal na impormasyon. Ang app ay ganap na
+		gumagana offline. Lahat ng mga tampok ay maaaring magamit nang walang
+		koneksyon sa internet, at walang data ang kailanman ina-access o
+		ipinapadala kahit saan.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Lokal Lamang na Imbakan ng Data</string>
+	<string name="privacy_policy_local_only_data_storage_body">Lahat ng impormasyong inilalagay mo sa app ay
+		nakaimbak lamang sa sarili mong device. Hindi ito ina-upload,
+		sine-save sa external servers, o ibinabahagi kanino man. Wala kaming
+		access at hindi rin namin ito maa-access.</string>
+	<string name="privacy_policy_no_third_party_services_title">Walang Serbisyo ng Iba Pang Partido</string>
+	<string name="privacy_policy_no_third_party_services_body">Hindi gumagamit ang app ng third-party SDKs,
+		analytics tools, ad networks, o anumang external na serbisyo na
+		nangongolekta ng data. Wala nang iba pa, kabilang kami, ang may access
+		sa paggamit o data ng iyong app.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontrol at Pag-delete ng Data</string>
+	<string name="privacy_policy_data_control_and_deletion_body">May ganap kang kontrol sa impormasyong iyong
+		inilalagay. Maaari mong tanggalin ang iyong data anumang oras sa
+		pamamagitan ng pag-uninstall ng app o paglilinis ng storage nito.
+		Dahil walang naka-store sa labas, walang karagdagang hakbang na
+		kailangan.</string>
+	<string name="privacy_policy_children_privacy_title">Privacy ng mga Bata</string>
+	<string name="privacy_policy_children_privacy_body">Ang app ay ligtas para sa lahat ng gumagamit,
+		kabilang ang mga batang wala pang 13 taong gulang. Walang personal na
+		impormasyon ang kinokolekta, kaya ito ay sumusunod sa mga
+		pandaigdigang batas sa privacy ng bata gaya ng COPPA at GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Iyong mga Karapatan</string>
+	<string name="privacy_policy_your_rights_body">Dahil walang kinokolektang data, wala kang maaaring
+		i-access, i-update, o i-delete sa pamamagitan namin. Lahat ng data ay
+		iyo at nananatili lamang sa iyong device.</string>
+	<string name="privacy_policy_contact_information_title">Impormasyon sa Pakikipag-ugnayan</string>
+	<string name="privacy_policy_changes_title">Mga pagbabago sa patakarang ito</string>
+	<string name="privacy_policy_effective_date_title">Petsa ng bisa</string>
+	<string name="privacy_policy_email_subject">Pagtatanong sa Patakaran sa Privacy – %s</string>
+	<string name="policies">Mga Patakaran</string>
+	<string name="privacy_policy_contact_information_body">Kung mayroon kang anumang mga tanong o alalahanin
+		tungkol sa Patakaran sa Privacy na ito, maaari mo kaming kontakin sa
+		pamamagitan ng email.</string>
+	<string name="privacy_policy_changes_body">Kung magbago ang functionality ng app sa paraang
+		nakakaapekto sa iyong privacy, ang Patakaran sa Privacy na ito ay
+		ia-update nang naaayon. Hinihikayat naming suriin ng mga user ang
+		patakaran paminsan-minsan.</string>
+	<string name="privacy_policy_effective_date_body">Ang petsa ng pagiging epektibo ay tumutukoy sa araw
+		kung kailan huling na-update o naging epektibo ang Patakaran sa
+		Privacy na ito. Anumang pagbabago kung paano pinangangasiwaan ng app
+		ang iyong data ay makikita sa isang na-update na bersyon ng patakaran
+		na ito. Hinihikayat namin ang mga gumagamit na suriin ang patakarang
+		ito paminsan-minsan upang manatiling alam kung paano pinangangasiwaan
+		ang kanilang impormasyon.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Фільтри</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Код валюти</string>
 	<string name="amount_label">Сума</string>
 	<string name="category_label">Категорія</string>
 	<string name="invalid_format_error">Неприпустимий формат</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">код валюти: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Кількість символів: %d. Обмеження символів: %d</string>
+	<string name="privacy_policy">Політика конфіденційності</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ваші дані залишаються з вами</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Ми поважаємо вашу конфіденційність. Цей додаток
+		працює повністю офлайн і не збирає та не передає жодних даних. Ця
+		політика застосовується до всіх користувачів у світі, включно з дітьми
+		будь-якого віку. Ми не збираємо, не зберігаємо, не передаємо і не
+		поширюємо жодну особисту чи неособисту інформацію. Додаток повністю
+		працює офлайн. Усі функції доступні без підключення до ін</string>
+	<string name="privacy_policy_local_only_data_storage_title">Лише Локальне Зберігання Даних</string>
+	<string name="privacy_policy_local_only_data_storage_body">Уся інформація, яку ви вводите в додаток,
+		зберігається лише на вашому пристрої. Вона ніколи не завантажується,
+		не зберігається на зовнішніх серверах і не передається нікому. Ми не
+		маємо і не можемо мати доступу до цієї інформації.</string>
+	<string name="privacy_policy_no_third_party_services_title">Немає Послуг Третіх Сторін</string>
+	<string name="privacy_policy_no_third_party_services_body">Додаток не використовує SDK третіх сторін,
+		аналітичні інструменти, рекламні мережі чи будь-які зовнішні сервіси,
+		які збирають дані. Ніхто інший, включно з нами, не має доступу до
+		вашого використання додатку або даних.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Контроль і Видалення Даних</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Ви маєте повний контроль над інформацією, яку
+		вводите. Ви можете видалити свої дані в будь-який момент, видаливши
+		додаток або очистивши його сховище. Оскільки нічого не зберігається
+		зовні, додаткові дії не потрібні.</string>
+	<string name="privacy_policy_children_privacy_title">Конфіденційність Дітей</string>
+	<string name="privacy_policy_children_privacy_body">Додаток безпечний для всіх користувачів, включаючи
+		дітей до 13 років. Жодні персональні дані не збираються, що робить
+		його відповідним до глобальних законів про конфіденційність дітей,
+		таких як COPPA і GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Ваші Права</string>
+	<string name="privacy_policy_your_rights_body">Оскільки дані не збираються, вам нема чого
+		отримувати доступ, оновлювати чи видаляти через нас. Усі дані належать
+		вам і залишаються лише на вашому пристрої.</string>
+	<string name="privacy_policy_contact_information_title">Контактна інформація</string>
+	<string name="privacy_policy_changes_title">Зміни до цієї політики</string>
+	<string name="privacy_policy_effective_date_title">Дата набрання чинності</string>
+	<string name="privacy_policy_email_subject">Запит щодо Політики Конфіденційності – %s</string>
+	<string name="policies">Політики</string>
+	<string name="privacy_policy_contact_information_body">Якщо у вас є будь-які запитання або занепокоєння
+		щодо цієї Політики конфіденційності, ви можете зв’язатися з нами
+		електронною поштою.</string>
+	<string name="privacy_policy_changes_body">Якщо функціональність додатка зміниться таким
+		чином, що це вплине на вашу конфіденційність, ця Політика
+		конфіденційності буде відповідно оновлена. Ми рекомендуємо
+		користувачам час від часу переглядати цю політику.</string>
+	<string name="privacy_policy_effective_date_body">Дата набрання чинності стосується дня, коли ця
+		Політика конфіденційності востаннє оновлювалася або набула чинності.
+		Будь-які зміни у способі обробки вашої інформації додатком буде
+		відображено в оновленій версії цієї політики. Ми рекомендуємо
+		користувачам періодично переглядати цю політику, щоб залишатися
+		поінформованими про те, як обробляється їхня інформація.</string>
 </resources>

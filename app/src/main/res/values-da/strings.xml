@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dato</string>
 	<string name="filters_title">Filtre</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Valutakode</string>
 	<string name="amount_label">Beløb</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Ugyldigt format</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">valutakode: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Tegntælling: %d. Tegngrænse: %d</string>
+	<string name="privacy_policy">Privatlivspolitik</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Dine data forbliver hos dig</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterer dit privatliv. Denne app fungerer
+		fuldstændigt offline og indsamler eller deler ingen data. Denne
+		politik gælder for alle brugere verden over, inklusive børn i alle
+		aldre. Vi indsamler, gemmer, transmitterer eller deler ingen
+		personlige eller ikke-personlige oplysninger. Appen fungerer helt
+		offline. Alle funktioner kan bruges uden internetforbindelse, og der
+		tilgås eller sendes aldrig data nogen steder.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Kun Lokal Dataglagring</string>
+	<string name="privacy_policy_local_only_data_storage_body">Alle oplysninger, du indtaster i appen, gemmes kun
+		på din egen enhed. De bliver aldrig uploadet, sikkerhedskopieret til
+		eksterne servere eller delt med nogen. Vi har ikke og kan ikke få
+		adgang til disse oplysninger.</string>
+	<string name="privacy_policy_no_third_party_services_title">Ingen Tredjepartstjenester</string>
+	<string name="privacy_policy_no_third_party_services_body">Appen bruger ikke tredjeparts SDK’er, analysetools,
+		annoncenetværk eller eksterne tjenester, der indsamler data. Ingen
+		andre, inklusive os, har adgang til din app-brug eller data.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datakontrol og Sletning</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Du har fuld kontrol over de oplysninger, du
+		indtaster. Du kan til enhver tid slette dine data ved at afinstallere
+		appen eller rydde dens lagerplads. Da intet gemmes eksternt, kræves
+		der ingen yderligere trin.</string>
+	<string name="privacy_policy_children_privacy_title">Børns Privatliv</string>
+	<string name="privacy_policy_children_privacy_body">Appen er sikker for alle brugere, inklusive børn
+		under 13 år. Der indsamles ingen personlige data, hvilket gør den i
+		overensstemmelse med globale børnebeskyttelseslove som COPPA og
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Dine Rettigheder</string>
+	<string name="privacy_policy_your_rights_body">Da der ikke indsamles nogen data, er der intet, du
+		kan få adgang til, opdatere eller slette gennem os. Alle data er dine
+		og forbliver udelukkende på din enhed.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktoplysninger</string>
+	<string name="privacy_policy_changes_title">Ændringer i denne politik</string>
+	<string name="privacy_policy_effective_date_title">Ikrafttrædelsesdato</string>
+	<string name="privacy_policy_email_subject">Forespørgsel om Privatlivspolitik – %s</string>
+	<string name="policies">Politikker</string>
+	<string name="privacy_policy_contact_information_body">Hvis du har spørgsmål eller bekymringer vedrørende
+		denne privatlivspolitik, kan du kontakte os via e-mail.</string>
+	<string name="privacy_policy_changes_body">Hvis appens funktionalitet ændres på en måde, der
+		påvirker dit privatliv, vil denne privatlivspolitik blive opdateret i
+		overensstemmelse hermed. Vi opfordrer brugere til at gennemgå
+		politikken fra tid til anden.</string>
+	<string name="privacy_policy_effective_date_body">Ikrafttrædelsesdatoen henviser til den dag, denne
+		privatlivspolitik sidst blev opdateret eller trådte i kraft.
+		Eventuelle ændringer i, hvordan appen håndterer dine data, vil blive
+		afspejlet i en opdateret version af denne politik. Vi opfordrer
+		brugerne til jævnligt at gennemgå denne politik for at holde sig
+		informeret om, hvordan deres oplysninger behandles.</string>
 </resources>

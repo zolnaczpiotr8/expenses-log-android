@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dagsetning</string>
 	<string name="filters_title">Síur</string>
 	<string name="currency_label">Gjaldmiðill</string>
-	<string name="currency_code_label">Gjaldmiðillkóði</string>
 	<string name="amount_label">Upphæð</string>
 	<string name="category_label">Flokkur</string>
 	<string name="invalid_format_error">Ógilt snið</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">gjaldmiðill kóði: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Fjöldi stafa: %d. Stafatakmörk: %d</string>
+	<string name="privacy_policy">Persónuverndarstefna</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Gögnin þín verða hjá þér</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Við virðum friðhelgi þína. Þessi app virkar
+		algjörlega án nettengingar og safnar ekki eða deilir gögnum. Þessi
+		stefna á við alla notendur um allan heim, þar á meðal börn á öllum
+		aldri. Við söfnum, geymum, sendum eða deilum ekki persónulegum né
+		ópersónulegum upplýsingum. Forritið virkar algjörlega án nettengingar.
+		Allar aðgerðir eru nothæfar án nettengingar og gögn eru aldrei sótt
+		eða send.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Aðeins Staðbundin Gagnageymsla</string>
+	<string name="privacy_policy_local_only_data_storage_body">Allar upplýsingar sem þú slærð inn í appið eru
+		aðeins geymdar á þínum eigin tæki. Þær eru aldrei hlaðnar upp,
+		afritaðar á ytri netþjóna eða deilt með neinum. Við höfum ekki aðgang
+		að þessum upplýsingum og getum ekki fengið hann.</string>
+	<string name="privacy_policy_no_third_party_services_title">Engar Þriðju Aðila Þjónustur</string>
+	<string name="privacy_policy_no_third_party_services_body">Forritið notar ekki SDK frá þriðja aðila,
+		greiningartól, auglýsinganet eða aðra ytri þjónustu sem safnar gögnum.
+		Enginn annar, þar með taldir við, hefur aðgang að notkun þinni á
+		forritinu eða gögnum.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Gagnastýring og Eyðing</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Þú hefur fulla stjórn á þeim upplýsingum sem þú
+		slærð inn. Þú getur eytt gögnum þínum hvenær sem er með því að
+		fjarlægja forritið eða hreinsa geymslu þess. Þar sem ekkert er vistað
+		utanforritsins, þarf engin frekari skref.</string>
+	<string name="privacy_policy_children_privacy_title">Persónuvernd Barna</string>
+	<string name="privacy_policy_children_privacy_body">Forritið er öruggt fyrir alla notendur, þar með
+		talið börn undir 13 ára aldri. Engar persónuupplýsingar eru safnaðar,
+		sem gerir það í samræmi við alþjóðleg barnaverndarlög eins og COPPA og
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Réttindi Þín</string>
+	<string name="privacy_policy_your_rights_body">Þar sem engin gögn eru söfnuð, er ekkert sem þú
+		getur fengið aðgang að, uppfært eða eytt í gegnum okkur. Öll gögn eru
+		þín og eru eingöngu á tækinu þínu.</string>
+	<string name="privacy_policy_contact_information_title">Samskiptaupplýsingar</string>
+	<string name="privacy_policy_changes_title">Breytingar á þessari stefnu</string>
+	<string name="privacy_policy_effective_date_title">Gildistökudagur</string>
+	<string name="privacy_policy_email_subject">Fyrirspurn um Persónuverndarstefnu – %s</string>
+	<string name="policies">Stefna</string>
+	<string name="privacy_policy_contact_information_body">Ef þú hefur einhverjar spurningar eða áhyggjur
+		varðandi þessa persónuverndarstefnu geturðu haft samband við okkur með
+		tölvupósti.</string>
+	<string name="privacy_policy_changes_body">Ef virkni appsins breytist á þann hátt að það hefur
+		áhrif á friðhelgi þína, verður þessi persónuverndarstefna uppfærð í
+		samræmi við það. Við hvetjum notendur til að skoða stefnuna af og til.</string>
+	<string name="privacy_policy_effective_date_body">Gildistökudagsetningin vísar til þess dags sem
+		þessi persónuverndarstefna var síðast uppfærð eða tók gildi. Allar
+		breytingar á því hvernig forritið meðhöndlar gögnin þín munu
+		endurspeglast í uppfærðri útgáfu af þessari stefnu. Við hvetjum
+		notendur til að skoða þessa stefnu reglulega til að vera upplýstir um
+		hvernig meðhöndlun upplýsinga þeirra fer fram.</string>
 </resources>

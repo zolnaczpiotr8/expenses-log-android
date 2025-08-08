@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Dáta</string>
 	<string name="filters_title">Scagairí</string>
 	<string name="currency_label">Airgeadra</string>
-	<string name="currency_code_label">Cód airgeadra</string>
 	<string name="amount_label">Méid</string>
 	<string name="category_label">Catagóir</string>
 	<string name="invalid_format_error">Formáid neamhbhailí</string>
@@ -49,4 +48,59 @@
 	<string name="currency_code_item_label">cód airgeadais: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Líon carachtar: %d. Teorainn charachtar: %d</string>
+	<string name="privacy_policy">Polasaí Príobháideachta</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Fanann do shonraí leat</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Tá meas againn ar do phríobháideacht. Oibríonn an
+		aip seo go hiomlán as líne agus ní bhailíonn ná roinntear aon shonraí.
+		Tá an polasaí seo i bhfeidhm ar gach úsáideoir ar fud an domhain, lena
+		n-áirítear páistí de gach aoisghrúpa. Ní bhailímid, ní stórálann, ní
+		tharchuireann ná ní roinnimid aon fhaisnéis phearsanta nó
+		neamhphearsanta. Oibríonn an aip go hiomlán as líne. Is féidir gach
+		gné a úsáid gan nasc idirlín, agus ní rochtainítear ná seoltar aon
+		sonraí riamh áit ar bith.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Stóráil Sonraí Áitiúil Amháin</string>
+	<string name="privacy_policy_local_only_data_storage_body">Stóráiltear gach eolas a chuireann tú isteach san
+		aip ar do ghléas féin amháin. Ní uaslódáiltear é, ní dhéantar cúltaca
+		de chuig freastalaithe seachtracha, agus ní roinntear é le haon duine.
+		Níl rochtain againn ar an eolas seo agus ní féidir linn rochtain a
+		fháil air.</string>
+	<string name="privacy_policy_no_third_party_services_title">Ní Lámhaigh Seirbhísí Tríú Páirtí</string>
+	<string name="privacy_policy_no_third_party_services_body">Ní úsáidtear SDKanna tríú páirtí, uirlisí anailíse,
+		líonraí fógraíochta ná aon sheirbhís sheachtrach a bhailíonn sonraí
+		san aip. Níl rochtain ag éinne eile, muid san áireamh, ar úsáid nó
+		sonraí d’fheidhmchlár.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Rialú Sonraí agus Scriosadh</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Tá smacht iomlán agat ar an eolas a chuireann tú
+		isteach. Is féidir leat do shonraí a scriosadh ag am ar bith trí
+		dhíshuiteáil a dhéanamh ar an aip nó tríd an stóráil a ghlanadh. Ós
+		rud é nach bhfuil aon rud stóráilte go seachtrach, níl gá le haon
+		chéimeanna breise.</string>
+	<string name="privacy_policy_children_privacy_title">Príobháideachas Leanaí</string>
+	<string name="privacy_policy_children_privacy_body">Tá an aip sábháilte do gach úsáideoir, lena
+		n-áirítear leanaí faoi bhun 13 bliana d’aois. Ní bhailítear aon sonraí
+		pearsanta, rud a fhágann go bhfuil sé comhlíontach le dlíthe domhanda
+		príobháideachais leanaí cosúil le COPPA agus GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Do Chearta</string>
+	<string name="privacy_policy_your_rights_body">Ós rud é nach mbailítear aon sonraí, níl aon rud
+		gur féidir leat rochtain a fháil air, é a nuashonrú nó a scriosadh
+		trínn. Is leatsa na sonraí go léir agus fanann siad ar do ghléas
+		amháin.</string>
+	<string name="privacy_policy_contact_information_title">Eolas Teagmhála</string>
+	<string name="privacy_policy_changes_title">Athruithe ar an mbeartas seo</string>
+	<string name="privacy_policy_effective_date_title">Dáta éifeachtach</string>
+	<string name="privacy_policy_email_subject">Fiosrúchán ar Bheartas Príobháideachais – %s</string>
+	<string name="policies">Beartais</string>
+	<string name="privacy_policy_contact_information_body">Má tá aon cheisteanna nó imní ort faoin mBeartas
+		Príobháideachais seo, is féidir leat teagmháil a dhéanamh linn trí
+		ríomhphost.</string>
+	<string name="privacy_policy_changes_body">Má athraíonn feidhmiúlacht an aip ar bhealach a
+		théann i bhfeidhm ar do phríobháideachas, déanfar an Polasaí
+		Príobháideachais seo a nuashonrú dá réir. Molaimid d’úsáideoirí an
+		beartas a athbhreithniú ó am go ham.</string>
+	<string name="privacy_policy_effective_date_body">Tagraíonn an dáta éifeachtach don lá a
+		nuashonraíodh nó a tháinig an Polasaí Príobháideachais seo i bhfeidhm
+		go deireanach. Léireofar aon athruithe ar an gcaoi a láimhseálann an
+		aip do shonraí i leagan nuashonraithe den pholasaí seo. Molaimid
+		d’úsáideoirí athbhreithniú rialta a dhéanamh ar an bpolasaí seo chun
+		fanacht eolasach faoi conas a láimhseáiltear a gcuid faisnéise.</string>
 </resources>

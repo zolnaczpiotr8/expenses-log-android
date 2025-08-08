@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filtry</string>
 	<string name="currency_label">Měna</string>
-	<string name="currency_code_label">Kód měny</string>
 	<string name="amount_label">Částka</string>
 	<string name="category_label">Kategorie</string>
 	<string name="invalid_format_error">Neplatný formát</string>
@@ -48,4 +47,55 @@
 	<string name="currency_code_item_label">kód měny: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Počet znaků: %d. Limit znaků: %d</string>
+	<string name="privacy_policy">Zásady ochrany osobních údajů</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Vaše data zůstávají u vás</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Respektujeme vaše soukromí. Tato aplikace funguje
+		zcela offline a nesbírá ani nesdílí žádná data. Tato politika platí
+		pro všechny uživatele po celém světě, včetně dětí všech věkových
+		kategorií. Nesbíráme, neukládáme, nepřenášíme ani nesdílíme žádné
+		osobní ani neosobní informace. Aplikace funguje zcela offline. Všechny
+		funkce lze používat bez připojení k internetu a žádná data nejsou
+		nikdy přístupná nebo odesílána kamkoli.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Pouze Místní Ukládání Dat</string>
+	<string name="privacy_policy_local_only_data_storage_body">Veškeré informace, které zadáte do aplikace, jsou
+		uloženy pouze na vašem zařízení. Nikdy nejsou nahrávány, zálohovány na
+		externí servery ani sdíleny s kýmkoli. K těmto informacím nemáme a
+		nemůžeme mít přístup.</string>
+	<string name="privacy_policy_no_third_party_services_title">Žádné Služby Třetích Stran</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikace nepoužívá SDK třetích stran, analytické
+		nástroje, reklamní sítě ani žádné externí služby, které by
+		shromažďovaly data. Nikdo jiný, včetně nás, nemá přístup k vašemu
+		používání aplikace nebo datům.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Správa a Smazání Dat</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Máte plnou kontrolu nad informacemi, které
+		zadáváte. Svá data můžete kdykoli smazat odinstalováním aplikace nebo
+		vymazáním jejího úložiště. Protože se nic neukládá externě, nejsou
+		nutné žádné další kroky.</string>
+	<string name="privacy_policy_children_privacy_title">Ochrana Soukromí Dětí</string>
+	<string name="privacy_policy_children_privacy_body">Aplikace je bezpečná pro všechny uživatele, včetně
+		dětí mladších 13 let. Nejsou shromažďována žádná osobní data, což
+		zajišťuje její soulad s globálními zákony o ochraně soukromí dětí,
+		jako jsou COPPA a GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Vaše Práva</string>
+	<string name="privacy_policy_your_rights_body">Vzhledem k tomu, že nejsou shromažďována žádná
+		data, není nic, k čemu byste měli přístup, co byste mohli aktualizovat
+		nebo smazat prostřednictvím nás. Veškerá data jsou vaše a zůstávají
+		pouze na vašem zařízení.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktní údaje</string>
+	<string name="privacy_policy_changes_title">Změny těchto zásad</string>
+	<string name="privacy_policy_effective_date_title">Datum účinnosti</string>
+	<string name="privacy_policy_email_subject">Dotaz na Zásady Ochrany Osobních Údajů – %s</string>
+	<string name="policies">Zásady</string>
+	<string name="privacy_policy_contact_information_body">Pokud máte jakékoli dotazy nebo obavy ohledně
+		těchto Zásad ochrany osobních údajů, můžete nás kontaktovat e-mailem.</string>
+	<string name="privacy_policy_changes_body">Pokud se funkce aplikace změní způsobem, který
+		ovlivní vaše soukromí, tato Zásady ochrany osobních údajů budou
+		odpovídajícím způsobem aktualizovány. Doporučujeme uživatelům, aby si
+		zásady čas od času prohlédli.</string>
+	<string name="privacy_policy_effective_date_body">Datum účinnosti označuje den, kdy byla tato Zásada
+		ochrany osobních údajů naposledy aktualizována nebo vstoupila v
+		platnost. Jakékoli změny v tom, jak aplikace nakládá s vašimi údaji,
+		budou uvedeny v aktualizované verzi této zásady. Doporučujeme
+		uživatelům pravidelně si tuto zásadu prohlížet, aby měli přehled o
+		tom, jak jsou jejich informace zpracovávány.</string>
 </resources>

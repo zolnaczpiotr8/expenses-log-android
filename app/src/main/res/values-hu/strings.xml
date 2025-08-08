@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dátum</string>
 	<string name="filters_title">Szűrők</string>
 	<string name="currency_label">Pénznem</string>
-	<string name="currency_code_label">Pénznemkód</string>
 	<string name="amount_label">Összeg</string>
 	<string name="category_label">Kategória</string>
 	<string name="invalid_format_error">Érvénytelen formátum</string>
@@ -48,4 +47,57 @@
 	<string name="currency_code_item_label">pénznemkód: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karakterek száma: %d. Karakterkorlát: %d</string>
+	<string name="privacy_policy">Adatvédelmi irányelvek</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Az adataid nálad maradnak</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Tiszteletben tartjuk az Ön magánéletét. Ez az
+		alkalmazás teljesen offline működik, és nem gyűjt vagy oszt meg
+		semmilyen adatot. Ez a szabályzat az egész világon minden
+		felhasználóra érvényes, beleértve a minden korosztályú gyermekeket is.
+		Nem gyűjtünk, tárolunk, továbbítunk vagy osztunk meg semmilyen
+		személyes vagy nem személyes információt. Az alkalmazás teljesen
+		offline működik. Minden funkció internetkapcsolat nélkül használható,
+		és az adatokhoz soha nem férnek hozzá vagy küldenek el bárhova.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Csak Helyi Adattárolás</string>
+	<string name="privacy_policy_local_only_data_storage_body">Az alkalmazásba beírt összes információ kizárólag a
+		saját eszközén kerül tárolásra. Soha nem kerül feltöltésre, külső
+		szerverekre mentésre vagy megosztásra másokkal. Nem férünk hozzá
+		ezekhez az adatokhoz, és nem is tudunk hozzáférni.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nincsenek Harmadik Fél Szolgáltatások</string>
+	<string name="privacy_policy_no_third_party_services_body">Az alkalmazás nem használ harmadik féltől származó
+		SDK-kat, elemző eszközöket, hirdetési hálózatokat vagy olyan külső
+		szolgáltatásokat, amelyek adatokat gyűjtenek. Senki más, köztünk sem,
+		nem fér hozzá az alkalmazás használatához vagy adataihoz.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Adatkezelés és Törlés</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Teljes mértékben Ön irányítja a bevitt
+		információkat. Az adatokat bármikor törölheti az alkalmazás
+		eltávolításával vagy a tároló törlésével. Mivel semmi sincs külsőleg
+		tárolva, nincs szükség további lépésekre.</string>
+	<string name="privacy_policy_children_privacy_title">Gyermekek Adatvédelme</string>
+	<string name="privacy_policy_children_privacy_body">Az alkalmazás biztonságos minden felhasználó
+		számára, beleértve a 13 év alatti gyermekeket is. Nem gyűjtünk
+		személyes adatokat, így megfelel a globális gyermekvédelmi
+		törvényeknek, mint például a COPPA és a GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Az Ön Jogai</string>
+	<string name="privacy_policy_your_rights_body">Mivel nem gyűjtünk adatokat, nincs semmi, amit
+		rajtunk keresztül elérhetne, frissíthetne vagy törölhetne. Minden adat
+		az Öné, és kizárólag az Ön eszközén marad.</string>
+	<string name="privacy_policy_contact_information_title">Kapcsolattartási információk</string>
+	<string name="privacy_policy_changes_title">Változások ebben a szabályzatban</string>
+	<string name="privacy_policy_effective_date_title">Hatálybalépés dátuma</string>
+	<string name="privacy_policy_email_subject">Adatvédelmi Irányelvekkel Kapcsolatos Érdeklődés –
+		%s</string>
+	<string name="policies">Irányelvek</string>
+	<string name="privacy_policy_contact_information_body">Ha bármilyen kérdése vagy aggálya van a jelen
+		Adatvédelmi szabályzattal kapcsolatban, e-mailben felveheti velünk a
+		kapcsolatot.</string>
+	<string name="privacy_policy_changes_body">Ha az alkalmazás funkcionalitása olyan módon
+		változik, amely hatással van az Ön adatvédelmére, akkor az Adatvédelmi
+		szabályzat ennek megfelelően frissítésre kerül. Arra biztatjuk a
+		felhasználókat, hogy időnként tekintsék át a szabályzatot.</string>
+	<string name="privacy_policy_effective_date_body">A hatálybalépés dátuma arra a napra utal, amikor ez
+		az Adatvédelmi Szabályzat utoljára frissítésre került vagy hatályba
+		lépett. Az alkalmazás adatkezelésének bármilyen változása meg fog
+		jelenni a szabályzat frissített változatában. Javasoljuk a
+		felhasználóknak, hogy időnként tekintsék át ezt a szabályzatot, hogy
+		tájékozottak maradjanak az adataik kezeléséről.</string>
 </resources>

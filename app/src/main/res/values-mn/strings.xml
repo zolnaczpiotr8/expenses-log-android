@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Огноо</string>
 	<string name="filters_title">Шүүлтүүрүүд</string>
 	<string name="currency_label">Валют</string>
-	<string name="currency_code_label">Валютын код</string>
 	<string name="amount_label">Дүн</string>
 	<string name="category_label">Ангилал</string>
 	<string name="invalid_format_error">Буруу формат</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">валютын код: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Тэмдэгтийн тоо: %d. Тэмдэгтийн хязгаар: %d</string>
+	<string name="privacy_policy">Нууцлалын бодлого</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Таны өгөгдөл таны хамт үлдэнэ</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Бид таны хувийн нууцыг хүндэтгэдэг. Энэхүү
+		аппликейшн бүрэн оффлайн горимоор ажилладаг бөгөөд ямар ч мэдээлэл
+		цуглуулж, хуваалцдаггүй. Энэхүү бодлого дэлхийн өнцөг булан бүрийн бүх
+		хэрэглэгчдэд, бүх насны хүүхдүүдийг оролцуулан хамаарна. Бид ямар ч
+		хувийн болон хувийн бус мэдээллийг цуглуулж, хадгалж, дамжуулж эсвэл
+		хуваалцдаггүй. Аппликейшн бүрэн оффлайн ажилладаг. Бүх функцийг
+		интернэт холболтгүй ашиглаж болно, мэдээлэл хэзээ ч хаана ч нэвтрэх
+		эсвэл илгээгдэхгүй.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Зөвхөн Локал Өгөгдөл Хадгалах</string>
+	<string name="privacy_policy_local_only_data_storage_body">Та аппликейшнд оруулсан бүх мэдээлэл зөвхөн таны
+		төхөөрөмжид хадгалагдана. Энэ мэдээлэл хэзээ ч сервер лүү
+		илгээгдэхгүй, нөөцлөхгүй, эсвэл хэн нэгэнтэй хуваалцахгүй. Бид энэ
+		мэдээлэлд хандах боломжгүй бөгөөд хандах ч боломжгүй.</string>
+	<string name="privacy_policy_no_third_party_services_title">Гуравдагч Талуудын Үйлчилгээ Байхгүй</string>
+	<string name="privacy_policy_no_third_party_services_body">Апп нь гуравдагч талын SDK, шинжилгээний хэрэгсэл,
+		зар сурталчилгааны сүлжээ эсвэл өгөгдөл цуглуулах ямар нэгэн гадаад
+		үйлчилгээ ашигладаггүй. Бид болон бусад хэн ч таны апп ашиглалт эсвэл
+		өгөгдөлд хандах эрхгүй.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Өгөгдөл Хянах ба Устгах</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Та оруулсан мэдээллээ бүрэн хянах боломжтой. Апп-ыг
+		устгах эсвэл хадгалах санг цэвэрлэснээр өөрийн өгөгдлийг хүссэн үедээ
+		устгаж болно. Гадаад орчинд ямар нэгэн мэдээлэл хадгалагдахгүй тул
+		нэмэлт алхам шаардлагагүй.</string>
+	<string name="privacy_policy_children_privacy_title">Хүүхдийн Нууцлал</string>
+	<string name="privacy_policy_children_privacy_body">Энэхүү апп нь 13-аас доош насны хүүхдүүдийг
+		оролцуулаад бүх хэрэглэгчдэд аюулгүй юм. Хувийн мэдээлэл цуглуулахгүй
+		бөгөөд энэ нь COPPA болон GDPR-K зэрэг дэлхий нийтийн хүүхдийн
+		нууцлалын хуулиудтай нийцдэг.</string>
+	<string name="privacy_policy_your_rights_title">Таны Эрх</string>
+	<string name="privacy_policy_your_rights_body">Ямар нэгэн мэдээлэл цуглуулдаггүй тул та манайхаар
+		дамжуулан хандах, шинэчлэх эсвэл устгах зүйл байхгүй. Бүх мэдээлэл
+		таных бөгөөд зөвхөн таны төхөөрөмж дээр хадгалагддаг.</string>
+	<string name="privacy_policy_contact_information_title">Холбоо барих мэдээлэл</string>
+	<string name="privacy_policy_changes_title">Энэ бодлогын өөрчлөлтүүд</string>
+	<string name="privacy_policy_effective_date_title">Хүчин төгөлдөр болох огноо</string>
+	<string name="privacy_policy_email_subject">Нууцлалын Бодлогын Лавлагаа – %s</string>
+	<string name="policies">Бодлого</string>
+	<string name="privacy_policy_contact_information_body">Хэрэв танд энэхүү Нууцлалын Бодлогын талаар ямар
+		нэгэн асуулт эсвэл санаа зовоох зүйл байвал та бидэнтэй имэйлээр
+		холбогдож болно.</string>
+	<string name="privacy_policy_changes_body">Хэрэв аппликейшний үйл ажиллагаа таны хувийн нууцад
+		нөлөөлөх байдлаар өөрчлөгдвөл, энэхүү Нууцлалын Бодлого тохирох
+		байдлаар шинэчлэгдэх болно. Бид хэрэглэгчдэд бодлогыг үе үе хянаж
+		үзэхийг зөвлөж байна.</string>
+	<string name="privacy_policy_effective_date_body">Хүчин төгөлдөр огноо нь энэ Нууцлалын бодлого сүүлд
+		шинэчлэгдсэн эсвэл хүчин төгөлдөр болсон өдрийг илэрхийлнэ. Апп таны
+		мэдээллийг хэрхэн боловсруулж байгаагийн өөрчлөлтүүд энэ бодлогын
+		шинэчилсэн хувилбарт тусгагдах болно. Хэрэглэгчиддээ мэдээллээ хэрхэн
+		ашиглаж байгааг мэдэхийн тулд энэхүү бодлогыг үе үе хянахыг зөвлөж
+		байна.</string>
 </resources>

@@ -26,7 +26,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.Lifecycle
@@ -34,7 +33,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
-import zolnaczpiotr8.com.github.expenses.log.ui.ads.InlineAdaptiveBanner
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.GoBackIconButton
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
@@ -87,19 +85,21 @@ private fun SettingsScreen(
       },
   ) { paddingValues ->
     Column(
-        modifier = Modifier.padding(paddingValues).verticalScroll(rememberScrollState()),
+        modifier =
+            Modifier.padding(paddingValues)
+                .padding(Margins.compact)
+                .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
     ) {
       Row(
-          modifier = Modifier.padding(Margins.compact).fillMaxWidth().wrapContentHeight(),
+          modifier = Modifier.fillMaxWidth().wrapContentHeight(),
           horizontalArrangement = Arrangement.SpaceBetween,
           verticalAlignment = Alignment.CenterVertically,
       ) {
         Text(
-            modifier = Modifier.clearAndSetSemantics {},
             color = MaterialTheme.colorScheme.onSurface,
             text = stringResource(R.string.currency_label),
-            style = MaterialTheme.typography.bodyLarge,
+            style = MaterialTheme.typography.titleMedium,
         )
 
         val scope = rememberCoroutineScope()
@@ -114,10 +114,6 @@ private fun SettingsScreen(
             availableCurrencies = availableCurrencies,
         )
       }
-
-      InlineAdaptiveBanner(
-          modifier = Modifier.fillMaxWidth(),
-      )
     }
   }
 }

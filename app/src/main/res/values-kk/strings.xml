@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Күн</string>
 	<string name="filters_title">Сүзгілер</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Валюта коды</string>
 	<string name="amount_label">Сома</string>
 	<string name="category_label">Санат</string>
 	<string name="invalid_format_error">Жарамсыз формат</string>
@@ -48,4 +47,57 @@
 	<string name="currency_code_item_label">валюта коды: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Таңбалар саны: %d. Таңбалар шегі: %d</string>
+	<string name="privacy_policy">Құпиялық саясаты</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Сіздің деректеріңіз сізде қалады</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Біз сіздің жеке деректеріңіздің құпиялығын
+		құрметтейміз. Бұл қосымша толығымен офлайн жұмыс істейді және ешқандай
+		деректер жинамайды немесе бөліспейді. Бұл саясат бүкіл әлем бойынша
+		барлық пайдаланушыларға, оның ішінде барлық жастағы балаларға
+		қолданылады. Біз ешқандай жеке немесе жеке емес ақпаратты жинамаймыз,
+		сақтамаймыз, жібермейміз немесе бөліспейміз. Қосымша толығымен офлайн
+		жұмыс істейді. Барлық функцияларды интернет қосылымысыз пайдалануға
+		болады, және ешқандай деректерге ешқашан қол жеткізілмейді немесе
+		жіберілмейді.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Тек Жергілікті Деректерді Сақтау</string>
+	<string name="privacy_policy_local_only_data_storage_body">Қосымшаға енгізген барлық ақпарат тек сіздің
+		құрылғыңызда ғана сақталады. Ол ешқашан сыртқы серверлерге
+		жүктелмейді, сақтық көшірмесі жасалмайды және ешкіммен бөлісілмейді.
+		Біз бұл ақпаратқа қол жеткізе алмаймыз және оған қол жеткізе алмаймыз.</string>
+	<string name="privacy_policy_no_third_party_services_title">Үшінші Тарап Қызметтері Жоқ</string>
+	<string name="privacy_policy_no_third_party_services_body">Қосымша үшінші тарап SDK-ларын, аналитикалық
+		құралдарды, жарнама желілерін немесе деректер жинайтын сыртқы
+		қызметтерді қолданбайды. Бізді қоса алғанда ешкім сіздің қосымшаны
+		пайдалану немесе деректерге қол жеткізе алмайды.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Деректерді Басқару және Жою</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Сіз енгізген ақпарат толық бақылауыңызда. Қосымшаны
+		жою немесе оның сақтау орнын тазарту арқылы деректеріңізді кез келген
+		уақытта өшіре аласыз. Ештеңе сыртқы серверде сақталмағандықтан,
+		қосымша әрекеттер қажет емес.</string>
+	<string name="privacy_policy_children_privacy_title">Балалардың Жеке Мәліметтері</string>
+	<string name="privacy_policy_children_privacy_body">Қосымша барлық пайдаланушылар, соның ішінде 13
+		жасқа дейінгі балалар үшін қауіпсіз. Жеке деректер жиналмайды, бұл оны
+		COPPA және GDPR-K сияқты жаһандық балалардың құпиялылық заңдарына
+		сәйкес етеді.</string>
+	<string name="privacy_policy_your_rights_title">Сіздің Құқықтарыңыз</string>
+	<string name="privacy_policy_your_rights_body">Ешқандай деректер жиналмағандықтан, біздің
+		тарапымыздан қол жеткізуге, жаңартуға немесе жоюға болатын ештеңе жоқ.
+		Барлық деректер сізге тиесілі және тек сіздің құрылғыңызда қалады.</string>
+	<string name="privacy_policy_contact_information_title">Байланыс ақпараты</string>
+	<string name="privacy_policy_changes_title">Осы саясатқа өзгерістер</string>
+	<string name="privacy_policy_effective_date_title">Күшіне ену күні</string>
+	<string name="privacy_policy_email_subject">Құпиялық Саясаты Жөнінде Сұрау – %s</string>
+	<string name="policies">Саясаттар</string>
+	<string name="privacy_policy_contact_information_body">Осы Құпиялық Саясатына қатысты қандай да бір
+		сұрақтарыңыз немесе алаңдаушылықтарыңыз болса, бізге электрондық пошта
+		арқылы хабарласа аласыз.</string>
+	<string name="privacy_policy_changes_body">Егер қолданбаның функционалдығы сіздің
+		құпиялығыңызға әсер ететіндей өзгерсе, бұл Құпиялық Саясаты тиісті
+		түрде жаңартылады. Пайдаланушыларға саясатты мезгіл-мезгіл қарап
+		шығуға кеңес береміз.</string>
+	<string name="privacy_policy_effective_date_body">Күшіне ену күні осы Құпиялық Саясаты соңғы рет
+		жаңартылған немесе күшіне енген күнді білдіреді. Қосымша сіздің
+		деректеріңізді қалай өңдейтінін өзгертсе, бұл өзгерістер осы саясаттың
+		жаңартылған нұсқасында көрсетіледі. Пайдаланушыларға өз ақпаратының
+		қалай өңделетіні туралы хабардар болу үшін бұл саясатты мезгіл-мезгіл
+		қарап шығуды ұсынамыз.</string>
 </resources>

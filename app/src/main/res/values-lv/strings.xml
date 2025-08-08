@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datums</string>
 	<string name="filters_title">Filtri</string>
 	<string name="currency_label">Valūta</string>
-	<string name="currency_code_label">Valūtas kods</string>
 	<string name="amount_label">Summa</string>
 	<string name="category_label">Kategorija</string>
 	<string name="invalid_format_error">Nederīgs formāts</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">valūtas kods: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Rakstzīmju skaits: %d. Rakstzīmju ierobežojums: %d</string>
+	<string name="privacy_policy">Privātuma politika</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Jūsu dati paliek pie jums</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Mēs cienām jūsu privātumu. Šī lietotne darbojas
+		pilnībā bezsaistē un neveic datu vākšanu vai koplietošanu. Šī politika
+		attiecas uz visiem lietotājiem visā pasaulē, tostarp bērniem visos
+		vecumos. Mēs nevācam, neuzglabājam, nepārsūtām vai nekopīgojam nekādus
+		personas vai nepersonas datus. Lietotne darbojas pilnībā bezsaistē.
+		Visas funkcijas var izmantot bez interneta savienojuma, un dati nekad
+		netiek piekļūti vai nosūtīti jebkur.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Tikai Lokāla Datu Glabāšana</string>
+	<string name="privacy_policy_local_only_data_storage_body">Visa informācija, ko ievadāt lietotnē, tiek
+		saglabāta tikai jūsu ierīcē. Tā nekad netiek augšupielādēta, dublēta
+		uz ārējiem serveriem vai kopīgota ar kādu citu. Mēs nevaram piekļūt
+		šai informācijai un mums nav iespējas to darīt.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nav Trešo Pušu Pakalpojumu</string>
+	<string name="privacy_policy_no_third_party_services_body">Lietotne neizmanto trešo pušu SDK, analītikas
+		rīkus, reklāmas tīklus vai jebkādus ārējos pakalpojumus, kas vāktu
+		datus. Neviens cits, ieskaitot mūs, nevar piekļūt jūsu lietotnes
+		lietošanai vai datiem.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datu Kontrole un Dzēšana</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Jums ir pilnīga kontrole pār informāciju, ko
+		ievadāt. Jūs varat jebkurā laikā izdzēst savus datus, atinstalējot
+		lietotni vai iztīrot tās krātuvi. Tā kā nekas netiek glabāts ārēji,
+		papildu darbības nav nepieciešamas.</string>
+	<string name="privacy_policy_children_privacy_title">Bērnu Privātums</string>
+	<string name="privacy_policy_children_privacy_body">Lietotne ir droša visiem lietotājiem, tostarp
+		bērniem, kas jaunāki par 13 gadiem. Netiek vākti nekādi personas dati,
+		padarot to atbilstošu tādiem globāliem bērnu privātuma likumiem kā
+		COPPA un GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Jūsu Tiesības</string>
+	<string name="privacy_policy_your_rights_body">Tā kā dati netiek vākti, nav nekā, kam jūs varētu
+		piekļūt, atjaunināt vai izdzēst, izmantojot mūs. Visi dati ir jūsu un
+		paliek tikai jūsu ierīcē.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinformācija</string>
+	<string name="privacy_policy_changes_title">Izmaiņas šajā politikā</string>
+	<string name="privacy_policy_effective_date_title">Spēkā stāšanās datums</string>
+	<string name="privacy_policy_email_subject">Privātuma Politikas Pieprasījums – %s</string>
+	<string name="policies">Politikas</string>
+	<string name="privacy_policy_contact_information_body">Ja jums ir kādi jautājumi vai bažas par šo
+		Privātuma politiku, jūs varat sazināties ar mums pa e-pastu.</string>
+	<string name="privacy_policy_changes_body">Ja lietotnes funkcionalitāte mainās tādā veidā, kas
+		ietekmē jūsu privātumu, šī Privātuma politika tiks atjaunināta
+		attiecīgi. Mēs iesakām lietotājiem laiku pa laikam pārskatīt politiku.</string>
+	<string name="privacy_policy_effective_date_body">Spēkā stāšanās datums attiecas uz dienu, kad šī
+		Privātuma politika pēdējo reizi tika atjaunināta vai stājās spēkā.
+		Jebkādas izmaiņas tajā, kā lietotne apstrādā jūsu datus, tiks
+		atspoguļotas šīs politikas atjauninātajā versijā. Mēs iesakām
+		lietotājiem periodiski pārskatīt šo politiku, lai saglabātu
+		informētību par to, kā tiek apstrādāta viņu informācija.</string>
 </resources>

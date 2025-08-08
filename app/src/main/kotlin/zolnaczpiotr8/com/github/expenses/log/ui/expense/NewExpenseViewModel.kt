@@ -3,7 +3,6 @@ package zolnaczpiotr8.com.github.expenses.log.ui.expense
 import android.icu.math.BigDecimal
 import android.icu.util.Currency
 import android.icu.util.ULocale
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -21,7 +20,6 @@ import zolnaczpiotr8.com.github.expenses.log.data.CategoriesRepository
 import zolnaczpiotr8.com.github.expenses.log.data.ExpensesRepository
 import zolnaczpiotr8.com.github.expenses.log.data.SettingsRepository
 
-private val TAG = NewExpenseViewModel::class.java.name
 private const val STOP_SHARING_COROUTINE_DELAY = 5_000L
 
 @HiltViewModel
@@ -37,15 +35,7 @@ constructor(
       categoriesRepository
           .categoriesTitles()
           .distinctUntilChanged()
-          .catch {
-            if (Log.isLoggable(TAG, Log.ERROR)) {
-              Log.e(
-                  TAG,
-                  it.message,
-                  it,
-              )
-            }
-          }
+          .catch {}
           .stateIn(
               scope = viewModelScope,
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),

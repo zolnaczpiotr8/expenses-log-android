@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dat</string>
 	<string name="filters_title">Filtè</string>
 	<string name="currency_label">Lajan</string>
-	<string name="currency_code_label">Kòd lajan</string>
 	<string name="amount_label">Kantite lajan</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Fòma pa valab</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">kòd lajan: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Kantite karaktè: %d. Limit karaktè: %d</string>
+	<string name="privacy_policy">Règleman sou vi prive</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Done ou rete avèk ou</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Nou respekte vi prive ou. Aplikasyon sa a fonksyone
+		nèt offline epi li pa kolekte oswa pataje okenn done. Règleman sa a
+		aplike pou tout itilizatè atravè lemond, enkli timoun nan tout laj.
+		Nou pa kolekte, pa estoke, pa transmèt oswa pataje okenn enfòmasyon
+		pèsonèl oswa non-pèsonèl. Aplikasyon an fonksyone nèt offline. Tout
+		karakteristik yo ka itilize san koneksyon entènèt, epi done yo pa janm
+		aksede oswa voye okenn kote.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Sèlman Depo Done Lokal</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tout enfòmasyon ou mete nan aplikasyon an estoke
+		sèlman sou aparèy pa w. Yo pa janm telechaje, sovgade sou serveurs
+		ekstèn, oswa pataje ak pèsonn. Nou pa gen aksè a enfòmasyon sa a e nou
+		pa kapab genyen l.</string>
+	<string name="privacy_policy_no_third_party_services_title">Pa Gen Sèvis Twazyèm Pati</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikasyon an pa itilize SDK twazyèm pati, zouti
+		analiz, rezo piblisite, oswa nenpòt sèvis ekstèn ki ranmase done.
+		Pèsòn lòt, enkli nou menm, pa gen aksè ak itilizasyon oswa done
+		aplikasyon ou an.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kontwòl Done ak Efase yo</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Ou gen tout kontwòl sou enfòmasyon ou antre yo. Ou
+		ka efase done ou nenpòt kilè lè ou désinstaller aplikasyon an oswa
+		efase depo li. Paske pa gen anyen ki estoke ekstènman, pa gen okenn
+		lòt etap ki nesesè.</string>
+	<string name="privacy_policy_children_privacy_title">Konfidansyalite Timoun yo</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasyon an an sekirite pou tout itilizatè, enkli
+		timoun ki poko gen 13 an. Pa gen okenn done pèsonèl ki ranmase, sa ki
+		fè li an konfòmite ak lwa sou vi prive timoun atravè lemond tankou
+		COPPA ak GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Dwa Ou</string>
+	<string name="privacy_policy_your_rights_body">Paske pa gen okenn done ki ranmase, pa gen anyen ou
+		ka jwenn aksè, mete ajou oswa efase atravè nou. Tout done yo se pa ou
+		epi yo rete sèlman sou aparèy ou an.</string>
+	<string name="privacy_policy_contact_information_title">Enfòmasyon Kontak</string>
+	<string name="privacy_policy_changes_title">Chanjman nan politik sa a</string>
+	<string name="privacy_policy_effective_date_title">Dat efikasite</string>
+	<string name="privacy_policy_email_subject">Demann sou Règleman sou Konfidansyalite – %s</string>
+	<string name="policies">Règleman yo</string>
+	<string name="privacy_policy_contact_information_body">Si w gen nenpòt kesyon oswa enkyetid konsènan
+		Règleman sou Vi Prive sa a, ou ka kontakte nou pa imèl.</string>
+	<string name="privacy_policy_changes_body">Si fonksyonalite aplikasyon an chanje nan yon fason
+		ki afekte vi prive ou, Règleman sou Konfidansyalite sa a ap mete ajou
+		kòmsadwa. Nou ankouraje itilizatè yo revize règleman an detanzantan.</string>
+	<string name="privacy_policy_effective_date_body">Dat efikas la refere a jou sa a Règleman sou
+		Konfidansyalite sa a te mete ajou pou dènye fwa oswa te vin an vigè.
+		Nenpòt chanjman ki fèt sou fason aplikasyon an jere done ou yo ap
+		reflete nan yon nouvo vèsyon règleman sa a. Nou ankouraje itilizatè yo
+		revize règleman sa a detanzantan pou yo rete enfòme sou kijan
+		enfòmasyon yo trete.</string>
 </resources>

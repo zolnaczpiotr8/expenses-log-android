@@ -1,7 +1,6 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.focusable
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
@@ -19,12 +18,10 @@ fun SettingsListItem(
 ) {
   ListItem(
       modifier =
-          modifier
-              .clickable(
-                  onClick = onClick,
-                  onClickLabel = stringResource(R.string.navigate_action_label),
-              )
-              .focusable(),
+          modifier.clickable(
+              onClick = onClick,
+              onClickLabel = stringResource(R.string.navigate_action_label),
+          ),
       leadingContent = {
         Icon(
             imageVector = Icons.Default.Settings,

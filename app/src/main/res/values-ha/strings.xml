@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Kwana</string>
 	<string name="filters_title">Matattara</string>
 	<string name="currency_label">Kudi</string>
-	<string name="currency_code_label">Lambar kuɗi</string>
 	<string name="amount_label">Adadin</string>
 	<string name="category_label">Rukuni</string>
 	<string name="invalid_format_error">Tsarin da bai dace ba</string>
@@ -49,4 +48,54 @@
 	<string name="currency_code_item_label">lambar kudin: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Yawan haruffa: %d. Iyakokin haruffa: %d</string>
+	<string name="privacy_policy">Manufar Sirri</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Bayananka suna tare da kai</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Muna girmama sirrinka. Wannan manhaja tana aiki
+		gaba ɗaya ba tare da intanet ba kuma ba ta tattara ko raba kowanne
+		bayanai ba. Wannan manufar tana aiki ga duk masu amfani a duniya, ciki
+		har da yara na kowane zamani. Ba mu tattara, adanawa, watsawa ko raba
+		kowanne bayanan sirri ko ba na sirri ba. Manhajar tana aiki gaba ɗaya
+		ba tare da intanet ba. Duk fasalolin ana iya amfani da su ba tare da
+		haɗin intanet ba, kuma ba a taɓa samun damar kowanne bayanai ko aika
+		su ko ina ba.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Adana Bayanai Na Cikin Ƙasa Kadai</string>
+	<string name="privacy_policy_local_only_data_storage_body">Duk bayanan da kuka shigar a cikin manhajar ana
+		adana su ne kawai a kan na’urarku. Ba a taɓa ɗorawa ko yin ajiyar su a
+		kan sabar waje ba, kuma ba a raba su da kowa ba. Ba mu da damar samun
+		wannan bayani kuma ba za mu iya samu ba.</string>
+	<string name="privacy_policy_no_third_party_services_title">Babu Ayyukan Bangare Na Uku</string>
+	<string name="privacy_policy_no_third_party_services_body">Manhajar ba ta amfani da SDK na ɓangare na uku,
+		kayan aikin nazari, hanyoyin talla, ko kowace irin sabis ɗin waje da
+		ke tattara bayanai. Babu wani, ciki har da mu, da ke da damar amfani
+		da bayanan ko aikace-aikacen ku.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Sarrafa Bayanai da Goge su</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Kana da cikakken iko akan bayanan da ka shigar.
+		Kana iya gogewa bayananka a kowane lokaci ta hanyar goge manhajar ko
+		share ajiyarta. Tun da babu wani abu da ake adanawa a wajen, babu
+		bukatar karin matakai.</string>
+	<string name="privacy_policy_children_privacy_title">Sirrin Yara</string>
+	<string name="privacy_policy_children_privacy_body">Manhajar tana da aminci ga dukan masu amfani, ciki
+		har da yara ƙasa da shekara 13. Ba a tattara wani bayanin sirri ba,
+		wanda ke sa ta dace da dokokin kariyar sirrin yara na duniya kamar
+		COPPA da GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Haƙƙoƙinka</string>
+	<string name="privacy_policy_your_rights_body">Tun da babu wani bayanai da ake tattarawa, babu
+		abin da zaka iya samu, sabunta ko share ta hanyar mu. Duk bayanan naka
+		ne kuma suna kasancewa kawai a kan na’urarka.</string>
+	<string name="privacy_policy_contact_information_title">Bayanin Tuntuɓa</string>
+	<string name="privacy_policy_changes_title">Sauye-sauye ga wannan manufar</string>
+	<string name="privacy_policy_effective_date_title">Ranar fara aiki</string>
+	<string name="privacy_policy_email_subject">Tambaya Akan Manufar Sirri – %s</string>
+	<string name="policies">Dokoki</string>
+	<string name="privacy_policy_contact_information_body">Idan kana da wasu tambayoyi ko damuwa game da
+		wannan Dokar Sirri, za ka iya tuntuɓar mu ta imel.</string>
+	<string name="privacy_policy_changes_body">Idan aikin app ɗin ya canza ta wata hanya da ke
+		shafar sirrinka, Za a sabunta wannan Dokar Sirri yadda ya kamata. Muna
+		ƙarfafa masu amfani da su duba dokar lokaci zuwa lokaci.</string>
+	<string name="privacy_policy_effective_date_body">Ranar fara aiki tana nufin ranar da wannan Dokar
+		Sirri ta ƙarshe aka sabunta ko ta fara aiki. Duk wani canji da aka yi
+		dangane da yadda manhaja ke sarrafa bayananka za a nuna shi a sabon
+		sigar wannan doka. Muna ƙarfafa masu amfani da su duba wannan doka
+		lokaci-lokaci domin su kasance da masaniya kan yadda ake amfani da
+		bayanansu.</string>
 </resources>

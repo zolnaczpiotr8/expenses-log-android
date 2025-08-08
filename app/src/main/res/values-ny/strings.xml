@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Tsiku</string>
 	<string name="filters_title">Zosefera</string>
 	<string name="currency_label">Ndalama</string>
-	<string name="currency_code_label">Nambala ya ndalama</string>
 	<string name="amount_label">Chiwerengero</string>
 	<string name="category_label">Gawo</string>
 	<string name="invalid_format_error">Fomati yosavomerezeka</string>
@@ -49,4 +48,58 @@
 	<string name="currency_code_item_label">chizindikiro cha ndalama: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Chiwerengero cha zilembo: %d. Malire a zilembo: %d</string>
+	<string name="privacy_policy">Ndondomeko ya Zinsinsi</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Zidziwitso zanu zimasungidwa nanu</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Timakupemphani ufulu wanu. Pulogalamu iyi imagwira
+		ntchito yonse pa intaneti ndipo siyikusonkhanitsa kapena kugawana deta
+		iliyonse. Chikondi ichi chimagwira ntchito kwa ogwiritsa ntchito onse
+		padziko lonse lapansi, kuphatikizapo ana a zaka zonse.
+		Sitikusonkhanitsa, kusunga, kutumiza kapena kugawana zambiri zilizonse
+		zaumunthu kapena zosakhala zaumunthu. Pulogalamuyi imagwira ntchito
+		yonse pa intaneti. Zinthu zonse zingagwiritsidwe ntchito popanda
+		intaneti, ndipo palibe deta imene imafikira kapena kutumizidwa
+		kulikonse.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Kusungirako kwa Data kwa Kumene</string>
+	<string name="privacy_policy_local_only_data_storage_body">Zonse zomwe mumalemba mu pulogalamuyi zimakhala pa
+		chipangizo chanu chokha. Sizitumizidwa, kusungidwa pa ma seva akunja
+		kapena kugawidwa ndi munthu wina aliyense. Ife sitimatha kupeza kapena
+		kuwona izi.</string>
+	<string name="privacy_policy_no_third_party_services_title">Palibe Ntchito za Gulu Lachitatu</string>
+	<string name="privacy_policy_no_third_party_services_body">Pulogalamu siyimagwiritsa ntchito ma SDK a ena,
+		zida zowunikira, ma network a malonda kapena mautumiki akunja omwe
+		amasonkhanitsa deta. Palibe wina, kuphatikizapo ife, amene ali ndi
+		mwayi wowerenga zomwe mumachita ndi deta ya pulogalamuyi.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Kuwongolera ndi Kufufuta Zambiri</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Muli ndi ulamuliro wonse pa zomwe mwayika. Mungathe
+		kuchotsa deta yanu nthawi iliyonse mwa kuchotsa pulogalamu kapena
+		kuyeretsa yosungira yake. Popeza palibe chomwe chimasungidwa kunja,
+		palibe njira zina zofunika.</string>
+	<string name="privacy_policy_children_privacy_title">Zinsinsi za Ana</string>
+	<string name="privacy_policy_children_privacy_body">Pulogalamuyi ndi yotetezeka kwa onse ogwiritsa
+		ntchito, kuphatikiza ana ochepera zaka 13. Palibe zambiri zachinsinsi
+		zomwe zimasonkhanitsidwa, zomwe zimapangitsa kuti ikhale yogwirizana
+		ndi malamulo apadziko lonse a zachinsinsi za ana monga COPPA ndi
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Ufulu Wanu</string>
+	<string name="privacy_policy_your_rights_body">Popeza kuti palibe deta yomwe imasonkhanitsidwa,
+		palibe chomwe mungathe kupeza, kusintha kapena kuchotsa kudzera mwa
+		ife. Zonsezi ndi zanu ndipo zimakhala pa chipangizo chanu chokha.</string>
+	<string name="privacy_policy_contact_information_title">Zambiri Zolumikizana</string>
+	<string name="privacy_policy_changes_title">Zosintha pa ndondomekoyi</string>
+	<string name="privacy_policy_effective_date_title">Tsiku lothandiza</string>
+	<string name="privacy_policy_email_subject">Kufunsa za Ndondomeko ya Zachinsinsi – %s</string>
+	<string name="policies">Ndondomeko</string>
+	<string name="privacy_policy_contact_information_body">Ngati muli ndi mafunso kapena nkhawa zokhudza
+		Mfundo Zachinsinsi, mutha kutifikira kudzera pa imelo.</string>
+	<string name="privacy_policy_changes_body">Ngati ntchito ya pulogalamu isintha m’njira yomwe
+		imakhudza zinsinsi zanu, Lamulo la Zachinsinsi lidzasinthidwa
+		moyenera. Timalimbikitsa ogwiritsa ntchito kuti azikambirana za lamulo
+		la zachinsinsi nthawi ndi nthawi.</string>
+	<string name="privacy_policy_effective_date_body">Tsiku lomwe lamalamulo limayamba kugwira ntchito
+		limatanthauza tsiku lomwe Lamulo la Zachinsinsi lidasinthidwa komaliza
+		kapena kuyamba kugwira ntchito. Kusintha kulikonse komwe kungachitike
+		pa momwe pulogalamuyi imagwirira ntchito deta yanu kudzasonyezedwa mu
+		buku losinthidwa la lamulo ili. Timalimbikitsa ogwiritsa ntchito kuti
+		azikambirana lamulo ili nthawi ndi nthawi kuti azidziwa mmene zambiri
+		zawo zikugwiritsidwira ntchito.</string>
 </resources>

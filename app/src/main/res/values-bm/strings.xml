@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Don</string>
 	<string name="filters_title">Filtɛrɛw</string>
 	<string name="currency_label">Segele</string>
-	<string name="currency_code_label">Sigimɛ kɔ̀dù</string>
 	<string name="amount_label">Don</string>
 	<string name="category_label">Catégorie</string>
 	<string name="invalid_format_error">Fɔruma tile b’a la</string>
@@ -48,4 +47,46 @@
 	<string name="currency_code_item_label">sigi koodo: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Kanji kɔrɔbɔ: %d. Kanji bɛɛya: %d</string>
+	<string name="privacy_policy">Politiki ka kɔnɔ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Donu ka segin ye i ye</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">An bɛ bamanakan kɔrɔw ka a fɛ. App kɔrɔw ye kelen
+		ye offline ka kuma kɛ tɛ ye, ka mɔgɔw yélenw ka sɛbɛ. Policy bɛɛ bɛɛ
+		kɛla ji fɛɛrɛ tɛminɛw la, kuma kelenw bɛɛ dɔɔnin ka fɔ ka baara. An tɛ
+		bɛɛ kɔrɔw kɛ a fɔ ko, bɛɛ kɛ a dɔ ko, bɛɛ kɛ a sɔrɔ ko, ni bɛɛ kɛ a
+		sɛbɛ ko. App kɔrɔw ye kelen ye offline. Kelenw bɛɛ bɛɛ dɔɔnin ka fɔ ko
+		i ka sigilen kɛ internet tɛ, ni mɔgɔ ko ka sigilen tɛ ni mɛn kɛ fɔ.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Doni Fɛnw Jɛgɛsɔrɔ Kɛ Kɔnɔ</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ɲɛnamaya ka i fɔlɔ kɔfɛ app la yɛrɛ ye, o bɛ kɛ i
+		ka fonin na kan. A bɛ jamana server la kɔrɔ, a bɛ bɔ a fɛ, o bɛ kuma a
+		kɔfɛ mɔgɔ kɔfɛ ye. An te a kan kɛ, an bɛna a kan.</string>
+	<string name="privacy_policy_no_third_party_services_title">Kun fɔlɔ la ka sɛbɛn don tɛ</string>
+	<string name="privacy_policy_no_third_party_services_body">App bɛ bɔ yan fɔlɔ kɛɛ SDK kɛ, ani ka taa kan ani
+		ka taa fɔlɔ, ani kɔrɔ kɛ ni kɛlɛkan bɔra ka fɔlɔ don. An bɛ bɔra, an
+		ka taa, o bɛ taa i kɛlɛkan ani i ka taa fɔlɔ yira.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Ka dònni ladɛgɛ ani ka dònni ka baa</string>
+	<string name="privacy_policy_data_control_and_deletion_body">I ni fɛɛrɛ min bɛ i kɔfɛ bɛɛ da, i b’a fɔlɔ ye. I
+		tɛ i donni sɔ̀rɔ jɔn-jɔn kɔrɔ kɔfɛ b’a ɲini app ye a da ni a kɛnkɛlɛ
+		bɔ. A kɔrɔ bɛɛ tɛgɛ fɛ, k’a la a kɛ a tɛ yɛrɛ ka sɛbɛn.</string>
+	<string name="privacy_policy_children_privacy_title">Siraliya ka Denmisɛbɛ</string>
+	<string name="privacy_policy_children_privacy_body">Aplikasiyɔn bɛ sɔ̀rɔ fɛ̀ n ye, kɔfɛ cɛgɛdun 13 kan
+		ka dɔrɔn. Don tɛ sɔrɔ fɛ a la, o bɛ ka a sɔrɔ COPPA ani GDPR-K kɛ fɔlɔ
+		don kɛla.</string>
+	<string name="privacy_policy_your_rights_title">I Droitw</string>
+	<string name="privacy_policy_your_rights_body">Donni kelen te sigi, o kɛra kɛ i ma a kɔrɔ, a sɔ̀rɔ
+		ni a dɔgɔsili la. Donni kɛlɛ kɛ i ye, a bɛ taa kɛ i fɛ ka ban.</string>
+	<string name="privacy_policy_contact_information_title">Ɲɛnama ka kɛnɛ</string>
+	<string name="privacy_policy_changes_title">Fɛnw ka bɔ fo ni siyasa ja</string>
+	<string name="privacy_policy_effective_date_title">Don kɛndɛya</string>
+	<string name="privacy_policy_email_subject">Sirinɛ la ka siyasigi fɔlɔ – %s</string>
+	<string name="policies">Polisilen</string>
+	<string name="privacy_policy_contact_information_body">Sisan i ni ɲɛgɛn ni sabali la kɔfɛ k’an ka Privacy
+		Policy ye, i t’a fɔ an na sisan tɛmɛ.</string>
+	<string name="privacy_policy_changes_body">Sisan i ka app ye bɛɛ min ka a fɛɛrɛ di i ɲɛ, i
+		ɲɛgɛnna siratigi bɛ kɛla kɔrɔkɔrɔ. An bɛ fɔ i ka sigilenw ye a
+		siratigi kana sisan sisan bɔ.</string>
+	<string name="privacy_policy_effective_date_body">Sinin kɔnɔ ni ye tile bɛɛ ye i ka siratigɛya kɛlɛya
+		kɔfɛ kɛlɛya dooni. Kalan ye fili bɛɛ la min ye app ye i ka donni ladon
+		yɛlɛma, o bɛ sisan sɛbɛ kun bɛɛ la. An bɛ nyininkaliw ye sigilen kɛ an
+		ka siratigɛya ni sigi-sigi, ka a fɛ an bɛɛ se ka don i ka donni ni
+		kɛlɛya.</string>
 </resources>

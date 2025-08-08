@@ -26,7 +26,6 @@
 	<string name="date_filter_title">تاریخ</string>
 	<string name="filters_title">فلٹرز</string>
 	<string name="currency_label">کرنسی</string>
-	<string name="currency_code_label">کرنسی کوڈ</string>
 	<string name="amount_label">رقم</string>
 	<string name="category_label">زمرہ</string>
 	<string name="invalid_format_error">غلط فارمیٹ</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">کرنسی کوڈ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">حروف کی تعداد: %d۔ حروف کی حد: %d</string>
+	<string name="privacy_policy">پرائیویسی پالیسی</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">آپ کا ڈیٹا آپ کے پاس رہتا ہے</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">ہم آپ کی رازداری کا احترام کرتے ہیں۔ یہ ایپ مکمل
+		طور پر آف لائن کام کرتی ہے اور کوئی ڈیٹا جمع یا شیئر نہیں کرتی۔ یہ
+		پالیسی دنیا بھر کے تمام صارفین پر لاگو ہوتی ہے، بشمول ہر عمر کے بچوں
+		کے۔ ہم کوئی ذاتی یا غیر ذاتی معلومات جمع، محفوظ، منتقل یا شیئر نہیں
+		کرتے۔ ایپ مکمل طور پر آف لائن کام کرتی ہے۔ تمام فیچرز بغیر انٹرنیٹ
+		کنکشن کے استعمال کیے جا سکتے ہیں، اور کوئی بھی ڈیٹا کبھی بھی کہیں نہیں
+		بھیجا یا حاصل کیا جاتا۔</string>
+	<string name="privacy_policy_local_only_data_storage_title">صرف مقامی ڈیٹا اسٹوریج</string>
+	<string name="privacy_policy_local_only_data_storage_body">آپ جو بھی معلومات ایپ میں درج کرتے ہیں وہ صرف آپ کے
+		اپنے ڈیوائس پر محفوظ ہوتی ہے۔ یہ کبھی بھی اپلوڈ نہیں کی جاتی، بیرونی
+		سرورز پر محفوظ نہیں کی جاتی اور نہ ہی کسی کے ساتھ شیئر کی جاتی ہے۔
+		ہمیں اس معلومات تک رسائی حاصل نہیں ہے اور نہ ہی ہو سکتی ہے۔</string>
+	<string name="privacy_policy_no_third_party_services_title">کوئی تیسری پارٹی کی خدمات نہیں</string>
+	<string name="privacy_policy_no_third_party_services_body">ایپ کسی تیسرے فریق کے SDK، تجزیاتی آلات، اشتہاری
+		نیٹ ورکس یا کسی بھی خارجی خدمات کا استعمال نہیں کرتی جو ڈیٹا جمع کرتی
+		ہوں۔ ہم سمیت کوئی اور آپ کے ایپ کے استعمال یا ڈیٹا تک رسائی نہیں
+		رکھتا۔</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ڈیٹا کا کنٹرول اور حذف کرنا</string>
+	<string name="privacy_policy_data_control_and_deletion_body">آپ کو اس معلومات پر مکمل کنٹرول حاصل ہے جو آپ داخل
+		کرتے ہیں۔ آپ کسی بھی وقت ایپ کو ان انسٹال کرکے یا اس کا اسٹوریج صاف
+		کرکے اپنا ڈیٹا حذف کر سکتے ہیں۔ چونکہ کچھ بھی بیرونی طور پر محفوظ نہیں
+		ہوتا، اس لیے کسی اضافی اقدام کی ضرورت نہیں ہے۔</string>
+	<string name="privacy_policy_children_privacy_title">بچوں کی رازداری</string>
+	<string name="privacy_policy_children_privacy_body">یہ ایپ تمام صارفین کے لیے محفوظ ہے، بشمول 13 سال سے
+		کم عمر بچوں کے۔ کوئی ذاتی معلومات اکٹھی نہیں کی جاتی، جو اسے COPPA اور
+		GDPR-K جیسے عالمی بچوں کی رازداری کے قوانین کے مطابق بناتی ہے۔</string>
+	<string name="privacy_policy_your_rights_title">آپ کے حقوق</string>
+	<string name="privacy_policy_your_rights_body">چونکہ کوئی ڈیٹا جمع نہیں کیا جاتا، اس لیے آپ کے لیے
+		ہمارے ذریعے رسائی، اپ ڈیٹ یا حذف کرنے کے لیے کچھ بھی نہیں ہے۔ تمام
+		ڈیٹا آپ کا ہے اور صرف آپ کے آلہ پر ہی محفوظ رہتا ہے۔</string>
+	<string name="privacy_policy_contact_information_title">رابطے کی معلومات</string>
+	<string name="privacy_policy_changes_title">اس پالیسی میں تبدیلیاں</string>
+	<string name="privacy_policy_effective_date_title">مؤثر تاریخ</string>
+	<string name="privacy_policy_email_subject">رازداری کی پالیسی سے متعلق استفسار – %s</string>
+	<string name="policies">پالیسیاں</string>
+	<string name="privacy_policy_contact_information_body">اگر آپ کو اس رازداری کی پالیسی کے بارے میں کوئی
+		سوالات یا خدشات ہیں، تو آپ ہم سے ای میل کے ذریعے رابطہ کر سکتے ہیں۔</string>
+	<string name="privacy_policy_changes_body">اگر ایپ کی فعالیت میں کوئی ایسی تبدیلی کی جائے جو
+		آپ کی پرائیویسی پر اثرانداز ہو، تو اس پرائیویسی پالیسی کو مناسب طریقے
+		سے اپ ڈیٹ کیا جائے گا۔ ہم صارفین کو وقتاً فوقتاً اس پالیسی کا جائزہ
+		لینے کی ترغیب دیتے ہیں۔</string>
+	<string name="privacy_policy_effective_date_body">مؤثر تاریخ اس دن کو ظاہر کرتی ہے جب اس رازداری کی
+		پالیسی کو آخری بار اپ ڈیٹ کیا گیا یا یہ نافذ العمل ہوئی۔ آپ کے ڈیٹا کو
+		ایپ کس طرح ہینڈل کرتی ہے اس میں کسی بھی تبدیلی کی عکاسی اس پالیسی کے
+		اپ ڈیٹ شدہ ورژن میں کی جائے گی۔ ہم صارفین کو مشورہ دیتے ہیں کہ وہ اس
+		پالیسی کا وقتاً فوقتاً جائزہ لیں تاکہ یہ جان سکیں کہ ان کی معلومات کو
+		کس طرح ہینڈل کیا جا رہا ہے۔</string>
 </resources>

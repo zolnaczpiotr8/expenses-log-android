@@ -26,7 +26,6 @@
 	<string name="date_filter_title">তারিখ</string>
 	<string name="filters_title">ফিল্টারসমূহ</string>
 	<string name="currency_label">মুদ্রা</string>
-	<string name="currency_code_label">মুদ্রার কোড</string>
 	<string name="amount_label">পরিমাণ</string>
 	<string name="category_label">শ্রেণী</string>
 	<string name="invalid_format_error">অবৈধ বিন্যাস</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">মুদ্রার কোড: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">অক্ষরের সংখ্যা: %d। অক্ষরের সীমা: %d</string>
+	<string name="privacy_policy">গোপনীয়তা নীতি</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">আপনার ডেটা আপনার সাথে থাকে</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">আমরা আপনার গোপনীয়তাকে সম্মান করি। এই অ্যাপটি
+		সম্পূর্ণরূপে অফলাইনে কাজ করে এবং কোনো তথ্য সংগ্রহ বা ভাগ করে না। এই
+		নীতি বিশ্বব্যাপী সকল ব্যবহারকারীর জন্য প্রযোজ্য, সমস্ত বয়সের শিশুসহ।
+		আমরা কোনো ব্যক্তিগত বা অ-ব্যক্তিগত তথ্য সংগ্রহ, সংরক্ষণ, প্রেরণ বা ভাগ
+		করি না। অ্যাপটি সম্পূর্ণরূপে অফলাইনে কাজ করে। সকল ফিচার ইন্টারনেট
+		সংযোগ ছাড়াই ব্যবহার করা যায় এবং কোনো তথ্য কখনও অ্যাক্সেস বা পাঠানো
+		হয় না।</string>
+	<string name="privacy_policy_local_only_data_storage_title">শুধুমাত্র স্থানীয় তথ্য সংরক্ষণ</string>
+	<string name="privacy_policy_local_only_data_storage_body">আপনি অ্যাপে যে সমস্ত তথ্য প্রবেশ করান তা শুধুমাত্র
+		আপনার নিজের ডিভাইসে সংরক্ষিত থাকে। এটি কখনই বাহ্যিক সার্ভারে আপলোড,
+		ব্যাকআপ বা কারো সঙ্গে শেয়ার করা হয় না। আমরা এই তথ্য অ্যাক্সেস করি না
+		এবং পারিও না।</string>
+	<string name="privacy_policy_no_third_party_services_title">তৃতীয় পক্ষের সেবা নেই</string>
+	<string name="privacy_policy_no_third_party_services_body">অ্যাপটি তৃতীয় পক্ষের SDK, বিশ্লেষণাত্মক সরঞ্জাম,
+		বিজ্ঞাপন নেটওয়ার্ক বা কোনো বাহ্যিক পরিষেবা ব্যবহার করে না যা ডেটা
+		সংগ্রহ করে। আমরা সহ কেউই আপনার অ্যাপ ব্যবহার বা ডেটাতে প্রবেশাধিকার
+		নেই।</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ডেটা নিয়ন্ত্রণ এবং মুছে ফেলা</string>
+	<string name="privacy_policy_data_control_and_deletion_body">আপনি যে তথ্য প্রবেশ করান তা সম্পূর্ণভাবে নিয়ন্ত্রণ
+		করতে পারেন। আপনি যেকোনো সময় অ্যাপটি আনইনস্টল বা এর স্টোরেজ সাফ করে
+		আপনার ডেটা মুছে ফেলতে পারেন। যেহেতু কিছুই বাহ্যিকভাবে সংরক্ষিত হয় না,
+		অতিরিক্ত কোনো পদক্ষেপের প্রয়োজন নেই।</string>
+	<string name="privacy_policy_children_privacy_title">শিশুদের গোপনীয়তা</string>
+	<string name="privacy_policy_children_privacy_body">অ্যাপটি সকল ব্যবহারকারীর জন্য নিরাপদ, যার মধ্যে ১৩
+		বছরের নিচের শিশুরাও অন্তর্ভুক্ত। কোনো ব্যক্তিগত তথ্য সংগ্রহ করা হয়
+		না, যা এটিকে COPPA এবং GDPR-K-এর মতো বৈশ্বিক শিশু গোপনীয়তা আইনের সাথে
+		সামঞ্জস্যপূর্ণ করে।</string>
+	<string name="privacy_policy_your_rights_title">আপনার অধিকার</string>
+	<string name="privacy_policy_your_rights_body">যেহেতু কোনো তথ্য সংগ্রহ করা হয় না, তাই আমাদের
+		মাধ্যমে আপনার অ্যাক্সেস, আপডেট বা মুছে ফেলার মতো কিছুই নেই। সমস্ত তথ্য
+		আপনার এবং এটি কেবলমাত্র আপনার ডিভাইসে থাকে।</string>
+	<string name="privacy_policy_contact_information_title">যোগাযোগের তথ্য</string>
+	<string name="privacy_policy_changes_title">এই নীতিতে পরিবর্তন</string>
+	<string name="privacy_policy_effective_date_title">কার্যকর তারিখ</string>
+	<string name="privacy_policy_email_subject">গোপনীয়তা নীতির অনুসন্ধান – %s</string>
+	<string name="policies">নীতিমালা</string>
+	<string name="privacy_policy_contact_information_body">যদি এই গোপনীয়তা নীতিমালা সম্পর্কে আপনার কোনো
+		প্রশ্ন বা উদ্বেগ থাকে, আপনি আমাদের ইমেইলের মাধ্যমে যোগাযোগ করতে পারেন।</string>
+	<string name="privacy_policy_changes_body">যদি অ্যাপের কার্যকারিতা এমনভাবে পরিবর্তিত হয় যা
+		আপনার গোপনীয়তাকে প্রভাবিত করে, তাহলে এই গোপনীয়তা নীতি অনুযায়ী আপডেট
+		করা হবে। আমরা ব্যবহারকারীদের মাঝে মাঝে এই নীতিটি পর্যালোচনা করার জন্য
+		উৎসাহিত করি।</string>
+	<string name="privacy_policy_effective_date_body">কার্যকর তারিখটি সেই দিনকে বোঝায় যেদিন এই গোপনীয়তা
+		নীতি সর্বশেষ হালনাগাদ বা কার্যকর হয়েছে। অ্যাপটি আপনার ডেটা কীভাবে
+		পরিচালনা করে তাতে যে কোনও পরিবর্তন এই নীতির আপডেটেড সংস্করণে প্রতিফলিত
+		হবে। ব্যবহারকারীদেরকে উৎসাহ দেওয়া হয় এই নীতিটি সময়ে সময়ে
+		পর্যালোচনা করার জন্য যাতে তারা তাদের তথ্য কীভাবে ব্যবহার করা হচ্ছে সে
+		সম্পর্কে সচেতন থাকতে পারেন।</string>
 </resources>

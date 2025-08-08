@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Data</string>
 	<string name="filters_title">Filtri</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Codice valuta</string>
 	<string name="amount_label">Importo</string>
 	<string name="category_label">Categoria</string>
 	<string name="invalid_format_error">Formato non valido</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">codice valuta: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Conteggio caratteri: %d. Limite di caratteri: %d</string>
+	<string name="privacy_policy">Politica sulla privacy</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">I tuoi dati restano con te</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Rispettiamo la tua privacy. Questa app funziona
+		completamente offline e non raccoglie né condivide alcun dato. Questa
+		politica si applica a tutti gli utenti in tutto il mondo, inclusi i
+		bambini di tutte le età. Non raccogliamo, conserviamo, trasmettiamo o
+		condividiamo alcuna informazione personale o non personale. L’app
+		funziona completamente offline. Tutte le funzionalità possono essere
+		utilizzate senza connessione internet e nessun dato viene mai accesso
+		o inviato da nessuna parte.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Solo Archiviazione Dati Locale</string>
+	<string name="privacy_policy_local_only_data_storage_body">Tutte le informazioni inserite nell’app sono
+		memorizzate solo sul tuo dispositivo. Non vengono mai caricate,
+		salvate su server esterni o condivise con nessuno. Non abbiamo accesso
+		a queste informazioni e non possiamo averlo.</string>
+	<string name="privacy_policy_no_third_party_services_title">Nessun Servizio di Terze Parti</string>
+	<string name="privacy_policy_no_third_party_services_body">L’app non utilizza SDK di terze parti, strumenti di
+		analisi, reti pubblicitarie o servizi esterni che raccolgono dati.
+		Nessun altro, compresi noi, ha accesso all’uso della tua app o ai
+		dati.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Controllo e Cancellazione dei Dati</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Hai il pieno controllo delle informazioni che
+		inserisci. Puoi eliminare i tuoi dati in qualsiasi momento
+		disinstallando l’app o cancellando la sua memoria. Poiché nulla è
+		archiviato esternamente, non sono necessari ulteriori passaggi.</string>
+	<string name="privacy_policy_children_privacy_title">Privacy dei Bambini</string>
+	<string name="privacy_policy_children_privacy_body">L’app è sicura per tutti gli utenti, inclusi i
+		bambini sotto i 13 anni. Nessun dato personale viene raccolto,
+		rendendola conforme alle leggi globali sulla privacy dei minori come
+		COPPA e GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">I Tuoi Diritti</string>
+	<string name="privacy_policy_your_rights_body">Poiché non vengono raccolti dati, non c’è nulla a
+		cui tu possa accedere, aggiornare o eliminare tramite noi. Tutti i
+		dati sono tuoi e rimangono esclusivamente sul tuo dispositivo.</string>
+	<string name="privacy_policy_contact_information_title">Informazioni di Contatto</string>
+	<string name="privacy_policy_changes_title">Modifiche a questa politica</string>
+	<string name="privacy_policy_effective_date_title">Data di entrata in vigore</string>
+	<string name="privacy_policy_email_subject">Richiesta sulla Politica sulla Privacy – %s</string>
+	<string name="policies">Politiche</string>
+	<string name="privacy_policy_contact_information_body">Se hai domande o dubbi riguardo a questa
+		Informativa sulla Privacy, puoi contattarci via email.</string>
+	<string name="privacy_policy_changes_body">Se la funzionalità dell’app cambia in modo da
+		influire sulla tua privacy, questa Informativa sulla privacy verrà
+		aggiornata di conseguenza. Incoraggiamo gli utenti a rivedere
+		periodicamente l’informativa.</string>
+	<string name="privacy_policy_effective_date_body">La data di entrata in vigore si riferisce al giorno
+		in cui questa Informativa sulla Privacy è stata aggiornata per
+		l’ultima volta o è entrata in vigore. Eventuali modifiche al modo in
+		cui l’app gestisce i tuoi dati saranno riflesse in una versione
+		aggiornata di questa politica. Invitiamo gli utenti a consultare
+		periodicamente questa politica per rimanere informati su come vengono
+		trattate le loro informazioni.</string>
 </resources>

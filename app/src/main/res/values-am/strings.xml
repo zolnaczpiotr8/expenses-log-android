@@ -26,7 +26,6 @@
 	<string name="date_filter_title">ቀን</string>
 	<string name="filters_title">ማጣሪያዎች</string>
 	<string name="currency_label">ገንዘብ</string>
-	<string name="currency_code_label">የገንዘብ ኮድ</string>
 	<string name="amount_label">መጠን</string>
 	<string name="category_label">ምድብ</string>
 	<string name="invalid_format_error">የተሳሳተ ቅርጸት</string>
@@ -47,4 +46,43 @@
 	<string name="currency_code_item_label">የገንዘብ ኮድ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">የቁምፊ ብዛት፡ %d። የቁምፊ ገደብ፡ %d</string>
+	<string name="privacy_policy">የግል መረጃ ፖሊሲ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ውሂብዎ ከእርስዎ ጋር ይቀራል</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">እኛ የግል መረጃዎን እንከብራለን። ይህ መተግበሪያ በሙሉ ከመስመር ውጭ ይሰራል
+		እና ምንም መረጃ አያሰብር እና አያካፍልም። ይህ ፖሊሲ ለዓለም አቀፍ ተጠቃሚዎች ከልጆች እና ከሁሉም ዕድሜ
+		ቡድኖች ጋር ይተገበራል። እኛ ምንም የግል ወይም ያልግለጹ መረጃ አከማችነት፣ መከተል፣ መላክ ወይም መካፍል
+		አንሰራም። መተግበሪያው በሙሉ ከመስመር ውጭ ይሰራል። ሁሉም ባህሪያት ከኢንተርኔት ግንኙነት ያለ በማጠቀም
+		ይችላሉ እና ምንም መረጃ አብስለኝ አይደርስም ወይም አይላከም።</string>
+	<string name="privacy_policy_local_only_data_storage_title">የአካባቢ ብቻ የውሂብ ቆያ</string>
+	<string name="privacy_policy_local_only_data_storage_body">በመተግበሪያው ውስጥ ያስገቡት መረጃ ሁሉ ብቻ በእርስዎ መሣሪያ ውስጥ ይታያል።
+		በውጪ አማራጭ አገልግሎቶች ላይ አይሰበስብም፣ አይተወምም፣ ከማንኛውም ጋር አይተካከልም። እኛ ይህንን መረጃ
+		ማድረስ አናችልም፣ እና ማወቅም አናችልም።</string>
+	<string name="privacy_policy_no_third_party_services_title">የሶስተኛ ወገኖች አገልግሎቶች የለም</string>
+	<string name="privacy_policy_no_third_party_services_body">መተግበሪያው የሶስተኛ ክፍል SDKዎችን፣ አናሊቲክስ መሣሪያዎችን፣ ማስታወቂያ
+		ኔትወሮችን ወይም የውጪ አገልግሎቶችን አልጠቀምም ያሉትን ውሂብ ያሰቀሙ። እኛም ከሌሎች በተለይ ማንም የእርስዎን
+		መተግበሪያ አጠቃቀም ወይም ውሂብ አይደርስበትም።</string>
+	<string name="privacy_policy_data_control_and_deletion_title">የውሂብ መቆጣጠሪያ እና ማጥፊያ</string>
+	<string name="privacy_policy_data_control_and_deletion_body">እርስዎ ያስገቡትን መረጃ በሙሉ መቆጣጠር ይችላሉ። መተግበሪያውን በመሰረዝ ወይም
+		በመቀመጫውን በማጽዳት መረጃዎን በየጊዜው መሰረዝ ይችላሉ። ምንም ነገር በውጭ አልተቀመጠም ስለዚህ ተጨማሪ
+		እርምጃዎች አያስፈልጉም።</string>
+	<string name="privacy_policy_children_privacy_title">የልጆች ግላዊነት</string>
+	<string name="privacy_policy_children_privacy_body">አፕሊኬሽኑ ከ13 ዓመት በታች ሕፃናትን ጨምሮ ለሁሉም ተጠቃሚዎች ደህና ነው።
+		የግል መረጃ አይሰበሰብም፣ ይህም COPPA እና GDPR-K እንደሚመራቸው ዓለም አቀፍ የህፃናት መረጃ ጥበቃ
+		ህጎች ጋር ተስማማ ያደርገዋል።</string>
+	<string name="privacy_policy_your_rights_title">መብቶችዎ</string>
+	<string name="privacy_policy_your_rights_body">እንደ ምንም ውሂብ አተሰባሰብ ስለሌለ በእኛ በኩል ለመዳሰስ፣ ለማዘመን ወይም
+		ለማጥፋት የምትችሉት ምንም ነገር የለም። ሁሉም ውሂብ የእርስዎ ነው እና በተለይ በመሣሪያዎ ላይ ይቀራል።</string>
+	<string name="privacy_policy_contact_information_title">የእውቂያ መረጃ</string>
+	<string name="privacy_policy_changes_title">የዚህ ፖሊሲ ለውጦች</string>
+	<string name="privacy_policy_effective_date_title">አስተዋውቀ ቀን</string>
+	<string name="privacy_policy_email_subject">የግላዊነት ፖሊሲ ጥያቄ – %s</string>
+	<string name="policies">ፖሊሲዎች</string>
+	<string name="privacy_policy_contact_information_body">ስለዚህ የግላዊነት ፖሊሲ ማንኛውም ጥያቄ ወይም ሐሳብ ካሎት፣ በኢሜይል በመላክ
+		ማግኘት ትችላላችሁ።</string>
+	<string name="privacy_policy_changes_body">የመተግበሪያው ተግባራዊነት እርስዎን የግላዊነት መብት በሚነካ መልኩ ከተለወጠ፣
+		የግላዊነት መመሪያው በዚህ መሠረት ይዘምናል። ተጠቃሚዎችን ከጊዜ ወደ ጊዜ ፖሊሲውን እንዲያሳስቡ እንነግራለን።</string>
+	<string name="privacy_policy_effective_date_body">ተፈጻሚ ቀኑ ይህ የግላዊነት ፖሊሲ መጨረሻ ምትኩ ወይም እንደተመሰረተ
+		የተነገረበትን ቀን ይጠቃልላል። መተግበሪያው የእርስዎን ውሂብ እንዴት እንደሚከላከል ላይ ማንኛውም ለውጥ በዚህ
+		ፖሊሲ ዘምነት ውስጥ ይገልጻል። ተጠቃሚዎች መረጃቸው እንዴት እንደሚያንቀሳቅስ ለማወቅ ይህንን ፖሊሲ ዘወትር
+		እንዲያሳምሩ እንመክራለን።</string>
 </resources>

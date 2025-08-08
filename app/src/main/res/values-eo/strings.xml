@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Dato</string>
 	<string name="filters_title">Filtriloj</string>
 	<string name="currency_label">Monero</string>
-	<string name="currency_code_label">Valutokodo</string>
 	<string name="amount_label">Kvanto</string>
 	<string name="category_label">Kategorio</string>
 	<string name="invalid_format_error">Nevalida formato</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">valuto-kodo: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Signokvanto: %d. Signolimo: %d</string>
+	<string name="privacy_policy">Privateca Politiko</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Viaj datumoj restas kun vi</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Ni respektas vian privatecon. Ĉi tiu aplikaĵo
+		funkcias tute senrete kaj ne kolektas nek dividas iujn datumojn. Ĉi
+		tiu politiko validas por ĉiuj uzantoj tutmonde, inkluzive de infanoj
+		de ĉiuj aĝoj. Ni ne kolektas, ne stokas, ne transsendas nek dividas
+		iun ajn personan aŭ nepersonan informon. La aplikaĵo funkcias tute
+		senrete. Ĉiuj funkcioj povas esti uzataj sen interreta konekto, kaj
+		neniuj datumoj iam ajn estas aliritaj aŭ senditaj ie ajn.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Nur Loka Konservado de Datumoj</string>
+	<string name="privacy_policy_local_only_data_storage_body">Ĉiuj informoj, kiujn vi enigas en la apon, estas
+		konservataj nur en via propra aparato. Ili neniam estas alŝutitaj,
+		sekurkopiitaj al eksteraj serviloj, aŭ kundividitaj kun iu ajn. Ni ne
+		havas kaj ne povas havi aliron al ĉi tiuj informoj.</string>
+	<string name="privacy_policy_no_third_party_services_title">Neniuj Triaj Servoj</string>
+	<string name="privacy_policy_no_third_party_services_body">La aplikaĵo ne uzas triajn SDK-ojn, analizilojn,
+		reklamajn retojn aŭ iun ajn eksteran servon, kiu kolektas datumojn.
+		Neniu alia, inkluzive de ni, havas aliron al via aplikaĵuzo aŭ
+		datumoj.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Datumkontrolo kaj Forigo</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Vi havas plenan kontrolon pri la informoj, kiujn vi
+		enigas. Vi povas forigi viajn datumojn iam ajn malinstalante la apon
+		aŭ forigante ĝian konservadon. Ĉar nenio estas konservata ekstere,
+		neniuj pliaj paŝoj estas necesaj.</string>
+	<string name="privacy_policy_children_privacy_title">Privateco de Infanoj</string>
+	<string name="privacy_policy_children_privacy_body">La apo estas sekura por ĉiuj uzantoj, inkluzive de
+		infanoj sub la aĝo de 13. Neniuj personaj datumoj estas kolektataj,
+		kio igas ĝin kongrua kun tutmondaj infanaj privatecleĝoj kiel COPPA
+		kaj GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Viaj Rajtoj</string>
+	<string name="privacy_policy_your_rights_body">Ĉar neniuj datumoj estas kolektataj, ne estas io
+		alirebla, ĝisdatigebla aŭ forigebla per ni. Ĉiuj datumoj apartenas al
+		vi kaj restas ekskluzive en via aparato.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktinformoj</string>
+	<string name="privacy_policy_changes_title">Ŝanĝoj al ĉi tiu politiko</string>
+	<string name="privacy_policy_effective_date_title">Efika dato</string>
+	<string name="privacy_policy_email_subject">Demando pri Privateca Politiko – %s</string>
+	<string name="policies">Politikoj</string>
+	<string name="privacy_policy_contact_information_body">Se vi havas demandojn aŭ zorgojn pri ĉi tiu
+		Privateca Politiko, vi povas kontakti nin per retpoŝto.</string>
+	<string name="privacy_policy_changes_body">Se la funkcieco de la aplikaĵo ŝanĝiĝas tiel, ke ĝi
+		influas vian privatecon, ĉi tiu Privateca Politiko estos ĝisdatigita
+		laŭe. Ni instigas uzantojn revizii la politikon de tempo al tempo.</string>
+	<string name="privacy_policy_effective_date_body">La ekvalida dato rilatas al la tago kiam ĉi tiu
+		Privateca Politiko laste estis ĝisdatigita aŭ ekvalidis. Iuj ŝanĝoj en
+		tio kiel la apo traktas viajn datumojn estos reflektitaj en
+		ĝisdatigita versio de ĉi tiu politiko. Ni instigas uzantojn periode
+		revizii ĉi tiun politikon por resti informitaj pri kiel iliaj informoj
+		estas traktataj.</string>
 </resources>

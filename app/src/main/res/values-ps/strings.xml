@@ -26,7 +26,6 @@
 	<string name="date_filter_title">نیټه</string>
 	<string name="filters_title">فلټرونه</string>
 	<string name="currency_label">پيسې</string>
-	<string name="currency_code_label">د اسعارو کود</string>
 	<string name="amount_label">مقدار</string>
 	<string name="category_label">کتګورۍ</string>
 	<string name="invalid_format_error">ناسم بڼه</string>
@@ -48,4 +47,50 @@
 	<string name="currency_code_item_label">د اسعارو کوډ: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">د تورو شمېر: %d. د تورو حد: %d</string>
+	<string name="privacy_policy">د محرمیت پالیسۍ</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ستاسو معلومات له تاسو سره پاتې کیږي</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">موږ ستاسو محرمیت ته درناوی کوو. دا ایپ په بشپړ ډول
+		د انټرنیټ څخه بې‌برخې کار کوي او هیڅ ډول معلومات نه راټولوي او نه یې
+		شریکوي. دا پالیسي د نړۍ ټولو کاروونکو لپاره پلي کیږي، پشمول د ټولو
+		عمرونو ماشومان. موږ هیڅ شخصي یا غیر شخصي معلومات نه راټولوو، نه ساتو،
+		نه لېږدوو او نه شریکوو. ایپ په بشپړ ډول د انټرنیټ څخه بې‌برخې کار کوي.
+		ټولې بڼې پرته له انټرنیټ اړیکې کارول کیدی شي، او هیڅ معلومات کله هم ته
+		لاسرسی نه کیږي او نه لیږدول کیږي.</string>
+	<string name="privacy_policy_local_only_data_storage_title">یوازې سیمه ییز د معلوماتو زېرمه</string>
+	<string name="privacy_policy_local_only_data_storage_body">ټول معلومات چې تاسو یې په اپ کې داخل کړئ یوازې
+		ستاسو په خپل وسیله کې زیرمه کېږي. دا هېڅکله بهرني سرور ته نه پورته
+		کېږي، نه بیک اپ کېږي او نه له چا سره شریکه کېږي. موږ ته دې معلوماتو ته
+		لاسرسی نشته او نه هم موږ لاسرسی کولی شو.</string>
+	<string name="privacy_policy_no_third_party_services_title">دريمې ډلې خدمتونه نشته</string>
+	<string name="privacy_policy_no_third_party_services_body">اپلیکیشن د دریمې ډلې SDKs، د تحلیل وسایل، د
+		اعلانونو شبکه یا کوم بهرني خدمتونه چې ډاټا راټولوي نه کاروي. موږ په
+		ګډون بل چا ته ستاسو د اپلیکیشن کارونې یا ډاټا ته لاسرسی نشته.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">د معلوماتو کنټرول او حذف</string>
+	<string name="privacy_policy_data_control_and_deletion_body">تاسو پر هغه معلوماتو بشپړ کنټرول لرئ چې تاسو یې
+		داخلوي. تاسو کولی شئ خپل معلومات هر وخت د اپلیکیشن له غیر نصبه کولو یا
+		د هغې ذخیره پاکولو سره حذف کړئ. ځکه چې هیڅ شی بهرنۍ توګه نه ساتل کېږي،
+		نور اضافي ګامونه اړتیا نه لري.</string>
+	<string name="privacy_policy_children_privacy_title">د ماشومانو محرمیت</string>
+	<string name="privacy_policy_children_privacy_body">ایپ ټول کاروونکو ته خوندي ده، پشمول د 13 کلنۍ څخه
+		کم عمره ماشومانو. هیڅ شخصي معلومات نه راټولیږي، چې دا د COPPA او
+		GDPR-K په څیر نړیوالو ماشومانو د محرمیت قانونونو سره مطابقت کې کوي.</string>
+	<string name="privacy_policy_your_rights_title">ستا حقونه</string>
+	<string name="privacy_policy_your_rights_body">لکه څنګه چې هېڅ معلومات نه راټولېږي، نو زموږ له
+		لارې ستاسو لپاره څه ته لاسرسی، تازه کول یا حذف کول شوني نه دي. ټول
+		معلومات ستاسو دي او یوازې ستاسو پر آله پاتې کېږي.</string>
+	<string name="privacy_policy_contact_information_title">د تماس معلومات</string>
+	<string name="privacy_policy_changes_title">په دې تګلاره کې بدلونونه</string>
+	<string name="privacy_policy_effective_date_title">د تطبیق نېټه</string>
+	<string name="privacy_policy_email_subject">د محرمیت پالیسۍ پوښتنه – %s</string>
+	<string name="policies">پالیسۍ</string>
+	<string name="privacy_policy_contact_information_body">که تاسو د دې محرمیت تګلارې په اړه کومه پوښتنه یا
+		اندیښنه لرئ، تاسو کولی شئ موږ ته د بریښنالیک له لارې اړیکه ونیسئ.</string>
+	<string name="privacy_policy_changes_body">که د اپلکیشن فعالیت داسې بدلون ومومي چې ستاسو
+		محرمیت ته اغېز ورسوي، نو دا د محرمیت پالیسۍ به ورته مطابق تازه شي. موږ
+		کاروونکي هڅوو چې له وخت څخه وخت ته پالیسي وګوري.</string>
+	<string name="privacy_policy_effective_date_body">د نافذېدو نېټه هغه ورځ ته اشاره کوي کله چې دا د
+		محرمیت پالیسۍ وروستی ځل تازه شوه یا نافذه شوه. د دې پالیسۍ په نوې بڼه
+		کې به دا څرګنده شي چې ایپ ستاسو معلومات څنګه اداره کوي. موږ کاروونکي
+		هڅوو چې دا پالیسي وخت په وخت وګوري څو د خپلو معلوماتو د چلند په اړه
+		خبر پاتې شي.</string>
 </resources>

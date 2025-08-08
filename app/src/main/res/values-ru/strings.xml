@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Фильтры</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Код валюты</string>
 	<string name="amount_label">Сумма</string>
 	<string name="category_label">Категория</string>
 	<string name="invalid_format_error">Недопустимый формат</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">код валюты: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Количество символов: %d. Лимит символов: %d</string>
+	<string name="privacy_policy">Политика конфиденциальности</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Ваши данные остаются у вас</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Мы уважаем вашу конфиденциальность. Это приложение
+		работает полностью офлайн и не собирает и не передает никакие данные.
+		Данная политика распространяется на всех пользователей по всему миру,
+		включая детей всех возрастов. Мы не собираем, не храним, не передаем и
+		не делимся никакой личной или неперсональной информацией. Приложение
+		работает полностью офлайн. Все функции можно использовать без
+		подключения к интернету, и данные никогда не получают доступа и не
+		отправляются куда-либо.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Только Локальное Хранение Данных</string>
+	<string name="privacy_policy_local_only_data_storage_body">Вся информация, которую вы вводите в приложение,
+		хранится только на вашем устройстве. Она никогда не загружается, не
+		сохраняется на внешние серверы и не передаётся третьим лицам. Мы не
+		имеем и не можем иметь доступа к этой информации.</string>
+	<string name="privacy_policy_no_third_party_services_title">Нет Сервисов Третьих Сторон</string>
+	<string name="privacy_policy_no_third_party_services_body">Приложение не использует сторонние SDK,
+		аналитические инструменты, рекламные сети или какие-либо внешние
+		сервисы, собирающие данные. Никто, включая нас, не имеет доступа к
+		использованию вашего приложения или данным.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Управление и Удаление Данных</string>
+	<string name="privacy_policy_data_control_and_deletion_body">У вас есть полный контроль над введённой
+		информацией. Вы можете удалить свои данные в любое время, удалив
+		приложение или очистив его хранилище. Поскольку ничего не сохраняется
+		внешне, дополнительные действия не требуются.</string>
+	<string name="privacy_policy_children_privacy_title">Конфиденциальность Детей</string>
+	<string name="privacy_policy_children_privacy_body">Приложение безопасно для всех пользователей,
+		включая детей младше 13 лет. Личные данные не собираются, что делает
+		его соответствующим глобальным законам о конфиденциальности детей,
+		таким как COPPA и GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Ваши Права</string>
+	<string name="privacy_policy_your_rights_body">Поскольку данные не собираются, вам нечего
+		просматривать, обновлять или удалять через нас. Все данные принадлежат
+		вам и остаются исключительно на вашем устройстве.</string>
+	<string name="privacy_policy_contact_information_title">Контактная информация</string>
+	<string name="privacy_policy_changes_title">Изменения в настоящей политике</string>
+	<string name="privacy_policy_effective_date_title">Дата вступления в силу</string>
+	<string name="privacy_policy_email_subject">Запрос по Политике Конфиденциальности – %s</string>
+	<string name="policies">Политики</string>
+	<string name="privacy_policy_contact_information_body">Если у вас есть какие-либо вопросы или опасения по
+		поводу данной Политики конфиденциальности, вы можете связаться с нами
+		по электронной почте.</string>
+	<string name="privacy_policy_changes_body">Если функциональность приложения изменится таким
+		образом, что это повлияет на вашу конфиденциальность, настоящая
+		Политика конфиденциальности будет соответствующим образом обновлена.
+		Мы рекомендуем пользователям периодически просматривать политику.</string>
+	<string name="privacy_policy_effective_date_body">Дата вступления в силу относится к дню, когда
+		данная Политика конфиденциальности была в последний раз обновлена или
+		вступила в силу. Любые изменения в том, как приложение обрабатывает
+		ваши данные, будут отражены в обновлённой версии этой политики. Мы
+		рекомендуем пользователям периодически просматривать эту политику,
+		чтобы быть в курсе того, как обрабатывается их информация.</string>
 </resources>

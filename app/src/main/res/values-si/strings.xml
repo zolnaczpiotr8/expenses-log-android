@@ -26,7 +26,6 @@
 	<string name="date_filter_title">දිනය</string>
 	<string name="filters_title">පෙරහන්</string>
 	<string name="currency_label">මුදල්</string>
-	<string name="currency_code_label">මුදල් කේතය</string>
 	<string name="amount_label">ප්‍රමාණය</string>
 	<string name="category_label">වර්ගය</string>
 	<string name="invalid_format_error">අවලංගු ආකෘතිය</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">මුදල් කේතය: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">අකුරු ගණන: %d. අකුරු සීමාව: %d</string>
+	<string name="privacy_policy">පෞද්ගලිකතා ප්‍රතිපත්තිය</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">ඔබේ දත්ත ඔබ සමඟ රැඳී සිටී</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">අපි ඔබගේ පෞද්ගලිකත්වයට ගරු කරනවා. මෙම යෙදුම
+		සම්පූර්ණයෙන්ම ඔෆ්ලයින් ක්‍රියා කරයි සහ කිසිදු දත්ත එකතු කිරීම හෝ
+		බෙදාහරිනවා නැහැ. මෙම ප්‍රතිපත්තිය ලෝකයේ සියලු පරිශීලකයින්ට, සියලු වයස්
+		කාණ්ඩ වල ළමුන් ඇතුළු, අදාළ වේ. අපි කිසිදු පෞද්ගලික හෝ අපෞද්ගලික
+		තොරතුරු එකතු නොකරනවා, ගබඩා නොකරනවා, ප්‍රේරණය නොකරනවා හෝ බෙදාහරිනවා
+		නැහැ. යෙදුම සම්පූර්ණයෙන්ම ඔෆ්ලයින් ක්‍රියා කරයි. සියලු විශේෂාංග
+		අන්තර්ජාල සම්බන්ධතාවයක් නොමැතිව භාවිතා කළ හැකි අතර කිසිදු දත්ත කිසිදු
+		තැනකට ලබා ගැනීම හෝ යැවීම සිදු නොවේ.</string>
+	<string name="privacy_policy_local_only_data_storage_title">ස්ථානිකව පමණක් දත්ත ගබඩා කිරීම</string>
+	<string name="privacy_policy_local_only_data_storage_body">ඔබ යෙදුමට ඇතුළත් කරන සියලුම තොරතුරු ඔබගේම උපාංගය
+		තුළ පමණක් සුරකිනු ලැබේ. එය කිසිදු විටෙකෙත් බාහිර සේවාදායකයන් වෙත උඩුගත
+		නොකරයි, උපස්ථ නොකරයි හෝ කිසිවෙකු සමඟ බෙදා නොගනී. අපට මෙම තොරතුරු වෙත
+		ප්‍රවේශයක් නැතත් එය ලබාගත නොහැක.</string>
+	<string name="privacy_policy_no_third_party_services_title">පාර්ශ්වීය සේවාවන් නැත</string>
+	<string name="privacy_policy_no_third_party_services_body">යෙදුම තුන්වන පාර්ශවයේ SDK, විශ්ලේෂණ මෙවලම්,
+		දැන්වීම් ජාල, හෝ දත්ත රැස්කරන ඕනෑම බාහිර සේවාවක් භාවිතා කරන්නේ නැත. අප
+		ඇතුළු වෙන කිසිවෙකුටත් ඔබගේ යෙදුම් භාවිතය හෝ දත්ත වෙත ප්‍රවේශය නොමැත.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">දත්ත පාලනය සහ මකීම</string>
+	<string name="privacy_policy_data_control_and_deletion_body">ඔබ ඇතුළත් කරන තොරතුරු මත ඔබට සම්පූර්ණ පාලනයක් ඇත.
+		යෙදුම අස්ථාපනය කිරීමෙන් හෝ එහි ගබඩා ඉවත් කිරීමෙන් ඔබේ දත්ත ඕනෑම වේලාවක
+		ඉවත් කළ හැක. බාහිරව කිසිවක් සුරැකි නොවන බැවින් අමතර පියවර අවශ්‍ය නැත.</string>
+	<string name="privacy_policy_children_privacy_title">දරුවන්ගේ රහස්‍යභාවය</string>
+	<string name="privacy_policy_children_privacy_body">13 වසරට අඩු දරුවන් ඇතුළු සියලුම පරිශීලකයින් සඳහා
+		යෙදුම ආරක්ෂිතයි. කිසිඳු පුද්ගලික දත්තයක් සංග්‍රහ නොකෙරේ, එය COPPA සහ
+		GDPR-K වැනි ගෝලීය ළමා පෞද්ගලිකත්ව නීතිවලට අනුකූල කරයි.</string>
+	<string name="privacy_policy_your_rights_title">ඔබගේ අයිතිවාසිකම්</string>
+	<string name="privacy_policy_your_rights_body">දත්ත කිසිවක් රැස් නොකරන බැවින් අප හරහා ඔබට ප්‍රවේශ
+		විය හැකි, යාවත්කාලීන කළ හැකි හෝ මකා දැමිය හැකි කිසිවක් නොමැත. සියලුම
+		දත්ත ඔබේම වන අතර ඔබගේ උපාංගයේ පමණක් රැඳේ.</string>
+	<string name="privacy_policy_contact_information_title">සම්බන්ධතා තොරතුරු</string>
+	<string name="privacy_policy_changes_title">මෙම ප්‍රතිපත්ති වෙනස්කම්</string>
+	<string name="privacy_policy_effective_date_title">ක්‍රියාත්මක දිනය</string>
+	<string name="privacy_policy_email_subject">රහස්‍යතා ප්‍රතිපත්තිය පිළිබඳ විමසීම – %s</string>
+	<string name="policies">ප්‍රතිපත්ති</string>
+	<string name="privacy_policy_contact_information_body">මෙම පුද්ගලිකත්ව ප්‍රතිපත්තිය සම්බන්ධයෙන් ඔබට කිසිඳු
+		ප්‍රශ්නයක් හෝ පැකිරීමක් ඇත්නම්, කරුණාකර අප හා ඊ-මේල් හරහා සම්බන්ධ
+		වන්න.</string>
+	<string name="privacy_policy_changes_body">යෙදුමේ ක්‍රියාකාරිත්වය ඔබේ පෞද්ගලිකත්වයට බලපාන
+		ආකාරයෙන් වෙනස් වූහොත්, මෙම පෞද්ගලිකතා ප්‍රතිපත්තිය ඒ අනුව යාවත්කාලීන
+		කරනු ලැබේ. පරිශීලකයින්ට වේලාසේ ප්‍රතිපත්තිය සමාලෝචනය කිරීමට අපි
+		අනුග්‍රහය දක්වමු.</string>
+	<string name="privacy_policy_effective_date_body">බලපැවැත්වීමේ දිනය යනු මෙම රහස්‍යතා ප්‍රතිපත්තිය
+		අවසන් වරට යාවත්කාලීන කරන ලද දිනය හෝ ක්‍රියාත්මක වූ දිනය යි. යෙදුම ඔබේ
+		දත්ත හැසිරවීමේ ආකාරය වෙනස් වූ විට එය මෙම ප්‍රතිපත්ති වල යාවත්කාලීන
+		අනුවාදයක නිරූපණය වේ. ඔබේ තොරතුරු සැලසීමේ ආකාරය පිළිබඳව දැනුවත්ව සිටීමට
+		පරිශීලකයින්ට මෙම ප්‍රතිපත්තිය වාරයෙන් වාරයකට සමාලෝචනය කිරීමට අපි
+		උපදෙස් දෙමු।</string>
 </resources>

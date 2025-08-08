@@ -26,7 +26,6 @@
 	<string name="date_filter_title">തീയതി</string>
 	<string name="filters_title">ഫിൽട്ടറുകൾ</string>
 	<string name="currency_label">കറൻസി</string>
-	<string name="currency_code_label">നാണയ കോഡ്</string>
 	<string name="amount_label">തുക</string>
 	<string name="category_label">വർഗ്ഗം</string>
 	<string name="invalid_format_error">അസാധുവായ ഫോർമാറ്റ്</string>
@@ -48,4 +47,61 @@
 	<string name="currency_code_item_label">കറൻസി കോഡ്: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">അക്ഷരങ്ങളുടെ എണ്ണം: %d. അക്ഷര പരിധി: %d</string>
+	<string name="privacy_policy">സ്വകാര്യത നയം</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">നിങ്ങളുടെ ഡേറ്റ നിങ്ങളുടെ കൂടെയാണ്</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">ഞങ്ങൾ നിങ്ങളുടെ സ്വകാര്യതയ്ക്ക് ബഹുമാനിക്കുന്നു. ഈ
+		ആപ്പ് പൂർണ്ണമായും ഓഫ്‌ലൈൻ പ്രവർത്തിക്കുന്നു, എന്തെങ്കിലും ഡാറ്റ
+		ശേഖരിക്കുന്നതോ പങ്കുവെക്കുന്നതോ ഇല്ല. ഈ നയം മുഴുവൻ ലോകം മുഴുവൻ ഉള്ള
+		എല്ലാ ഉപയോക്താക്കളെയും ഉൾക്കൊള്ളുന്നു, എല്ലാ പ്രായത്തിലുള്ള
+		കുട്ടികളോടും ഉൾപ്പെടെ. ഞങ്ങൾ വ്യക്തിഗത അല്ലെങ്കിൽ അസ്വഭാവിക വിവരങ്ങൾ
+		ശേഖരിക്കുന്നതും സൂക്ഷിക്കുന്നതും പ്രക്ഷേപിക്കുന്നതും പങ്കുവെക്കുന്നതും
+		ഇല്ല. ആപ്പ് പൂർണ്ണമായും ഓഫ്‌ലൈൻ പ്രവർത്തിക്കുന്നു. എല്ലാ ഫീച്ചറുകളും
+		ഇന്റർനെറ്റ് കണക്ഷൻ ഇല്ലാതെ ഉപയോഗിക്കാം, ഡാറ്റ എവിടെക്കും
+		പ്രവേശിപ്പിക്കുകയോ അയയ്ക്കുകയോ ചെയ്യപ്പെടുകയുമില്ല.</string>
+	<string name="privacy_policy_local_only_data_storage_title">പ്രാദേശികമായ ഡാറ്റാ സംഭരണം മാത്രം</string>
+	<string name="privacy_policy_local_only_data_storage_body">നിങ്ങൾ ആപ്പിൽ നൽകുന്ന എല്ലാ വിവരങ്ങളും നിങ്ങളുടെ
+		സ്വന്തം ഉപകരണത്തിൽ മാത്രമേ സംഭരിക്കപ്പെടുകയുള്ളു. ഇത് ഒരിക്കലും പുറം
+		സെർവറുകളിലേക്ക് അപ്‌ലോഡ് ചെയ്യുകയോ, ബാക്കപ്പ് എടുക്കുകയോ, മറ്റാരുമായി
+		പങ്കുവെക്കുകയോ ചെയ്യില്ല. ഞങ്ങൾക്ക് ഈ വിവരങ്ങളിലേക്ക് പ്രവേശനമില്ലയും
+		അതിന് കഴിയുകയും ഇല്ല.</string>
+	<string name="privacy_policy_no_third_party_services_title">മൂന്നാംകക്ഷി സേവനങ്ങൾ ഇല്ല</string>
+	<string name="privacy_policy_no_third_party_services_body">ആപ്പ് മൂന്നാംപക്ഷ SDKകൾ, വിശകലന ഉപകരണങ്ങൾ, പരസ്യ
+		നെറ്റ്വർക്കുകൾ അല്ലെങ്കിൽ ഡാറ്റ ശേഖരിക്കുന്ന മറ്റ് ഏതെങ്കിലും
+		പുറത്തുള്ള സേവനങ്ങൾ ഉപയോഗിക്കുന്നില്ല. ഞങ്ങളടങ്ങിച്ച മറ്റാരും
+		നിങ്ങളുടെ ആപ്പ് ഉപയോഗം അല്ലെങ്കിൽ ഡാറ്റ ആക്‌സസ് ചെയ്യാൻ കഴിയില്ല.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">ഡേറ്റ നിയന്ത്രണവും ഇല്ലാതാക്കലും</string>
+	<string name="privacy_policy_data_control_and_deletion_body">നിങ്ങൾ നൽകുന്ന വിവരങ്ങളെക്കുറിച്ച് നിങ്ങൾക്ക്
+		പൂർണ്ണ നിയന്ത്രണമുണ്ട്. ആപ്പ് അൺഇൻസ്റ്റാൾ ചെയ്യുകയോ അതിന്റെ സംഭരണികൾ
+		ശുചീകരിക്കുകയോ ചെയ്ത് നിങ്ങൾക്ക് നിങ്ങളുടെ ഡാറ്റ ഏതുസമയത്തും ഡിലീറ്റ്
+		ചെയ്യാം. പുറത്തേക്ക് ഒന്നും സൂക്ഷിക്കുന്നില്ലാത്തതിനാൽ അധിക നടപടി
+		ആവശ്യമില്ല.</string>
+	<string name="privacy_policy_children_privacy_title">കുട്ടികളുടെ സ്വകാര്യത</string>
+	<string name="privacy_policy_children_privacy_body">ഈ ആപ്പ് 13 വയസ്സിന് താഴെയുള്ള കുട്ടികളെയും
+		ഉള്‍പ്പെടെ എല്ലാ ഉപയോക്താക്കള്‍ക്കും സുരക്ഷിതമാണ്. വ്യക്തിഗത ഡാറ്റ
+		ഒരിക്കലും ശേഖരിക്കുന്നില്ല, അതിനാല്‍ COPPA, GDPR-K പോലുള്ള ആഗോള
+		കുട്ടികളുടെ സ്വകാര്യതാ നിയമങ്ങള്‍ക്കു വിധേയമാണ്.</string>
+	<string name="privacy_policy_your_rights_title">നിങ്ങളുടെ അവകാശങ്ങൾ</string>
+	<string name="privacy_policy_your_rights_body">ഡേറ്റാ ശേഖരിക്കപ്പെട്ടിട്ടില്ലാത്തതിനാൽ, ഞങ്ങളിലൂടെ
+		നിങ്ങൾക്ക് ആക്‌സസ് ചെയ്യാനോ, അപ്‌ഡേറ്റ് ചെയ്യാനോ, ഇല്ലാതാക്കാനോ
+		കഴിയുന്നതായിട്ട് ഒന്നുമില്ല. എല്ലാ ഡേറ്റയും നിങ്ങളുടെതാണ്, അത്
+		നിങ്ങളുടെ ഉപകരണത്തിൽ മാത്രമാണ് തുടരുന്നത്.</string>
+	<string name="privacy_policy_contact_information_title">കോൺടാക്ട് വിവരങ്ങൾ</string>
+	<string name="privacy_policy_changes_title">ഈ നയത്തിലെ മാറ്റങ്ങൾ</string>
+	<string name="privacy_policy_effective_date_title">പ്രാബല്യത്തിൽ വരുന്ന തീയതി</string>
+	<string name="privacy_policy_email_subject">സ്വകാര്യതാനയം സംബന്ധിച്ച അന്വേഷണം – %s</string>
+	<string name="policies">നയങ്ങൾ</string>
+	<string name="privacy_policy_contact_information_body">ഈ സ്വകാര്യതാ നയവുമായി ബന്ധപ്പെട്ട് നിങ്ങൾക്ക്
+		ഏതെങ്കിലും ചോദ്യങ്ങളോ ആശങ്കകളോ ഉണ്ടെങ്കിൽ, ദയവായി ഞങ്ങളെ ഇമെയിൽ മുഖേന
+		ബന്ധപ്പെടുക.</string>
+	<string name="privacy_policy_changes_body">ആപ്പിന്റെ പ്രവർത്തനം നിങ്ങളുടെ സ്വകാര്യതയെ
+		ബാധിക്കുന്നവിധം മാറിയാൽ, ഈ സ്വകാര്യതാനയം അനുസൃതമായി അപ്‌ഡേറ്റ്
+		ചെയ്യുന്നതായിരിക്കും. ഉപയോക്താക്കൾ ഇടയ്ക്കിടെ നയം പരിശോധിക്കാൻ ഞങ്ങൾ
+		ഉത്സാഹിപ്പിക്കുന്നു.</string>
+	<string name="privacy_policy_effective_date_body">പ്രാബല്യത്തിൽ വരുന്ന തീയതി ഈ സ്വകാര്യതാ നയം
+		അവസാനമായി പുതുക്കിയതോ പ്രാബല്യത്തിൽ വന്നതോ ആയ തീയതിയാണ്. ആപ്പ്
+		നിങ്ങളുടെ ഡാറ്റ കൈകാര്യം ചെയ്യുന്ന രീതിയിൽ ഉണ്ടായിരിക്കുന്നതായ
+		മാറ്റങ്ങൾ ഈ നയത്തിന്റെ പുതുക്കിയ പതിപ്പിൽ പ്രതിഫലിപ്പിക്കും.
+		ഉപയോക്താക്കൾക്ക് അവരുടെ വിവരങ്ങൾ എങ്ങനെ കൈകാര്യം ചെയ്യപ്പെടുന്നു എന്ന്
+		അറിയുന്നതിനായി ഈ നയം നിശ്ചിത ഇടവേളകളിൽ പരിശോധിക്കാൻ ഞങ്ങൾ
+		പ്രോത്സാഹിപ്പിക്കുന്നു.</string>
 </resources>

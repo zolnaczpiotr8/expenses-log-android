@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Фильтрлар</string>
 	<string name="currency_label">Валюта</string>
-	<string name="currency_code_label">Валюта коды</string>
 	<string name="amount_label">Сумма</string>
 	<string name="category_label">Төркем</string>
 	<string name="invalid_format_error">Яраксыз формат</string>
@@ -48,4 +47,57 @@
 	<string name="currency_code_item_label">валюта коды: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Символлар саны: %d. Символлар лимиты: %d</string>
+	<string name="privacy_policy">Яшеренлек сәясәте</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Мәгълүматларыгыз сезнең белән кала</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Без сезнең хосусыйлыгыгызны хөрмәт итәбез. Әлеге
+		кушымта тулысынча оффлайн режимда эшли һәм бернинди мәгълүмат җыймый
+		һәм уртаклашмый. Әлеге сәясәт бөтен дөнья кулланучыларына, шул исәптән
+		һәр яшьтәге балаларга да кагыла. Без шәхси дә, шәхси булмаган
+		мәгълүматны да җыймыйбыз, сакламыйбыз, җибәрмибез һәм уртаклашмыйбыз.
+		Кушымта тулысынча оффлайн эшли. Барлык функцияләрне интернетка
+		тоташусыз кулланырга мөмкин, һәм мәгълүмат беркайчан да бер җиргә
+		җибәрелми яки керү мөмкинлеге булмый.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Бары Тик Җирле Мәгълүматларны Саклау</string>
+	<string name="privacy_policy_local_only_data_storage_body">Кушымтага керткән барлык мәгълүматларыгыз бары тик
+		үз җайланмагызда гына саклана. Ул беркайчан да тышкы серверларга
+		йөкләнми, резерв күчермә ясалмый һәм башка кешеләр белән
+		уртаклашылмый. Без бу мәгълүматларга керә алмыйбыз һәм керергә
+		мөмкинлегебез дә юк.</string>
+	<string name="privacy_policy_no_third_party_services_title">Өченче Як Хезмәтләре Юк</string>
+	<string name="privacy_policy_no_third_party_services_body">Кушымта өченче як SDKлары, аналитика кораллары,
+		реклама челтәрләре яки мәгълүмат җыючы тышкы хезмәтләрне кулланмый.
+		Без дә кертеп, беркем дә сезнең кушымтаны куллануга яки мәгълүматларга
+		керә алмый.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Мәгълүматны Контроль Һәм Бетерү</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Сез керткән мәгълүмат өстеннән тулы контрольгә ия.
+		Программаны бетереп яки аның саклагычын чистартып, мәгълүматларыгызны
+		теләсә кайсы вакытта бетерә аласыз. Берни дә тышкы саклагычта
+		сакланмаганлыктан, өстәмә адымнар кирәк түгел.</string>
+	<string name="privacy_policy_children_privacy_title">Балаларның Шәхси Хакы</string>
+	<string name="privacy_policy_children_privacy_body">Кушымта барлык кулланучылар, шул исәптән 13 яшьтән
+		кечерәк балалар өчен дә куркынычсыз. Шәхси мәгълүмат җыелмый, бу аны
+		COPPA һәм GDPR-K кебек дөньякүләм балаларның шәхси мәгълүматларын
+		яклау кануннарына туры китерә.</string>
+	<string name="privacy_policy_your_rights_title">Сезнең Хокуклар</string>
+	<string name="privacy_policy_your_rights_body">Мәгълүмат җыелмаганда, без аша керергә, яңартырга
+		яки бетерергә бернәрсә дә юк. Бөтен мәгълүмат сезнеке һәм ул бары тик
+		сезнең җайланмагызда кала.</string>
+	<string name="privacy_policy_contact_information_title">Элемтә мәгълүматы</string>
+	<string name="privacy_policy_changes_title">Бу сәясәткә үзгәрешләр</string>
+	<string name="privacy_policy_effective_date_title">Гамәлгә керү көне</string>
+	<string name="privacy_policy_email_subject">Хосусыйлык Сәясәте Турында Сорау – %s</string>
+	<string name="policies">Сәясәтләр</string>
+	<string name="privacy_policy_contact_information_body">Әгәр сездә әлеге Хосусыйлык сәясәте буенча сораулар
+		яки борчылулар булса, безнең белән электрон почта аша элемтәгә керә
+		аласыз.</string>
+	<string name="privacy_policy_changes_body">Әгәр кушымтаның функциональлеге сезнең шәхси
+		мәгълүматларыгызга йогынты ясарлык үзгәрсә, әлеге Шәхси серлелек
+		сәясәте тиешле рәвештә яңартылачак. Кулланучыларга сәясәтне
+		вакыт-вакыт яңартып карау киңәш ителә.</string>
+	<string name="privacy_policy_effective_date_body">Гамәлгә кертү көне — бу Шәхси серлелек сәясәте
+		соңгы тапкыр яңартылган яки гамәлгә кергән көнне аңлата. Кушымта
+		мәгълүматларыгызны ничек эшкәртүен үзгәрткән очракта, ул бу сәясәтнең
+		яңартылган версиясендә чагылыш табачак. Кулланучыларга үз
+		мәгълүматлары ничек эшкәртелүе турында хәбәрдар булу өчен бу сәясәтне
+		даими тикшереп тору киңәш ителә.</string>
 </resources>

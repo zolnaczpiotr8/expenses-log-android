@@ -26,7 +26,6 @@
 	<string name="date_filter_title">თარიღი</string>
 	<string name="filters_title">ფილტრები</string>
 	<string name="currency_label">ვალუტა</string>
-	<string name="currency_code_label">ვალუტის კოდი</string>
 	<string name="amount_label">თანხა</string>
 	<string name="category_label">კატეგორია</string>
 	<string name="invalid_format_error">არასწორი ფორმატი</string>
@@ -48,4 +47,56 @@
 	<string name="currency_code_item_label">ვალუტის კოდი: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">სიმბოლოების რაოდენობა: %d. სიმბოლოების ზღვარი: %d</string>
+	<string name="privacy_policy">კონფიდენციალურობის პოლიტიკა</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">თქვენი მონაცემები რჩება თქვენთან</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">ჩვენ ვაფასებთ თქვენს კონფიდენციალურობას. ეს
+		აპლიკაცია სრულად მუშაობს ოფლაინელად და არ აგროვებს და არ გაუზიარებს
+		რაიმე მონაცემს. ეს პოლიტიკა ეხება ყველა მომხმარებელს მსოფლიოში, მათ
+		შორის ყველა ასაკის ბავშვებს. ჩვენ არ ვაგროვებთ, ვახარისხებთ, ვგზავნით
+		ან ვუზიარებთ არანაირ პერსონალურ ან არაპერსონალურ ინფორმაციას.
+		აპლიკაცია მუშაობს სრულად ოფლაინელად. ყველა ფუნქცია შეიძლება
+		გამოყენებულ იქნას ინტერნეტთან დაუკავშირდებლად და მონაცემები არასოდეს
+		წვდომადი ან გაგზავნილია არსად.</string>
+	<string name="privacy_policy_local_only_data_storage_title">მხოლოდ ლოკალური მონაცემების შენახვა</string>
+	<string name="privacy_policy_local_only_data_storage_body">აპში შეყვანილი მთელი ინფორმაცია ინახება მხოლოდ
+		თქვენს მოწყობილობაზე. იგი არასდროს იტვირთება, არ ხდება მისი სარეზერვო
+		კოპირების გაკეთება გარე სერვერებზე და არც არავისთან გაზიარება. ჩვენ არ
+		გვაქვს და ვერ გვექნება წვდომა ამ ინფორმაციაზე.</string>
+	<string name="privacy_policy_no_third_party_services_title">მესამე მხარის სერვისები არ არის</string>
+	<string name="privacy_policy_no_third_party_services_body">აპლიკაცია არ იყენებს მესამე მხარის SDK-ებს,
+		ანალიტიკურ ინსტრუმენტებს, რეკლამების ქსელებს ან რაიმე გარე სერვისს,
+		რომელიც აგროვებს მონაცემებს. სხვა არავინ, მათ შორის ჩვენ, არ გვაქვს
+		წვდომა თქვენს აპლიკაციის გამოყენებასა და მონაცემებზე.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">მონაცემების კონტროლი და წაშლა</string>
+	<string name="privacy_policy_data_control_and_deletion_body">თქვენ სრულად აკონტროლებთ თქვენ მიერ შეყვანილ
+		ინფორმაციას. თქვენ შეგიძლიათ ნებისმიერ დროს წაშალოთ თქვენი მონაცემები
+		აპის წაშლით ან მისი მეხსიერების გასუფთავებით. რადგანაც არაფერი ინახება
+		გარე სივრცეში, დამატებითი ქმედებები საჭირო არ არის.</string>
+	<string name="privacy_policy_children_privacy_title">ბავშვების კონფიდენციალურობა</string>
+	<string name="privacy_policy_children_privacy_body">აპი უსაფრთხოა ყველა მომხმარებლისთვის, მათ შორის 13
+		წლამდე ბავშვებისთვის. არ იკრიბება არანაირი პერსონალური მონაცემი, რაც
+		მას შეესაბამება გლობალურ ბავშვთა კონფიდენციალურობის კანონებს,
+		როგორიცაა COPPA და GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">თქვენი უფლებები</string>
+	<string name="privacy_policy_your_rights_body">რამდენადაც მონაცემები არ იკრიბება, არაფერია, რაზეც
+		წვდომა, განახლება ან წაშლა შეგეძლებათ ჩვენი მეშვეობით. ყველა მონაცემი
+		თქვენია და მხოლოდ თქვენს მოწყობილობაზე რჩება.</string>
+	<string name="privacy_policy_contact_information_title">საკონტაქტო ინფორმაცია</string>
+	<string name="privacy_policy_changes_title">ცვლილებები ამ პოლიტიკაში</string>
+	<string name="privacy_policy_effective_date_title">ძალაში შესვლის თარიღი</string>
+	<string name="privacy_policy_email_subject">კონფიდენციალურობის პოლიტიკის მოთხოვნა – %s</string>
+	<string name="policies">პოლიტიკა</string>
+	<string name="privacy_policy_contact_information_body">თუ გაქვთ რაიმე შეკითხვა ან შეშფოთება ამ
+		კონფიდენციალურობის პოლიტიკასთან დაკავშირებით, შეგიძლიათ დაგვიკავშირდეთ
+		ელფოსტით.</string>
+	<string name="privacy_policy_changes_body">თუ აპის ფუნქციონალი შეიცვლება ისე, რომ ეს
+		იმოქმედებს თქვენს კონფიდენციალურობაზე, კონფიდენციალურობის პოლიტიკა
+		შესაბამისად განახლდება. ვურჩევთ მომხმარებლებს პერიოდულად გადახედონ
+		პოლიტიკას.</string>
+	<string name="privacy_policy_effective_date_body">მოქმედების თარიღი მიუთითებს იმ დღეს, როცა ეს
+		კონფიდენციალურობის პოლიტიკა ბოლოს განახლდა ან შევიდა ძალაში.
+		ნებისმიერი ცვლილება, თუ როგორ ამუშავებს აპი თქვენს მონაცემებს,
+		აისახება ამ პოლიტიკის განახლებულ ვერსიაში. მომხმარებლებს ვურჩევთ,
+		პერიოდულად გადაამოწმონ ეს პოლიტიკა, რათა იყვნენ ინფორმირებულნი მათი
+		ინფორმაციის დამუშავების შესახებ.</string>
 </resources>

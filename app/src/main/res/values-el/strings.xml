@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Ημερομηνία</string>
 	<string name="filters_title">Φίλτρα</string>
 	<string name="currency_label">Νόμισμα</string>
-	<string name="currency_code_label">Κωδικός νομίσματος</string>
 	<string name="amount_label">Ποσό</string>
 	<string name="category_label">Κατηγορία</string>
 	<string name="invalid_format_error">Μη έγκυρη μορφή</string>
@@ -48,4 +47,61 @@
 	<string name="currency_code_item_label">κωδικός νομίσματος: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Αριθμός χαρακτήρων: %d. Όριο χαρακτήρων: %d</string>
+	<string name="privacy_policy">Πολιτική Απορρήτου</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Τα δεδομένα σας μένουν μαζί σας</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Σεβόμαστε το απόρρητό σας. Αυτή η εφαρμογή
+		λειτουργεί εντελώς εκτός σύνδεσης και δεν συλλέγει ούτε μοιράζεται
+		δεδομένα. Αυτή η πολιτική ισχύει για όλους τους χρήστες παγκοσμίως,
+		συμπεριλαμβανομένων των παιδιών όλων των ηλικιών. Δεν συλλέγουμε,
+		αποθηκεύουμε, μεταδίδουμε ή μοιραζόμαστε προσωπικές ή μη προσωπικές
+		πληροφορίες. Η εφαρμογή λειτουργεί εντελώς εκτός σύνδεσης. Όλες οι
+		λειτουργίες μπορούν να χρησιμοποιηθούν χωρίς σύνδεση στο διαδίκτυο και
+		κανένα δεδομένο δεν έχει ποτέ πρόσβαση ή αποσταλεί οπουδήποτε.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Τοπική Αποθήκευση Δεδομένων Μόνο</string>
+	<string name="privacy_policy_local_only_data_storage_body">Όλες οι πληροφορίες που εισάγετε στην εφαρμογή
+		αποθηκεύονται μόνο στη δική σας συσκευή. Δεν ανεβαίνουν ποτέ, δεν
+		δημιουργούνται αντίγραφα ασφαλείας σε εξωτερικούς διακομιστές και δεν
+		κοινοποιούνται σε κανέναν. Δεν έχουμε και δεν μπορούμε να έχουμε
+		πρόσβαση σε αυτές τις πληροφορίες.</string>
+	<string name="privacy_policy_no_third_party_services_title">Χωρίς Υπηρεσίες Τρίτων</string>
+	<string name="privacy_policy_no_third_party_services_body">Η εφαρμογή δεν χρησιμοποιεί SDK τρίτων, εργαλεία
+		ανάλυσης, δίκτυα διαφημίσεων ή οποιεσδήποτε εξωτερικές υπηρεσίες που
+		συλλέγουν δεδομένα. Κανείς άλλος, συμπεριλαμβανομένου εμάς, δεν έχει
+		πρόσβαση στη χρήση ή στα δεδομένα της εφαρμογής σας.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Έλεγχος και Διαγραφή Δεδομένων</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Έχετε πλήρη έλεγχο των πληροφοριών που εισάγετε.
+		Μπορείτε να διαγράψετε τα δεδομένα σας οποιαδήποτε στιγμή
+		απεγκαθιστώντας την εφαρμογή ή καθαρίζοντας την αποθήκευσή της.
+		Δεδομένου ότι δεν αποθηκεύεται τίποτα εξωτερικά, δεν απαιτούνται
+		επιπλέον βήματα.</string>
+	<string name="privacy_policy_children_privacy_title">Απόρρητο Παιδιών</string>
+	<string name="privacy_policy_children_privacy_body">Η εφαρμογή είναι ασφαλής για όλους τους χρήστες,
+		συμπεριλαμβανομένων των παιδιών κάτω των 13 ετών. Δεν συλλέγονται
+		προσωπικά δεδομένα, καθιστώντας την σύμφωνη με τους παγκόσμιους νόμους
+		για την προστασία της ιδιωτικότητας των παιδιών, όπως το COPPA και το
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Τα Δικαιώματά Σας</string>
+	<string name="privacy_policy_your_rights_body">Δεδομένου ότι δεν συλλέγονται δεδομένα, δεν υπάρχει
+		τίποτα στο οποίο μπορείτε να έχετε πρόσβαση, να ενημερώσετε ή να
+		διαγράψετε μέσω εμάς. Όλα τα δεδομένα είναι δικά σας και παραμένουν
+		αποκλειστικά στη συσκευή σας.</string>
+	<string name="privacy_policy_contact_information_title">Πληροφορίες Επικοινωνίας</string>
+	<string name="privacy_policy_changes_title">Αλλαγές σε αυτήν την πολιτική</string>
+	<string name="privacy_policy_effective_date_title">Ημερομηνία έναρξης ισχύος</string>
+	<string name="privacy_policy_email_subject">Ερώτημα Πολιτικής Απορρήτου – %s</string>
+	<string name="policies">Πολιτικές</string>
+	<string name="privacy_policy_contact_information_body">Αν έχετε οποιεσδήποτε ερωτήσεις ή ανησυχίες σχετικά
+		με αυτήν την Πολιτική Απορρήτου, μπορείτε να επικοινωνήσετε μαζί μας
+		μέσω email.</string>
+	<string name="privacy_policy_changes_body">Αν η λειτουργικότητα της εφαρμογής αλλάξει με τρόπο
+		που επηρεάζει το απόρρητό σας, αυτή η Πολιτική Απορρήτου θα ενημερωθεί
+		αναλόγως. Ενθαρρύνουμε τους χρήστες να ελέγχουν την πολιτική κατά
+		διαστήματα.</string>
+	<string name="privacy_policy_effective_date_body">Η ημερομηνία ισχύος αναφέρεται στην ημέρα που αυτή
+		η Πολιτική Απορρήτου ενημερώθηκε τελευταία φορά ή τέθηκε σε ισχύ.
+		Οποιεσδήποτε αλλαγές στον τρόπο με τον οποίο η εφαρμογή χειρίζεται τα
+		δεδομένα σας θα αντικατοπτρίζονται σε μια ενημερωμένη έκδοση αυτής της
+		πολιτικής. Ενθαρρύνουμε τους χρήστες να εξετάζουν αυτήν την πολιτική
+		περιοδικά για να παραμένουν ενημερωμένοι σχετικά με τον τρόπο με τον
+		οποίο αντιμετωπίζονται οι πληροφορίες τους.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">日期</string>
 	<string name="filters_title">篩選器</string>
 	<string name="currency_label">貨幣</string>
-	<string name="currency_code_label">貨幣代碼</string>
 	<string name="amount_label">金額</string>
 	<string name="category_label">類別</string>
 	<string name="invalid_format_error">無效格式</string>
@@ -47,4 +46,26 @@
 	<string name="currency_code_item_label">貨幣代碼: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">字元數：%d。字元限制：%d</string>
+	<string name="privacy_policy">隱私政策</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">您的資料始終屬於您</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">我們尊重您的隱私。此應用程式完全離線運作，不收集或分享任何資料。本政策適用於全球所有用戶，包括所有年齡層的兒童。我們不收集、存儲、傳輸或分享任何個人或非個人資訊。該應用程式完全離線運作。所有功能均可在無網路連線的情況下使用，且資料絕不會被存取或傳送至任何地方。</string>
+	<string name="privacy_policy_local_only_data_storage_title">僅本地資料儲存</string>
+	<string name="privacy_policy_local_only_data_storage_body">您在應用程式中輸入的所有資訊僅儲存在您自己的裝置上。不會上傳、不會備份到外部伺服器，也不會與任何人分享。我們無法存取這些資訊，也無法取得。</string>
+	<string name="privacy_policy_no_third_party_services_title">無第三方服務</string>
+	<string name="privacy_policy_no_third_party_services_body">此應用程式不使用第三方
+		SDK、分析工具、廣告網絡或任何收集資料的外部服務。除了我們之外，沒有人可以存取您的應用程式使用情況或資料。</string>
+	<string name="privacy_policy_data_control_and_deletion_title">資料控制與刪除</string>
+	<string name="privacy_policy_data_control_and_deletion_body">您完全掌控您輸入的資訊。您可以隨時透過卸載應用程式或清除其儲存空間來刪除您的資料。由於沒有任何內容被外部儲存，無需進行其他操作。</string>
+	<string name="privacy_policy_children_privacy_title">兒童隱私</string>
+	<string name="privacy_policy_children_privacy_body">此應用程式對所有使用者都是安全的，包括13歲以下的兒童。不會收集任何個人資料，因此符合COPPA與GDPR-K等全球兒童隱私法規。</string>
+	<string name="privacy_policy_your_rights_title">您的權利</string>
+	<string name="privacy_policy_your_rights_body">由於不收集任何資料，您無法透過我們存取、更新或刪除任何內容。所有資料均屬於您，並僅保留在您的裝置上。</string>
+	<string name="privacy_policy_contact_information_title">聯絡資訊</string>
+	<string name="privacy_policy_changes_title">本政策的變更</string>
+	<string name="privacy_policy_effective_date_title">生效日期</string>
+	<string name="privacy_policy_email_subject">隱私政策諮詢 – %s</string>
+	<string name="policies">政策</string>
+	<string name="privacy_policy_contact_information_body">如果您對本隱私權政策有任何疑問或疑慮，您可以透過電子郵件與我們聯繫。</string>
+	<string name="privacy_policy_changes_body">如果應用程式的功能發生影響您隱私的變化，隱私權政策將會作出相應更新。我們鼓勵使用者不時查看政策。</string>
+	<string name="privacy_policy_effective_date_body">生效日期指的是本隱私政策最後更新或開始生效的日期。任何應用程式處理您資料方式的變更，將反映於本政策的更新版本中。我們鼓勵使用者定期查看此政策，以隨時了解其資料的處理方式。</string>
 </resources>

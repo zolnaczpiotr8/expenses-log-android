@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Datum</string>
 	<string name="filters_title">Filtri</string>
 	<string name="currency_label">Valuta</string>
-	<string name="currency_code_label">Koda valute</string>
 	<string name="amount_label">Znesek</string>
 	<string name="category_label">Kategorija</string>
 	<string name="invalid_format_error">Neveljavna oblika</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">koda valute: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Število znakov: %d. Omejitev znakov: %d</string>
+	<string name="privacy_policy">Pravilnik o zasebnosti</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Vaši podatki ostanejo pri vas</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Spoštujemo vašo zasebnost. Ta aplikacija deluje
+		popolnoma brez povezave in ne zbira ali deli nobenih podatkov. Ta
+		politika velja za vse uporabnike po vsem svetu, vključno z otroki vseh
+		starosti. Ne zbiramo, ne hranimo, ne prenašamo ali delimo nobenih
+		osebnih ali neosebnih informacij. Aplikacija deluje popolnoma brez
+		povezave. Vse funkcije so lahko uporabljene brez internetne povezave
+		in podatki nikoli niso dostopni ali poslani nikamor.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Samo Lokalno Shranjevanje Podatkov</string>
+	<string name="privacy_policy_local_only_data_storage_body">Vse informacije, ki jih vnesete v aplikacijo, se
+		shranijo samo na vaši napravi. Nikoli se ne naložijo, varnostno
+		kopirajo na zunanje strežnike ali delijo z drugimi. Do teh podatkov
+		nimamo dostopa in ga tudi ne moremo imeti.</string>
+	<string name="privacy_policy_no_third_party_services_title">Brez Storitev Tretjih Strani</string>
+	<string name="privacy_policy_no_third_party_services_body">Aplikacija ne uporablja SDK-jev tretjih oseb,
+		analitičnih orodij, oglaševalskih omrežij ali kakršnih koli zunanjih
+		storitev, ki zbirajo podatke. Nihče drug, vključno z nami, nima
+		dostopa do vaše uporabe aplikacije ali podatkov.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Nadzor in Izbris Podatkov</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Imate popoln nadzor nad informacijami, ki jih
+		vnesete. Podatke lahko kadar koli izbrišete z odstranitvijo aplikacije
+		ali čiščenjem njenega pomnilnika. Ker se nič ne shranjuje zunanje,
+		dodatni koraki niso potrebni.</string>
+	<string name="privacy_policy_children_privacy_title">Zasebnost Otrok</string>
+	<string name="privacy_policy_children_privacy_body">Aplikacija je varna za vse uporabnike, tudi za
+		otroke, mlajše od 13 let. Osebni podatki se ne zbirajo, kar pomeni, da
+		je skladna z globalnimi zakoni o zasebnosti otrok, kot sta COPPA in
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Vaše Pravice</string>
+	<string name="privacy_policy_your_rights_body">Ker se podatki ne zbirajo, prek nas nimate ničesar
+		za dostop, posodobitev ali izbris. Vsi podatki so vaši in ostanejo
+		izključno na vaši napravi.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktni podatki</string>
+	<string name="privacy_policy_changes_title">Spremembe tega pravilnika</string>
+	<string name="privacy_policy_effective_date_title">Datum začetka veljavnosti</string>
+	<string name="privacy_policy_email_subject">Povpraševanje o Politiki Zasebnosti – %s</string>
+	<string name="policies">Politike</string>
+	<string name="privacy_policy_contact_information_body">Če imate kakršna koli vprašanja ali pomisleke glede
+		te Politike zasebnosti, nas lahko kontaktirate po e-pošti.</string>
+	<string name="privacy_policy_changes_body">Če se funkcionalnost aplikacije spremeni na način,
+		ki vpliva na vašo zasebnost, bo ta Politika zasebnosti ustrezno
+		posodobljena. Uporabnikom priporočamo, da občasno pregledajo politiko.</string>
+	<string name="privacy_policy_effective_date_body">Datum začetka veljavnosti se nanaša na dan, ko je
+		bil ta Pravilnik o zasebnosti nazadnje posodobljen ali je začel
+		veljati. Vse spremembe glede tega, kako aplikacija ravna z vašimi
+		podatki, bodo odražene v posodobljeni različici tega pravilnika.
+		Uporabnikom priporočamo, da ta pravilnik občasno pregledajo, da bodo
+		obveščeni o tem, kako se z njihovimi podatki ravna.</string>
 </resources>

@@ -26,7 +26,6 @@
 	<string name="date_filter_title">दिनांक</string>
 	<string name="filters_title">फिल्टर</string>
 	<string name="currency_label">चलन</string>
-	<string name="currency_code_label">चलन कोड</string>
 	<string name="amount_label">रक्कम</string>
 	<string name="category_label">श्रेणी</string>
 	<string name="invalid_format_error">अवैध स्वरूप</string>
@@ -48,4 +47,53 @@
 	<string name="currency_code_item_label">चलन कोड: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षरांची संख्या: %d. अक्षर मर्यादा: %d</string>
+	<string name="privacy_policy">गोपनीयता धोरण</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">तुमचा डेटा तुमच्याजवळ राहतो</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">आम्ही तुमच्या गोपनीयतेचा आदर करतो. हे अ‍ॅप पूर्णपणे
+		ऑफलाइन कार्य करते आणि कोणतीही माहिती गोळा किंवा शेअर करत नाही. ही
+		धोरणे जगभरातील सर्व वापरकर्त्यांना लागू होतात, ज्यात सर्व वयोगटातील
+		मुलेही समाविष्ट आहेत. आम्ही कोणतीही वैयक्तिक किंवा अनावश्यक माहिती
+		गोळा, संग्रहित, प्रेषित किंवा शेअर करत नाही. अ‍ॅप पूर्णपणे ऑफलाइन
+		कार्य करते. सर्व फिचर्स इंटरनेट कनेक्शनशिवाय वापरता येतात आणि कधीही
+		डेटा प्रवेश किंवा पाठवला जात नाही.</string>
+	<string name="privacy_policy_local_only_data_storage_title">केवळ स्थानिक डेटा संचयन</string>
+	<string name="privacy_policy_local_only_data_storage_body">तुम्ही अ‍ॅपमध्ये प्रविष्ट केलेली सर्व माहिती फक्त
+		तुमच्या स्वत</string>
+	<string name="privacy_policy_no_third_party_services_title">तृतीय पक्ष सेवा नाहीत</string>
+	<string name="privacy_policy_no_third_party_services_body">अ‍ॅप तृतीय पक्ष SDK, विश्लेषण साधने, जाहिरात
+		नेटवर्क किंवा डेटा गोळा करणाऱ्या कोणत्याही बाह्य सेवा वापरत नाही.
+		आम्हीही समावेश करून कोणीही तुमच्या अ‍ॅपच्या वापर किंवा डेटावर प्रवेश
+		करू शकत नाही.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">डेटा नियंत्रण आणि वगळणे</string>
+	<string name="privacy_policy_data_control_and_deletion_body">आपण प्रविष्ट केलेल्या माहितीवर आपले संपूर्ण
+		नियंत्रण आहे. आपण ॲप अनइंस्टॉल करून किंवा त्याचे स्टोरेज क्लिअर करून
+		आपल्या डेटाचा कधीही नायनाट करू शकता. काहीही बाहेरून संग्रहित केले जात
+		नसल्यामुळे अतिरिक्त पावले आवश्यक नाहीत.</string>
+	<string name="privacy_policy_children_privacy_title">मुलांचे गोपनीयतेचे अधिकार</string>
+	<string name="privacy_policy_children_privacy_body">हे अ‍ॅप सर्व वापरकर्त्यांसाठी सुरक्षित आहे,
+		ज्यामध्ये 13 वर्षांखालील मुलांचा समावेश आहे. कोणताही वैयक्तिक डेटा
+		गोळा केला जात नाही, ज्यामुळे हे COPPA आणि GDPR-K यांसारख्या जागतिक बाल
+		गोपनीयता कायद्यांशी सुसंगत ठरते.</string>
+	<string name="privacy_policy_your_rights_title">तुमचे हक्क</string>
+	<string name="privacy_policy_your_rights_body">कोणतेही डेटा संकलित केले जात नसल्यामुळे,
+		आमच्यामार्फत तुम्ही प्रवेश करू शकता, अद्ययावत करू शकता किंवा हटवू शकता
+		असे काहीही नाही. सर्व डेटा तुमचाच आहे आणि केवळ तुमच्या डिव्हाइसमध्येच
+		राहतो.</string>
+	<string name="privacy_policy_contact_information_title">संपर्क माहिती</string>
+	<string name="privacy_policy_changes_title">या धोरणातील बदल</string>
+	<string name="privacy_policy_effective_date_title">अंमलबजावणी तारीख</string>
+	<string name="privacy_policy_email_subject">गोपनीयता धोरणावरील चौकशी – %s</string>
+	<string name="policies">धोरणे</string>
+	<string name="privacy_policy_contact_information_body">तुम्हाला या गोपनीयता धोरणासंदर्भात काही प्रश्न
+		किंवा शंका असल्यास, कृपया आम्हाला ईमेलद्वारे संपर्क करा.</string>
+	<string name="privacy_policy_changes_body">जर अ‍ॅपचे कार्य आपल्या गोपनीयतेवर परिणाम करणाऱ्या
+		प्रकारे बदलले तर ही गोपनीयता धोरण तदनुसार अद्यतनित केली जाईल.
+		वापरकर्त्यांना धोरण वेळोवेळी पुनरावलोकन करण्यासाठी प्रोत्साहित केले
+		जाते.</string>
+	<string name="privacy_policy_effective_date_body">प्रभावी तारीख ही त्या दिवसास दर्शवते जेव्हा ही
+		गोपनीयता धोरण शेवटच्यांदा अद्यतनित केली गेली किंवा अमलात आली. अ‍ॅप
+		तुमच्या डेटाशी कसे वागते यामध्ये झालेल्या कोणत्याही बदलांचे प्रतिबिंब
+		या धोरणाच्या अद्ययावत आवृत्तीत दिसून येईल. तुमची माहिती कशी हाताळली
+		जाते याची माहिती ठेवण्यासाठी वापरकर्त्यांनी ही धोरण वेळोवेळी
+		पुनरावलोकन करावी अशी आमची शिफारस आहे.</string>
 </resources>

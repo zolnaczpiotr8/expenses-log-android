@@ -2,7 +2,7 @@ package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ShoppingCart
+import androidx.compose.material.icons.filled.PrivacyTip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.Text
@@ -12,7 +12,7 @@ import androidx.compose.ui.res.stringResource
 import zolnaczpiotr8.com.github.expenses.log.R
 
 @Composable
-fun NewExpenseListItem(
+fun PrivacyPolicyListItem(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
 ) {
@@ -20,17 +20,17 @@ fun NewExpenseListItem(
       modifier =
           modifier.clickable(
               onClick = onClick,
-              onClickLabel = stringResource(R.string.add_action_label),
+              onClickLabel = stringResource(R.string.navigate_action_label),
           ),
       leadingContent = {
         Icon(
-            imageVector = Icons.Default.ShoppingCart,
+            imageVector = Icons.Default.PrivacyTip,
             contentDescription = null,
         )
       },
       headlineContent = {
         Text(
-            text = stringResource(R.string.new_expense),
+            text = stringResource(R.string.privacy_policy),
         )
       },
   )

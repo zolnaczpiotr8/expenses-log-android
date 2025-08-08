@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Дата</string>
 	<string name="filters_title">Филтри</string>
 	<string name="currency_label">Валута</string>
-	<string name="currency_code_label">Валута код</string>
 	<string name="amount_label">Сума</string>
 	<string name="category_label">Категория</string>
 	<string name="invalid_format_error">Невалиден формат</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">валутен код: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Брой знаци: %d. Лимит на знаците: %d</string>
+	<string name="privacy_policy">Политика за поверителност</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Вашите данни остават при вас</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Ние уважаваме вашата поверителност. Това приложение
+		функционира изцяло офлайн и не събира или споделя никакви данни. Тази
+		политика важи за всички потребители по света, включително деца от
+		всички възрасти. Ние не събираме, не съхраняваме, не предаваме и не
+		споделяме никаква лична или нелична информация. Приложението работи
+		напълно офлайн. Всички функции могат да се използват без интернет
+		връзка и никакви данни никога не се достъпват или изпращат никъде.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Само Локално Съхранение на Данни</string>
+	<string name="privacy_policy_local_only_data_storage_body">Цялата информация, която въвеждате в приложението,
+		се съхранява само на вашето устройство. Тя никога не се качва,
+		архивира на външни сървъри или споделя с когото и да било. Ние нямаме
+		и не можем да имаме достъп до тази информация.</string>
+	<string name="privacy_policy_no_third_party_services_title">Без услуги на трети страни</string>
+	<string name="privacy_policy_no_third_party_services_body">Приложението не използва SDK-та на трети страни,
+		аналитични инструменти, рекламни мрежи или външни услуги, които
+		събират данни. Никой друг, включително и ние, няма достъп до
+		използването на приложението ви или до вашите данни.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Управление и Изтриване на Данни</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Имате пълен контрол върху информацията, която
+		въвеждате. Можете да изтриете данните си по всяко време, като
+		деинсталирате приложението или изчистите неговото хранилище. Тъй като
+		нищо не се съхранява външно, не са необходими допълнителни стъпки.</string>
+	<string name="privacy_policy_children_privacy_title">Поверителност на децата</string>
+	<string name="privacy_policy_children_privacy_body">Приложението е безопасно за всички потребители,
+		включително деца под 13 години. Не се събират лични данни, което го
+		прави съвместимо с глобалните закони за поверителност на децата като
+		COPPA и GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Вашите Права</string>
+	<string name="privacy_policy_your_rights_body">Тъй като не се събират данни, няма нищо, до което
+		да имате достъп, да актуализирате или изтривате чрез нас. Всички данни
+		са ваши и остават само на вашето устройство.</string>
+	<string name="privacy_policy_contact_information_title">Информация за контакт</string>
+	<string name="privacy_policy_changes_title">Промени в тази политика</string>
+	<string name="privacy_policy_effective_date_title">Дата на влизане в сила</string>
+	<string name="privacy_policy_email_subject">Запитване относно Политиката за Поверителност – %s</string>
+	<string name="policies">Политики</string>
+	<string name="privacy_policy_contact_information_body">Ако имате въпроси или притеснения относно тази
+		Политика за поверителност, можете да се свържете с нас по имейл.</string>
+	<string name="privacy_policy_changes_body">Ако функционалността на приложението се промени по
+		начин, който засяга вашата поверителност, тази Политика за
+		поверителност ще бъде актуализирана съответно. Насърчаваме
+		потребителите периодично да преглеждат политиката.</string>
+	<string name="privacy_policy_effective_date_body">Датата на влизане в сила се отнася до деня, в който
+		тази Политика за поверителност е последно актуализирана или е влязла в
+		сила. Всички промени в начина, по който приложението обработва вашите
+		данни, ще бъдат отразени в актуализирана версия на тази политика.
+		Насърчаваме потребителите периодично да преглеждат тази политика, за
+		да бъдат информирани как се обработва тяхната информация.</string>
 </resources>

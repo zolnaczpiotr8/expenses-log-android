@@ -26,7 +26,6 @@
 	<string name="date_filter_title">Tarih</string>
 	<string name="filters_title">Filtreler</string>
 	<string name="currency_label">Para Birimi</string>
-	<string name="currency_code_label">Para birimi kodu</string>
 	<string name="amount_label">Tutar</string>
 	<string name="category_label">Kategori</string>
 	<string name="invalid_format_error">Geçersiz format</string>
@@ -48,4 +47,57 @@
 	<string name="currency_code_item_label">para birimi kodu: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karakter sayısı: %d. Karakter sınırı: %d</string>
+	<string name="privacy_policy">Gizlilik Politikası</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Verileriniz sizinle kalır</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Gizliliğinize saygı duyuyoruz. Bu uygulama tamamen
+		çevrimdışı çalışır ve herhangi bir veri toplamaz veya paylaşmaz. Bu
+		politika, her yaştan çocuklar da dahil olmak üzere dünya çapındaki tüm
+		kullanıcılar için geçerlidir. Kişisel veya kişisel olmayan hiçbir
+		bilgiyi toplamıyor, saklamıyor, iletmiyor veya paylaşmıyoruz. Uygulama
+		tamamen çevrimdışı çalışır. Tüm özellikler internet bağlantısı olmadan
+		kullanılabilir ve hiçbir veri asla erişilmez veya herhangi bir yere
+		gönderilmez.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Yalnızca Yerel Veri Depolama</string>
+	<string name="privacy_policy_local_only_data_storage_body">Uygulamaya girdiğiniz tüm bilgiler yalnızca kendi
+		cihazınızda saklanır. Bu bilgiler asla dış sunuculara yüklenmez,
+		yedeklenmez veya başkalarıyla paylaşılmaz. Bu bilgilere erişimimiz
+		yoktur ve erişemeyiz.</string>
+	<string name="privacy_policy_no_third_party_services_title">Üçüncü Taraf Hizmetleri Yok</string>
+	<string name="privacy_policy_no_third_party_services_body">Uygulama, üçüncü taraf SDK’ları, analiz araçları,
+		reklam ağları veya veri toplayan herhangi bir dış hizmet kullanmaz.
+		Biz de dahil olmak üzere hiç kimse, uygulamanızın kullanımına veya
+		verilerine erişemez.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Veri Kontrolü ve Silinmesi</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Girdiğiniz bilgiler üzerinde tam kontrole
+		sahipsiniz. Uygulamayı kaldırarak veya depolamasını temizleyerek
+		verilerinizi istediğiniz zaman silebilirsiniz. Dışa aktarım
+		yapılmadığı için ek adımlara gerek yoktur.</string>
+	<string name="privacy_policy_children_privacy_title">Çocukların Gizliliği</string>
+	<string name="privacy_policy_children_privacy_body">Uygulama, 13 yaş altındaki çocuklar da dahil olmak
+		üzere tüm kullanıcılar için güvenlidir. Herhangi bir kişisel veri
+		toplanmaz, bu da onu COPPA ve GDPR-K gibi küresel çocuk gizliliği
+		yasalarıyla uyumlu hale getirir.</string>
+	<string name="privacy_policy_your_rights_title">Haklarınız</string>
+	<string name="privacy_policy_your_rights_body">Herhangi bir veri toplanmadığı için bizim
+		aracılığımızla erişebileceğiniz, güncelleyebileceğiniz veya
+		silebileceğiniz bir şey yoktur. Tüm veriler size aittir ve yalnızca
+		cihazınızda kalır.</string>
+	<string name="privacy_policy_contact_information_title">İletişim Bilgileri</string>
+	<string name="privacy_policy_changes_title">Bu politikadaki değişiklikler</string>
+	<string name="privacy_policy_effective_date_title">Yürürlük tarihi</string>
+	<string name="privacy_policy_email_subject">Gizlilik Politikası Sorgusu – %s</string>
+	<string name="policies">Politikalar</string>
+	<string name="privacy_policy_contact_information_body">Bu Gizlilik Politikası ile ilgili herhangi bir
+		sorunuz veya endişeniz varsa, bizimle e-posta yoluyla iletişime
+		geçebilirsiniz.</string>
+	<string name="privacy_policy_changes_body" tools:ignore="Typos">Uygulamanın
+		işlevselliği gizliliğinizi etkileyecek şekilde değişirse, bu Gizlilik
+		Politikası buna göre güncellenecektir. Kullanıcılara zaman zaman
+		politikayı gözden geçirmeleri tavsiye edilir.</string>
+	<string name="privacy_policy_effective_date_body">Yürürlük tarihi, bu Gizlilik Politikasının son
+		güncellendiği veya yürürlüğe girdiği günü ifade eder. Uygulamanın
+		verilerinizi nasıl işlediğine dair yapılan herhangi bir değişiklik, bu
+		politikanın güncellenmiş sürümüne yansıtılacaktır. Kullanıcılara,
+		bilgilerinin nasıl işlendiği konusunda bilgi sahibi olmaya devam etmek
+		için bu politikayı düzenli olarak gözden geçirmeleri önerilir.</string>
 </resources>

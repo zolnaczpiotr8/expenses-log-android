@@ -2,7 +2,6 @@ package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
-import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -65,6 +64,7 @@ fun HomeScreen(
     onNewCategoryClick: () -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
     onSettingsClick: () -> Unit = {},
+    onPrivacyPolicyClick: () -> Unit = {}
 ) {
   val categories by viewModel.categories.collectAsStateWithLifecycle()
   val showEmptyCategoriesFilter by viewModel.showEmptyCategoriesFilter.collectAsStateWithLifecycle()
@@ -82,7 +82,7 @@ fun HomeScreen(
       onNewCategoryClick = onNewCategoryClick,
       onNewExpenseClick = onNewExpenseClick,
       onSettingsClick = onSettingsClick,
-  )
+      onPrivacyPolicyClick = onPrivacyPolicyClick)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -99,6 +99,7 @@ fun HomeScreen(
     onNewCategoryClick: () -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
     onSettingsClick: () -> Unit = {},
+    onPrivacyPolicyClick: () -> Unit = {}
 ) {
   val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
   val scaffoldState = rememberBottomSheetScaffoldState()
@@ -195,7 +196,7 @@ fun HomeScreen(
           item {
             AnimatedVisibility(expenses.isNotEmpty()) {
               Spacer(
-                  Modifier.windowInsetsBottomHeight(WindowInsets.systemBars).animateContentSize(),
+                  Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
               )
             }
           }
@@ -211,19 +212,23 @@ fun HomeScreen(
               )
             },
             actions = {
-              val sheetState = rememberModalBottomSheetState()
+              val menuSheetState = rememberModalBottomSheetState()
 
-              MenuIconButton { scope.launch { sheetState.show() } }
+              MenuIconButton { scope.launch { menuSheetState.show() } }
 
+              val policiesSheetState = rememberModalBottomSheetState()
               MainMenuModalBottomSheet(
-                  state = sheetState,
+                  state = menuSheetState,
                   onNewCategoryClick = onNewCategoryClick,
                   onNewExpenseClick = { onNewExpenseClick(null) },
                   onShowExpensesClick = {
                     scope.launch { scaffoldState.bottomSheetState.expand() }
                   },
                   onSettingsClick = onSettingsClick,
-              )
+                  onPoliciesClick = { scope.launch { policiesSheetState.show() } })
+
+              PoliciesModalBottomSheet(
+                  state = policiesSheetState, onPrivacyPolicyClick = onPrivacyPolicyClick)
             },
             scrollBehavior = scrollBehavior,
         )
@@ -398,7 +403,7 @@ private fun Categories(
         span = StaggeredGridItemSpan.FullLine,
     ) {
       Spacer(
-          Modifier.height(bottomPadding).animateContentSize(),
+          Modifier.height(bottomPadding),
       )
     }
   }

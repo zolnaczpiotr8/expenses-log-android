@@ -27,7 +27,6 @@
 	<string name="date_filter_title">Kuupäev</string>
 	<string name="filters_title">Filtrid</string>
 	<string name="currency_label">Valuuta</string>
-	<string name="currency_code_label">Valuuta kood</string>
 	<string name="amount_label">Summa</string>
 	<string name="category_label">Kategooria</string>
 	<string name="invalid_format_error">Vigane vorming</string>
@@ -49,4 +48,54 @@
 	<string name="currency_code_item_label">valuutakood: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Märkide arv: %d. Märkide piirang: %d</string>
+	<string name="privacy_policy">Privaatsuspoliitika</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">Teie andmed jäävad teiega</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">Me austame teie privaatsust. See rakendus töötab
+		täielikult võrguühenduseta ega kogu ega jaga mingit teavet. See
+		poliitika kehtib kõigile kasutajatele üle kogu maailma, sealhulgas
+		kõigi vanuserühmade lastele. Me ei kogu, säilita, edasta ega jaga
+		isikuandmeid ega mitteisikuandmeid. Rakendus töötab täielikult
+		võrguühenduseta. Kõiki funktsioone saab kasutada ilma
+		internetiühenduseta ja andmetele ei pääse kunagi ligi ega saadeta neid
+		kuhugi.</string>
+	<string name="privacy_policy_local_only_data_storage_title">Ainult Kohalik Andmesalvestus</string>
+	<string name="privacy_policy_local_only_data_storage_body">Kogu teave, mille sisestate rakendusse,
+		salvestatakse ainult teie seadmesse. Seda ei laadita kunagi üles, ei
+		varundata välistele serveritele ega jagata kellegagi. Meil ei ole ja
+		ei saa olla juurdepääsu sellele teabele.</string>
+	<string name="privacy_policy_no_third_party_services_title">Kolmandate Osapoolte Teenuseid Pole</string>
+	<string name="privacy_policy_no_third_party_services_body">Rakendus ei kasuta kolmandate osapoolte SDK-sid,
+		analüütikavahendeid, reklaamivõrke ega muid väliseid teenuseid, mis
+		andmeid koguvad. Keegi teine, sh meie, ei pääse ligi teie rakenduse
+		kasutamisele ega andmetele.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">Andmete Kontroll ja Kustutamine</string>
+	<string name="privacy_policy_data_control_and_deletion_body">Sul on täielik kontroll sisestatud teabe üle. Sa
+		saad oma andmed igal ajal kustutada, desinstallides rakenduse või
+		puhastades selle salvestusruumi. Kuna midagi ei salvestata väliselt,
+		pole vaja täiendavaid samme.</string>
+	<string name="privacy_policy_children_privacy_title">Laste Privaatsus</string>
+	<string name="privacy_policy_children_privacy_body">Rakendus on ohutu kõigile kasutajatele, sealhulgas
+		alla 13-aastastele lastele. Isikuandmeid ei koguta, mis muudab selle
+		vastavaks ülemaailmsetele laste privaatsuse seadustele nagu COPPA ja
+		GDPR-K.</string>
+	<string name="privacy_policy_your_rights_title">Teie Õigused</string>
+	<string name="privacy_policy_your_rights_body">Kuna andmeid ei koguta, ei ole midagi, millele te
+		saaksite meie kaudu juurde pääseda, seda värskendada või kustutada.
+		Kõik andmed kuuluvad teile ja jäävad ainult teie seadmesse.</string>
+	<string name="privacy_policy_contact_information_title">Kontaktandmed</string>
+	<string name="privacy_policy_changes_title">Selle poliitika muudatused</string>
+	<string name="privacy_policy_effective_date_title">Jõustumiskuupäev</string>
+	<string name="privacy_policy_email_subject">Privaatsuspoliitika Päring – %s</string>
+	<string name="policies">Põhimõtted</string>
+	<string name="privacy_policy_contact_information_body">Kui teil on selle privaatsuspoliitika kohta
+		küsimusi või muresid, võite meiega ühendust võtta e-posti teel.</string>
+	<string name="privacy_policy_changes_body">Kui rakenduse funktsionaalsus muutub viisil, mis
+		mõjutab teie privaatsust, ajakohastatakse see privaatsuspoliitika
+		vastavalt. Soovitame kasutajatel aeg-ajalt poliitikat üle vaadata.</string>
+	<string name="privacy_policy_effective_date_body">Jõustumiskuupäev viitab päevale, mil seda
+		privaatsuspoliitikat viimati uuendati või see jõustus. Kõik muudatused
+		selles, kuidas rakendus teie andmeid käsitleb, kajastuvad selle
+		poliitika uuendatud versioonis. Soovitame kasutajatel seda poliitikat
+		regulaarselt üle vaadata, et olla kursis, kuidas nende andmeid
+		käsitletakse.</string>
 </resources>

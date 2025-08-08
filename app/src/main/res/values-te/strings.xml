@@ -26,7 +26,6 @@
 	<string name="date_filter_title">తేదీ</string>
 	<string name="filters_title">ఫిల్టర్లు</string>
 	<string name="currency_label">కరెన్సీ</string>
-	<string name="currency_code_label">కరెన్సీ కోడ్</string>
 	<string name="amount_label">మొత్తం</string>
 	<string name="category_label">వర్గం</string>
 	<string name="invalid_format_error">చెల్లని ఫార్మాట్</string>
@@ -48,4 +47,54 @@
 	<string name="currency_code_item_label">కరెన్సీ కోడ్: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">అక్షరాల సంఖ్య: %d. అక్షర పరిమితి: %d</string>
+	<string name="privacy_policy">గోప్యతా విధానం</string>
+	<string name="privacy_policy_your_data_stays_with_you_title">మీ డేటా మీతోనే ఉంటుంది</string>
+	<string name="privacy_policy_your_data_stays_with_you_body">మేము మీ గోప్యతను గౌరవిస్తున్నాము. ఈ యాప్ పూర్తిగా
+		ఆఫ్‌లైన్‌లో పని చేస్తుంది మరియు డేటాను సేకరించదు లేదా పంచుకోదు. ఈ
+		విధానం ప్రపంచవ్యాప్తంగా ఉన్న అన్ని వినియోగదారులకు వర్తిస్తుంది, అన్ని
+		వయస్సుల పిల్లలతో సహా. మేము ఎలాంటి వ్యక్తిగత లేదా వ్యక్తిగతేతర సమాచారం
+		సేకరించము, నిల్వ చేయము, పంపము లేదా పంచుకోము. యాప్ పూర్తిగా ఆఫ్‌లైన్‌లో
+		పని చేస్తుంది. అన్ని ఫీచర్లు ఇంటర్నెట్ కనెక్షన్ లేకుండానే
+		ఉపయోగించవచ్చు మరియు డేటా ఎప్పుడూ యాక్సెస్ చేయబడదు లేదా ఎక్కడికీ
+		పంపబడదు.</string>
+	<string name="privacy_policy_local_only_data_storage_title">స్థానిక డేటా నిల్వ మాత్రమే</string>
+	<string name="privacy_policy_local_only_data_storage_body">మీరు యాప్‌లో నమోదు చేసే అన్ని సమాచారం కేవలం మీ
+		స్వంత పరికరంలోనే నిల్వ చేయబడుతుంది. ఇది ఎప్పుడూ ఎగుమతి చేయబడదు, బయటి
+		సర్వర్‌లకు బ్యాకప్ చేయబడదు లేదా ఎవరితోనూ పంచుకోబడదు. మేము ఈ
+		సమాచారాన్ని యాక్సెస్ చేయలేము మరియు చేయలేం.</string>
+	<string name="privacy_policy_no_third_party_services_title">మూడవ పక్ష సేవలు లేవు</string>
+	<string name="privacy_policy_no_third_party_services_body">యాప్ మూడవ పక్ష SDKలు, విశ్లేషణ సాధనాలు, ప్రకటన
+		నెట్‌వర్క్‌లు లేదా డేటా సేకరించే ఏవైనా బాహ్య సేవలను ఉపయోగించదు. మేము
+		సహా మరెవరికి మీ యాప్ వినియోగం లేదా డేటాకు ప్రాప్యత లేదు.</string>
+	<string name="privacy_policy_data_control_and_deletion_title">డేటా నియంత్రణ మరియు తొలగింపు</string>
+	<string name="privacy_policy_data_control_and_deletion_body">మీరు నమోదు చేసే సమాచారంపై మీకు పూర్తి నియంత్రణ
+		ఉంటుంది. మీరు అనువర్తనాన్ని అన్ఇన్‌స్టాల్ చేయడం లేదా దాని నిల్వను
+		క్లియర్ చేయడం ద్వారా ఎప్పుడైనా మీ డేటాను తొలగించవచ్చు. బాహ్యంగా ఏమీ
+		నిల్వ చేయబడకపోవడంతో అదనపు చర్యలు అవసరం లేదు.</string>
+	<string name="privacy_policy_children_privacy_title">పిల్లల గోప్యత</string>
+	<string name="privacy_policy_children_privacy_body">ఈ యాప్ అన్ని వినియోగదారులకు, 13 ఏళ్లకు కంటే తక్కువ
+		వయస్సున్న పిల్లలను కూడా కలుపుకుని, సురక్షితంగా ఉంటుంది. ఎలాంటి
+		వ్యక్తిగత డేటా సేకరించబడదు, ఇది COPPA మరియు GDPR-K వంటి గ్లోబల్ బాలల
+		గోప్యతా చట్టాలకు అనుగుణంగా ఉంటుంది.</string>
+	<string name="privacy_policy_your_rights_title">మీ హక్కులు</string>
+	<string name="privacy_policy_your_rights_body">ఎటువంటి డేటాను సేకరించడం జరగదు కాబట్టి, మిమ్మల్ని
+		통해 మీరు యాక్సెస్ చేయాల్సిన, నవీకరించాల్సిన లేదా తొలగించాల్సిన దేనీ
+		లేదు. అన్ని డేటా మీదే మరియు అది మీ పరికరంలో మాత్రమే ఉంటుంది.</string>
+	<string name="privacy_policy_contact_information_title">సంప్రదించడానికి సమాచారం</string>
+	<string name="privacy_policy_changes_title">ఈ విధానంలో మార్పులు</string>
+	<string name="privacy_policy_effective_date_title">అమలులోకి వచ్చే తేదీ</string>
+	<string name="privacy_policy_email_subject">గోప్యతా విధానం సంబంధిత విచారణ – %s</string>
+	<string name="policies">విధానాలు</string>
+	<string name="privacy_policy_contact_information_body">ఈ గోప్యతా విధానం గురించి మీకు ఏవైనా ప్రశ్నలు లేదా
+		ఆందోళనలు ఉంటే, దయచేసి మాకు ఇమెయిల్ ద్వారా సంప్రదించండి.</string>
+	<string name="privacy_policy_changes_body">యాప్ యొక్క కార్యాచరణ మీ గోప్యతపై ప్రభావం చూపే
+		విధంగా మారితే, ఈ గోప్యతా విధానం అనుగుణంగా నవీకరించబడుతుంది.
+		వినియోగదారులు కాలానుగుణంగా విధానాన్ని సమీక్షించాలని మేము
+		ప్రోత్సహిస్తున్నాము.</string>
+	<string name="privacy_policy_effective_date_body">అమలులోకి వచ్చే తేది అంటే ఈ గోప్యతా విధానం
+		చివరిసారిగా నవీకరించబడిన తేదీ లేదా ఇది అమల్లోకి వచ్చిన తేదీని
+		సూచిస్తుంది. యాప్ మీ డేటాను ఎలా నిర్వహిస్తుంది అనే దానిలో మార్పులు ఈ
+		విధానంలో నవీకరించిన సంచికలో ప్రతిబింబిస్తాయి. మీ సమాచారం ఎలా
+		వ్యవహరించబడుతున్నదీ తెలుసుకోవడానికి వినియోగదారులు ఈ విధానాన్ని తరచుగా
+		సమీక్షించాల‌ని మేము ప్రోత్సహిస్తున్నాము.</string>
 </resources>
