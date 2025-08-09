@@ -18,14 +18,16 @@ constructor(
   private fun toSettings(
       settings: SettingsProto,
   ): Settings =
-      Settings(
-          currencyCode = settings.currencyCode,
-      )
+      Settings(currencyCode = settings.currencyCode, agreedToTerms = settings.agreedToTerms)
 
   suspend fun setCurrencyCode(
       code: String,
   ) {
     tryToUpdateData { it.toBuilder().setCurrencyCode(code).build() }
+  }
+
+  suspend fun setAgreedToTerms() {
+    tryToUpdateData { it.toBuilder().setAgreedToTerms(true).build() }
   }
 
   private suspend fun tryToUpdateData(

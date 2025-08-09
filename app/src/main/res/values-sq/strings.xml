@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Numri i karaktereve: %d. Kufiri i karaktereve: %d</string>
 	<string name="privacy_policy">Politika e Privatësisë</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Të dhënat tuaja qëndrojnë me ju</string>
+	<string name="policy_your_data_stays_with_you_title">Të dhënat tuaja qëndrojnë me ju</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ne respektojmë privatësinë tuaj. Ky aplikacion
 		funksionon plotësisht offline dhe nuk mbledh apo ndan asnjë të dhënë.
 		Kjo politikë zbatohet për të gjithë përdoruesit në mbarë botën, duke
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Pasi nuk mblidhet asnjë të dhënë, nuk ka asgjë që
 		ju mund të aksesoni, përditësoni ose fshini përmes nesh. Të gjitha të
 		dhënat janë tuaja dhe mbeten vetëm në pajisjen tuaj.</string>
-	<string name="privacy_policy_contact_information_title">Informacion Kontakti</string>
+	<string name="policy_contact_information_title">Informacion Kontakti</string>
 	<string name="privacy_policy_changes_title">Ndryshime në këtë politikë</string>
-	<string name="privacy_policy_effective_date_title">Data e hyrjes në fuqi</string>
-	<string name="privacy_policy_email_subject">Kërkesë për Politikën e Privatësisë – %s</string>
+	<string name="policy_effective_date_title">Data e hyrjes në fuqi</string>
 	<string name="policies">Politikat</string>
 	<string name="privacy_policy_contact_information_body">Nëse keni ndonjë pyetje ose shqetësim në lidhje me
 		këtë Politikë të Privatësisë, mund të na kontaktoni me email.</string>
@@ -99,4 +98,60 @@
 		një version të përditësuar të kësaj politike. Ne i inkurajojmë
 		përdoruesit të rishikojnë këtë politikë periodikisht për të qëndruar
 		të informuar rreth mënyrës se si trajtohen informacionet e tyre.</string>
+	<string name="terms_of_service">Kushtet e shërbimit</string>
+	<string name="dialog_first_launch_agree_title">Prano për të vazhduar</string>
+	<string name="agree_to_terms">Pajtohem</string>
+	<string name="dialog_first_launch_terms_message">Për të përdorur këtë aplikacion, duhet të lexoni
+		dhe pranoni Kushtet tona të Shërbimit. Përdorni butonin më poshtë për
+		t’i lexuar.</string>
+	<string name="terms_of_service_about_title">Rreth Aplikacionit</string>
+	<string name="terms_of_service_use_title">Përdorimi i Aplikacionit</string>
+	<string name="terms_of_service_intellectual_property_title">Pronësia Intelektuale</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Mohimi i garancive</string>
+	<string name="terms_of_service_limitation_of_liability_title">Kufizimi i Përgjegjësisë</string>
+	<string name="terms_of_service_termination_title">Përfundimi</string>
+	<string name="terms_of_service_governing_law_title">Ligji Qeverisës</string>
+	<string name="terms_of_service_changes_title">Ndryshime në këto Kushte</string>
+	<string name="terms_of_service_about_body">Kjo aplikacion është një mjet personal për ndjekjen
+		e shpenzimeve. Funksionon tërësisht offline dhe është krijuar për
+		përdorues të të gjitha moshave. Aplikacioni nuk kërkon regjistrim, nuk
+		shfaq reklama dhe nuk mbledh ose transmeton asnjë informacion
+		personal.</string>
+	<string name="terms_of_service_use_body">Ju pranoni të përdorni Aplikacionin vetëm për
+		qëllime të ligjshme dhe në një mënyrë që nuk cenon të drejtat e të
+		tjerëve ose nuk kufizon përdorimin e tyre të Aplikacionit. Nuk duhet
+		të përpiqeni të bëni reverse-engineering, dekompilim ose modifikim të
+		Aplikacionit.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikohet “si është” pa asnjë garanci nga asnjë
+		lloj, qoftë e shprehur apo e nënkuptuar, duke përfshirë por pa u
+		kufizuar vetëm në garancitë për tregtueshmëri, përshtatshmëri për një
+		qëllim të veçantë, ose mos–shkelje. Ne nuk bëjmë asnjë garanci që
+		Aplikacioni do të jetë pa gabime apo që do të funksionojë pa
+		ndërprerje.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikacioni nuk mbledh, ruan ose ndan asnjë të
+		dhënë personale ose përdorimi. Të gjitha informacionet që futni mbeten
+		të ruajtura lokalisht në pajisjen tuaj nën kontrollin tuaj.</string>
+	<string name="terms_of_service_intellectual_property_body">Të gjitha të drejtat, titulli dhe interesi në dhe
+		për Aplikacionin, përfshirë dizajnin, tiparet dhe kodin e tij, janë në
+		pronësi të pronarit të të drejtave të autorit.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Në masën më të plotë të lejuar nga ligji, pronari
+		nuk mban përgjegjësi për asnjë dëmtim ose humbje që rrjedhin nga
+		përdorimi juaj i Aplikacionit, duke përfshirë, por pa u kufizuar në
+		humbjen e të dhënave, fitimeve ose mundësive të biznesit.</string>
+	<string name="terms_of_service_termination_body">Pronari mund të ndalojë ofrimin ose mbështetjen e
+		Aplikacionit në çdo kohë pa njoftim paraprak.</string>
+	<string name="terms_of_service_governing_law_body">Këto Kushte do të udhëhiqen nga ligjet e vendit
+		tënd të banimit, pa marrë parasysh parimet e konfliktit të ligjeve.
+		Kur zbatohet, ligjet e domosdoshme për mbrojtjen e konsumatorit të
+		vendit tënd gjithashtu do të zbatohen.</string>
+	<string name="terms_of_service_changes_body">Këto Kushte mund të përditësohen herë pas here.
+		Vazhdimi i përdorimit të Aplikacionit pasi bëhen ndryshime do të thotë
+		që pranoni Kushtet e përditësuara.</string>
+	<string name="terms_of_service_contact_information_body">Nëse keni ndonjë pyetje rreth këtyre Kushteve, keni
+		nevojë për sqarim, ose dëshironi të raportoni një problem me
+		Aplikacionin, mund të kontaktoni pronarin në detajet e kontaktit më
+		poshtë.</string>
+	<string name="terms_of_service_effective_date_body">“Data e hyrjes në fuqi” është data nga e cila këto
+		Kushte zbatohen. Çdo përditësim i ardhshëm do të përfshijë një datë të
+		rishikuar hyrjeje në fuqi për të treguar kur ndryshimet hyjnë në fuqi.</string>
 </resources>

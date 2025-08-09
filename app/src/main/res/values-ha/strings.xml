@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Yawan haruffa: %d. Iyakokin haruffa: %d</string>
 	<string name="privacy_policy">Manufar Sirri</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Bayananka suna tare da kai</string>
+	<string name="policy_your_data_stays_with_you_title">Bayananka suna tare da kai</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Muna girmama sirrinka. Wannan manhaja tana aiki
 		gaba ɗaya ba tare da intanet ba kuma ba ta tattara ko raba kowanne
 		bayanai ba. Wannan manufar tana aiki ga duk masu amfani a duniya, ciki
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Tun da babu wani bayanai da ake tattarawa, babu
 		abin da zaka iya samu, sabunta ko share ta hanyar mu. Duk bayanan naka
 		ne kuma suna kasancewa kawai a kan na’urarka.</string>
-	<string name="privacy_policy_contact_information_title">Bayanin Tuntuɓa</string>
+	<string name="policy_contact_information_title">Bayanin Tuntuɓa</string>
 	<string name="privacy_policy_changes_title">Sauye-sauye ga wannan manufar</string>
-	<string name="privacy_policy_effective_date_title">Ranar fara aiki</string>
-	<string name="privacy_policy_email_subject">Tambaya Akan Manufar Sirri – %s</string>
+	<string name="policy_effective_date_title">Ranar fara aiki</string>
 	<string name="policies">Dokoki</string>
 	<string name="privacy_policy_contact_information_body">Idan kana da wasu tambayoyi ko damuwa game da
 		wannan Dokar Sirri, za ka iya tuntuɓar mu ta imel.</string>
@@ -98,4 +97,60 @@
 		sigar wannan doka. Muna ƙarfafa masu amfani da su duba wannan doka
 		lokaci-lokaci domin su kasance da masaniya kan yadda ake amfani da
 		bayanansu.</string>
+	<string name="terms_of_service">Sharuɗɗan Sabis</string>
+	<string name="dialog_first_launch_agree_title">Yarda don ci gaba</string>
+	<string name="agree_to_terms">Na yarda</string>
+	<string name="dialog_first_launch_terms_message">Don amfani da wannan manhaja, dole ne ku karanta ku
+		amince da Ka’idojin Sabis ɗinmu. Yi amfani da maɓallin da ke ƙasa don
+		karanta su.</string>
+	<string name="terms_of_service_about_title">Game da App ɗin</string>
+	<string name="terms_of_service_use_title">Amfani da Manhaja</string>
+	<string name="terms_of_service_intellectual_property_title">Dukiyar Fasaha</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Kin amincewar garanti</string>
+	<string name="terms_of_service_limitation_of_liability_title">Iyakar Alhakin</string>
+	<string name="terms_of_service_termination_title">Ƙarewa</string>
+	<string name="terms_of_service_governing_law_title">Dokar Mulki</string>
+	<string name="terms_of_service_changes_title">Sauye-sauye ga Wadannan Sharuɗɗa</string>
+	<string name="terms_of_service_about_body">Wannan manhaja kayan aiki ne na bibiyar kashe kuɗin
+		mutum. Yana aiki gaba ɗaya ba tare da haɗin intanet ba kuma an tsara
+		shi don masu amfani na kowane zamani. Manhajar ba ta buƙatar rajista,
+		ba ta nuna talla, kuma ba ta tattara ko watsa kowace bayani na sirri
+		ba.</string>
+	<string name="terms_of_service_use_body">Ka yarda ka yi amfani da Manhaja ne kawai don
+		dalilai na doka kuma ta hanya da ba ta take haƙƙin wasu ba ko takaita
+		amfani da su da Manhajar. Bai kamata ka yi ƙoƙarin yin reverse
+		engineering, decompile, ko gyara Manhajar ba.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ana samar da Manhajar “kamar yadda take” ba tare da
+		wani irin garanti ba, ko a bayyana ko a ɓoye, ciki har da amma ba’a
+		iyakance da garanti na sayarwa, dacewa da wani takamaiman manufa, ko
+		rashin take hakkin wasu. Ba mu bayar da garanti cewa Manhajar za ta
+		kasance ba tare da kura-kurai ba ko kuma za ta yi aiki ba tare da
+		katsewa ba.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Manhajar ba ta tattara, adanawa ko rarraba kowace
+		irin bayanan sirri ko amfani ba. Duk bayanan da ka shigar za su zauna
+		ajiye a cikin na’urar ka, karkashin ikon ka.</string>
+	<string name="terms_of_service_intellectual_property_body">Dukkan haƙƙoƙi, taken, da sha’awa a cikin da kuma
+		zuwa ga Manhajar, gami da ƙirarsa, siffofinsa, da lambar sa, mallakar
+		mai hakkin mallaka ne.</string>
+	<string name="terms_of_service_limitation_of_liability_body">A mafi girman iyaka da doka ta yarda, mai mallakar
+		baya da alhakin kowace irin illa ko hasara da ta samo asali daga
+		amfani da App ɗin, ciki har amma ba’a takaita da rasa bayanai, riba,
+		ko damar kasuwanci ba.</string>
+	<string name="terms_of_service_termination_body">Mai shi na iya daina bayarwa ko goyon bayan
+		manhajar a kowane lokaci ba tare da sanarwa ba.</string>
+	<string name="terms_of_service_governing_law_body">Wadannan Sharuɗɗan za su kasance ƙarƙashin dokokin
+		ƙasar da kake zama, ba tare da la’akari da ka’idojin rikicin doka ba.
+		Idan ya dace, dokokin kariyar mabukaci na dole na ƙasarka za su kuma
+		yi aiki.</string>
+	<string name="terms_of_service_changes_body">Wadannan Sharuɗɗa na iya canzawa lokaci zuwa
+		lokaci. Ci gaba da amfani da Manhajar bayan an yi canje-canje yana
+		nufin ka amince da sabbin Sharuɗɗan.</string>
+	<string name="terms_of_service_contact_information_body">Idan kana da wata tambaya game da waɗannan
+		Ka’idoji, kana buƙatar ƙarin bayani, ko kana son bayar da rahoton wata
+		matsala tare da App ɗin, zaka iya tuntuɓar mai shi ta bayanan tuntuɓar
+		da ke ƙasa.</string>
+	<string name="terms_of_service_effective_date_body">“Ranar Fara Aiki” ita ce ranar da waɗannan
+		Sharuɗɗan suka fara aiki. Duk wani sabuntawa a nan gaba zai haɗa da
+		ranar fara aiki da aka sake dubawa don nuna lokacin da canje-canjen za
+		su fara aiki.</string>
 </resources>

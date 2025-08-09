@@ -47,7 +47,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">የቁምፊ ብዛት፡ %d። የቁምፊ ገደብ፡ %d</string>
 	<string name="privacy_policy">የግል መረጃ ፖሊሲ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ውሂብዎ ከእርስዎ ጋር ይቀራል</string>
+	<string name="policy_your_data_stays_with_you_title">ውሂብዎ ከእርስዎ ጋር ይቀራል</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">እኛ የግል መረጃዎን እንከብራለን። ይህ መተግበሪያ በሙሉ ከመስመር ውጭ ይሰራል
 		እና ምንም መረጃ አያሰብር እና አያካፍልም። ይህ ፖሊሲ ለዓለም አቀፍ ተጠቃሚዎች ከልጆች እና ከሁሉም ዕድሜ
 		ቡድኖች ጋር ይተገበራል። እኛ ምንም የግል ወይም ያልግለጹ መረጃ አከማችነት፣ መከተል፣ መላክ ወይም መካፍል
@@ -72,10 +72,9 @@
 	<string name="privacy_policy_your_rights_title">መብቶችዎ</string>
 	<string name="privacy_policy_your_rights_body">እንደ ምንም ውሂብ አተሰባሰብ ስለሌለ በእኛ በኩል ለመዳሰስ፣ ለማዘመን ወይም
 		ለማጥፋት የምትችሉት ምንም ነገር የለም። ሁሉም ውሂብ የእርስዎ ነው እና በተለይ በመሣሪያዎ ላይ ይቀራል።</string>
-	<string name="privacy_policy_contact_information_title">የእውቂያ መረጃ</string>
+	<string name="policy_contact_information_title">የእውቂያ መረጃ</string>
 	<string name="privacy_policy_changes_title">የዚህ ፖሊሲ ለውጦች</string>
-	<string name="privacy_policy_effective_date_title">አስተዋውቀ ቀን</string>
-	<string name="privacy_policy_email_subject">የግላዊነት ፖሊሲ ጥያቄ – %s</string>
+	<string name="policy_effective_date_title">አስተዋውቀ ቀን</string>
 	<string name="policies">ፖሊሲዎች</string>
 	<string name="privacy_policy_contact_information_body">ስለዚህ የግላዊነት ፖሊሲ ማንኛውም ጥያቄ ወይም ሐሳብ ካሎት፣ በኢሜይል በመላክ
 		ማግኘት ትችላላችሁ።</string>
@@ -85,4 +84,45 @@
 		የተነገረበትን ቀን ይጠቃልላል። መተግበሪያው የእርስዎን ውሂብ እንዴት እንደሚከላከል ላይ ማንኛውም ለውጥ በዚህ
 		ፖሊሲ ዘምነት ውስጥ ይገልጻል። ተጠቃሚዎች መረጃቸው እንዴት እንደሚያንቀሳቅስ ለማወቅ ይህንን ፖሊሲ ዘወትር
 		እንዲያሳምሩ እንመክራለን።</string>
+	<string name="terms_of_service">የአገልግሎት ውሎች</string>
+	<string name="dialog_first_launch_agree_title">ቀጥሎ ለመቀጠል ተስማምት</string>
+	<string name="agree_to_terms">እስማማለሁ</string>
+	<string name="dialog_first_launch_terms_message">ይህን መተግበሪያ ለመጠቀም የአገልግሎት ውልን ማንበብ እና መቀበል አለብዎት።
+		ለማንበብ ከታች ያለውን ቁልፍ ይጠቀሙ።</string>
+	<string name="terms_of_service_about_title">ስለ መተግበሪያው</string>
+	<string name="terms_of_service_use_title">የመተግበሪያው አጠቃቀም</string>
+	<string name="terms_of_service_intellectual_property_title">ኢንተሌክቹዋል ንብረት</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">የማረጋገጫ መክሰር</string>
+	<string name="terms_of_service_limitation_of_liability_title">የተጠያቂነት ገደብ</string>
+	<string name="terms_of_service_termination_title">መቋረጥ</string>
+	<string name="terms_of_service_governing_law_title">የሚተቋበረው ሕግ</string>
+	<string name="terms_of_service_changes_title">እነዚህ ውሎች ውስጥ ለውጦች</string>
+	<string name="terms_of_service_about_body">ይህ መተግበሪያ የግል ወጪ መከታተያ መሳሪያ ነው። ፈጽሞ ከመስመር ውጭ ይሰራል
+		እና ለሁሉም ዕድሜ ያላቸው ተጠቃሚዎች የተነደፈ ነው። መተግበሪያው ምዝገባ አያስፈልግም፣ ማስታወቂያዎችን
+		አያሳይም፣ ማንኛውንም የግል መረጃ አይሰበስብ ወይም አይላክም።</string>
+	<string name="terms_of_service_use_body">እባክዎ መተግበሪያውን በሕጋዊ አላማዎች ብቻ እንዲጠቀሙ እና የሌሎችን መብቶች
+		እንዳይጣሱ ወይም የመተግበሪያውን አጠቃቀም እንዳይገድቡ ትስማማላችሁ። መተግበሪያውን እንደገና ለመንደፍ፣
+		ለመክፈል ወይም ለማሻሻል ሙከራ መድረግ አይገባዎትም።</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">መተግበሪያው “እንደ ሆነ” በምንም ዓይነት ዋርከት ያልተሰጠ መሆኑን ይናገራል፣
+		ግልፅ ወይም ተወላጅ መሆንም እንዲያካትት፣ መግባባት፣ ለተወሰነ ተግባር የሚገባ፣ ወይም ማንነትን መሰረዝ
+		ያልተመረጡትን ዋርከቶችን ይዟል። መተግበሪያው ከስህተቶች ነጻ እንደሆነ ወይም በቀጣይ ሁኔታ ጊዜ ላይ እንዲሰራ
+		የምንሰጥም ዋርከት የለንም።</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">መተግበሪያው ማንኛውም የግል ወይም የተጠቃሚ ውሂብ አያከማችል፣ አትቆጥብ፣
+		አትካፈልም። የሚገባዎት ሁሉ መረጃ በመሣሪያዎ ላይ በአካባቢ በእርስዎ ቁጥጥር ስር ይተካል።</string>
+	<string name="terms_of_service_intellectual_property_body">በመተግበሪያው ያሉት ሁሉም መብቶች፣ መደራሽነት፣ እና ፍላጎት፣ የእርሱን ዲዛይን፣
+		ባለመጠቆም፣ ኮድ የተቀረቡት በየብቃቱ በየበኩሉ የመብት ባለቤት ናቸው።</string>
+	<string name="terms_of_service_limitation_of_liability_body">በህግ የተፈቀደውን ከፍተኛ ደረጃ ድረስ፣ ባለቤቱ ከመተግበሪያው ጥቅም ላይ
+		ከሚያደርጉት ጥቅም የተነሳ ማንኛውም ጉዳት ወይም ኪሳራ አይጠየቅም፣ ከዚህ ጋር የተያያዘ የመረጃ ጥፋት፣ ትርፍ
+		ወይም የንግድ እድሎች ጥፋትን ጨምሮ።</string>
+	<string name="terms_of_service_termination_body">ባለቤት በማንኛውም ጊዜ አውታረ መተግበሪያውን ማቆም ወይም ማድጋት ማቋረጥ ይችላል
+		ምናልባት የቀድሞ ማሳሰቢያ ያልተሰጠ ነው።</string>
+	<string name="terms_of_service_governing_law_body">እነዚህ ውሎች በእርስዎ የመኖሪያ ሀገር ሕጎች መሠረት ይተገበራሉ፣ ሕግ ግጭት
+		መፍትሄ መሠረቶችን አያስተውሉም። በተቻለ ሁኔታ ከሆነ፣ የእርስዎ ሀገር አዋጅ ተጠያቂ የተጠናቀቀ የተገዙ ጠበቃ
+		ሕጎች እንዲሁም ይተገበራሉ።</string>
+	<string name="terms_of_service_changes_body">እነዚህ ውሎች ከጊዜ ወደ ጊዜ ሊዘመኑ ይችላሉ። ለውጦች ከማድረግ በኋላ መተግበርዎ
+		መቀጠል የተሻሉትን ውሎች መቀበልዎን ይገልጻል።</string>
+	<string name="terms_of_service_contact_information_body">ከእነዚህ ውሎች ጋር የተያያዙ ጥያቄዎች ካሉዎት፣ ግልጽ ማድረግ ካስፈለገዎት ወይም
+		በመተግበሪያው ችግኝ ለማሳወቅ ከፈለጉ፣ በታች ባሉት የእውቂያ ዝርዝሮች ባለቤቱን ማግኘት ይችላሉ።</string>
+	<string name="terms_of_service_effective_date_body">“የሚሰራበት ቀን” ከእነዚህ ውሎች ጀምሮ የሚተገበርበት ቀን ነው። ማናቸውም
+		የወደፊት ዝመናዎች ለለውጦቹ መተግበሪያ ጊዜን ለማመልከት የታደሰ የመስራት ቀን ያካትታሉ።</string>
 </resources>

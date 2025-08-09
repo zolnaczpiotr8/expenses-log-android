@@ -10,8 +10,10 @@ import zolnaczpiotr8.com.github.expenses.log.ui.expense.navigateToNewExpense
 import zolnaczpiotr8.com.github.expenses.log.ui.expense.newExpenseDestination
 import zolnaczpiotr8.com.github.expenses.log.ui.home.Home
 import zolnaczpiotr8.com.github.expenses.log.ui.home.homeDestination
-import zolnaczpiotr8.com.github.expenses.log.ui.privacy.policy.navigateToPrivacyPolicy
-import zolnaczpiotr8.com.github.expenses.log.ui.privacy.policy.privacyPolicyDestination
+import zolnaczpiotr8.com.github.expenses.log.ui.policies.navigateToPrivacyPolicy
+import zolnaczpiotr8.com.github.expenses.log.ui.policies.navigateToTermsOfService
+import zolnaczpiotr8.com.github.expenses.log.ui.policies.privacyPolicyDestination
+import zolnaczpiotr8.com.github.expenses.log.ui.policies.termsOfServiceDestination
 import zolnaczpiotr8.com.github.expenses.log.ui.settings.navigateToSettings
 import zolnaczpiotr8.com.github.expenses.log.ui.settings.settingsDestination
 import zolnaczpiotr8.com.github.expenses.log.ui.theme.ExpensesLogTheme
@@ -28,7 +30,8 @@ fun ExpensesLogUi() {
           onNewExpenseClick = navController::navigateToNewExpense,
           onSettingsClick = navController::navigateToSettings,
           onNewCategoryClick = navController::navigateToNewCategory,
-          onPrivacyPolicyClick = navController::navigateToPrivacyPolicy)
+          onPrivacyPolicyClick = navController::navigateToPrivacyPolicy,
+          onTermsOfServiceClick = navController::navigateToTermsOfService)
       settingsDestination(
           onGoBackClick = navController::popBackStack,
       )
@@ -39,6 +42,7 @@ fun ExpensesLogUi() {
           onGoBackClick = navController::popBackStack,
       )
       privacyPolicyDestination(onGoBackClick = navController::popBackStack)
+      termsOfServiceDestination(onGoBackClick = navController::popBackStack)
     }
   }
   ReportDrawn()

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">სიმბოლოების რაოდენობა: %d. სიმბოლოების ზღვარი: %d</string>
 	<string name="privacy_policy">კონფიდენციალურობის პოლიტიკა</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">თქვენი მონაცემები რჩება თქვენთან</string>
+	<string name="policy_your_data_stays_with_you_title">თქვენი მონაცემები რჩება თქვენთან</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ჩვენ ვაფასებთ თქვენს კონფიდენციალურობას. ეს
 		აპლიკაცია სრულად მუშაობს ოფლაინელად და არ აგროვებს და არ გაუზიარებს
 		რაიმე მონაცემს. ეს პოლიტიკა ეხება ყველა მომხმარებელს მსოფლიოში, მათ
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">რამდენადაც მონაცემები არ იკრიბება, არაფერია, რაზეც
 		წვდომა, განახლება ან წაშლა შეგეძლებათ ჩვენი მეშვეობით. ყველა მონაცემი
 		თქვენია და მხოლოდ თქვენს მოწყობილობაზე რჩება.</string>
-	<string name="privacy_policy_contact_information_title">საკონტაქტო ინფორმაცია</string>
+	<string name="policy_contact_information_title">საკონტაქტო ინფორმაცია</string>
 	<string name="privacy_policy_changes_title">ცვლილებები ამ პოლიტიკაში</string>
-	<string name="privacy_policy_effective_date_title">ძალაში შესვლის თარიღი</string>
-	<string name="privacy_policy_email_subject">კონფიდენციალურობის პოლიტიკის მოთხოვნა – %s</string>
+	<string name="policy_effective_date_title">ძალაში შესვლის თარიღი</string>
 	<string name="policies">პოლიტიკა</string>
 	<string name="privacy_policy_contact_information_body">თუ გაქვთ რაიმე შეკითხვა ან შეშფოთება ამ
 		კონფიდენციალურობის პოლიტიკასთან დაკავშირებით, შეგიძლიათ დაგვიკავშირდეთ
@@ -99,4 +98,60 @@
 		აისახება ამ პოლიტიკის განახლებულ ვერსიაში. მომხმარებლებს ვურჩევთ,
 		პერიოდულად გადაამოწმონ ეს პოლიტიკა, რათა იყვნენ ინფორმირებულნი მათი
 		ინფორმაციის დამუშავების შესახებ.</string>
+	<string name="terms_of_service">მომსახურების პირობები</string>
+	<string name="dialog_first_launch_agree_title">დათანხმდით გასაგრძელებლად</string>
+	<string name="agree_to_terms">ვეთანხმები</string>
+	<string name="dialog_first_launch_terms_message">ამ აპის გამოყენებისთვის, თქვენ უნდა წაიკითხოთ და
+		დაეთანხმოთ ჩვენს მომსახურების პირობებს. მათ წასაკითხად გამოიყენეთ
+		ქვემოთ მოცემული ღილაკი.</string>
+	<string name="terms_of_service_about_title">აპლიკაციის შესახებ</string>
+	<string name="terms_of_service_use_title">აპის გამოყენება</string>
+	<string name="terms_of_service_intellectual_property_title">ინტელექტუალური საკუთრება</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">გარანტიების უარყოფა</string>
+	<string name="terms_of_service_limitation_of_liability_title">პასუხისმგებლობის შეზღუდვა</string>
+	<string name="terms_of_service_termination_title">შეწყვეტა</string>
+	<string name="terms_of_service_governing_law_title">მოქმედი კანონი</string>
+	<string name="terms_of_service_changes_title">ამ პირობების ცვლილებები</string>
+	<string name="terms_of_service_about_body">ეს აპლიკაცია არის პირადი ხარჯების თვალთვალის
+		ინსტრუმენტი. ის სრულად ოფლაინ მუშაობს და შექმნილია ყველა ასაკის
+		მომხმარებლისთვის. აპლიკაცია არ საჭიროებს რეგისტრაციას, არ აჩვენებს
+		რეკლამებს და არ აგროვებს ან გადასცემს პირად ინფორმაციას.</string>
+	<string name="terms_of_service_use_body">თქვენ ეთანხმებით აპის გამოყენებას მხოლოდ კანონიერ
+		მიზნებისთვის და ისე, რომ არ დაარღვიოს სხვების უფლებები ან არ შეზღუდოს
+		მათი აპის გამოყენება. თქვენ არ უნდა სცადოთ აპის რევერს ინჟინერია,
+		დეკომპილაცია ან მოდიფიცირება.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">აპლიკაცია მოწოდებულია „როგორც არის“ ყოველგვარი
+		გარანტიის გარეშე, იქნება ის პირდაპირი თუ ნაგულისხმევი, მათ შორის,
+		მაგრამ არ შემოიფარგლება, გარანტიებით კომერციული ვარგისიანობის,
+		კონკრეტული მიზნისთვის ვარგისიანობის ან არდარღვევის შესახებ. ჩვენ არ
+		ვაძლევთ გარანტიას, რომ აპლიკაცია იქნება შეცდომების გარეშე ან იმუშავებს
+		შეუწყვეტლად.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">აპლიკაცია არ აგროვებს, შეინახავს ან არ გაზიარებს
+		პერსონალურ ან მომხმარებლურ მონაცემებს. თქვენ მიერ შეყვანილი ყველა
+		ინფორმაცია მოთავსებულია ადგილობრივად თქვენს მოწყობილობაზე, თქვენს
+		კონტროლის ქვეშ.</string>
+	<string name="terms_of_service_intellectual_property_body">ყველა უფლება, სათაური და ინტერესი აპლიკაციაში და
+		მის მიმართ, მათ შორის მისი დიზაინი, ფუნქციები და კოდი, ეკუთვნის
+		საავტორო უფლებების მფლობელს.</string>
+	<string name="terms_of_service_limitation_of_liability_body">კანონის მიერ ნებადართული მაქსიმალური ფარგლებით,
+		მფლობელი არ არის პასუხისმგებელი აპის გამოყენებით გამოწვეულ ნებისმიერ
+		ზიანზე ან დანაკარგზე, მათ შორის, მაგრამ არ შემოიფარგლება, მონაცემების,
+		მოგების ან ბიზნეს შესაძლებლობების დაკარგვით.</string>
+	<string name="terms_of_service_termination_body">მფლობელს ნებისმიერ დროს შეუძლია შეწყვიტოს აპის
+		შეთავაზება ან მხარდაჭერა წინასწარი შეტყობინების გარეშე.</string>
+	<string name="terms_of_service_governing_law_body">ეს პირობები რეგულირდება თქვენი საცხოვრებელი ქვეყნის
+		კანონებით, კანონის კონფლიქტის პრინციპების გათვალისწინების გარეშე.
+		საჭიროების შემთხვევაში, თქვენს ქვეყანაში სავალდებულო მომხმარებელთა
+		დაცვის კანონებიც გავრცელდება.</string>
+	<string name="terms_of_service_changes_body">ეს პირობები შესაძლოა დროდადრო განახლდეს.
+		ცვლილებების შემდეგ აპლიკაციის გამოყენების გაგრძელება ნიშნავს, რომ
+		თქვენ ეთანხმებით განახლებულ პირობებს.</string>
+	<string name="terms_of_service_contact_information_body">თუ ამ პირობებთან დაკავშირებით რაიმე კითხვა გაქვთ,
+		გჭირდებათ განმარტება ან გსურთ განაცხადოთ აპლიკაციასთან დაკავშირებული
+		პრობლემის შესახებ, შეგიძლიათ დაუკავშირდეთ მფლობელს ქვემოთ მოცემული
+		საკონტაქტო დეტალების საშუალებით.</string>
+	<string name="terms_of_service_effective_date_body">„ძალაში შესვლის თარიღი“ არის თარიღი, რომლის
+		შემდეგაც ამ პირობები მოქმედებს. ნებისმიერი მომავალი განახლება მოიცავს
+		გადახედილ ძალაში შესვლის თარიღს, რათა მიუთითოს, როდის შევა ცვლილებები
+		ძალაში.</string>
 </resources>

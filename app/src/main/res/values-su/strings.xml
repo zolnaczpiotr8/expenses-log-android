@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Jumlah karakter: %d. Wates karakter: %d</string>
 	<string name="privacy_policy">Kawijakan Privacy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Data anjeun tetep sareng anjeun</string>
+	<string name="policy_your_data_stays_with_you_title">Data anjeun tetep sareng anjeun</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kami ngahargaan privasi anjeun. Aplikasi ieu
 		fungsina lengkep offline sarta henteu ngumpulkeun atawa ngabagi data
 		naon waé. Kabijakan ieu lumaku pikeun sadaya pamaké di sakuliah dunya,
@@ -82,10 +82,9 @@
 		naon-naon anu tiasa diaksés, diropéa, atanapi dipupus ngalangkungan
 		kami. Sadaya data milik anjeun sareng tetep ngan ukur dina alat
 		anjeun.</string>
-	<string name="privacy_policy_contact_information_title">Inpormasi Kontak</string>
+	<string name="policy_contact_information_title">Inpormasi Kontak</string>
 	<string name="privacy_policy_changes_title">Parobahan kana kawijakan ieu</string>
-	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
-	<string name="privacy_policy_email_subject">Patanyaan ngeunaan Kabijakan Privasi – %s</string>
+	<string name="policy_effective_date_title">Tanggal berlaku</string>
 	<string name="policies">Kawijakan</string>
 	<string name="privacy_policy_contact_information_body">Upami anjeun gaduh patanyaan atanapi hariwang
 		ngeunaan Kabijakan Privasi ieu, anjeun tiasa ngahubungi kami ku email.</string>
@@ -99,4 +98,60 @@
 		dina versi anu diropéa tina kawijakan ieu. Kami nyarankeun ka pamaké
 		pikeun marios kawijakan ieu sacara rutin pikeun tetep terang kumaha
 		inpormasina diatur.</string>
+	<string name="terms_of_service">Sarat Layanan</string>
+	<string name="dialog_first_launch_agree_title">Sapuk pikeun neruskeun</string>
+	<string name="agree_to_terms">Abdi satuju</string>
+	<string name="dialog_first_launch_terms_message">Pikeun nganggo aplikasi ieu, anjeun kedah maca
+		sareng nampi Sarat Layanan kami. Pake tombol di handap pikeun maca
+		éta.</string>
+	<string name="terms_of_service_about_title">Ngeunaan App</string>
+	<string name="terms_of_service_use_title">Pamakéan Aplikasi</string>
+	<string name="terms_of_service_intellectual_property_title">Kapamilikan Intelektual</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Pangsiun tina garansi</string>
+	<string name="terms_of_service_limitation_of_liability_title">Watesan Tanggung Jawab</string>
+	<string name="terms_of_service_termination_title">Terminasi</string>
+	<string name="terms_of_service_governing_law_title">Hukum Anu Berlaku</string>
+	<string name="terms_of_service_changes_title">Robah kana Sarat Ieu</string>
+	<string name="terms_of_service_about_body">Aplikasi ieu mangrupikeun alat pikeun ngalacak
+		biaya pribadi. Ieu jalan lengkep offline sarta dirarancang pikeun
+		pamaké tina sagala umur. Aplikasi ieu henteu meryogikeun pendaptaran,
+		henteu nembongkeun iklan, sarta henteu ngumpulkeun atawa ngirimkeun
+		informasi pribadi naon waé.</string>
+	<string name="terms_of_service_use_body">Anjeun satuju pikeun nganggo Aplikasi ngan ukur
+		pikeun tujuan anu sah jeung dina cara anu henteu ngalanggar hak batur
+		atanapi ngawatesan panggunaan Aplikasi ku batur. Anjeun henteu kedah
+		nyobian rékayasa balik, ngadékopilasi, atanapi ngarobih Aplikasi.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikasi disayagikeun “sakumaha adanya” tanpa aya
+		garansi naon waé, boh sacara écés atawa tersirat, kaasup tapi henteu
+		diwatesan ku garansi bisa dijual, cocog pikeun tujuan husus, atawa
+		henteu ngalanggar. Kami henteu ngajamin yén aplikasi bakal bebas tina
+		kasalahan atanapi bakal jalanna tanpa gangguan.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikasi henteu ngumpulkeun, nyimpen, atanapi
+		ngabagi data pribadi atanapi panggunaan naon waé. Sadaya inpormasi anu
+		anjeun lebetkeun tetep disimpen sacara lokal dina alat anjeun dina
+		kontrol anjeun.</string>
+	<string name="terms_of_service_intellectual_property_body">Sadaya hak, judul, sareng kapentingan dina jeung ka
+		Aplikasi, kalebet desain, fitur, jeung kode na, kagungan nu boga hak
+		cipta.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Dina wates maksimal anu diidinan ku hukum, nu boga
+		henteu tanggung jawab kana karugian atawa leungitna nanaon anu timbul
+		tina pamakéan Aplikasi anjeun, kaasup tapi henteu diwatesan ku
+		leungitna data, kauntungan, atawa kasempetan bisnis.</string>
+	<string name="terms_of_service_termination_body">Nu boga tiasa eureun nawarkeun atanapi ngarojong
+		Aplikasi iraha waé tanpa béwara saméméhna.</string>
+	<string name="terms_of_service_governing_law_body">Sarat ieu bakal diatur ku hukum nagara tempat
+		anjeun cicing, tanpa nengetan prinsip konflik hukum. Lamun aya anu
+		dilarapkeun, undang-undang panyalindungan konsumen wajib di nagara
+		anjeun ogé bakal berlaku.</string>
+	<string name="terms_of_service_changes_body">Sarat ieu tiasa diénggalan tina waktos ka waktos.
+		Teras ngagunakeun App sanggeus aya parobahan hartina anjeun nampa
+		Sarat anu diénggalan.</string>
+	<string name="terms_of_service_contact_information_body">Upami anjeun gaduh patarosan ngeunaan Sarat ieu,
+		peryogi klarifikasi, atanapi hoyong ngalaporkeun masalah sareng
+		Aplikasi, anjeun tiasa ngahubungi anu boga dina detil kontak di handap
+		ieu.</string>
+	<string name="terms_of_service_effective_date_body">“Tanggal Berlaku” nyaéta tanggal nalika Sarat ieu
+		mimiti berlaku. Sagala apdet anu bakal datang bakal ngalebetkeun
+		tanggal berlaku anu geus direvisi pikeun nunjukkeun iraha parobahan
+		mimiti berlaku.</string>
 </resources>

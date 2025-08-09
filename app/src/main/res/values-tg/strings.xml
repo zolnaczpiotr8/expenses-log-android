@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Миқдори ҳарфҳо: %d. Ҳадди ҳарфҳо: %d</string>
 	<string name="privacy_policy">Сиёсати махфият</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Маълумоти шумо бо шумо мемонад</string>
+	<string name="policy_your_data_stays_with_you_title">Маълумоти шумо бо шумо мемонад</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мо ба махфиятии шумо эҳтиром мегузорем. Ин барнома
 		пурра бе интернет фаъолият мекунад ва ягон маълумотро ҷамъоварӣ ё
 		мубодила намекунад. Ин сиёсати махфият барои ҳамаи истифодабарандагони
@@ -83,10 +83,9 @@
 	<string name="privacy_policy_your_rights_body">Азбаски ягон маълумот ҷамъоварӣ намешавад, шумо
 		чизе барои дастрас кардан, навсозӣ ё ҳазф кардан тавассути мо надоред.
 		Ҳамаи маълумот моли шумост ва танҳо дар дастгоҳи шумо боқӣ мемонад.</string>
-	<string name="privacy_policy_contact_information_title">Маълумоти тамос</string>
+	<string name="policy_contact_information_title">Маълумоти тамос</string>
 	<string name="privacy_policy_changes_title">Тағйирот ба ин сиёсат</string>
-	<string name="privacy_policy_effective_date_title">Санаи ба амал баровардан</string>
-	<string name="privacy_policy_email_subject">Пурсиш Дар бораи Сиёсати Махфият – %s</string>
+	<string name="policy_effective_date_title">Санаи ба амал баровардан</string>
 	<string name="policies">Сиёсатҳо</string>
 	<string name="privacy_policy_contact_information_body">Агар шумо дар бораи ин Сиёсати Ҳифзи Шахсӣ ягон
 		савол ё нигаронӣ дошта бошед, метавонед тавассути почтаи электронӣ бо
@@ -102,4 +101,59 @@
 		махфият инъикос хоҳад ёфт. Мо ба корбарон тавсия медиҳем, ки ин
 		сиёсати махфиятро гоҳ-гоҳ бозбинӣ кунанд, то бидонанд маълумоти онҳо
 		чӣ гуна коркард мешавад.</string>
+	<string name="terms_of_service">Шартҳои хизматрасонӣ</string>
+	<string name="dialog_first_launch_agree_title">Барои идома розӣ шавед</string>
+	<string name="agree_to_terms">Ман розӣ ҳастам</string>
+	<string name="dialog_first_launch_terms_message">Барои истифода бурдани ин замима, шумо бояд Шартҳои
+		хизматрасонии моро хонед ва қабул кунед. Барои хонданашон аз тугмаи
+		зер истифода баред.</string>
+	<string name="terms_of_service_about_title">Дар бораи Барнома</string>
+	<string name="terms_of_service_use_title">Истифодаи барнома</string>
+	<string name="terms_of_service_intellectual_property_title">Моликияти Зеҳнӣ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Рад кардани кафолатҳо</string>
+	<string name="terms_of_service_limitation_of_liability_title">Маҳдудияти Масъулият</string>
+	<string name="terms_of_service_termination_title">Қатъ</string>
+	<string name="terms_of_service_governing_law_title">Қонуни амалкунанда</string>
+	<string name="terms_of_service_changes_title">Тағйирот дар Ин Шартҳо</string>
+	<string name="terms_of_service_about_body">Ин замима воситаи пайгирии хароҷоти шахсӣ мебошад.
+		Он пурра офлайн кор мекунад ва барои корбарони тамоми синну сол
+		пешбинӣ шудааст. Замима ба қайд гирифтанро талаб намекунад, реклама
+		намоиш намедиҳад ва ягон маълумоти шахсиро ҷамъ ё интиқол намедиҳад.</string>
+	<string name="terms_of_service_use_body">Шумо розӣ мешавед, ки Барномаро танҳо барои
+		мақсадҳои қонунӣ ва ба тавре истифода баред, ки ҳуқуқи дигаронро
+		вайрон накунад ё истифодаи онҳо аз Барномаро маҳдуд насозад. Шумо
+		набояд кӯшиш кунед, ки Барномаро муҳандисии баръакс кунед,
+		декомпилятсия кунед ё тағйир диҳед.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Барнома “тавре ки ҳаст” пешниҳод карда мешавад бе
+		ягон кафолати ҳар гуна, ошкоро ё пинҳонӣ, аз ҷумла, вале маҳдуд
+		намешавад ба кафолатҳои қобилияти фурӯш, мувофиқ будан барои мақсади
+		муайян ё набудани нақзи ҳуқуқ. Мо кафолат намедиҳем, ки барнома бе
+		хато хоҳад буд ё бефосила кор хоҳад кард.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Барнома ҳеҷ гуна маълумоти шахсӣ ё истифодашударо
+		ҷамъ намекунад, нигоҳ намекунад ва мубодила намекунад. Ҳамаи
+		маълумоте, ки шумо ворид мекунед, маҳаллан дар дастгоҳи шумо нигоҳ
+		дошта мешавад ва таҳти назорати шумост.</string>
+	<string name="terms_of_service_intellectual_property_body">Ҳамаи ҳуқуқҳо, унвон ва манфиатҳо ба ва нисбати
+		Барнома, аз ҷумла тарҳ, хусусиятҳо ва рамзи он, ба соҳибони ҳуқуқи
+		муаллиф тааллуқ доранд.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Дар ҳадди аксар, ки қонун иҷозат медиҳад, соҳиб
+		барои ягон зарар ё талафоте, ки аз истифодаи Шумо аз Барнома ба вуҷуд
+		меояд, ҷавобгар нест, аз ҷумла, вале на танҳо, талафоти маълумот,
+		фоида ё имкониятҳои тиҷоратӣ.</string>
+	<string name="terms_of_service_termination_body">Соҳиб метавонад дар ҳар вақт пешниҳоди барнома ё
+		дастгирии онро қатъ кунад бе огоҳии пешакӣ.</string>
+	<string name="terms_of_service_governing_law_body">Ин Шартҳо тибқи қонунҳои кишвари истиқоматии шумо
+		идора мешаванд, новобаста аз принсипҳои ихтилофи қонунҳо. Ҳангоми
+		зарурат, қонунҳои ҳатмии ҳимояи истеъмолкунандаи кишвари шумо низ
+		татбиқ мешаванд.</string>
+	<string name="terms_of_service_changes_body">Ин Шартҳо метавонанд гоҳ-гоҳ нав карда шаванд.
+		Идома додани истифодаи Барнома пас аз ворид кардани тағйирот маънои
+		онро дорад, ки шумо Шартҳои навшударо қабул мекунед.</string>
+	<string name="terms_of_service_contact_information_body">Агар шумо ягон савол дар бораи ин Шартҳо дошта
+		бошед, ба тавзеҳот ниёз дошта бошед ё хоҳед, ки мушкилеро бо Барнома
+		гузориш диҳед, метавонед бо соҳиби он тавассути маълумоти тамоси дар
+		поён овардашуда тамос гиред.</string>
+	<string name="terms_of_service_effective_date_body">«Санаи эътибор» санаест, ки аз он ин Шартҳо татбиқ
+		мешаванд. Ҳар гуна навсозии оянда санаи эътибори аз нав дидашударо дар
+		бар мегирад, то нишон диҳад, ки тағйирот кай эътибор пайдо мекунанд.</string>
 </resources>

@@ -47,7 +47,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">מספר תווים: %d. מגבלת תווים: %d</string>
 	<string name="privacy_policy">מדיניות פרטיות</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">הנתונים שלך נשארים איתך</string>
+	<string name="policy_your_data_stays_with_you_title">הנתונים שלך נשארים איתך</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">אנו מכבדים את פרטיותך. האפליקציה פועלת באופן מלא לא
 		מקוון ואינה אוספת או משתפת כל מידע. מדיניות זו חלה על כל המשתמשים
 		ברחבי העולם, כולל ילדים בכל הגילאים. אנו לא אוספים, מאחסנים, משדרים או
@@ -73,10 +73,9 @@
 	<string name="privacy_policy_your_rights_title">הזכויות שלך</string>
 	<string name="privacy_policy_your_rights_body">מאחר שלא נאספים נתונים, אין דבר שניתן לגשת אליו,
 		לעדכן או למחוק דרכנו. כל הנתונים הם שלך ונשארים רק על המכשיר שלך.</string>
-	<string name="privacy_policy_contact_information_title">פרטי קשר</string>
+	<string name="policy_contact_information_title">פרטי קשר</string>
 	<string name="privacy_policy_changes_title">שינויים במדיניות זו</string>
-	<string name="privacy_policy_effective_date_title">תאריך התחולה</string>
-	<string name="privacy_policy_email_subject">פנייה בנוגע למדיניות פרטיות – %s</string>
+	<string name="policy_effective_date_title">תאריך התחולה</string>
 	<string name="policies">מדיניות</string>
 	<string name="privacy_policy_contact_information_body">אם יש לך שאלות או חששות בנוגע למדיניות פרטיות זו,
 		תוכל ליצור איתנו קשר באמצעות דוא"ל.</string>
@@ -88,4 +87,48 @@
 		מטפלת בנתוניך ישוקף בגרסה מעודכנת של מדיניות זו. אנו מעודדים משתמשים
 		לעיין במדיניות זו מדי פעם כדי להישאר מעודכנים לגבי האופן שבו מטפלים
 		במידע שלהם.</string>
+	<string name="terms_of_service">תנאי השירות</string>
+	<string name="dialog_first_launch_agree_title">הסכם להמשיך</string>
+	<string name="agree_to_terms">אני מסכים</string>
+	<string name="dialog_first_launch_terms_message">כדי להשתמש באפליקציה זו, עליך לקרוא ולקבל את תנאי
+		השירות שלנו. השתמש בלחצן שלמטה כדי לקרוא אותם.</string>
+	<string name="terms_of_service_about_title">על האפליקציה</string>
+	<string name="terms_of_service_use_title">שימוש באפליקציה</string>
+	<string name="terms_of_service_intellectual_property_title">קניין רוחני</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">כתב ויתור על אחריות</string>
+	<string name="terms_of_service_limitation_of_liability_title">הגבלת אחריות</string>
+	<string name="terms_of_service_termination_title">סיום</string>
+	<string name="terms_of_service_governing_law_title">הדין החל</string>
+	<string name="terms_of_service_changes_title">שינויים בתנאים אלו</string>
+	<string name="terms_of_service_about_body">יישום זה הוא כלי למעקב אחר הוצאות אישיות. הוא פועל
+		כולו במצב לא מקוון ומיועד למשתמשים בכל הגילאים. האפליקציה אינה דורשת
+		רישום, אינה מציגה פרסומות ואינה אוספת או מעבירה כל מידע אישי.</string>
+	<string name="terms_of_service_use_body">אתה מסכים להשתמש באפליקציה רק למטרות חוקיות ובאופן
+		שאינו פוגע בזכויות אחרים או מגביל את השימוש שלהם באפליקציה. אינך רשאי
+		לנסות לבצע הנדסה הפוכה, הידור לאחור או שינוי של האפליקציה.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">האפליקציה ניתנת “כפי שהיא” ללא אחריות מכל סוג, בין
+		אם מפורשת ובין אם משתמעת, לרבות אך לא רק אחריות לסחירות, להתאמה למטרה
+		מסוימת, או לאי-הפרה. איננו מתחייבים שהאפליקציה תהיה חפה משגיאות או
+		שתפעל ללא הפסקה.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">האפליקציה לא אוספת, לא מאחסנת ולא משתפת אף נתון
+		אישי או נתוני שימוש. כל המידע שאתה מזין נשאר מאוחסן מקומית על המכשיר
+		שלך, תחת השליטה שלך.</string>
+	<string name="terms_of_service_intellectual_property_body">כל הזכויות, הכותרת והעניין באפליקציה, כולל העיצוב,
+		הפונקציות והקוד שלה, בבעלות בעל זכויות היוצרים.</string>
+	<string name="terms_of_service_limitation_of_liability_body">במידה המרבית שהחוק מתיר, הבעלים אינו אחראי לכל נזק
+		או אובדן הנובע משימושך באפליקציה, לרבות אך לא רק אובדן נתונים, רווחים
+		או הזדמנויות עסקיות.</string>
+	<string name="terms_of_service_termination_body">הבעלים רשאי להפסיק להציע או לתמוך באפליקציה בכל עת
+		ללא הודעה מוקדמת.</string>
+	<string name="terms_of_service_governing_law_body">תנאים אלה יהיו כפופים לחוקי מדינת המגורים שלך, ללא
+		התחשבות בעקרונות סתירת חוקים. במידת הצורך, יחולו גם חוקי הגנת הצרכן
+		המחייבים של מדינתך.</string>
+	<string name="terms_of_service_changes_body">תנאים אלה עשויים להתעדכן מעת לעת. המשך שימוש
+		באפליקציה לאחר ביצוע שינויים משמעו שאתה מקבל את התנאים המעודכנים.</string>
+	<string name="terms_of_service_contact_information_body">אם יש לך שאלות כלשהן לגבי תנאים אלה, אתה זקוק
+		להבהרה, או ברצונך לדווח על בעיה באפליקציה, תוכל לפנות לבעלים באמצעות
+		פרטי הקשר שלהלן.</string>
+	<string name="terms_of_service_effective_date_body">”תאריך התחולה“ הוא התאריך שממנו חלים תנאים אלה. כל
+		עדכון עתידי יכלול תאריך תחולה מתוקן כדי לציין מתי השינויים נכנסים
+		לתוקף.</string>
 </resources>

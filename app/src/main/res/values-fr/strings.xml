@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Nombre de caractères : %d. Limite de caractères : %d</string>
 	<string name="privacy_policy">Politique de confidentialité</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Vos données restent avec vous</string>
+	<string name="policy_your_data_stays_with_you_title">Vos données restent avec vous</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nous respectons votre vie privée. Cette application
 		fonctionne entièrement hors ligne et ne collecte ni ne partage aucune
 		donnée. Cette politique s’applique à tous les utilisateurs dans le
@@ -86,11 +86,9 @@
 		que vous puissiez consulter, mettre à jour ou supprimer via nous.
 		Toutes les données vous appartiennent et restent uniquement sur votre
 		appareil.</string>
-	<string name="privacy_policy_contact_information_title">Coordonnées</string>
+	<string name="policy_contact_information_title">Coordonnées</string>
 	<string name="privacy_policy_changes_title">Modifications de cette politique</string>
-	<string name="privacy_policy_effective_date_title">Date d’entrée en vigueur</string>
-	<string name="privacy_policy_email_subject">Demande concernant la Politique de Confidentialité
-		– %s</string>
+	<string name="policy_effective_date_title">Date d’entrée en vigueur</string>
 	<string name="policies">Politiques</string>
 	<string name="privacy_policy_contact_information_body">Si vous avez des questions ou des préoccupations
 		concernant cette politique de confidentialité, vous pouvez nous
@@ -106,4 +104,62 @@
 		une version mise à jour de cette politique. Nous encourageons les
 		utilisateurs à consulter régulièrement cette politique afin de rester
 		informés sur la manière dont leurs informations sont traitées.</string>
+	<string name="terms_of_service">Conditions de service</string>
+	<string name="dialog_first_launch_agree_title">Accepter pour continuer</string>
+	<string name="agree_to_terms">J’accepte</string>
+	<string name="dialog_first_launch_terms_message">Pour utiliser cette application, vous devez lire et
+		accepter nos Conditions d’utilisation. Utilisez le bouton ci-dessous
+		pour les lire.</string>
+	<string name="terms_of_service_about_title">À propos de l’application</string>
+	<string name="terms_of_service_use_title">Utilisation de l’application</string>
+	<string name="terms_of_service_intellectual_property_title">Propriété Intellectuelle</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Clause de non-garantie</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitation de Responsabilité</string>
+	<string name="terms_of_service_termination_title">Résiliation</string>
+	<string name="terms_of_service_governing_law_title">Loi applicable</string>
+	<string name="terms_of_service_changes_title">Modifications de ces Conditions</string>
+	<string name="terms_of_service_about_body">Cette application est un outil de suivi des
+		dépenses personnelles. Elle fonctionne entièrement hors ligne et est
+		conçue pour des utilisateurs de tous âges. L’application ne nécessite
+		pas d’inscription, n’affiche pas de publicités et ne collecte ni ne
+		transmet aucune information personnelle.</string>
+	<string name="terms_of_service_use_body">Vous acceptez d’utiliser l’Application uniquement à
+		des fins légales et d’une manière qui ne porte pas atteinte aux droits
+		d’autrui ou ne restreigne pas leur utilisation de l’Application. Vous
+		ne devez pas tenter de faire de l’ingénierie inverse, de décompiler ou
+		de modifier l’Application.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">L’application est fournie “telle quelle” sans
+		aucune garantie d’aucune sorte, expresse ou implicite, y compris mais
+		sans s’y limiter les garanties de qualité marchande, d’adéquation à un
+		usage particulier ou d’absence de contrefaçon. Nous ne garantissons
+		pas que l’application sera exempte d’erreurs ou qu’elle fonctionnera
+		sans interruption.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">L’application ne collecte, ne stocke ni ne partage
+		aucune donnée personnelle ou d’utilisation. Toutes les informations
+		que vous saisissez restent stockées localement sur votre appareil sous
+		votre contrôle.</string>
+	<string name="terms_of_service_intellectual_property_body">Tous les droits, titres et intérêts relatifs à
+		l’Application, y compris son design, ses fonctionnalités et son code,
+		appartiennent au titulaire des droits d’auteur.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Dans toute la mesure permise par la loi, le
+		propriétaire n’est pas responsable des dommages ou pertes résultant de
+		votre utilisation de l’Application, y compris, mais sans s’y limiter,
+		la perte de données, de bénéfices ou d’opportunités commerciales.</string>
+	<string name="terms_of_service_termination_body">Le propriétaire peut cesser de proposer ou de
+		soutenir l’application à tout moment sans préavis.</string>
+	<string name="terms_of_service_governing_law_body">Les présentes Conditions sont régies par les lois
+		de votre pays de résidence, sans tenir compte des principes de conflit
+		de lois. Le cas échéant, les lois impératives de protection des
+		consommateurs de votre pays s’appliqueront également.</string>
+	<string name="terms_of_service_changes_body">Ces Conditions peuvent être mises à jour de temps à
+		autre. L’utilisation continue de l’Application après des modifications
+		signifie que vous acceptez les Conditions mises à jour.</string>
+	<string name="terms_of_service_contact_information_body">Si vous avez des questions concernant ces
+		Conditions, avez besoin d’éclaircissements ou souhaitez signaler un
+		problème avec l’Application, vous pouvez contacter le propriétaire aux
+		coordonnées ci-dessous.</string>
+	<string name="terms_of_service_effective_date_body">La “Date d’entrée en vigueur” est la date à partir
+		de laquelle ces Conditions s’appliquent. Toute mise à jour future
+		inclura une date d’entrée en vigueur révisée pour indiquer quand les
+		modifications prennent effet.</string>
 </resources>

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Kanji kɔrɔbɔ: %d. Kanji bɛɛya: %d</string>
 	<string name="privacy_policy">Politiki ka kɔnɔ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Donu ka segin ye i ye</string>
+	<string name="policy_your_data_stays_with_you_title">Donu ka segin ye i ye</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">An bɛ bamanakan kɔrɔw ka a fɛ. App kɔrɔw ye kelen
 		ye offline ka kuma kɛ tɛ ye, ka mɔgɔw yélenw ka sɛbɛ. Policy bɛɛ bɛɛ
 		kɛla ji fɛɛrɛ tɛminɛw la, kuma kelenw bɛɛ dɔɔnin ka fɔ ka baara. An tɛ
@@ -74,10 +74,9 @@
 	<string name="privacy_policy_your_rights_title">I Droitw</string>
 	<string name="privacy_policy_your_rights_body">Donni kelen te sigi, o kɛra kɛ i ma a kɔrɔ, a sɔ̀rɔ
 		ni a dɔgɔsili la. Donni kɛlɛ kɛ i ye, a bɛ taa kɛ i fɛ ka ban.</string>
-	<string name="privacy_policy_contact_information_title">Ɲɛnama ka kɛnɛ</string>
+	<string name="policy_contact_information_title">Ɲɛnama ka kɛnɛ</string>
 	<string name="privacy_policy_changes_title">Fɛnw ka bɔ fo ni siyasa ja</string>
-	<string name="privacy_policy_effective_date_title">Don kɛndɛya</string>
-	<string name="privacy_policy_email_subject">Sirinɛ la ka siyasigi fɔlɔ – %s</string>
+	<string name="policy_effective_date_title">Don kɛndɛya</string>
 	<string name="policies">Polisilen</string>
 	<string name="privacy_policy_contact_information_body">Sisan i ni ɲɛgɛn ni sabali la kɔfɛ k’an ka Privacy
 		Policy ye, i t’a fɔ an na sisan tɛmɛ.</string>
@@ -89,4 +88,52 @@
 		yɛlɛma, o bɛ sisan sɛbɛ kun bɛɛ la. An bɛ nyininkaliw ye sigilen kɛ an
 		ka siratigɛya ni sigi-sigi, ka a fɛ an bɛɛ se ka don i ka donni ni
 		kɛlɛya.</string>
+	<string name="terms_of_service">Sèbɛnni tɔ̀gɔw</string>
+	<string name="dialog_first_launch_agree_title">Sɔrɔ ka se ka tɔnsɔrɔ</string>
+	<string name="agree_to_terms">Ne ka kɔ</string>
+	<string name="dialog_first_launch_terms_message">Ka sɛbɛnni kɛ app nin na, i bɛ se ka kuma kɛ ani ka
+		a ye an ka Sèbɛnni Lafinw. Ka a kalan, na ta butɔn min bɛ duguma la.</string>
+	<string name="terms_of_service_about_title">Kan ka app la ye</string>
+	<string name="terms_of_service_use_title">Ka bara la application ye</string>
+	<string name="terms_of_service_intellectual_property_title">Hakɛ dɔɔnin</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Kɔfɛsiri fɔlɔw ka tɔɔrɔ kɛ</string>
+	<string name="terms_of_service_limitation_of_liability_title">Hakkili kɛlɛya hakɛ</string>
+	<string name="terms_of_service_termination_title">Farikɛcogo</string>
+	<string name="terms_of_service_governing_law_title">Dɔgɔkunya la</string>
+	<string name="terms_of_service_changes_title">Yɛlɛma ka kɛ kɔfɛ bɛɛ min bɛ se ka kan</string>
+	<string name="terms_of_service_about_body">Ka aplikasyon kɔrɔ ye sisan fila hakɛ caman ka
+		sɛbɛ. A bɛ kɛ kɛlen ye sanfɛ ka kɛ ka bɔ, ka yɛrɛ fila ka bɔ bɛɛ ka
+		mɛnɛn. Aplikasyon tɛ sɔrɔ kafuya, tɛ sɛbɛn ka kɛ, tɛ ka doni kɛlɛ ni
+		doni fɔlɔ kɛ ni ka fɔ.</string>
+	<string name="terms_of_service_use_body">I ka a la ka app ye kɔfɛ ka tuma kelen ye sariya la
+		kɛ, ani ka a la fɛ ka taa kɔfɛ ka ɲɛta kalan baara ye walasa ka a la
+		hakɛw bɛɛ fɛ ka ɲɛfa, walima ka a la a fɛ ka a bɛɛ app ye tuma kɛla. I
+		tɛ se ka app ye sigida, ka a ka boloma, walima ka a ka taamasiyɛn kɛ.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">App bi b’a la ka “aw ye se ka” do, i ye kɛnɛ kan
+		bɛɛ fɔlɔ ye sirakɛ la, mɛnna ka ila yɛlɛma kɛra, ngɛntɛn yɛlɛma ka
+		dɛnƐ, wa kɔrɔ-jàmuman ka fɔlɔ, sirakɛn bɛɛ ye, wa sana ka kɛra wa
+		furu. N bɛ bɔ k’i ka di App bɛɛ ta ka fɔlɔ fila k’i bɛ furu wa ka kɛ
+		la.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Kinjébara la app bɛ y’a kɛla, y’a suga ka mɛn na,
+		ni ka binye mɛn ye. Fɔlɔ ka kɛ sogoma la yɛlɛma ka fɛ ka kɛnɛla la
+		lafa kan ka fila i san se ka i feere.</string>
+	<string name="terms_of_service_intellectual_property_body">Dɔnw kɛ, sigi ni fila la App ye, ne dɔɔni na,
+		keneyaw ni kodu ka sɛgɛn don na sigi, sa ka copyright don kuma to.</string>
+	<string name="terms_of_service_limitation_of_liability_body">A kɛ minnu kelen ye ka ban ka segin ɲɔgɔn kanun la,
+		app ka dugukolo tɛ ka kɛ kɛlɛya walima ɲɛfɛ kɛlɛya bɛɛ ɲɛ ko i ye app
+		ye, min bɛ se ka ta sɛbɛnw, ladon, walima sigi ka taa dunyali la.</string>
+	<string name="terms_of_service_termination_body">Dɔnw ka bɛɛ bɛ se ka ɲɛna a yɛrɛ ye ka App don kɔfɛ
+		walima ka a fɔlɔ kɛ a bɛɛ ye k’a ɲɛ, sisan kelen tɛɛ ka ɲɛ.</string>
+	<string name="terms_of_service_governing_law_body">Waati kɛ I ka kuma ye i bɔ cɛ ka kɛ la légaw la i
+		bɛn ka la, ka cɛ ka fɛn don kɛ cɛn ɲin di nenen kɛ. A bɛ y’a fɔ, i bɛn
+		légaw bolo kɛnɛya fila nyɛnna ka dɔɔnin na.</string>
+	<string name="terms_of_service_changes_body">Ɲin ye sigida la, a bɛ ka ɲɛsin k’a kɛ waati waati.
+		A ka App ye kɛ ka taa kɛlɛ ni yɛlɛma kɛra, o ye n’i b’a fɔ i bɛ na
+		ɲɛsin kɔrɔw kɛ.</string>
+	<string name="terms_of_service_contact_information_body">Ni i ka kuma kɛ ɲɛ na kan ka Terimuw bɛɛ la, o
+		kɔrɔbɔ la ka fɔ, walima i b’a fɛ ka app la jɔya kɛ, i b’a fɛ ka bila
+		jatigi la sisanw ka jɔgɔ fɛ ka taa.</string>
+	<string name="terms_of_service_effective_date_body">“Jatigiya kɔrɔ” ye don kelen ye min ye ka kɛ sɛbɛ
+		la k’a fɔ ka kanu minnu bɛ kɛ. K’i bila fɛɛrɛ kɔrɔ bɛ taa ka jatigiya
+		kɔrɔ fɛɛrɛ yɛlɛma ka kuma don kelen ye min bɛ kɛ la.</string>
 </resources>

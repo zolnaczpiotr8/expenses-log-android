@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">అక్షరాల సంఖ్య: %d. అక్షర పరిమితి: %d</string>
 	<string name="privacy_policy">గోప్యతా విధానం</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">మీ డేటా మీతోనే ఉంటుంది</string>
+	<string name="policy_your_data_stays_with_you_title">మీ డేటా మీతోనే ఉంటుంది</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">మేము మీ గోప్యతను గౌరవిస్తున్నాము. ఈ యాప్ పూర్తిగా
 		ఆఫ్‌లైన్‌లో పని చేస్తుంది మరియు డేటాను సేకరించదు లేదా పంచుకోదు. ఈ
 		విధానం ప్రపంచవ్యాప్తంగా ఉన్న అన్ని వినియోగదారులకు వర్తిస్తుంది, అన్ని
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">ఎటువంటి డేటాను సేకరించడం జరగదు కాబట్టి, మిమ్మల్ని
 		통해 మీరు యాక్సెస్ చేయాల్సిన, నవీకరించాల్సిన లేదా తొలగించాల్సిన దేనీ
 		లేదు. అన్ని డేటా మీదే మరియు అది మీ పరికరంలో మాత్రమే ఉంటుంది.</string>
-	<string name="privacy_policy_contact_information_title">సంప్రదించడానికి సమాచారం</string>
+	<string name="policy_contact_information_title">సంప్రదించడానికి సమాచారం</string>
 	<string name="privacy_policy_changes_title">ఈ విధానంలో మార్పులు</string>
-	<string name="privacy_policy_effective_date_title">అమలులోకి వచ్చే తేదీ</string>
-	<string name="privacy_policy_email_subject">గోప్యతా విధానం సంబంధిత విచారణ – %s</string>
+	<string name="policy_effective_date_title">అమలులోకి వచ్చే తేదీ</string>
 	<string name="policies">విధానాలు</string>
 	<string name="privacy_policy_contact_information_body">ఈ గోప్యతా విధానం గురించి మీకు ఏవైనా ప్రశ్నలు లేదా
 		ఆందోళనలు ఉంటే, దయచేసి మాకు ఇమెయిల్ ద్వారా సంప్రదించండి.</string>
@@ -97,4 +96,56 @@
 		విధానంలో నవీకరించిన సంచికలో ప్రతిబింబిస్తాయి. మీ సమాచారం ఎలా
 		వ్యవహరించబడుతున్నదీ తెలుసుకోవడానికి వినియోగదారులు ఈ విధానాన్ని తరచుగా
 		సమీక్షించాల‌ని మేము ప్రోత్సహిస్తున్నాము.</string>
+	<string name="terms_of_service">సేవా నిబంధనలు</string>
+	<string name="dialog_first_launch_agree_title">కొనసాగడానికి అంగీకరించండి</string>
+	<string name="agree_to_terms">నేను అంగీకరిస్తున్నాను</string>
+	<string name="dialog_first_launch_terms_message"> ఈ యాప్‌ను ఉపయోగించడానికి, మీరు మా సేవా నిబంధనలను
+		చదివి అంగీకరించాలి. వాటిని చదవడానికి క్రింద ఉన్న బటన్‌ను ఉపయోగించండి.</string>
+	<string name="terms_of_service_about_title">యాప్ గురించి</string>
+	<string name="terms_of_service_use_title">యాప్ వినియోగం</string>
+	<string name="terms_of_service_intellectual_property_title">మేధాసంపత్తి</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">హామీల విరమణ</string>
+	<string name="terms_of_service_limitation_of_liability_title">బాధ్యత పరిమితి</string>
+	<string name="terms_of_service_termination_title">రద్దు</string>
+	<string name="terms_of_service_governing_law_title">వర్తించే చట్టం</string>
+	<string name="terms_of_service_changes_title">ఈ నిబంధనలలో మార్పులు</string>
+	<string name="terms_of_service_about_body">ఈ అప్లికేషన్ వ్యక్తిగత ఖర్చుల ట్రాకింగ్ సాధనం. ఇది
+		పూర్తిగా ఆఫ్‌లైన్‌లో పనిచేస్తుంది మరియు అన్ని వయస్సుల వినియోగదారుల
+		కోసం రూపొందించబడింది. యాప్‌కి నమోదు అవసరం లేదు, ప్రకటనలు చూపించదు
+		మరియు ఎలాంటి వ్యక్తిగత సమాచారాన్ని సేకరించదు లేదా పంపదు.</string>
+	<string name="terms_of_service_use_body">మీరు చట్టబద్ధమైన ఉద్దేశ్యాల కోసం మాత్రమే మరియు
+		ఇతరుల హక్కులను ఉల్లంఘించని లేదా వారి యాప్ వినియోగాన్ని పరిమితం చేయని
+		విధంగా యాప్‌ను ఉపయోగించడానికి అంగీకరిస్తున్నారు. మీరు యాప్‌ను రివర్స్
+		ఇంజినీర్ చేయడానికి, డీకంపైల్ చేయడానికి లేదా సవరించడానికి
+		ప్రయత్నించకూడదు.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">యాప్ “అలా ఉన్నట్టుగా” ఏ విధమైన స్పష్టమైన లేదా
+		పరోక్ష హామీలతో కాకుండా అందించబడుతుంది, ఇందులో విక్రయయోగ్యత, ఒక
+		నిర్దిష్ట ఉద్దేశ్యానికి తగినదనం లేదా ఉల్లంఘన లేకపోవడం వంటి హామీలు
+		ఉంటాయి కానీ వీటితో మాత్రమే పరిమితం కాదు. యాప్ లో తప్పులు ఉండవని లేదా
+		అది అంతరాయం లేకుండా పనిచేస్తుందని మేము హామీ ఇవ్వము.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">యాప్ ఏ వ్యక్తిగత లేదా ఉపయోగ డేటాను సేకరించదు,
+		భద్రపరచదు లేదా భాగమిచ్చదు. మీరు నమోదు చేసే అన్నీ సమాచారాలు మీ పరికరంలో
+		స్థానికంగా నిల్వ ఉంటాయి మరియు మీ నియంత్రణలో ఉంటాయి.</string>
+	<string name="terms_of_service_intellectual_property_body">యాప్‌లో మరియు దానికి సంబంధించిన అన్ని హక్కులు,
+		శీర్షిక మరియు ఆసక్తి, దాని డిజైన్, లక్షణాలు మరియు కోడ్ సహా, కాపీరైట్
+		యజమానికి చెందుతాయి.</string>
+	<string name="terms_of_service_limitation_of_liability_body">చట్టం అనుమతించే గరిష్ట పరిమితి వరకు, యాప్ వాడకం
+		ద్వారా కలిగే ఎటువంటి నష్టం లేదా నష్టానికి యజమాని బాధ్యుడు కాడు, ఇందులో
+		డేటా, లాభాలు లేదా వ్యాపార అవకాశాల నష్టం కూడా ఉంటుంది, కాని వీటితో
+		మాత్రమే పరిమితం కాదు.</string>
+	<string name="terms_of_service_termination_body">యజమాని ఎప్పుడైనా ముందస్తు నోటీసు లేకుండా యాప్
+		అందించడం లేదా మద్దతు ఇవ్వడం ఆపవచ్చు.</string>
+	<string name="terms_of_service_governing_law_body">ఈ నిబంధనలు మీరు నివసించే దేశంలోని చట్టాల ప్రకారం
+		అమలు చేయబడతాయి, చట్టాల ఘర్షణ సూత్రాలను పరిగణనలోకి తీసుకోకుండా.
+		అవసరమైతే, మీ దేశంలోని తప్పనిసరి వినియోగదారుల రక్షణ చట్టాలు కూడా
+		వర్తిస్తాయి.</string>
+	<string name="terms_of_service_changes_body">ఈ నిబంధనలు కాలానుగుణంగా నవీకరించబడవచ్చు. మార్పులు
+		చేసిన తర్వాత యాప్‌ను కొనసాగించడం అంటే మీరు నవీకరించిన నిబంధనలను
+		అంగీకరించినట్లే.</string>
+	<string name="terms_of_service_contact_information_body">ఈ నిబంధనల గురించి మీకు ఏవైనా ప్రశ్నలు ఉంటే, వివరణ
+		అవసరం ఉంటే, లేదా యాప్‌కు సంబంధించిన సమస్యను నివేదించాలనుకుంటే, క్రింద
+		ఇచ్చిన సంప్రదింపు వివరాల ద్వారా యజమానిని సంప్రదించవచ్చు.</string>
+	<string name="terms_of_service_effective_date_body">“ప్రభావిత తేది” అనేది ఈ నిబంధనలు వర్తించే తేది.
+		భవిష్యత్తులో వచ్చే ఏవైనా నవీకరణలు మార్పులు ఎప్పుడు అమల్లోకి వస్తాయో
+		సూచించడానికి సవరిస్తున్న ప్రభావిత తేది కలిగి ఉంటాయి.</string>
 </resources>

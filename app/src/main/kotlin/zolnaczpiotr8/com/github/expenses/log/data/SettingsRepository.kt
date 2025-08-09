@@ -16,4 +16,6 @@ constructor(
   suspend fun setCurrencyCode(
       code: String,
   ): Unit = settingsDataSource.setCurrencyCode(code)
+
+  suspend fun setAgreedToTerms(): Unit = settingsDataSource.setAgreedToTerms()
 }

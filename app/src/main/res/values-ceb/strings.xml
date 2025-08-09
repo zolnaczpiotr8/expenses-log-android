@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Gidaghanon sa karakter: %d. Limit sa karakter: %d</string>
 	<string name="privacy_policy">Palisiya sa Privacy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ang imong datos nagpabilin uban nimo</string>
+	<string name="policy_your_data_stays_with_you_title">Ang imong datos nagpabilin uban nimo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Girespeto namo ang imong pribasiya. Kini nga app
 		naglihok og hingpit offline ug wala nagkolekta o nagpaambit og bisan
 		unsang datos. Kini nga polisiya nag-aplikar sa tanan nga mga tiggamit
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Tungod kay wala’y datos nga gikolekta, walay butang
 		nga imong ma-access, ma-update, o ma-delete pinaagi namo. Ang tanang
 		datos imoha ug nagpabilin ra sa imong device.</string>
-	<string name="privacy_policy_contact_information_title">Impormasyon sa Kontak</string>
+	<string name="policy_contact_information_title">Impormasyon sa Kontak</string>
 	<string name="privacy_policy_changes_title">Mga kausaban sa kini nga palisiya</string>
-	<string name="privacy_policy_effective_date_title">Epektibong petsa</string>
-	<string name="privacy_policy_email_subject">Pangutana sa Patakaran sa Privacy – %s</string>
+	<string name="policy_effective_date_title">Epektibong petsa</string>
 	<string name="policies">Mga palisiya</string>
 	<string name="privacy_policy_contact_information_body">Kung adunay ka mga pangutana o kabalaka bahin sa
 		kini nga Patakaran sa Pagkapribado, mahimo ka makig-uban namo pinaagi
@@ -99,4 +98,60 @@
 		ipakita sa gi-update nga bersyon sa kini nga palisiya. Gina-awhag namo
 		ang mga tiggamit nga usahay-usahayon pagtan-aw niining palisiya aron
 		magpabiling nasayud kung giunsa pagtratar ang ilang impormasyon.</string>
+	<string name="terms_of_service">Mga Termino sa Serbisyo</string>
+	<string name="dialog_first_launch_agree_title">Uyon aron magpadayon</string>
+	<string name="agree_to_terms">Uyon ko</string>
+	<string name="dialog_first_launch_terms_message">Aron magamit ang app nga kini, kinahanglan nimo
+		basahon ug dawaton ang among Mga Termino sa Serbisyo. Gamita ang
+		button sa ubos aron mabasa kini.</string>
+	<string name="terms_of_service_about_title">Mahitungod sa App</string>
+	<string name="terms_of_service_use_title">Paggamit sa App</string>
+	<string name="terms_of_service_intellectual_property_title">Intelektuwal nga Panag-iya</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Pagsalikway sa mga garantiya</string>
+	<string name="terms_of_service_limitation_of_liability_title">Paglimite sa Pananagutan</string>
+	<string name="terms_of_service_termination_title">Pag-undang</string>
+	<string name="terms_of_service_governing_law_title">Namuno nga Balaod</string>
+	<string name="terms_of_service_changes_title">Pagbag-o sa Kini nga mga Termino</string>
+	<string name="terms_of_service_about_body">Kini nga aplikasyon usa ka personal nga galamiton
+		sa pagsubay sa gasto. Naglihok kini nga walay internet ug gidisenyo
+		alang sa mga tiggamit sa tanang edad. Ang app dili manginahanglan ug
+		rehistro, dili magpakita ug mga ad, ug dili mangolekta o mopadala ug
+		personal nga impormasyon.</string>
+	<string name="terms_of_service_use_body">Mosugot ka nga gamiton ang App alang lang sa legal
+		nga mga katuyoan ug sa paagi nga dili makadaot sa katungod sa uban o
+		mopugong sa ilang paggamit sa App. Dili ka angay mosuway nga
+		mag-reverse engineer, mag-decompile, o mag-usab sa App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ang App gihatag “ingon niini” nga walay bisan
+		unsang garantiya, hayag man o tinago, lakip apan dili limitado sa
+		garantiya sa pagkabenta, pagka-angay alang sa usa ka piho nga tuyo, o
+		dili paglapas. Wala kami magpasalig nga ang App mahimong walay sayop o
+		molihok nga walay pag-undang.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ang App dili mokolekta, motipig, o mopahatag sa
+		bisan unsang personal o paggamit nga datos. Ang tanan nga impormasyon
+		nga imong isulod nagpabilin nga giimbak lokal sa imong device ilawom
+		sa imong kontrol.</string>
+	<string name="terms_of_service_intellectual_property_body">Tanang katungod, titulo, ug interes sa App, lakip
+		ang disenyo niini, mga function, ug code, gipang-aduna sa tag-iya sa
+		copyright.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Sa pinakadako nga gidugayon nga gitugotan sa
+		balaod, ang tag-iya dili manubag sa bisan unsang kadaot o pagkawala
+		nga resulta sa imong paggamit sa App, lakip apan dili limitado sa
+		pagkawala sa datos, ganansya, o mga oportunidad sa negosyo.</string>
+	<string name="terms_of_service_termination_body">Ang tag-iya mahimong undangon ang paghatag o
+		pagsuporta sa App bisan unsang orasa nga walay daan nga pahibalo.</string>
+	<string name="terms_of_service_governing_law_body">Kini nga mga Termino pagahunahunaong ubos sa balaod
+		sa imong nasud nga puy-anan, nga walay pagtagad sa mga prinsipyo sa
+		panagbangi sa balaod. Kung mapuslanon, ipatuman usab ang mga obligado
+		nga balaod sa proteksyon sa konsumedor sa imong nasud.</string>
+	<string name="terms_of_service_changes_body">Kining mga Termino mahimong i-update matag panagsa.
+		Ang pagpadayon sa paggamit sa App pagkahuman nga adunay mga kausaban
+		nagpasabot nga modawat ka sa gi-update nga mga Termino.</string>
+	<string name="terms_of_service_contact_information_body">Kung adunay ka mga pangutana mahitungod niining mga
+		Termino, nanginahanglan ka og klaripikasyon, o gusto nimong ireport
+		ang usa ka isyu sa App, mahimo nimong kontakon ang tag-iya sa ubos nga
+		mga detalye sa kontak.</string>
+	<string name="terms_of_service_effective_date_body">Ang “Epektibong Petsa” mao ang petsa gikan sa diin
+		kini nga mga Termino magamit. Ang bisan unsang umaabot nga pag-update
+		maglakip ug giusab nga epektibong petsa aron ipakita kung kanus-a
+		magsugod ang mga kausaban.</string>
 </resources>

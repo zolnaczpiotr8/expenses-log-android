@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karakterek száma: %d. Karakterkorlát: %d</string>
 	<string name="privacy_policy">Adatvédelmi irányelvek</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Az adataid nálad maradnak</string>
+	<string name="policy_your_data_stays_with_you_title">Az adataid nálad maradnak</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tiszteletben tartjuk az Ön magánéletét. Ez az
 		alkalmazás teljesen offline működik, és nem gyűjt vagy oszt meg
 		semmilyen adatot. Ez a szabályzat az egész világon minden
@@ -81,11 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Mivel nem gyűjtünk adatokat, nincs semmi, amit
 		rajtunk keresztül elérhetne, frissíthetne vagy törölhetne. Minden adat
 		az Öné, és kizárólag az Ön eszközén marad.</string>
-	<string name="privacy_policy_contact_information_title">Kapcsolattartási információk</string>
+	<string name="policy_contact_information_title">Kapcsolattartási információk</string>
 	<string name="privacy_policy_changes_title">Változások ebben a szabályzatban</string>
-	<string name="privacy_policy_effective_date_title">Hatálybalépés dátuma</string>
-	<string name="privacy_policy_email_subject">Adatvédelmi Irányelvekkel Kapcsolatos Érdeklődés –
-		%s</string>
+	<string name="policy_effective_date_title">Hatálybalépés dátuma</string>
 	<string name="policies">Irányelvek</string>
 	<string name="privacy_policy_contact_information_body">Ha bármilyen kérdése vagy aggálya van a jelen
 		Adatvédelmi szabályzattal kapcsolatban, e-mailben felveheti velünk a
@@ -100,4 +98,60 @@
 		jelenni a szabályzat frissített változatában. Javasoljuk a
 		felhasználóknak, hogy időnként tekintsék át ezt a szabályzatot, hogy
 		tájékozottak maradjanak az adataik kezeléséről.</string>
+	<string name="terms_of_service">Szolgáltatási feltételek</string>
+	<string name="dialog_first_launch_agree_title">Egyetért a folytatáshoz</string>
+	<string name="agree_to_terms">Egyetértek</string>
+	<string name="dialog_first_launch_terms_message">Az alkalmazás használatához el kell olvasnia és el
+		kell fogadnia a Szolgáltatási feltételeinket. Az elolvasáshoz
+		használja az alábbi gombot.</string>
+	<string name="terms_of_service_about_title">Az Alkalmazásról</string>
+	<string name="terms_of_service_use_title">Az alkalmazás használata</string>
+	<string name="terms_of_service_intellectual_property_title">Szellemi Tulajdon</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Jótállás kizárása</string>
+	<string name="terms_of_service_limitation_of_liability_title">Felelősség Korlátozása</string>
+	<string name="terms_of_service_termination_title">Felmondás</string>
+	<string name="terms_of_service_governing_law_title">Irányadó jog</string>
+	<string name="terms_of_service_changes_title">Ezeknek a Feltételeknek a Módosítása</string>
+	<string name="terms_of_service_about_body">Ez az alkalmazás egy személyes kiadáskövető eszköz.
+		Teljesen offline működik, és minden korosztály számára készült. Az
+		alkalmazás nem igényel regisztrációt, nem jelenít meg hirdetéseket, és
+		nem gyűjt vagy továbbít semmilyen személyes információt.</string>
+	<string name="terms_of_service_use_body">Ön beleegyezik, hogy az Alkalmazást kizárólag
+		jogszerű célokra használja, és olyan módon, amely nem sérti mások
+		jogait, illetve nem korlátozza mások Alkalmazás használatát. Nem
+		kísérelheti meg az Alkalmazás visszafejtését, dekompilálását vagy
+		módosítását.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Az alkalmazás “ahogy van” kerül biztosításra
+		mindenféle garancia nélkül, akár kifejezett, akár hallgatólagos,
+		beleértve, de nem kizárólagosan az eladhatóságra, meghatározott célra
+		való alkalmasságra vagy jogsértésmentességre vonatkozó garanciákat.
+		Nem garantáljuk, hogy az alkalmazás hibamentes lesz vagy megszakítás
+		nélkül fog működni.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Az alkalmazás nem gyűjt, nem tárol és nem oszt meg
+		személyes vagy használati adatokat. Minden általad bevitt információ
+		helyben marad a készülékeden, a te irányításod alatt.</string>
+	<string name="terms_of_service_intellectual_property_body">Az Alkalmazással kapcsolatos minden jog, cím és
+		érdek, beleértve annak tervét, funkcióit és kódját, a szerzői jog
+		tulajdonosát illeti.</string>
+	<string name="terms_of_service_limitation_of_liability_body">A törvény által megengedett legteljesebb mértékben
+		a tulajdonos nem vállal felelősséget az alkalmazás használatából eredő
+		semmilyen kárért vagy veszteségért, beleértve, de nem kizárólagosan az
+		adatok, nyereség vagy üzleti lehetőségek elvesztését.</string>
+	<string name="terms_of_service_termination_body">A tulajdonos bármikor megszüntetheti az alkalmazás
+		kínálását vagy támogatását előzetes értesítés nélkül.</string>
+	<string name="terms_of_service_governing_law_body">Jelen Feltételek a lakóhelye szerinti ország
+		jogszabályai szerint kerülnek irányításra, a kollíziós jog elveire
+		való tekintet nélkül. Amennyiben alkalmazandó, az országának kötelező
+		fogyasztóvédelmi törvényei is érvényesek lesznek.</string>
+	<string name="terms_of_service_changes_body">Ezek a Feltételek időről időre frissülhetnek. Az
+		Alkalmazás további használata a változtatások után azt jelenti, hogy
+		elfogadja a frissített Feltételeket.</string>
+	<string name="terms_of_service_contact_information_body">Ha bármilyen kérdése van ezekkel a Feltételekkel
+		kapcsolatban, magyarázatra van szüksége, vagy problémát szeretne
+		jelenteni az Alkalmazással kapcsolatban, a lenti elérhetőségeken
+		keresztül kapcsolatba léphet a tulajdonossal.</string>
+	<string name="terms_of_service_effective_date_body">Az „Érvénybe lépés dátuma” az a dátum, amikortól
+		ezek a Feltételek érvényesek. A jövőbeli frissítések tartalmazni
+		fogják a módosított érvénybe lépés dátumát, hogy jelezzék, mikor
+		lépnek életbe a változások.</string>
 </resources>

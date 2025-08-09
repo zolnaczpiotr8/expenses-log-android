@@ -5,4 +5,5 @@ option java_package = "zolnaczpiotr8.com.github.expenses.log.datastore.proto";
 
 message SettingsProto {
   string currency_code = 1;
+  bool agreed_to_terms = 2;
 }

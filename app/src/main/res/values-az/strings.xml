@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Simvol sayı: %d. Simvol limiti: %d</string>
 	<string name="privacy_policy">Məxfilik Siyasəti</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Məlumatlarınız sizinlə qalır</string>
+	<string name="policy_your_data_stays_with_you_title">Məlumatlarınız sizinlə qalır</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Biz sizin məxfiliyinizə hörmət edirik. Bu tətbiq
 		tamamilə offline işləyir və heç bir məlumat toplamaz və ya paylaşmaz.
 		Bu siyasət bütün dünya üzrə istifadəçilərə, o cümlədən bütün yaş
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Heç bir məlumat toplanmadığı üçün bizim vasitəmizlə
 		daxil ola, yeniləyə və ya silə biləcəyiniz heç nə yoxdur. Bütün
 		məlumatlar sizindir və yalnız cihazınızda qalır.</string>
-	<string name="privacy_policy_contact_information_title">Əlaqə Məlumatları</string>
+	<string name="policy_contact_information_title">Əlaqə Məlumatları</string>
 	<string name="privacy_policy_changes_title">Bu siyasətdəki dəyişikliklər</string>
-	<string name="privacy_policy_effective_date_title">Qüvvəyə minmə tarixi</string>
-	<string name="privacy_policy_email_subject">Məxfilik Siyasəti Sorğusu – %s</string>
+	<string name="policy_effective_date_title">Qüvvəyə minmə tarixi</string>
 	<string name="policies">Siyasətlər</string>
 	<string name="privacy_policy_contact_information_body">Bu Məxfilik Siyasəti ilə bağlı hər hansı bir
 		sualınız və ya narahatlığınız varsa, bizimlə e-poçt vasitəsilə əlaqə
@@ -99,4 +98,60 @@
 		bu siyasətin yenilənmiş versiyasında əks olunacaq. İstifadəçilərə
 		məlumatlarının necə idarə edildiyi barədə məlumatlı qalmaq üçün bu
 		siyasəti vaxtaşırı nəzərdən keçirmələri tövsiyə olunur.</string>
+	<string name="terms_of_service">Xidmət Şərtləri</string>
+	<string name="dialog_first_launch_agree_title">Davam etmək üçün razılaşın</string>
+	<string name="agree_to_terms">Razıyam</string>
+	<string name="dialog_first_launch_terms_message">Bu tətbiqi istifadə etmək üçün Xidmət Şərtlərimizi
+		oxumalı və qəbul etməlisiniz. Onları oxumaq üçün aşağıdakı düyməni
+		istifadə edin.</string>
+	<string name="terms_of_service_about_title">Tətbiq haqqında</string>
+	<string name="terms_of_service_use_title">Tətbiqin istifadəsi</string>
+	<string name="terms_of_service_intellectual_property_title">Əqli Mülkiyyət</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Zəmanətlərin rədd edilməsi</string>
+	<string name="terms_of_service_limitation_of_liability_title">Məsuliyyətin Məhdudlaşdırılması</string>
+	<string name="terms_of_service_termination_title">Ləğv etmə</string>
+	<string name="terms_of_service_governing_law_title">İdarəedici Qanun</string>
+	<string name="terms_of_service_changes_title">Bu Şərtlərə Dəyişikliklər</string>
+	<string name="terms_of_service_about_body">Bu tətbiq şəxsi xərclərin izlənməsi üçün vasitədir.
+		Tamamilə oflayn işləyir və bütün yaş qruplarından olan istifadəçilər
+		üçün nəzərdə tutulub. Tətbiq qeydiyyat tələb etmir, reklam göstərmir
+		və heç bir şəxsi məlumat toplamır və ya ötürmür.</string>
+	<string name="terms_of_service_use_body">Siz Tətbiqdən yalnız qanuni məqsədlər üçün və
+		başqalarının hüquqlarını pozmayan və onların Tətbiqdən istifadəsini
+		məhdudlaşdırmayan bir şəkildə istifadə etməyə razısınız. Siz Tətbiqi
+		tərs mühəndis etməyə, dekompilyasiya etməyə və ya dəyişdirməyə cəhd
+		etməməlisiniz.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Tətbiq “olduğu kimi” təmin edilir və hər hansı bir
+		formada—açıq və ya dolayı—hər hansı bir zəmanət verilmir, o cümlədən
+		satış qabiliyyəti, müəyyən məqsədə uyğunluq və ya pozulmazlıq
+		zəmanətləri daxil olmaqla, lakin bunlarla məhdudlaşmamaqla. Biz heç
+		bir zəmanət vermirik ki, Tətbiq səhvsiz olacaq və ya fasiləsiz
+		işləyəcək.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Tətbiq heç bir şəxsi və ya istifadə məlumatı
+		yığmır, saxlamır və bölüşmür. Daxil etdiyiniz bütün məlumatlar
+		cihazınızda yerli olaraq saxlanılır və sizin nəzarətiniz altındadır.</string>
+	<string name="terms_of_service_intellectual_property_body">Tətbiqə, onun dizaynına, xüsusiyyətlərinə və koduna
+		aid bütün hüquqlar, başlıq və maraq müəllif hüquqları sahibinə
+		məxsusdur.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Qanunla icazə verilən ən geniş həcmdə, sahibkar
+		Tətbiqdən istifadəniz nəticəsində yaranan hər hansı zərər və ya itki
+		üçün məsuliyyət daşımır, o cümlədən, lakin bununla məhdudlaşmayaraq,
+		məlumatların, mənfəətin və ya biznes imkanlarının itirilməsi.</string>
+	<string name="terms_of_service_termination_body">Sahibi tətbiqi təklif etməyi və ya dəstəkləməyi
+		istənilən vaxt əvvəlcədən xəbərdarlıq etmədən dayandıra bilər.</string>
+	<string name="terms_of_service_governing_law_body">Bu Şərtlər yaşayış ölkənizin qanunlarına əsasən
+		tənzimlənəcək, qanunların ziddiyyətinə dair prinsiplər nəzərə
+		alınmadan. Tətbiq olunan hallarda, ölkənizin məcburi istehlakçı
+		müdafiəsi qanunları da tətbiq olunacaq.</string>
+	<string name="terms_of_service_changes_body">Bu Şərtlər vaxtaşırı yenilənə bilər. Dəyişikliklər
+		edildikdən sonra Tətbiqdən istifadənin davam etdirilməsi yenilənmiş
+		Şərtləri qəbul etdiyiniz anlamına gəlir.</string>
+	<string name="terms_of_service_contact_information_body">Bu Şərtlərlə bağlı hər hansı sualınız varsa, izaha
+		ehtiyacınız varsa və ya Tətbiqlə bağlı bir problemi bildirmək
+		istəyirsinizsə, aşağıdakı əlaqə məlumatları vasitəsilə sahibinə
+		müraciət edə bilərsiniz.</string>
+	<string name="terms_of_service_effective_date_body">“Qüvvəyə minmə tarixi” bu Şərtlərin tətbiq olunmağa
+		başladığı tarixdir. Gələcək yeniləmələr dəyişikliklərin qüvvəyə
+		mindiyi tarixi göstərmək üçün yenilənmiş qüvvəyə minmə tarixini daxil
+		edəcək.</string>
 </resources>

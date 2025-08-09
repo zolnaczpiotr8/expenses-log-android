@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Conte di caratteri: %d. Limitu di caratteri: %d</string>
 	<string name="privacy_policy">Pulitica di privacy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">I vostri dati restanu cun voi</string>
+	<string name="policy_your_data_stays_with_you_title">I vostri dati restanu cun voi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectemu a vostra privacy. Questa app funziona
 		interamente offline è ùn raccoglie nè sparte alcun dati. Questa
 		pulitica si applica à tutti l’utilizatori in u mondu sanu, cumpresi i
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Siccomu nisun datu hè raccoltu, ùn ci hè nunda chì
 		pudete accede, aghjurnà o sguassà per mezu di noi. Tutti i dati sò
 		vostri è fermanu solu nant’à u vostru dispositivu.</string>
-	<string name="privacy_policy_contact_information_title">Infurmazione di cuntattu</string>
+	<string name="policy_contact_information_title">Infurmazione di cuntattu</string>
 	<string name="privacy_policy_changes_title">Cambiamenti à sta pulitica</string>
-	<string name="privacy_policy_effective_date_title">Data d’entrata in vigore</string>
-	<string name="privacy_policy_email_subject">Richiesta nantu à a Pulitica di Privacy – %s</string>
+	<string name="policy_effective_date_title">Data d’entrata in vigore</string>
 	<string name="policies">Politiche</string>
 	<string name="privacy_policy_contact_information_body">Se avete qualchì dumanda o preoccupazione riguardu
 		à sta Pulitica di Privacy, ci pudete cuntattà per email.</string>
@@ -98,4 +97,58 @@
 		vostri dati serà riflessu in una versione aggiornata di sta pulitica.
 		Incuragemu l’utilizatori à rivede sta pulitica periodicamente per stà
 		infurmati nantu à cumu a so infurmazione hè trattata.</string>
+	<string name="terms_of_service">Termini di serviziu</string>
+	<string name="dialog_first_launch_agree_title">Accetta per cuntinuà</string>
+	<string name="agree_to_terms">Sò d’accordu</string>
+	<string name="dialog_first_launch_terms_message">Per aduprà st’app, ci vole à leghje è accettà i
+		nostri Termini di Serviziu. Aduprate u buttone quì sottu per leghjeli.</string>
+	<string name="terms_of_service_about_title">Nantu à l’App</string>
+	<string name="terms_of_service_use_title">Usu di l’App</string>
+	<string name="terms_of_service_intellectual_property_title">Pruprietà Intellettuale</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Rinuncia à e garanzie</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitazione di Responsabilità</string>
+	<string name="terms_of_service_termination_title">Terminazione</string>
+	<string name="terms_of_service_governing_law_title">Liggi Applicabile</string>
+	<string name="terms_of_service_changes_title">Cambiamenti à Questi Termini</string>
+	<string name="terms_of_service_about_body">Questa applicazione hè un strumentu per seguità e
+		spese persunali. Funziona interamente fora di linea ed hè pensata per
+		utilizatori di tutte l’età. L’app ùn richiede nisuna registrazione, ùn
+		mostra publicità è ùn raccoglie o trasmette nisuna infurmazione
+		persunale.</string>
+	<string name="terms_of_service_use_body">Accettate d’adoprà l’App solu per scopi legali è in
+		modu chì ùn viulini i diritti d’altri o chì ùn limiti u so usu di
+		l’App. Ùn duvete micca pruvà à fà reverse engineering, decompilà o
+		mudificà l’App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">L’app hè furnita “cume hè” senza garanzie di alcun
+		tipu, sia espresse sia implicite, cumpresu ma micca limitatu à e
+		garanzie di cummerciabilità, adattabilità à un scopu particulare o
+		non-violazione. Ùn femu nisuna garanzia chì l’App serà senza errori o
+		chì funziunerà senza interruzzioni.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">L’App ùn raccoglie, ùn archivia nè sparte dati
+		persunali o d’usu. Tutte l’infurmazioni chì inserite restanu
+		archiviati localmente nant’à u vostru dispositivu sottu u vostru
+		cuntrollu.</string>
+	<string name="terms_of_service_intellectual_property_body">Tutti i diritti, u titulu è l’interessu in è per
+		l’App, cumpresu u so disignu, e so funzioni è u so codice, sò di
+		pruprietà di u pruprietariu di u copyright.</string>
+	<string name="terms_of_service_limitation_of_liability_body">In a misura più larga permessa da a lege, u
+		pruprietariu ùn hè micca rispunsevule di nisunu dannu o perdita
+		derivata da u vostru usu di l’App, cumpresu ma senza limitassi à a
+		perdita di dati, prufitti o pussibilità di affari.</string>
+	<string name="terms_of_service_termination_body">U pruprietariu pò piantà d’uffre o di sustene l’App
+		in ogni mumentu senza avvisu previu.</string>
+	<string name="terms_of_service_governing_law_body">Questi Termini seranu regulati da e lege di u
+		vostru paese di residenza, senza tene contu di i principii di
+		cunflittu di lege. Quandu applicabile, si appiicheranu ancu e lege
+		obligatorie di prutezzione di i cunsumatori di u vostru paese.</string>
+	<string name="terms_of_service_changes_body">Quessi Termini ponu esse aghjurnati di tantu in
+		tantu. L’usu cuntinuu di l’App dopu chì i cambiamenti sò stati fatti
+		significa chì accettate i Termini aghjurnati.</string>
+	<string name="terms_of_service_contact_information_body">S’è vo avete qualchì dumanda nantu à sti Termini,
+		bisognu di chjarificazione, o vulete signalà un prublema cù l’App,
+		pudete cuntattà u pruprietariu à i ditagli di cuntattu quì sottu.</string>
+	<string name="terms_of_service_effective_date_body">A “Data d’entrata in vigore” hè a data da a quale
+		sti Termini s’applicanu. Ogni aghjurnamentu futuru includerà una data
+		d’entrata in vigore rivista per indicà quandu i cambiamenti entranu in
+		vigore.</string>
 </resources>

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Rakstzīmju skaits: %d. Rakstzīmju ierobežojums: %d</string>
 	<string name="privacy_policy">Privātuma politika</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Jūsu dati paliek pie jums</string>
+	<string name="policy_your_data_stays_with_you_title">Jūsu dati paliek pie jums</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Mēs cienām jūsu privātumu. Šī lietotne darbojas
 		pilnībā bezsaistē un neveic datu vākšanu vai koplietošanu. Šī politika
 		attiecas uz visiem lietotājiem visā pasaulē, tostarp bērniem visos
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Tā kā dati netiek vākti, nav nekā, kam jūs varētu
 		piekļūt, atjaunināt vai izdzēst, izmantojot mūs. Visi dati ir jūsu un
 		paliek tikai jūsu ierīcē.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktinformācija</string>
+	<string name="policy_contact_information_title">Kontaktinformācija</string>
 	<string name="privacy_policy_changes_title">Izmaiņas šajā politikā</string>
-	<string name="privacy_policy_effective_date_title">Spēkā stāšanās datums</string>
-	<string name="privacy_policy_email_subject">Privātuma Politikas Pieprasījums – %s</string>
+	<string name="policy_effective_date_title">Spēkā stāšanās datums</string>
 	<string name="policies">Politikas</string>
 	<string name="privacy_policy_contact_information_body">Ja jums ir kādi jautājumi vai bažas par šo
 		Privātuma politiku, jūs varat sazināties ar mums pa e-pastu.</string>
@@ -96,4 +95,57 @@
 		atspoguļotas šīs politikas atjauninātajā versijā. Mēs iesakām
 		lietotājiem periodiski pārskatīt šo politiku, lai saglabātu
 		informētību par to, kā tiek apstrādāta viņu informācija.</string>
+	<string name="terms_of_service">Pakalpojuma noteikumi</string>
+	<string name="dialog_first_launch_agree_title">Piekrītu turpināt</string>
+	<string name="agree_to_terms">Es piekrītu</string>
+	<string name="dialog_first_launch_terms_message">Lai lietotu šo lietotni, jums jāizlasa un jāpiekrīt
+		mūsu Pakalpojumu sniegšanas noteikumiem. Lai tos izlasītu, izmantojiet
+		zemāk esošo pogu.</string>
+	<string name="terms_of_service_about_title">Par Lietotni</string>
+	<string name="terms_of_service_use_title">Lietotnes izmantošana</string>
+	<string name="terms_of_service_intellectual_property_title">Intelektuālais Īpašums</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Garantiju atruna</string>
+	<string name="terms_of_service_limitation_of_liability_title">Atbildības Ierobežošana</string>
+	<string name="terms_of_service_termination_title">Izbeigšana</string>
+	<string name="terms_of_service_governing_law_title">Piemērojamie tiesību akti</string>
+	<string name="terms_of_service_changes_title">Izmaiņas Šajos Noteikumos</string>
+	<string name="terms_of_service_about_body">Šī lietotne ir personīgo izdevumu izsekošanas rīks.
+		Tā darbojas pilnībā bezsaistē un ir paredzēta visu vecumu lietotājiem.
+		Lietotne neprasa reģistrāciju, nerāda reklāmas un nevāc vai nepārsūta
+		nekādu personīgo informāciju.</string>
+	<string name="terms_of_service_use_body">Jūs piekrītat lietot Lietotni tikai likumīgiem
+		mērķiem un tādā veidā, kas nepārkāpj citu tiesības vai neierobežo viņu
+		Lietotnes izmantošanu. Jums nevajadzētu mēģināt veikt reverso
+		inženieriju, dekompilēt vai modificēt Lietotni.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Lietotne tiek nodrošināta “tāda, kāda tā ir” bez
+		jebkāda veida garantijām, skaidri izteiktām vai netiešām, tostarp, bet
+		ne tikai, garantijām par piemērotību pārdošanai, piemērotību konkrētam
+		mērķim vai nepārkāpšanu. Mēs negarantējam, ka lietotne būs bez kļūdām
+		vai darbosies bez pārtraukuma.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Lietotne neapkopo, neuzglabā un nedalās ar
+		personiskajiem vai lietošanas datiem. Visa informācija, ko ievadāt,
+		paliek lokāli saglabāta jūsu ierīcē — jūsu kontrolē.</string>
+	<string name="terms_of_service_intellectual_property_body">Visas tiesības, nosaukums un intereses par un
+		saistībā ar lietotni, tostarp tās dizains, funkcijas un kods, pieder
+		autortiesību īpašniekam.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Ciktāl to atļauj likums, īpašnieks nav atbildīgs
+		par jebkādiem zaudējumiem vai bojājumiem, kas radušies, izmantojot
+		lietotni, tostarp, bet ne tikai, par datu, peļņas vai biznesa iespēju
+		zaudēšanu.</string>
+	<string name="terms_of_service_termination_body">Īpašnieks jebkurā laikā var pārtraukt lietotnes
+		piedāvāšanu vai atbalstīšanu bez iepriekšēja brīdinājuma.</string>
+	<string name="terms_of_service_governing_law_body">Šos Noteikumus regulē jūsu dzīvesvietas valsts
+		likumi, neņemot vērā likumu kolīzijas principus. Ja piemērojams, tiks
+		piemēroti arī jūsu valsts obligātie patērētāju aizsardzības likumi.</string>
+	<string name="terms_of_service_changes_body">Šie Noteikumi laiku pa laikam var tikt atjaunināti.
+		Turpinot lietot Lietotni pēc izmaiņu veikšanas, jūs piekrītat
+		atjauninātajiem Noteikumiem.</string>
+	<string name="terms_of_service_contact_information_body">Ja jums ir kādi jautājumi par šiem Noteikumiem,
+		nepieciešams precizējums vai vēlaties ziņot par problēmu ar Lietotni,
+		varat sazināties ar īpašnieku, izmantojot zemāk norādīto
+		kontaktinformāciju.</string>
+	<string name="terms_of_service_effective_date_body">“Stāšanās spēkā datums” ir datums, no kura šie
+		Noteikumi tiek piemēroti. Jebkādi turpmākie atjauninājumi ietvers
+		pārskatītu stāšanās spēkā datumu, lai norādītu, kad izmaiņas stājas
+		spēkā.</string>
 </resources>

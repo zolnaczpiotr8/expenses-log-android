@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Символлар саны: %d. Символлар лимиты: %d</string>
 	<string name="privacy_policy">Яшеренлек сәясәте</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Мәгълүматларыгыз сезнең белән кала</string>
+	<string name="policy_your_data_stays_with_you_title">Мәгълүматларыгыз сезнең белән кала</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Без сезнең хосусыйлыгыгызны хөрмәт итәбез. Әлеге
 		кушымта тулысынча оффлайн режимда эшли һәм бернинди мәгълүмат җыймый
 		һәм уртаклашмый. Әлеге сәясәт бөтен дөнья кулланучыларына, шул исәптән
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Мәгълүмат җыелмаганда, без аша керергә, яңартырга
 		яки бетерергә бернәрсә дә юк. Бөтен мәгълүмат сезнеке һәм ул бары тик
 		сезнең җайланмагызда кала.</string>
-	<string name="privacy_policy_contact_information_title">Элемтә мәгълүматы</string>
+	<string name="policy_contact_information_title">Элемтә мәгълүматы</string>
 	<string name="privacy_policy_changes_title">Бу сәясәткә үзгәрешләр</string>
-	<string name="privacy_policy_effective_date_title">Гамәлгә керү көне</string>
-	<string name="privacy_policy_email_subject">Хосусыйлык Сәясәте Турында Сорау – %s</string>
+	<string name="policy_effective_date_title">Гамәлгә керү көне</string>
 	<string name="policies">Сәясәтләр</string>
 	<string name="privacy_policy_contact_information_body">Әгәр сездә әлеге Хосусыйлык сәясәте буенча сораулар
 		яки борчылулар булса, безнең белән электрон почта аша элемтәгә керә
@@ -100,4 +99,57 @@
 		яңартылган версиясендә чагылыш табачак. Кулланучыларга үз
 		мәгълүматлары ничек эшкәртелүе турында хәбәрдар булу өчен бу сәясәтне
 		даими тикшереп тору киңәш ителә.</string>
+	<string name="terms_of_service">Хезмәт күрсәтү шартлары</string>
+	<string name="dialog_first_launch_agree_title">Дәвам итү өчен ризалашу</string>
+	<string name="agree_to_terms">Килешәм</string>
+	<string name="dialog_first_launch_terms_message">Бу кушымтаны куллану өчен, сез безнең Хезмәт
+		күрсәтү шартларын укырга һәм кабул итәргә тиешсез. Аларны уку өчен
+		түбәндәге төймәгә басыгыз.</string>
+	<string name="terms_of_service_about_title">Кушымта турында</string>
+	<string name="terms_of_service_use_title">Кушымтаны куллану</string>
+	<string name="terms_of_service_intellectual_property_title">Интеллектуаль милек</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Гарантияләрдән баш тарту</string>
+	<string name="terms_of_service_limitation_of_liability_title">Яуаплылыкны чикләү</string>
+	<string name="terms_of_service_termination_title">Туктату</string>
+	<string name="terms_of_service_governing_law_title">Кулланыла торган закон</string>
+	<string name="terms_of_service_changes_title">Был Шарттарҙа Үзгәрештәр</string>
+	<string name="terms_of_service_about_body">Бу кушымта шәхси чыгымнарны күзәтү өчен корал булып
+		тора. Ул тулысынча оффлайн режимында эшли һәм барлык яшьтәге
+		кулланучылар өчен тәгаенләнгән. Кушымта теркәлүне таләп итми, реклама
+		күрсәтми һәм бернинди шәхси мәгълүматны җыймый яки тапшырымый.</string>
+	<string name="terms_of_service_use_body">Сез кушымтаны бары тик законлы максатларда гына һәм
+		башкаларның хокукларын бозмаячак, аларның кушымтаны куллануын
+		чикләмәячәк рәвештә кулланырга ризалык бирәсез. Кушымтаны кире
+		инженерларга, декомпиляцияләргә яки үзгәртергә тырышмаска тиешсез.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Кушымта “ничек бар, шулай” бернинди ачык яки яшерен
+		гарантиясез бирелә, шул исәптән, ләкин алар белән генә чикләнмичә,
+		сәүдәгә яраклылык, билгеле бер максатка туры килү яки хокук бозмау
+		гарантияләре. Кушымта хатасыз булачагына яки өзлексез эшләячәгенә без
+		гарантия бирмибез.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Кушымта шәхси яки куллану мәгълүматын җыямый,
+		сакламый һәм уртаклашмый. Сез кертүче бөтен мәгълүмат сезнең
+		җайланмада локаль рәвештә саклана һәм сезнең контролегез астында була.</string>
+	<string name="terms_of_service_intellectual_property_body">Кушымтага, аның дизайнына, үзенчәлекләренә һәм
+		кодына карата барлык хокуклар, титул һәм кызыксыну авторлык хокуклары
+		иясенә карый.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Канун белән рөхсәт ителгән иң зур күләмдә, хуҗа
+		кушымтаны куллану нәтиҗәсендә килеп чыккан бернинди зыян яки югалту
+		өчен дә җавап бирми, мәгълүматлар, табыш яки бизнес мөмкинлекләрен
+		югалтуны да кертеп, ләкин шуның белән чикләнмичә.</string>
+	<string name="terms_of_service_termination_body">Эйәсе теләсә кайсы вакытта кушымтаны тәкъдим итүне
+		яки ярдәм итүне алдан хәбәр итмичә туктата ала.</string>
+	<string name="terms_of_service_governing_law_body">Әлеге Шартлар сез яшәгән ил кануннары буенча
+		көйләнә, закон каршылыгы принципларын исәпкә алмыйча. Кулланыла торган
+		очракларда, илегезнең мәҗбүри кулланучы хокукларын яклау кануннары да
+		кулланылачак.</string>
+	<string name="terms_of_service_changes_body">Бу Шартлар вакыт-вакыт яңартылырга мөмкин.
+		Үзгәрешләр кертелгәннән соң кушымтаны куллануны дәвам итү яңартылган
+		Шартларны кабул итүегезне аңлата.</string>
+	<string name="terms_of_service_contact_information_body">Әгәр сезнең бу Шартлар турында сорауларыгыз булса,
+		аңлатма кирәк булса яки Кушымта белән проблеманы хәбәр итәргә
+		теләсәгез, түбәндәге элемтә мәгълүматлары буенча хуҗа белән элемтәгә
+		керә аласыз.</string>
+	<string name="terms_of_service_effective_date_body">«Гамәлгә кертү көне» – бу Шартлар кулланыла
+		башлаган көн. Киләчәктәге яңартулар үзгәрешләрнең кайчан гамәлгә
+		керүен күрсәтү өчен яңартылган гамәлгә кертү көнен үз эченә алачак.</string>
 </resources>

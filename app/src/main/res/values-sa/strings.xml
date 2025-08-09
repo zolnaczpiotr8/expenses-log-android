@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षरगणना: %d। अक्षरसীমा: %d</string>
 	<string name="privacy_policy">गोपनीयता निति</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">तव दत्तांशाः तव सङ्गं स्थास्यन्ति</string>
+	<string name="policy_your_data_stays_with_you_title">तव दत्तांशाः तव सङ्गं स्थास्यन्ति</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">वयं भवतः गोपनीयतां सम्मानयामः। अयं अनुप्रयोगः
 		सम्पूर्णतया अफलाइन् कार्यं करोति तथा न किञ्चिद् दत्तांशं सङ्गृह्णाति
 		वा वितरति। एषा नीतिः समस्तजगतां सर्वेभ्यः उपयोक्तृभ्यः, बालकैः
@@ -78,10 +78,9 @@
 	<string name="privacy_policy_your_rights_body">यः कश्चन डेटा न संकलितः, अतः न किमपि अस्ति यं त्वं
 		अस्मद् माध्यमेन अभिगम्य, अद्यतनं वा कर्तुं शक्नोषि वा मेटुम्। सर्वे
 		डेटा</string>
-	<string name="privacy_policy_contact_information_title">सम्पर्क विवरणम्</string>
+	<string name="policy_contact_information_title">सम्पर्क विवरणम्</string>
 	<string name="privacy_policy_changes_title">अस्मिन् नीतौ परिवर्तनानि</string>
-	<string name="privacy_policy_effective_date_title">प्रवर्त्य तिथि</string>
-	<string name="privacy_policy_email_subject">गोपनीयता नीतिः प्रश्नः – %s</string>
+	<string name="policy_effective_date_title">प्रवर्त्य तिथि</string>
 	<string name="policies">नीतयः</string>
 	<string name="privacy_policy_contact_information_body">यदि ते गोपनीयतानीतिं प्रति कश्चन प्रश्नः वा चिन्ता
 		वा अस्ति, तर्हि त्वं अस्मान् ईमेल् द्वारा सम्पर्कुं शक्नोषि।</string>
@@ -93,4 +92,57 @@
 		भविष्यति, तत् एष्यां नीत्यां अद्यतनरूपेण प्रकटिष्यते। उपयोगकर्तॄन्
 		समये समये एतां नीतिं निरीक्ष्य सूचना प्राप्तुं प्रेरयामः यथा तेषां
 		सूचना कथं व्यवह्रियते इति ज्ञातुं शक्यते।</string>
+	<string name="terms_of_service">सेवा नियमाः</string>
+	<string name="dialog_first_launch_agree_title">अग्रे गन्तुं अनुमन्यध्वम्</string>
+	<string name="agree_to_terms">अहं सम्मतः</string>
+	<string name="dialog_first_launch_terms_message">एतत् अनुप्रयोगं उपयोगितुं भवता अस्माकं सेवा-नियमाः
+		पठनीयाः स्वीकृत्य च। तान् पठितुं अधः प्रदत्तं बटन् उपयुज्यताम्।</string>
+	<string name="terms_of_service_about_title">अनुप्रयोगस्य विषये</string>
+	<string name="terms_of_service_use_title">अनुप्रयोगस्य उपयोगः</string>
+	<string name="terms_of_service_intellectual_property_title">बौद्धिक सम्पदा</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">गारंटी परित्यागः</string>
+	<string name="terms_of_service_limitation_of_liability_title">उत्तरदायित्वस्य मर्यादा</string>
+	<string name="terms_of_service_termination_title">समापनम्</string>
+	<string name="terms_of_service_governing_law_title">प्रवर्तनीयः नियमः</string>
+	<string name="terms_of_service_changes_title">एतेषु शर्तेषु परिवर्तनानि</string>
+	<string name="terms_of_service_about_body">एषः अनुप्रयोगः व्यक्तिगतव्ययपथानुगमनस्य साधनम्
+		अस्ति। एषः पूर्णतः ऑफ़लाइन कार्यं करोति तथा सर्ववयस्कोपयोगकर्तॄणां
+		कृते विनिर्मितः अस्ति। अनुप्रयोगः पञ्जीकरणं न आवश्यकं करोति,
+		विज्ञापनानि न दर्शयति, तथा किमपि व्यक्तिगतं विवरणं न सञ्चिनोति न च
+		प्रेषयति।</string>
+	<string name="terms_of_service_use_body">त्वं केवलं वैधानिकेभ्यः हेतुभ्यः एव चान्येषां
+		अधिकारान् न लंघयन् अथवा तेषां एप्-इत्यस्य उपयोगं न निरुन्धन्
+		एप्-इत्यस्य उपयोगं कर्तुं सहमति करोति। त्वं एप्-इत्यस्य प्रतिनिर्माणं,
+		अपसंकलनं वा परिवर्तनं कर्तुं न प्रयतसेथाः।</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">अनुप्रयोगः “यथास्थिति” इत्येव प्रदत्तः, स्पष्टानां
+		वा अव्यक्तानां वा कस्यापि प्रकारस्य गारन्टीनां विना, यत्र
+		व्यापारयोग्यता, विशिष्टकार्ये योग्यता, अथवा अतिक्रमणाभावस्य गारन्टीः
+		अपि अन्तर्भवति किन्तु ताभ्यः न केवलम्। वयं न गारन्टी दद्मः यत्
+		अनुप्रयोगः दोषवर्जितः भविष्यति अथवा अविच्छिन्नतया कार्यं करिष्यति।</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">अनुप्रयोगः न कोऽपि व्यक्तिगतं वा उपयोग-संबन्धितं
+		दत्तांशं संग्रहीतुम्, स्थापयितुम्, वा साझा कर्तुम् इच्छति। यत् किंचित्
+		किंचिद् भवतः प्रविष्टम् संपूर्णं विद्यमानम् सूचना स्वयम् भवान्
+		नियंत्रयन् स्वयम् उपकरणे स्थानीय­रूपेण स्थाप्यते।</string>
+	<string name="terms_of_service_intellectual_property_body">एप् मध्ये सर्वाणि अधिकाराः, शीर्षकम् च हितम् च,
+		यस्यां तस्यां च रचनायाम्, विशेषेषु, सङ्केतलिपौ च, सर्वम्
+		प्रतिलिप्यधिकारस्वामिनः स्वत्वम् अस्ति।</string>
+	<string name="terms_of_service_limitation_of_liability_body">यथाधिकृतं विधिना, स्वामी न दाय्यः भवति यत् किञ्चिद्
+		हानिः अथवा नाशः भवेत् भवतः अनुप्रयोगस्य उपयोगेन, अस्मिन् दत्तांशहानिः,
+		लाभहानिः अथवा व्यवसायसंधेः नाशः इत्यादयः अन्तर्भवन्ति परं तेषु न
+		सीमितम्।</string>
+	<string name="terms_of_service_termination_body">स्वामी पूर्वसूचनां विना यदा कदाचित् अनुप्रयोगस्य
+		प्रदाने समर्थनं वा स्थगयितुं शक्नोति।</string>
+	<string name="terms_of_service_governing_law_body">एते नियमाः भवतः निवासदेशस्य विधिभिः नियन्त्रिताः
+		भविष्यन्ति, विधिसंघर्षसिद्धान्तान् उपेक्ष्य। यत्र प्रयोज्यं, तत्र भवतः
+		देशस्य अनिवार्यः उपभोक्तृसंरक्षणविधयः अपि प्रयोज्याः भविष्यन्ति।</string>
+	<string name="terms_of_service_changes_body">एते नियमाः कालानुसारं नूतनीकर्तुं शक्यन्ते।
+		परिवर्तने कृत्यानन्तरं अनुप्रयोगस्य निरन्तरं उपयोगः भवति चेत् भवन्तः
+		नूतनीकृतान् नियमाः स्वीकुर्वन्ति इति अर्थः।</string>
+	<string name="terms_of_service_contact_information_body">यदि भवन्तः एतेषां नियमस्य विषये किमपि प्रश्नं
+		धारयन्ति, स्पष्टीकरणस्य आवश्यकता अस्ति, अथवा अनुप्रयोगेन सह कस्यचित्
+		समस्यायाः निवेदनं कर्तुम् इच्छन्ति, तर्हि अधोलिखित सम्पर्कविवरेषु
+		स्वामिनं सम्पर्कयितुं शक्नुवन्ति।</string>
+	<string name="terms_of_service_effective_date_body">“प्रभावी तिथि” सा तिथि यतः एते नियमाः प्रवर्तन्ते।
+		भविष्ये कस्यचित् अद्यतनस्य प्रभावी तिथि संशोधितं भविष्यति यत् सूचयेत्
+		यदा परिवर्तनानि प्रवर्तिष्यन्ते।</string>
 </resources>

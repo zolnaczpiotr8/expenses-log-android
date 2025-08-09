@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Број карактера: %d. Ограничење карактера: %d</string>
 	<string name="privacy_policy">Политика приватности</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ваши подаци остају код вас</string>
+	<string name="policy_your_data_stays_with_you_title">Ваши подаци остају код вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Poštujemo vašu privatnost. Ova aplikacija
 		funkcioniše potpuno offline i ne prikuplja niti deli bilo kakve
 		podatke. Ova politika se odnosi na sve korisnike širom sveta,
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Пошто се подаци не прикупљају, нема ничега чему
 		можете приступити, ажурирати или обрисати преко нас. Сви подаци су
 		ваши и остају искључиво на вашем уређају.</string>
-	<string name="privacy_policy_contact_information_title">Контакт информације</string>
+	<string name="policy_contact_information_title">Контакт информације</string>
 	<string name="privacy_policy_changes_title">Измене ове политике</string>
-	<string name="privacy_policy_effective_date_title">Датум ступања на снагу</string>
-	<string name="privacy_policy_email_subject">Upit o Politici Privatnosti – %s</string>
+	<string name="policy_effective_date_title">Датум ступања на снагу</string>
 	<string name="policies">Политике</string>
 	<string name="privacy_policy_contact_information_body">Ako imate bilo kakva pitanja ili zabrinutosti u
 		vezi sa ovom Politikom privatnosti, možete nas kontaktirati putem
@@ -98,4 +97,56 @@
 		biće prikazane u ažuriranoj verziji ove politike. Preporučujemo
 		korisnicima da povremeno pregledaju ovu politiku kako bi ostali
 		informisani o načinu obrade svojih informacija.</string>
+	<string name="terms_of_service">Услови коришћења</string>
+	<string name="dialog_first_launch_agree_title">Prihvatite da nastavite</string>
+	<string name="agree_to_terms">Слажем се</string>
+	<string name="dialog_first_launch_terms_message">Да бисте користили ову апликацију, морате да
+		прочитате и прихватите наше Услове коришћења. Користите дугме испод да
+		их прочитате.</string>
+	<string name="terms_of_service_about_title">О Апликацији</string>
+	<string name="terms_of_service_use_title">Коришћење апликације</string>
+	<string name="terms_of_service_intellectual_property_title">Интелектуална Својина</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Одрицање од гаранција</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ограничење Одговорности</string>
+	<string name="terms_of_service_termination_title">Р raskid</string>
+	<string name="terms_of_service_governing_law_title">Меродавно право</string>
+	<string name="terms_of_service_changes_title">Промене ових Услова</string>
+	<string name="terms_of_service_about_body">Ова апликација је алат за праћење личних трошкова.
+		Ради потпуно офлајн и намењена је корисницима свих узраста. Апликација
+		не захтева регистрацију, не приказује рекламе и не прикупља нити
+		преноси било какве личне податке.</string>
+	<string name="terms_of_service_use_body">Слажете се да ћете Апликацију користити само у
+		законите сврхе и на начин који не нарушава права других нити
+		ограничава њихово коришћење Апликације. Не смете покушати да извршите
+		обрнуто инжењерство, декомпилацију или измену Апликације.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikacija se pruža “takva kakva jeste” bez ikakvih
+		garancija, izričitih ili podrazumevanih, uključujući, ali ne
+		ograničavajući se na garancije prodajnosti, pogodnosti za određenu
+		svrhu ili nekršenja prava. Ne garantujemo da će aplikacija biti bez
+		grešaka ili da će raditi bez prekida.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikacija ne prikuplja, ne čuva niti deli bilo
+		kakve lične podatke ili podatke o korišćenju. Sve informacije koje
+		unesete ostaju lokalno sačuvane na vašem uređaju pod vašom kontrolom.</string>
+	<string name="terms_of_service_intellectual_property_body">Sva prava, naslov i interes u i na Aplikaciji,
+		uključujući njen dizajn, funkcije i kod, pripadaju vlasniku autorskih
+		prava.</string>
+	<string name="terms_of_service_limitation_of_liability_body">У највећој мери дозвољеној законом, власник не
+		одговара за било какву штету или губитке настале коришћењем
+		Апликације, укључујући, али не ограничавајући се на губитак података,
+		добити или пословних прилика.</string>
+	<string name="terms_of_service_termination_body">Власник може у било ком тренутку престати да нуди
+		или подржава апликацију без претходног обавештења.</string>
+	<string name="terms_of_service_governing_law_body">Ovi Uslovi se uređuju zakonima zemlje vašeg
+		prebivališta, bez obzira na načela sukoba zakona. Gde je primenljivo,
+		primenjivaće se i obavezni zakoni o zaštiti potrošača vaše zemlje.</string>
+	<string name="terms_of_service_changes_body">Ovi Uslovi mogu biti ažurirani s vremena na vreme.
+		Nastavak korišćenja Aplikacije nakon promena znači da prihvatate
+		ažurirane Uslove.</string>
+	<string name="terms_of_service_contact_information_body">Ако имате било каква питања у вези са овим
+		Условима, потребно вам је појашњење или желите да пријавите проблем са
+		Апликацијом, можете контактирати власника на доле наведеним контакт
+		подацима.</string>
+	<string name="terms_of_service_effective_date_body">„Datum stupanja na snagu” je datum od kojeg se ovi
+		Uslovi primenjuju. Sve buduće izmene će uključivati revidirani datum
+		stupanja na snagu kako bi se naznačilo kada izmene stupaju na snagu.</string>
 </resources>

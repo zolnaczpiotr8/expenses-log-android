@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Character count: %d. Character limit: %d</string>
 	<string name="privacy_policy">Privacy Policy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Your
+	<string name="policy_your_data_stays_with_you_title">Your
 		Data Stays With You</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">We
 		respect your privacy. This app functions entirely
@@ -94,13 +94,11 @@
 	<string name="privacy_policy_your_rights_body">As no data is collected, there is nothing for you
 		to access, update, or delete through us. All data is yours and remains
 		solely on your device.</string>
-	<string name="privacy_policy_contact_information_title">Contact
+	<string name="policy_contact_information_title">Contact
 		Information</string>
 	<string name="privacy_policy_changes_title">Changes to This
 		Policy</string>
-	<string name="privacy_policy_effective_date_title">Effective date</string>
-	<string name="privacy_policy_email_subject">Privacy Policy
-		Inquiry – %s</string>
+	<string name="policy_effective_date_title">Effective date</string>
 	<string name="policies">Policies</string>
 	<string name="privacy_policy_contact_information_body">If you
 		have any questions or concerns regarding this
@@ -114,4 +112,62 @@
 		the app handles your data will be reflected in an updated version of
 		this policy. We encourage users to review this policy periodically to
 		stay informed about how their information is treated.</string>
+	<string name="terms_of_service">Terms of Service</string>
+	<string name="dialog_first_launch_agree_title">Agree to Continue</string>
+	<string name="agree_to_terms">I Agree</string>
+	<string name="dialog_first_launch_terms_message">To use this
+		app, you must read and accept our Terms
+		of
+		Service. Use the button
+		below to read them.</string>
+	<string name="terms_of_service_about_title">About the App</string>
+	<string name="terms_of_service_about_body">This application is a personal expense tracking
+		tool. It operates entirely offline and is designed for users of all
+		ages. The App does not require registration, does not display ads, and
+		does not collect or transmit any personal information.</string>
+	<string name="terms_of_service_use_title">Use of the App</string>
+	<string name="terms_of_service_use_body">You agree to use the App only for lawful purposes
+		and in a way that does not infringe upon the rights of others or
+		restrict their use of the App.
+		You must not attempt to reverse
+		engineer, decompile, or modify the App.</string>
+	<string name="terms_of_service_intellectual_property_title">Intellectual Property</string>
+	<string name="terms_of_service_intellectual_property_body">All rights, title, and interest in and to the App,
+		including its design, features, and code, are owned by the copyright
+		owner. These rights are protected by copyright and other intellectual
+		property laws worldwide.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Disclaimer of Warranties</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">The App is provided “as is” without warranties of
+		any kind, either express or implied, including but not limited to
+		warranties of merchantability, fitness for a particular purpose, or
+		non-infringement.
+		We make no guarantee that the App will be free from
+		errors or that it
+		will function uninterrupted.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">The App does not collect, store, or share any
+		personal or usage data. All information you enter remains stored
+		locally on your device under your control.</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitation of Liability</string>
+	<string name="terms_of_service_limitation_of_liability_body">To the fullest extent permitted by law, the owner
+		is not liable for any damages or losses arising from your use of the
+		App, including but not limited to loss of data, profits, or business
+		opportunities.</string>
+	<string name="terms_of_service_termination_title">Termination</string>
+	<string name="terms_of_service_termination_body">The owner may stop offering or supporting the App
+		at any time without prior notice.</string>
+	<string name="terms_of_service_governing_law_title">Governing Law</string>
+	<string name="terms_of_service_governing_law_body">These Terms shall be governed by the laws of your
+		country of residence, without regard to conflict of law principles.
+		Where applicable, mandatory consumer protection laws of your country
+		will also apply.</string>
+	<string name="terms_of_service_changes_title">Changes to These Terms</string>
+	<string name="terms_of_service_changes_body">These Terms may be updated from time to time.
+		Continued use of the App after changes are made means you accept the
+		updated Terms.</string>
+	<string name="terms_of_service_contact_information_body">If you have any questions about these Terms, need
+		clarification, or wish to report an issue with the App, you can reach
+		the owner at the contact details below.</string>
+	<string name="terms_of_service_effective_date_body">The “Effective Date” is the date from which these
+		Terms apply. Any future updates will include a revised effective date
+		to indicate when the changes take effect.</string>
 </resources>

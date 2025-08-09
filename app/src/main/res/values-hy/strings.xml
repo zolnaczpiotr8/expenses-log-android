@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Նիշերի քանակը՝ %d։ Նիշերի սահմանը՝ %d</string>
 	<string name="privacy_policy">Գաղտնիության քաղաքականություն</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ձեր տվյալները մնում են ձեզ հետ</string>
+	<string name="policy_your_data_stays_with_you_title">Ձեր տվյալները մնում են ձեզ հետ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Մենք հարգում ենք ձեր գաղտնիությունը։ Այս հավելվածը
 		գործում է ամբողջությամբ օֆլայն և չի հավաքում կամ կիսում որևէ տվյալ։
 		Այս քաղաքականությունը վերաբերում է աշխարհի բոլոր օգտվողներին, այդ
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Քանի որ տվյալներ չեն հավաքագրվում, ձեր կողմից մեզ
 		միջոցով հասանելի, թարմացվող կամ ջնջվող ոչինչ չկա։ Բոլոր տվյալները ձերն
 		են և մնում են բացառապես ձեր սարքում։</string>
-	<string name="privacy_policy_contact_information_title">Կապի տեղեկատվություն</string>
+	<string name="policy_contact_information_title">Կապի տեղեկատվություն</string>
 	<string name="privacy_policy_changes_title">Այս քաղաքականության փոփոխությունները</string>
-	<string name="privacy_policy_effective_date_title">Ուժի մեջ մտնելու ամսաթիվը</string>
-	<string name="privacy_policy_email_subject">Գաղտնիության Քաղաքականության Հարցում – %s</string>
+	<string name="policy_effective_date_title">Ուժի մեջ մտնելու ամսաթիվը</string>
 	<string name="policies">Քաղաքականություններ</string>
 	<string name="privacy_policy_contact_information_body">Եթե այս Գաղտնիության քաղաքականության վերաբերյալ
 		որևէ հարց կամ մտահոգություն ունեք, կարող եք կապվել մեզ հետ էլ. փոստով</string>
@@ -98,4 +97,55 @@
 		կարտացոլվի քաղաքականության թարմացված տարբերակում։ Մենք խրախուսում ենք
 		օգտվողներին պարբերաբար վերանայել այս քաղաքականությունը՝ տեղեկացված
 		լինելու իրենց տեղեկատվության մշակման ձևի մասին։</string>
+	<string name="terms_of_service">Ծառայության պայմաններ</string>
+	<string name="dialog_first_launch_agree_title">Համաձայնվել շարունակելու համար</string>
+	<string name="agree_to_terms">Համաձայն եմ</string>
+	<string name="dialog_first_launch_terms_message">Այս հավելվածը օգտագործելու համար դուք պետք է կարդաք
+		և ընդունեք մեր Ծառայության Պայմանները։ Դրանց կարդալու համար օգտագործեք
+		ներքևի կոճակը։</string>
+	<string name="terms_of_service_about_title">Համակարգի մասին</string>
+	<string name="terms_of_service_use_title">Հավելվածի օգտագործում</string>
+	<string name="terms_of_service_intellectual_property_title">Բൗદ્ધական սեփականություն</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Երաշխիքների մերժում</string>
+	<string name="terms_of_service_limitation_of_liability_title">Պատասխանատվության Սահմանափակում</string>
+	<string name="terms_of_service_termination_title">Վերջնականացում</string>
+	<string name="terms_of_service_governing_law_title">Կառավարող օրենք</string>
+	<string name="terms_of_service_changes_title">Այս Պայմանների Փոփոխությունները</string>
+	<string name="terms_of_service_about_body">Այս հավելվածը անձնական ծախսերի հետևման գործիք է։
+		Այն գործում է ամբողջովին անցանց և նախատեսված է բոլոր տարիքի օգտատերերի
+		համար։ Հավելվածը չի պահանջում գրանցում, չի ցուցադրում գովազդներ և չի
+		հավաքում կամ փոխանցում որևէ անձնական տվյալ։</string>
+	<string name="terms_of_service_use_body">Դուք համաձայնվում եք օգտագործել հավելվածը միայն
+		օրինական նպատակներով և այնպես, որ չխախտի այլոց իրավունքները կամ
+		չսահմանափակի նրանց հավելվածի օգտագործումը։ Դուք չպետք է փորձեք
+		հակադարձ ինժեներություն անել, ապակոմպիլացնել կամ փոփոխել հավելվածը։</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Պահանջվող ծրագիրը տրամադրվում է «որոշ վիճակում»,
+		առանց որևէ երաշխիքների, թե՛ հստակ, թե՛ ենթադրյալ, ներառյալ, բայց ոչ
+		սահմանափակված՝ վաճառվելիության, նպատակային օգտագործման համար
+		հարմարության կամ չխախտման երաշխիքներով։ Մենք որևէ երաշխիք չունենք, որ
+		ծրագիրը չի ունենալու սխալներ կամ աշխատելու է անընդհատ։</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Խնդիրը չի հավաքում, ոչ պահում և ոչ էլ կիսում որևէ
+		անձնական կամ օգտագործման տվյալ։ Ձեզ կողմից մուտքագրված բոլոր տվյալները
+		մնում են տեղական մակարդակում՝ ձեր սարքում՝ ձեր վերահսկողության ներքո։</string>
+	<string name="terms_of_service_intellectual_property_body">Գործառույթի, դրա նախագծման, հնարավորությունների և
+		ծոդի նկատմամբ բոլոր իրավունքները, վերնագրային իրավունքները և շահերը
+		պատկանում են հեղինակային իրավունքի սեփականատիրոջը</string>
+	<string name="terms_of_service_limitation_of_liability_body">Որքանով թույլատրվում է օրենքով, սեփականատերը
+		պատասխանատվություն չի կրում հավելվածի օգտագործումից առաջացած որևէ
+		վնասի կամ կորուստի համար, ներառյալ, բայց չսահմանափակվելով տվյալների,
+		շահույթի կամ բիզնեսի հնարավորությունների կորստով</string>
+	<string name="terms_of_service_termination_body">Տերը կարող է ցանկացած ժամանակ դադարեցնել հավելվածի
+		առաջարկումը կամ աջակցությունը առանց նախնական ծանուցման։</string>
+	<string name="terms_of_service_governing_law_body">Այս Օգտագործման Դաշտերը կկարգավորվեն ձեր բնակության
+		երկրի օրենսդրությամբ՝ չհաշվի առնելով իրավունքի կոնֆլիկտի սկզբունքները</string>
+	<string name="terms_of_service_changes_body">Այս Օրենսդրական պայմանները կարող են ժամանակ առ
+		ժամանակ թարմացվել։ հավելվածի շարունակական օգտագործումը
+		փոփոխություններից հետո նշանակում է, որ դուք ընդունում եք թարմացված
+		Պայմանները։</string>
+	<string name="terms_of_service_contact_information_body">Եթե դուք ունեք որևէ հարց այս Պայմանների վերաբերյալ,
+		կարիք ունեք պարզաբանման կամ ցանկանում եք հաղորդել հավելվածի հետ կապված
+		խնդիր, կարող եք կապ հաստատել սեփականատիրոջ հետ ստորև նշված կոնտակտային
+		տվյալներով։</string>
+	<string name="terms_of_service_effective_date_body">«Ուժի մեջ մտնելու ամսաթիվը» այն օրն է, երբ սկսում
+		են գործել այս Պայմանները</string>
 </resources>

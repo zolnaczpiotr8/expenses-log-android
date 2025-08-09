@@ -24,7 +24,8 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 @Composable
 fun PoliciesModalBottomSheet(
     state: SheetState = rememberModalBottomSheetState(),
-    onPrivacyPolicyClick: () -> Unit = {}
+    onPrivacyPolicyClick: () -> Unit = {},
+    onTermsOfServiceClick: () -> Unit = {},
 ) {
   if (state.isVisible) {
     val scope = rememberCoroutineScope()
@@ -33,7 +34,7 @@ fun PoliciesModalBottomSheet(
             Modifier.semantics {
               collectionInfo =
                   CollectionInfo(
-                      rowCount = 1,
+                      rowCount = 2,
                       columnCount = 1,
                   )
             },
@@ -65,6 +66,21 @@ fun PoliciesModalBottomSheet(
               },
       ) {
         scope.launch { state.hide() }.invokeOnCompletion { onPrivacyPolicyClick() }
+      }
+
+      TermsOfServiceListItem(
+          modifier =
+              Modifier.semantics {
+                collectionItemInfo =
+                    CollectionItemInfo(
+                        rowIndex = 1,
+                        columnSpan = 1,
+                        columnIndex = 0,
+                        rowSpan = 1,
+                    )
+              },
+      ) {
+        scope.launch { state.hide() }.invokeOnCompletion { onTermsOfServiceClick() }
       }
     }
   }

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Кількість символів: %d. Обмеження символів: %d</string>
 	<string name="privacy_policy">Політика конфіденційності</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ваші дані залишаються з вами</string>
+	<string name="policy_your_data_stays_with_you_title">Ваші дані залишаються з вами</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ми поважаємо вашу конфіденційність. Цей додаток
 		працює повністю офлайн і не збирає та не передає жодних даних. Ця
 		політика застосовується до всіх користувачів у світі, включно з дітьми
@@ -79,10 +79,9 @@
 	<string name="privacy_policy_your_rights_body">Оскільки дані не збираються, вам нема чого
 		отримувати доступ, оновлювати чи видаляти через нас. Усі дані належать
 		вам і залишаються лише на вашому пристрої.</string>
-	<string name="privacy_policy_contact_information_title">Контактна інформація</string>
+	<string name="policy_contact_information_title">Контактна інформація</string>
 	<string name="privacy_policy_changes_title">Зміни до цієї політики</string>
-	<string name="privacy_policy_effective_date_title">Дата набрання чинності</string>
-	<string name="privacy_policy_email_subject">Запит щодо Політики Конфіденційності – %s</string>
+	<string name="policy_effective_date_title">Дата набрання чинності</string>
 	<string name="policies">Політики</string>
 	<string name="privacy_policy_contact_information_body">Якщо у вас є будь-які запитання або занепокоєння
 		щодо цієї Політики конфіденційності, ви можете зв’язатися з нами
@@ -97,4 +96,60 @@
 		відображено в оновленій версії цієї політики. Ми рекомендуємо
 		користувачам періодично переглядати цю політику, щоб залишатися
 		поінформованими про те, як обробляється їхня інформація.</string>
+	<string name="terms_of_service">Умови обслуговування</string>
+	<string name="dialog_first_launch_agree_title">Погодьтеся, щоб продовжити</string>
+	<string name="agree_to_terms">Я погоджуюсь</string>
+	<string name="dialog_first_launch_terms_message"> Щоб користуватися цим додатком, ви повинні
+		прочитати та прийняти наші Умови надання послуг. Використайте кнопку
+		нижче, щоб їх прочитати.</string>
+	<string name="terms_of_service_about_title">Про Додаток</string>
+	<string name="terms_of_service_use_title">Використання додатку</string>
+	<string name="terms_of_service_intellectual_property_title">Інтелектуальна Власність</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Відмова від гарантій</string>
+	<string name="terms_of_service_limitation_of_liability_title">Обмеження Відповідальності</string>
+	<string name="terms_of_service_termination_title">Припинення</string>
+	<string name="terms_of_service_governing_law_title">Застосовне право</string>
+	<string name="terms_of_service_changes_title">Зміни до цих Умов</string>
+	<string name="terms_of_service_about_body">Цей додаток є інструментом для відстеження
+		особистих витрат. Він працює повністю офлайн і призначений для
+		користувачів будь-якого віку. Додаток не вимагає реєстрації, не
+		показує рекламу та не збирає чи не передає жодної особистої
+		інформації.</string>
+	<string name="terms_of_service_use_body">Ви погоджуєтеся використовувати Додаток лише з
+		законною метою та у спосіб, який не порушує права інших і не обмежує
+		їх використання Додатка. Ви не повинні намагатися здійснювати зворотне
+		проєктування, декомпіляцію чи модифікацію Додатка.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Додаток надається «як є» без будь-яких гарантій,
+		прямих або непрямих, включаючи, але не обмежуючись, гарантіями
+		товарної придатності, придатності для певної мети або відсутності
+		порушень. Ми не гарантуємо, що додаток буде без помилок або що він
+		працюватиме безперервно.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Додаток не збирає, не зберігає та не передає жодних
+		особистих або даних про використання. Уся інформація, яку ви вводите,
+		залишається локально збереженою на вашому пристрої під вашим
+		контролем.</string>
+	<string name="terms_of_service_intellectual_property_body">Усі права, назва та інтереси щодо Додатка,
+		включаючи його дизайн, функції та код, належать власнику авторських
+		прав.</string>
+	<string name="terms_of_service_limitation_of_liability_body">У максимально допустимій законом мірі власник не
+		несе відповідальності за будь-які збитки чи втрати, що виникли
+		внаслідок вашого використання Додатку, включаючи, але не обмежуючись,
+		втрату даних, прибутку чи бізнес-можливостей.</string>
+	<string name="terms_of_service_termination_body">Власник може в будь-який час припинити пропонування
+		або підтримку додатка без попереднього повідомлення.</string>
+	<string name="terms_of_service_governing_law_body">Ці Умови регулюються законами країни вашого
+		проживання, без урахування принципів колізії законів. Якщо застосовно,
+		також діятимуть обов’язкові закони про захист прав споживачів вашої
+		країни.</string>
+	<string name="terms_of_service_changes_body">Ці Умови можуть час від часу оновлюватися.
+		Продовження використання Додатку після внесення змін означає, що ви
+		приймаєте оновлені Умови.</string>
+	<string name="terms_of_service_contact_information_body">Якщо у вас є будь-які запитання щодо цих Умов,
+		потрібне уточнення або ви бажаєте повідомити про проблему з Додатком,
+		ви можете зв’язатися з власником за контактними даними, наведеними
+		нижче.</string>
+	<string name="terms_of_service_effective_date_body">«Дата набрання чинності» — це дата, з якої
+		починають діяти ці Умови. Будь-які майбутні оновлення включатимуть
+		переглянуту дату набрання чинності, щоб вказати, коли зміни набувають
+		чинності.</string>
 </resources>

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Tegntælling: %d. Tegngrænse: %d</string>
 	<string name="privacy_policy">Privatlivspolitik</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Dine data forbliver hos dig</string>
+	<string name="policy_your_data_stays_with_you_title">Dine data forbliver hos dig</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterer dit privatliv. Denne app fungerer
 		fuldstændigt offline og indsamler eller deler ingen data. Denne
 		politik gælder for alle brugere verden over, inklusive børn i alle
@@ -79,10 +79,9 @@
 	<string name="privacy_policy_your_rights_body">Da der ikke indsamles nogen data, er der intet, du
 		kan få adgang til, opdatere eller slette gennem os. Alle data er dine
 		og forbliver udelukkende på din enhed.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktoplysninger</string>
+	<string name="policy_contact_information_title">Kontaktoplysninger</string>
 	<string name="privacy_policy_changes_title">Ændringer i denne politik</string>
-	<string name="privacy_policy_effective_date_title">Ikrafttrædelsesdato</string>
-	<string name="privacy_policy_email_subject">Forespørgsel om Privatlivspolitik – %s</string>
+	<string name="policy_effective_date_title">Ikrafttrædelsesdato</string>
 	<string name="policies">Politikker</string>
 	<string name="privacy_policy_contact_information_body">Hvis du har spørgsmål eller bekymringer vedrørende
 		denne privatlivspolitik, kan du kontakte os via e-mail.</string>
@@ -96,4 +95,56 @@
 		afspejlet i en opdateret version af denne politik. Vi opfordrer
 		brugerne til jævnligt at gennemgå denne politik for at holde sig
 		informeret om, hvordan deres oplysninger behandles.</string>
+	<string name="terms_of_service">Servicevilkår</string>
+	<string name="dialog_first_launch_agree_title">Accepter for at fortsætte</string>
+	<string name="agree_to_terms">Jeg accepterer</string>
+	<string name="dialog_first_launch_terms_message">For at bruge denne app skal du læse og acceptere
+		vores Servicevilkår. Brug knappen nedenfor for at læse dem.</string>
+	<string name="terms_of_service_about_title">Om Appen</string>
+	<string name="terms_of_service_use_title">Brug af appen</string>
+	<string name="terms_of_service_intellectual_property_title">Intellektuel Ejendom</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Ansvarsfraskrivelse for garantier</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ansvarsbegrænsning</string>
+	<string name="terms_of_service_termination_title">Opsigelse</string>
+	<string name="terms_of_service_governing_law_title">Gældende lov</string>
+	<string name="terms_of_service_changes_title">Ændringer af disse Vilkår</string>
+	<string name="terms_of_service_about_body">Denne applikation er et personligt værktøj til at
+		spore udgifter. Den fungerer helt offline og er designet til brugere i
+		alle aldre. Appen kræver ingen registrering, viser ingen annoncer og
+		indsamler eller overfører ingen personlige oplysninger.</string>
+	<string name="terms_of_service_use_body">Du accepterer kun at bruge Appen til lovlige formål
+		og på en måde, der ikke krænker andres rettigheder eller begrænser
+		deres brug af Appen. Du må ikke forsøge at reverse engineere,
+		dekompilere eller ændre Appen.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Appen leveres “som den er” uden nogen form for
+		garantier, hverken udtrykkelige eller underforståede, herunder men
+		ikke begrænset til garantier for salgbarhed, egnethed til et bestemt
+		formål eller ikke-krænkelse. Vi garanterer ikke, at appen vil være
+		fejlfri eller fungere uden afbrydelser.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Appen indsamler, gemmer eller deler ingen
+		personlige eller brugsmæssige data. Al information, du indtaster,
+		forbliver gemt lokalt på din enhed under din kontrol.</string>
+	<string name="terms_of_service_intellectual_property_body">Alle rettigheder, titel og interesse i og til
+		appen, inklusive dens design, funktioner og kode, ejes af
+		ophavsretsindehaveren.</string>
+	<string name="terms_of_service_limitation_of_liability_body">I det fulde omfang, loven tillader, er ejeren ikke
+		ansvarlig for skader eller tab, der opstår som følge af din brug af
+		appen, herunder men ikke begrænset til tab af data, fortjeneste eller
+		forretningsmuligheder.</string>
+	<string name="terms_of_service_termination_body">Ejeren kan til enhver tid stoppe med at tilbyde
+		eller støtte appen uden forudgående varsel.</string>
+	<string name="terms_of_service_governing_law_body">Disse Vilkår er underlagt lovgivningen i dit
+		bopælsland, uden hensyntagen til lovvalgsprincipper. Hvor det er
+		relevant, vil ufravigelige forbrugerbeskyttelseslove i dit land også
+		finde anvendelse.</string>
+	<string name="terms_of_service_changes_body">Disse Vilkår kan blive opdateret fra tid til anden.
+		Fortsat brug af Appen efter ændringer betyder, at du accepterer de
+		opdaterede Vilkår.</string>
+	<string name="terms_of_service_contact_information_body">Hvis du har spørgsmål om disse Vilkår, har brug for
+		afklaring eller ønsker at rapportere et problem med Appen, kan du
+		kontakte ejeren via nedenstående kontaktoplysninger.</string>
+	<string name="terms_of_service_effective_date_body">“Ikrafttrædelsesdatoen” er den dato, hvorfra disse
+		vilkår gælder. Eventuelle fremtidige opdateringer vil indeholde en
+		revideret ikrafttrædelsesdato for at angive, hvornår ændringerne
+		træder i kraft.</string>
 </resources>

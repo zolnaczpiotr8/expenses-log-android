@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karaktertelling: %d. Karakterlimiet: %d</string>
 	<string name="privacy_policy">Privaatheidsbeleid</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Jou data bly by jou</string>
+	<string name="policy_your_data_stays_with_you_title">Jou data bly by jou</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ons respekteer jou privaatheid. Hierdie app werk
 		heeltemal aflyn en versamel of deel geen data nie. Hierdie beleid geld
 		vir alle gebruikers wêreldwyd, insluitend kinders van alle ouderdomme.
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Aangesien geen data versamel word nie, is daar niks
 		wat jy via ons kan toegang kry, opdateer of verwyder nie. Alle data is
 		joune en bly uitsluitlik op jou toestel.</string>
-	<string name="privacy_policy_contact_information_title">Kontakinligting</string>
+	<string name="policy_contact_information_title">Kontakinligting</string>
 	<string name="privacy_policy_changes_title">Veranderinge aan hierdie beleid</string>
-	<string name="privacy_policy_effective_date_title">Inwerkingtredingsdatum</string>
-	<string name="privacy_policy_email_subject">Privaatheidsbeleid Navraag – %s</string>
+	<string name="policy_effective_date_title">Inwerkingtredingsdatum</string>
 	<string name="policies">Beleid</string>
 	<string name="privacy_policy_contact_information_body">As u enige vrae of bekommernisse rakende hierdie
 		Privaatheidsbeleid het, kan u ons per e-pos kontak.</string>
@@ -97,4 +96,59 @@
 		bygewerkte weergawe van hierdie beleid weerspieël word. Ons moedig
 		gebruikers aan om hierdie beleid gereeld te hersien om ingelig te bly
 		oor hoe hul inligting hanteer word.</string>
+	<string name="terms_of_service">Diensvoorwaardes</string>
+	<string name="dialog_first_launch_agree_title">Stem in om voort te gaan</string>
+	<string name="agree_to_terms">Ek stem saam</string>
+	<string name="dialog_first_launch_terms_message">Om hierdie app te gebruik, moet jy ons
+		Diensbepalings lees en aanvaar. Gebruik die knoppie hieronder om dit
+		te lees.</string>
+	<string name="terms_of_service_about_title">Oor die Toep</string>
+	<string name="terms_of_service_use_title">Gebruik van die Toepassing</string>
+	<string name="terms_of_service_intellectual_property_title">Intellektuele Eiendom</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Vrywarings van waarborge</string>
+	<string name="terms_of_service_limitation_of_liability_title">Beperking van Aanspreeklikheid</string>
+	<string name="terms_of_service_termination_title">Beëindiging</string>
+	<string name="terms_of_service_governing_law_title">Beheersende Reg</string>
+	<string name="terms_of_service_changes_title">Wysigings aan hierdie Voorwaardes</string>
+	<string name="terms_of_service_about_body">Hierdie toepassing is ’n persoonlike
+		uitgawe-opsporingshulpmiddel. Dit werk heeltemal vanlyn en is ontwerp
+		vir gebruikers van alle ouderdomme. Die toepassing vereis geen
+		registrasie nie, wys geen advertensies nie, en versamel of stuur geen
+		persoonlike inligting nie.</string>
+	<string name="terms_of_service_use_body">Jy stem in om die Toep net vir wettige doeleindes
+		te gebruik en op ’n manier wat nie die regte van ander skend of hul
+		gebruik van die Toep beperk nie. Jy mag nie probeer om die Toep te
+		reverse-engineer, dekompileer of wysig nie.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Die App word “soos dit is” verskaf sonder waarborge
+		van enigiemand, hetsy uitdruklik of geïmpliseer, insluitend maar nie
+		beperk tot waarborge van verkoopbaarheid, geskiktheid vir ’n bepaalde
+		doel, of nie-oortreding nie. Ons maak geen waarborg dat die App
+		foutloos sal wees of dat dit ononderbroke sal funksioneer nie.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Die app versamel, stoor of deel geen persoonlike of
+		gebruiksdata nie. Alle ingevoerde inligting bly plaaslik op jou
+		toestel gestoor onder jou beheer.</string>
+	<string name="terms_of_service_intellectual_property_body">Alle regte, titel en belang in en tot die App,
+		insluitend die ontwerp, kenmerke en kode daarvan, berus by die
+		kopiereghouer.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Tot die volle mate wat deur die wet toegelaat word,
+		is die eienaar nie aanspreeklik vir enige skade of verliese wat
+		voortspruit uit jou gebruik van die App nie, insluitend maar nie
+		beperk tot die verlies van data, winste of sakegeleenthede nie.</string>
+	<string name="terms_of_service_termination_body">Die eienaar mag die toepassing te eniger tyd ophou
+		aanbied of ondersteun sonder voorafkennisgewing.</string>
+	<string name="terms_of_service_governing_law_body">Hierdie Voorwaardes word beheers deur die wette van
+		jou land van verblyf, sonder inagneming van konflik van
+		wette-beginsels. Waar van toepassing, sal dwingende
+		verbruikersbeskermingswette van jou land ook van toepassing wees.</string>
+	<string name="terms_of_service_changes_body">Hierdie Voorwaardes kan van tyd tot tyd opgedateer
+		word. Voortgesette gebruik van die App nadat veranderinge aangebring
+		is, beteken dat jy die opgedateerde Voorwaardes aanvaar.</string>
+	<string name="terms_of_service_contact_information_body">As u enige vrae het oor hierdie Voorwaardes,
+		verduideliking benodig, of ’n probleem met die Toep assie wil
+		rapporteer, kan u die eienaar kontak by die onderstaande
+		kontakbesonderhede.</string>
+	<string name="terms_of_service_effective_date_body">Die “Inwerkingtredingsdatum” is die datum vanaf
+		wanneer hierdie Voorwaardes geld. Enige toekomstige opdaterings sal ’n
+		hersiene inwerkingtredingsdatum insluit om aan te dui wanneer die
+		veranderinge van krag word.</string>
 </resources>

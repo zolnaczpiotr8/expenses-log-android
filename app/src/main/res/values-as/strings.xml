@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">অক্ষৰৰ সংখ্যা: %d। অক্ষৰৰ সীমা: %d</string>
 	<string name="privacy_policy">গোপনীয়তা নীতি</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">আপোনাৰ তথ্য আপোনাৰ সৈতে থাকে</string>
+	<string name="policy_your_data_stays_with_you_title">আপোনাৰ তথ্য আপোনাৰ সৈতে থাকে</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">আমি আপোনাৰ গোপনীয়তাৰ সন্মান কৰোঁ। এই এপ্লিকেশ্বনটো
 		সম্পূৰ্ণৰূপে অফলাইনতে কাম কৰে আৰু কোনো তথ্য সংগ্ৰহ বা ভাগ-বতৰা নকৰে।
 		এই নীতি বিশ্বৰ সকলো ব্যৱহাৰকাৰীক, সকলো বয়সৰ শিশুসকলকো ধৰি প্ৰযোজ্য।
@@ -78,10 +78,9 @@
 	<string name="privacy_policy_your_rights_body">কোনো ডাটা সংগ্ৰহ কৰা নহয় বুলি, আপোনাৰ বাবে আমাৰ
 		জৰিয়তে একো এক্সেছ, আপডেট বা ডিলিট কৰাৰ একো নাই। সকলো ডাটা আপোনাৰেই
 		আৰু কেৱল আপোনাৰ ডিভাইচত থাকে।</string>
-	<string name="privacy_policy_contact_information_title">যোগাযোগৰ তথ্য</string>
+	<string name="policy_contact_information_title">যোগাযোগৰ তথ্য</string>
 	<string name="privacy_policy_changes_title">এই নীতিত সলনি</string>
-	<string name="privacy_policy_effective_date_title">কাৰ্যকৰী তাৰিখ</string>
-	<string name="privacy_policy_email_subject">গোপনীয়তা নীতি অনুসন্ধান – %s</string>
+	<string name="policy_effective_date_title">কাৰ্যকৰী তাৰিখ</string>
 	<string name="policies">নীতিসমূহ</string>
 	<string name="privacy_policy_contact_information_body">যদি আপোনাৰ এই গোপনীয়তা নীতিটো সম্পৰ্কে কোনো প্ৰশ্ন
 		বা চিন্তা থাকে, তেন্তে আপুনি আমাক ইমেইলযোগে যোগাযোগ কৰিব পাৰে।</string>
@@ -95,4 +94,54 @@
 		সংস্কৰণত প্ৰতিফলিত হ’ব। আপুনালোকক এই নীতিটো সময় সময়ত পৰ্যালোচনা কৰাৰ
 		পৰামৰ্শ দিয়া হয় যাতে আপোনাৰ তথ্য কেনেকৈ ব্যৱহাৰ কৰা হৈছে সেই বিষয়ে
 		সদায় অৱগত থাকিব পাৰে।</string>
+	<string name="terms_of_service">সেৱাৰ চৰ্তসমূহ</string>
+	<string name="dialog_first_launch_agree_title">আগবঢ়াবলৈ সন্মতি দিয়ক</string>
+	<string name="agree_to_terms">মই সন্মত</string>
+	<string name="dialog_first_launch_terms_message">এই এপ্‌টো ব্যৱহাৰ কৰিবলৈ, আপুনি আমাৰ সেৱা চৰ্তবোৰ
+		পঢ়িব লাগিব আৰু স্বীকাৰ কৰিব লাগিব। সিহঁতক পঢ়িবলৈ তলত থকা বুটামটো
+		ব্যৱহাৰ কৰক।</string>
+	<string name="terms_of_service_about_title">এপ্‌সম্পৰ্কে</string>
+	<string name="terms_of_service_use_title">এপ্‌ৰ ব্যৱহাৰ</string>
+	<string name="terms_of_service_intellectual_property_title">মেধাসম্পদ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ৱাৰেণ্টীৰ অস্বীকৃতি</string>
+	<string name="terms_of_service_limitation_of_liability_title">দায়বদ্ধতাৰ সীমা</string>
+	<string name="terms_of_service_termination_title">সমাপ্তি</string>
+	<string name="terms_of_service_governing_law_title">শাসনকাৰী আইন</string>
+	<string name="terms_of_service_changes_title">এই চৰ্তসমূহত পৰিৱর্তন</string>
+	<string name="terms_of_service_about_body">এই এপ্লিকেচনটো এটা ব্যক্তিগত খৰচ অনুসৰণ কৰাৰ
+		সঁজুলি। ই সম্পূৰ্ণৰূপে অফলাইনত কাম কৰে আৰু সকলো বয়সৰ ব্যৱহাৰকাৰীৰ বাবে
+		ডিজাইন কৰা হৈছে। এপ্লিকেচনটোত নিবন্ধনৰ প্ৰয়োজন নাই, বিজ্ঞাপন দেখুৱায়
+		নে আৰু কোনো ব্যক্তিগত তথ্য সংগ্ৰহ বা প্ৰেৰণ নকৰে।</string>
+	<string name="terms_of_service_use_body">আপুনি মাত্ৰ আইনসন্মত উদ্দেশ্যৰ বাবে আৰু এনে পদ্ধতিত
+		এপটো ব্যৱহাৰ কৰিবলৈ সন্মত যি আনৰ অধিকাৰ লংঘন নকৰে বা তেওঁলোকৰ এপ
+		ব্যৱহাৰত বাধা নিদিয়ে। আপুনি এপটো ৰিভাৰ্চ ইঞ্জিনিয়াৰ, ডিকম্পাইল বা
+		সলনি কৰিবলৈ চেষ্টা কৰিব নালাগে।</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">এপ্ টো “যি অৱস্থাত আছে” তেনে অৱস্থাত দিয়া হৈছে, যে
+		কোনো প্ৰকাৰৰ वारেন্টি নোৱাৰি—প্ৰকাশ্য অথবা অন্তঃশূচক—যেন
+		ব্যৱসায়িকযোগ্যতা, নিৰ্দিষ্ট উদ্দেশ্যৰ বাবে উপযোগিতা, বা
+		অন-উল্লঙ্ঘনীয়তা। আমি কোনো নিশ্চয়তা নিদিও যে এপ্ টো ত্ৰুটিমুক্ত হ’ব
+		বা বাধাহীনভাৱে ফাংক্ষেপন চলিব।</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">এটো এপে কোনোবা ব্যক্তিগত বা ব্যৱহাৰ সংক্রান্ত তথ্য
+		সংগ্ৰহ, সংৰক্ষণ বা ভাগ-বতৰা নকৰে। আপুনি যি তথ্য প্ৰৱিষ্ট কৰে, সেইবোৰ
+		আপোনাৰ ডিভাইচত স্থানীয়ভাৱে সঞ্চয় হৈ থাকে আপোনাৰ নিয়ন্ত্ৰণত।</string>
+	<string name="terms_of_service_intellectual_property_body">এপটো, ইয়াৰ ডিজাইন, বৈশিষ্ট্যসমূহ, আৰু কোড
+		সন্নিৱিষ্ট থকা সকলো অধিকাৰ, নাম আৰু স্বাৰ্থ সদমতে কপিৰাইট অধিকাৰীলৈ
+		মৰ্য্যাদাপূৰ্বক।</string>
+	<string name="terms_of_service_limitation_of_liability_body">আইনৰ দ্বাৰা অনুমোদিত সৰ্বাধিক পৰিসৰত, মলিকে এপ্‌ৰ
+		ব্যৱহাৰৰ ফলত হোৱা কোনো ক্ষতি বা ক্ষয়ক্ষতিৰ বাবে দায়ী নহয়, ইয়াত
+		তথ্য, লাভ বা ব্যৱসায়িক সুযোগৰ ক্ষতি অন্তৰ্ভুক্ত কিন্তু সীমাবদ্ধ নহয়।</string>
+	<string name="terms_of_service_termination_body">মালিকে প্ৰয়োগটো যিকোনো সময়ত আগবঢ়োৱা বা সমৰ্থন
+		বন্ধ কৰিব পাৰে পূৰ্বসূচনা নকৰাকৈ।</string>
+	<string name="terms_of_service_governing_law_body">এই শর্তবোৰ আপোনাৰ বাসস্থান দেশৰ আইন অনুসৰি পৰিচালিত
+		হ’ব, আইন দ্বন্দ্ব সৰল সূত্রসমূহ উলঙ্গ নকৰাকৈ। য’দি প্ৰযোজ্য, আপোনাৰ
+		দেশৰ বাধ্যতামূলক ভোক্তা সুৰক্ষা আইনসমূহো প্ৰযোজ্য হ’ব।</string>
+	<string name="terms_of_service_changes_body">এই চৰ্তসমূহ সময়ে-সময়ে আপডেট কৰা হ’ব পাৰে।
+		পৰিবর্তন কৰাৰ পিছত এপটো অব্যাহতভাৱে ব্যৱহাৰ কৰা মানে আপুনি আপডেট কৰা
+		চৰ্তসমূহ গ্ৰহণ কৰিছে।</string>
+	<string name="terms_of_service_contact_information_body">এই চৰ্তসমূহৰ বিষয়ে আপোনাৰ কোনো প্ৰশ্ন থাকিলে,
+		স্পষ্টীকৰণৰ প্ৰয়োজন হ’লে, বা এপৰ সৈতে কোনো সমস্যা প্ৰতিবেদন কৰিবলৈ
+		বিচাৰিলে, তলত দিয়া যোগাযোগৰ বিবৰণত মালিকৰ সৈতে যোগাযোগ কৰিব পাৰিব।</string>
+	<string name="terms_of_service_effective_date_body">”প্ৰযোজ্য তাৰিখ“ হৈছে তাৰিখ যাৰ পৰা এই চৰ্তবোৰ
+		প্ৰযোজ্য হ’ব। যিকোনো ভৱিষ্যতৰ আপডেটত সলনি প্ৰযোজ্য তাৰিখ অন্তৰ্ভুক্ত
+		হ’ব যি সলনি কাৰ্যকৰী হোৱাৰ সময় দেখুৱাব।</string>
 </resources>

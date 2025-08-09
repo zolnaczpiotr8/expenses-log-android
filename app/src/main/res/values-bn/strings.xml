@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">অক্ষরের সংখ্যা: %d। অক্ষরের সীমা: %d</string>
 	<string name="privacy_policy">গোপনীয়তা নীতি</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">আপনার ডেটা আপনার সাথে থাকে</string>
+	<string name="policy_your_data_stays_with_you_title">আপনার ডেটা আপনার সাথে থাকে</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">আমরা আপনার গোপনীয়তাকে সম্মান করি। এই অ্যাপটি
 		সম্পূর্ণরূপে অফলাইনে কাজ করে এবং কোনো তথ্য সংগ্রহ বা ভাগ করে না। এই
 		নীতি বিশ্বব্যাপী সকল ব্যবহারকারীর জন্য প্রযোজ্য, সমস্ত বয়সের শিশুসহ।
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">যেহেতু কোনো তথ্য সংগ্রহ করা হয় না, তাই আমাদের
 		মাধ্যমে আপনার অ্যাক্সেস, আপডেট বা মুছে ফেলার মতো কিছুই নেই। সমস্ত তথ্য
 		আপনার এবং এটি কেবলমাত্র আপনার ডিভাইসে থাকে।</string>
-	<string name="privacy_policy_contact_information_title">যোগাযোগের তথ্য</string>
+	<string name="policy_contact_information_title">যোগাযোগের তথ্য</string>
 	<string name="privacy_policy_changes_title">এই নীতিতে পরিবর্তন</string>
-	<string name="privacy_policy_effective_date_title">কার্যকর তারিখ</string>
-	<string name="privacy_policy_email_subject">গোপনীয়তা নীতির অনুসন্ধান – %s</string>
+	<string name="policy_effective_date_title">কার্যকর তারিখ</string>
 	<string name="policies">নীতিমালা</string>
 	<string name="privacy_policy_contact_information_body">যদি এই গোপনীয়তা নীতিমালা সম্পর্কে আপনার কোনো
 		প্রশ্ন বা উদ্বেগ থাকে, আপনি আমাদের ইমেইলের মাধ্যমে যোগাযোগ করতে পারেন।</string>
@@ -97,4 +96,53 @@
 		হবে। ব্যবহারকারীদেরকে উৎসাহ দেওয়া হয় এই নীতিটি সময়ে সময়ে
 		পর্যালোচনা করার জন্য যাতে তারা তাদের তথ্য কীভাবে ব্যবহার করা হচ্ছে সে
 		সম্পর্কে সচেতন থাকতে পারেন।</string>
+	<string name="terms_of_service">পরিষেবার শর্তাবলী</string>
+	<string name="dialog_first_launch_agree_title">চালিয়ে যেতে সম্মত হন</string>
+	<string name="agree_to_terms">আমি সম্মত</string>
+	<string name="dialog_first_launch_terms_message">এই অ্যাপটি ব্যবহার করতে হলে, আপনাকে আমাদের পরিষেবার
+		শর্তাবলী পড়তে এবং গ্রহণ করতে হবে। সেগুলি পড়ার জন্য নীচের বোতামটি
+		ব্যবহার করুন।</string>
+	<string name="terms_of_service_about_title">অ্যাপ সম্পর্কে</string>
+	<string name="terms_of_service_use_title">অ্যাপ ব্যবহারের নিয়ম</string>
+	<string name="terms_of_service_intellectual_property_title">মেধাস্বত্ব</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ওয়ারেন্টির অস্বীকৃতি</string>
+	<string name="terms_of_service_limitation_of_liability_title">দায় সীমাবদ্ধতা</string>
+	<string name="terms_of_service_termination_title">সমাপ্তি</string>
+	<string name="terms_of_service_governing_law_title">প্রযোজ্য আইন</string>
+	<string name="terms_of_service_changes_title">এই শর্তাবলীতে পরিবর্তন</string>
+	<string name="terms_of_service_about_body">এই অ্যাপ্লিকেশনটি একটি ব্যক্তিগত খরচ ট্র্যাক করার
+		সরঞ্জাম। এটি সম্পূর্ণ অফলাইনে কাজ করে এবং সব বয়সের ব্যবহারকারীদের
+		জন্য ডিজাইন করা হয়েছে। অ্যাপটি নিবন্ধন প্রয়োজন করে না, বিজ্ঞাপন
+		দেখায় না এবং কোনও ব্যক্তিগত তথ্য সংগ্রহ বা প্রেরণ করে না।</string>
+	<string name="terms_of_service_use_body">আপনি সম্মত হচ্ছেন যে শুধুমাত্র বৈধ উদ্দেশ্যে এবং
+		এমনভাবে অ্যাপটি ব্যবহার করবেন যা অন্যের অধিকার লঙ্ঘন করে না বা তাদের
+		অ্যাপ ব্যবহারে বাধা সৃষ্টি করে না। আপনি অ্যাপটির রিভার্স
+		ইঞ্জিনিয়ারিং, ডিকম্পাইল বা পরিবর্তন করার চেষ্টা করবেন না।</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">অ্যাপটি “যেমন আছে” ভিত্তিতে সরবরাহ করা হয়, কোনো
+		ধরনের নিশ্চয়তা ছাড়া—স্পষ্ট বা ইঙ্গিতভাবেই হোক—বাণিজ্যিক যোগ্যতা,
+		নির্দিষ্ট উদ্দেশ্যে উপযোগিতা বা লঙ্ঘন-বিরোধিতা সম্পর্কে সহ, তবে
+		এগুলোতে সীমাবদ্ধ নয়। আমরা কোনো নিশ্চয়তা দিই না যে অ্যাপটি
+		ত্রুটিমুক্ত হবে বা এটি বাধাহীনভাবে কাজ করবে।</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">অ্যাপটি কোনো ব্যক্তিগত বা ব্যবহারের তথ্য সংগ্রহ,
+		সংরক্ষণ বা শেয়ার করে না। আপনি যে সমস্ত তথ্য প্রবেশ করান, তা আপনার
+		ডিভাইসে স্থানীয়ভাবে সংরক্ষিত থাকে আপনার নিয়ন্ত্রণে।</string>
+	<string name="terms_of_service_intellectual_property_body">অ্যাপ, এর ডিজাইন, বৈশিষ্ট্য এবং কোড সহ সকল অধিকার,
+		শিরোনাম এবং স্বার্থ কপিরাইট মালিকের সম্পত্তি।</string>
+	<string name="terms_of_service_limitation_of_liability_body">আইনের দ্বারা যতটা সম্ভব অনুমোদিত, মালিক অ্যাপ
+		ব্যবহারের ফলে সৃষ্ট কোনো ক্ষতি বা লোকসানের জন্য দায়ী নয়, যার মধ্যে
+		রয়েছে কিন্তু সীমাবদ্ধ নয় তথ্য, মুনাফা বা ব্যবসায়িক সুযোগের ক্ষতি।</string>
+	<string name="terms_of_service_termination_body">মালিক পূর্বে কোনো নোটিশ ছাড়াই যে কোনও সময় অ্যাপ
+		অফার বা সমর্থন বন্ধ করতে পারে।</string>
+	<string name="terms_of_service_governing_law_body">এই শর্তাবলী আপনার বসবাসের দেশের আইন দ্বারা পরিচালিত
+		হবে, কনফ্লিক্ট অব ল’ প্রিন্সিপলগুলি উপেক্ষা করে। যেখানে প্রযোজ্য,
+		আপনার দেশের বাধ্যতামূলক ভোক্তা সুরক্ষা আইনও প্রযোজ্য হবে।</string>
+	<string name="terms_of_service_changes_body">এই শর্তাবলী সময়ে সময়ে আপডেট হতে পারে। পরিবর্তনের
+		পর অ্যাপ ব্যবহার চালিয়ে যাওয়া মানে আপনি আপডেট হওয়া শর্তাবলী মেনে
+		নিচ্ছেন।</string>
+	<string name="terms_of_service_contact_information_body">যদি আপনার এই শর্তাবলী সম্পর্কে কোনও প্রশ্ন থাকে,
+		স্পষ্টীকরণের প্রয়োজন হয়, অথবা অ্যাপের সাথে কোনও সমস্যা রিপোর্ট করতে
+		চান, তবে নীচে দেওয়া যোগাযোগের বিবরণে মালিকের সাথে যোগাযোগ করতে পারেন।</string>
+	<string name="terms_of_service_effective_date_body">“কার্যকর তারিখ” হল সেই তারিখ যেখান থেকে এই শর্তাবলী
+		প্রযোজ্য হবে। ভবিষ্যতের যেকোনও আপডেটে একটি সংশোধিত কার্যকর তারিখ
+		অন্তর্ভুক্ত থাকবে যা পরিবর্তনগুলি কার্যকর হওয়ার সময় নির্দেশ করবে।</string>
 </resources>

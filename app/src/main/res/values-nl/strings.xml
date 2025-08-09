@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Aantal tekens: %d. Tekenlimiet: %d</string>
 	<string name="privacy_policy">Privacybeleid</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Jouw gegevens blijven bij jou</string>
+	<string name="policy_your_data_stays_with_you_title">Jouw gegevens blijven bij jou</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">We respecteren je privacy. Deze app functioneert
 		volledig offline en verzamelt of deelt geen gegevens. Dit beleid is
 		van toepassing op alle gebruikers wereldwijd, inclusief kinderen van
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Omdat er geen gegevens worden verzameld, is er
 		niets dat u via ons kunt openen, bijwerken of verwijderen. Alle
 		gegevens zijn van u en blijven uitsluitend op uw apparaat.</string>
-	<string name="privacy_policy_contact_information_title">Contactgegevens</string>
+	<string name="policy_contact_information_title">Contactgegevens</string>
 	<string name="privacy_policy_changes_title">Wijzigingen in dit beleid</string>
-	<string name="privacy_policy_effective_date_title">Ingangsdatum</string>
-	<string name="privacy_policy_email_subject">Privacybeleid Vraag – %s</string>
+	<string name="policy_effective_date_title">Ingangsdatum</string>
 	<string name="policies">Beleid</string>
 	<string name="privacy_policy_contact_information_body">Als u vragen of opmerkingen heeft over dit
 		privacybeleid, kunt u contact met ons opnemen via e-mail.</string>
@@ -98,4 +97,58 @@
 		omgaat, worden weerspiegeld in een bijgewerkte versie van dit beleid.
 		We moedigen gebruikers aan dit beleid regelmatig te bekijken om op de
 		hoogte te blijven van hoe hun informatie wordt behandeld.</string>
+	<string name="terms_of_service">Servicevoorwaarden</string>
+	<string name="dialog_first_launch_agree_title">Akkoord om door te gaan</string>
+	<string name="agree_to_terms">Ik ga akkoord</string>
+	<string name="dialog_first_launch_terms_message">Om deze app te gebruiken, moet je onze
+		Servicevoorwaarden lezen en accepteren. Gebruik de knop hieronder om
+		ze te lezen.</string>
+	<string name="terms_of_service_about_title">Over de App</string>
+	<string name="terms_of_service_use_title">Gebruik van de app</string>
+	<string name="terms_of_service_intellectual_property_title">Intellectueel Eigendom</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Afwijzing van garanties</string>
+	<string name="terms_of_service_limitation_of_liability_title">Beperking van Aansprakelijkheid</string>
+	<string name="terms_of_service_termination_title">Beëindiging</string>
+	<string name="terms_of_service_governing_law_title">Toepasselijk recht</string>
+	<string name="terms_of_service_changes_title">Wijzigingen in deze Voorwaarden</string>
+	<string name="terms_of_service_about_body">Deze applicatie is een hulpmiddel voor het
+		bijhouden van persoonlijke uitgaven. Het werkt volledig offline en is
+		ontworpen voor gebruikers van alle leeftijden. De app vereist geen
+		registratie, toont geen advertenties en verzamelt of verzendt geen
+		persoonlijke informatie.</string>
+	<string name="terms_of_service_use_body">U stemt ermee in de App alleen voor legale
+		doeleinden te gebruiken en op een manier die geen inbreuk maakt op de
+		rechten van anderen of hun gebruik van de App beperkt. U mag niet
+		proberen de App te reverse-engineeren, decompileren of te wijzigen.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">De app wordt “zoals deze is” geleverd zonder enige
+		vorm van garanties, expliciet of impliciet, inclusief maar niet
+		beperkt tot garanties van verkoopbaarheid, geschiktheid voor een
+		bepaald doel of geen inbreuk. Wij geven geen garantie dat de app vrij
+		van fouten zal zijn of ononderbroken zal functioneren.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">De app verzamelt, slaat of deelt geen persoonlijke
+		gegevens of gebruiksgegevens. Alle informatie die u invoert, blijft
+		lokaal op uw apparaat opgeslagen onder uw controle.</string>
+	<string name="terms_of_service_intellectual_property_body">Alle rechten, titel en belang in en tot de app,
+		inclusief het ontwerp, de functies en de code, zijn eigendom van de
+		auteursrechthebbende.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Voor zover toegestaan door de wet, is de eigenaar
+		niet aansprakelijk voor enige schade of verlies voortvloeiend uit uw
+		gebruik van de App, inclusief maar niet beperkt tot verlies van
+		gegevens, winst of zakelijke kansen.</string>
+	<string name="terms_of_service_termination_body">De eigenaar kan op elk moment stoppen met het
+		aanbieden of ondersteunen van de app zonder voorafgaande kennisgeving.</string>
+	<string name="terms_of_service_governing_law_body">Deze Voorwaarden worden beheerst door de wetten van
+		uw woonland, ongeacht de beginselen inzake conflictenrecht. Waar van
+		toepassing, zijn ook de dwingende consumentenbeschermingswetten van uw
+		land van toepassing.</string>
+	<string name="terms_of_service_changes_body">Deze Voorwaarden kunnen van tijd tot tijd worden
+		bijgewerkt. Voortgezet gebruik van de App nadat wijzigingen zijn
+		aangebracht, betekent dat u de bijgewerkte Voorwaarden accepteert.</string>
+	<string name="terms_of_service_contact_information_body">Als u vragen heeft over deze Voorwaarden,
+		verduidelijking nodig heeft of een probleem met de App wilt melden,
+		kunt u de eigenaar bereiken via de onderstaande contactgegevens.</string>
+	<string name="terms_of_service_effective_date_body">De “Ingangsdatum” is de datum vanaf wanneer deze
+		Voorwaarden van toepassing zijn. Toekomstige updates zullen een
+		herziene ingangsdatum bevatten om aan te geven wanneer de wijzigingen
+		van kracht worden.</string>
 </resources>

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Количество символов: %d. Лимит символов: %d</string>
 	<string name="privacy_policy">Политика конфиденциальности</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ваши данные остаются у вас</string>
+	<string name="policy_your_data_stays_with_you_title">Ваши данные остаются у вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мы уважаем вашу конфиденциальность. Это приложение
 		работает полностью офлайн и не собирает и не передает никакие данные.
 		Данная политика распространяется на всех пользователей по всему миру,
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Поскольку данные не собираются, вам нечего
 		просматривать, обновлять или удалять через нас. Все данные принадлежат
 		вам и остаются исключительно на вашем устройстве.</string>
-	<string name="privacy_policy_contact_information_title">Контактная информация</string>
+	<string name="policy_contact_information_title">Контактная информация</string>
 	<string name="privacy_policy_changes_title">Изменения в настоящей политике</string>
-	<string name="privacy_policy_effective_date_title">Дата вступления в силу</string>
-	<string name="privacy_policy_email_subject">Запрос по Политике Конфиденциальности – %s</string>
+	<string name="policy_effective_date_title">Дата вступления в силу</string>
 	<string name="policies">Политики</string>
 	<string name="privacy_policy_contact_information_body">Если у вас есть какие-либо вопросы или опасения по
 		поводу данной Политики конфиденциальности, вы можете связаться с нами
@@ -99,4 +98,61 @@
 		ваши данные, будут отражены в обновлённой версии этой политики. Мы
 		рекомендуем пользователям периодически просматривать эту политику,
 		чтобы быть в курсе того, как обрабатывается их информация.</string>
+	<string name="terms_of_service">Условия обслуживания</string>
+	<string name="dialog_first_launch_agree_title">Согласитесь, чтобы продолжить</string>
+	<string name="agree_to_terms">Я согласен</string>
+	<string name="dialog_first_launch_terms_message">Чтобы использовать это приложение, вы должны
+		прочитать и принять наши Условия обслуживания. Для их чтения
+		используйте кнопку ниже.</string>
+	<string name="terms_of_service_about_title">О Приложении</string>
+	<string name="terms_of_service_use_title">Использование приложения</string>
+	<string name="terms_of_service_intellectual_property_title">Интеллектуальная собственность</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Отказ от гарантий</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ограничение Ответственности</string>
+	<string name="terms_of_service_termination_title">Расторжение</string>
+	<string name="terms_of_service_governing_law_title">Применимое право</string>
+	<string name="terms_of_service_changes_title">Изменения в Этих Условиях</string>
+	<string name="terms_of_service_about_body">Это приложение является инструментом для
+		отслеживания личных расходов. Оно работает полностью офлайн и
+		предназначено для пользователей всех возрастов. Приложение не требует
+		регистрации, не показывает рекламу и не собирает или передает
+		какую-либо личную информацию.</string>
+	<string name="terms_of_service_use_body">Вы соглашаетесь использовать Приложение только в
+		законных целях и таким образом, чтобы не нарушать права других лиц и
+		не ограничивать их использование Приложения. Вы не должны пытаться
+		выполнять обратное проектирование, декомпиляцию или модификацию
+		Приложения.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Приложение предоставляется «как есть» без
+		каких-либо гарантий, явных или подразумеваемых, включая, но не
+		ограничиваясь, гарантии товарной пригодности, пригодности для
+		определенной цели или ненарушения прав. Мы не гарантируем, что
+		приложение будет без ошибок или что оно будет работать без перебоев.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Приложение не собирает, не хранит и не передает
+		никакие личные или данные об использовании. Вся информация, которую вы
+		вводите, остается локально сохраненной на вашем устройстве и под вашим
+		контролем.</string>
+	<string name="terms_of_service_intellectual_property_body">Все права, титул и интерес в отношении Приложения,
+		включая его дизайн, функции и код, принадлежат владельцу авторских
+		прав.</string>
+	<string name="terms_of_service_limitation_of_liability_body">В максимально допустимой законом степени владелец
+		не несет ответственности за любой ущерб или убытки, возникшие в
+		результате вашего использования Приложения, включая, но не
+		ограничиваясь, потерей данных, прибыли или деловых возможностей.</string>
+	<string name="terms_of_service_termination_body">Владелец может в любое время прекратить предложение
+		или поддержку приложения без предварительного уведомления.</string>
+	<string name="terms_of_service_governing_law_body">Настоящие Условия регулируются законодательством
+		страны вашего проживания, без учета принципов коллизионного права. При
+		применении также будут действовать обязательные законы о защите прав
+		потребителей вашей страны.</string>
+	<string name="terms_of_service_changes_body">Настоящие Условия могут время от времени
+		обновляться. Продолжая использовать Приложение после внесения
+		изменений, вы соглашаетесь с обновлёнными Условиями.</string>
+	<string name="terms_of_service_contact_information_body">Если у вас есть какие-либо вопросы по этим
+		Условиям, требуется разъяснение или вы хотите сообщить о проблеме с
+		Приложением, вы можете связаться с владельцем по контактным данным,
+		указанным ниже.</string>
+	<string name="terms_of_service_effective_date_body">«Дата вступления в силу» — это дата, с которой
+		начинают действовать настоящие Условия. Любые будущие обновления будут
+		включать пересмотренную дату вступления в силу, чтобы указать, когда
+		изменения вступают в силу.</string>
 </resources>

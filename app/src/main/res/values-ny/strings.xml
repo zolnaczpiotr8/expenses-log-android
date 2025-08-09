@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Chiwerengero cha zilembo: %d. Malire a zilembo: %d</string>
 	<string name="privacy_policy">Ndondomeko ya Zinsinsi</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Zidziwitso zanu zimasungidwa nanu</string>
+	<string name="policy_your_data_stays_with_you_title">Zidziwitso zanu zimasungidwa nanu</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Timakupemphani ufulu wanu. Pulogalamu iyi imagwira
 		ntchito yonse pa intaneti ndipo siyikusonkhanitsa kapena kugawana deta
 		iliyonse. Chikondi ichi chimagwira ntchito kwa ogwiritsa ntchito onse
@@ -84,10 +84,9 @@
 	<string name="privacy_policy_your_rights_body">Popeza kuti palibe deta yomwe imasonkhanitsidwa,
 		palibe chomwe mungathe kupeza, kusintha kapena kuchotsa kudzera mwa
 		ife. Zonsezi ndi zanu ndipo zimakhala pa chipangizo chanu chokha.</string>
-	<string name="privacy_policy_contact_information_title">Zambiri Zolumikizana</string>
+	<string name="policy_contact_information_title">Zambiri Zolumikizana</string>
 	<string name="privacy_policy_changes_title">Zosintha pa ndondomekoyi</string>
-	<string name="privacy_policy_effective_date_title">Tsiku lothandiza</string>
-	<string name="privacy_policy_email_subject">Kufunsa za Ndondomeko ya Zachinsinsi – %s</string>
+	<string name="policy_effective_date_title">Tsiku lothandiza</string>
 	<string name="policies">Ndondomeko</string>
 	<string name="privacy_policy_contact_information_body">Ngati muli ndi mafunso kapena nkhawa zokhudza
 		Mfundo Zachinsinsi, mutha kutifikira kudzera pa imelo.</string>
@@ -102,4 +101,59 @@
 		buku losinthidwa la lamulo ili. Timalimbikitsa ogwiritsa ntchito kuti
 		azikambirana lamulo ili nthawi ndi nthawi kuti azidziwa mmene zambiri
 		zawo zikugwiritsidwira ntchito.</string>
+	<string name="terms_of_service">Migwirizano ya Utumiki</string>
+	<string name="dialog_first_launch_agree_title">Vomerani kupitilira</string>
+	<string name="agree_to_terms">Ndikugwirizana</string>
+	<string name="dialog_first_launch_terms_message">Kuti mugwiritse ntchito pulogalamuyi, muyenera
+		kuwerenga ndi kuvomereza Malamulo athu a Ntchito. Gwiritsani ntchito
+		batani pansipa kuti muwaŵerenge.</string>
+	<string name="terms_of_service_about_title">Za Pulogalamu</string>
+	<string name="terms_of_service_use_title">Kugwiritsa Ntchito App</string>
+	<string name="terms_of_service_intellectual_property_title">Ufulu wa Nzeru</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Kukana mawonetsero</string>
+	<string name="terms_of_service_limitation_of_liability_title">Kuchepetsa Udindo</string>
+	<string name="terms_of_service_termination_title">Kutha</string>
+	<string name="terms_of_service_governing_law_title">Lamulo Lolamulira</string>
+	<string name="terms_of_service_changes_title">Kusintha kwa Migwirizano Iyi</string>
+	<string name="terms_of_service_about_body">Pulogalamuyi ndi chida chotsatira ndalama zaumwini.
+		Imagwira ntchito yopanda intaneti ndipo yapangidwira ogwiritsa ntchito
+		azaka zonse. Pulogalamuyi safuna kulembetsa, siyionetsa zotsatsa,
+		ndipo samasonkhanitsa kapena kutumiza zambiri zaumwini.</string>
+	<string name="terms_of_service_use_body">Mukuvomereza kugwiritsa ntchito App pazifukwa
+		zovomerezeka zokha komanso m’njira yosaphwanya ufulu wa ena kapena
+		kuwaletsa kugwiritsa ntchito App. Simuyenera kuyesa kuchita reverse
+		engineering, decompile kapena kusintha App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Pulogalamu imaperekedwa “monga ilili” popanda
+		chitsimikizo chilichonse, chotsimikizika kapena chosonyezedwa,
+		kuphatikizapo koma osangokhala pa chitsimikizo cha kugulitsa,
+		kuyenerera cholinga china, kapena kusaphwanya. Sitimapereka
+		chitsimikizo kuti Pulogalamuyi sidzakhala ndi zolakwa kapena kuti
+		idzayenda popanda kusokonezeka.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Pulogalamuyi siimasewera, kusunga kapena kugawana
+		deta yaumwini kapena ya ntchito. Zonse zomwe mumayika zimakhala
+		zokhala pa chipangizo chanu pansi pa inu munjira yakomweko.</string>
+	<string name="terms_of_service_intellectual_property_body">Ulemerero wonse, mutu, ndi chidwi pa App,
+		kuphatikizapo mawonekedwe ake, mawonekedwe ake, ndi code ake, ndizomwe
+		ali nazo omwe ali ndi ufulu wa copyright.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Malinga ndi malamulo, mwiniwake sali ndi udindo pa
+		zowonongeka kapena zotayika zilizonse zomwe zimachitika chifukwa
+		chogwiritsa ntchito App, kuphatikizapo koma osangokhala pakuchepa kwa
+		deta, phindu, kapena mwayi wamabizinesi.</string>
+	<string name="terms_of_service_termination_body">Mwini wake angathe kuyimitsa kupereka kapena
+		kuthandiza App nthawi iliyonse popanda chidziwitso choyambirira.</string>
+	<string name="terms_of_service_governing_law_body">Malamulo awa adzalamuliridwa ndi malamulo a dziko
+		lomwe muli, popanda kuyang’ana mfundo za kusagwirizana kwa malamulo.
+		Pomwe zitagwira ntchito, malamulo okhudzana ndi kuteteza wogula omwe
+		ali olamulira mdzikoli azigwiritsidwa ntchito.</string>
+	<string name="terms_of_service_changes_body">Zinthu izi zingasinthidwe nthawi ndi nthawi.
+		Kupitiriza kugwiritsa ntchito App mutasintha zikutanthauza kuti
+		mukuvomereza Zinthu zosinthidwazo.</string>
+	<string name="terms_of_service_contact_information_body">Ngati muli ndi mafunso aliwonse okhudza Migwirizano
+		iyi, mukufuna kufotokozedwa, kapena mukufuna kunena za vuto lililonse
+		la Pulogalamu, mutha kulankhulana ndi mwiniwake pa tsatanetsatane
+		wolumikizana pansipa.</string>
+	<string name="terms_of_service_effective_date_body">“Tsiku Loyamba Kugwira Ntchito” ndi tsiku lomwe
+		Malamulowa amayamba kugwira ntchito. Kusintha kulikonse mtsogolo
+		kudzaphatikiza tsiku latsopano loyamba kugwira ntchito kuti zisonyeze
+		nthawi yomwe zosinthazo ziyamba kugwira ntchito.</string>
 </resources>

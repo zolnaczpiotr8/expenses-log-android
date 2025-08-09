@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Cacah karakter: %d. Watesan karakter: %d</string>
 	<string name="privacy_policy">Kabijakan Privasi</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Data sampeyan tetep karo sampeyan</string>
+	<string name="policy_your_data_stays_with_you_title">Data sampeyan tetep karo sampeyan</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kita ngajeni privasi panjenengan. Aplikasi iki bisa
 		digunakake kanthi offline kanthi lengkap lan ora nglumpukake utawa
 		nuduhake data apa wae. Kabijakan iki ditrapake kanggo kabeh pangguna
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Amarga ora ana data sing diklumpukake, ora ana sing
 		bisa sampeyan akses, dianyari, utawa dibusak liwat kita. Kabeh data
 		iku kagungane sampeyan lan mung ana ing piranti sampeyan.</string>
-	<string name="privacy_policy_contact_information_title">Informasi Kontak</string>
+	<string name="policy_contact_information_title">Informasi Kontak</string>
 	<string name="privacy_policy_changes_title">Owah-owahan ing kabijakan iki</string>
-	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
-	<string name="privacy_policy_email_subject">Pitakon Bab Kawicaksanan Privasi – %s</string>
+	<string name="policy_effective_date_title">Tanggal berlaku</string>
 	<string name="policies">Kabijakan</string>
 	<string name="privacy_policy_contact_information_body">Yen sampeyan duwe pitakon utawa kuwatir babagan
 		Kabijakan Privasi iki, sampeyan bisa hubungi kita liwat email.</string>
@@ -96,4 +95,59 @@
 		katon ing versi kabijakan sing dianyari. Kita nyengkuyung pangguna
 		kanggo mriksa kabijakan iki sacara rutin supaya tetep ngerti babagan
 		carane informasi panjenengan diolah.</string>
+	<string name="terms_of_service">Sarat Layanan</string>
+	<string name="dialog_first_launch_agree_title">Sarujuk kanggo nerusake</string>
+	<string name="agree_to_terms">Aku setuju</string>
+	<string name="dialog_first_launch_terms_message">Kanggo nggunakake aplikasi iki, sampeyan kudu maca
+		lan nampa Katentuan Layanan kita. Gunakake tombol ing ngisor iki
+		kanggo maca.</string>
+	<string name="terms_of_service_about_title">Bab App</string>
+	<string name="terms_of_service_use_title">Panggunaane Aplikasi</string>
+	<string name="terms_of_service_intellectual_property_title">Kagungan Intelektual</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Penolakan garansi</string>
+	<string name="terms_of_service_limitation_of_liability_title">Watesan Tanggung Jawab</string>
+	<string name="terms_of_service_termination_title">Pungkasan</string>
+	<string name="terms_of_service_governing_law_title">Hukum Sing Ditrapake</string>
+	<string name="terms_of_service_changes_title">Owah-owahan ing Katemtuan Iki</string>
+	<string name="terms_of_service_about_body">Aplikasi iki minangka piranti kanggo nglacak
+		pengeluaran pribadi. Bisa mlaku kanthi offline lan dirancang kanggo
+		pangguna saka kabeh umur. Aplikasi iki ora mbutuhake registrasi, ora
+		nuduhake iklan, lan ora nglumpukake utawa ngirim informasi pribadi apa
+		wae.</string>
+	<string name="terms_of_service_use_body">Sampeyan setuju nggunakake App mung kanggo tujuan
+		sing sah lan kanthi cara sing ora nglanggar hak wong liya utawa matesi
+		panggunaan App dening wong liya. Sampeyan ora kena nyoba reverse
+		engineering, decompile, utawa modifikasi App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">App diwenehake “kaya ana” tanpa jaminan apa wae,
+		kanthi jelas utawa tersirat, kalebu nanging ora winates marang jaminan
+		daya didol, cocog kanggo tujuan tartamtu, utawa ora nglanggar. Kita
+		ora njamin yen App bakal bebas saka kesalahan utawa bakal bisa mlaku
+		tanpa gangguan.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikasi kasebut ora nglumpukake, nyimpen, utawa
+		nuduhake data pribadi utawa panggunaan apa wae. Kabeh informasi sing
+		sampeyan lebokake tetep disimpen kanthi lokal ing piranti sampeyan ing
+		sangisoré kontrol sampeyan.</string>
+	<string name="terms_of_service_intellectual_property_body">Kabeh hak, gelar, lan kapentingan ing lan marang
+		App, kalebu desain, fitur, lan kodené, diduweni déning pamilik hak
+		cipta.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Ing wates paling jembar sing diidini hukum, pamilik
+		ora tanggung jawab kanggo karusakan utawa kerugian apa wae sing muncul
+		saka panggunaan App sampeyan, kalebu nanging ora winates ing ilangé
+		data, bathi, utawa kesempatan bisnis.</string>
+	<string name="terms_of_service_termination_body">Pamilik bisa mandheg nawakake utawa ndhukung App
+		kapan wae tanpa kabar sadurunge.</string>
+	<string name="terms_of_service_governing_law_body">Sarat iki bakal diatur dening hukum negara
+		panggonan sampeyan manggon, tanpa nggatekake prinsip konflik hukum.
+		Yen ditrapake, undang-undang perlindungan konsumen wajib ing negara
+		sampeyan uga bakal ditrapake.</string>
+	<string name="terms_of_service_changes_body">Sarat iki bisa dianyari saka wektu menyang wektu.
+		Terus nggunakake App sawise ana owah-owahan tegese sampeyan nampa
+		Sarat sing dianyari.</string>
+	<string name="terms_of_service_contact_information_body">Yen sampeyan duwe pitakon babagan Katentuan iki,
+		butuh klarifikasi, utawa pengin nglaporake masalah karo Aplikasi,
+		sampeyan bisa ngubungi sing duwe liwat rincian kontak ing ngisor iki.</string>
+	<string name="terms_of_service_effective_date_body">“Tanggal Berlaku” yaiku tanggal nalika Sarat iki
+		wiwit ditrapake. Saben nganyari ing mangsa ngarep bakal nyakup tanggal
+		berlaku sing wis direvisi kanggo nuduhake kapan owah-owahan kasebut
+		wiwit ditrapake.</string>
 </resources>

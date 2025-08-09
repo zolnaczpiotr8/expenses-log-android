@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">எழுத்துக்களின் எண்ணிக்கை: %d. எழுத்துக்களின் வரம்பு: %d</string>
 	<string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">உங்கள் தரவுகள் உங்களுடன் தங்கும்</string>
+	<string name="policy_your_data_stays_with_you_title">உங்கள் தரவுகள் உங்களுடன் தங்கும்</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம். இந்த
 		பயன்பாடு முழுமையாக ஆன்லைன் இல்லாமல் செயல்படுகிறது மற்றும் எந்த
 		தரவையும் சேகரிக்கவோ பகிரவோ செய்யவில்லை. இந்த கொள்கை உலகம் முழுவதும்
@@ -84,10 +84,9 @@
 	<string name="privacy_policy_your_rights_body">எந்த தரவையும் சேகரிக்கவில்லை என்பதால், எங்களை
 		மூலமாக நீங்கள் அணுக, புதுப்பிக்க அல்லது நீக்க எதுவும் இல்லை. அனைத்து
 		தரவுகளும் உங்களுடையதே, மேலும் உங்கள் சாதனத்தில் மட்டும் உள்ளது.</string>
-	<string name="privacy_policy_contact_information_title">தொடர்பு தகவல்</string>
+	<string name="policy_contact_information_title">தொடர்பு தகவல்</string>
 	<string name="privacy_policy_changes_title">இந்த கொள்கையில் மாற்றங்கள்</string>
-	<string name="privacy_policy_effective_date_title">செயல்படுத்தும் தேதி</string>
-	<string name="privacy_policy_email_subject">தனியுரிமைக் கொள்கை குறித்த கேள்வி – %s</string>
+	<string name="policy_effective_date_title">செயல்படுத்தும் தேதி</string>
 	<string name="policies">கொள்கைகள்</string>
 	<string name="privacy_policy_contact_information_body">இந்த தனியுரிமைக் கொள்கையைப் பற்றிய ஏதேனும்
 		கேள்விகள் அல்லது கவலைகள் இருந்தால், எங்களை மின்னஞ்சல் மூலம்
@@ -103,4 +102,62 @@
 		உங்கள் தகவல் எவ்வாறு கையாளப்படுகிறது என்பதைப் பற்றிய விழிப்புணர்வுடன்
 		இருப்பதற்காக, இந்தக் கொள்கையை பயனர்கள் தவணை தவணையாக மதிப்பாய்வு
 		செய்வதை எங்களால் பரிந்துரைக்கப்படுகிறது.</string>
+	<string name="terms_of_service">சேவை விதிமுறைகள்</string>
+	<string name="dialog_first_launch_agree_title">தொடர ஒப்புக்கொள்</string>
+	<string name="agree_to_terms">நான் ஒப்புக்கொள்கிறேன்</string>
+	<string name="dialog_first_launch_terms_message">இந்த பயன்பாட்டைப் பயன்படுத்த, நீங்கள் எங்கள் சேவை
+		விதிமுறைகளைப் படித்து, ஒப்புக்கொள்ள வேண்டும். அவற்றைப் படிக்க கீழே
+		உள்ள பொத்தானைப் பயன்படுத்தவும்.</string>
+	<string name="terms_of_service_about_title">பயன்பாடு பற்றி</string>
+	<string name="terms_of_service_use_title">செயலியின் பயன்பாடு</string>
+	<string name="terms_of_service_intellectual_property_title">அறிவுசார் சொத்து</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">உத்தரவாத விலக்கு</string>
+	<string name="terms_of_service_limitation_of_liability_title">பொறுப்புக் கட்டுப்பாடு</string>
+	<string name="terms_of_service_termination_title">நிறுத்தம்</string>
+	<string name="terms_of_service_governing_law_title">நடைமுறையில் உள்ள சட்டம்</string>
+	<string name="terms_of_service_changes_title">இந்த விதிமுறைகளில் மாற்றங்கள்</string>
+	<string name="terms_of_service_about_body">இந்த பயன்பாடு ஒரு தனிப்பட்ட செலவு கண்காணிப்பு கருவி
+		ஆகும். இது முற்றிலும் ஆஃப்லைனில் செயல்படுகிறது மற்றும் அனைத்து
+		வயதினருக்கும் பொருந்தும் வகையில் வடிவமைக்கப்பட்டுள்ளது. பயன்பாட்டிற்கு
+		பதிவு தேவையில்லை, விளம்பரங்களை காட்டாது, மற்றும் எந்த தனிப்பட்ட
+		தகவலையும் சேகரிக்கவோ பரிமாறவோ செய்யாது.</string>
+	<string name="terms_of_service_use_body">நீங்கள் சட்டப்படி செல்லுபடியாகும் நோக்கங்களுக்காக
+		மட்டுமே மற்றும் பிறரின் உரிமைகளை மீறாதவாறு அல்லது அவர்களின் பயன்பாட்டை
+		கட்டுப்படுத்தாதவாறு பயன்பாட்டைப் பயன்படுத்த ஒப்புக்கொள்கிறீர்கள்.
+		நீங்கள் பயன்பாட்டை ரிவர்ஸ் இன்ஜினியர், டிகாம்பைல் அல்லது மாற்ற
+		முயற்சிக்கக் கூடாது.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">பயன்பாடு “எப்படியோ அப்படியே” எந்தவொரு வகையான
+		வெளிப்படையான அல்லது மறைமுகமான உத்தரவாதங்களுமின்றி வழங்கப்படுகிறது,
+		வணிகத்தன்மை, குறிப்பிட்ட நோக்கத்திற்கு ஏற்றமை அல்லது மீறாமை போன்ற
+		உத்தரவாதங்கள் உட்பட, ஆனால் அவற்றிற்கு மட்டுப்படாமல். பயன்பாடு
+		பிழையில்லாமல் இருக்கும் அல்லது இடையீடு இல்லாமல் செயல்படும் என்று
+		நாங்கள் உத்தரவாதம் அளிக்கவில்லை.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">பயன்பாட் எந்த தனிப்பட்ட அல்லது பயன்பாட்டு தரவையும்
+		சேகரிக்காது, சேமிக்காது அல்லது பகிராது. நீங்கள் உள்ளிடும் அனைத்து
+		தகவல்களும் உங்கள் சாதனத்தில் உள்ளூர் முறையில் சேமிக்கப்படுகின்றன
+		மற்றும் உங்கள் கட்டுப்பாட்டின் கீழ் இருக்கும்.</string>
+	<string name="terms_of_service_intellectual_property_body">பயன்பாட்டில் உள்ள மற்றும் அதனுடன் தொடர்புடைய
+		அனைத்து உரிமைகள், தலைப்பு மற்றும் ஆர்வம், அதின் வடிவமைப்பு, அம்சங்கள்
+		மற்றும் குறியீடு உள்ளிட்டவை, பதிப்புரிமை உரிமையாளருக்குச் சேர்ந்தவை.</string>
+	<string name="terms_of_service_limitation_of_liability_body">சட்டத்தால் அனுமதிக்கப்பட்ட மிகுதியான அளவிற்கு,
+		பயன்பாட்டை நீங்கள் பயன்படுத்துவதால் ஏற்படும் எந்தவொரு சேதம் அல்லது
+		இழப்பிற்கும் உரிமையாளர் பொறுப்பாக இருக்கமாட்டார், இதில் தரவு, லாபம்
+		அல்லது வணிக வாய்ப்புகள் இழப்பும் அடங்கும், ஆனால் இதற்குச்
+		சுருங்கியதல்ல.</string>
+	<string name="terms_of_service_termination_body">உரிமையாளர் எப்போது வேண்டுமானாலும் முன்கூட்டிய
+		அறிவிப்பின்றி பயன்பாட்டை வழங்குவதையும் ஆதரிப்பதையும் நிறுத்தலாம்.</string>
+	<string name="terms_of_service_governing_law_body">இந்நிபந்தனைகள் உங்கள் வசிப்பிட நாட்டின்
+		சட்டங்களுக்கு உட்பட்டதாக இருக்கும், சட்ட முரண்பாடுகளின் கொள்கைகளை
+		கருத்தில் கொள்ளாமல். பொருந்துமிடத்தில், உங்கள் நாட்டின் கட்டாய
+		நுகர்வோர் பாதுகாப்பு சட்டங்களும் பொருந்தும்.</string>
+	<string name="terms_of_service_changes_body">இக்கொள்கைகள் அவ்வப்போது புதுப்பிக்கப்படலாம்.
+		மாற்றங்கள் செய்யப்பட்ட பின் செயலியை தொடர்ந்து பயன்படுத்துவது,
+		புதுப்பிக்கப்பட்ட கொள்கைகளை நீங்கள் ஏற்றுக்கொண்டதாகும்.</string>
+	<string name="terms_of_service_contact_information_body">இந்த விதிகள் குறித்து உங்களுக்கு ஏதேனும் கேள்விகள்
+		இருந்தால், விளக்கம் தேவைப்பட்டால், அல்லது பயன்பாட்டில் உள்ள ஒரு
+		பிரச்சினையை அறிவிக்க விரும்பினால், கீழே கொடுக்கப்பட்டுள்ள தொடர்பு
+		விவரங்களில் உரிமையாளரை தொடர்பு கொள்ளலாம்.</string>
+	<string name="terms_of_service_effective_date_body">“செயலில் வரும் தேதி” என்பது இந்த விதிகள் அமலாகும்
+		தேதி ஆகும். எதிர்கால புதுப்பிப்புகளில் மாற்றங்கள் எப்போது அமலாகும்
+		என்பதை குறிப்பிட திருத்தப்பட்ட செயல்பாட்டு தேதி இடம்பெறும்.</string>
 </resources>

@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Anzahl der Zeichen: %d. Zeichenlimit: %d</string>
 	<string name="privacy_policy">Datenschutzerklärung</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ihre Daten bleiben bei Ihnen</string>
+	<string name="policy_your_data_stays_with_you_title">Ihre Daten bleiben bei Ihnen</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Wir respektieren Ihre Privatsphäre. Diese App
 		funktioniert vollständig offline und sammelt oder teilt keine Daten.
 		Diese Richtlinie gilt für alle Nutzer weltweit, einschließlich Kinder
@@ -85,10 +85,9 @@
 		worauf Sie über uns zugreifen, was Sie aktualisieren oder löschen
 		könnten. Alle Daten gehören Ihnen und verbleiben ausschließlich auf
 		Ihrem Gerät.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktinformationen</string>
+	<string name="policy_contact_information_title">Kontaktinformationen</string>
 	<string name="privacy_policy_changes_title">Änderungen dieser Richtlinie</string>
-	<string name="privacy_policy_effective_date_title">Gültigkeitsdatum</string>
-	<string name="privacy_policy_email_subject">Anfrage zur Datenschutzrichtlinie – %s</string>
+	<string name="policy_effective_date_title">Gültigkeitsdatum</string>
 	<string name="policies">Richtlinien</string>
 	<string name="privacy_policy_contact_information_body">Wenn Sie Fragen oder Bedenken bezüglich dieser
 		Datenschutzrichtlinie haben, können Sie uns per E-Mail kontaktieren.</string>
@@ -103,4 +102,60 @@
 		widergespiegelt. Wir empfehlen den Nutzern, diese Richtlinie
 		regelmäßig zu überprüfen, um informiert zu bleiben, wie ihre Daten
 		behandelt werden.</string>
+	<string name="terms_of_service">Nutzungsbedingungen</string>
+	<string name="dialog_first_launch_agree_title">Zustimmen, um fortzufahren</string>
+	<string name="agree_to_terms">Ich stimme zu</string>
+	<string name="dialog_first_launch_terms_message">Um diese App zu verwenden, müssen Sie unsere
+		Nutzungsbedingungen lesen und akzeptieren. Verwenden Sie die
+		Schaltfläche unten, um sie zu lesen.</string>
+	<string name="terms_of_service_about_title">Über die App</string>
+	<string name="terms_of_service_use_title">Nutzung der App</string>
+	<string name="terms_of_service_intellectual_property_title">Geistiges Eigentum</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Haftungsausschluss für Garantien</string>
+	<string name="terms_of_service_limitation_of_liability_title">Haftungsbeschränkung</string>
+	<string name="terms_of_service_termination_title">Kündigung</string>
+	<string name="terms_of_service_governing_law_title">Anwendbares Recht</string>
+	<string name="terms_of_service_changes_title">Änderungen dieser Bedingungen</string>
+	<string name="terms_of_service_about_body">Diese Anwendung ist ein Werkzeug zur Verfolgung
+		persönlicher Ausgaben. Sie funktioniert vollständig offline und ist
+		für Benutzer jeden Alters konzipiert. Die App erfordert keine
+		Registrierung, zeigt keine Werbung an und sammelt oder überträgt keine
+		persönlichen Daten.</string>
+	<string name="terms_of_service_use_body">Sie stimmen zu, die App nur für gesetzlich
+		zulässige Zwecke und in einer Weise zu verwenden, die nicht die Rechte
+		anderer verletzt oder deren Nutzung der App einschränkt. Sie dürfen
+		nicht versuchen, die App zurückzuentwickeln, zu dekompilieren oder zu
+		verändern.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Die App wird “wie besehen” ohne jegliche
+		ausdrückliche oder stillschweigende Gewährleistung bereitgestellt,
+		einschließlich, aber nicht beschränkt auf Garantien der
+		Marktgängigkeit, Eignung für einen bestimmten Zweck oder
+		Nichtverletzung. Wir übernehmen keine Garantie dafür, dass die App
+		fehlerfrei ist oder ununterbrochen funktioniert.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Die App sammelt, speichert oder teilt keine
+		persönlichen oder Nutzungsdaten. Alle Informationen, die Sie eingeben,
+		bleiben lokal auf Ihrem Gerät gespeichert und unter Ihrer Kontrolle.</string>
+	<string name="terms_of_service_intellectual_property_body">Alle Rechte, Titel und Interessen an und in der
+		App, einschließlich ihres Designs, ihrer Funktionen und ihres Codes,
+		gehören dem Urheberrechtsinhaber.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Soweit gesetzlich zulässig, haftet der Eigentümer
+		nicht für Schäden oder Verluste, die aus Ihrer Nutzung der App
+		entstehen, einschließlich, aber nicht beschränkt auf den Verlust von
+		Daten, Gewinnen oder Geschäftsmöglichkeiten.</string>
+	<string name="terms_of_service_termination_body">Der Eigentümer kann jederzeit ohne vorherige
+		Ankündigung das Anbieten oder Unterstützen der App einstellen.</string>
+	<string name="terms_of_service_governing_law_body">Diese Bedingungen unterliegen den Gesetzen Ihres
+		Wohnsitzlandes, ungeachtet der Grundsätze des Kollisionsrechts. Soweit
+		anwendbar, finden auch zwingende Verbraucherschutzgesetze Ihres Landes
+		Anwendung.</string>
+	<string name="terms_of_service_changes_body">Diese Bedingungen können von Zeit zu Zeit
+		aktualisiert werden. Die fortgesetzte Nutzung der App nach Änderungen
+		bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.</string>
+	<string name="terms_of_service_contact_information_body">Wenn Sie Fragen zu diesen Bedingungen haben, eine
+		Klärung benötigen oder ein Problem mit der App melden möchten, können
+		Sie den Eigentümer unter den unten angegebenen Kontaktdaten erreichen.</string>
+	<string name="terms_of_service_effective_date_body">Das „Datum des Inkrafttretens“ ist das Datum, ab
+		dem diese Bedingungen gelten. Künftige Aktualisierungen enthalten ein
+		überarbeitetes Inkrafttretensdatum, um anzugeben, wann die Änderungen
+		wirksam werden.</string>
 </resources>

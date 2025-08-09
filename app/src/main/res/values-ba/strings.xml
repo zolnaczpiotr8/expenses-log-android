@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Символдар һаны: %d. Символдар лимиты: %d</string>
 	<string name="privacy_policy">Ҡулланыусы мәғлүмәттәр сәйәсәте</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Һеҙҙең мәғлүмәт һеҙҙең менән ҡала</string>
+	<string name="policy_your_data_stays_with_you_title">Һеҙҙең мәғлүмәт һеҙҙең менән ҡала</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Беҙ һеҙҙең шәхси мәғлүмәттәрегеҙҙе хөрмәт итәбеҙ.
 		Был ҡушымта тулыһынса офлайн режимында эшләй һәм бер ниндәй ҙә
 		мәғлүмәт йыймай йәки бүлешмәй. Был сәясәт бөтә донъя ҡулланыусыларына,
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Мәғлүмәт йыйылмағанлыҡтан, һеҙҙең өсөн беҙҙең аша
 		ҡарарға, яңыртырға йәки юйырға бер нимә лә юҡ. Бөтә мәғлүмәт һеҙҙеке
 		һәм ул бары тик һеҙҙең ҡоролмала һаҡлана.</string>
-	<string name="privacy_policy_contact_information_title">Бәйләнеш мәғлүмәттәре</string>
+	<string name="policy_contact_information_title">Бәйләнеш мәғлүмәттәре</string>
 	<string name="privacy_policy_changes_title">Был сәйәсәткә үҙгәрештәр</string>
-	<string name="privacy_policy_effective_date_title">Ғәмәлгә инеү көнө</string>
-	<string name="privacy_policy_email_subject">Хосусиә Сәйәсәте Тураһында Һорау – %s</string>
+	<string name="policy_effective_date_title">Ғәмәлгә инеү көнө</string>
 	<string name="policies">Сәйәсәттәр</string>
 	<string name="privacy_policy_contact_information_body">Әгәр һеҙҙә был Шәхси мәғлүмәт сәйәсәте буйынса
 		ниндәй ҙә булһа һорауҙар йәки борсолоуҙар булһа, беҙгә электрон почта
@@ -99,4 +98,58 @@
 		сәйәсәттең яңыртылған версияһында сағылыш табасаҡ. Кулланыусыларға
 		мәғлүмәттәренең нисек эшкәртелеүе тураһында мәғлүмәтле булыу өсөн был
 		сәйәсәтте даими тикшереп торорға кәңәш итәбеҙ.</string>
+	<string name="terms_of_service">Хезмәт шарттары</string>
+	<string name="dialog_first_launch_agree_title">Дауам итеү өсөн ризалыҡ биреү</string>
+	<string name="agree_to_terms">Килешәм</string>
+	<string name="dialog_first_launch_terms_message">Был ҡушымтаны ҡулланыр өсөн, һеҙ беҙҙең Хеҙмәт
+		күрһәтеү шарттарын уҡырға һәм ҡабул итергә тейешһегеҙ. Уларҙы уҡыу
+		өсөн түбәндәге төймәгә баҫығыҙ.</string>
+	<string name="terms_of_service_about_title">Ҡушымта тураһында</string>
+	<string name="terms_of_service_use_title">Ҡушымтаны ҡулланыу</string>
+	<string name="terms_of_service_intellectual_property_title">Интеллектуаль милек</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Гарантияларҙан баш тартыу</string>
+	<string name="terms_of_service_limitation_of_liability_title">Яуаплылыҡты сикләү</string>
+	<string name="terms_of_service_termination_title">Һуңғылауы</string>
+	<string name="terms_of_service_governing_law_title">Хөкөм ителгән закон</string>
+	<string name="terms_of_service_changes_title">Ошо Шарттарға Үҙгәрештәр</string>
+	<string name="terms_of_service_about_body">Был ҡушымта шәхси сығымдарҙы күҙәтеү ҡоралы булып
+		тора. Ул тулыһынса офлайн режимында эшләй һәм бөтә йәштәге
+		ҡулланыусылар өсөн тәғәйенләнгән. Ҡушымта теркәлеүҙе талап итмәй,
+		реклама күрһәтмәй һәм бер ниндәй шәхси мәғлүмәтте йыймай йәки
+		тапшырымай.</string>
+	<string name="terms_of_service_use_body">Һеҙ ҡушымтаны тик законлы маҡсаттар өсөн һәм
+		башҡаларҙың хоҡуҡтарын боҙмаҫлыҡ, уларҙың ҡушымтаны ҡулланыуын
+		сикләмәй торған рәүештә генә ҡулланырға ризалыҡ бирәһегеҙ. Ҡушымтаны
+		кире инженерлауға, декомпиляцияларға йәки үҙгәртергә маташырға тейеш
+		түгелһегеҙ.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ҡушымта “бар булыу формаһында” тәьмин ителә, теләһә
+		ниндәй гарантияһы юҡ — асыҡ йәки йөҙлөк — сәүҙәгә яраҡлылыҡ, билдәле
+		бер маҡсатҡа яраҡлылыҡ йәки хоҡуқ боҙоу юҡтығына гарантиялар ҙа ингән.
+		Ҡушымтаның хатаһыҙ булыуына йәки өзлөкһөҙ эшләүенә гарантия бирмәйбеҙ.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ҡушымта бер ниндәй шәхси йәки ҡулланыу мәғлүмәтен
+		дә йыймай, һаҡламай йә бүлешмәй. Һеҙ индергән бөтә мәғлүмәт локаль
+		рәүештә һеҙҙең ҡулланыуҙа булған ҡоролмаға һаҡлана.</string>
+	<string name="terms_of_service_intellectual_property_body">Аппҡа, уның дизайнына, мөмкинлектәренә һәм кодыһына
+		ҡарата бөтә хоҡуҡтар, исем һәм ҡыҙыҡһыныу автор хоҡуҡтары хужаһына
+		ҡарай.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Закон менән рөхсәт ителгән иң киң күләмдә, милексе
+		Ҡушымтаны ҡулланыуығыҙҙан килеп сыҡҡан ниндәй ҙә булһа зыян йәки
+		юғалтыу өсөн яуап бирмәй, мәғлүмәт, килем йәки бизнес мөмкинселектәрен
+		юғалтыуҙы ла индереп, ләкин шуның менән сикләнмәй.</string>
+	<string name="terms_of_service_termination_body">Эйәсе теләһә ҡайһы ваҡыт ҡулланманы тәҡдим итеүҙе
+		йәки уны ярҙамлауҙы туҡтата ала, алдан иҫкәртеүһеҙ.</string>
+	<string name="terms_of_service_governing_law_body">Был Кәл ойошмалары һеҙҙең йәшәгән илеңеҙҙең
+		закондары буйынса хөкөм ителә, закондар ҡаршылығы принцибтарын иҫәпкә
+		алмайынса. Мөмкин булғанда, һеҙҙең илеңеҙҙең иреүсе яҡлау тураһында
+		мажбури закондары ла ғәмәлдә буласаҡ.</string>
+	<string name="terms_of_service_changes_body">Был шарттар ваҡыт-ваҡыт яңыртыла ала. Үҙгәрештәр
+		индерелгәндән һуң ҡушымтаны ҡулланыуҙы дауам итеү һеҙҙең яңыртылған
+		шарттарҙы ҡабул итеүегеҙҙе аңлата.</string>
+	<string name="terms_of_service_contact_information_body">Әгәр һеҙҙең был Шарттар тураһында һорауҙарығыҙ бар
+		икән, аңлатыу кәрәк булһа йәки Ҡушымта менән проблеманы хәбәр итергә
+		теләһәгеҙ, аҫта күрһәтелгән бәйләнеш мәғлүмәттәре буйынса эйә менән
+		бәйләнешкә керә алаһығыҙ.</string>
+	<string name="terms_of_service_effective_date_body">“Ғәмәлгә инеү датаһы” был Шарттар ҡулланыла
+		башлаған көн. Киләсәк яңыртыуҙар үҙгәрештәр көсөнә ингән ваҡытты
+		күрһәтеү өсөн яңыртылған ғәмәлгә инеү датаһын үҙ эсенә аласаҡ.</string>
 </resources>

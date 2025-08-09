@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Număr de caractere: %d. Limită de caractere: %d</string>
 	<string name="privacy_policy">Politica de confidențialitate</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Datele tale rămân cu tine</string>
+	<string name="policy_your_data_stays_with_you_title">Datele tale rămân cu tine</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectăm confidențialitatea dvs. Această aplicație
 		funcționează complet offline și nu colectează sau partajează niciun
 		fel de date. Această politică se aplică tuturor utilizatorilor din
@@ -82,11 +82,9 @@
 		care să aveți acces, să actualizați sau să ștergeți prin intermediul
 		nostru. Toate datele vă aparțin și rămân exclusiv pe dispozitivul
 		dumneavoastră.</string>
-	<string name="privacy_policy_contact_information_title">Informații de contact</string>
+	<string name="policy_contact_information_title">Informații de contact</string>
 	<string name="privacy_policy_changes_title">Modificări ale acestei politici</string>
-	<string name="privacy_policy_effective_date_title">Data intrării în vigoare</string>
-	<string name="privacy_policy_email_subject">Întrebare privind Politica de Confidențialitate –
-		%s</string>
+	<string name="policy_effective_date_title">Data intrării în vigoare</string>
 	<string name="policies">Politici</string>
 	<string name="privacy_policy_contact_information_body">Dacă aveți întrebări sau nelămuriri cu privire la
 		această Politică de Confidențialitate, ne puteți contacta prin e-mail.</string>
@@ -101,4 +99,60 @@
 		versiune actualizată a acestei politici. Încurajăm utilizatorii să
 		revizuiască periodic această politică pentru a fi informați cu privire
 		la modul în care sunt tratate informațiile lor.</string>
+	<string name="terms_of_service">Termeni de serviciu</string>
+	<string name="dialog_first_launch_agree_title">Acceptați pentru a continua</string>
+	<string name="agree_to_terms">Sunt de acord</string>
+	<string name="dialog_first_launch_terms_message">Pentru a utiliza această aplicație, trebuie să
+		citiți și să acceptați Termenii și condițiile noastre de utilizare.
+		Folosiți butonul de mai jos pentru a le citi.</string>
+	<string name="terms_of_service_about_title">Despre Aplicație</string>
+	<string name="terms_of_service_use_title">Utilizarea aplicației</string>
+	<string name="terms_of_service_intellectual_property_title">Proprietate Intelectuală</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Declarație de declinare a garanțiilor</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitarea Răspunderii</string>
+	<string name="terms_of_service_termination_title">Reziliere</string>
+	<string name="terms_of_service_governing_law_title">Legea aplicabilă</string>
+	<string name="terms_of_service_changes_title">Modificări la acești Termeni</string>
+	<string name="terms_of_service_about_body">Această aplicație este un instrument de urmărire a
+		cheltuielilor personale. Funcționează complet offline și este
+		concepută pentru utilizatori de toate vârstele. Aplicația nu necesită
+		înregistrare, nu afișează reclame și nu colectează sau transmite nicio
+		informație personală.</string>
+	<string name="terms_of_service_use_body">Sunteți de acord să utilizați Aplicația doar în
+		scopuri legale și într-un mod care nu încalcă drepturile altora sau nu
+		le restricționează utilizarea Aplicației. Nu trebuie să încercați să
+		faceți inginerie inversă, decompilare sau modificare a Aplicației.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplicația este furnizată „ca atare” fără garanții
+		de niciun fel, fie exprese, fie implicite, inclusiv, dar fără a se
+		limita la garanțiile de vandabilitate, adecvare pentru un anumit scop
+		sau de neîncălcare. Nu garantăm că aplicația va fi lipsită de erori
+		sau că va funcționa fără întreruperi.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplicația nu colectează, nu stochează și nu
+		partajează niciun fel de date personale sau de utilizare. Toate
+		informațiile pe care le introduceți rămân stocate local pe
+		dispozitivul dvs., sub controlul dvs.</string>
+	<string name="terms_of_service_intellectual_property_body">Toate drepturile, titlul și interesul în și asupra
+		Aplicației, inclusiv designul, funcțiile și codul acesteia, aparțin
+		proprietarului drepturilor de autor.</string>
+	<string name="terms_of_service_limitation_of_liability_body">În măsura maximă permisă de lege, proprietarul nu
+		este responsabil pentru nicio daună sau pierdere rezultată din
+		utilizarea de către dvs. a Aplicației, inclusiv, dar fără a se limita
+		la pierderea de date, profituri sau oportunități de afaceri.</string>
+	<string name="terms_of_service_termination_body">Proprietarul poate înceta în orice moment să ofere
+		sau să sprijine aplicația fără notificare prealabilă.</string>
+	<string name="terms_of_service_governing_law_body">Acești Termeni vor fi guvernați de legile țării
+		dvs. de reședință, fără a ține cont de principiile conflictului de
+		legi. Unde este aplicabil, se vor aplica și legile obligatorii privind
+		protecția consumatorului din țara dvs.</string>
+	<string name="terms_of_service_changes_body">Acești Termeni pot fi actualizați din când în când.
+		Continuarea utilizării Aplicației după efectuarea modificărilor
+		înseamnă că acceptați Termenii actualizați.</string>
+	<string name="terms_of_service_contact_information_body">Dacă aveți întrebări despre acești Termeni, aveți
+		nevoie de clarificări sau doriți să raportați o problemă legată de
+		Aplicație, puteți contacta proprietarul la detaliile de contact de mai
+		jos.</string>
+	<string name="terms_of_service_effective_date_body">„Data intrării în vigoare” este data de la care se
+		aplică acești Termeni. Orice actualizare viitoare va include o dată
+		revizuită de intrare în vigoare pentru a indica momentul în care
+		modificările intră în vigoare.</string>
 </resources>

@@ -64,12 +64,14 @@ fun HomeScreen(
     onNewCategoryClick: () -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
     onSettingsClick: () -> Unit = {},
-    onPrivacyPolicyClick: () -> Unit = {}
+    onPrivacyPolicyClick: () -> Unit = {},
+    onTermsOfServiceClick: () -> Unit = {}
 ) {
   val categories by viewModel.categories.collectAsStateWithLifecycle()
   val showEmptyCategoriesFilter by viewModel.showEmptyCategoriesFilter.collectAsStateWithLifecycle()
   val dateFilter by viewModel.dateFilter.collectAsStateWithLifecycle()
   val expenses by viewModel.expenses.collectAsStateWithLifecycle()
+  val agreedToTerms by viewModel.agreedToTerms.collectAsStateWithLifecycle()
   HomeScreen(
       onDateFilterClick = viewModel::onDateFilterClick,
       showEmptyCategoriesFilter = showEmptyCategoriesFilter,
@@ -77,12 +79,15 @@ fun HomeScreen(
       onShowEmptyCategoriesFilterClick = viewModel::onShowEmptyCategoriesFilterClick,
       categories = categories,
       expenses = expenses,
+      agreedToTerms = agreedToTerms,
+      onAgreeToTermsClick = viewModel::onAgreeToTermsClick,
       onCategoryDeleteClicked = viewModel::onCategoryDeleteClicked,
       onExpenseDeleteClicked = viewModel::onExpenseDeleteClicked,
       onNewCategoryClick = onNewCategoryClick,
       onNewExpenseClick = onNewExpenseClick,
       onSettingsClick = onSettingsClick,
-      onPrivacyPolicyClick = onPrivacyPolicyClick)
+      onPrivacyPolicyClick = onPrivacyPolicyClick,
+      onTermsOfServiceClick = onTermsOfServiceClick)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -94,13 +99,21 @@ fun HomeScreen(
     onShowEmptyCategoriesFilterClick: (Boolean) -> Unit = {},
     categories: Categories?,
     expenses: ImmutableList<ExpenseItem>,
+    agreedToTerms: Boolean,
+    onAgreeToTermsClick: () -> Unit,
     onExpenseDeleteClicked: (String) -> Unit = {},
     onCategoryDeleteClicked: (Category) -> Unit = {},
     onNewCategoryClick: () -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
     onSettingsClick: () -> Unit = {},
-    onPrivacyPolicyClick: () -> Unit = {}
+    onPrivacyPolicyClick: () -> Unit = {},
+    onTermsOfServiceClick: () -> Unit = {}
 ) {
+  if (agreedToTerms.not()) {
+    FirstLaunchAgreementDialog(
+        onTermsOfServiceClick = onTermsOfServiceClick, onAgreeClick = onAgreeToTermsClick)
+  }
+
   val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
   val scaffoldState = rememberBottomSheetScaffoldState()
   val scope = rememberCoroutineScope()
@@ -228,7 +241,9 @@ fun HomeScreen(
                   onPoliciesClick = { scope.launch { policiesSheetState.show() } })
 
               PoliciesModalBottomSheet(
-                  state = policiesSheetState, onPrivacyPolicyClick = onPrivacyPolicyClick)
+                  state = policiesSheetState,
+                  onPrivacyPolicyClick = onPrivacyPolicyClick,
+                  onTermsOfServiceClick = onTermsOfServiceClick)
             },
             scrollBehavior = scrollBehavior,
         )

@@ -48,7 +48,7 @@
 	<string name="expense_created_message">Wydatek został stworzony</string>
 	<string name="category_created_message">Kategoria została stworzona</string>
 	<string name="privacy_policy">Polityka prywatności</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Twoje dane pozostają z Tobą</string>
+	<string name="policy_your_data_stays_with_you_title">Twoje dane pozostają z Tobą</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Szanujemy Twoją prywatność. Ta aplikacja działa
 		całkowicie offline i nie zbiera ani nie udostępnia żadnych danych.
 		Niniejsza polityka dotyczy wszystkich użytkowników na całym świecie, w
@@ -83,10 +83,9 @@
 		niczego, do czego mógłbyś uzyskać dostęp, co mógłbyś zaktualizować lub
 		usunąć za naszym pośrednictwem. Wszystkie dane należą do ciebie i
 		pozostają wyłącznie na twoim urządzeniu.</string>
-	<string name="privacy_policy_contact_information_title">Informacje kontaktowe</string>
+	<string name="policy_contact_information_title">Informacje kontaktowe</string>
 	<string name="privacy_policy_changes_title">Zmiany w niniejszej polityce</string>
-	<string name="privacy_policy_effective_date_title">Data wejścia w życie</string>
-	<string name="privacy_policy_email_subject">Zapytanie dotyczące Polityki Prywatności – %s</string>
+	<string name="policy_effective_date_title">Data wejścia w życie</string>
 	<string name="policies">Polityki</string>
 	<string name="privacy_policy_contact_information_body">Jeśli masz jakiekolwiek pytania lub wątpliwości
 		dotyczące tej Polityki Prywatności, możesz skontaktować się z nami za
@@ -102,4 +101,61 @@
 		wersji tej polityki. Zachęcamy użytkowników do okresowego przeglądania
 		tej polityki, aby być na bieżąco z tym, jak traktowane są ich
 		informacje.</string>
+	<string name="terms_of_service">Warunki świadczenia usług</string>
+	<string name="dialog_first_launch_agree_title">Zgódź się, aby kontynuować</string>
+	<string name="agree_to_terms">Zgadzam się</string>
+	<string name="dialog_first_launch_terms_message"> Aby korzystać z tej aplikacji, musisz przeczytać i
+		zaakceptować nasze Warunki korzystania z usługi. Użyj przycisku
+		poniżej, aby je przeczytać.</string>
+	<string name="terms_of_service_about_title">O Aplikacji</string>
+	<string name="terms_of_service_use_title">Korzystanie z aplikacji</string>
+	<string name="terms_of_service_intellectual_property_title">Własność Intelektualna</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Zastrzeżenie dotyczące gwarancji</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ograniczenie Odpowiedzialności</string>
+	<string name="terms_of_service_termination_title">Wypowiedzenie</string>
+	<string name="terms_of_service_governing_law_title">Prawo właściwe</string>
+	<string name="terms_of_service_changes_title">Zmiany w niniejszych Warunkach</string>
+	<string name="terms_of_service_about_body">Ta aplikacja jest narzędziem do śledzenia wydatków
+		osobistych. Działa całkowicie w trybie offline i jest przeznaczona dla
+		użytkowników w każdym wieku. Aplikacja nie wymaga rejestracji, nie
+		wyświetla reklam i nie gromadzi ani nie przesyła żadnych danych
+		osobowych.</string>
+	<string name="terms_of_service_use_body">Zgadzasz się korzystać z Aplikacji wyłącznie w
+		celach zgodnych z prawem i w sposób, który nie narusza praw innych
+		osób ani nie ogranicza ich korzystania z Aplikacji. Nie wolno
+		podejmować prób inżynierii wstecznej, dekompilacji ani modyfikacji
+		Aplikacji.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikacja jest dostarczana „tak jak jest” bez
+		jakichkolwiek gwarancji, wyraźnych lub dorozumianych, w tym między
+		innymi gwarancji przydatności handlowej, przydatności do określonego
+		celu lub braku naruszeń. Nie gwarantujemy, że aplikacja będzie wolna
+		od błędów ani że będzie działać bez przerw.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikacja nie zbiera, nie przechowuje ani nie
+		udostępnia żadnych danych osobowych ani danych o użytkowaniu.
+		Wszystkie informacje, które wpisujesz, pozostają zapisane lokalnie na
+		Twoim urządzeniu i są pod Twoją kontrolą.</string>
+	<string name="terms_of_service_intellectual_property_body">Wszelkie prawa, tytuł i interesy dotyczące
+		Aplikacji, w tym jej projekt, funkcje i kod, są własnością właściciela
+		praw autorskich.</string>
+	<string name="terms_of_service_limitation_of_liability_body">W maksymalnym zakresie dozwolonym przez prawo
+		właściciel nie ponosi odpowiedzialności za jakiekolwiek szkody lub
+		straty wynikające z korzystania przez Ciebie z Aplikacji, w tym między
+		innymi za utratę danych, zysków lub możliwości biznesowych.</string>
+	<string name="terms_of_service_termination_body">Właściciel może w każdej chwili zaprzestać
+		oferowania lub wspierania aplikacji bez wcześniejszego powiadomienia.</string>
+	<string name="terms_of_service_governing_law_body">Niniejsze Warunki podlegają prawu kraju, w którym
+		mieszkasz, bez względu na zasady kolizji prawa. W stosownych
+		przypadkach zastosowanie będą miały również obowiązkowe przepisy
+		dotyczące ochrony konsumentów w twoim kraju.</string>
+	<string name="terms_of_service_changes_body">Niniejsze Warunki mogą być aktualizowane od czasu
+		do czasu. Kontynuowanie korzystania z Aplikacji po wprowadzeniu zmian
+		oznacza, że akceptujesz zaktualizowane Warunki.</string>
+	<string name="terms_of_service_contact_information_body">Jeśli masz jakiekolwiek pytania dotyczące
+		niniejszych Warunków, potrzebujesz wyjaśnienia lub chcesz zgłosić
+		problem z Aplikacją, możesz skontaktować się z właścicielem,
+		korzystając z poniższych danych kontaktowych.</string>
+	<string name="terms_of_service_effective_date_body">„Data wejścia w życie” to data, od której
+		obowiązują niniejsze Warunki. Wszelkie przyszłe aktualizacje będą
+		zawierały zmienioną datę wejścia w życie, aby wskazać, kiedy zmiany
+		zaczną obowiązywać.</string>
 </resources>

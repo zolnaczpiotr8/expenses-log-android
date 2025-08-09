@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Počet znakov: %d. Limit znakov: %d</string>
 	<string name="privacy_policy">Zásady ochrany osobných údajov</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Vaše údaje zostávajú u vás</string>
+	<string name="policy_your_data_stays_with_you_title">Vaše údaje zostávajú u vás</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Rešpektujeme vaše súkromie. Táto aplikácia funguje
 		úplne offline a nezbiera ani nezdieľa žiadne údaje. Táto politika
 		platí pre všetkých používateľov na celom svete, vrátane detí všetkých
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Keďže sa nezhromažďujú žiadne údaje, nie je nič, čo
 		by ste mohli cez nás získať, aktualizovať alebo odstrániť. Všetky
 		údaje sú vaše a zostávajú výhradne vo vašom zariadení.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktné informácie</string>
+	<string name="policy_contact_information_title">Kontaktné informácie</string>
 	<string name="privacy_policy_changes_title">Zmeny tejto politiky</string>
-	<string name="privacy_policy_effective_date_title">Dátum účinnosti</string>
-	<string name="privacy_policy_email_subject">Dopyt ohľadom Zásad Ochrany Osobných Údajov – %s</string>
+	<string name="policy_effective_date_title">Dátum účinnosti</string>
 	<string name="policies">Zásady</string>
 	<string name="privacy_policy_contact_information_body">Ak máte akékoľvek otázky alebo obavy týkajúce sa
 		týchto Zásad ochrany osobných údajov, môžete nás kontaktovať e-mailom.</string>
@@ -98,4 +97,58 @@
 		budú uvedené v aktualizovanej verzii týchto zásad. Odporúčame
 		používateľom pravidelne si tieto zásady prečítať, aby boli informovaní
 		o tom, ako sa s ich údajmi zaobchádza.</string>
+	<string name="terms_of_service">Podmienky služby</string>
+	<string name="dialog_first_launch_agree_title">Súhlasiť na pokračovanie</string>
+	<string name="agree_to_terms">Súhlasím</string>
+	<string name="dialog_first_launch_terms_message">Ak chcete používať túto aplikáciu, musíte si
+		prečítať a prijať naše Podmienky služby. Na ich prečítanie použite
+		tlačidlo nižšie.</string>
+	<string name="terms_of_service_about_title">O Aplikácii</string>
+	<string name="terms_of_service_use_title">Používanie aplikácie</string>
+	<string name="terms_of_service_intellectual_property_title">Duševné Vlastníctvo</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Zrieknutie sa záruk</string>
+	<string name="terms_of_service_limitation_of_liability_title">Obmedzenie Zodpovednosti</string>
+	<string name="terms_of_service_termination_title">Ukončenie</string>
+	<string name="terms_of_service_governing_law_title">Rozhodné právo</string>
+	<string name="terms_of_service_changes_title">Zmeny týchto Podmienok</string>
+	<string name="terms_of_service_about_body">Táto aplikácia je nástroj na sledovanie osobných
+		výdavkov. Funguje úplne offline a je navrhnutá pre používateľov
+		všetkých vekových kategórií. Aplikácia nevyžaduje registráciu,
+		nezobrazuje reklamy a nezhromažďuje ani neodovzdáva žiadne osobné
+		údaje.</string>
+	<string name="terms_of_service_use_body">Súhlasíte s používaním Aplikácie iba na zákonné
+		účely a spôsobom, ktorý neporušuje práva iných ani neobmedzuje ich
+		používanie Aplikácie. Nesmiete sa pokúšať o reverzné inžinierstvo,
+		dekompiláciu alebo úpravu Aplikácie.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikácia je poskytovaná „tak ako je“ bez
+		akýchkoľvek záruk, výslovných alebo predpokladaných, vrátane, ale nie
+		výlučne, záruk predajnosti, vhodnosti na konkrétny účel alebo
+		neporušenia práv. Nezaručujeme, že aplikácia bude bez chýb alebo že
+		bude fungovať bez prerušenia.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikácia nezisťuje, neukladá ani nezdieľa žiadne
+		osobné alebo využívateľské údaje. Všetky informácie, ktoré zadáte,
+		zostávajú lokálne uložené na vašom zariadení pod vašou kontrolou.</string>
+	<string name="terms_of_service_intellectual_property_body">Všetky práva, názov a záujem k Aplikácii, vrátane
+		jej dizajnu, funkcií a kódu, sú vo vlastníctve držiteľa autorských
+		práv.</string>
+	<string name="terms_of_service_limitation_of_liability_body">V maximálnom rozsahu povolenom zákonom vlastník
+		nezodpovedá za žiadne škody alebo straty vzniknuté v dôsledku vášho
+		používania Aplikácie, vrátane, ale nie výlučne, straty údajov, zisku
+		alebo obchodných príležitostí.</string>
+	<string name="terms_of_service_termination_body">Vlastník môže kedykoľvek prestať ponúkať alebo
+		podporovať aplikáciu bez predchádzajúceho upozornenia.</string>
+	<string name="terms_of_service_governing_law_body">Tieto Podmienky sa riadia zákonmi krajiny vášho
+		bydliska bez ohľadu na zásady kolízie zákonov. Ak je to použiteľné,
+		uplatnia sa aj záväzné zákony na ochranu spotrebiteľa vašej krajiny.</string>
+	<string name="terms_of_service_changes_body">Tieto Podmienky môžu byť z času na čas
+		aktualizované. Pokračovaním v používaní Aplikácie po vykonaní zmien
+		vyjadrujete súhlas s aktualizovanými Podmienkami.</string>
+	<string name="terms_of_service_contact_information_body">Ak máte akékoľvek otázky týkajúce sa týchto
+		Podmienok, potrebujete vysvetlenie alebo chcete nahlásiť problém s
+		Aplikáciou, môžete kontaktovať vlastníka na nižšie uvedených
+		kontaktných údajoch.</string>
+	<string name="terms_of_service_effective_date_body">„Dátum nadobudnutia účinnosti“ je dátum, od ktorého
+		sa tieto Podmienky uplatňujú. Akékoľvek budúce aktualizácie budú
+		obsahovať revidovaný dátum nadobudnutia účinnosti, aby sa uviedlo,
+		kedy zmeny nadobúdajú účinnosť.</string>
 </resources>

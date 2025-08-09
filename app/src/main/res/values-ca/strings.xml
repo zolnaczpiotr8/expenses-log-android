@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Recompte de caràcters: %d. Límite de caràcters: %d</string>
 	<string name="privacy_policy">Política de privacitat</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Les teves dades es queden amb tu</string>
+	<string name="policy_your_data_stays_with_you_title">Les teves dades es queden amb tu</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectem la teva privadesa. Aquesta aplicació
 		funciona totalment fora de línia i no recopila ni comparteix cap dada.
 		Aquesta política s’aplica a tots els usuaris a tot el món, inclosos
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Com que no es recopilen dades, no hi ha res al que
 		puguis accedir, actualitzar o suprimir a través nostre. Totes les
 		dades són teves i romanen exclusivament al teu dispositiu.</string>
-	<string name="privacy_policy_contact_information_title">Informació de contacte</string>
+	<string name="policy_contact_information_title">Informació de contacte</string>
 	<string name="privacy_policy_changes_title">Canvis en aquesta política</string>
-	<string name="privacy_policy_effective_date_title">Data d’entrada en vigor</string>
-	<string name="privacy_policy_email_subject">Consulta sobre la Política de Privacitat – %s</string>
+	<string name="policy_effective_date_title">Data d’entrada en vigor</string>
 	<string name="policies">Polítiques</string>
 	<string name="privacy_policy_contact_information_body">Si teniu cap pregunta o preocupació sobre aquesta
 		Política de Privadesa, ens podeu contactar per correu electrònic.</string>
@@ -99,4 +98,58 @@
 		actualitzada d’aquesta política. Recomanem als usuaris que revisin
 		aquesta política periòdicament per estar informats sobre com es tracta
 		la seva informació.</string>
+	<string name="terms_of_service">Termes del servei</string>
+	<string name="dialog_first_launch_agree_title">Accepta per continuar</string>
+	<string name="agree_to_terms">Hi estic d’acord</string>
+	<string name="dialog_first_launch_terms_message">Per utilitzar aquesta aplicació, has de llegir i
+		acceptar les nostres Condicions del servei. Utilitza el botó de sota
+		per llegir-les.</string>
+	<string name="terms_of_service_about_title">Sobre l’aplicació</string>
+	<string name="terms_of_service_use_title">Ús de l’aplicació</string>
+	<string name="terms_of_service_intellectual_property_title">Propietat Intel·lectual</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Exempció de garanties</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitació de Responsabilitat</string>
+	<string name="terms_of_service_termination_title">Terminació</string>
+	<string name="terms_of_service_governing_law_title">Llei aplicable</string>
+	<string name="terms_of_service_changes_title">Canvis en aquests Termes</string>
+	<string name="terms_of_service_about_body">Aquesta aplicació és una eina de seguiment de
+		despeses personals. Funciona completament fora de línia i està
+		dissenyada per a usuaris de totes les edats. L’aplicació no requereix
+		registre, no mostra anuncis i no recopila ni transmet cap informació
+		personal.</string>
+	<string name="terms_of_service_use_body">Accepteu utilitzar l’Aplicació només amb finalitats
+		legals i d’una manera que no infringeixi els drets d’altres persones
+		ni en restringeixi l’ús de l’Aplicació. No heu d’intentar descompilar,
+		fer enginyeria inversa o modificar l’Aplicació.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">L’aplicació es proporciona “tal com és” sense cap
+		garantia de cap mena, ja sigui expressa o implícita, incloent però no
+		limitant-se a garanties de comercialització, idoneïtat per a un
+		propòsit particular o no-infracció. No garantim que l’aplicació
+		estigui lliure d’errors o que funcioni sense interrupcions.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">L’aplicació no recopila, emmagatzema ni comparteix
+		cap dada personal o d’ús. Tota la informació que introduïu roman
+		emmagatzemada localment al vostre dispositiu sota el vostre control.</string>
+	<string name="terms_of_service_intellectual_property_body">Tots els drets, títol i interès sobre l’Aplicació,
+		incloent-ne el disseny, les funcionalitats i el codi, són propietat
+		del titular dels drets d’autor.</string>
+	<string name="terms_of_service_limitation_of_liability_body">En la màxima mesura permesa per la llei, el
+		propietari no és responsable de cap dany o pèrdua derivada de l’ús de
+		l’Aplicació, incloent-hi, però no limitant-se a, la pèrdua de dades,
+		beneficis o oportunitats de negoci.</string>
+	<string name="terms_of_service_termination_body">El propietari pot deixar d’oferir o de donar suport
+		a l’aplicació en qualsevol moment sense previ avís.</string>
+	<string name="terms_of_service_governing_law_body">Aquests Termes es regiran per la legislació del
+		vostre país de residència, sense tenir en compte els principis de
+		conflicte de lleis. Quan sigui aplicable, també s’aplicaran les lleis
+		de protecció del consumidor obligatòries del vostre país.</string>
+	<string name="terms_of_service_changes_body">Aquests Termes poden ser actualitzats de tant en
+		tant. L’ús continuat de l’Aplicació després de fer canvis significa
+		que accepteu els Termes actualitzats.</string>
+	<string name="terms_of_service_contact_information_body">Si tens qualsevol pregunta sobre aquests Termes,
+		necessites aclariment o vols informar d’un problema amb l’Aplicació,
+		pots contactar amb el propietari a les dades de contacte següents.</string>
+	<string name="terms_of_service_effective_date_body">La “Data d’entrada en vigor” és la data a partir de
+		la qual s’apliquen aquests Termes. Qualsevol actualització futura
+		inclourà una data d’entrada en vigor revisada per indicar quan entren
+		en vigor els canvis.</string>
 </resources>

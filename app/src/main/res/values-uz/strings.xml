@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Belgilar soni: %d. Belgilar cheklovi: %d</string>
 	<string name="privacy_policy">Maxfiylik siyosati</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ma’lumotlaringiz siz bilan qoladi</string>
+	<string name="policy_your_data_stays_with_you_title">Ma’lumotlaringiz siz bilan qoladi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Biz sizning maxfiyligingizni hurmat qilamiz. Ilova
 		to‘liq oflayn rejimda ishlaydi va hech qanday ma’lumotni yig‘maydi
 		yoki ulashmaydi. Ushbu siyosat butun dunyo foydalanuvchilari, shu
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Maʼlumotlar yigʻilmayotgani sababli, biz orqali siz
 		kira oladigan, yangilaydigan yoki oʻchira oladigan hech narsa yoʻq.
 		Barcha maʼlumotlar sizga tegishli va faqat qurilmangizda saqlanadi.</string>
-	<string name="privacy_policy_contact_information_title">Aloqa ma’lumotlari</string>
+	<string name="policy_contact_information_title">Aloqa ma’lumotlari</string>
 	<string name="privacy_policy_changes_title">Ushbu siyosatdagi o‘zgarishlar</string>
-	<string name="privacy_policy_effective_date_title">Kuchga kirish sanasi</string>
-	<string name="privacy_policy_email_subject">Maxfiylik Siyosati Bo‘yicha So‘rov – %s</string>
+	<string name="policy_effective_date_title">Kuchga kirish sanasi</string>
 	<string name="policies">Siyosatlar</string>
 	<string name="privacy_policy_contact_information_body">Agar sizda ushbu Maxfiylik Siyosati bo‘yicha savol
 		yoki xavotirlar bo‘lsa, biz bilan elektron pochta orqali
@@ -101,4 +100,64 @@
 		Foydalanuvchilarga o’z ma’lumotlari qanday ishlov berilayotganidan
 		xabardor bo‘lishlari uchun ushbu siyosatni vaqti-vaqti bilan ko‘rib
 		chiqish tavsiya etiladi.</string>
+	<string name="terms_of_service">Xizmat ko‘rsatish shartlari</string>
+	<string name="dialog_first_launch_agree_title">Davom etishga rozi bo‘ling</string>
+	<string name="agree_to_terms">Roziman</string>
+	<string name="dialog_first_launch_terms_message"> Ilovani ishlatish uchun, Siz xizmat ko‘rsatish
+		shartlarimizni o‘qib chiqishingiz va qabul qilishingiz kerak. Ularni
+		o‘qish uchun quyidagi tugmani bosing.</string>
+	<string name="terms_of_service_about_title">Ilova haqida</string>
+	<string name="terms_of_service_use_title">Ilovadan foydalanish</string>
+	<string name="terms_of_service_intellectual_property_title">Intellektual Mulk</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Kafolatlarni rad etish</string>
+	<string name="terms_of_service_limitation_of_liability_title">Javobgarlikni Cheklash</string>
+	<string name="terms_of_service_termination_title">Tugatish</string>
+	<string name="terms_of_service_governing_law_title">Amal qiluvchi qonun</string>
+	<string name="terms_of_service_changes_title">Ushbu Shartlarga Oʻzgarishlar</string>
+	<string name="terms_of_service_about_body">Ushbu ilova shaxsiy xarajatlarni kuzatish
+		vositasidir. U to‘liq oflayn ishlaydi va barcha yoshdagi
+		foydalanuvchilar uchun mo‘ljallangan. Ilova ro‘yxatdan o‘tishni talab
+		qilmaydi, reklamalarni ko‘rsatmaydi va hech qanday shaxsiy ma’lumotni
+		to‘plamaydi yoki uzatmaydi.</string>
+	<string name="terms_of_service_use_body">Siz Ilovani faqat qonuniy maqsadlarda va
+		boshqalarning huquqlarini buzmaydigan yoki ularning Ilovadan
+		foydalanishini cheklamaydigan tarzda ishlatishga rozisiz. Ilovani
+		teskari injiniring qilishga, dekompilyatsiya qilishga yoki
+		o‘zgartirishga urinishlaringiz mumkin emas.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ilova “boricha” hech qanday aniq yoki yashirin
+		kafolatlar berilmasdan taqdim etiladi, jumladan, lekin ular bilan
+		cheklanmagan holda, sotuvga yaroqlilik, ma’lum bir maqsadga moslik
+		yoki huquqbuzarlik qilmaslik kafolatlari. Ilovaning xatosiz bo‘lishi
+		yoki uzluksiz ishlashiga kafolat bermaymiz.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ilova hech qanday shaxsiy yoki foydalanish
+		ma’lumotlarini yig‘maydi, saqlamaydi yoki ulashmaydi. Siz kiritgan
+		barcha ma’lumotlar qurilmangizda mahalliy tarzda saqlanadi va sizning
+		nazoratingiz ostida bo‘ladi.</string>
+	<string name="terms_of_service_intellectual_property_body">Ilova, uning dizayni, funksiyalari va kodi bo‘yicha
+		barcha huquqlar, sarlavha va manfaatlar mualliflik huquqi egasiga
+		tegishlidir.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Qonun tomonidan ruxsat etilgan eng yuqori darajada,
+		egasi Sizning Ilovadan foydalanishingiz natijasida yuzaga keladigan
+		har qanday zarar yoki yo‘qotish uchun javobgar emas, jumladan, ammo
+		ular bilan cheklanmagan holda, ma’lumotlar, foyda yoki biznes
+		imkoniyatlarining yo‘qolishi.</string>
+	<string name="terms_of_service_termination_body">Egasi ilovani taklif qilishni yoki
+		qo‘llab-quvvatlashni istalgan vaqtda oldindan ogohlantirmasdan
+		to‘xtatishi mumkin.</string>
+	<string name="terms_of_service_governing_law_body">Ushbu Shartlar, qonunlar ziddiyati prinsiplari
+		hisobga olinmagan holda, yashash mamlakatingiz qonunlariga binoan
+		tartibga solinadi. Qo‘llanilishi mumkin bo‘lgan hollarda,
+		mamlakatingizning majburiy iste’molchi huquqlarini himoya qilish
+		qonunlari ham qo‘llaniladi.</string>
+	<string name="terms_of_service_changes_body">Ushbu Shartlar vaqti-vaqti bilan yangilanishi
+		mumkin. O‘zgarishlar kiritilganidan so‘ng Ilovani ishlatishda davom
+		etish, yangilangan Shartlarni qabul qilganingizni anglatadi.</string>
+	<string name="terms_of_service_contact_information_body">Agar ushbu Shartlar haqida biron savolingiz bo‘lsa,
+		izoh kerak bo‘lsa yoki Ilova bilan bog‘liq muammoni xabar qilmoqchi
+		bo‘lsangiz, quyida berilgan aloqa ma’lumotlari orqali egasiga murojaat
+		qilishingiz mumkin.</string>
+	<string name="terms_of_service_effective_date_body">“Kuchga kirish sanasi” bu Shartlar qo‘llanila
+		boshlagan sanadir. Kelgusidagi har qanday yangilanishlar o‘zgarishlar
+		qachon kuchga kirishini ko‘rsatish uchun qayta ko‘rib chiqilgan kuchga
+		kirish sanasini o‘z ichiga oladi.</string>
 </resources>
