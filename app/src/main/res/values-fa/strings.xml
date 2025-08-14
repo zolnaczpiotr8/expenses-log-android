@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">تعداد نویسه‌ها: %d. محدودیت نویسه: %d</string>
 	<string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">داده‌های شما پیش شما می‌ماند</string>
+	<string name="policy_your_data_stays_with_you_title">داده‌های شما پیش شما می‌ماند</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ما به حریم خصوصی شما احترام می‌گذاریم. این برنامه
 		به صورت کاملاً آفلاین کار می‌کند و هیچ داده‌ای جمع‌آوری یا به اشتراک
 		نمی‌گذارد. این سیاست برای همه کاربران در سراسر جهان، از جمله کودکان در
@@ -80,10 +80,9 @@
 		ندارد که بتوانید از طریق ما به آن دسترسی داشته باشید، به‌روزرسانی کنید
 		یا حذف نمایید. تمام داده‌ها متعلق به شماست و فقط روی دستگاه شما باقی
 		می‌ماند.</string>
-	<string name="privacy_policy_contact_information_title">اطلاعات تماس</string>
+	<string name="policy_contact_information_title">اطلاعات تماس</string>
 	<string name="privacy_policy_changes_title">تغییرات در این سیاست</string>
-	<string name="privacy_policy_effective_date_title">تاریخ اجرا</string>
-	<string name="privacy_policy_email_subject">پرسش درباره سیاست حفظ حریم خصوصی – %s</string>
+	<string name="policy_effective_date_title">تاریخ اجرا</string>
 	<string name="policies">سیاست‌ها</string>
 	<string name="privacy_policy_contact_information_body">اگر در مورد این سیاست حفظ حریم خصوصی سؤال یا نگرانی
 		دارید، می‌توانید از طریق ایمیل با ما تماس بگیرید.</string>
@@ -96,4 +95,51 @@
 		در نحوه مدیریت داده‌های شما توسط برنامه در نسخه به‌روزرسانی‌شده این
 		سیاست منعکس خواهد شد. ما به کاربران توصیه می‌کنیم این سیاست را به‌صورت
 		دوره‌ای مرور کنند تا از نحوه پردازش اطلاعاتشان مطلع باشند.</string>
+	<string name="terms_of_service">شرایط خدمات</string>
+	<string name="dialog_first_launch_agree_title">برای ادامه موافقت کنید</string>
+	<string name="agree_to_terms">موافقم</string>
+	<string name="dialog_first_launch_terms_message">برای استفاده از این برنامه، باید شرایط خدمات ما را
+		بخوانید و بپذیرید. برای خواندن آنها از دکمه زیر استفاده کنید.</string>
+	<string name="terms_of_service_about_title">درباره برنامه</string>
+	<string name="terms_of_service_use_title">استفاده از برنامه</string>
+	<string name="terms_of_service_intellectual_property_title">مالکیت فکری</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">سلب مسئولیت از ضمانت‌ها</string>
+	<string name="terms_of_service_limitation_of_liability_title">محدودیت مسئولیت</string>
+	<string name="terms_of_service_termination_title">خاتمه</string>
+	<string name="terms_of_service_governing_law_title">قانون حاکم</string>
+	<string name="terms_of_service_changes_title">تغییرات در این شرایط</string>
+	<string name="terms_of_service_about_body">این برنامه یک ابزار برای پیگیری هزینه‌های شخصی است.
+		این برنامه به‌طور کامل به صورت آفلاین کار می‌کند و برای کاربران در
+		تمام سنین طراحی شده است. این برنامه نیازی به ثبت‌نام ندارد، تبلیغ
+		نمایش نمی‌دهد و هیچ اطلاعات شخصی را جمع‌آوری یا ارسال نمی‌کند.</string>
+	<string name="terms_of_service_use_body">شما موافقت می‌کنید که از برنامه فقط برای اهداف
+		قانونی و به روشی استفاده کنید که حقوق دیگران را نقض نکرده یا استفاده
+		آن‌ها از برنامه را محدود نکند. شما نباید تلاش کنید برنامه را مهندسی
+		معکوس، دیکامپایل یا تغییر دهید.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">برنامه “همان‌طور که هست” بدون هیچ‌گونه ضمانت، چه
+		صریح و چه ضمنی، از جمله اما نه محدود به ضمانت قابلیت فروش، تناسب برای
+		یک هدف خاص یا عدم نقض ارائه می‌شود. ما هیچ تضمینی نمی‌دهیم که برنامه
+		بدون خطا باشد یا بدون وقفه کار کند.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">این برنامه هیچ داده‌ای شخصی یا مربوط به استفاده را
+		جمع‌آوری، ذخیره یا به اشتراک نمی‌گذارد. تمام اطلاعاتی که وارد می‌کنید،
+		به‌صورت محلی روی دستگاه شما ذخیره می‌شود و تحت کنترل شماست.</string>
+	<string name="terms_of_service_intellectual_property_body">تمامی حقوق، عنوان و منافع موجود در برنامه، از جمله
+		طراحی، ویژگی‌ها و کد آن، متعلق به صاحب حق نشر است.</string>
+	<string name="terms_of_service_limitation_of_liability_body">تا حدی که قانون اجازه می‌دهد، مالک مسئول هیچ گونه
+		خسارت یا زیانی که ناشی از استفاده شما از برنامه باشد، نیست، از جمله
+		اما نه محدود به از دست دادن داده‌ها، سود یا فرصت‌های تجاری.</string>
+	<string name="terms_of_service_termination_body">مالک می‌تواند در هر زمان بدون اطلاع قبلی ارائه یا
+		پشتیبانی از برنامه را متوقف کند.</string>
+	<string name="terms_of_service_governing_law_body">این شرایط تابع قوانین کشور محل اقامت شما خواهد بود،
+		بدون توجه به اصول تعارض قوانین. در صورت لزوم، قوانین الزامی حمایت از
+		مصرف‌کننده کشور شما نیز اعمال خواهد شد.</string>
+	<string name="terms_of_service_changes_body">این شرایط ممکن است هر از گاهی به‌روزرسانی شود.
+		ادامه استفاده از برنامه پس از ایجاد تغییرات به معنای پذیرش شرایط
+		به‌روزرسانی‌شده است.</string>
+	<string name="terms_of_service_contact_information_body">اگر در مورد این شرایط سوالی دارید، به توضیح بیشتری
+		نیاز دارید یا مایلید مشکلی را با برنامه گزارش کنید، می‌توانید از طریق
+		اطلاعات تماس زیر با مالک ارتباط برقرار کنید.</string>
+	<string name="terms_of_service_effective_date_body">«تاریخ لازم‌الاجرا» تاریخی است که از آن تاریخ این
+		شرایط اعمال می‌شود. هرگونه به‌روزرسانی آینده شامل تاریخ لازم‌الاجرای
+		اصلاح‌شده خواهد بود تا نشان دهد تغییرات از چه زمانی اعمال می‌شوند.</string>
 </resources>

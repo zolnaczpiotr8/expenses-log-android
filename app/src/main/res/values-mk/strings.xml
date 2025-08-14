@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Број на знаци: %d. Ограничување на знаци: %d</string>
 	<string name="privacy_policy">Политика за приватност</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Вашите податоци остануваат кај вас</string>
+	<string name="policy_your_data_stays_with_you_title">Вашите податоци остануваат кај вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ги почитуваме вашите приватни информации. Оваа
 		апликација функционира целосно офлајн и не собира или споделува
 		никакви податоци. Оваа политика важи за сите корисници ширум светот,
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Бидејќи не се собираат податоци, нема ништо што
 		можете да пристапите, ажурирате или избришете преку нас. Сите податоци
 		се ваши и остануваат само на вашиот уред.</string>
-	<string name="privacy_policy_contact_information_title">Контакт информации</string>
+	<string name="policy_contact_information_title">Контакт информации</string>
 	<string name="privacy_policy_changes_title">Промени на оваа политика</string>
-	<string name="privacy_policy_effective_date_title">Датум на стапување во сила</string>
-	<string name="privacy_policy_email_subject">Прашање за Политиката за Приватност – %s</string>
+	<string name="policy_effective_date_title">Датум на стапување во сила</string>
 	<string name="policies">Политики</string>
 	<string name="privacy_policy_contact_information_body">Доколку имате какви било прашања или грижи во врска
 		со оваа Политика за приватност, можете да не контактирате преку
@@ -101,4 +100,60 @@
 		оваа политика. Ги охрабруваме корисниците периодично да ја
 		прегледуваат оваа политика за да останат информирани за тоа како се
 		постапува со нивните информации.</string>
+	<string name="terms_of_service">Услови на користење</string>
+	<string name="dialog_first_launch_agree_title">Согласете се за да продолжите</string>
+	<string name="agree_to_terms">Се согласувам</string>
+	<string name="dialog_first_launch_terms_message">За да ја користите оваа апликација, мора да ги
+		прочитате и прифатите нашите Услови за користење. Користете го копчето
+		подолу за да ги прочитате.</string>
+	<string name="terms_of_service_about_title">За Апликацијата</string>
+	<string name="terms_of_service_use_title">Користење на апликацијата</string>
+	<string name="terms_of_service_intellectual_property_title">Интелектуална Сопственост</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Откажување од гаранции</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ограничување на Одговорноста</string>
+	<string name="terms_of_service_termination_title">Прекинување</string>
+	<string name="terms_of_service_governing_law_title">Меродавно право</string>
+	<string name="terms_of_service_changes_title">Промени на овие Услови</string>
+	<string name="terms_of_service_about_body">Оваа апликација е алатка за следење на личните
+		трошоци. Работи целосно офлајн и е наменета за корисници од сите
+		возрасти. Апликацијата не бара регистрација, не прикажува реклами и не
+		собира или пренесува никакви лични информации.</string>
+	<string name="terms_of_service_use_body">Се согласувате да ја користите Апликацијата само за
+		законски цели и на начин кој не ги повредува правата на другите или не
+		го ограничува нивното користење на Апликацијата. Не треба да се
+		обидувате да вршите обратно инженерство, декомпилација или
+		модификација на Апликацијата.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Апликацијата се обезбедува “како што е” без никакви
+		гаранции, изрични или имплицитни, вклучувајќи, но не ограничувајќи се
+		на гаранции за пазарливост, погодност за одредена цел или
+		неповредување. Не гарантираме дека апликацијата ќе биде без грешки или
+		дека ќе функционира без прекини.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Апликацијата не собира, не чува и не споделува
+		никакви лични или податоци за употреба. Сите информации кои ги
+		внесувате остануваат локално зачувани на вашиот уред под ваша
+		контрола.</string>
+	<string name="terms_of_service_intellectual_property_body">Сите права, наслов и интерес во и за Апликацијата,
+		вклучувајќи го нејзиниот дизајн, функции и код, се во сопственост на
+		сопственикот на авторските права.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Во најголема мера дозволена со закон, сопственикот
+		не е одговорен за каква било штета или загуба што произлегува од
+		вашата употреба на апликацијата, вклучувајќи, но не ограничувајќи се
+		на загуба на податоци, профит или деловни можности.</string>
+	<string name="terms_of_service_termination_body">Сопственикот може да престане да ја нуди или
+		поддржува апликацијата во кое било време без претходно известување.</string>
+	<string name="terms_of_service_governing_law_body">Овие Услови се управуваат според законите на
+		земјата во која живеете, без да се земат предвид принципите за судир
+		на закони. Каде што е применливо, ќе се применуваат и задолжителните
+		закони за заштита на потрошувачите на вашата земја.</string>
+	<string name="terms_of_service_changes_body">Овие Услови може да се ажурираат од време на време.
+		Продолжувањето со користење на Апликацијата по направените промени
+		значи дека ги прифаќате ажурираните Услови.</string>
+	<string name="terms_of_service_contact_information_body">Доколку имате какви било прашања во врска со овие
+		Услови, ви треба појаснување или сакате да пријавите проблем со
+		Апликацијата, можете да стапите во контакт со сопственикот на подолу
+		наведените детали за контакт.</string>
+	<string name="terms_of_service_effective_date_body">„Датум на стапување во сила“ е датумот од кој
+		започнуваат да важат овие Услови. Секое идно ажурирање ќе вклучува
+		ревидиран датум на стапување во сила за да се означи кога измените ќе
+		стапат во сила.</string>
 </resources>

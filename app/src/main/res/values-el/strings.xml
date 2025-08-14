@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Αριθμός χαρακτήρων: %d. Όριο χαρακτήρων: %d</string>
 	<string name="privacy_policy">Πολιτική Απορρήτου</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Τα δεδομένα σας μένουν μαζί σας</string>
+	<string name="policy_your_data_stays_with_you_title">Τα δεδομένα σας μένουν μαζί σας</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Σεβόμαστε το απόρρητό σας. Αυτή η εφαρμογή
 		λειτουργεί εντελώς εκτός σύνδεσης και δεν συλλέγει ούτε μοιράζεται
 		δεδομένα. Αυτή η πολιτική ισχύει για όλους τους χρήστες παγκοσμίως,
@@ -85,10 +85,9 @@
 		τίποτα στο οποίο μπορείτε να έχετε πρόσβαση, να ενημερώσετε ή να
 		διαγράψετε μέσω εμάς. Όλα τα δεδομένα είναι δικά σας και παραμένουν
 		αποκλειστικά στη συσκευή σας.</string>
-	<string name="privacy_policy_contact_information_title">Πληροφορίες Επικοινωνίας</string>
+	<string name="policy_contact_information_title">Πληροφορίες Επικοινωνίας</string>
 	<string name="privacy_policy_changes_title">Αλλαγές σε αυτήν την πολιτική</string>
-	<string name="privacy_policy_effective_date_title">Ημερομηνία έναρξης ισχύος</string>
-	<string name="privacy_policy_email_subject">Ερώτημα Πολιτικής Απορρήτου – %s</string>
+	<string name="policy_effective_date_title">Ημερομηνία έναρξης ισχύος</string>
 	<string name="policies">Πολιτικές</string>
 	<string name="privacy_policy_contact_information_body">Αν έχετε οποιεσδήποτε ερωτήσεις ή ανησυχίες σχετικά
 		με αυτήν την Πολιτική Απορρήτου, μπορείτε να επικοινωνήσετε μαζί μας
@@ -104,4 +103,62 @@
 		πολιτικής. Ενθαρρύνουμε τους χρήστες να εξετάζουν αυτήν την πολιτική
 		περιοδικά για να παραμένουν ενημερωμένοι σχετικά με τον τρόπο με τον
 		οποίο αντιμετωπίζονται οι πληροφορίες τους.</string>
+	<string name="terms_of_service">Όροι χρήσης</string>
+	<string name="dialog_first_launch_agree_title">Συμφωνώ για να συνεχίσω</string>
+	<string name="agree_to_terms">Συμφωνώ</string>
+	<string name="dialog_first_launch_terms_message">Για να χρησιμοποιήσετε αυτήν την εφαρμογή, πρέπει
+		να διαβάσετε και να αποδεχτείτε τους Όρους Παροχής Υπηρεσιών μας.
+		Χρησιμοποιήστε το κουμπί παρακάτω για να τους διαβάσετε.</string>
+	<string name="terms_of_service_about_title">Σχετικά με την εφαρμογή</string>
+	<string name="terms_of_service_use_title">Χρήση της εφαρμογής</string>
+	<string name="terms_of_service_intellectual_property_title">Πνευματική Ιδιοκτησία</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Αποποίηση εγγυήσεων</string>
+	<string name="terms_of_service_limitation_of_liability_title">Περιορισμός Ευθύνης</string>
+	<string name="terms_of_service_termination_title">Καταγγελία</string>
+	<string name="terms_of_service_governing_law_title">Εφαρμοστέο Δίκαιο</string>
+	<string name="terms_of_service_changes_title">Αλλαγές σε αυτούς τους Όρους</string>
+	<string name="terms_of_service_about_body">Αυτή η εφαρμογή είναι ένα εργαλείο παρακολούθησης
+		προσωπικών εξόδων. Λειτουργεί πλήρως εκτός σύνδεσης και έχει
+		σχεδιαστεί για χρήστες όλων των ηλικιών. Η εφαρμογή δεν απαιτεί
+		εγγραφή, δεν εμφανίζει διαφημίσεις και δεν συλλέγει ή μεταδίδει
+		οποιαδήποτε προσωπικά δεδομένα.</string>
+	<string name="terms_of_service_use_body">Συμφωνείτε να χρησιμοποιείτε την Εφαρμογή μόνο για
+		νόμιμους σκοπούς και με τρόπο που δεν παραβιάζει τα δικαιώματα άλλων ή
+		δεν περιορίζει τη χρήση της Εφαρμογής από αυτούς. Δεν πρέπει να
+		προσπαθήσετε να κάνετε ανακατασκευή, αποσυμπίληση ή τροποποίηση της
+		Εφαρμογής.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Η εφαρμογή παρέχεται “ως έχει” χωρίς καμία εγγύηση
+		οποιουδήποτε είδους, είτε ρητή είτε σιωπηρή, συμπεριλαμβανομένων αλλά
+		όχι περιοριστικά των εγγυήσεων εμπορευσιμότητας, καταλληλότητας για
+		συγκεκριμένο σκοπό ή μη παραβίασης. Δεν εγγυόμαστε ότι η εφαρμογή θα
+		είναι χωρίς σφάλματα ή ότι θα λειτουργεί χωρίς διακοπή.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Η εφαρμογή δεν συλλέγει, δεν αποθηκεύει και δεν
+		κοινοποιεί δεδομένα προσωπικά ή σχετικά με τη χρήση. Όλες οι
+		πληροφορίες που εισάγετε παραμένουν αποθηκευμένες τοπικά στη συσκευή
+		σας υπό τον έλεγχό σας.</string>
+	<string name="terms_of_service_intellectual_property_body">Όλα τα δικαιώματα, ο τίτλος και το συμφέρον στην
+		Εφαρμογή, συμπεριλαμβανομένου του σχεδιασμού, των λειτουργιών και του
+		κώδικά της, ανήκουν στον κάτοχο των πνευματικών δικαιωμάτων.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Στο μέγιστο βαθμό που επιτρέπεται από τον νόμο, ο
+		ιδιοκτήτης δεν ευθύνεται για οποιαδήποτε ζημία ή απώλεια που προκύπτει
+		από τη χρήση της Εφαρμογής σας, συμπεριλαμβανομένης, αλλά χωρίς
+		περιορισμό, της απώλειας δεδομένων, κερδών ή επιχειρηματικών
+		ευκαιριών.</string>
+	<string name="terms_of_service_termination_body">Ο ιδιοκτήτης μπορεί να σταματήσει να προσφέρει ή να
+		υποστηρίζει την εφαρμογή ανά πάσα στιγμή χωρίς προηγούμενη ειδοποίηση.</string>
+	<string name="terms_of_service_governing_law_body">Οι παρόντες Όροι διέπονται από τους νόμους της
+		χώρας διαμονής σας, ανεξαρτήτως των αρχών σύγκρουσης νόμων. Όπου
+		ισχύει, θα εφαρμόζονται επίσης οι υποχρεωτικοί νόμοι προστασίας
+		καταναλωτή της χώρας σας.</string>
+	<string name="terms_of_service_changes_body">Αυτοί οι Όροι ενδέχεται να ενημερώνονται κατά
+		διαστήματα. Η συνεχής χρήση της Εφαρμογής μετά από αλλαγές σημαίνει
+		ότι αποδέχεστε τους ενημερωμένους Όρους.</string>
+	<string name="terms_of_service_contact_information_body">Εάν έχετε οποιαδήποτε απορία σχετικά με αυτούς τους
+		Όρους, χρειάζεστε διευκρίνιση ή θέλετε να αναφέρετε ένα πρόβλημα με
+		την Εφαρμογή, μπορείτε να επικοινωνήσετε με τον ιδιοκτήτη στα παρακάτω
+		στοιχεία επικοινωνίας.</string>
+	<string name="terms_of_service_effective_date_body">Η «Ημερομηνία Έναρξης Ισχύος» είναι η ημερομηνία
+		από την οποία ισχύουν οι παρόντες Όροι. Οποιαδήποτε μελλοντική
+		ενημέρωση θα περιλαμβάνει αναθεωρημένη ημερομηνία έναρξης ισχύος για
+		να υποδεικνύει πότε τίθενται σε ισχύ οι αλλαγές.</string>
 </resources>

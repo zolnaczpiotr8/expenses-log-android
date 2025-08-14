@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Märkide arv: %d. Märkide piirang: %d</string>
 	<string name="privacy_policy">Privaatsuspoliitika</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Teie andmed jäävad teiega</string>
+	<string name="policy_your_data_stays_with_you_title">Teie andmed jäävad teiega</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Me austame teie privaatsust. See rakendus töötab
 		täielikult võrguühenduseta ega kogu ega jaga mingit teavet. See
 		poliitika kehtib kõigile kasutajatele üle kogu maailma, sealhulgas
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Kuna andmeid ei koguta, ei ole midagi, millele te
 		saaksite meie kaudu juurde pääseda, seda värskendada või kustutada.
 		Kõik andmed kuuluvad teile ja jäävad ainult teie seadmesse.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktandmed</string>
+	<string name="policy_contact_information_title">Kontaktandmed</string>
 	<string name="privacy_policy_changes_title">Selle poliitika muudatused</string>
-	<string name="privacy_policy_effective_date_title">Jõustumiskuupäev</string>
-	<string name="privacy_policy_email_subject">Privaatsuspoliitika Päring – %s</string>
+	<string name="policy_effective_date_title">Jõustumiskuupäev</string>
 	<string name="policies">Põhimõtted</string>
 	<string name="privacy_policy_contact_information_body">Kui teil on selle privaatsuspoliitika kohta
 		küsimusi või muresid, võite meiega ühendust võtta e-posti teel.</string>
@@ -98,4 +97,56 @@
 		poliitika uuendatud versioonis. Soovitame kasutajatel seda poliitikat
 		regulaarselt üle vaadata, et olla kursis, kuidas nende andmeid
 		käsitletakse.</string>
+	<string name="terms_of_service">Teenuse tingimused</string>
+	<string name="dialog_first_launch_agree_title">Nõustu jätkamiseks</string>
+	<string name="agree_to_terms">Nõustun</string>
+	<string name="dialog_first_launch_terms_message">Selle rakenduse kasutamiseks peate lugema ja
+		nõustuma meie Teenusetingimustega. Nende lugemiseks kasutage allolevat
+		nuppu.</string>
+	<string name="terms_of_service_about_title">Rakenduse kohta</string>
+	<string name="terms_of_service_use_title">Rakenduse kasutamine</string>
+	<string name="terms_of_service_intellectual_property_title">Intellektuaalne Omand</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Garantiidest loobumine</string>
+	<string name="terms_of_service_limitation_of_liability_title">Vastutuse Piiramine</string>
+	<string name="terms_of_service_termination_title">Lõpetamine</string>
+	<string name="terms_of_service_governing_law_title">Kohaldatav seadus</string>
+	<string name="terms_of_service_changes_title">Nende Tingimuste Muudatused</string>
+	<string name="terms_of_service_about_body">See rakendus on isiklike kulude jälgimise tööriist.
+		See töötab täielikult võrguühenduseta ja on mõeldud igas vanuses
+		kasutajatele. Rakendus ei nõua registreerimist, ei kuva reklaame ega
+		kogu ega edasta isikuandmeid.</string>
+	<string name="terms_of_service_use_body">Nõustute rakendust kasutama ainult seaduslikel
+		eesmärkidel ja viisil, mis ei riku teiste õigusi ega piira nende
+		rakenduse kasutamist. Te ei tohi proovida rakendust tagasi
+		projekteerida, dekompileerida ega muuta.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Rakendus on esitatud “nagu on” ilma igasuguste
+		garantiideta, kas väljendatud või kaudsed, sealhulgas, kuid mitte
+		ainult, kaubanduslik sobivus, sobivus konkreetseks otstarbeks või
+		rikkumise puudumine. Me ei anna garantiid, et rakendus on vigadeta või
+		töötab katkestusteta.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Rakendus ei kogu, salvesta ega jaga mingeid isiku-
+		ega kasutusandmeid. Kogu teave, mille sisestate, jääb jääb
+		salvestatuna teie seadmesse lokaalselt, teie kontrolli all.</string>
+	<string name="terms_of_service_intellectual_property_body">Kõik rakenduse õigused, pealkiri ja huvi,
+		sealhulgas selle disain, funktsioonid ja kood, kuuluvad autoriõiguse
+		omanikule.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Seadusega lubatud ulatuses ei vastuta omanik
+		mingisuguse kahju või kaotuse eest, mis tuleneb teie rakenduse
+		kasutamisest, sealhulgas, kuid mitte ainult, andmete, kasumi või
+		ärivõimaluste kaotuse eest.</string>
+	<string name="terms_of_service_termination_body">Omanik võib rakenduse pakkumise või toetamise igal
+		ajal lõpetada ilma eelneva etteteatamiseta.</string>
+	<string name="terms_of_service_governing_law_body">Käesolevad tingimused reguleeritakse teie
+		elukohariigi seaduste alusel, sõltumata kollisiooninormide
+		põhimõtetest. Kui kohaldatav, kehtivad ka teie riigi kohustuslikud
+		tarbijakaitse seadused.</string>
+	<string name="terms_of_service_changes_body">Neid tingimusi võidakse aeg-ajalt ajakohastada.
+		Rakenduse kasutamise jätkamine pärast muudatuste tegemist tähendab, et
+		nõustute ajakohastatud tingimustega.</string>
+	<string name="terms_of_service_contact_information_body">Kui teil on küsimusi nende Tingimuste kohta, vajate
+		selgitust või soovite teatada rakendusega seotud probleemist, võite
+		võtta ühendust omanikuga allpool toodud kontaktandmetel.</string>
+	<string name="terms_of_service_effective_date_body">„Jõustumiskuupäev” on kuupäev, millest alates
+		käesolevad tingimused kehtivad. Kõik tulevased värskendused sisaldavad
+		muudetud jõustumiskuupäeva, et näidata, millal muudatused jõustuvad.</string>
 </resources>

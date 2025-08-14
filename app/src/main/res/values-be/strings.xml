@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Колькасць знакаў: %d. Ліміт знакаў: %d</string>
 	<string name="privacy_policy">Палітыка канфідэнцыяльнасці</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Вашы даныя застаюцца з вамі</string>
+	<string name="policy_your_data_stays_with_you_title">Вашы даныя застаюцца з вамі</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мы паважаем вашу прыватнасць. Гэта прыкладанне
 		працуе цалкам у аўтаномным рэжыме і не збірае і не перадае ніякіх
 		дадзеных. Гэтая палітыка распаўсюджваецца на ўсіх карыстальнікаў ва
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Паколькі дадзеныя не збіраюцца, вам няма чаго
 		праглядаць, абнаўляць або выдаляць праз нас. Усе дадзеныя належаць вам
 		і застаюцца выключна на вашай прыладзе.</string>
-	<string name="privacy_policy_contact_information_title">Кантактная інфармацыя</string>
+	<string name="policy_contact_information_title">Кантактная інфармацыя</string>
 	<string name="privacy_policy_changes_title">Змены ў гэтай палітыцы</string>
-	<string name="privacy_policy_effective_date_title">Дата ўступлення ў сілу</string>
-	<string name="privacy_policy_email_subject">Запыт пра Палітыку Прыватнасці – %s</string>
+	<string name="policy_effective_date_title">Дата ўступлення ў сілу</string>
 	<string name="policies">Палітыкі</string>
 	<string name="privacy_policy_contact_information_body">Калі ў вас ёсць пытанні або занепакоенасць адносна
 		гэтай Палітыкі канфідэнцыйнасці, вы можаце звязацца з намі па
@@ -99,4 +98,59 @@
 		адлюстраваны ў абноўленай версіі гэтай палітыкі. Мы раім
 		карыстальнікам перыядычна пераглядаць гэтую палітыку, каб заставацца ў
 		курсе таго, як апрацоўваецца іх інфармацыя.</string>
+	<string name="terms_of_service">Умовы абслугоўвання</string>
+	<string name="dialog_first_launch_agree_title">Пагадзіцеся, каб працягнуць</string>
+	<string name="agree_to_terms">Я згодны</string>
+	<string name="dialog_first_launch_terms_message">Каб выкарыстоўваць гэтае прыкладанне, вы павінны
+		прачытаць і прыняць нашы Умовы абслугоўвання. Каб прачытаць іх,
+		націсніце кнопку ніжэй.</string>
+	<string name="terms_of_service_about_title">Пра дадатак</string>
+	<string name="terms_of_service_use_title">Выкарыстанне прыкладання</string>
+	<string name="terms_of_service_intellectual_property_title">Інтэлектуальная ўласнасць</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Адмова ад гарантый</string>
+	<string name="terms_of_service_limitation_of_liability_title">Абмежаванне Адказнасці</string>
+	<string name="terms_of_service_termination_title">Спыненне</string>
+	<string name="terms_of_service_governing_law_title">Прымяняльнае права</string>
+	<string name="terms_of_service_changes_title">Змены ў гэтыя Умовы</string>
+	<string name="terms_of_service_about_body">Гэта дадатак для адсочвання асабістых выдаткаў. Ён
+		працуе цалкам аўтаномна і прызначаны для карыстальнікаў усіх узростаў.
+		Дадатак не патрабуе рэгістрацыі, не паказвае рэкламу і не збірае або
+		не перадае ніякую персанальную інфармацыю.</string>
+	<string name="terms_of_service_use_body">Вы згаджаецеся выкарыстоўваць Дадатак толькі ў
+		законных мэтах і такім чынам, каб не парушаць правы іншых асоб і не
+		абмяжоўваць іх выкарыстанне Дадатку. Вы не павінны спрабаваць
+		ажыццяўляць зваротную распрацоўку, дэкампіляцыю або змяненне Дадатку.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Праграма прадастаўляецца «як ёсць», без
+		якіх-небудзь гарантый, як прамых, так і маўклівых, уключаючы, але не
+		абмяжоўваючыся, гарантыямі камерцыйнай якасці, прыдатнасці для пэўнай
+		мэты або адсутнасці правапарушэнняў. Мы не гарантуем, што праграма
+		будзе без памылак або што яна будзе працаваць бесперабойна.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Прыкладанне не збірае, не захоўвае і не
+		распаўсюджвае асабістыя або інфармацыю аб выкарыстанні. Уся
+		інфармацыя, якую вы ўводзіце, застаецца захаванай лакальна на вашым
+		прыладзе пад вашым кантролем.</string>
+	<string name="terms_of_service_intellectual_property_body">Усе правы, назва і інтарэсы ў дачыненні да
+		прыкладання, уключаючы яго дызайн, функцыі і код, належаць уладальніку
+		аўтарскіх правоў.</string>
+	<string name="terms_of_service_limitation_of_liability_body">У максімальнай ступені, дазволенай законам,
+		уладальнік не нясе адказнасці за любыя пашкоджанні або страты, што
+		ўзнікаюць у выніку вашага выкарыстання Праграмы, уключаючы, але не
+		абмяжоўваючыся стратай дадзеных, прыбытку або дзелавых магчымасцей.</string>
+	<string name="terms_of_service_termination_body">Уладальнік можа спыніць прапанаванне або падтрымку
+		прыкладання ў любы момант без папярэдняга паведамлення.</string>
+	<string name="terms_of_service_governing_law_body">Гэтыя Ўмовы рэгулююцца законамі вашай краіны
+		пражывання, без уліку прынцыпаў канфлікту нормаў. Калі гэта
+		прымянімана, таксама будуць дзейнічаць абавязковыя законы аб абароне
+		спажыўца вашай краіны.</string>
+	<string name="terms_of_service_changes_body">Гэтыя Умовы могуць абнаўляцца час ад часу. Працяг
+		выкарыстання Праграмы пасля ўнясення змяненняў азначае, што вы
+		прымаеце абноўленыя Умовы.</string>
+	<string name="terms_of_service_contact_information_body">Калі ў вас ёсць якія-небудзь пытанні адносна гэтых
+		Умоў, патрэбна ўдакладненне або вы жадаеце паведаміць аб праблеме з
+		Дадаткам, вы можаце звязацца з уладальнікам па кантактных дадзеных,
+		указаных ніжэй.</string>
+	<string name="terms_of_service_effective_date_body">«Дата ўступлення ў сілу» — гэта дата, з якой гэтыя
+		Умовы пачынаюць дзейнічаць. Будучыя абнаўленні будуць уключаць
+		перагледжаную дату ўступлення ў сілу, каб паказаць, калі змены
+		ўступаюць у сілу.</string>
 </resources>

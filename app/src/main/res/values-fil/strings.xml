@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Bilang ng mga karakter: %d. Limitasyon sa karakter: %d</string>
 	<string name="privacy_policy">Patakaran sa Privacy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Ang iyong datos ay nananatili sa iyo</string>
+	<string name="policy_your_data_stays_with_you_title">Ang iyong datos ay nananatili sa iyo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nirerespeto namin ang iyong privacy. Ang app na ito
 		ay gumagana nang ganap offline at hindi nangongolekta o nagbabahagi ng
 		anumang data. Ang patakarang ito ay nalalapat sa lahat ng mga
@@ -83,10 +83,9 @@
 	<string name="privacy_policy_your_rights_body">Dahil walang kinokolektang data, wala kang maaaring
 		i-access, i-update, o i-delete sa pamamagitan namin. Lahat ng data ay
 		iyo at nananatili lamang sa iyong device.</string>
-	<string name="privacy_policy_contact_information_title">Impormasyon sa Pakikipag-ugnayan</string>
+	<string name="policy_contact_information_title">Impormasyon sa Pakikipag-ugnayan</string>
 	<string name="privacy_policy_changes_title">Mga pagbabago sa patakarang ito</string>
-	<string name="privacy_policy_effective_date_title">Petsa ng bisa</string>
-	<string name="privacy_policy_email_subject">Pagtatanong sa Patakaran sa Privacy – %s</string>
+	<string name="policy_effective_date_title">Petsa ng bisa</string>
 	<string name="policies">Mga Patakaran</string>
 	<string name="privacy_policy_contact_information_body">Kung mayroon kang anumang mga tanong o alalahanin
 		tungkol sa Patakaran sa Privacy na ito, maaari mo kaming kontakin sa
@@ -102,4 +101,61 @@
 		na ito. Hinihikayat namin ang mga gumagamit na suriin ang patakarang
 		ito paminsan-minsan upang manatiling alam kung paano pinangangasiwaan
 		ang kanilang impormasyon.</string>
+	<string name="terms_of_service">Mga Tuntunin ng Serbisyo</string>
+	<string name="dialog_first_launch_agree_title">Sumang-ayon upang magpatuloy</string>
+	<string name="agree_to_terms">Sumasang-ayon ako</string>
+	<string name="dialog_first_launch_terms_message">Para magamit ang app na ito, kailangan mong basahin
+		at tanggapin ang aming Mga Tuntunin ng Serbisyo. Gamitin ang button sa
+		ibaba para basahin ang mga ito.</string>
+	<string name="terms_of_service_about_title">Tungkol sa App</string>
+	<string name="terms_of_service_use_title">Paggamit ng App</string>
+	<string name="terms_of_service_intellectual_property_title">Intelektuwal na Ari-arian</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Pagtanggi sa mga garantiya</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitasyon ng Pananagutan</string>
+	<string name="terms_of_service_termination_title">Pagtatapos</string>
+	<string name="terms_of_service_governing_law_title">Namamayaning Batas</string>
+	<string name="terms_of_service_changes_title">Mga Pagbabago sa mga Tuntunin na Ito</string>
+	<string name="terms_of_service_about_body">Ang application na ito ay isang personal na
+		kasangkapan sa pagsubaybay ng gastos. Ito ay gumagana nang buo offline
+		at idinisenyo para sa mga gumagamit ng lahat ng edad. Ang app ay hindi
+		nangangailangan ng rehistrasyon, hindi nagpapakita ng mga ad, at hindi
+		nangongolekta o nagpapadala ng anumang personal na impormasyon.</string>
+	<string name="terms_of_service_use_body">Sumasang-ayon ka na gamitin lamang ang App para sa
+		mga legal na layunin at sa paraang hindi lumalabag sa karapatan ng iba
+		o pumipigil sa kanilang paggamit ng App. Hindi ka dapat magtangkang
+		i-reverse engineer, i-decompile, o baguhin ang App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ang App ay ibinibigay “kung ano ito” nang walang
+		anumang warranty, hayag man o ipinapahiwatig, kabilang ngunit hindi
+		limitado sa warranty ng pagiging maibebenta, pagiging angkop para sa
+		isang partikular na layunin, o hindi paglabag. Hindi namin
+		ginagarantiya na ang App ay walang error o gagana nang tuloy-tuloy.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ang App ay hindi nangongolekta, nag-iimbak, o
+		nagbabahagi ng anumang personal o paggamit na datos. Ang lahat ng
+		impormasyong iyong ipinasok ay mananatiling naka-imbak nang lokal sa
+		iyong device sa ilalim ng iyong kontrol.</string>
+	<string name="terms_of_service_intellectual_property_body">Lahat ng karapatan, titulo, at interes sa at para
+		sa App, kabilang ang disenyo, mga tampok, at code nito, ay pag-aari ng
+		may hawak ng copyright.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Sa pinakamalawak na pinapahintulutan ng batas, ang
+		may-ari ay hindi mananagot sa anumang pinsala o pagkawala na dulot ng
+		iyong paggamit ng App, kabilang ngunit hindi limitado sa pagkawala ng
+		datos, kita, o mga pagkakataong pangnegosyo.</string>
+	<string name="terms_of_service_termination_body">Maaaring ihinto ng may-ari ang pag-aalok o
+		pagsuporta sa App anumang oras nang walang paunang abiso.</string>
+	<string name="terms_of_service_governing_law_body">Ang mga Tuntuning ito ay pamamahalaan ng mga batas
+		ng iyong bansang tinitirhan, nang walang pagsasaalang-alang sa mga
+		prinsipyong may kaugnayan sa salungatan ng batas. Kung naaangkop,
+		ipatutupad din ang mga sapilitang batas sa proteksyon ng mamimili ng
+		iyong bansa.</string>
+	<string name="terms_of_service_changes_body">Maaaring i-update ang mga Tuntunin paminsan-minsan.
+		Ang patuloy na paggamit ng App pagkatapos ng mga pagbabago ay
+		nangangahulugang tinatanggap mo ang na-update na mga Tuntunin.</string>
+	<string name="terms_of_service_contact_information_body">Kung mayroon kang anumang mga tanong tungkol sa mga
+		Tuntunin na ito, kailangan ng paglilinaw, o nais mag-ulat ng isyu sa
+		App, maaari mong kontakin ang may-ari sa mga detalye ng
+		pakikipag-ugnayan sa ibaba.</string>
+	<string name="terms_of_service_effective_date_body">Ang “Petsa ng Pagkakabisa” ay ang petsa kung kailan
+		nagsisimulang ipatupad ang mga Tuntuning ito. Anumang susunod na mga
+		update ay magsasama ng binagong petsa ng pagkakabisa upang ipakita
+		kung kailan magkakabisa ang mga pagbabago.</string>
 </resources>

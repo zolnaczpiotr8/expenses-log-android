@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Simbolių skaičius: %d. Simbolių riba: %d</string>
 	<string name="privacy_policy">Privatumo politika</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Jūsų duomenys lieka pas jus</string>
+	<string name="policy_your_data_stays_with_you_title">Jūsų duomenys lieka pas jus</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Gerbiame jūsų privatumą. Ši programa veikia
 		visiškai neprisijungus prie interneto ir nerenka bei nesidalija
 		jokiais duomenimis. Ši politika taikoma visiems vartotojams visame
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Kadangi duomenys nerenkami, per mus nėra nieko, ką
 		galėtumėte pasiekti, atnaujinti ar ištrinti. Visi duomenys priklauso
 		jums ir lieka tik jūsų įrenginyje.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktinė informacija</string>
+	<string name="policy_contact_information_title">Kontaktinė informacija</string>
 	<string name="privacy_policy_changes_title">Šios politikos pakeitimai</string>
-	<string name="privacy_policy_effective_date_title">Įsigaliojimo data</string>
-	<string name="privacy_policy_email_subject">Privatumo Politikos Užklausa – %s</string>
+	<string name="policy_effective_date_title">Įsigaliojimo data</string>
 	<string name="policies">Politika</string>
 	<string name="privacy_policy_contact_information_body">Jei turite klausimų ar rūpesčių dėl šios Privatumo
 		politikos, galite su mumis susisiekti el. paštu.</string>
@@ -96,4 +95,55 @@
 		pakeitimai, kaip programa tvarko jūsų duomenis, bus atspindėti
 		atnaujintoje šios politikos versijoje. Raginame vartotojus periodiškai
 		peržiūrėti šią politiką, kad žinotų, kaip yra tvarkoma jų informacija.</string>
+	<string name="terms_of_service">Paslaugų teikimo sąlygos</string>
+	<string name="dialog_first_launch_agree_title">Sutikite tęsti</string>
+	<string name="agree_to_terms">Sutinku</string>
+	<string name="dialog_first_launch_terms_message">Norėdami naudotis šia programėle, turite
+		perskaityti ir sutikti su mūsų Paslaugų teikimo sąlygomis. Norėdami
+		jas perskaityti, naudokite toliau esantį mygtuką.</string>
+	<string name="terms_of_service_about_title">Apie Programėlę</string>
+	<string name="terms_of_service_use_title">Programėlės naudojimas</string>
+	<string name="terms_of_service_intellectual_property_title">Intelektinė Nuosavybė</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Garantijų atsisakymas</string>
+	<string name="terms_of_service_limitation_of_liability_title">Atsakomybės Apribojimas</string>
+	<string name="terms_of_service_termination_title">Nutraukimas</string>
+	<string name="terms_of_service_governing_law_title">Taikytina teisė</string>
+	<string name="terms_of_service_changes_title">Šių Sąlygų Pakeitimai</string>
+	<string name="terms_of_service_about_body">Ši programėlė yra asmeninių išlaidų sekimo įrankis.
+		Ji veikia visiškai neprisijungus ir yra skirta visų amžiaus grupių
+		vartotojams. Programėlė nereikalauja registracijos, nerodo reklamų ir
+		nerenka bei neperduoda jokios asmeninės informacijos.</string>
+	<string name="terms_of_service_use_body">Jūs sutinkate naudoti Programėlę tik teisėtais
+		tikslais ir taip, kad nebūtų pažeidžiamos kitų teisės ar ribojamas jų
+		naudojimasis Programėle. Jūs neturėtumėte bandyti atlikti atvirkštinę
+		inžineriją, dekompiliuoti ar modifikuoti Programėlę.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Programėlė teikiama “tokia, kokia yra” be jokių
+		aiškių ar numanomų garantijų, įskaitant, bet neapsiribojant, tinkamumo
+		parduoti, tinkamumo konkrečiam tikslui ar nepažeidimo garantijas. Mes
+		negarantuojame, kad programėlė bus be klaidų ar veiks be pertraukų.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Programa nesurinkta, nearchivuoja ir nedalija jokių
+		asmeninių ar naudojimo duomenų. Visi duomenys, kuriuos įvedate, lieka
+		saugomi lokaliai jūsų įrenginyje, jūsų kontrolėje.</string>
+	<string name="terms_of_service_intellectual_property_body">Visos su programa susijusios teisės, nuosavybės
+		teisė ir interesai, įskaitant jos dizainą, funkcijas ir kodą,
+		priklauso autorių teisių savininkui.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Kiek tai leidžia įstatymai, savininkas neatsako už
+		jokius nuostolius ar žalą, atsiradusius dėl jūsų naudojimosi
+		programėle, įskaitant, bet neapsiribojant, duomenų, pelno ar verslo
+		galimybių praradimą.</string>
+	<string name="terms_of_service_termination_body">Savininkas gali bet kuriuo metu nustoti siūlyti ar
+		palaikyti programėlę be išankstinio įspėjimo.</string>
+	<string name="terms_of_service_governing_law_body">Šias Sąlygas reglamentuoja jūsų gyvenamosios šalies
+		įstatymai, neatsižvelgiant į įstatymų kolizijos principus. Kai
+		taikoma, bus taikomi ir privalomieji jūsų šalies vartotojų apsaugos
+		įstatymai.</string>
+	<string name="terms_of_service_changes_body">Šios sąlygos gali būti retkarčiais atnaujinamos.
+		Tęsdami programėlės naudojimą po pakeitimų, jūs sutinkate su
+		atnaujintomis sąlygomis.</string>
+	<string name="terms_of_service_contact_information_body">Jei turite klausimų dėl šių Sąlygų, reikia
+		paaiškinimo arba norite pranešti apie problemą su Programa, galite
+		susisiekti su savininku žemiau pateiktais kontaktais.</string>
+	<string name="terms_of_service_effective_date_body">„Įsigaliojimo data“ yra data, nuo kurios taikomos
+		šios Sąlygos. Bet kokie būsimi atnaujinimai apims peržiūrėtą
+		įsigaliojimo datą, kad būtų nurodyta, kada pakeitimai įsigalioja.</string>
 </resources>

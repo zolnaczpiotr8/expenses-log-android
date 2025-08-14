@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Signokvanto: %d. Signolimo: %d</string>
 	<string name="privacy_policy">Privateca Politiko</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Viaj datumoj restas kun vi</string>
+	<string name="policy_your_data_stays_with_you_title">Viaj datumoj restas kun vi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ni respektas vian privatecon. Ĉi tiu aplikaĵo
 		funkcias tute senrete kaj ne kolektas nek dividas iujn datumojn. Ĉi
 		tiu politiko validas por ĉiuj uzantoj tutmonde, inkluzive de infanoj
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Ĉar neniuj datumoj estas kolektataj, ne estas io
 		alirebla, ĝisdatigebla aŭ forigebla per ni. Ĉiuj datumoj apartenas al
 		vi kaj restas ekskluzive en via aparato.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktinformoj</string>
+	<string name="policy_contact_information_title">Kontaktinformoj</string>
 	<string name="privacy_policy_changes_title">Ŝanĝoj al ĉi tiu politiko</string>
-	<string name="privacy_policy_effective_date_title">Efika dato</string>
-	<string name="privacy_policy_email_subject">Demando pri Privateca Politiko – %s</string>
+	<string name="policy_effective_date_title">Efika dato</string>
 	<string name="policies">Politikoj</string>
 	<string name="privacy_policy_contact_information_body">Se vi havas demandojn aŭ zorgojn pri ĉi tiu
 		Privateca Politiko, vi povas kontakti nin per retpoŝto.</string>
@@ -96,4 +95,55 @@
 		ĝisdatigita versio de ĉi tiu politiko. Ni instigas uzantojn periode
 		revizii ĉi tiun politikon por resti informitaj pri kiel iliaj informoj
 		estas traktataj.</string>
+	<string name="terms_of_service">Kondiĉoj de Servo</string>
+	<string name="dialog_first_launch_agree_title">Konsenti por daŭrigi</string>
+	<string name="agree_to_terms">Mi konsentas</string>
+	<string name="dialog_first_launch_terms_message">Por uzi ĉi tiun apon, vi devas legi kaj akcepti
+		niajn Kondiĉojn de Servo. Uzu la suban butonon por legi ilin.</string>
+	<string name="terms_of_service_about_title">Pri la Aplikaĵo</string>
+	<string name="terms_of_service_use_title">Uzo de la Aplikaĵo</string>
+	<string name="terms_of_service_intellectual_property_title">Intelekta Proprieto</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Malgarantio</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limigo de Respondeco</string>
+	<string name="terms_of_service_termination_title">Fino</string>
+	<string name="terms_of_service_governing_law_title">Reganta Leĝo</string>
+	<string name="terms_of_service_changes_title">Ŝanĝoj al ĉi tiuj Kondiĉoj</string>
+	<string name="terms_of_service_about_body">Ĉi tiu aplikaĵo estas ilo por spuri personajn
+		elspezojn. Ĝi funkcias tute senrete kaj estas desegnita por uzantoj de
+		ĉiuj aĝoj. La aplikaĵo ne postulas registriĝon, ne montras reklamojn,
+		kaj ne kolektas aŭ transdonas ajnajn personajn informojn.</string>
+	<string name="terms_of_service_use_body">Vi konsentas uzi la Apon nur por laŭleĝaj celoj kaj
+		tiel, ke ĝi ne malobservu la rajtojn de aliaj aŭ malhelpu ilian uzon
+		de la Apo. Vi ne rajtas provi fari inversan inĝenieradon, malkompili
+		aŭ modifi la Apon.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">La Aplikaĵo estas provizata “kiel ĝi estas” sen
+		ajnaj garantioj, ĉu esprimaj ĉu implicaj, inkluzive sed ne limigite al
+		garantioj de komerceblo, taŭgeco por specifa celo, aŭ ne-malobservado.
+		Ni ne garantias, ke la Aplikaĵo estos sen eraroj aŭ ke ĝi funkcios
+		seninterrompe.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">La programo ne kolektas, konservas aŭ kundividigas
+		iujn personajn aŭ uzajn datumojn. Ĉiuj informoj, kiujn vi enmetas,
+		restas lokale konservitaj en via aparato sub via kontrolo.</string>
+	<string name="terms_of_service_intellectual_property_body">Ĉiuj rajtoj, titolo kaj intereso en kaj al la
+		Aplikaĵo, inkluzive ĝian dezajnon, funkciojn kaj kodon, apartenas al
+		la posedanto de la kopirajto.</string>
+	<string name="terms_of_service_limitation_of_liability_body">En la plena amplekso permesita de la leĝo, la
+		posedanto ne respondecas pri ia damaĝo aŭ perdo okazinta pro via uzo
+		de la Aplikacio, inkluzive sed ne limigite al perdo de datumoj,
+		profitoj aŭ komercaj ŝancoj.</string>
+	<string name="terms_of_service_termination_body">La posedanto povas ĉesigi proponi aŭ subteni la
+		apon iam ajn sen antaŭa avizo.</string>
+	<string name="terms_of_service_governing_law_body">Ĉi tiuj Kondiĉoj estos regataj de la leĝoj de via
+		loĝlando, sendepende de la principoj de konflikto de leĝoj. Kie
+		aplikebla, ankaŭ devigaj leĝoj pri konsumantprotekto de via lando
+		aplikiĝos.</string>
+	<string name="terms_of_service_changes_body">Ĉi tiuj Kondiĉoj povas esti ĝisdatigitaj de tempo
+		al tempo. Daŭrigita uzo de la Aplikaĵo post ŝanĝoj signifas, ke vi
+		akceptas la ĝisdatigitajn Kondiĉojn.</string>
+	<string name="terms_of_service_contact_information_body">Se vi havas demandojn pri ĉi tiuj Kondiĉoj, bezonas
+		klarigon aŭ volas raporti problemon pri la Apo, vi povas kontakti la
+		posedanton per la subaj kontaktinformoj.</string>
+	<string name="terms_of_service_effective_date_body">La “Efektiva Dato” estas la dato ekde kiu ĉi tiuj
+		Kondiĉoj validas. Ĉiuj estontaj ĝisdatigoj inkluzivos reviziitan
+		efektivan daton por indiki kiam la ŝanĝoj ekvalidos.</string>
 </resources>

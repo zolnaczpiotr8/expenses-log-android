@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">અક્ષરોની સંખ્યા: %d. અક્ષર મર્યાદા: %d</string>
 	<string name="privacy_policy">ગોપનીયતા નીતિ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">તમારું ડેટા તમારા સાથે રહે છે</string>
+	<string name="policy_your_data_stays_with_you_title">તમારું ડેટા તમારા સાથે રહે છે</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">અમે તમારી પ્રાઇવસીનો માન રાખીએ છીએ. આ એપ્લિકેશન
 		સંપૂર્ણપણે ઑફલાઇન કામ કરે છે અને કોઈ ડેટા એકત્રિત કે વહેંચતું નથી. આ
 		નીતિ સમગ્ર વિશ્વના તમામ વપરાશકર્તાઓ માટે લાગૂ પડે છે, જેમાં તમામ વયના
@@ -79,10 +79,9 @@
 	<string name="privacy_policy_your_rights_body">કોઈ ડેટા એકત્રિત થતો નથી, તેથી તમારું અમારી પાસે
 		પહોંચવું, અપડેટ કરવું કે કાઢી નાખવું શક્ય નથી. બધો ડેટા તમારાનો છે અને
 		માત્ર તમારા ઉપકરણમાં જ રહે છે.</string>
-	<string name="privacy_policy_contact_information_title">સંપર્ક માહિતી</string>
+	<string name="policy_contact_information_title">સંપર્ક માહિતી</string>
 	<string name="privacy_policy_changes_title">આ નીતિમાં ફેરફાર</string>
-	<string name="privacy_policy_effective_date_title">અમલમાં આવતી તારીખ</string>
-	<string name="privacy_policy_email_subject">ગોપનીયતા નીતિ સંબંધિત પૂછપરછ – %s</string>
+	<string name="policy_effective_date_title">અમલમાં આવતી તારીખ</string>
 	<string name="policies">નીતિઓ</string>
 	<string name="privacy_policy_contact_information_body">જો તમને આ ગોપનીયતા નીતિ અંગે કોઈ પ્રશ્નો કે ચિંતાઓ
 		હોય, તો તમે અમારો સંપર્ક ઇમેઇલ દ્વારા કરી શકો છો.</string>
@@ -95,4 +94,52 @@
 		સંસ્કરણમાં દર્શાવવામાં આવશે. અમે વપરાશકર્તાઓને પ્રોત્સાહન આપીએ છીએ કે
 		તેઓ સમયાંતરે આ નીતિની સમીક્ષા કરે જેથી તેમને પોતાની માહિતી કેવી રીતે
 		હેન્ડલ થાય છે તેની જાણ રહે.</string>
+	<string name="terms_of_service">સેવાની શરતો</string>
+	<string name="dialog_first_launch_agree_title">આગળ વધવા માટે સંમતિ આપો</string>
+	<string name="agree_to_terms">હું સંમત છું</string>
+	<string name="dialog_first_launch_terms_message">આ એપ વાપરવા માટે, તમને અમારી સેવા શરતો વાંચવી અને
+		સ્વીકારવી પડશે. તે વાંચવા માટે નીચે આપેલ બટનનો ઉપયોગ કરો.</string>
+	<string name="terms_of_service_about_title">એપ વિશે</string>
+	<string name="terms_of_service_use_title">એપ્લિકેશનનો ઉપયોગ</string>
+	<string name="terms_of_service_intellectual_property_title">બૌદ્ધિક સંપત્તિ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">વોરંટીનો અણકાર</string>
+	<string name="terms_of_service_limitation_of_liability_title">જવાબદારીની મર્યાદા</string>
+	<string name="terms_of_service_termination_title">સમાપ્તિ</string>
+	<string name="terms_of_service_governing_law_title">શાસક કાયદો</string>
+	<string name="terms_of_service_changes_title">આ શરતોમાં ફેરફારો</string>
+	<string name="terms_of_service_about_body">આ એપ્લિકેશન વ્યક્તિગત ખર્ચ ટ્રેકિંગ સાધન છે. તે
+		સંપૂર્ણપણે ઑફલાઇન કાર્ય કરે છે અને દરેક ઉંમરના વપરાશકર્તાઓ માટે ડિઝાઇન
+		કરવામાં આવી છે. એપ્લિકેશનને નોંધણીની જરૂર નથી, જાહેરાતો બતાવતી નથી અને
+		કોઈપણ વ્યક્તિગત માહિતી એકત્રિત કે પ્રસારિત કરતી નથી.</string>
+	<string name="terms_of_service_use_body">તમે માત્ર કાનૂની હેતુઓ માટે અને અન્યના અધિકારોનું
+		ઉલ્લંઘન કર્યા વિના અથવા તેમની એપ્લિકેશનના ઉપયોગને મર્યાદિત કર્યા વિના
+		જ એપનો ઉપયોગ કરવા સંમત છો. તમે એપને રિવર્સ એન્જિનિયર, ડીકમ્પાઇલ અથવા
+		સુધારવાનો પ્રયાસ ન કરવો જોઈએ.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">એપ “જેમ છે તેમ” કોઈપણ પ્રકારની સ્પષ્ટ અથવા અનુમાનિત
+		વોરંટી વિના પ્રદાન કરવામાં આવે છે, જેમાં વેપારીક્ષમતા, કોઈ ખાસ હેતુ
+		માટે યોગ્યતા અથવા અવલંઘન ન થવાની વોરંટીનો સમાવેશ થાય છે પરંતુ એટલું
+		પૂરતું નથી. અમે કોઈ વોરંટી આપતા નથી કે એપ ભૂલમુક્ત હશે અથવા તે અવરોધ
+		વિના કાર્ય કરશે.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">એપ્લિકેશન કોઈપણ પ્રકારનો વ્યક્તિગત અથવા ઉપયોગ ડેટા
+		એકત્ર, સ્ટોર કે શેર નથી કરતી. તમે દાખલ કરેલી તમામ માહિતી તમારા ડિવાઇસ
+		પર સ્થાનિક રૂપે રહેછે, તમારી નિયંત્રણ હેઠળ.</string>
+	<string name="terms_of_service_intellectual_property_body">એપ, તેના ડિઝાઇન, લક્ષણો અને કોડ સહિત, તેમાંના તમામ
+		અધિકારો, શીર્ષક અને હિતો કૉપિરાઇટ માલિકના છે.</string>
+	<string name="terms_of_service_limitation_of_liability_body">કાયદાથી મંજૂરી આપવામાં આવેલી મહત્તમ હદ સુધી, માલિક
+		તમારા એપ્લિકેશનના ઉપયોગથી થતા કોઈપણ નુકસાન અથવા નુકસાન માટે જવાબદાર
+		નહીં હોય, જેમાં માહિતી, નફો અથવા વ્યાવસાયિક તકોના નુકસાનનો સમાવેશ થાય
+		છે પરંતુ તે સુધી મર્યાદિત નથી.</string>
+	<string name="terms_of_service_termination_body">માલિક કોઈપણ સમયે અગાઉની સૂચના વિના એપ્લિકેશનની ઓફર
+		અથવા સપોર્ટ બંધ કરી શકે છે.</string>
+	<string name="terms_of_service_governing_law_body">આ શરતો તમારા નિવાસ દેશના કાયદાઓ દ્વારા શાસિત થશે,
+		કાયદાના સંઘર્ષના સિદ્ધાંતોની પરવા કર્યા વિના. જ્યાં લાગુ પડે, ત્યાં
+		તમારા દેશના ફરજિયાત ગ્રાહક સંરક્ષણ કાયદાઓ પણ લાગુ પડશે.</string>
+	<string name="terms_of_service_changes_body">આ શરતો સમયાંતરે અપડેટ થઈ શકે છે. ફેરફારો થયા બાદ
+		એપ્લિકેશનનો સતત ઉપયોગ એ સૂચવે છે કે તમે અપડેટ કરેલી શરતો સ્વીકારો છો.</string>
+	<string name="terms_of_service_contact_information_body">જો તમને આ શરતો વિશે કોઈ પ્રશ્ન હોય, સ્પષ્ટીકરણની
+		જરૂર હોય, અથવા એપ્લિકેશન સાથેની કોઈ સમસ્યા જણાવવી હોય, તો તમે નીચે
+		આપેલી સંપર્ક વિગતો પર માલિકનો સંપર્ક કરી શકો છો.</string>
+	<string name="terms_of_service_effective_date_body">“પ્રભાવી તારીખ” એ તે તારીખ છે જેના પરથી આ શરતો લાગુ
+		પડે છે. ભવિષ્યના કોઈપણ અપડેટ્સમાં બદલાવો ક્યારે અમલમાં આવશે તે
+		દર્શાવવા માટે સુધારેલી પ્રભાવી તારીખનો સમાવેશ કરવામાં આવશે.</string>
 </resources>

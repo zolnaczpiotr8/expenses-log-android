@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Kantite karaktè: %d. Limit karaktè: %d</string>
 	<string name="privacy_policy">Règleman sou vi prive</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Done ou rete avèk ou</string>
+	<string name="policy_your_data_stays_with_you_title">Done ou rete avèk ou</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nou respekte vi prive ou. Aplikasyon sa a fonksyone
 		nèt offline epi li pa kolekte oswa pataje okenn done. Règleman sa a
 		aplike pou tout itilizatè atravè lemond, enkli timoun nan tout laj.
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Paske pa gen okenn done ki ranmase, pa gen anyen ou
 		ka jwenn aksè, mete ajou oswa efase atravè nou. Tout done yo se pa ou
 		epi yo rete sèlman sou aparèy ou an.</string>
-	<string name="privacy_policy_contact_information_title">Enfòmasyon Kontak</string>
+	<string name="policy_contact_information_title">Enfòmasyon Kontak</string>
 	<string name="privacy_policy_changes_title">Chanjman nan politik sa a</string>
-	<string name="privacy_policy_effective_date_title">Dat efikasite</string>
-	<string name="privacy_policy_email_subject">Demann sou Règleman sou Konfidansyalite – %s</string>
+	<string name="policy_effective_date_title">Dat efikasite</string>
 	<string name="policies">Règleman yo</string>
 	<string name="privacy_policy_contact_information_body">Si w gen nenpòt kesyon oswa enkyetid konsènan
 		Règleman sou Vi Prive sa a, ou ka kontakte nou pa imèl.</string>
@@ -96,4 +95,54 @@
 		reflete nan yon nouvo vèsyon règleman sa a. Nou ankouraje itilizatè yo
 		revize règleman sa a detanzantan pou yo rete enfòme sou kijan
 		enfòmasyon yo trete.</string>
+	<string name="terms_of_service">Tèm Sèvis</string>
+	<string name="dialog_first_launch_agree_title">Dakò pou kontinye</string>
+	<string name="agree_to_terms">Mwen dakò</string>
+	<string name="dialog_first_launch_terms_message">Pou w sèvi ak aplikasyon sa a, ou dwe li epi
+		aksepte Tèm Sèvis nou yo. Sèvi ak bouton ki pi ba a pou w li yo.</string>
+	<string name="terms_of_service_about_title">Sou Aplikasyon an</string>
+	<string name="terms_of_service_use_title">Itilizasyon aplikasyon an</string>
+	<string name="terms_of_service_intellectual_property_title">Pwopriyete Entèlektyèl</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Refize garanti yo</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitasyon Responsablite</string>
+	<string name="terms_of_service_termination_title">Revokasyon</string>
+	<string name="terms_of_service_governing_law_title">Lwa ki aplikab</string>
+	<string name="terms_of_service_changes_title">Chanjman nan Tèm sa yo</string>
+	<string name="terms_of_service_about_body">Aplikasyon sa a se yon zouti pou swiv depans
+		pèsonèl. Li fonksyone nèt san koneksyon epi li fèt pou itilizatè tout
+		laj. Aplikasyon an pa mande enskripsyon, li pa montre piblisite, e li
+		pa kolekte oswa transmèt okenn enfòmasyon pèsonèl.</string>
+	<string name="terms_of_service_use_body">Ou dakò pou itilize App la sèlman pou rezon legal
+		epi nan yon fason ki pa vyole dwa lòt moun oswa limite itilizasyon yo
+		nan App la. Ou pa dwe eseye fè reverse engineering, dekonpile oswa
+		modifye App la.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikasyon an bay “jan li ye a” san okenn garanti
+		de okenn kalite, swa eksprime oswa enplisit, ki gen ladan men pa
+		limite a garanti pou komèsyalizasyon, adaptasyon pou yon objektif
+		patikilye, oswa pa vyolasyon. Nou pa garanti ke Aplikasyon an pral san
+		erè oswa ke li pral fonksyone san entèripsyon.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikasyon an pa kolekte, pa estoke, pa pataje
+		okenn done pèsonèl oswa sou itilizasyon. Tout enfòmasyon ou antre rete
+		estoke lokalman sou aparèy ou anba kontwòl ou.</string>
+	<string name="terms_of_service_intellectual_property_body">Tout dwa, tit, ak enterè nan ak pou Aplikasyon an,
+		enkli konsepsyon li, karakteristik li yo, ak kòd li, se pwopriyete
+		pwopriyetè dwa otè yo.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Nan pi gwo limit lalwa pèmèt, pwopriyetè a pap
+		responsab pou okenn domaj oswa pèt ki soti nan itilizasyon aplikasyon
+		an, ki gen ladan men pa limite a pèt done, pwofi oswa opòtinite
+		biznis.</string>
+	<string name="terms_of_service_termination_body">Pwopriyetè a ka sispann ofri oswa sipòte aplikasyon
+		an nenpòt ki lè san avi davans.</string>
+	<string name="terms_of_service_governing_law_body">Tèm sa yo ap gouvène dapre lwa peyi kote w ap viv
+		la, san yo pa pran an konsiderasyon prensip konfli lwa yo. Lè sa
+		aplikab, lwa obligatwa pwoteksyon konsomatè nan peyi w ap aplike tou.</string>
+	<string name="terms_of_service_changes_body">Tèm sa yo ka mete ajou detanzantan. Kontinye
+		itilize Aplikasyon an apre yo fin fè chanjman vle di ou aksepte Tèm ki
+		mete ajou yo.</string>
+	<string name="terms_of_service_contact_information_body">Si ou gen nenpòt kesyon sou Tèm sa yo, bezwen
+		klarifikasyon, oswa vle rapòte yon pwoblèm ak Aplikasyon an, ou ka
+		kontakte pwopriyetè a nan detay kontak ki anba yo.</string>
+	<string name="terms_of_service_effective_date_body">“Dat Efektif” la se dat lè Tèm sa yo kòmanse
+		aplike. Nenpòt mizajou nan lavni ap gen ladan yon dat efektif modifye
+		pou endike kilè chanjman yo ap pran efè.</string>
 </resources>

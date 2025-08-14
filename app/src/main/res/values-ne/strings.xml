@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">अक्षर संख्या: %d। अक्षर सीमा: %d</string>
 	<string name="privacy_policy">गोपनीयता नीति</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">तपाईंको डाटा तपाईं संगै रहन्छ</string>
+	<string name="policy_your_data_stays_with_you_title">तपाईंको डाटा तपाईं संगै रहन्छ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">हामी तपाईंको गोपनीयतालाई सम्मान गर्छौं। यो एप पूर्ण
 		रूपमा अफलाइन रूपमा काम गर्छ र कुनै पनि डेटा सङ्कलन वा साझेदारी गर्दैन।
 		यो नीति विश्वभरिका सबै प्रयोगकर्ताहरूमा लागू हुन्छ, जसमा सबै उमेरका
@@ -79,10 +79,9 @@
 	<string name="privacy_policy_your_rights_body">कुनै डाटा सङ्कलन नगरिएकाले, तपाईंले हामीमार्फत
 		पहुँच, अद्यावधिक वा मेट्न सक्ने केही छैन। सबै डाटा तपाईंको हो र
 		तपाईंको यन्त्रमै मात्र रहन्छ।</string>
-	<string name="privacy_policy_contact_information_title">सम्पर्क जानकारी</string>
+	<string name="policy_contact_information_title">सम्पर्क जानकारी</string>
 	<string name="privacy_policy_changes_title">यस नीतिमा भएका परिवर्तनहरू</string>
-	<string name="privacy_policy_effective_date_title">लागू मिति</string>
-	<string name="privacy_policy_email_subject">गोपनीयता नीति सम्बन्धी सोधपुछ – %s</string>
+	<string name="policy_effective_date_title">लागू मिति</string>
 	<string name="policies">नीतिहरू</string>
 	<string name="privacy_policy_contact_information_body">यदि तपाईंलाई यो गोपनीयता नीतिसम्बन्धी कुनै प्रश्न
 		वा चिन्ता छ भने, तपाईं हामीलाई इमेलमार्फत सम्पर्क गर्न सक्नुहुन्छ।</string>
@@ -95,4 +94,55 @@
 		परिवर्तनहरू यो नीतिको अद्यावधिक संस्करणमा समावेश गरिनेछ। तपाईंको
 		जानकारी कसरी ह्यान्डल गरिन्छ भन्ने जानकारी रहिरहोस् भनेर हामी
 		प्रयोगकर्ताहरूलाई यो नीति समय समयमा समीक्षा गर्न प्रोत्साहित गर्छौं।</string>
+	<string name="terms_of_service">सेवा सर्तहरू</string>
+	<string name="dialog_first_launch_agree_title">जारी राख्न सहमति दिनुहोस्</string>
+	<string name="agree_to_terms">म सहमत छु</string>
+	<string name="dialog_first_launch_terms_message">यो एप प्रयोग गर्नको लागि तपाईंले हाम्रो सेवाका
+		सर्तहरू पढेर स्वीकार गर्नुपर्छ। पढ्नका लागि तलको बटन प्रयोग गर्नुहोस्।</string>
+	<string name="terms_of_service_about_title">एपको बारेमा</string>
+	<string name="terms_of_service_use_title">अनुप्रयोगको प्रयोग</string>
+	<string name="terms_of_service_intellectual_property_title">बौद्धिक सम्पत्ति</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">वारेन्टी अस्वीकरण</string>
+	<string name="terms_of_service_limitation_of_liability_title">जिम्मेवारीको सीमा</string>
+	<string name="terms_of_service_termination_title">समाप्ति</string>
+	<string name="terms_of_service_governing_law_title">प्रचलित कानून</string>
+	<string name="terms_of_service_changes_title">यी सर्तहरूमा परिवर्तनहरू</string>
+	<string name="terms_of_service_about_body">यो अनुप्रयोग व्यक्तिगत खर्च ट्र्याक गर्ने उपकरण हो।
+		यो पूर्ण रूपमा अफलाइन सञ्चालन हुन्छ र सबै उमेर समूहका प्रयोगकर्ताहरूको
+		लागि डिजाइन गरिएको हो। एपले दर्ता आवश्यक पर्दैन, विज्ञापन देखाउँदैन र
+		कुनै पनि व्यक्तिगत जानकारी संकलन वा प्रसारण गर्दैन।</string>
+	<string name="terms_of_service_use_body">तपाईंले केवल कानूनी उद्देश्यका लागि र अरूको अधिकार
+		उल्लङ्घन नगर्ने वा उनीहरूको एप प्रयोगमा प्रतिबन्ध नलगाउने गरी एप
+		प्रयोग गर्न सहमति जनाउनुहुन्छ। तपाईंले एपलाई रिभर्स इन्जिनियर,
+		डिकम्पाइल वा परिमार्जन गर्ने प्रयास गर्नु हुँदैन।</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">एप “जस्तो छ” त्यस्तो नै कुनै किसिमको स्पष्ट वा
+		अप्रत्यक्ष ग्यारेन्टी बिना प्रदान गरिएको हो, जसमा व्यापारयोग्यता, कुनै
+		विशेष प्रयोजनको लागि उपयुक्तता, वा उल्लङ्घन नगर्ने ग्यारेन्टीहरू
+		समावेश छन् तर सीमित छैनन्। हामी एप त्रुटिरहित हुनेछ वा अवरोध बिना
+		सञ्चालन हुनेछ भनेर ग्यारेन्टी दिँदैनौं।</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">एपले कुनै पनि व्यक्तिगत वा प्रयोग डाटा सङ्कलन,
+		भण्डारण, वा साझा गर्दैन। तपाईंले प्रविष्ट गर्ने सबै जानकारी तपाईंको
+		उपकरणमै स्थानीय रूपमा राखिन्छ र तपाईंको नियन्त्रणमा हुन्छ।</string>
+	<string name="terms_of_service_intellectual_property_body">एपमा रहेका र त्यससँग सम्बन्धित सम्पूर्ण अधिकार,
+		शीर्षक र चासो, जसमा यसको डिजाइन, विशेषता र कोड समेत पर्छ, कपीराइट
+		मालिकको स्वामित्वमा छन्।</string>
+	<string name="terms_of_service_limitation_of_liability_body">कानुनले अनुमति दिएको उच्चतम सीमा भित्र, मालिक
+		तपाईंको एप प्रयोगबाट उत्पन्न हुने कुनै पनि क्षति वा नोक्सानीको लागि
+		जिम्मेवार हुँदैन, जसमा डेटा, नाफा वा व्यावसायिक अवसरको हानि समावेश छ
+		तर यसमा मात्र सीमित छैन।</string>
+	<string name="terms_of_service_termination_body">मालिकले कुनै पनि समयमा पूर्वसूचना बिना एप प्रस्ताव
+		वा समर्थन रोक्न सक्छ।</string>
+	<string name="terms_of_service_governing_law_body">यी सर्ताहरू तपाईंको बसोबासको देशको कानुनद्वारा शासन
+		गरिनेछ, कानुनको द्वन्द्वका सिद्धान्तलाई ध्यानमा नराखी। जहाँ लागू
+		हुन्छ, त्यहाँ तपाईंको देशका अनिवार्य उपभोक्ता संरक्षण कानूनहरू पनि
+		लागू हुनेछन्।</string>
+	<string name="terms_of_service_changes_body">यी सर्ताहरू समय-समयमा अद्यावधिक हुन सक्छन्।
+		परिवर्तनहरू गरेपछि अनुप्रयोग निरन्तर प्रयोग गर्नु भनेको तपाईंले
+		अद्यावधिक सर्ताहरू स्वीकृत गर्नुभयो भन्ने हो।</string>
+	<string name="terms_of_service_contact_information_body">यदि तपाईंलाई यी सर्तहरूसम्बन्धी कुनै प्रश्न छ,
+		स्पष्टीकरण आवश्यक छ, वा एपसँगको कुनै समस्या रिपोर्ट गर्न चाहनुहुन्छ
+		भने, तल दिइएका सम्पर्क विवरणमा मालिकसँग सम्पर्क गर्न सक्नुहुन्छ।</string>
+	<string name="terms_of_service_effective_date_body">“कार्यान्वयन मिति” भनेको यी सर्तहरू लागू हुने मिति
+		हो। भविष्यका कुनै पनि अद्यावधिकहरूले परिवर्तनहरू कहिले लागू हुने भनेर
+		देखाउन परिमार्जित कार्यान्वयन मिति समावेश गर्नेछ।</string>
 </resources>

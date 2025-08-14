@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Għadd ta’ karattri: %d. Limitu tal-karattri: %d</string>
 	<string name="privacy_policy">Politika dwar il-Privatezza</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Id-dejta tiegħek tibqa’ miegħek</string>
+	<string name="policy_your_data_stays_with_you_title">Id-dejta tiegħek tibqa’ miegħek</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nirrispettaw il-privatezza tiegħek. Din l-app
 		taħdem kompletament offline u ma tiġborx jew taqsam data. Din
 		il-politika tapplika għal kull utent madwar id-dinja, inklużi t-tfal
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Peress li ma jiġbor l-ebda data, m’hemm xejn li
 		tista’ taċċessa, taġġorna jew tħassar permezz tagħna. Id-dejta kollha
 		hija tiegħek u tibqa’ biss fuq l-apparat tiegħek.</string>
-	<string name="privacy_policy_contact_information_title">Informazzjoni ta’ Kuntatt</string>
+	<string name="policy_contact_information_title">Informazzjoni ta’ Kuntatt</string>
 	<string name="privacy_policy_changes_title">Bidliet f’din il-politika</string>
-	<string name="privacy_policy_effective_date_title">Data tad-dħul fis-seħħ</string>
-	<string name="privacy_policy_email_subject">Mistoqsija dwar il-Politika tal-Privatezza – %s</string>
+	<string name="policy_effective_date_title">Data tad-dħul fis-seħħ</string>
 	<string name="policies">Politiki</string>
 	<string name="privacy_policy_contact_information_body">Jekk għandek xi mistoqsijiet jew tħassib rigward
 		din il-Politika tal-Privatezza, tista’ tikkuntattjana bl-email.</string>
@@ -99,4 +98,58 @@
 		f’verżjoni aġġornata ta’ din il-politika. Inħeġġu lill-utenti jrevedu
 		din il-politika perjodikament biex jibqgħu infurmati dwar kif qed tiġi
 		ttrattata l-informazzjoni tagħhom.</string>
+	<string name="terms_of_service">Termini tas-Servizz</string>
+	<string name="dialog_first_launch_agree_title">Aċċetta biex tkompli</string>
+	<string name="agree_to_terms">Naqbel</string>
+	<string name="dialog_first_launch_terms_message">Biex tuża din l-app, trid taqra u taċċetta
+		t-Termini tas-Servizz tagħna. Uża l-buttuna hawn taħt biex taqrahom.</string>
+	<string name="terms_of_service_about_title">Dwar l-App</string>
+	<string name="terms_of_service_use_title">Użu tal-App</string>
+	<string name="terms_of_service_intellectual_property_title">Proprietà Intellettwali</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Ċaħda ta’ Garanziji</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitazzjoni ta’ Responsabbiltà</string>
+	<string name="terms_of_service_termination_title">Terminazzjoni</string>
+	<string name="terms_of_service_governing_law_title">Liġi Applikabbli</string>
+	<string name="terms_of_service_changes_title">Tibdil f’dawn it-Termini</string>
+	<string name="terms_of_service_about_body">Din l-applikazzjoni hija għodda biex issegwi
+		l-ispejjeż personali. Taħdem kompletament offline u hija ddisinjata
+		għal utenti ta’ kull età. L-app ma teħtieġx reġistrazzjoni, ma turi
+		l-ebda reklami u ma tiġbor jew tittrasmetti l-ebda informazzjoni
+		personali.</string>
+	<string name="terms_of_service_use_body">Taqbel li tuża l-App biss għal skopijiet legali u
+		b’tali mod li ma jikserx id-drittijiet ta’ ħaddieħor jew li jillimita
+		l-użu tagħhom tal-App. M’għandekx tipprova tagħmel reverse
+		engineering, tiddikomplila jew timmodifika l-App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">L-app hija pprovduta “kif inhi” mingħajr ebda
+		garanziji ta’ kwalunkwe tip, kemm espressi kif ukoll impliċiti, inkluż
+		iżda mhux limitat għal garanziji ta’ kummerċjabbiltà, adattabilità
+		għal skop partikolari, jew nuqqas ta’ ksur. Ma nagħtux garanzija li
+		l-app tkun mingħajr żbalji jew li se taħdem mingħajr interruzzjoni.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">L-App ma tikkolletta, ma tistenniex, u lanqas ma
+		taqsam data personali jew ta’ użu. L-informazzjoni kollha li tidħol
+		tibqa’ maħżuna lokalment fuq it-tagħmir tiegħek taħt il-kontroll
+		tiegħek.</string>
+	<string name="terms_of_service_intellectual_property_body">Id-drittijiet, it-titolu u l-interess kollha
+		fl-App, inkluż id-disinn, il-karatteristiċi u l-kodiċi tagħha, huma
+		proprjetà tas-sid tad-drittijiet tal-awtur.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Fil-limitu massimu permess mil-liġi, is-sid mhux
+		responsabbli għal kwalunkwe ħsara jew telf li jirriżulta mill-użu
+		tiegħek tal-App, inkluż iżda mhux limitat għal telf ta’ dejta,
+		profitti jew opportunitajiet tan-negozju.</string>
+	<string name="terms_of_service_termination_body">Is-sid jista’ jwaqqaf li joffri jew jappoġġja l-App
+		fi kwalunkwe ħin mingħajr avviż minn qabel.</string>
+	<string name="terms_of_service_governing_law_body">Dawn it-Termini huma rregolati mil-liġijiet
+		tal-pajjiż tar-residenza tiegħek, mingħajr ma jitqiesu l-prinċipji
+		tal-kunflitt tal-liġijiet. Fejn applikabbli, japplikaw ukoll
+		il-liġijiet obbligatorji tal-protezzjoni tal-konsumatur tal-pajjiż
+		tiegħek.</string>
+	<string name="terms_of_service_changes_body">Dawn it-Termini jistgħu jiġu aġġornati minn żmien
+		għal żmien. L-użu kontinwu tal-App wara li jsiru bidliet ifisser li
+		taċċetta t-Termini aġġornati.</string>
+	<string name="terms_of_service_contact_information_body">Jekk għandek xi mistoqsijiet dwar dawn it-Termini,
+		għandek bżonn ta’ ċarifika, jew tixtieq tirrapporta problema bl-App,
+		tista’ tikkuntattja lis-sid fid-dettalji ta’ kuntatt hawn taħt.</string>
+	<string name="terms_of_service_effective_date_body">Id-“Data tal-Effett” hija d-data minn meta dawn
+		it-Termini japplikaw. Kull aġġornament fil-futur se jinkludi data
+		tal-effett riveduta biex tindika meta jidħlu fis-seħħ il-bidliet.</string>
 </resources>

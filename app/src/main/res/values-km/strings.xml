@@ -47,7 +47,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ចំនួនអក្សរ៖ %d។ កំណត់អក្សរ៖ %d</string>
 	<string name="privacy_policy">នយោបាយភាពឯកជន</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ទិន្នន័យរបស់អ្នកនៅជាមួយអ្នក</string>
+	<string name="policy_your_data_stays_with_you_title">ទិន្នន័យរបស់អ្នកនៅជាមួយអ្នក</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">យើងគោរពភាពឯកជនរបស់អ្នក។
 		កម្មវិធីនេះដំណើរការបានពេញលេញក្រៅបណ្តាញ ហើយមិនប្រមូល
 		ឬចែករំលែកទិន្នន័យណាមួយទេ។
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">ពីព្រោះគ្មានទិន្នន័យណាត្រូវបានប្រមូលទេ
 		អ្នកមិនអាចចូលប្រើ បច្ចុប្បន្នភាព ឬលុបទិន្នន័យតាមរយៈពួកយើងបានទេ។
 		ទិន្នន័យទាំងអស់ជារបស់អ្នក ហើយនៅតែមាននៅលើឧបករណ៍របស់អ្នកតែប៉ុណ្ណោះ។</string>
-	<string name="privacy_policy_contact_information_title">ព័ត៌មានទំនាក់ទំនង</string>
+	<string name="policy_contact_information_title">ព័ត៌មានទំនាក់ទំនង</string>
 	<string name="privacy_policy_changes_title">ការផ្លាស់ប្តូរនៅក្នុងគោលការណ៍នេះ</string>
-	<string name="privacy_policy_effective_date_title">កាលបរិច្ឆេទ有ប្រសិទ្ធិភាព</string>
-	<string name="privacy_policy_email_subject">សំណួរអំពីគោលនយោបាយភាពឯកជន – %s</string>
+	<string name="policy_effective_date_title">កាលបរិច្ឆេទ有ប្រសិទ្ធិភាព</string>
 	<string name="policies">គោលនយោបាយ</string>
 	<string name="privacy_policy_contact_information_body">ប្រសិនបើអ្នកមានសំណួរ
 		ឬកង្វល់ណាមួយទាក់ទងនឹងគោលនយោបាយឯកជនភាពនេះ អ្នកអាចទាក់ទងយើងតាមអ៊ីមែលបាន។</string>
@@ -98,4 +97,56 @@
 		នឹងត្រូវបង្ហាញក្នុងកំណែថ្មីនៃគោលនយោបាយនេះ។
 		យើងអំពាវនាវឱ្យអ្នកប្រើពិនិត្យមើលគោលនយោបាយនេះជាប្រចាំ
 		ដើម្បីដឹងពីរបៀបដែលព័ត៌មានរបស់ពួកគេត្រូវបានគ្រប់គ្រង។</string>
+	<string name="terms_of_service">លក្ខខណ្ឌសេវាកម្ម</string>
+	<string name="dialog_first_launch_agree_title">យល់ព្រមដើម្បីបន្ត</string>
+	<string name="agree_to_terms">ខ្ញុំយល់ព្រម</string>
+	<string name="dialog_first_launch_terms_message">ដើម្បីប្រើកម្មវិធីនេះ អ្នកត្រូវអាន និងទទួលយក
+		លក្ខខណ្ឌសេវាកម្មរបស់យើង។ សូមប្រើប៊ូតុងខាងក្រោមដើម្បីអាន។</string>
+	<string name="terms_of_service_about_title">អំពីកម្មវិធី</string>
+	<string name="terms_of_service_use_title">ការប្រើប្រាស់កម្មវិធី</string>
+	<string name="terms_of_service_intellectual_property_title">ទ្រព្យសម្បត្តិបញ្ញា</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ការបដិសេធការធានា</string>
+	<string name="terms_of_service_limitation_of_liability_title">ការកំណត់កម្រិតទំនួលខុសត្រូវ</string>
+	<string name="terms_of_service_termination_title">បញ្ចប់</string>
+	<string name="terms_of_service_governing_law_title">ច្បាប់គ្រប់គ្រង</string>
+	<string name="terms_of_service_changes_title">ការផ្លាស់ប្តូរទៅលើលក្ខខណ្ឌទាំងនេះ</string>
+	<string name="terms_of_service_about_body">កម្មវិធីនេះគឺជាឧបករណ៍តាមដានការចំណាយផ្ទាល់ខ្លួន។
+		វាដំណើរការតែតាមអ៊ិនធឺណិត និងត្រូវបានរចនាឡើងសម្រាប់អ្នកប្រើគ្រប់អាយុ។
+		កម្មវិធីនេះមិនទាមទារការចុះឈ្មោះ មិនបង្ហាញពាណិជ្ជកម្ម
+		ហើយមិនប្រមូលឬបញ្ជូនព័ត៌មានផ្ទាល់ខ្លួនណាមួយទេ។</string>
+	<string name="terms_of_service_use_body">អ្នកយល់ព្រមប្រើកម្មវិធីតែសម្រាប់គោលបំណងត្រឹមត្រូវតែប៉ុណ្ណោះ
+		ហើយដោយវិធីដែលមិនរំលោភសិទ្ធិរបស់អ្នកដទៃ
+		ឬកម្រិតការប្រើប្រាស់កម្មវិធីរបស់ពួកគេ។
+		អ្នកមិនត្រូវព្យាយាមធ្វើវិស្វកម្មបញ្ច្រាស ដេកមពីល ឬកែប្រែកម្មវិធីឡើយ។</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">កម្មវិធីត្រូវបានផ្តល់ជូន “ដូចដែលមាន”
+		ដោយគ្មានការធានាណាមួយ ទាំងការធានាដែលបានបញ្ជាក់ឬបញ្ជាក់ដោយនិយមន័យ
+		រួមទាំងការធានាអំពីភាពអាចលក់បាន សមស្របសម្រាប់គោលបំណងជាក់លាក់
+		ឬការមិនរំលោភលើសិទ្ធិ។ យើងមិនធានាថាកម្មវិធីនឹងគ្មានកំហុស
+		ឬនឹងដំណើរការដោយគ្មានការរំខានឡើយ។</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">កម្មវិធីនេះមិនប្រមូល ស្តុក
+		ឬចែករំលែកទិន្នន័យផ្ទាល់ខ្លួន ឬការប្រើប្រាស់ណាមួយទេទេ។
+		ព័ត៌មានទាំងអស់ដែលអ្នកបញ្ចូល នឹងត្រូវរក្សាទុកនៅក្នុងឧបករណ៍របស់អ្នកឯង
+		ដោយស្ថិតនៅក្រោមការគ្រប់គ្រងរបស់អ្នក។</string>
+	<string name="terms_of_service_intellectual_property_body">សិទ្ធិទាំងអស់ បញ្ចីឈ្មោះ
+		និងចំណាប់អារម្មណ៍ទាំងអស់នៅក្នុង និងចំពោះកម្មវិធី រួមទាំងការរចនា
+		លក្ខណៈពិសេស និងកូដរបស់វា គឺជាកម្មសិទ្ធិរបស់ម្ចាស់សិទ្ធិរក្សា។</string>
+	<string name="terms_of_service_limitation_of_liability_body">តាមសិទ្ធិអតិបរមាដែលច្បាប់អនុញ្ញាត
+		ម្ចាស់មិនទទួលខុសត្រូវចំពោះការខូចខាត
+		ឬការបាត់បង់ណាមួយដែលកើតឡើងពីការប្រើប្រាស់កម្មវិធីរបស់អ្នកទេ
+		រួមទាំងការបាត់បង់ទិន្នន័យ ប្រាក់ចំណេញ ឬឱកាសអាជីវកម្ម
+		ប៉ុន្តែមិនកំណត់ត្រឹមតែទាំងនេះទេ។</string>
+	<string name="terms_of_service_termination_body">ម្ចាស់អាចបញ្ឈប់ការផ្តល់ឬគាំទ្រកម្មវិធីនៅពេលណាក៏បានដោយគ្មានការជូនដំណឹងជាមុន។</string>
+	<string name="terms_of_service_governing_law_body">លក្ខខណ្ឌទាំងនេះ
+		ត្រូវបានគ្រប់គ្រងដោយច្បាប់នៃប្រទេសដែលអ្នករស់នៅ
+		ដោយមិនគិតពីគោលការណ៍ទាក់ទងនឹងការប៉ះទង្គិចច្បាប់។ នៅពេលអាចអនុវត្តបាន
+		ច្បាប់ការពារអ្នកប្រើប្រាស់ចាំបាច់នៃប្រទេសរបស់អ្នកក៏នឹងអនុវត្តផងដែរ។</string>
+	<string name="terms_of_service_changes_body">លក្ខខណ្ឌទាំងនេះអាចត្រូវបានធ្វើបច្ចុប្បន្នភាពជារៀងរាល់ពេល។
+		ការបន្តប្រើកម្មវិធីបន្ទាប់ពីមានការផ្លាស់ប្តូរមានន័យថាអ្នកយល់ព្រមលើលក្ខខណ្ឌដែលបានធ្វើបច្ចុប្បន្នភាព។</string>
+	<string name="terms_of_service_contact_information_body">ប្រសិនបើអ្នកមានសំណួរអំពីលក្ខខណ្ឌទាំងនេះ
+		ត្រូវការពន្យល់បន្ថែម ឬចង់រាយការណ៍បញ្ហាជាមួយកម្មវិធី
+		អ្នកអាចទាក់ទងម្ចាស់តាមព័ត៌មានទំនាក់ទំនងខាងក្រោម។</string>
+	<string name="terms_of_service_effective_date_body">“កាលបរិច្ឆេទមានប្រសិទ្ធភាព”
+		គឺជាកាលបរិច្ឆេទដែលលក្ខខណ្ឌទាំងនេះមានប្រសិទ្ធភាព។
+		ការធ្វើបច្ចុប្បន្នភាពនៅពេលអនាគតនឹងរួមបញ្ចូលកាលបរិច្ឆេទមានប្រសិទ្ធភាពដែលបានកែសម្រួល
+		ដើម្បីបង្ហាញពេលដែលការផ្លាស់ប្តូរចូលជាធរមាន។</string>
 </resources>

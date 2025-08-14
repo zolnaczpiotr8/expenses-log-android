@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">عدد الأحرف: %d. الحد الأقصى للأحرف: %d</string>
 	<string name="privacy_policy">سياسة الخصوصية</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">بياناتك تبقى معك</string>
+	<string name="policy_your_data_stays_with_you_title">بياناتك تبقى معك</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">نحن نحترم خصوصيتك. يعمل هذا التطبيق بالكامل دون
 		اتصال بالإنترنت ولا يجمع أو يشارك أي بيانات. تنطبق هذه السياسة على
 		جميع المستخدمين في جميع أنحاء العالم، بما في ذلك الأطفال من جميع
@@ -77,10 +77,9 @@
 	<string name="privacy_policy_your_rights_body">نظرًا لعدم جمع أي بيانات، فلا يوجد ما يمكنك الوصول
 		إليه أو تحديثه أو حذفه من خلالنا. جميع البيانات ملكك وتبقى فقط على
 		جهازك.</string>
-	<string name="privacy_policy_contact_information_title">معلومات الاتصال</string>
+	<string name="policy_contact_information_title">معلومات الاتصال</string>
 	<string name="privacy_policy_changes_title">التغييرات على هذه السياسة</string>
-	<string name="privacy_policy_effective_date_title">تاريخ النفاذ</string>
-	<string name="privacy_policy_email_subject">استفسار حول سياسة الخصوصية – %s</string>
+	<string name="policy_effective_date_title">تاريخ النفاذ</string>
 	<string name="policies">السياسات</string>
 	<string name="privacy_policy_contact_information_body">إذا كانت لديك أي أسئلة أو استفسارات بخصوص سياسة
 		الخصوصية هذه، يمكنك الاتصال بنا عبر البريد الإلكتروني.</string>
@@ -92,4 +91,48 @@
 		كيفية تعامل التطبيق مع بياناتك في إصدار محدث من هذه السياسة. نشجع
 		المستخدمين على مراجعة هذه السياسة بشكل دوري للبقاء على اطلاع حول كيفية
 		التعامل مع معلوماتهم.</string>
+	<string name="terms_of_service">شروط الخدمة</string>
+	<string name="dialog_first_launch_agree_title">وافق للمتابعة</string>
+	<string name="agree_to_terms">أوافق</string>
+	<string name="dialog_first_launch_terms_message">لاستخدام هذا التطبيق، يجب عليك قراءة شروط الخدمة
+		الخاصة بنا وقبولها. استخدم الزر أدناه لقراءتها.</string>
+	<string name="terms_of_service_about_title">حول التطبيق</string>
+	<string name="terms_of_service_use_title">استخدام التطبيق</string>
+	<string name="terms_of_service_intellectual_property_title">الملكية الفكرية</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">إخلاء المسؤولية عن الضمانات</string>
+	<string name="terms_of_service_limitation_of_liability_title">تحديد المسؤولية</string>
+	<string name="terms_of_service_termination_title">الإنهاء</string>
+	<string name="terms_of_service_governing_law_title">القانون الحاكم</string>
+	<string name="terms_of_service_changes_title">التغييرات على هذه الشروط</string>
+	<string name="terms_of_service_about_body">هذا التطبيق هو أداة لتتبع النفقات الشخصية. يعمل
+		بالكامل دون اتصال بالإنترنت ومصمم للمستخدمين من جميع الأعمار. لا يتطلب
+		التطبيق تسجيلًا، ولا يعرض إعلانات، ولا يجمع أو ينقل أي معلومات شخصية.</string>
+	<string name="terms_of_service_use_body">أنت توافق على استخدام التطبيق فقط لأغراض قانونية
+		وبطريقة لا تنتهك حقوق الآخرين أو تقيد استخدامهم للتطبيق. يجب ألا تحاول
+		عكس هندسة التطبيق أو فك تجميعه أو تعديله.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">يتم توفير التطبيق “كما هو“ دون أي ضمانات من أي نوع،
+		سواء كانت صريحة أو ضمنية، بما في ذلك على سبيل المثال لا الحصر ضمانات
+		القابلية للتسويق، أو الملاءمة لغرض معين، أو عدم التعدي. نحن لا نضمن أن
+		التطبيق سيكون خاليًا من الأخطاء أو أنه سيعمل دون انقطاع.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">التطبيق لا يجمع أو يخزن أو يشارك أي بيانات شخصية أو
+		بيانات استخدام. جميع المعلومات التي تدخلها تبقى مخزنة محليًا على جهازك
+		وتحت سيطرتك.</string>
+	<string name="terms_of_service_intellectual_property_body">جميع الحقوق والاسم والمصلحة في التطبيق، بما في ذلك
+		تصميمه وميزاته ورمزه، مملوكة لمالك حقوق الطبع والنشر.</string>
+	<string name="terms_of_service_limitation_of_liability_body">إلى أقصى حد يسمح به القانون، لا يتحمل المالك أي
+		مسؤولية عن أي أضرار أو خسائر ناجمة عن استخدامك للتطبيق، بما في ذلك على
+		سبيل المثال لا الحصر فقدان البيانات أو الأرباح أو الفرص التجارية.</string>
+	<string name="terms_of_service_termination_body">يجوز للمالك التوقف عن تقديم التطبيق أو دعمه في أي
+		وقت دون إشعار مسبق.</string>
+	<string name="terms_of_service_governing_law_body">تخضع هذه الشروط لقوانين بلد إقامتك، بغض النظر عن
+		مبادئ تنازع القوانين. وعند الاقتضاء، ستنطبق أيضاً قوانين حماية
+		المستهلك الإلزامية في بلدك.</string>
+	<string name="terms_of_service_changes_body">قد يتم تحديث هذه الشروط من وقت لآخر. استمرارك في
+		استخدام التطبيق بعد إجراء تغييرات يعني موافقتك على الشروط المُحدّثة.</string>
+	<string name="terms_of_service_contact_information_body">إذا كانت لديك أي أسئلة حول هذه الشروط، أو تحتاج إلى
+		توضيح، أو ترغب في الإبلاغ عن مشكلة في التطبيق، يمكنك التواصل مع المالك
+		على تفاصيل الاتصال أدناه.</string>
+	<string name="terms_of_service_effective_date_body">“تاريخ السريان” هو التاريخ الذي تسري فيه هذه
+		الشروط. ستتضمن أي تحديثات مستقبلية تاريخ سريان معدل للإشارة إلى موعد
+		بدء سريان التغييرات.</string>
 </resources>

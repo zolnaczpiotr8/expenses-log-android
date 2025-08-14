@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ: %d. ಅಕ್ಷರ ಮಿತಿಯು: %d</string>
 	<string name="privacy_policy">ಗೌಪ್ಯತೆ ನೀತಿ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ನಿಮ್ಮ ಡೇಟಾ ನಿಮ್ಮೊಂದಿಗೆ ಇರುತ್ತದೆ</string>
+	<string name="policy_your_data_stays_with_you_title">ನಿಮ್ಮ ಡೇಟಾ ನಿಮ್ಮೊಂದಿಗೆ ಇರುತ್ತದೆ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ನಾವು ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ಈ ಅಪ್ಲಿಕೇಶನ್
 		ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಯಾವುದೇ ಡೇಟಾವನ್ನು
 		ಸಂಗ್ರಹಿಸದೆ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ. ಈ ನೀತಿ ಎಲ್ಲಾ ವಯಸ್ಸಿನ ಮಕ್ಕಳನ್ನು
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">ಯಾವುದೇ ಡೇಟಾ ಸಂಗ್ರಹಿಸಲಾಗದ ಕಾರಣ, ನೀವು ನಮಮೂಲಕ
 		ಪ್ರವೇಶಿಸಬಹುದಾದ, ನವೀಕರಿಸಬಹುದಾದ ಅಥವಾ ಅಳಿಸಬಹುದಾದ ಯಾವ ಮಾಹಿತಿಯೂ ಇಲ್ಲ. ಎಲ್ಲಾ
 		ಡೇಟಾ ನಿಮ್ಮದು ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಇರುತ್ತದೆ.</string>
-	<string name="privacy_policy_contact_information_title">ಸಂಪರ್ಕ ಮಾಹಿತಿ</string>
+	<string name="policy_contact_information_title">ಸಂಪರ್ಕ ಮಾಹಿತಿ</string>
 	<string name="privacy_policy_changes_title">ಈ ನೀತಿಯಲ್ಲಿನ ಬದಲಾವಣೆಗಳು</string>
-	<string name="privacy_policy_effective_date_title">ಪರಿಣಾಮಕಾರಿಯಾದ ದಿನಾಂಕ</string>
-	<string name="privacy_policy_email_subject">ಗೌಪ್ಯತಾ ನೀತಿಯ ಕುರಿತು ವಿಚಾರಣೆ – %s</string>
+	<string name="policy_effective_date_title">ಪರಿಣಾಮಕಾರಿಯಾದ ದಿನಾಂಕ</string>
 	<string name="policies">ನೀತಿಗಳು</string>
 	<string name="privacy_policy_contact_information_body">ಈ ಗೌಪ್ಯತಾ ನೀತಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ನಿಮಗೆ ಯಾವುದೇ
 		ಪ್ರಶ್ನೆಗಳಾಗಿದ್ರೆ ಅಥವಾ ಚಿಂತೆಗಳಿದ್ರೆ, ದಯವಿಟ್ಟು ನಮ್ಮನ್ನು ಇಮೇಲ್ ಮೂಲಕ
@@ -99,4 +98,57 @@
 		ಧೋರಣೆಯ ನವೀಕರಿಸಿದ ಆವೃತ್ತಿಯಲ್ಲಿ ಪ್ರತಿಬಿಂಬಿತವಾಗುತ್ತವೆ. ನಿಮ್ಮ ಮಾಹಿತಿಯನ್ನು
 		ಹೇಗೆ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ ಎಂಬುದರ ಬಗ್ಗೆ ತಿಳಿದುಕೊಳ್ಳಲು ಬಳಕೆದಾರರು ಈ
 		ಧೋರಣೆಯನ್ನು ಕಾಲಕಾಲಕ್ಕೆ ಪರಿಶೀಲಿಸಲು ನಾವು ಪ್ರೋತ್ಸಾಹಿಸುತ್ತೇವೆ.</string>
+	<string name="terms_of_service">ಸೇವಾ ನಿಯಮಗಳು</string>
+	<string name="dialog_first_launch_agree_title">ಮುಂದುವರಿಸಲು ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
+	<string name="agree_to_terms">ನಾನು ಒಪ್ಪುತ್ತೇನೆ</string>
+	<string name="dialog_first_launch_terms_message">ಈ ಆಪ್ ಬಳಸಲು, ನೀವು ನಮ್ಮ ಸೇವಾ ನಿಯಮಗಳನ್ನು ಓದಿ
+		ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು. ಅವನ್ನು ಓದಲು ಕೆಳಗಿನ ಬಟನ್ ಅನ್ನು ಬಳಸಿ.</string>
+	<string name="terms_of_service_about_title">ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ</string>
+	<string name="terms_of_service_use_title">ಆಪ್ ಬಳಕೆ</string>
+	<string name="terms_of_service_intellectual_property_title">ಬೌದ್ಧಿಕ ಆಸ್ತಿ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ವಾರಂಟಿ ನಿರಾಕರಣೆ</string>
+	<string name="terms_of_service_limitation_of_liability_title">ಹೊಣೆಗಾರಿಕೆಯ ಮಿತಿ</string>
+	<string name="terms_of_service_termination_title">ಕೊನೆಗೊಳಿಸುವಿಕೆ</string>
+	<string name="terms_of_service_governing_law_title">ಆಡಳಿತ ಕಾಯಿದೆ</string>
+	<string name="terms_of_service_changes_title">ಈ ನಿಯಮಗಳಿಗೆ ಬದಲಾವಣೆಗಳು</string>
+	<string name="terms_of_service_about_body">ಈ ಅಪ್ಲಿಕೇಶನ್ ಒಂದು ವೈಯಕ್ತಿಕ ವೆಚ್ಚ ಟ್ರಾಕಿಂಗ್
+		ಸಾಧನವಾಗಿದೆ. ಇದು ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು
+		ಎಲ್ಲಾ ವಯಸ್ಸಿನ ಬಳಕೆದಾರರಿಗಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ. ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ನೋಂದಣಿಯ
+		ಅಗತ್ಯವಿಲ್ಲ, ಜಾಹೀರಾತುಗಳನ್ನು ತೋರಿಸುವುದಿಲ್ಲ ಮತ್ತು ಯಾವುದೇ ವೈಯಕ್ತಿಕ
+		ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ ಅಥವಾ ಪ್ರಸಾರ ಮಾಡುವುದಿಲ್ಲ.</string>
+	<string name="terms_of_service_use_body">ನೀವು ಕಾನೂನುಬದ್ಧ ಉದ್ದೇಶಗಳಿಗೆ ಮಾತ್ರ ಮತ್ತು ಇತರರ
+		ಹಕ್ಕುಗಳನ್ನು ಉಲ್ಲಂಘಿಸದಂತೆ ಅಥವಾ ಅವರ ಅಪ್ಲಿಕೇಶನ್ ಬಳಕೆಯನ್ನು ನಿರ್ಬಂಧಿಸದಂತೆ
+		ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಬಳಸಲು ಒಪ್ಪುತ್ತೀರಿ. ನೀವು ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ರಿವರ್ಸ್
+		ಎಂಜಿನಿಯರ್, ಡಿಕಾಂಪೈಲ್ ಅಥವಾ ತಿದ್ದುಪಡಿ ಮಾಡಲು ಯತ್ನಿಸಬಾರದು.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">ಆಪ್ ಅನ್ನು “ಹೀಗೇ ಇದೆ” ಎಂಬ ಆಧಾರದ ಮೇಲೆ ಯಾವುದೇ ರೀತಿಯ
+		ಸ್ಪಷ್ಟ ಅಥವಾ ಅಸ್ಪಷ್ಟ ಭರವಸೆಯಿಲ್ಲದೆ ಒದಗಿಸಲಾಗಿದೆ, ಇದರಲ್ಲಿ ವ್ಯಾಪಾರಾರ್ಹತೆ,
+		ನಿರ್ದಿಷ್ಟ ಉದ್ದೇಶಕ್ಕೆ ಸೂಕ್ತತೆ ಅಥವಾ ಉಲ್ಲಂಘನೆ ಇಲ್ಲದ ಭರವಸೆಗಳು ಸೇರಿವೆ ಆದರೆ
+		ಇವುಗಳಿಗೆ ಮಾತ್ರ ಸೀಮಿತವಲ್ಲ. ಆಪ್ ದೋಷರಹಿತವಾಗಿರುತ್ತದೆ ಅಥವಾ ವ್ಯತ್ಯಯವಿಲ್ಲದೆ
+		ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಎಂಬ ಭರವಸೆಯನ್ನು ನಾವು ನೀಡುವುದಿಲ್ಲ.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">ಆಪ್ ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಅಥವಾ ಬಳಕೆದಾರರ ಡೇಟಾವನ್ನು
+		ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ, ಸಂಗ್ರಹಿಸಲ್ಲ, ಅಥವಾ ಹಂಚುವುದಿಲ್ಲ. ನೀವು ನಮೂದಿಸುವ ಎಲ್ಲಾ
+		ಮಾಹಿತಿಯು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಸ್ಥಳೀಯವಾಗಿ ನಿಮ್ಮ ನಿಯಂತ್ರಣಕ್ಕೆ ಒಳಗೊಂಡಂತೆ
+		ಸಂಗ್ರಹವಾಗಿ ಇರುತ್ತದೆ.</string>
+	<string name="terms_of_service_intellectual_property_body">ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ಹಕ್ಕುಗಳು, ಶೀರ್ಷಿಕೆ
+		ಮತ್ತು ಆಸಕ್ತಿ, ಅದರ ವಿನ್ಯಾಸ, ವೈಶಿಷ್ಟ್ಯಗಳು ಮತ್ತು ಕೋಡ್ ಸೇರಿದಂತೆ, ಕಾಪಿರೈಟ್
+		ಮಾಲೀಕರ ಸ್ವತ್ತು.</string>
+	<string name="terms_of_service_limitation_of_liability_body">ಕಾನೂನಿನಿಂದ ಅನುಮತಿಸಲಾದ ಗರಿಷ್ಠ ಮಟ್ಟದಲ್ಲಿ, ಮಾಲೀಕರು
+		ನಿಮ್ಮ ಆಪ್ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಯಾವುದೇ ಹಾನಿ ಅಥವಾ ನಷ್ಟಗಳಿಗೆ
+		ಹೊಣೆಗಾರರಿರುವುದಿಲ್ಲ, ಇದರಲ್ಲಿ ಡೇಟಾ, ಲಾಭ ಅಥವಾ ವ್ಯವಹಾರಾವಕಾಶಗಳ ನಷ್ಟವನ್ನು
+		ಒಳಗೊಂಡಿರಬಹುದು ಆದರೆ ಇವುಗಳಿಗೆ ಮಾತ್ರ ಸೀಮಿತವಾಗಿಲ್ಲ.</string>
+	<string name="terms_of_service_termination_body">ಮಾಲೀಕರು ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಪೂರ್ವ ಸೂಚನೆ ಇಲ್ಲದೆ
+		ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನೀಡುವುದನ್ನು ಅಥವಾ ಬೆಂಬಲಿಸುವುದನ್ನು ನಿಲ್ಲಿಸಬಹುದು.</string>
+	<string name="terms_of_service_governing_law_body">ಈ ನಿಯಮಗಳು ನಿಮ್ಮ ವಾಸಸ್ಥಳದ ದೇಶದ ಕಾನೂನುಗಳಿಗೆ
+		ಒಳಪಟ್ಟಿರುತ್ತವೆ, ಕಾನೂನುಗಳ ಘರ್ಷಣೆಯ ತತ್ವಗಳನ್ನು ಲೆಕ್ಕಿಸದೆ. ಅನ್ವಯಿಸಿದಲ್ಲಿ,
+		ನಿಮ್ಮ ದೇಶದ ಕಡ್ಡಾಯ ಗ್ರಾಹಕ ರಕ್ಷಣಾ ಕಾನೂನುಗಳು ಕೂಡ ಅನ್ವಯಿಸುತ್ತವೆ.</string>
+	<string name="terms_of_service_changes_body">ಈ ನಿಯಮಗಳನ್ನು ಕಾಲಾಕಾಲಕ್ಕೆ ನವೀಕರಿಸಲಾಗಬಹುದು. ಬದಲಾವಣೆಗಳ
+		ನಂತರ ಆಪ್ ಅನ್ನು ಮುಂದುವರಿಸಿ ಬಳಸುವುದರಿಂದ ನೀವು ನವೀಕರಿಸಿದ ನಿಯಮಗಳನ್ನು
+		ಸ್ವೀಕರಿಸಿದ್ದೀರಿ ಎಂಬರ್ಥ.</string>
+	<string name="terms_of_service_contact_information_body">ಈ ನಿಯಮಗಳ ಬಗ್ಗೆ ನಿಮಗೆ ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ,
+		ಸ್ಪಷ್ಟೀಕರಣ ಅಗತ್ಯವಿದ್ದರೆ, ಅಥವಾ ಅಪ್ಲಿಕೇಶನ್‌ನ ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಲು
+		ಬಯಸಿದರೆ, ಕೆಳಗಿನ ಸಂಪರ್ಕ ವಿವರಗಳ ಮೂಲಕ ಮಾಲೀಕರನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು.</string>
+	<string name="terms_of_service_effective_date_body">“ಪ್ರಭಾವಿ ದಿನಾಂಕ”ವು ಈ ನಿಯಮಗಳು ಅನ್ವಯವಾಗುವ
+		ದಿನಾಂಕವಾಗಿದೆ. ಭವಿಷ್ಯದಲ್ಲಿ ಬರುವ ಯಾವುದೇ ನವೀಕರಣಗಳಲ್ಲಿ ಬದಲಾವಣೆಗಳು ಯಾವಾಗ
+		ಜಾರಿಗೆ ಬರುತ್ತವೆ ಎಂಬುದನ್ನು ಸೂಚಿಸಲು ಪರಿಷ್ಕೃತ ಪ್ರಭಾವಿ ದಿನಾಂಕವನ್ನು
+		ಒಳಗೊಂಡಿರುತ್ತದೆ.</string>
 </resources>

@@ -49,7 +49,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Líon carachtar: %d. Teorainn charachtar: %d</string>
 	<string name="privacy_policy">Polasaí Príobháideachta</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Fanann do shonraí leat</string>
+	<string name="policy_your_data_stays_with_you_title">Fanann do shonraí leat</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tá meas againn ar do phríobháideacht. Oibríonn an
 		aip seo go hiomlán as líne agus ní bhailíonn ná roinntear aon shonraí.
 		Tá an polasaí seo i bhfeidhm ar gach úsáideoir ar fud an domhain, lena
@@ -85,10 +85,9 @@
 		gur féidir leat rochtain a fháil air, é a nuashonrú nó a scriosadh
 		trínn. Is leatsa na sonraí go léir agus fanann siad ar do ghléas
 		amháin.</string>
-	<string name="privacy_policy_contact_information_title">Eolas Teagmhála</string>
+	<string name="policy_contact_information_title">Eolas Teagmhála</string>
 	<string name="privacy_policy_changes_title">Athruithe ar an mbeartas seo</string>
-	<string name="privacy_policy_effective_date_title">Dáta éifeachtach</string>
-	<string name="privacy_policy_email_subject">Fiosrúchán ar Bheartas Príobháideachais – %s</string>
+	<string name="policy_effective_date_title">Dáta éifeachtach</string>
 	<string name="policies">Beartais</string>
 	<string name="privacy_policy_contact_information_body">Má tá aon cheisteanna nó imní ort faoin mBeartas
 		Príobháideachais seo, is féidir leat teagmháil a dhéanamh linn trí
@@ -103,4 +102,60 @@
 		aip do shonraí i leagan nuashonraithe den pholasaí seo. Molaimid
 		d’úsáideoirí athbhreithniú rialta a dhéanamh ar an bpolasaí seo chun
 		fanacht eolasach faoi conas a láimhseáiltear a gcuid faisnéise.</string>
+	<string name="terms_of_service">Téarmaí Seirbhíse</string>
+	<string name="dialog_first_launch_agree_title">Aontaigh chun leanúint ar aghaidh</string>
+	<string name="agree_to_terms">Aontaím</string>
+	<string name="dialog_first_launch_terms_message">Chun an aip seo a úsáid, ní mór duit ár dTéarmaí
+		Seirbhíse a léamh agus glacadh leo. Úsáid an cnaipe thíos chun iad a
+		léamh.</string>
+	<string name="terms_of_service_about_title">Maidir leis an Aip</string>
+	<string name="terms_of_service_use_title">Úsáid an Aipe</string>
+	<string name="terms_of_service_intellectual_property_title">Maoin Intleachtúil</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Séanadh bharántais</string>
+	<string name="terms_of_service_limitation_of_liability_title">Teorainn Dliteanais</string>
+	<string name="terms_of_service_termination_title">Foirceannadh</string>
+	<string name="terms_of_service_governing_law_title">Dlí Rialaitheach</string>
+	<string name="terms_of_service_changes_title">Athruithe ar na Téarmaí Seo</string>
+	<string name="terms_of_service_about_body">Is uirlis rianaithe caiteachais phearsanta é an
+		feidhmchlár seo. Oibríonn sé go hiomlán as líne agus tá sé deartha do
+		dhaoine d’aois ar bith. Ní theastaíonn clárú ón aip, ní thaispeánann
+		sé fógraí agus ní bhailíonn ná ní sheolann sé aon fhaisnéis
+		phearsanta.</string>
+	<string name="terms_of_service_use_body">Aontaíonn tú an Aip a úsáid chun críocha dlíthiúla
+		amháin agus ar bhealach nach sáraíonn cearta daoine eile ná nach
+		gcuireann teorainn lena n-úsáid ar an Aip. Níor cheart duit triail a
+		bhaint as innealtóireacht droim ar ais, dí-chomhiomlánú nó modhnú a
+		dhéanamh ar an Aip.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Cuirtear an Aip ar fáil “mar atá” gan aon bharántas
+		de chineál ar bith, sainráite nó intuigthe, lena n-áirítear ach gan a
+		bheith teoranta do bharántais inmharthanachta, oiriúnachta d’aidhm
+		áirithe, nó neamh-sáraithe. Ní ráthaímid go mbeidh an Aip saor ó
+		earráidí nó go n-oibreoidh sí gan bhriseadh.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ní bhailíonn, ní stórálann ná roinntear aon sonraí
+		pearsanta ná sonraí úsaidh ag an n-Aip. Fanann gach eolas a chuireann
+		tú isteach stóráilte go háitiúil ar do ghléas faoi do smacht féin.</string>
+	<string name="terms_of_service_intellectual_property_body">Tá gach ceart, teideal agus leas sa Fheidhmchlár,
+		lena n-áirítear a dhearadh, a ghnéithe agus a chód, faoi úinéireacht
+		an úinéara cóipchirt.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Sa mhéid is mó atá ceadaithe de réir an dlí, níl an
+		t-úinéir freagrach as aon damáiste nó caillteanas a eascraíonn as do
+		úsáid den Aip, lena n-áirítear ach gan a bheith teoranta do
+		chailliúint sonraí, brabúis nó deiseanna gnó.</string>
+	<string name="terms_of_service_termination_body">Féadfaidh an t-úinéir stop a chur le tairiscint nó
+		le tacú leis an aip am ar bith gan fógra roimh ré.</string>
+	<string name="terms_of_service_governing_law_body">Beidh na Téarmaí seo á rialú ag dlíthe do thíre
+		cónaithe, gan aird ar phrionsabail coinbhleachta dlí. I gcás inar
+		infheidhme, beidh dlíthe éigeantacha cosanta tomhaltóirí i do thír i
+		bhfeidhm freisin.</string>
+	<string name="terms_of_service_changes_body">Féadfar na Téarmaí seo a nuashonrú ó am go ham.
+		Ciallaíonn leanúint d’úsáid an Aip tar éis athruithe gur ghlac tú leis
+		na Téarmaí nuashonraithe.</string>
+	<string name="terms_of_service_contact_information_body">Má tá aon cheisteanna agat faoi na Téarmaí seo, má
+		theastaíonn soiléiriú uait, nó má theastaíonn uait fadhb leis an Aip a
+		thuairisciú, is féidir leat teagmháil a dhéanamh leis an úinéir ag na
+		sonraí teagmhála thíos.</string>
+	<string name="terms_of_service_effective_date_body">Is é an “Dáta Éifeachtach” an dáta ónar
+		infheidhmeacha na Téarmaí seo. Áireofar aon nuashonruithe amach anseo
+		dáta éifeachtach athbhreithnithe chun a léiriú cathain a thiocfaidh na
+		hathruithe i bhfeidhm.</string>
 </resources>

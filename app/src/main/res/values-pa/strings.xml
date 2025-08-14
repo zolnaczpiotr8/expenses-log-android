@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">ਅੱਖਰ ਗਿਣਤੀ: %d। ਅੱਖਰ ਸੀਮਾ: %d</string>
 	<string name="privacy_policy">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ਤੁਹਾਡੇ ਡੇਟਾ ਤੁਹਾਡੇ ਕੋਲ ਰਹਿੰਦੇ ਹਨ</string>
+	<string name="policy_your_data_stays_with_you_title">ਤੁਹਾਡੇ ਡੇਟਾ ਤੁਹਾਡੇ ਕੋਲ ਰਹਿੰਦੇ ਹਨ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ਅਸੀਂ ਤੁਹਾਡੀ ਗੋਪਨੀਯਤਾ ਦਾ ਸਤਿਕਾਰ ਕਰਦੇ ਹਾਂ। ਇਹ ਐਪ ਪੂਰੀ
 		ਤਰ੍ਹਾਂ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਕੋਈ ਵੀ ਡਾਟਾ ਇਕੱਠਾ ਜਾਂ ਸਾਂਝਾ ਨਹੀਂ ਕਰਦੀ।
 		ਇਹ ਨੀਤੀ ਸਾਰੀ ਦੁਨੀਆ ਦੇ ਸਾਰੇ ਉਪਭੋਗਤਿਆਂ ਲਈ ਲਾਗੂ ਹੁੰਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਹਰ ਉਮਰ
@@ -79,10 +79,9 @@
 	<string name="privacy_policy_your_rights_body">ਜਿਵੇਂ ਕੋਈ ਡੇਟਾ ਇਕੱਤਰ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਇਸ ਲਈ ਤੁਹਾਡੇ
 		ਲਈ ਸਾਡੀ ਰਾਹੀਂ ਪਹੁੰਚ ਕਰਨ, ਅੱਪਡੇਟ ਕਰਨ ਜਾਂ ਮਿਟਾਉਣ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਹੈ। ਸਾਰਾ
 		ਡੇਟਾ ਤੁਹਾਡਾ ਹੀ ਹੈ ਅਤੇ ਸਿਰਫ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ’ਤੇ ਹੀ ਰਹਿੰਦਾ ਹੈ।</string>
-	<string name="privacy_policy_contact_information_title">ਸੰਪਰਕ ਜਾਣਕਾਰੀ</string>
+	<string name="policy_contact_information_title">ਸੰਪਰਕ ਜਾਣਕਾਰੀ</string>
 	<string name="privacy_policy_changes_title">ਇਸ ਨੀਤੀ ਵਿੱਚ ਤਬਦੀਲੀਆਂ</string>
-	<string name="privacy_policy_effective_date_title">ਪ੍ਰਭਾਵੀ ਮਿਤੀ</string>
-	<string name="privacy_policy_email_subject">ਪਰਦਾਅ ਨੀਤੀ ਬਾਰੇ ਪੁੱਛਗਿੱਛ – %s</string>
+	<string name="policy_effective_date_title">ਪ੍ਰਭਾਵੀ ਮਿਤੀ</string>
 	<string name="policies">ਨੀਤੀਆਂ</string>
 	<string name="privacy_policy_contact_information_body">ਜੇ ਤੁਹਾਨੂੰ ਇਸ ਪਰਦੇਦਾਰੀ ਨੀਤੀ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਜਾਂ ਚਿੰਤਾ
 		ਹੋਵੇ, ਤਾਂ ਤੁਸੀਂ ਸਾਨੂੰ ਈਮੇਲ ਰਾਹੀਂ ਸੰਪਰਕ ਕਰ ਸਕਦੇ ਹੋ।</string>
@@ -96,4 +95,56 @@
 		ਕੀਤੇ ਗਏ ਸੰਸਕਰਨ ਵਿੱਚ ਦਰਸਾਈਆਂ ਜਾਣਗੀਆਂ। ਅਸੀਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਇਹ ਨੀਤੀ
 		ਸਮੇਂ-ਸਮੇਂ ਤੇ ਸਮੀਖਿਆ ਕਰਨ ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੇ ਹਾਂ ਤਾਂ ਜੋ ਉਹ ਆਪਣੀ ਜਾਣਕਾਰੀ ਨਾਲ
 		ਕਿਵੇਂ ਵਿਵਹਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਇਸ ਬਾਰੇ ਜਾਣੂ ਰਹਿ ਸਕਣ।</string>
+	<string name="terms_of_service">ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ</string>
+	<string name="dialog_first_launch_agree_title">ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਹਿਮਤ ਹੋਵੋ</string>
+	<string name="agree_to_terms">ਮੈਂ ਸਹਿਮਤ ਹਾਂ</string>
+	<string name="dialog_first_launch_terms_message">ਇਸ ਐਪ ਨੂੰ ਵਰਤਣ ਲਈ, ਤੁਹਾਨੂੰ ਸਾਡੀਆਂ ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ
+		ਪੜ੍ਹਣੀਆਂ ਅਤੇ ਸਵੀਕਾਰਣੀਆਂ ਲੋੜੀਂਦੀਆਂ ਹਨ। ਉਹਨਾਂ ਨੂੰ ਪੜ੍ਹਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤਾ
+		ਬਟਨ ਵਰਤੋ।</string>
+	<string name="terms_of_service_about_title">ਐਪ ਬਾਰੇ</string>
+	<string name="terms_of_service_use_title">ਐਪ ਦੀ ਵਰਤੋਂ</string>
+	<string name="terms_of_service_intellectual_property_title">ਬੌਧਿਕ ਸੰਪਤੀ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ਵਾਰੰਟੀ ਅਸਵੀਕਾਰ</string>
+	<string name="terms_of_service_limitation_of_liability_title">ਜ਼ਿੰਮੇਵਾਰੀ ਦੀ ਸੀਮਾ</string>
+	<string name="terms_of_service_termination_title">ਸਮਾਪਤੀ</string>
+	<string name="terms_of_service_governing_law_title">ਸ਼ਾਸਕ ਕਾਨੂੰਨ</string>
+	<string name="terms_of_service_changes_title">ਇਹਨਾਂ ਸ਼ਰਤਾਂ ਵਿੱਚ ਤਬਦੀਲੀਆਂ</string>
+	<string name="terms_of_service_about_body">ਇਹ ਐਪਲੀਕੇਸ਼ਨ ਨਿੱਜੀ ਖਰਚੇ ਟ੍ਰੈਕ ਕਰਨ ਦਾ ਇਕ ਸੰਦ ਹੈ। ਇਹ
+		ਪੂਰੀ ਤਰ੍ਹਾਂ ਆਫਲਾਈਨ ਕੰਮ ਕਰਦੀ ਹੈ ਅਤੇ ਹਰ ਉਮਰ ਦੇ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਡਿਜ਼ਾਇਨ
+		ਕੀਤੀ ਗਈ ਹੈ। ਐਪ ਨੂੰ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਦੀ ਲੋੜ ਨਹੀਂ, ਵਿਗਿਆਪਨ ਨਹੀਂ ਦਿਖਾਉਂਦੀ ਅਤੇ
+		ਕੋਈ ਵੀ ਨਿੱਜੀ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਜਾਂ ਪ੍ਰਸਾਰਿਤ ਨਹੀਂ ਕਰਦੀ।</string>
+	<string name="terms_of_service_use_body">ਤੁਸੀਂ ਸਿਰਫ ਕਾਨੂੰਨੀ ਉਦੇਸ਼ਾਂ ਲਈ ਅਤੇ ਇਸ ਤਰੀਕੇ ਨਾਲ ਐਪ
+		ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ ਜੋ ਕਿਸੇ ਹੋਰ ਦੇ ਅਧਿਕਾਰਾਂ ਦਾ ਉਲੰਘਣ ਨਹੀਂ ਕਰਦਾ
+		ਜਾਂ ਉਹਨਾਂ ਦੇ ਐਪ ਦੇ ਉਪਯੋਗ ਨੂੰ ਸੀਮਿਤ ਨਹੀਂ ਕਰਦਾ। ਤੁਹਾਨੂੰ ਐਪ ਨੂੰ ਰਿਵਰਸ
+		ਇੰਜੀਨੀਅਰ, ਡੀਕੰਪਾਈਲ ਜਾਂ ਸੋਧ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰਨੀ ਚਾਹੀਦੀ।</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">ਐਪ “ਜਿਵੇਂ ਹੈ” ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੀ ਸਪੱਸ਼ਟ ਜਾਂ ਅਨੁਮਾਨਿਤ
+		ਵਾਰੰਟੀ ਤੋਂ ਬਿਨਾਂ ਪ੍ਰਦਾਨ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਜਿਸ ਵਿੱਚ ਵਿਕਣਯੋਗਤਾ, ਕਿਸੇ ਖਾਸ
+		ਉਦੇਸ਼ ਲਈ ਯੋਗਤਾ ਜਾਂ ਅਧਿਕਾਰ ਉੱਲੰਘਣਾ ਨਾ ਹੋਣ ਦੀਆਂ ਵਾਰੰਟੀਆਂ ਸ਼ਾਮਲ ਹਨ ਪਰ
+		ਇਨ੍ਹਾਂ ਤੱਕ ਸੀਮਿਤ ਨਹੀਂ ਹਨ। ਅਸੀਂ ਕੋਈ ਗਾਰੰਟੀ ਨਹੀਂ ਦਿੰਦੇ ਕਿ ਐਪ ਵਿੱਚ ਗਲਤੀਆਂ
+		ਨਹੀਂ ਹੋਣਗੀਆਂ ਜਾਂ ਇਹ ਬਿਨਾਂ ਰੁਕਾਵਟ ਕੰਮ ਕਰੇਗੀ।</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">ਐਪ ਕੋਈ ਵੀ ਨਿੱਜੀ ਜਾਂ ਉਪਯੋਗ ਡੈਟਾ ਇਕੱਠਾ, ਸਟੋਰ ਜਾਂ
+		ਈਸ਼ੇਅਰ ਨਹੀਂ ਕਰਦੀ। ਤੁਸੀਂ ਜਿਹੜੀ ਵੀ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰਦੇ ਹੋ, ਉਹ ਤੁਹਾਡੇ ਡਿਵਾਈਸ
+		’ਤੇ ਸਥਾਨਕ ਤੌਰ ’ਤੇ ਸਟੋਰ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਨਿਯੰਤਰਣ ਹੇਠ ਹੁੰਦੀ ਹੈ।</string>
+	<string name="terms_of_service_intellectual_property_body">ਐਪ ਵਿੱਚ ਅਤੇ ਐਪ ਨਾਲ ਸੰਬੰਧਤ ਸਾਰੇ ਹੱਕ, ਸਿਰਲੇਖ ਅਤੇ
+		ਦਿਲਚਸਪੀ, ਜਿਸ ਵਿੱਚ ਇਸ ਦੀ ਡਿਜ਼ਾਈਨ, ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਤੇ ਕੋਡ ਸ਼ਾਮਲ ਹਨ,
+		ਕਾਪੀਰਾਈਟ ਮਾਲਕ ਦੇ ਹਨ।</string>
+	<string name="terms_of_service_limitation_of_liability_body">ਕਾਨੂੰਨ ਦੁਆਰਾ ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਗਈ ਵੱਧ ਤੋਂ ਵੱਧ ਹੱਦ ਤੱਕ,
+		ਮਾਲਕ ਤੁਹਾਡੇ ਐਪ ਦੇ ਇਸਤੇਮਾਲ ਨਾਲ ਪੈਦਾ ਹੋਈ ਕਿਸੇ ਵੀ ਨੁਕਸਾਨ ਜਾਂ ਘਾਟੇ ਲਈ
+		ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ ਹੋਵੇਗਾ, ਜਿਸ ਵਿੱਚ ਡਾਟਾ, ਮੁਨਾਫ਼ਾ ਜਾਂ ਕਾਰੋਬਾਰੀ ਮੌਕਿਆਂ ਦਾ
+		ਨੁਕਸਾਨ ਸ਼ਾਮਲ ਹੈ ਪਰ ਇਨ੍ਹਾਂ ਤੱਕ ਸੀਮਿਤ ਨਹੀਂ ਹੈ।</string>
+	<string name="terms_of_service_termination_body">ਮਾਲਕ ਕਿਸੇ ਵੀ ਸਮੇਂ ਬਿਨਾਂ ਪਹਿਲਾਂ ਸੂਚਨਾ ਦਿੱਤੇ ਐਪ ਦੀ
+		ਪੇਸ਼ਕਸ਼ ਜਾਂ ਸਮਰਥਨ ਬੰਦ ਕਰ ਸਕਦਾ ਹੈ।</string>
+	<string name="terms_of_service_governing_law_body">ਇਹ ਸ਼ਰਤਾਂ ਤੁਹਾਡੇ ਨਿਵਾਸ ਦੇਸ਼ ਦੇ ਕਾਨੂੰਨਾਂ ਅਨੁਸਾਰ
+		ਸ਼ਾਸਤ ਹੋਣਗੀਆਂ, ਕਾਨੂੰਨ ਦੇ ਟਕਰਾਅ ਦੇ ਸਿਧਾਂਤਾਂ ਨੂੰ ਧਿਆਨ ਵਿਚ ਲਿਆ ਬਿਨਾਂ।
+		ਜਿਥੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ, ਉਥੇ ਤੁਹਾਡੇ ਦੇਸ਼ ਦੇ ਲਾਜ਼ਮੀ ਉਪਭੋਗਤਾ ਸੁਰੱਖਿਆ ਕਾਨੂੰਨ
+		ਵੀ ਲਾਗੂ ਹੋਣਗੇ।</string>
+	<string name="terms_of_service_changes_body">ਇਹ ਸ਼ਰਤਾਂ ਸਮੇਂ-ਸਮੇਂ ਤੇ ਅੱਪਡੇਟ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ ਹਨ।
+		ਬਦਲਾਅ ਹੋਣ ਤੋਂ ਬਾਅਦ ਐਪ ਦਾ ਲਗਾਤਾਰ ਇਸਤੇਮਾਲ ਕਰਨ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਤੁਸੀਂ ਅੱਪਡੇਟ
+		ਕੀਤੀਆਂ ਸ਼ਰਤਾਂ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦੇ ਹੋ।</string>
+	<string name="terms_of_service_contact_information_body">ਜੇ ਤੁਹਾਨੂੰ ਇਹਨਾਂ ਸ਼ਰਤਾਂ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਹੈ, ਸਪਸ਼ਟੀਕਰਨ
+		ਦੀ ਲੋੜ ਹੈ, ਜਾਂ ਐਪ ਨਾਲ ਕੋਈ ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਦੇਣੀ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਹੇਠਾਂ
+		ਦਿੱਤੇ ਸੰਪਰਕ ਵੇਰਵਿਆਂ ’ਤੇ ਮਾਲਕ ਨਾਲ ਸੰਪਰਕ ਕਰ ਸਕਦੇ ਹੋ।</string>
+	<string name="terms_of_service_effective_date_body">“ਲਾਗੂ ਹੋਣ ਦੀ ਮਿਤੀ” ਉਹ ਮਿਤੀ ਹੈ ਜਿਸ ਤੋਂ ਇਹ ਸ਼ਰਤਾਂ ਲਾਗੂ
+		ਹੁੰਦੀਆਂ ਹਨ। ਭਵਿੱਖ ਦੇ ਕਿਸੇ ਵੀ ਅੱਪਡੇਟ ਵਿੱਚ ਬਦਲਾਅ ਕਦੋਂ ਲਾਗੂ ਹੋਣਗੇ ਇਹ
+		ਦਰਸਾਉਣ ਲਈ ਸੰਸ਼ੋਧਿਤ ਲਾਗੂ ਹੋਣ ਦੀ ਮਿਤੀ ਸ਼ਾਮਲ ਹੋਵੇਗੀ।</string>
 </resources>

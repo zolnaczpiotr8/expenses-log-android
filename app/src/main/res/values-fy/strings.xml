@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Tekenantal: %d. Tekenlimyt: %d</string>
 	<string name="privacy_policy">Privacybelied</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Jo gegevens bliuwe by jo</string>
+	<string name="policy_your_data_stays_with_you_title">Jo gegevens bliuwe by jo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Wy respektearje jo privacy. Dizze app wurket
 		folslein offline en sammelt of dielt gjin gegevens. Dit belied jildt
 		foar alle brûkers wrâldwiid, ynklusyf bern fan alle leeftiden. Wy
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Om’t gjin gegevens sammele wurde, is der neat dat
 		jo fia ús besjen, bywurkje of wiskje kinne. Alle gegevens binne fan jo
 		en bliuwe allinnich op jo apparaat.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktgegevens</string>
+	<string name="policy_contact_information_title">Kontaktgegevens</string>
 	<string name="privacy_policy_changes_title">Wizigingen yn dit belied</string>
-	<string name="privacy_policy_effective_date_title">Ynfiersdatum</string>
-	<string name="privacy_policy_email_subject">Fersyk oer Privacybelied – %s</string>
+	<string name="policy_effective_date_title">Ynfiersdatum</string>
 	<string name="policies">Belied</string>
 	<string name="privacy_policy_contact_information_body">As jo fragen of soargen hawwe oer dit
 		privacybelied, kinne jo kontakt mei ús opnimme fia e-mail.</string>
@@ -97,4 +96,59 @@
 		yn in bywurke ferzje fan dit belied. Wy riede brûkers oan om dit
 		belied geregeld te besjen om ynformearre te bliuwen oer hoe’t harren
 		ynformaasje behannele wurdt.</string>
+	<string name="terms_of_service">Tsjinstbetingsten</string>
+	<string name="dialog_first_launch_agree_title">Akkoard om fierder te gean</string>
+	<string name="agree_to_terms">Ik gean akkoard</string>
+	<string name="dialog_first_launch_terms_message">Om dizze app te brûken, moatte jo ús
+		Tsjinstbetingsten lêze en akseptearje. Brûk de knop hjirûnder om se te
+		lêzen.</string>
+	<string name="terms_of_service_about_title">Oer de App</string>
+	<string name="terms_of_service_use_title">Brûken fan de app</string>
+	<string name="terms_of_service_intellectual_property_title">Yntellektueel Eigendom</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Ôfwizing fan garânsjes</string>
+	<string name="terms_of_service_limitation_of_liability_title">Beheining fan Aansprakelijkheid</string>
+	<string name="terms_of_service_termination_title">Ofsluting</string>
+	<string name="terms_of_service_governing_law_title">Tapaslik rjocht</string>
+	<string name="terms_of_service_changes_title">Wizigings fan Dizze Betingsten</string>
+	<string name="terms_of_service_about_body">Dizze applikaasje is in persoanlik ark foar it
+		folgjen fan útjeften. It wurket folslein offline en is ûntwurpen foar
+		brûkers fan alle leeftiden. De app fereasket gjin registraasje, lit
+		gjin advertinsjes sjen en sammelt of ferstjoert gjin persoanlike
+		ynformaasje.</string>
+	<string name="terms_of_service_use_body">Jo geane akkoard om de App allinnich te brûken foar
+		wettige doelen en op in wize dy’t de rjochten fan oaren net skeint of
+		harren gebrûk fan de App beheint. Jo meie net besykje de App te
+		reverse-engineeren, dekompilearje of oanpasse.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">De app wurdt “sa’t er is” levere sûnder hokker
+		garânsjes dan ek, ekspres of ymplisyt, ynklusyf mar net beheind ta
+		garânsjes fan ferkeapberens, gaadlikens foar in spesifyk doel, of gjin
+		ynbreuk. Wy jouwe gjin garânsje dat de app frij fan flaters wêze sil
+		of dat it sûnder ûnderbrekking sil wurkje.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">De app sammelt, bewarret of dielet gjin persoanlike
+		of gebrûksgegevens. Alle ynformaasje dy’t jo ynfiere bliuwt lokaal
+		bewarre op jo apparaat ûnder jo kontrôle.</string>
+	<string name="terms_of_service_intellectual_property_body">Alle rjochten, titel en belang yn en oan de App,
+		ynklusyf it ûntwerp, funksjes en koade, binne eigendom fan de
+		auteursrjochthâlder.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Yn ‘e folsleine mjitte tastien troch de wet, is de
+		eigner net oanspraaklik foar skea of ferlies dat ûntstiet troch jo
+		gebrûk fan de App, ynklusyf mar net beheind ta ferlies fan gegevens,
+		winst of saaklike kânsen.</string>
+	<string name="terms_of_service_termination_body">De eigner kin op elk momint ophâlde mei it
+		oanbieden of stypjen fan de app sûnder foarôfgeande melding.</string>
+	<string name="terms_of_service_governing_law_body">Dizze Betingsten wurde regele troch de wetten fan
+		jo wenplaklân, sûnder rekken te hâlden mei prinsipes fan konflikten
+		fan wetten. Wêr fan tapassing, sille de ferplichte
+		konsumintbeskermingswetten fan jo lân ek jilde.</string>
+	<string name="terms_of_service_changes_body">Dizze Betingsten kinne fan tiid ta tiid bywurke
+		wurde. Trochgeande gebrûk fan de App nei’t der feroarings makke binne
+		betsjut dat jo de bywurke Betingsten akseptearje.</string>
+	<string name="terms_of_service_contact_information_body">As jo fragen hawwe oer dizze Betingsten,
+		ferklearring nedich hawwe of in probleem mei de App melde wolle, kinne
+		jo kontakt opnimme mei de eigner op de hjirûnder neamde
+		kontaktgegevens.</string>
+	<string name="terms_of_service_effective_date_body">De “Yngeande Datum” is de datum fanôf wannear’t
+		dizze Betingsten jilde. Takomstige fernijingen sille in oanpaste
+		yngeande datum befetsje om oan te jaan wannear’t de feroarings
+		yngeane.</string>
 </resources>

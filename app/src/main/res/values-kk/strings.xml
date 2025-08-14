@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Таңбалар саны: %d. Таңбалар шегі: %d</string>
 	<string name="privacy_policy">Құпиялық саясаты</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Сіздің деректеріңіз сізде қалады</string>
+	<string name="policy_your_data_stays_with_you_title">Сіздің деректеріңіз сізде қалады</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Біз сіздің жеке деректеріңіздің құпиялығын
 		құрметтейміз. Бұл қосымша толығымен офлайн жұмыс істейді және ешқандай
 		деректер жинамайды немесе бөліспейді. Бұл саясат бүкіл әлем бойынша
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Ешқандай деректер жиналмағандықтан, біздің
 		тарапымыздан қол жеткізуге, жаңартуға немесе жоюға болатын ештеңе жоқ.
 		Барлық деректер сізге тиесілі және тек сіздің құрылғыңызда қалады.</string>
-	<string name="privacy_policy_contact_information_title">Байланыс ақпараты</string>
+	<string name="policy_contact_information_title">Байланыс ақпараты</string>
 	<string name="privacy_policy_changes_title">Осы саясатқа өзгерістер</string>
-	<string name="privacy_policy_effective_date_title">Күшіне ену күні</string>
-	<string name="privacy_policy_email_subject">Құпиялық Саясаты Жөнінде Сұрау – %s</string>
+	<string name="policy_effective_date_title">Күшіне ену күні</string>
 	<string name="policies">Саясаттар</string>
 	<string name="privacy_policy_contact_information_body">Осы Құпиялық Саясатына қатысты қандай да бір
 		сұрақтарыңыз немесе алаңдаушылықтарыңыз болса, бізге электрондық пошта
@@ -100,4 +99,56 @@
 		жаңартылған нұсқасында көрсетіледі. Пайдаланушыларға өз ақпаратының
 		қалай өңделетіні туралы хабардар болу үшін бұл саясатты мезгіл-мезгіл
 		қарап шығуды ұсынамыз.</string>
+	<string name="terms_of_service">Қызмет көрсету шарттары</string>
+	<string name="dialog_first_launch_agree_title">Жалғастыру үшін келісіңіз</string>
+	<string name="agree_to_terms">Мен келісемін</string>
+	<string name="dialog_first_launch_terms_message">Бұл қолданбаны пайдалану үшін Қызмет көрсету
+		шарттарын оқып, қабылдауыңыз керек. Оқу үшін төмендегі түймені
+		пайдаланыңыз.</string>
+	<string name="terms_of_service_about_title">Қосымша туралы</string>
+	<string name="terms_of_service_use_title">Қолданбаны пайдалану</string>
+	<string name="terms_of_service_intellectual_property_title">Зияткерлік меншік</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Кепілдіктерден бас тарту</string>
+	<string name="terms_of_service_limitation_of_liability_title">Жауапкершілікті Шектеу</string>
+	<string name="terms_of_service_termination_title">Тоқтату</string>
+	<string name="terms_of_service_governing_law_title">Қолданылатын заң</string>
+	<string name="terms_of_service_changes_title">Осы Шарттарға Өзгерістер</string>
+	<string name="terms_of_service_about_body">Бұл қосымша жеке шығындарды қадағалау құралы болып
+		табылады. Ол толықтай оффлайн режимінде жұмыс істейді және барлық
+		жастағы пайдаланушыларға арналған. Қосымша тіркеуді қажет етпейді,
+		жарнамаларды көрсетпейді және ешқандай жеке ақпаратты жинамайды немесе
+		таратпайды.</string>
+	<string name="terms_of_service_use_body">Сіз Қолданбаны тек заңды мақсаттарда және
+		басқалардың құқықтарын бұзбайтын немесе олардың Қолданбаны пайдалануын
+		шектемейтін тәсілмен пайдалануға келісесіз. Қолданбаны реверс
+		инженерлеуге, декомпиляциялауға немесе өзгертуге тырыспауыңыз керек.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Қосымша “бар қалпында” ешқандай айқын немесе
+		астыртын кепілдіктерсіз беріледі, соның ішінде, бірақ олармен
+		шектелмей, сату жарамдылығы, белгілі бір мақсатқа сай болу немесе
+		құқық бұзбау кепілдіктері. Біз Қосымшаның қателерсіз болатынына немесе
+		үздіксіз жұмыс істейтініне кепілдік бермейміз.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Қосымша ешқандай жеке немесе қолдану деректерін
+		жинамайды, сақтамайды және бөліспейді. Сіз енгізетін барлық ақпарат
+		құрылғыңызда жергілікті түрде сақталып, сіздің бақылауыңызда болады.</string>
+	<string name="terms_of_service_intellectual_property_body">Қосымшаға қатысты барлық құқықтар, атау және
+		мүдделер, оның дизайны, функциялары және коды қоса, авторлық құқық
+		иесіне тиесілі.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Заңмен рұқсат етілген ең жоғарғы деңгейде, иесі Сіз
+		қосымшаны пайдаланғаннан туындайтын кез келген залал немесе шығын үшін
+		жауап бермейді, соның ішінде, бірақ онымен шектелмей, деректердің,
+		пайданы немесе іскерлік мүмкіндіктердің жоғалуы.</string>
+	<string name="terms_of_service_termination_body">Иесі кез келген уақытта қосымшаны ұсынуды немесе
+		қолдауды алдын ала хабарламай-ақ тоқтата алады.</string>
+	<string name="terms_of_service_governing_law_body">Осы Шарттар сіз тұратын елдің заңдарымен реттеледі,
+		құқық қайшылығы қағидаттарына қарамастан. Қолданылатын жағдайда,
+		сіздің еліңіздегі міндетті тұтынушыны қорғау заңдары да қолданылады.</string>
+	<string name="terms_of_service_changes_body">Бұл Шарттар уақыт өте келе жаңартылуы мүмкін.
+		Өзгерістер енгізілгеннен кейін Қолданбаны пайдалануды жалғастыру
+		жаңартылған Шарттарды қабылдағаныңызды білдіреді.</string>
+	<string name="terms_of_service_contact_information_body">Егер осы Шарттар туралы сұрақтарыңыз болса,
+		түсіндіру қажет болса немесе Қосымшаға қатысты мәселені хабарлағыңыз
+		келсе, төмендегі байланыс деректері арқылы иесіне хабарласа аласыз.</string>
+	<string name="terms_of_service_effective_date_body">«Күшіне ену күні» — бұл осы Шарттар қолданылатын
+		күн. Келешектегі жаңартуларда өзгерістердің күшіне ену уақытын көрсету
+		үшін қайта қаралған күшіне ену күні қамтылады.</string>
 </resources>

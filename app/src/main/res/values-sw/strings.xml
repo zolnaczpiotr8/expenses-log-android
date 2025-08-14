@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Idadi ya herufi: %d. Kiwango cha juu cha herufi: %d</string>
 	<string name="privacy_policy">Sera ya Faragha</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Data yako inakaa nawe</string>
+	<string name="policy_your_data_stays_with_you_title">Data yako inakaa nawe</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tunaheshimu faragha yako. Programu hii inafanya
 		kazi kabisa nje ya mtandao na haikusanyi wala kushiriki data yoyote.
 		Sera hii inatumika kwa watumiaji wote duniani kote, wakiwemo watoto wa
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Kwa kuwa hakuna data inayokusanywa, hakuna kitu
 		unachoweza kufikia, kusasisha au kufuta kupitia sisi. Data yote ni
 		yako na inabaki kwenye kifaa chako pekee.</string>
-	<string name="privacy_policy_contact_information_title">Maelezo ya Mawasiliano</string>
+	<string name="policy_contact_information_title">Maelezo ya Mawasiliano</string>
 	<string name="privacy_policy_changes_title">Mabadiliko ya sera hii</string>
-	<string name="privacy_policy_effective_date_title">Tarehe ya kuanza kutumika</string>
-	<string name="privacy_policy_email_subject">Uchunguzi wa Sera ya Faragha – %s</string>
+	<string name="policy_effective_date_title">Tarehe ya kuanza kutumika</string>
 	<string name="policies">Sera</string>
 	<string name="privacy_policy_contact_information_body">Ikiwa una maswali au wasiwasi wowote kuhusu Sera
 		hii ya Faragha, unaweza kuwasiliana nasi kwa barua pepe.</string>
@@ -96,4 +95,58 @@
 		katika toleo lililosasishwa la sera hii. Tunahimiza watumiaji kupitia
 		sera hii mara kwa mara ili wabaki na taarifa kuhusu jinsi taarifa zao
 		zinavyoshughulikiwa.</string>
+	<string name="terms_of_service">Masharti ya Huduma</string>
+	<string name="dialog_first_launch_agree_title">Kubali kuendelea</string>
+	<string name="agree_to_terms">Nakubali</string>
+	<string name="dialog_first_launch_terms_message">Ili kutumia programu hii, lazima usome na ukubali
+		Masharti ya Huduma yetu. Tumia kitufe kilicho hapa chini kuyasoma.</string>
+	<string name="terms_of_service_about_title">Kuhusu Programu</string>
+	<string name="terms_of_service_use_title">Matumizi ya Programu</string>
+	<string name="terms_of_service_intellectual_property_title">Mali ya Akili</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Kukanusha dhamana</string>
+	<string name="terms_of_service_limitation_of_liability_title">Kiwango cha Uwajibikaji</string>
+	<string name="terms_of_service_termination_title">Kusitishwa</string>
+	<string name="terms_of_service_governing_law_title">Sheria Inayotumika</string>
+	<string name="terms_of_service_changes_title">Mabadiliko ya Masharti haya</string>
+	<string name="terms_of_service_about_body">Programu hii ni chombo cha kufuatilia matumizi
+		binafsi. Inafanya kazi bila mtandao kabisa na imetengenezwa kwa
+		watumiaji wa rika zote. Programu haihitaji usajili, haionyeshi
+		matangazo, na haikusanyi wala kutuma taarifa zozote binafsi.</string>
+	<string name="terms_of_service_use_body">Unakubali kutumia Programu hii kwa madhumuni ya
+		kisheria pekee na kwa njia ambayo haikiuki haki za wengine au kuzuia
+		matumizi yao ya Programu. Hupaswi kujaribu kufanya reverse
+		engineering, ku-decompile au kurekebisha Programu.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Programu inatolewa “kama ilivyo” bila dhamana ya
+		aina yoyote, iwe ya moja kwa moja au iliyodokezwa, ikijumuisha lakini
+		sio tu dhamana za uuzaji, kufaa kwa kusudi fulani, au kutokukiuka.
+		Hatutoi dhamana kwamba programu itakuwa haina makosa au itaendeshwa
+		bila usumbufu.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Programu haitoi, haihifadhi, au kushiriki data
+		yoyote binafsi au ya matumizi. Taarifa zote unazoweka zinabaki
+		kuhifadhiwa ndani ya kifaa chako kwa eneo na ziko chini ya udhibiti
+		wako.</string>
+	<string name="terms_of_service_intellectual_property_body">Haki zote, jina, na maslahi katika na kwa Programu,
+		pamoja na muundo wake, vipengele, na msimbo wake, zinamilikiwa na
+		mmiliki wa hakimiliki.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Kwa kiwango cha juu kinachoruhusiwa na sheria,
+		mmiliki hawajibiki kwa uharibifu wowote au hasara yoyote inayotokana
+		na matumizi yako ya Programu, ikiwa ni pamoja na lakini sio tu
+		kupoteza data, faida, au fursa za kibiashara.</string>
+	<string name="terms_of_service_termination_body">Mmiliki anaweza kuacha kutoa au kusaidia Programu
+		wakati wowote bila taarifa ya awali.</string>
+	<string name="terms_of_service_governing_law_body">Masharti haya yatasimamiwa na sheria za nchi
+		unayoishi, bila kuzingatia kanuni za mgongano wa sheria. Pale
+		inapohitajika, sheria za lazima za ulinzi wa watumiaji za nchi yako
+		pia zitatumika.</string>
+	<string name="terms_of_service_changes_body">Masharti haya yanaweza kusasishwa mara kwa mara.
+		Kuendelea kutumia Programu baada ya mabadiliko kunamaanisha unakubali
+		Masharti yaliyosasishwa.</string>
+	<string name="terms_of_service_contact_information_body">Ikiwa una maswali yoyote kuhusu Masharti haya,
+		unahitaji ufafanuzi, au ungependa kuripoti tatizo na Programu, unaweza
+		kuwasiliana na mmiliki kupitia maelezo ya mawasiliano yaliyo hapa
+		chini.</string>
+	<string name="terms_of_service_effective_date_body">“Tarehe ya Kuanza Kutumika” ni tarehe ambayo
+		Masharti haya yanatumika kuanzia. Mabadiliko yoyote yajayo yatakuwa na
+		tarehe ya kuanza kutumika iliyorekebishwa ili kuonyesha ni lini
+		mabadiliko yataanza kutumika.</string>
 </resources>

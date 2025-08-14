@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Merkkimäärä: %d. Merkkiraja: %d</string>
 	<string name="privacy_policy">Tietosuojakäytäntö</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Tietosi pysyvät sinun hallussasi</string>
+	<string name="policy_your_data_stays_with_you_title">Tietosi pysyvät sinun hallussasi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kunnioitamme yksityisyyttäsi. Tämä sovellus toimii
 		kokonaan offline-tilassa eikä kerää tai jaa mitään tietoja. Tämä
 		käytäntö koskee kaikkia käyttäjiä maailmanlaajuisesti, mukaan lukien
@@ -77,10 +77,9 @@
 	<string name="privacy_policy_your_rights_body">Koska mitään tietoja ei kerätä, ei ole mitään, mitä
 		voisit käyttää, päivittää tai poistaa meidän kauttamme. Kaikki tiedot
 		ovat sinun ja pysyvät ainoastaan laitteessasi.</string>
-	<string name="privacy_policy_contact_information_title">Yhteystiedot</string>
+	<string name="policy_contact_information_title">Yhteystiedot</string>
 	<string name="privacy_policy_changes_title">Muutokset tähän käytäntöön</string>
-	<string name="privacy_policy_effective_date_title">Voimaantulopäivä</string>
-	<string name="privacy_policy_email_subject">Tietosuojakysely – %s</string>
+	<string name="policy_effective_date_title">Voimaantulopäivä</string>
 	<string name="policies">Käytännöt</string>
 	<string name="privacy_policy_contact_information_body">Jos sinulla on kysyttävää tai huolenaiheita tästä
 		tietosuojakäytännöstä, voit ottaa meihin yhteyttä sähköpostitse.</string>
@@ -94,4 +93,54 @@
 		käytännön päivitetystä versiosta. Kehotamme käyttäjiä tarkistamaan
 		tämän käytännön säännöllisesti pysyäkseen ajan tasalla siitä, miten
 		heidän tietojaan käsitellään.</string>
+	<string name="terms_of_service">Palveluehdot</string>
+	<string name="dialog_first_launch_agree_title">Hyväksy jatkaaksesi</string>
+	<string name="agree_to_terms">Hyväksyn</string>
+	<string name="dialog_first_launch_terms_message">Käyttääksesi tätä sovellusta, sinun on luettava ja
+		hyväksyttävä palveluehtomme. Lue ne alla olevasta painikkeesta.</string>
+	<string name="terms_of_service_about_title">Tietoja Sovelluksesta</string>
+	<string name="terms_of_service_use_title">Sovelluksen käyttö</string>
+	<string name="terms_of_service_intellectual_property_title">Immateriaalioikeudet</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Takuista luopuminen</string>
+	<string name="terms_of_service_limitation_of_liability_title">Vastuunrajoitus</string>
+	<string name="terms_of_service_termination_title">Päättäminen</string>
+	<string name="terms_of_service_governing_law_title">Sovellettava laki</string>
+	<string name="terms_of_service_changes_title">Muutokset Näihin Ehtoihin</string>
+	<string name="terms_of_service_about_body">Tämä sovellus on henkilökohtaisten menojen
+		seurantatyökalu. Se toimii täysin offline-tilassa ja on suunniteltu
+		kaikenikäisille käyttäjille. Sovellus ei vaadi rekisteröitymistä, ei
+		näytä mainoksia eikä kerää tai lähetä mitään henkilökohtaisia tietoja.</string>
+	<string name="terms_of_service_use_body">Sitoudut käyttämään sovellusta vain laillisiin
+		tarkoituksiin ja tavalla, joka ei loukkaa muiden oikeuksia eikä
+		rajoita heidän sovelluksen käyttöään. Et saa yrittää
+		käänteismallintaa, purkaa tai muokata sovellusta.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Sovellus toimitetaan “sellaisenaan” ilman
+		minkäänlaisia takuita, ilmaistuja tai oletettuja, mukaan lukien mutta
+		ei rajoittuen myyntikelpoisuuden, sopivuuden tiettyyn tarkoitukseen
+		tai oikeuksien loukkaamattomuuden takuut. Emme takaa, että sovellus on
+		virheetön tai toimii keskeytyksettä.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Sovellus ei kerää, säilytä tai jaa mitään
+		henkilökohtaisia tai käyttöön liittyviä tietoja. Kaikki syöttämäsi
+		tiedot säilyvät paikallisesti laitteellasi hallintasi alaisuudessa.</string>
+	<string name="terms_of_service_intellectual_property_body">Kaikki sovellukseen liittyvät oikeudet,
+		omistusoikeus ja intressit, mukaan lukien sen suunnittelu,
+		ominaisuudet ja koodi, kuuluvat tekijänoikeuden haltijalle.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Siinä laajuudessa kuin laki sallii, omistaja ei ole
+		vastuussa mistään vahingoista tai menetyksistä, jotka johtuvat
+		Sovelluksen käytöstäsi, mukaan lukien, mutta ei rajoittuen, tietojen,
+		voittojen tai liiketoimintamahdollisuuksien menetykseen.</string>
+	<string name="terms_of_service_termination_body">Omistaja voi lopettaa sovelluksen tarjoamisen tai
+		tukemisen milloin tahansa ilman ennakkoilmoitusta.</string>
+	<string name="terms_of_service_governing_law_body">Näitä Ehtoja säätelee asuinmaasi lainsäädäntö,
+		riippumatta lainvalintaperiaatteista. Soveltuvin osin sovelletaan myös
+		asuinmaasi pakottavia kuluttajansuojalakeja.</string>
+	<string name="terms_of_service_changes_body">Näitä Ehtoja voidaan päivittää aika ajoin.
+		Sovelluksen käytön jatkaminen muutosten jälkeen tarkoittaa, että
+		hyväksyt päivitetyt Ehdot.</string>
+	<string name="terms_of_service_contact_information_body">Jos sinulla on kysyttävää näistä Ehdoista,
+		tarvitset selvennystä tai haluat ilmoittaa sovelluksen ongelmasta,
+		voit ottaa yhteyttä omistajaan alla olevien yhteystietojen kautta.</string>
+	<string name="terms_of_service_effective_date_body">“Voimaantulopäivä” on päivämäärä, josta alkaen nämä
+		Ehdot ovat voimassa. Tulevat päivitykset sisältävät tarkistetun
+		voimaantulopäivän, joka osoittaa, milloin muutokset tulevat voimaan.</string>
 </resources>

@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Conteggio caratteri: %d. Limite di caratteri: %d</string>
 	<string name="privacy_policy">Politica sulla privacy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">I tuoi dati restano con te</string>
+	<string name="policy_your_data_stays_with_you_title">I tuoi dati restano con te</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Rispettiamo la tua privacy. Questa app funziona
 		completamente offline e non raccoglie né condivide alcun dato. Questa
 		politica si applica a tutti gli utenti in tutto il mondo, inclusi i
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Poiché non vengono raccolti dati, non c’è nulla a
 		cui tu possa accedere, aggiornare o eliminare tramite noi. Tutti i
 		dati sono tuoi e rimangono esclusivamente sul tuo dispositivo.</string>
-	<string name="privacy_policy_contact_information_title">Informazioni di Contatto</string>
+	<string name="policy_contact_information_title">Informazioni di Contatto</string>
 	<string name="privacy_policy_changes_title">Modifiche a questa politica</string>
-	<string name="privacy_policy_effective_date_title">Data di entrata in vigore</string>
-	<string name="privacy_policy_email_subject">Richiesta sulla Politica sulla Privacy – %s</string>
+	<string name="policy_effective_date_title">Data di entrata in vigore</string>
 	<string name="policies">Politiche</string>
 	<string name="privacy_policy_contact_information_body">Se hai domande o dubbi riguardo a questa
 		Informativa sulla Privacy, puoi contattarci via email.</string>
@@ -99,4 +98,58 @@
 		aggiornata di questa politica. Invitiamo gli utenti a consultare
 		periodicamente questa politica per rimanere informati su come vengono
 		trattate le loro informazioni.</string>
+	<string name="terms_of_service">Termini di servizio</string>
+	<string name="dialog_first_launch_agree_title">Accetta per continuare</string>
+	<string name="agree_to_terms">Accetto</string>
+	<string name="dialog_first_launch_terms_message">Per utilizzare questa app, devi leggere e accettare
+		i nostri Termini di servizio. Usa il pulsante qui sotto per leggerli.</string>
+	<string name="terms_of_service_about_title">Informazioni sull’app</string>
+	<string name="terms_of_service_use_title">Uso dell’app</string>
+	<string name="terms_of_service_intellectual_property_title">Proprietà Intellettuale</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Esclusione di garanzie</string>
+	<string name="terms_of_service_limitation_of_liability_title">Limitazione di Responsabilità</string>
+	<string name="terms_of_service_termination_title">Risoluzione</string>
+	<string name="terms_of_service_governing_law_title">Legge applicabile</string>
+	<string name="terms_of_service_changes_title">Modifiche a Questi Termini</string>
+	<string name="terms_of_service_about_body">Questa applicazione è uno strumento per il
+		monitoraggio delle spese personali. Funziona completamente offline ed
+		è progettata per utenti di tutte le età. L’app non richiede
+		registrazione, non mostra pubblicità e non raccoglie né trasmette
+		alcuna informazione personale.</string>
+	<string name="terms_of_service_use_body">Accetti di utilizzare l’App solo per scopi legali e
+		in modo da non violare i diritti degli altri o limitare il loro uso
+		dell’App. Non devi tentare di effettuare reverse engineering,
+		decompilare o modificare l’App.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">L’app è fornita “così com’è” senza alcuna garanzia
+		di alcun tipo, esplicita o implicita, incluse ma non limitate alle
+		garanzie di commerciabilità, idoneità per uno scopo particolare o non
+		violazione. Non garantiamo che l’app sarà priva di errori o che
+		funzionerà senza interruzioni.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">L’app non raccoglie, memorizza né condivide alcun
+		dato personale o di utilizzo. Tutte le informazioni che inserisci
+		rimangono memorizzate localmente sul tuo dispositivo, sotto il tuo
+		controllo.</string>
+	<string name="terms_of_service_intellectual_property_body">Tutti i diritti, i titoli e gli interessi relativi
+		all’App, compresi il design, le funzionalità e il codice, sono di
+		proprietà del titolare del copyright.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Nella misura massima consentita dalla legge, il
+		proprietario non è responsabile per eventuali danni o perdite
+		derivanti dall’utilizzo dell’App, inclusa, a titolo esemplificativo ma
+		non esaustivo, la perdita di dati, profitti o opportunità commerciali.</string>
+	<string name="terms_of_service_termination_body">Il proprietario può smettere di offrire o
+		supportare l’app in qualsiasi momento senza preavviso.</string>
+	<string name="terms_of_service_governing_law_body">I presenti Termini saranno disciplinati dalle leggi
+		del paese in cui risiedi, senza tener conto dei principi relativi ai
+		conflitti di legge. Ove applicabile, si applicheranno anche le leggi
+		obbligatorie a tutela dei consumatori del tuo paese.</string>
+	<string name="terms_of_service_changes_body">Questi Termini possono essere aggiornati di volta
+		in volta. L’uso continuato dell’App dopo le modifiche significa che
+		accetti i Termini aggiornati.</string>
+	<string name="terms_of_service_contact_information_body">Se hai domande su questi Termini, hai bisogno di
+		chiarimenti o desideri segnalare un problema con l’App, puoi
+		contattare il proprietario ai recapiti indicati di seguito.</string>
+	<string name="terms_of_service_effective_date_body">La “Data di Entrata in Vigore” è la data a partire
+		dalla quale si applicano questi Termini. Eventuali aggiornamenti
+		futuri includeranno una data di entrata in vigore rivista per indicare
+		quando le modifiche avranno effetto.</string>
 </resources>

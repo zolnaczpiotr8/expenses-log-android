@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Teckenantal: %d. Teckengräns: %d</string>
 	<string name="privacy_policy">Integritetspolicy</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Dina uppgifter stannar hos dig</string>
+	<string name="policy_your_data_stays_with_you_title">Dina uppgifter stannar hos dig</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterar din integritet. Denna app fungerar
 		helt offline och samlar inte in eller delar någon data. Denna policy
 		gäller för alla användare världen över, inklusive barn i alla åldrar.
@@ -76,10 +76,9 @@
 	<string name="privacy_policy_your_rights_body">Eftersom ingen data samlas in finns det inget för
 		dig att komma åt, uppdatera eller radera via oss. All data är din och
 		finns endast på din enhet.</string>
-	<string name="privacy_policy_contact_information_title">Kontaktinformation</string>
+	<string name="policy_contact_information_title">Kontaktinformation</string>
 	<string name="privacy_policy_changes_title">Ändringar i denna policy</string>
-	<string name="privacy_policy_effective_date_title">Ikraftträdandedatum</string>
-	<string name="privacy_policy_email_subject">Förfrågan om Sekretesspolicy – %s</string>
+	<string name="policy_effective_date_title">Ikraftträdandedatum</string>
 	<string name="policies">Policyer</string>
 	<string name="privacy_policy_contact_information_body">Om du har några frågor eller funderingar angående
 		denna integritetspolicy kan du kontakta oss via e-post.</string>
@@ -93,4 +92,56 @@
 		en uppdaterad version av denna policy. Vi uppmuntrar användare att
 		regelbundet granska denna policy för att hålla sig informerade om hur
 		deras information behandlas.</string>
+	<string name="terms_of_service">Användarvillkor</string>
+	<string name="dialog_first_launch_agree_title">Godkänn för att fortsätta</string>
+	<string name="agree_to_terms">Jag godkänner</string>
+	<string name="dialog_first_launch_terms_message">För att använda den här appen måste du läsa och
+		godkänna våra användarvillkor. Använd knappen nedan för att läsa dem.</string>
+	<string name="terms_of_service_about_title">Om Appen</string>
+	<string name="terms_of_service_use_title">Användning av appen</string>
+	<string name="terms_of_service_intellectual_property_title">Immateriell Egendom</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Ansvarsfriskrivning för garantier</string>
+	<string name="terms_of_service_limitation_of_liability_title">Ansvarsbegränsning</string>
+	<string name="terms_of_service_termination_title">Uppsägning</string>
+	<string name="terms_of_service_governing_law_title">Tillämplig lag</string>
+	<string name="terms_of_service_changes_title">Ändringar av dessa Villkor</string>
+	<string name="terms_of_service_about_body">Denna applikation är ett verktyg för att spåra
+		personliga utgifter. Den fungerar helt offline och är utformad för
+		användare i alla åldrar. Appen kräver ingen registrering, visar inga
+		annonser och samlar inte in eller överför någon personlig information.</string>
+	<string name="terms_of_service_use_body">Du samtycker till att använda Appen endast för
+		lagliga ändamål och på ett sätt som inte inkräktar på andras
+		rättigheter eller begränsar deras användning av Appen. Du får inte
+		försöka att reverse-engineera, dekompilera eller modifiera Appen.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Appen tillhandahålls “i befintligt skick” utan
+		några som helst garantier, vare sig uttryckliga eller underförstådda,
+		inklusive men inte begränsat till garantier om säljbarhet, lämplighet
+		för ett visst ändamål eller att den inte gör intrång. Vi garanterar
+		inte att appen är felfri eller att den kommer att fungera utan
+		avbrott.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Appen samlar inte in, lagrar eller delar någon
+		personlig eller användningsdata. All information du lägger in förblir
+		lagrad lokalt på din enhet under din kontroll.</string>
+	<string name="terms_of_service_intellectual_property_body">Alla rättigheter, titlar och intressen i och till
+		appen, inklusive dess design, funktioner och kod, ägs av
+		upphovsrättsinnehavaren.</string>
+	<string name="terms_of_service_limitation_of_liability_body">I den utsträckning lagen tillåter är ägaren inte
+		ansvarig för skador eller förluster som uppstår till följd av din
+		användning av appen, inklusive men inte begränsat till förlust av
+		data, vinst eller affärsmöjligheter.</string>
+	<string name="terms_of_service_termination_body">Ägaren kan när som helst sluta erbjuda eller stödja
+		appen utan föregående meddelande.</string>
+	<string name="terms_of_service_governing_law_body">Dessa Villkor styrs av lagarna i det land där du
+		bor, utan hänsyn till lagvalsprinciper. Där det är tillämpligt kommer
+		även tvingande konsumentskyddslagar i ditt land att gälla.</string>
+	<string name="terms_of_service_changes_body">Dessa Villkor kan uppdateras från tid till annan.
+		Fortsatt användning av Appen efter ändringar innebär att du accepterar
+		de uppdaterade Villkoren.</string>
+	<string name="terms_of_service_contact_information_body">Om du har några frågor om dessa Villkor, behöver
+		förtydliganden eller vill rapportera ett problem med Appen, kan du
+		kontakta ägaren via kontaktuppgifterna nedan.</string>
+	<string name="terms_of_service_effective_date_body">”Ikraftträdandedatumet” är det datum från vilket
+		dessa Villkor gäller. Framtida uppdateringar kommer att inkludera ett
+		reviderat ikraftträdandedatum för att ange när ändringarna träder i
+		kraft.</string>
 </resources>

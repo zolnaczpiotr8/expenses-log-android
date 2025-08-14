@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karaktere kopurua: %d. Karaktere muga: %d</string>
 	<string name="privacy_policy">Pribatutasun politika</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Zure datuak zurekin geratzen dira</string>
+	<string name="policy_your_data_stays_with_you_title">Zure datuak zurekin geratzen dira</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Zure pribatutasuna errespetatzen dugu. Aplikazio
 		honek guztiz offline funtzionatzen du eta ez du daturik biltzen edo
 		partekatzen. Politika honek mundu osoko erabiltzaile guztiei
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Datuak ez direlako biltzen, ez dago gure bidez
 		atzitu, eguneratu edo ezabatzeko ezer. Datu guztiak zureak dira eta
 		zure gailuan soilik geratzen dira.</string>
-	<string name="privacy_policy_contact_information_title">Harremanetarako informazioa</string>
+	<string name="policy_contact_information_title">Harremanetarako informazioa</string>
 	<string name="privacy_policy_changes_title">Politika honen aldaketak</string>
-	<string name="privacy_policy_effective_date_title">Indarrean sartzeko data</string>
-	<string name="privacy_policy_email_subject">Pribatutasun Politikaren Kontsulta – %s</string>
+	<string name="policy_effective_date_title">Indarrean sartzeko data</string>
 	<string name="policies">Politikak</string>
 	<string name="privacy_policy_contact_information_body">Pribatutasun Politika honi buruzko galderarik edo
 		kezkarik baduzu, gurekin harremanetan jar zaitezke posta elektronikoz.</string>
@@ -98,4 +97,61 @@
 		eguneratutako bertsioan islatuko dira. Erabiltzaileei gomendatzen
 		diegu politika hau aldian behin berrikustea, haien informazioa nola
 		tratatzen den jakitun egoteko.</string>
+	<string name="terms_of_service">Zerbitzu-baldintzak</string>
+	<string name="dialog_first_launch_agree_title">Ados jarraitzeko</string>
+	<string name="agree_to_terms">Ados nago</string>
+	<string name="dialog_first_launch_terms_message">Aplikazio hau erabiltzeko, gure Zerbitzuaren
+		Baldintzak irakurri eta onartu behar dituzu. Irakurtzeko erabili
+		beheko botoia.</string>
+	<string name="terms_of_service_about_title">Aplikazioari buruz</string>
+	<string name="terms_of_service_use_title">Aplikazioaren erabilera</string>
+	<string name="terms_of_service_intellectual_property_title">Jabetza intelektuala</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Bermeen ukapena</string>
+	<string name="terms_of_service_limitation_of_liability_title">Erantzukizunaren Muga</string>
+	<string name="terms_of_service_termination_title">Amaiera</string>
+	<string name="terms_of_service_governing_law_title">Arau Aplikagarria</string>
+	<string name="terms_of_service_changes_title">Baldintza hauetan aldaketak</string>
+	<string name="terms_of_service_about_body">Aplikazio hau gastu pertsonalak jarraitzeko tresna
+		bat da. Erabat lineaz kanpo funtzionatzen du eta adin guztietako
+		erabiltzaileentzat diseinatuta dago. Aplikazioak ez du erregistrorik
+		behar, ez ditu iragarkiak erakusten eta ez du inolako informazio
+		pertsonalik biltzen edo transmititzen.</string>
+	<string name="terms_of_service_use_body">Aplikazioa soilik helburu legaletarako eta beste
+		pertsonen eskubideak urratzen ez dituen edo haien aplikazioaren
+		erabilera mugatzen ez duen moduan erabiltzea onartzen duzu. Ez duzu
+		aplikazioa alderantziz ingeniarizatu, deskonpilatu edo aldatu behar.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikazioa “dagoen moduan” eskaintzen da inolako
+		bermerik gabe, esplizitua izan ala implicatua,
+		merkaturagarritasunaren, helburu zehatz baterako egokitasunaren edo
+		jazarpenik eza bermatzen dutenak barne, baina horientzat soilik mugatu
+		gabe. Ez diogu bermatzen Aplikazioa akatsik gabe egongo denik edo
+		etenik gabe funtzionatuko duenik.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikazioak ez du inolako datu pertsonalik edo
+		erabileran oinarritutako daturik bildu, gorde edo partekatzen.
+		Sartutako informazio guztia zure gailuan bertan gordeta geratzen da,
+		zure kontrolpean.</string>
+	<string name="terms_of_service_intellectual_property_body">Aplikazioari buruzko eskubide, titulua eta
+		interesa, bere diseinua, ezaugarriak eta kodea barne, egilearen
+		eskubideen jabeari dagozkio.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Legeak baimentzen duen neurri osoenean, jabeak ez
+		du erantzukizunik izango Aplikazioa erabiltzeagatik sor daitezkeen
+		kalte edo galerengatik, datuen, irabazien edo negozio aukeren galera
+		barne baina horietara mugatu gabe.</string>
+	<string name="terms_of_service_termination_body">Jabeak aplikazioa eskaintzeari edo laguntzeari
+		edozein unetan utzi diezaioke, aurretiaz jakinarazi gabe.</string>
+	<string name="terms_of_service_governing_law_body">Hitzordu hauek zure bizileku-herriko legeek
+		arautuko dituzte, lege-gatazken printzipioak kontuan hartu gabe.
+		Dagokienez, zure herrialdeko kontsumitzaile-babeserako derrigorrezko
+		legeak ere aplikatuko dira.</string>
+	<string name="terms_of_service_changes_body">Baldintza hauek noizean behin eguneratu daitezke.
+		Aplikazioa erabiltzen jarraitzeak, aldaketak egin ondoren,
+		eguneratutako Baldintzak onartzen dituzula esan nahi du.</string>
+	<string name="terms_of_service_contact_information_body">Baldintza hauei buruzko zalantzarik baduzu,
+		argibideren bat behar baduzu edo Aplikazioarekin arazo bat jakinarazi
+		nahi baduzu, jabearekin jarri zaitezke harremanetan beheko kontaktu
+		xehetasunetan.</string>
+	<string name="terms_of_service_effective_date_body">“Indarrean jartzeko data” Baldintza hauek
+		aplikatzen hasten diren data da. Etorkizuneko eguneratzeek indarrean
+		jartzeko data berrikusita bat sartuko dute, aldaketak noiz indarrean
+		sartzen diren adierazteko.</string>
 </resources>

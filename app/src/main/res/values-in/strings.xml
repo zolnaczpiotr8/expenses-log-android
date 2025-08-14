@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Jumlah karakter: %d. Batas karakter: %d</string>
 	<string name="privacy_policy">Kebijakan Privasi</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Data Anda tetap bersama Anda</string>
+	<string name="policy_your_data_stays_with_you_title">Data Anda tetap bersama Anda</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kami menghormati privasi Anda. Aplikasi ini
 		berfungsi sepenuhnya offline dan tidak mengumpulkan atau membagikan
 		data apapun. Kebijakan ini berlaku untuk semua pengguna di seluruh
@@ -82,10 +82,9 @@
 	<string name="privacy_policy_your_rights_body">Karena tidak ada data yang dikumpulkan, tidak ada
 		yang dapat Anda akses, perbarui, atau hapus melalui kami. Semua data
 		adalah milik Anda dan tetap berada di perangkat Anda.</string>
-	<string name="privacy_policy_contact_information_title">Informasi Kontak</string>
+	<string name="policy_contact_information_title">Informasi Kontak</string>
 	<string name="privacy_policy_changes_title">Perubahan pada kebijakan ini</string>
-	<string name="privacy_policy_effective_date_title">Tanggal berlaku</string>
-	<string name="privacy_policy_email_subject">Permintaan Kebijakan Privasi – %s</string>
+	<string name="policy_effective_date_title">Tanggal berlaku</string>
 	<string name="policies">Kebijakan</string>
 	<string name="privacy_policy_contact_information_body">Jika Anda memiliki pertanyaan atau kekhawatiran
 		mengenai Kebijakan Privasi ini, Anda dapat menghubungi kami melalui
@@ -100,4 +99,61 @@
 		kebijakan yang diperbarui. Kami menganjurkan pengguna untuk meninjau
 		kebijakan ini secara berkala agar tetap mendapat informasi tentang
 		bagaimana informasi mereka diperlakukan.</string>
+	<string name="terms_of_service">Ketentuan Layanan</string>
+	<string name="dialog_first_launch_agree_title">Setuju untuk melanjutkan</string>
+	<string name="agree_to_terms">Saya setuju</string>
+	<string name="dialog_first_launch_terms_message">Untuk menggunakan aplikasi ini, Anda harus membaca
+		dan menyetujui Ketentuan Layanan kami. Gunakan tombol di bawah untuk
+		membacanya.</string>
+	<string name="terms_of_service_about_title">Tentang Aplikasi</string>
+	<string name="terms_of_service_use_title">Penggunaan Aplikasi</string>
+	<string name="terms_of_service_intellectual_property_title">Kekayaan Intelektual</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Penolakan jaminan</string>
+	<string name="terms_of_service_limitation_of_liability_title">Batasan Tanggung Jawab</string>
+	<string name="terms_of_service_termination_title">Pengakhiran</string>
+	<string name="terms_of_service_governing_law_title">Hukum yang Berlaku</string>
+	<string name="terms_of_service_changes_title">Perubahan pada Ketentuan ini</string>
+	<string name="terms_of_service_about_body">Aplikasi ini adalah alat pelacak pengeluaran
+		pribadi. Beroperasi sepenuhnya offline dan dirancang untuk pengguna
+		dari semua usia. Aplikasi ini tidak memerlukan pendaftaran, tidak
+		menampilkan iklan, dan tidak mengumpulkan atau mengirimkan informasi
+		pribadi apa pun.</string>
+	<string name="terms_of_service_use_body">Anda setuju untuk menggunakan Aplikasi hanya untuk
+		tujuan yang sah dan dengan cara yang tidak melanggar hak orang lain
+		atau membatasi penggunaan Aplikasi oleh mereka. Anda tidak boleh
+		mencoba untuk melakukan rekayasa balik, dekompilasi, atau memodifikasi
+		Aplikasi.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Aplikasi disediakan “sebagaimana adanya” tanpa
+		jaminan apa pun, baik tersurat maupun tersirat, termasuk namun tidak
+		terbatas pada jaminan kelayakan jual, kesesuaian untuk tujuan
+		tertentu, atau tidak adanya pelanggaran. Kami tidak menjamin bahwa
+		aplikasi akan bebas dari kesalahan atau berfungsi tanpa gangguan.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Aplikasi tidak mengumpulkan, menyimpan, atau
+		membagikan data pribadi atau penggunaan apa pun. Semua informasi yang
+		Anda masukkan tetap disimpan secara lokal di perangkat Anda dan berada
+		di bawah kendali Anda.</string>
+	<string name="terms_of_service_intellectual_property_body">Semua hak, kepemilikan, dan kepentingan atas dan
+		terhadap Aplikasi, termasuk desain, fitur, dan kodenya, dimiliki oleh
+		pemegang hak cipta.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Sepanjang diizinkan oleh hukum, pemilik tidak
+		bertanggung jawab atas kerusakan atau kerugian apa pun yang timbul
+		dari penggunaan Aplikasi oleh Anda, termasuk namun tidak terbatas pada
+		hilangnya data, keuntungan, atau peluang bisnis.</string>
+	<string name="terms_of_service_termination_body">Pemilik dapat berhenti menawarkan atau mendukung
+		Aplikasi kapan saja tanpa pemberitahuan sebelumnya.</string>
+	<string name="terms_of_service_governing_law_body">Syarat ini akan diatur oleh hukum negara tempat
+		tinggal Anda, tanpa memperhatikan prinsip-prinsip konflik hukum. Jika
+		berlaku, undang-undang perlindungan konsumen wajib di negara Anda juga
+		akan berlaku.</string>
+	<string name="terms_of_service_changes_body">Ketentuan ini dapat diperbarui dari waktu ke waktu.
+		Melanjutkan penggunaan Aplikasi setelah perubahan berarti Anda
+		menerima Ketentuan yang diperbarui.</string>
+	<string name="terms_of_service_contact_information_body">Jika Anda memiliki pertanyaan tentang Ketentuan
+		ini, memerlukan klarifikasi, atau ingin melaporkan masalah dengan
+		Aplikasi, Anda dapat menghubungi pemilik di detail kontak di bawah
+		ini.</string>
+	<string name="terms_of_service_effective_date_body">“Tanggal Berlaku” adalah tanggal mulai Ketentuan
+		ini berlaku. Pembaruan di masa mendatang akan menyertakan tanggal
+		berlaku yang telah direvisi untuk menunjukkan kapan perubahan mulai
+		berlaku.</string>
 </resources>

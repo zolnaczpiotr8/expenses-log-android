@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Тэмдэгтийн тоо: %d. Тэмдэгтийн хязгаар: %d</string>
 	<string name="privacy_policy">Нууцлалын бодлого</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Таны өгөгдөл таны хамт үлдэнэ</string>
+	<string name="policy_your_data_stays_with_you_title">Таны өгөгдөл таны хамт үлдэнэ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Бид таны хувийн нууцыг хүндэтгэдэг. Энэхүү
 		аппликейшн бүрэн оффлайн горимоор ажилладаг бөгөөд ямар ч мэдээлэл
 		цуглуулж, хуваалцдаггүй. Энэхүү бодлого дэлхийн өнцөг булан бүрийн бүх
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Ямар нэгэн мэдээлэл цуглуулдаггүй тул та манайхаар
 		дамжуулан хандах, шинэчлэх эсвэл устгах зүйл байхгүй. Бүх мэдээлэл
 		таных бөгөөд зөвхөн таны төхөөрөмж дээр хадгалагддаг.</string>
-	<string name="privacy_policy_contact_information_title">Холбоо барих мэдээлэл</string>
+	<string name="policy_contact_information_title">Холбоо барих мэдээлэл</string>
 	<string name="privacy_policy_changes_title">Энэ бодлогын өөрчлөлтүүд</string>
-	<string name="privacy_policy_effective_date_title">Хүчин төгөлдөр болох огноо</string>
-	<string name="privacy_policy_email_subject">Нууцлалын Бодлогын Лавлагаа – %s</string>
+	<string name="policy_effective_date_title">Хүчин төгөлдөр болох огноо</string>
 	<string name="policies">Бодлого</string>
 	<string name="privacy_policy_contact_information_body">Хэрэв танд энэхүү Нууцлалын Бодлогын талаар ямар
 		нэгэн асуулт эсвэл санаа зовоох зүйл байвал та бидэнтэй имэйлээр
@@ -99,4 +98,58 @@
 		шинэчилсэн хувилбарт тусгагдах болно. Хэрэглэгчиддээ мэдээллээ хэрхэн
 		ашиглаж байгааг мэдэхийн тулд энэхүү бодлогыг үе үе хянахыг зөвлөж
 		байна.</string>
+	<string name="terms_of_service">Үйлчилгээний нөхцөл</string>
+	<string name="dialog_first_launch_agree_title">Үргэлжлүүлэхийг зөвшөөрөх</string>
+	<string name="agree_to_terms">Би зөвшөөрч байна</string>
+	<string name="dialog_first_launch_terms_message">Энэ аппыг ашиглахын тулд та манай Үйлчилгээний
+		нөхцлийг уншиж зөвшөөрөх ёстой. Уншихын тулд доорх товчийг ашиглана
+		уу.</string>
+	<string name="terms_of_service_about_title">Аппын тухай</string>
+	<string name="terms_of_service_use_title">Апп ашиглах</string>
+	<string name="terms_of_service_intellectual_property_title">Оюуны өмч</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Баталгаанаас татгалзах</string>
+	<string name="terms_of_service_limitation_of_liability_title">Хариуцлагын Хязгаарлалт</string>
+	<string name="terms_of_service_termination_title">Дуусгавар болгох</string>
+	<string name="terms_of_service_governing_law_title">Хэрэгжих хууль</string>
+	<string name="terms_of_service_changes_title">Эдгээр Нөхцөлд Өөрчлөлтүүд</string>
+	<string name="terms_of_service_about_body">Энэхүү аппликейшн нь хувийн зардлыг хянах хэрэгсэл
+		юм. Энэ нь бүрэн офлайн ажилладаг бөгөөд бүх насны хэрэглэгчдэд
+		зориулагдсан. Апп нь бүртгэл шаарддаггүй, зар сурталчилгаа үзүүлдэггүй
+		бөгөөд ямар нэгэн хувийн мэдээлэл цуглуулдаггүй, дамжуулдаггүй.</string>
+	<string name="terms_of_service_use_body">Та Апп-ыг зөвхөн хууль ёсны зорилгоор, бусдын
+		эрхийг зөрчихгүй, эсвэл тэдний Апп ашиглалтыг хязгаарлахгүй байдлаар
+		ашиглахаар зөвшөөрч байна. Та Апп-ыг буцааж инженерчлэх, декомпиляци
+		хийх, эсвэл өөрчлөхийг оролдох ёсгүй.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Аппликейшн нь “байгаагаар нь” ямар нэгэн илэрхий
+		эсвэл шууд бусаар баталгаагүйгээр, үүнд гэхдээ хязгаарлагдахгүйгээр
+		худалдаалах боломж, тодорхой зорилгод нийцэх чадвар эсвэл зөрчилгүй
+		байх баталгааг багтаана. Бид аппликейшн алдаагүй эсвэл тасралтгүй
+		ажиллахыг баталгаажуулахгүй.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Апп нь хувийн болон хэрэглээний ямар ч мэдээллийг
+		цуглуулдаггүй, хадгалдаггүй, хуваалцдаггүй. Та оруулсан бүх мэдээлэл
+		таны төхөөрөмж дээр локал байх бөгөөд таны хяналтанд байна.</string>
+	<string name="terms_of_service_intellectual_property_body">Аппликейшнд хамааралтай бүх эрх, гарчиг, ашиг
+		сонирхол, түүний дизайн, боломжууд болон кодыг оруулан, зохиогчийн
+		эрхийн эзэмшигчид харьяалагдана.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Хуулиар зөвшөөрөгдсөн хамгийн дээд хэмжээнд,
+		эзэмшигч нь таны Апп ашигласнаас үүдэн гарах аливаа хохирол эсвэл
+		алдагдлын хариуцлагыг хүлээхгүй бөгөөд үүнд өгөгдөл, ашиг, бизнесийн
+		боломжийн алдагдал багтана, гэхдээ үүгээр хязгаарлагдахгүй.</string>
+	<string name="terms_of_service_termination_body">Эзэмшигч нь ямар ч үед урьдчилан мэдэгдэхгүйгээр
+		Апп санал болгох эсвэл дэмжихээ зогсоож болно.</string>
+	<string name="terms_of_service_governing_law_body">Энэхүү нөхцөл нь таны оршин суугаа улсын хууль
+		тогтоомжийн дагуу зохицуулагдана, хууль зүйн зөрчилдөөнтэй холбоотой
+		зарчмуудыг үл харгалзан. Хэрэв хамаарах бол таны улсын заавал мөрдөх
+		хэрэглэгчийн эрхийг хамгаалах хууль мөн хэрэгжинэ.</string>
+	<string name="terms_of_service_changes_body">Эдгээр нөхцөл нь үе үе шинэчлэгдэж болно. Өөрчлөлт
+		хийсний дараа Апп-г үргэлжлүүлэн ашиглах нь шинэчлэгдсэн нөхцөлийг
+		зөвшөөрч буйг илэрхийлнэ.</string>
+	<string name="terms_of_service_contact_information_body">Хэрэв та эдгээр Нөхцөлийн талаар асуулттай бол,
+		тодруулга хэрэгтэй бол, эсвэл Аппликейшнтэй холбоотой асуудал
+		мэдээлэхийг хүсвэл доорх холбоо барих мэдээллээр эзэмшигчтэй холбогдож
+		болно.</string>
+	<string name="terms_of_service_effective_date_body">“Хүчин төгөлдөр болох өдөр” нь эдгээр Нөхцөл хүчин
+		төгөлдөр болох өдрийг хэлнэ. Ирээдүйн аливаа шинэчлэлтэд өөрчлөлт
+		хүчин төгөлдөр болох үеийг заасан шинэчлэгдсэн хүчин төгөлдөр болох
+		өдрийг оруулах болно.</string>
 </resources>

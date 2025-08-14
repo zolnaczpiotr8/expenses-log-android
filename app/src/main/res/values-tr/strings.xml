@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Karakter sayısı: %d. Karakter sınırı: %d</string>
 	<string name="privacy_policy">Gizlilik Politikası</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Verileriniz sizinle kalır</string>
+	<string name="policy_your_data_stays_with_you_title">Verileriniz sizinle kalır</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Gizliliğinize saygı duyuyoruz. Bu uygulama tamamen
 		çevrimdışı çalışır ve herhangi bir veri toplamaz veya paylaşmaz. Bu
 		politika, her yaştan çocuklar da dahil olmak üzere dünya çapındaki tüm
@@ -82,10 +82,9 @@
 		aracılığımızla erişebileceğiniz, güncelleyebileceğiniz veya
 		silebileceğiniz bir şey yoktur. Tüm veriler size aittir ve yalnızca
 		cihazınızda kalır.</string>
-	<string name="privacy_policy_contact_information_title">İletişim Bilgileri</string>
+	<string name="policy_contact_information_title">İletişim Bilgileri</string>
 	<string name="privacy_policy_changes_title">Bu politikadaki değişiklikler</string>
-	<string name="privacy_policy_effective_date_title">Yürürlük tarihi</string>
-	<string name="privacy_policy_email_subject">Gizlilik Politikası Sorgusu – %s</string>
+	<string name="policy_effective_date_title">Yürürlük tarihi</string>
 	<string name="policies">Politikalar</string>
 	<string name="privacy_policy_contact_information_body">Bu Gizlilik Politikası ile ilgili herhangi bir
 		sorunuz veya endişeniz varsa, bizimle e-posta yoluyla iletişime
@@ -100,4 +99,62 @@
 		politikanın güncellenmiş sürümüne yansıtılacaktır. Kullanıcılara,
 		bilgilerinin nasıl işlendiği konusunda bilgi sahibi olmaya devam etmek
 		için bu politikayı düzenli olarak gözden geçirmeleri önerilir.</string>
+	<string name="terms_of_service">Hizmet Şartları</string>
+	<string name="dialog_first_launch_agree_title">Devam etmek için kabul et</string>
+	<string name="agree_to_terms">Kabul ediyorum</string>
+	<string name="dialog_first_launch_terms_message"> Bu uygulamayı kullanmak için Hizmet Şartlarımızı
+		okumanız ve kabul etmeniz gerekir. Okumak için aşağıdaki düğmeyi
+		kullanın.</string>
+	<string name="terms_of_service_about_title">Uygulama Hakkında</string>
+	<string name="terms_of_service_use_title">Uygulamanın Kullanımı</string>
+	<string name="terms_of_service_intellectual_property_title">Fikri Mülkiyet</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Garanti reddi</string>
+	<string name="terms_of_service_limitation_of_liability_title">Sorumluluk Sınırlandırması</string>
+	<string name="terms_of_service_termination_title">Fesih</string>
+	<string name="terms_of_service_governing_law_title">Geçerli Hukuk</string>
+	<string name="terms_of_service_changes_title">Bu Koşullarda Değişiklikler</string>
+	<string name="terms_of_service_about_body">Bu uygulama kişisel harcamaları takip etmek için
+		bir araçtır. Tamamen çevrimdışı çalışır ve her yaştan kullanıcı için
+		tasarlanmıştır. Uygulama kayıt gerektirmez, reklam göstermez ve
+		herhangi bir kişisel bilgi toplamaz veya iletmez.</string>
+	<string name="terms_of_service_use_body">Uygulamayı yalnızca yasal amaçlarla ve başkalarının
+		haklarını ihlal etmeyecek veya uygulamayı kullanmalarını
+		kısıtlamayacak şekilde kullanmayı kabul ediyorsunuz. Uygulamayı
+		tersine mühendislik, dekompile etme veya değiştirme girişiminde
+		bulunmamalısınız.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Uygulama “olduğu gibi” herhangi bir türde açık veya
+		zımni garanti olmaksızın sağlanmaktadır; bunlar arasında, ancak
+		bunlarla sınırlı olmamak üzere, satılabilirlik, belirli bir amaca
+		uygunluk veya ihlal etmeme garantileri bulunur. Uygulamanın hatasız
+		olacağını veya kesintisiz çalışacağını garanti etmiyoruz.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Uygulama herhangi bir kişisel veya kullanım
+		verisini toplamaz, saklamaz ya da paylaşmaz. Girdiğiniz tüm bilgiler,
+		cihazınızda yerel olarak saklanır ve sizin kontrolünüz altındadır.</string>
+	<string name="terms_of_service_intellectual_property_body">Uygulama üzerindeki tüm haklar, unvan ve
+		menfaatler, tasarımı, özellikleri ve kodu dahil olmak üzere, telif
+		hakkı sahibine aittir.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Yasanın izin verdiği azami ölçüde, sahibi,
+		Uygulamayı kullanımınızdan kaynaklanan herhangi bir zarar veya
+		kayıptan sorumlu değildir; buna veri, kâr veya iş fırsatlarının kaybı
+		da dahildir ancak bunlarla sınırlı değildir.</string>
+	<string name="terms_of_service_termination_body">Sahibi, önceden haber vermeksizin, herhangi bir
+		zamanda uygulamayı sunmayı veya desteklemeyi durdurabilir.</string>
+	<string name="terms_of_service_governing_law_body">Bu Koşullar, kanunlar ihtilafı ilkelerine
+		bakılmaksızın, ikamet ettiğiniz ülkenin yasalarına tabi olacaktır.
+		Uygulanabildiği durumlarda, ülkenizin zorunlu tüketici koruma yasaları
+		da geçerli olacaktır.</string>
+	<string name="terms_of_service_changes_body"
+		tools:ignore="Typos">Bu Şartlar zaman zaman güncellenebilir.
+		Değişiklikler
+		yapıldıktan sonra Uygulamanın kullanımına devam etmek,
+		güncellenmiş
+		Şartları kabul ettiğiniz anlamına gelir.</string>
+	<string name="terms_of_service_contact_information_body">Bu Şartlar hakkında herhangi bir sorunuz varsa,
+		açıklamaya ihtiyacınız varsa veya Uygulama ile ilgili bir sorunu
+		bildirmek istiyorsanız, aşağıdaki iletişim bilgileri üzerinden
+		sahibine ulaşabilirsiniz.</string>
+	<string name="terms_of_service_effective_date_body">“Yürürlük Tarihi”, bu Şartların geçerli olmaya
+		başladığı tarihtir. Gelecekteki güncellemeler, değişikliklerin ne
+		zaman yürürlüğe gireceğini belirtmek için gözden geçirilmiş bir
+		yürürlük tarihi içerecektir.</string>
 </resources>

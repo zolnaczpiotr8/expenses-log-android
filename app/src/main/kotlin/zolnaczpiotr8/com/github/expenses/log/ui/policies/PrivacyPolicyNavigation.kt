@@ -1,4 +1,4 @@
-package zolnaczpiotr8.com.github.expenses.log.ui.privacy.policy
+package zolnaczpiotr8.com.github.expenses.log.ui.policies
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder

@@ -17,6 +17,7 @@ import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.data.CategoriesRepository
 import zolnaczpiotr8.com.github.expenses.log.data.DateFilterRepository
 import zolnaczpiotr8.com.github.expenses.log.data.ExpensesRepository
+import zolnaczpiotr8.com.github.expenses.log.data.SettingsRepository
 import zolnaczpiotr8.com.github.expenses.log.data.ShowEmptyCategoriesRepository
 import zolnaczpiotr8.com.github.expenses.log.model.Categories
 import zolnaczpiotr8.com.github.expenses.log.model.Category
@@ -32,7 +33,17 @@ constructor(
     private val expensesRepository: ExpensesRepository,
     private val showEmptyCategoriesRepository: ShowEmptyCategoriesRepository,
     private val dateFilterRepository: DateFilterRepository,
+    private val settingsRepository: SettingsRepository
 ) : ViewModel() {
+
+  val agreedToTerms: StateFlow<Boolean> =
+      settingsRepository.settings
+          .map { it.agreedToTerms }
+          .distinctUntilChanged()
+          .stateIn(
+              scope = viewModelScope,
+              started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
+              initialValue = true)
 
   val expenses: StateFlow<ImmutableList<ExpenseItem>> =
       expensesRepository
@@ -92,6 +103,10 @@ constructor(
               started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
               initialValue = false,
           )
+
+  fun onAgreeToTermsClick() {
+    viewModelScope.launch { settingsRepository.setAgreedToTerms() }
+  }
 
   fun onDateFilterClick(
       dateFilter: DateFilter,

@@ -47,7 +47,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">จำนวนอักขระ: %d. ขีดจำกัดอักขระ: %d</string>
 	<string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ข้อมูลของคุณยังคงอยู่กับคุณ</string>
+	<string name="policy_your_data_stays_with_you_title">ข้อมูลของคุณยังคงอยู่กับคุณ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">เราเคารพความเป็นส่วนตัวของคุณ
 		แอปนี้ทำงานแบบออฟไลน์ทั้งหมดและไม่รวบรวมหรือแบ่งปันข้อมูลใดๆ
 		นโยบายนี้ใช้กับผู้ใช้ทุกคนทั่วโลก รวมถึงเด็กทุกวัย เราไม่เก็บ รักษา
@@ -78,10 +78,9 @@
 	<string name="privacy_policy_your_rights_body">เนื่องจากไม่มีการเก็บข้อมูลใด ๆ
 		คุณจึงไม่สามารถเข้าถึง อัปเดต หรือ ลบข้อมูลผ่านเราได้
 		ข้อมูลทั้งหมดเป็นของคุณและยังคงอยู่เฉพาะในอุปกรณ์ของคุณ</string>
-	<string name="privacy_policy_contact_information_title">ข้อมูลการติดต่อ</string>
+	<string name="policy_contact_information_title">ข้อมูลการติดต่อ</string>
 	<string name="privacy_policy_changes_title">การเปลี่ยนแปลงในนโยบายนี้</string>
-	<string name="privacy_policy_effective_date_title">วันที่มีผลบังคับใช้</string>
-	<string name="privacy_policy_email_subject">สอบถามเกี่ยวกับนโยบายความเป็นส่วนตัว – %s</string>
+	<string name="policy_effective_date_title">วันที่มีผลบังคับใช้</string>
 	<string name="policies">นโยบาย</string>
 	<string name="privacy_policy_contact_information_body">หากคุณมีคำถามหรือข้อกังวลใด ๆ
 		เกี่ยวกับนโยบายความเป็นส่วนตัวนี้ คุณสามารถติดต่อเราได้ทางอีเมล</string>
@@ -92,4 +91,51 @@
 		การเปลี่ยนแปลงใด ๆ
 		เกี่ยวกับวิธีที่แอปจัดการข้อมูลของคุณจะสะท้อนอยู่ในเวอร์ชันที่อัปเดตของนโยบายนี้
 		เราขอแนะนำให้ผู้ใช้ตรวจสอบนโยบายนี้เป็นระยะเพื่อรับทราบว่าข้อมูลของตนถูกจัดการอย่างไร</string>
+	<string name="terms_of_service">ข้อกำหนดในการให้บริการ</string>
+	<string name="dialog_first_launch_agree_title">ตกลงเพื่อดำเนินการต่อ</string>
+	<string name="agree_to_terms">ฉันยอมรับ</string>
+	<string name="dialog_first_launch_terms_message"> ในการใช้แอปนี้
+		คุณต้องอ่านและยอมรับข้อกำหนดการให้บริการของเรา
+		ใช้ปุ่มด้านล่างเพื่ออ่าน</string>
+	<string name="terms_of_service_about_title">เกี่ยวกับแอป</string>
+	<string name="terms_of_service_use_title">การใช้งานแอป</string>
+	<string name="terms_of_service_intellectual_property_title">ทรัพย์สินทางปัญญา</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">ข้อจำกัดความรับผิดชอบเกี่ยวกับการรับประกัน</string>
+	<string name="terms_of_service_limitation_of_liability_title">การจำกัดความรับผิด</string>
+	<string name="terms_of_service_termination_title">การยกเลิก</string>
+	<string name="terms_of_service_governing_law_title">กฎหมายที่ใช้บังคับ</string>
+	<string name="terms_of_service_changes_title">การเปลี่ยนแปลงข้อกำหนดเหล่านี้</string>
+	<string name="terms_of_service_about_body">แอปพลิเคชันนี้เป็นเครื่องมือสำหรับติดตามค่าใช้จ่ายส่วนบุคคล
+		ทำงานแบบออฟไลน์ทั้งหมดและออกแบบมาสำหรับผู้ใช้ทุกช่วงอายุ
+		แอปไม่ต้องการการลงทะเบียน ไม่แสดงโฆษณา
+		และไม่รวบรวมหรือส่งข้อมูลส่วนบุคคลใดๆ</string>
+	<string name="terms_of_service_use_body">คุณตกลงที่จะใช้แอปเพื่อวัตถุประสงค์ที่ชอบด้วยกฎหมายเท่านั้น
+		และในลักษณะที่ไม่ละเมิดสิทธิของผู้อื่นหรือจำกัดการใช้งานแอปของพวกเขา
+		คุณต้องไม่พยายามทำวิศวกรรมย้อนกลับ ถอดรหัส หรือแก้ไขแอป</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">แอปนี้ให้บริการ “ตามสภาพ” โดยไม่มีการรับประกันใด ๆ
+		ไม่ว่าจะชัดแจ้งหรือโดยนัย
+		รวมถึงแต่ไม่จำกัดเพียงการรับประกันความสามารถในการจำหน่าย
+		ความเหมาะสมสำหรับวัตถุประสงค์เฉพาะ หรือการไม่ละเมิดสิทธิ
+		เราไม่รับประกันว่าแอปจะปราศจากข้อผิดพลาดหรือจะทำงานโดยไม่หยุดชะงัก</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">แอปฯ ไม่ได้เก็บ จัดเก็บ
+		หรือแชร์ข้อมูลส่วนบุคคลหรือข้อมูลการใช้งานใด ๆ
+		ข้อมูลทั้งหมดที่คุณป้อนจะถูกเก็บไว้เฉพาะในอุปกรณ์ของคุณภายใต้การควบคุมของคุณเอง</string>
+	<string name="terms_of_service_intellectual_property_body">สิทธิ์ ชื่อเรื่อง และผลประโยชน์ทั้งหมดในและต่อแอป
+		รวมถึงการออกแบบ ฟีเจอร์ และโค้ดของแอป เป็นของเจ้าของลิขสิทธิ์</string>
+	<string name="terms_of_service_limitation_of_liability_body">ในขอบเขตสูงสุดที่กฎหมายอนุญาต
+		เจ้าของจะไม่รับผิดชอบต่อความเสียหายหรือการสูญเสียใด ๆ
+		ที่เกิดจากการใช้แอปของคุณ ซึ่งรวมถึงแต่ไม่จำกัดเพียง
+		การสูญหายของข้อมูล กำไร หรือโอกาสทางธุรกิจ</string>
+	<string name="terms_of_service_termination_body">เจ้าของอาจหยุดให้บริการหรือสนับสนุนแอปได้ทุกเมื่อโดยไม่ต้องแจ้งล่วงหน้า</string>
+	<string name="terms_of_service_governing_law_body">ข้อกำหนดเหล่านี้อยู่ภายใต้กฎหมายของประเทศที่คุณพำนักอยู่
+		โดยไม่คำนึงถึงหลักการขัดกันแห่งกฎหมาย เมื่อมีการบังคับใช้
+		กฎหมายคุ้มครองผู้บริโภคภาคบังคับของประเทศคุณจะถูกนำมาใช้ด้วย</string>
+	<string name="terms_of_service_changes_body">ข้อตกลงเหล่านี้อาจมีการอัปเดตเป็นครั้งคราว
+		การใช้งานแอปต่อไปหลังจากมีการเปลี่ยนแปลงหมายความว่าคุณยอมรับข้อตกลงที่อัปเดตแล้ว</string>
+	<string name="terms_of_service_contact_information_body">หากคุณมีคำถามใด ๆ เกี่ยวกับข้อกำหนดเหล่านี้
+		ต้องการคำชี้แจง หรือประสงค์จะแจ้งปัญหาเกี่ยวกับแอป
+		คุณสามารถติดต่อเจ้าของได้ที่รายละเอียดการติดต่อด้านล่าง</string>
+	<string name="terms_of_service_effective_date_body">“วันที่มีผลบังคับใช้”
+		คือวันที่เงื่อนไขเหล่านี้เริ่มมีผลบังคับใช้
+		การอัปเดตในอนาคตจะรวมวันที่มีผลบังคับใช้ที่แก้ไขแล้วเพื่อระบุว่าเมื่อใดที่การเปลี่ยนแปลงจะมีผลบังคับใช้</string>
 </resources>

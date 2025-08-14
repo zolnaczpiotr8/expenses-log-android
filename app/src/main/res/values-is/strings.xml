@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Fjöldi stafa: %d. Stafatakmörk: %d</string>
 	<string name="privacy_policy">Persónuverndarstefna</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Gögnin þín verða hjá þér</string>
+	<string name="policy_your_data_stays_with_you_title">Gögnin þín verða hjá þér</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Við virðum friðhelgi þína. Þessi app virkar
 		algjörlega án nettengingar og safnar ekki eða deilir gögnum. Þessi
 		stefna á við alla notendur um allan heim, þar á meðal börn á öllum
@@ -80,10 +80,9 @@
 	<string name="privacy_policy_your_rights_body">Þar sem engin gögn eru söfnuð, er ekkert sem þú
 		getur fengið aðgang að, uppfært eða eytt í gegnum okkur. Öll gögn eru
 		þín og eru eingöngu á tækinu þínu.</string>
-	<string name="privacy_policy_contact_information_title">Samskiptaupplýsingar</string>
+	<string name="policy_contact_information_title">Samskiptaupplýsingar</string>
 	<string name="privacy_policy_changes_title">Breytingar á þessari stefnu</string>
-	<string name="privacy_policy_effective_date_title">Gildistökudagur</string>
-	<string name="privacy_policy_email_subject">Fyrirspurn um Persónuverndarstefnu – %s</string>
+	<string name="policy_effective_date_title">Gildistökudagur</string>
 	<string name="policies">Stefna</string>
 	<string name="privacy_policy_contact_information_body">Ef þú hefur einhverjar spurningar eða áhyggjur
 		varðandi þessa persónuverndarstefnu geturðu haft samband við okkur með
@@ -97,4 +96,57 @@
 		endurspeglast í uppfærðri útgáfu af þessari stefnu. Við hvetjum
 		notendur til að skoða þessa stefnu reglulega til að vera upplýstir um
 		hvernig meðhöndlun upplýsinga þeirra fer fram.</string>
+	<string name="terms_of_service">Þjónustuskilmálar</string>
+	<string name="dialog_first_launch_agree_title">Samþykkja til að halda áfram</string>
+	<string name="agree_to_terms">Ég samþykki</string>
+	<string name="dialog_first_launch_terms_message">Til að nota þetta forrit þarftu að lesa og
+		samþykkja þjónustuskilmála okkar. Notaðu hnappinn hér að neðan til að
+		lesa þá.</string>
+	<string name="terms_of_service_about_title">Um Forritið</string>
+	<string name="terms_of_service_use_title">Notkun forritsins</string>
+	<string name="terms_of_service_intellectual_property_title">Hugverkaréttur</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Fyrirvari um ábyrgðir</string>
+	<string name="terms_of_service_limitation_of_liability_title">Takmörkun Ábyrgðar</string>
+	<string name="terms_of_service_termination_title">Uppsögn</string>
+	<string name="terms_of_service_governing_law_title">Gildandi lög</string>
+	<string name="terms_of_service_changes_title">Breytingar á þessum Skilmálum</string>
+	<string name="terms_of_service_about_body">Þetta forrit er persónulegt verkfæri til að
+		fylgjast með útgjöldum. Það virkar alveg án nettengingar og er hannað
+		fyrir notendur á öllum aldri. Forritið krefst engrar skráningar, sýnir
+		engar auglýsingar og safnar eða sendir engar persónuupplýsingar.</string>
+	<string name="terms_of_service_use_body">Þú samþykkir að nota Forritið eingöngu í lögmætum
+		tilgangi og á þann hátt að það brjóti ekki á réttindum annarra eða
+		takmarki notkun þeirra á Forritinu. Þú mátt ekki reyna að snúa við
+		verkfræðihönnun, afkóða eða breyta Forritinu.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Forritið er veitt “eins og það er” án ábyrgða af
+		neinu tagi, hvort sem þær eru skýrar eða óbeinar, þar með talið en
+		ekki takmarkað við ábyrgðir á söluhæfni, hæfni til ákveðins tilgangs
+		eða brotalaust. Við gefum enga tryggingu fyrir því að forritið verði
+		villulaust eða að það muni starfa án truflana.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Forritið safnar, geymir né deilir neinum persónu-
+		eða notkunargögnum. Allar upplýsingar sem þú slærð inn eru vistaðar
+		staðbundið í tækinu þínu undir þinni stjórn.</string>
+	<string name="terms_of_service_intellectual_property_body">Öll réttindi, titill og hagsmunir í og að
+		forritinu, þar með talið hönnun þess, eiginleikar og kóði, eru í eigu
+		höfundarréttarhafa.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Að því marki sem lög leyfa ber eigandinn enga
+		ábyrgð á tjóni eða tapi sem hlýst af notkun þinni á forritinu, þar með
+		talið, en ekki takmarkað við, tap gagna, hagnaðar eða
+		viðskiptatækifæra.</string>
+	<string name="terms_of_service_termination_body">Eigandinn getur hætt að bjóða eða styðja forritið
+		hvenær sem er án fyrirvara.</string>
+	<string name="terms_of_service_governing_law_body">Þessi skilmáli lúta lögum þess lands sem þú býrð í,
+		án tillits til reglna um lagaskörun. Þar sem við á, gilda einnig
+		skyldubundin neytendaverndarlög landsins þíns.</string>
+	<string name="terms_of_service_changes_body">Þessir Skilmálar geta verið uppfærðir af og til.
+		Með því að halda áfram að nota Forritið eftir breytingar þýðir að þú
+		samþykkir uppfærðu Skilmálana.</string>
+	<string name="terms_of_service_contact_information_body">Ef þú hefur einhverjar spurningar um þessi
+		Skilmála, þarft frekari skýringar eða vilt tilkynna um vandamál með
+		Forritið, geturðu haft samband við eigandann með eftirfarandi
+		samskiptaupplýsingum.</string>
+	<string name="terms_of_service_effective_date_body">„Gildistökudagsetning“ er dagsetningin frá og með
+		sem þessi skilmálar taka gildi. Allar framtíðaruppfærslur munu
+		innihalda endurskoðaða gildistökudagsetningu til að gefa til kynna
+		hvenær breytingarnar taka gildi.</string>
 </resources>

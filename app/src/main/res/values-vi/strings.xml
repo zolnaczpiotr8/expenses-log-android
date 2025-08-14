@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Số ký tự: %d. Giới hạn ký tự: %d</string>
 	<string name="privacy_policy">Chính sách bảo mật</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">Dữ liệu của bạn vẫn thuộc về bạn</string>
+	<string name="policy_your_data_stays_with_you_title">Dữ liệu của bạn vẫn thuộc về bạn</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Chúng tôi tôn trọng quyền riêng tư của bạn. Ứng
 		dụng này hoạt động hoàn toàn ngoại tuyến và không thu thập hoặc chia
 		sẻ bất kỳ dữ liệu nào. Chính sách này áp dụng cho tất cả người dùng
@@ -81,10 +81,9 @@
 	<string name="privacy_policy_your_rights_body">Vì không có dữ liệu nào được thu thập nên bạn không
 		có gì để truy cập, cập nhật hoặc xóa thông qua chúng tôi. Mọi dữ liệu
 		đều thuộc về bạn và chỉ tồn tại trên thiết bị của bạn.</string>
-	<string name="privacy_policy_contact_information_title">Thông tin liên hệ</string>
+	<string name="policy_contact_information_title">Thông tin liên hệ</string>
 	<string name="privacy_policy_changes_title">Những thay đổi đối với chính sách này</string>
-	<string name="privacy_policy_effective_date_title">Ngày có hiệu lực</string>
-	<string name="privacy_policy_email_subject">Yêu Cầu về Chính Sách Quyền Riêng Tư – %s</string>
+	<string name="policy_effective_date_title">Ngày có hiệu lực</string>
 	<string name="policies">Chính sách</string>
 	<string name="privacy_policy_contact_information_body">Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về
 		Chính sách quyền riêng tư này, bạn có thể liên hệ với chúng tôi qua
@@ -99,4 +98,56 @@
 		phiên bản cập nhật của chính sách này. Chúng tôi khuyến khích người
 		dùng xem lại chính sách này định kỳ để luôn được cập nhật về cách
 		thông tin của họ được xử lý.</string>
+	<string name="terms_of_service">Điều khoản dịch vụ</string>
+	<string name="dialog_first_launch_agree_title">Đồng ý để tiếp tục</string>
+	<string name="agree_to_terms">Tôi đồng ý</string>
+	<string name="dialog_first_launch_terms_message"> Để sử dụng ứng dụng này, bạn phải đọc và chấp nhận
+		Điều khoản dịch vụ của chúng tôi. Sử dụng nút bên dưới để đọc chúng.</string>
+	<string name="terms_of_service_about_title">Giới thiệu về Ứng dụng</string>
+	<string name="terms_of_service_use_title">Sử dụng ứng dụng</string>
+	<string name="terms_of_service_intellectual_property_title">Sở Hữu Trí Tuệ</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">Tuyên bố từ chối bảo đảm</string>
+	<string name="terms_of_service_limitation_of_liability_title">Giới Hạn Trách Nhiệm</string>
+	<string name="terms_of_service_termination_title">Chấm dứt</string>
+	<string name="terms_of_service_governing_law_title">Luật áp dụng</string>
+	<string name="terms_of_service_changes_title">Thay đổi đối với Các Điều khoản này</string>
+	<string name="terms_of_service_about_body">Ứng dụng này là công cụ theo dõi chi tiêu cá nhân.
+		Nó hoạt động hoàn toàn ngoại tuyến và được thiết kế cho người dùng ở
+		mọi lứa tuổi. Ứng dụng không yêu cầu đăng ký, không hiển thị quảng cáo
+		và không thu thập hoặc truyền bất kỳ thông tin cá nhân nào.</string>
+	<string name="terms_of_service_use_body">Bạn đồng ý chỉ sử dụng Ứng dụng cho các mục đích
+		hợp pháp và theo cách không xâm phạm quyền của người khác hoặc hạn chế
+		việc họ sử dụng Ứng dụng. Bạn không được cố gắng dịch ngược, giải nén
+		hoặc sửa đổi Ứng dụng.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">Ứng dụng được cung cấp “nguyên trạng” mà không có
+		bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý, bao gồm nhưng không giới hạn
+		ở bảo đảm về khả năng thương mại, sự phù hợp cho một mục đích cụ thể
+		hoặc không vi phạm. Chúng tôi không bảo đảm rằng ứng dụng sẽ không có
+		lỗi hoặc sẽ hoạt động liên tục.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">Ứng dụng không thu thập, lưu trữ hoặc chia sẻ bất
+		kỳ dữ liệu cá nhân hoặc sử dụng nào. Tất cả thông tin bạn nhập sẽ được
+		lưu trữ cục bộ trên thiết bị của bạn và dưới sự kiểm soát của bạn.</string>
+	<string name="terms_of_service_intellectual_property_body">Mọi quyền, quyền sở hữu và lợi ích đối với và liên
+		quan đến Ứng dụng, bao gồm thiết kế, tính năng và mã của nó, đều thuộc
+		sở hữu của chủ sở hữu bản quyền.</string>
+	<string name="terms_of_service_limitation_of_liability_body">Trong phạm vi tối đa được pháp luật cho phép, chủ
+		sở hữu sẽ không chịu trách nhiệm cho bất kỳ thiệt hại hoặc tổn thất
+		nào phát sinh từ việc bạn sử dụng Ứng dụng, bao gồm nhưng không giới
+		hạn ở việc mất dữ liệu, lợi nhuận hoặc cơ hội kinh doanh.</string>
+	<string name="terms_of_service_termination_body">Chủ sở hữu có thể ngừng cung cấp hoặc hỗ trợ Ứng
+		dụng bất kỳ lúc nào mà không cần thông báo trước.</string>
+	<string name="terms_of_service_governing_law_body">Các Điều khoản này sẽ được điều chỉnh bởi luật pháp
+		của quốc gia nơi bạn cư trú, bất kể các nguyên tắc xung đột pháp luật.
+		Khi áp dụng, các luật bảo vệ người tiêu dùng bắt buộc của quốc gia bạn
+		cũng sẽ được áp dụng.</string>
+	<string name="terms_of_service_changes_body">Các Điều Khoản này có thể được cập nhật theo thời
+		gian. Việc tiếp tục sử dụng Ứng Dụng sau khi có thay đổi có nghĩa là
+		bạn chấp nhận các Điều Khoản đã được cập nhật.</string>
+	<string name="terms_of_service_contact_information_body">Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản
+		này, cần làm rõ hoặc muốn báo cáo sự cố với Ứng dụng, bạn có thể liên
+		hệ với chủ sở hữu theo thông tin liên hệ dưới đây.</string>
+	<string name="terms_of_service_effective_date_body">“Ngày Có Hiệu Lực” là ngày mà các Điều Khoản này
+		được áp dụng. Bất kỳ bản cập nhật nào trong tương lai sẽ bao gồm ngày
+		có hiệu lực đã được sửa đổi để chỉ ra khi nào các thay đổi có hiệu
+		lực.</string>
 </resources>

@@ -10,13 +10,15 @@ fun NavGraphBuilder.homeDestination(
     onNewExpenseClick: (String?) -> Unit = {},
     onNewCategoryClick: () -> Unit = {},
     onSettingsClick: () -> Unit = {},
-    onPrivacyPolicyClick: () -> Unit = {}
+    onPrivacyPolicyClick: () -> Unit = {},
+    onTermsOfServiceClick: () -> Unit = {}
 ) {
   composable<Home> {
     HomeScreen(
         onNewExpenseClick = onNewExpenseClick,
         onNewCategoryClick = onNewCategoryClick,
         onSettingsClick = onSettingsClick,
-        onPrivacyPolicyClick = onPrivacyPolicyClick)
+        onPrivacyPolicyClick = onPrivacyPolicyClick,
+        onTermsOfServiceClick = onTermsOfServiceClick)
   }
 }

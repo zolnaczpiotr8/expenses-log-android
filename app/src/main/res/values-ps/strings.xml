@@ -48,7 +48,7 @@
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">د تورو شمېر: %d. د تورو حد: %d</string>
 	<string name="privacy_policy">د محرمیت پالیسۍ</string>
-	<string name="privacy_policy_your_data_stays_with_you_title">ستاسو معلومات له تاسو سره پاتې کیږي</string>
+	<string name="policy_your_data_stays_with_you_title">ستاسو معلومات له تاسو سره پاتې کیږي</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">موږ ستاسو محرمیت ته درناوی کوو. دا ایپ په بشپړ ډول
 		د انټرنیټ څخه بې‌برخې کار کوي او هیڅ ډول معلومات نه راټولوي او نه یې
 		شریکوي. دا پالیسي د نړۍ ټولو کاروونکو لپاره پلي کیږي، پشمول د ټولو
@@ -78,10 +78,9 @@
 	<string name="privacy_policy_your_rights_body">لکه څنګه چې هېڅ معلومات نه راټولېږي، نو زموږ له
 		لارې ستاسو لپاره څه ته لاسرسی، تازه کول یا حذف کول شوني نه دي. ټول
 		معلومات ستاسو دي او یوازې ستاسو پر آله پاتې کېږي.</string>
-	<string name="privacy_policy_contact_information_title">د تماس معلومات</string>
+	<string name="policy_contact_information_title">د تماس معلومات</string>
 	<string name="privacy_policy_changes_title">په دې تګلاره کې بدلونونه</string>
-	<string name="privacy_policy_effective_date_title">د تطبیق نېټه</string>
-	<string name="privacy_policy_email_subject">د محرمیت پالیسۍ پوښتنه – %s</string>
+	<string name="policy_effective_date_title">د تطبیق نېټه</string>
 	<string name="policies">پالیسۍ</string>
 	<string name="privacy_policy_contact_information_body">که تاسو د دې محرمیت تګلارې په اړه کومه پوښتنه یا
 		اندیښنه لرئ، تاسو کولی شئ موږ ته د بریښنالیک له لارې اړیکه ونیسئ.</string>
@@ -93,4 +92,52 @@
 		کې به دا څرګنده شي چې ایپ ستاسو معلومات څنګه اداره کوي. موږ کاروونکي
 		هڅوو چې دا پالیسي وخت په وخت وګوري څو د خپلو معلوماتو د چلند په اړه
 		خبر پاتې شي.</string>
+	<string name="terms_of_service">د خدمت شرایط</string>
+	<string name="dialog_first_launch_agree_title">د دوام لپاره موافقه وکړه</string>
+	<string name="agree_to_terms">زه موافق یم</string>
+	<string name="dialog_first_launch_terms_message">د دې ایپ کارولو لپاره، تاسو باید زموږ د خدمت شرایط
+		ولولئ او ومنئ. د لوستلو لپاره لاندې تڼۍ وکاروئ.</string>
+	<string name="terms_of_service_about_title">د اپلیکیشن په اړه</string>
+	<string name="terms_of_service_use_title">د اپلیکیشن کارول</string>
+	<string name="terms_of_service_intellectual_property_title">فکري ملکیت</string>
+	<string name="terms_of_service_disclaimer_of_warranties_title">د تضمینونو ردول</string>
+	<string name="terms_of_service_limitation_of_liability_title">د مسؤلیت محدودیت</string>
+	<string name="terms_of_service_termination_title">پای ته رسول</string>
+	<string name="terms_of_service_governing_law_title">نافذه قانون</string>
+	<string name="terms_of_service_changes_title">په دغو شرايطو کې بدلونونه</string>
+	<string name="terms_of_service_about_body">دا اپليکېشن د شخصي لګښتونو د تعقیب وسیله ده. دا په
+		بشپړه توګه آفلاین کار کوي او د هر عمر کاروونکو لپاره ډیزاین شوی دی.
+		اپليکېشن ته د ثبت اړتیا نشته، اعلانونه نه ښيي او هیڅ شخصي معلومات نه
+		راټولوي او نه یې لېږي.</string>
+	<string name="terms_of_service_use_body">تاسو موافق یاست چې اپ یوازې د قانوني موخو لپاره او
+		په داسې طریقه وکاروئ چې د نورو حقونه نقض نه کړي او نه یې د اپ کارول
+		محدود کړي. تاسو باید هڅه ونکړئ چې اپ ریورس انجنیري، ډي‌کمپایل یا تعدیل
+		کړئ.</string>
+	<string name="terms_of_service_disclaimer_of_warranties_body">اپلیکیشن “لکه څرنګه چې دی” پرته له هر ډول څرګند یا
+		ضمني تضمینونو وړاندې کیږي، په شمول خو یوازې په دې پورې محدود نه وي، د
+		پلور وړتیا، د ځانګړي هدف لپاره مناسبوالی، یا د نه سرغړونې تضمینونه.
+		موږ هیڅ تضمین نه ورکوو چې اپلیکیشن به له تېروتنو څخه پاک وي یا به پرته
+		له وقفې کار وکړي.</string>
+	<string name="terms_of_service_your_data_stays_with_you_body">اپلیکیشن به د هېڅ شخصي یا د استعمال معلومات راټول،
+		ذخیره یا شریک نه کړي. ټول معلومات چې تاسو یې داخل کوئ ستاسو په وسیله
+		کې په ځایي توګه زیرمه پاتې کېږي او د تاسو تر کنټرول لاندې وي.</string>
+	<string name="terms_of_service_intellectual_property_body">د اپلیکیشن ټول حقوق، عنوان او ګټه، په شمول د هغې
+		ډیزاین، ځانګړتیاوې او کوډ، د کاپي رایټ مالک پورې اړه لري.</string>
+	<string name="terms_of_service_limitation_of_liability_body">د قانون له خوا د اجازې تر ټولو لوړې کچې پورې، مالک
+		د اپلیکیشن د کارولو له امله د هر ډول زیان یا تاوان مسوول نه دی، پدې کې
+		د معلوماتو، ګټې یا سوداګریزو فرصتونو له لاسه ورکول شامل دي خو یوازې په
+		دې پورې محدود نه دي.</string>
+	<string name="terms_of_service_termination_body">مالک کولی شي په هر وخت کې د غوښتنلیک وړاندیز یا
+		ملاتړ پرته له مخکې خبرولو ودروي.</string>
+	<string name="terms_of_service_governing_law_body">دغه شرایط به د ستاسې د اوسېدنې د هېواد د قوانینو له
+		مخې اداره کېږي، د قوانینو د شخړې له اصولو پرته. چېرته چې پلي کېږي، د
+		ستاسې د هېواد اجباري د مصرفوونکو د ساتنې قوانین به هم پلي شي.</string>
+	<string name="terms_of_service_changes_body">دغه شرایط ښايي وخت په وخت نوي شي. له بدلونونو
+		وروسته د اپلیکیشن دوامداره کارول معنی لري چې تاسو نوي شوي شرایط منئ.</string>
+	<string name="terms_of_service_contact_information_body">که تاسو د دې شرطونو په اړه کومه پوښتنه لرئ، وضاحت
+		ته اړتیا لرئ، یا غواړئ د اپ سره کومه ستونزه راپور کړئ، تاسو کولی شئ د
+		لاندې اړیکې جزیاتو له لارې له مالک سره اړیکه ونیسئ.</string>
+	<string name="terms_of_service_effective_date_body">“د نافذېدو نېټه” هغه نېټه ده چې له هغې څخه دا شرايط
+		پلي کېږي. د راتلونکو هر ډول تازه معلوماتو کې به د نافذېدو اصلاح شوې
+		نېټه شامله وي څو وښيي بدلونونه کله نافذېږي.</string>
 </resources>
