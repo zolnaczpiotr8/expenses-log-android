@@ -20,6 +20,7 @@ fun ExpensesLogTheme(content: @Composable () -> Unit) {
             dynamicLightColorScheme(
                 LocalContext.current,
             )
+
         isSystemInDarkTheme() -> darkColorScheme
         else -> lightColorScheme
       }

@@ -35,5 +35,6 @@ fun FirstLaunchAgreementDialog(onTermsOfServiceClick: () -> Unit = {}, onAgreeCl
         TextButton(onClick = onTermsOfServiceClick) {
           Text(stringResource(R.string.terms_of_service))
         }
-      })
+      },
+  )
 }

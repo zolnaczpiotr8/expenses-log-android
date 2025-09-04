@@ -26,7 +26,8 @@ fun PolicySection(title: String, body: String, footer: AnnotatedString?) {
     Text(
         modifier = Modifier.semantics { heading() },
         text = title,
-        style = MaterialTheme.typography.titleMedium)
+        style = MaterialTheme.typography.titleMedium,
+    )
     Text(text = body, style = MaterialTheme.typography.bodyMedium)
     footer?.let { Text(text = footer, style = MaterialTheme.typography.bodyMedium) }
   }

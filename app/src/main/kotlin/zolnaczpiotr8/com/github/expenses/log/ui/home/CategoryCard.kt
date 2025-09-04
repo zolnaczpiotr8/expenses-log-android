@@ -25,6 +25,21 @@ fun CategoryCard(
     category: Category,
     onMenuClick: () -> Unit,
 ) {
+  CategoryCard(
+      modifier = modifier,
+      title = category.title,
+      totalAmount = remember(category.totalAmount) { category.totalAmount.toFormattedString() },
+      onMenuClick = onMenuClick,
+  )
+}
+
+@Composable
+fun CategoryCard(
+    modifier: Modifier = Modifier,
+    title: String,
+    totalAmount: String,
+    onMenuClick: () -> Unit,
+) {
   OutlinedCard(
       modifier = modifier,
   ) {
@@ -47,7 +62,7 @@ fun CategoryCard(
                   .padding(
                       top = IncrementalPaddings.x4,
                   ),
-          text = category.title,
+          text = title,
           style = MaterialTheme.typography.titleMedium,
       )
       MenuIconButton(
@@ -59,7 +74,6 @@ fun CategoryCard(
           onClick = onMenuClick,
       )
     }
-    val totalAmount = remember(category.totalAmount) { category.totalAmount.toFormattedString() }
     Text(
         modifier =
             Modifier.padding(

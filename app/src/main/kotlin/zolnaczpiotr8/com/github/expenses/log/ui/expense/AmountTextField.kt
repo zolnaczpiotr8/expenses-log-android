@@ -1,10 +1,15 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.expense
 
-import android.icu.math.BigDecimal
 import android.icu.util.Currency
 import android.icu.util.ULocale
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.text.input.InputTransformation
+import androidx.compose.foundation.text.input.TextFieldLineLimits
+import androidx.compose.foundation.text.input.TextFieldState
+import androidx.compose.foundation.text.input.clearText
+import androidx.compose.foundation.text.input.maxLength
+import androidx.compose.foundation.text.input.rememberTextFieldState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Error
 import androidx.compose.material3.Icon
@@ -22,6 +27,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.error
+import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
@@ -30,12 +36,14 @@ import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.
 import zolnaczpiotr8.com.github.expenses.log.ui.components.text.fields.TextFieldCharacterCounter
 import zolnaczpiotr8.com.github.expenses.log.ui.components.text.fields.TextFieldTrailingIconState
 
-private const val AMOUNT_CHARACTERS_LIMIT = 10
+const val AMOUNT_CHARACTERS_LIMIT = 10
 
 @Composable
 fun AmountTextField(
     modifier: Modifier = Modifier,
-    state: AmountTextFieldState,
+    state: AmountTextFieldState = rememberAmountTextFieldState(),
+    imeAction: ImeAction = ImeAction.Next,
+    onImeAction: () -> Unit = {},
 ) {
   val errorLabel: String? =
       when (state.error) {
@@ -45,15 +53,16 @@ fun AmountTextField(
       }
   OutlinedTextField(
       modifier = modifier.semantics { errorLabel?.let { error(it) } },
-      value = state.text,
+      state = state.textState,
       isError = state.error != AmountError.None,
-      singleLine = true,
+      onKeyboardAction = { onImeAction() },
+      inputTransformation = InputTransformation.maxLength(AMOUNT_CHARACTERS_LIMIT),
+      lineLimits = TextFieldLineLimits.SingleLine,
       label = { Text(stringResource(R.string.amount_label)) },
-      onValueChange = { state.onTextChange(it.take(AMOUNT_CHARACTERS_LIMIT)) },
       keyboardOptions =
           KeyboardOptions(
               keyboardType = KeyboardType.Decimal,
-              imeAction = ImeAction.Next,
+              imeAction = imeAction,
           ),
       prefix = {
         Text(
@@ -66,7 +75,7 @@ fun AmountTextField(
         Crossfade(
             when {
               state.error != AmountError.None -> TextFieldTrailingIconState.Error
-              state.text.isEmpty() -> TextFieldTrailingIconState.None
+              state.textState.text.isEmpty() -> TextFieldTrailingIconState.None
               else -> TextFieldTrailingIconState.Clear
             },
         ) {
@@ -76,6 +85,7 @@ fun AmountTextField(
                     imageVector = Icons.Default.Error,
                     contentDescription = null,
                 )
+
             TextFieldTrailingIconState.Clear -> ClearIconButton(state::clear)
             else -> Unit
           }
@@ -85,12 +95,12 @@ fun AmountTextField(
         Crossfade(errorLabel) {
           it?.let { label ->
             Text(
-                modifier = Modifier.clearAndSetSemantics {},
+                modifier = Modifier.semantics { hideFromAccessibility() },
                 text = label,
             )
           }
               ?: TextFieldCharacterCounter(
-                  count = state.text.length,
+                  count = state.textState.text.length,
                   limit = AMOUNT_CHARACTERS_LIMIT,
               )
         }
@@ -100,15 +110,18 @@ fun AmountTextField(
 
 @Composable
 fun rememberAmountTextFieldState(
-    currencyCode: String,
+    currencyCode: String = "",
+    text: String = "",
+    error: AmountError = AmountError.None,
 ): AmountTextFieldState {
   val errorState: MutableState<AmountError> =
       rememberSaveable(
+          error,
           stateSaver = AmountError.Saver,
       ) {
-        mutableStateOf(AmountError.None)
+        mutableStateOf(error)
       }
-  val textState = rememberSaveable { mutableStateOf("") }
+  val textState = rememberTextFieldState(text)
   val currency =
       remember(currencyCode) {
         if (currencyCode.isEmpty()) {
@@ -117,7 +130,7 @@ fun rememberAmountTextFieldState(
           Currency.getInstance(currencyCode)
         }
       }
-  return remember(currency) {
+  return remember(currency, error) {
     AmountTextFieldState(
         currency = currency,
         errorState = errorState,
@@ -128,37 +141,29 @@ fun rememberAmountTextFieldState(
 
 class AmountTextFieldState(
     val currency: Currency,
-    private val textState: MutableState<String>,
+    val textState: TextFieldState,
     private val errorState: MutableState<AmountError>,
 ) {
 
-  val text: String by textState
   val error: AmountError by errorState
 
   fun clear() {
-    onTextChange("")
-  }
-
-  fun onTextChange(
-      text: String,
-  ) {
-    textState.value = text
-    errorState.value = AmountError.None
+    textState.clearText()
   }
 
   fun validate() {
-    if (text.isBlank()) {
+    if (textState.text.isBlank()) {
       errorState.value = AmountError.Empty
       return
     }
-    val bigDecimal =
+    val double =
         try {
-          BigDecimal(text)
+          textState.text.toString().toDouble()
         } catch (exception: NumberFormatException) {
           errorState.value = AmountError.Format
           return
         }
-    if (bigDecimal <= BigDecimal.ZERO) {
+    if (double <= 0.0) {
       errorState.value = AmountError.Format
       return
     }
@@ -173,7 +178,7 @@ value class AmountError(val value: Int) {
 
     val None = AmountError(0)
     val Empty = AmountError(1)
-    val Format = AmountError(1)
+    val Format = AmountError(2)
 
     val Saver =
         Saver<AmountError, Int>(

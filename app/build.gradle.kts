@@ -7,6 +7,7 @@ plugins {
   alias(libs.plugins.ksp)
   alias(libs.plugins.room)
   alias(libs.plugins.hilt.android)
+  alias(libs.plugins.compose.screenshot)
 }
 
 composeCompiler {
@@ -28,12 +29,19 @@ tasks.withType<JavaCompile>().configureEach {
 kotlin {
   jvmToolchain(21)
   compilerOptions {
-    optIn.addAll("kotlin.time.ExperimentalTime")
+    optIn.addAll(
+        "androidx.compose.material3.ExperimentalMaterial3Api",
+        "kotlinx.coroutines.ExperimentalCoroutinesApi",
+    )
     allWarningsAsErrors.set(true)
   }
 }
 
+screenshotTests { imageDifferenceThreshold = 0.0001f }
+
 android {
+  experimentalProperties["android.experimental.enableScreenshotTest"] = true
+
   buildFeatures { compose = true }
 
   androidResources {
@@ -127,6 +135,8 @@ android {
       add("uz")
       add("vi")
     }
+
+    testOptions { execution = "ANDROIDX_TEST_ORCHESTRATOR" }
   }
 
   compileSdk = libs.versions.target.sdk.get().toInt()
@@ -135,6 +145,8 @@ android {
   defaultConfig {
     minSdk = 26
     targetSdk = libs.versions.target.sdk.get().toInt()
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 
   buildTypes {
@@ -142,7 +154,6 @@ android {
       isMinifyEnabled = true
       isShrinkResources = true
       proguardFiles(
-          "proguard-rules.pro",
           getDefaultProguardFile("proguard-android-optimize.txt"),
       )
     }
@@ -150,6 +161,10 @@ android {
 
   lint {
     disable.add("UnusedAttribute") // workaround for android:enableOnBackInvokedCallback="true"
+    disable.add(
+        "GradleDependency"
+    ) // workaround for clashing dependencies in newest jetpack compose BOM, TODO: remove it before
+    // release
     warningsAsErrors = true
     checkAllWarnings = true
     abortOnError = true
@@ -159,12 +174,13 @@ android {
   }
 }
 
-baselineProfile { dexLayoutOptimization = true }
+baselineProfile {
+  dexLayoutOptimization = true
+  warnings.setAll(true)
+}
 
 dependencies {
-  implementation(libs.kotlinx.collections.immutable)
   implementation(libs.kotlinx.serialization)
-  implementation(libs.kotlinx.date.time)
 
   implementation(libs.androidx.activity.compose)
   implementation(libs.androidx.profile.installer)
@@ -175,7 +191,7 @@ dependencies {
   implementation(libs.androidx.compose.material.icons.extended)
 
   implementation(libs.androidx.navigation.compose)
-  implementation(libs.androidx.hilt.navigation.compose)
+  implementation(libs.androidx.hilt.lifecycle.viewmodel.compose)
 
   implementation(libs.room.runtime)
   implementation(libs.room.ktx)
@@ -188,4 +204,19 @@ dependencies {
   ksp(libs.hilt.android.compiler)
 
   baselineProfile(projects.benchmark)
+
+  androidTestImplementation(libs.turbine)
+  androidTestImplementation(libs.kotlinx.coroutines.test)
+  androidTestImplementation(platform(libs.androidx.compose.bom))
+  androidTestImplementation(libs.androidx.compose.test.junit4)
+  androidTestImplementation(libs.hilt.android.testing)
+  androidTestUtil(libs.androidx.test.orchestrator)
+  debugImplementation(libs.androidx.compose.test.manifest)
+
+  testImplementation(libs.junit)
+  testImplementation(libs.kotlinx.coroutines.test)
+
+  screenshotTestImplementation(platform(libs.androidx.compose.bom))
+  screenshotTestImplementation(libs.androidx.compose.ui.tooling)
+  screenshotTestImplementation(libs.screenshot.validation.api)
 }

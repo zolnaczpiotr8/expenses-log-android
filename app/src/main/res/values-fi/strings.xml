@@ -63,7 +63,10 @@
 		ulkoisille palvelimille tai jaeta kenellekään. Me emme pääse käsiksi
 		näihin tietoihin emmekä voi päästäkään.</string>
 	<string name="privacy_policy_no_third_party_services_title">Ei Kolmannen Osapuolen Palveluita</string>
-	<string name="privacy_policy_no_third_party_services_body">Sovellus ei käytä kolmannen osapuolen SDK</string>
+	<string name="privacy_policy_no_third_party_services_body">Sovellus ei käytä kolmannen osapuolen SDK:ita,
+		analytiikkatyökaluja, mainosverkostoja eikä muita ulkoisia palveluita,
+		jotka keräävät tietoja. Kenelläkään muulla, mukaan lukien meillä, ei
+		ole pääsyä sovelluksen käyttöön tai tietoihisi.</string>
 	<string name="privacy_policy_data_control_and_deletion_title">Tietojen Hallinta ja Poistaminen</string>
 	<string name="privacy_policy_data_control_and_deletion_body">Sinulla on täydellinen hallinta syöttämääsi
 		tietoon. Voit poistaa tietosi milloin tahansa poistamalla sovelluksen

@@ -11,12 +11,11 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
-import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
+import zolnaczpiotr8.com.github.expenses.log.model.toFormattedString
 
 @Composable
 fun DateFilterChip(
@@ -25,20 +24,13 @@ fun DateFilterChip(
     onClick: () -> Unit = {},
 ) {
   val isSelected = filter != DateFilter.Any
-  val label =
-      when (filter) {
-        is DateFilter.Any -> stringResource(R.string.date_filter_title)
-        is DateFilter.Month -> stringResource(R.string.date_filter_this_month)
-        is DateFilter.Custom -> filter.toString()
-        is DateFilter.Year -> stringResource(R.string.date_filter_this_year)
-      }
   FilterChip(
       modifier = modifier.semantics { role = Role.DropdownList },
       selected = isSelected,
       onClick = onClick,
       label = {
         Text(
-            text = label,
+            text = toFormattedString(filter = filter),
             maxLines = 1,
         )
       },

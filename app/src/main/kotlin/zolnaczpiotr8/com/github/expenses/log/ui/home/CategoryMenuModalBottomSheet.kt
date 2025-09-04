@@ -1,7 +1,6 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.SheetState
@@ -17,74 +16,55 @@ import androidx.compose.ui.semantics.collectionInfo
 import androidx.compose.ui.semantics.collectionItemInfo
 import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
-import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
+import zolnaczpiotr8.com.github.expenses.log.ui.components.Measurements
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CategoryMenuModalBottomSheet(
     state: CategoryMenuSheetState = rememberCategoryMenuSheetState(),
     onNewExpenseClick: () -> Unit = {},
     onDeleteClick: () -> Unit = {},
 ) {
+  val scope = rememberCoroutineScope()
   if (state.isHidden) {
     return
   }
-  val scope = rememberCoroutineScope()
   ModalBottomSheet(
       modifier =
-          Modifier.semantics {
-            collectionInfo =
-                CollectionInfo(
-                    rowCount = 2,
-                    columnCount = 1,
-                )
-          },
+          Modifier.semantics { collectionInfo = CollectionInfo(rowCount = 2, columnCount = 1) },
       onDismissRequest = { scope.launch { state.hide() } },
       sheetState = state.internalSheetState,
   ) {
     Text(
         modifier =
             Modifier.padding(
-                    start = IncrementalPaddings.x4,
+                    start = Measurements.ListItem.startPadding,
                 )
                 .padding(
-                    vertical = IncrementalPaddings.x3,
+                    vertical = Measurements.ListItem.verticalPadding,
                 ),
         text = state.title,
         style = MaterialTheme.typography.titleLarge,
     )
+
     NewExpenseListItem(
-        modifier =
-            Modifier.semantics {
-              collectionItemInfo =
-                  CollectionItemInfo(
-                      rowIndex = 0,
-                      columnIndex = 0,
-                      columnSpan = 1,
-                      rowSpan = 1,
-                  )
-            },
+        Modifier.semantics {
+          collectionItemInfo =
+              CollectionItemInfo(rowSpan = 1, rowIndex = 0, columnIndex = 0, columnSpan = 1)
+        }
     ) {
       scope.launch { state.hide() }.invokeOnCompletion { onNewExpenseClick() }
     }
     DeleteListItem(
-        modifier =
-            Modifier.semantics {
-              collectionItemInfo =
-                  CollectionItemInfo(
-                      rowIndex = 2,
-                      columnSpan = 1,
-                      columnIndex = 0,
-                      rowSpan = 1,
-                  )
-            },
+        Modifier.semantics {
+          collectionItemInfo =
+              CollectionItemInfo(rowSpan = 1, rowIndex = 1, columnIndex = 0, columnSpan = 1)
+        }
     ) {
       scope.launch { state.hide() }.invokeOnCompletion { onDeleteClick() }
     }
   }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun rememberCategoryMenuSheetState(
     title: String = "",
@@ -99,22 +79,18 @@ fun rememberCategoryMenuSheetState(
 }
 
 class CategoryMenuSheetState
-@OptIn(ExperimentalMaterial3Api::class)
 constructor(
     val internalSheetState: SheetState,
     val title: String,
 ) {
 
-  @OptIn(ExperimentalMaterial3Api::class)
   val isHidden: Boolean
     get() = internalSheetState.isVisible.not()
 
-  @OptIn(ExperimentalMaterial3Api::class)
   suspend fun show() {
     internalSheetState.show()
   }
 
-  @OptIn(ExperimentalMaterial3Api::class)
   suspend fun hide() {
     internalSheetState.hide()
   }

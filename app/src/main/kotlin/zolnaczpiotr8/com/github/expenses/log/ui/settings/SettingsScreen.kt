@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
@@ -27,10 +26,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.Lifecycle
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.GoBackIconButton
@@ -42,10 +39,7 @@ fun SettingsScreen(
     viewModel: SettingsViewModel = hiltViewModel(),
     onGoBackClick: () -> Unit = {},
 ) {
-  val availableCurrencies by
-      viewModel.availableCurrencies.collectAsStateWithLifecycle(
-          minActiveState = Lifecycle.State.CREATED,
-      )
+  val availableCurrencies by viewModel.availableCurrencies.collectAsStateWithLifecycle()
   val currentCurrency by viewModel.currentCurrency.collectAsStateWithLifecycle()
   SettingsScreen(
       currentCurrency = currentCurrency,
@@ -55,10 +49,9 @@ fun SettingsScreen(
   )
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-private fun SettingsScreen(
-    availableCurrencies: ImmutableList<String>,
+fun SettingsScreen(
+    availableCurrencies: List<String>,
     currentCurrency: String,
     onGoBackClick: () -> Unit = {},
     onCurrencyClick: (String) -> Unit = {},

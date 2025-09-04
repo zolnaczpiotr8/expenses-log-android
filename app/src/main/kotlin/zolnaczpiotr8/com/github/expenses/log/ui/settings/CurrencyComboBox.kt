@@ -1,14 +1,21 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.settings
 
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.text.input.InputTransformation
+import androidx.compose.foundation.text.input.TextFieldLineLimits
+import androidx.compose.foundation.text.input.allCaps
+import androidx.compose.foundation.text.input.maxLength
+import androidx.compose.foundation.text.input.rememberTextFieldState
+import androidx.compose.foundation.text.input.setTextAndPlaceCursorAtEnd
+import androidx.compose.foundation.text.input.then
 import androidx.compose.material3.DropdownMenuItem
-import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ExposedDropdownMenuAnchorType
 import androidx.compose.material3.ExposedDropdownMenuBox
 import androidx.compose.material3.ExposedDropdownMenuDefaults
-import androidx.compose.material3.MenuAnchorType
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -18,46 +25,33 @@ import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.onClick
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
-import androidx.compose.ui.text.input.TextFieldValue
-import kotlinx.collections.immutable.ImmutableList
+import androidx.compose.ui.text.intl.Locale
 import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.ui.components.text.fields.TextFieldCharacterCounter
 
 private const val CHARACTERS_LIMIT = 3
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CurrencyComboBox(
     modifier: Modifier = Modifier,
     currentCurrency: String,
     onCurrencyClick: (String) -> Unit = {},
-    availableCurrencies: ImmutableList<String>,
+    availableCurrencies: List<String>,
 ) {
   val expandedState = rememberSaveable { mutableStateOf(false) }
-  val currencyState =
-      rememberSaveable(
-          currentCurrency,
-          stateSaver = TextFieldValue.Saver,
-      ) {
-        mutableStateOf(
-            TextFieldValue(
-                text = currentCurrency,
-                selection = TextRange(currentCurrency.length),
-            ),
-        )
-      }
+  val currencyState = rememberTextFieldState()
+  LaunchedEffect(currentCurrency) { currencyState.setTextAndPlaceCursorAtEnd(currentCurrency) }
   ExposedDropdownMenuBox(
       expanded = expandedState.value,
       onExpandedChange = { expandedState.value = it },
   ) {
     OutlinedTextField(
-        modifier = modifier.menuAnchor(MenuAnchorType.PrimaryEditable),
+        modifier = modifier.menuAnchor(ExposedDropdownMenuAnchorType.PrimaryEditable),
         supportingText = {
           TextFieldCharacterCounter(
-              count = currencyState.value.text.length,
+              count = currencyState.text.length,
               limit = CHARACTERS_LIMIT,
           )
         },
@@ -66,13 +60,16 @@ fun CurrencyComboBox(
                 keyboardType = KeyboardType.Ascii,
                 imeAction = ImeAction.None,
             ),
-        singleLine = true,
+        lineLimits = TextFieldLineLimits.SingleLine,
+        inputTransformation =
+            InputTransformation.maxLength(CHARACTERS_LIMIT)
+                .then(InputTransformation.allCaps(Locale.current)),
         trailingIcon = {
           val onClickLabel = stringResource(R.string.show_available_currencies_action_label)
           ExposedDropdownMenuDefaults.TrailingIcon(
               expanded = expandedState.value,
               modifier =
-                  Modifier.menuAnchor(MenuAnchorType.SecondaryEditable).semantics {
+                  Modifier.menuAnchor(ExposedDropdownMenuAnchorType.SecondaryEditable).semantics {
                     onClick(
                         label = onClickLabel,
                         action = null,
@@ -80,13 +77,7 @@ fun CurrencyComboBox(
                   },
           )
         },
-        value = currencyState.value,
-        onValueChange = {
-          currencyState.value =
-              it.copy(
-                  text = it.text.take(CHARACTERS_LIMIT),
-              )
-        },
+        state = currencyState,
         colors = ExposedDropdownMenuDefaults.outlinedTextFieldColors(),
     )
 
@@ -95,12 +86,7 @@ fun CurrencyComboBox(
         onDismissRequest = { expandedState.value = false },
     ) {
       availableCurrencies
-          .filter {
-            it.contains(
-                other = currencyState.value.text,
-                ignoreCase = true,
-            )
-          }
+          .filter { it.contains(currencyState.text) }
           .forEach {
             key(it) {
               val currencyCode = stringResource(R.string.currency_code_item_label, it)
@@ -121,14 +107,8 @@ fun CurrencyComboBox(
                     )
                   },
                   onClick = {
-                    if (it.equals(
-                            other = currentCurrency,
-                            ignoreCase = true,
-                        )
-                        .not()) {
-                      onCurrencyClick(it)
-                      expandedState.value = false
-                    }
+                    expandedState.value = false
+                    it.takeUnless { it == currentCurrency }?.let(onCurrencyClick)
                   },
                   contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding,
               )

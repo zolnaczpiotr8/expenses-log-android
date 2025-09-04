@@ -9,7 +9,7 @@ import androidx.room.DatabaseView
         SELECT (
                 CASE title
                     WHEN 'Year' THEN unixepoch('now', 'start of year')
-                    WHEN 'Custom' THEN unixepoch(CAST(date_filter.start/1000 AS INT), 'unixepoch', 'start of day')
+                    WHEN 'Custom' THEN unixepoch(date_filter.start, 'unixepoch', 'start of day')
                     WHEN 'Any' THEN 0
                     ELSE unixepoch('now', 'start of month')
                 END
@@ -17,7 +17,7 @@ import androidx.room.DatabaseView
             (
                 CASE title
                     WHEN 'Year' THEN unixepoch('now', 'start of year', '+1 years', '-1 seconds')
-                    WHEN 'Custom' THEN unixepoch(CAST(date_filter.finish/1000 AS INT), 'unixepoch','start of day' ,'+1 days', '-1 seconds')
+                    WHEN 'Custom' THEN unixepoch(date_filter.finish, 'unixepoch','start of day' ,'+1 days', '-1 seconds')
                     WHEN 'Any' THEN 9223372036854775807
                     ELSE unixepoch('now', 'start of month', '+1 months', '-1 seconds')
                 END

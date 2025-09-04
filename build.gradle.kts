@@ -4,7 +4,6 @@ import kotlin.io.path.Path
 
 plugins {
   alias(libs.plugins.spotless)
-  alias(libs.plugins.git.hooks)
 
   alias(libs.plugins.android.application) apply false
   alias(libs.plugins.android.test) apply false
@@ -17,6 +16,7 @@ plugins {
   alias(libs.plugins.ksp) apply false
   alias(libs.plugins.room) apply false
   alias(libs.plugins.hilt.android) apply false
+  alias(libs.plugins.compose.screenshot) apply false
 }
 
 spotless {

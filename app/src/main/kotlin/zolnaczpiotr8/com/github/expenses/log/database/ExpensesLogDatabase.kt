@@ -3,8 +3,8 @@ package zolnaczpiotr8.com.github.expenses.log.database
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import zolnaczpiotr8.com.github.expenses.log.database.converters.BigDecimalConverter
 import zolnaczpiotr8.com.github.expenses.log.database.converters.InstantConverter
+import zolnaczpiotr8.com.github.expenses.log.database.converters.UuidConverter
 import zolnaczpiotr8.com.github.expenses.log.database.daos.CategoryDao
 import zolnaczpiotr8.com.github.expenses.log.database.daos.DateFilterDao
 import zolnaczpiotr8.com.github.expenses.log.database.daos.ExpenseDao
@@ -29,10 +29,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseEn
             DateFilterTimeStampEntity::class,
         ],
 )
-@TypeConverters(
-    BigDecimalConverter::class,
-    InstantConverter::class,
-)
+@TypeConverters(InstantConverter::class, UuidConverter::class)
 abstract class ExpensesLogDatabase : RoomDatabase() {
 
   abstract fun categoryDao(): CategoryDao

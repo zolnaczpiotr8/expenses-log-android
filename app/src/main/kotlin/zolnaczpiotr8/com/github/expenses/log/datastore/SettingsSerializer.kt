@@ -19,7 +19,7 @@ class SettingsSerializer @Inject constructor() : Serializer<SettingsProto> {
         SettingsProto.parseFrom(input)
       } catch (cancellation: CancellationException) {
         throw cancellation
-      } catch (exception: InvalidProtocolBufferException,) {
+      } catch (exception: InvalidProtocolBufferException) {
         throw CorruptionException("Cannot read proto.", exception)
       }
 

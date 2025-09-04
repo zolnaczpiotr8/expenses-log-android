@@ -1,11 +1,13 @@
 package zolnaczpiotr8.com.github.expenses.log.model
 
-import androidx.compose.runtime.Stable
-import kotlin.time.Instant
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.toLocalDateTime
+import android.text.format.DateUtils
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import java.time.Instant
+import zolnaczpiotr8.com.github.expenses.log.R
 
-@Stable
 sealed interface DateFilter {
 
   companion object {
@@ -32,12 +34,25 @@ sealed interface DateFilter {
     companion object {
       const val NAME: String = "Custom"
     }
-
-    override fun toString(): String {
-      val timeZone = TimeZone.currentSystemDefault()
-      val start = start.toLocalDateTime(timeZone).date
-      val end = end.toLocalDateTime(timeZone).date
-      return "$start - $end"
-    }
   }
 }
+
+@Composable
+fun toFormattedString(filter: DateFilter): String =
+    when (filter) {
+      is DateFilter.Any -> stringResource(R.string.date_filter_any)
+      is DateFilter.Month -> stringResource(R.string.date_filter_this_month)
+      is DateFilter.Custom -> {
+        val context = LocalContext.current
+        remember(filter.start, filter.end) {
+          DateUtils.formatDateRange(
+              context,
+              filter.start.toEpochMilli(),
+              filter.end.toEpochMilli(),
+              0,
+          )
+        }
+      }
+
+      is DateFilter.Year -> stringResource(R.string.date_filter_this_year)
+    }

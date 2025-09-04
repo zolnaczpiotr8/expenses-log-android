@@ -31,7 +31,8 @@ fun ExpensesLogUi() {
           onSettingsClick = navController::navigateToSettings,
           onNewCategoryClick = navController::navigateToNewCategory,
           onPrivacyPolicyClick = navController::navigateToPrivacyPolicy,
-          onTermsOfServiceClick = navController::navigateToTermsOfService)
+          onTermsOfServiceClick = navController::navigateToTermsOfService,
+      )
       settingsDestination(
           onGoBackClick = navController::popBackStack,
       )

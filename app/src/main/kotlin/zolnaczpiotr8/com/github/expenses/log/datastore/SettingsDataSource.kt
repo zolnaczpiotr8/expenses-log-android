@@ -12,13 +12,9 @@ class SettingsDataSource
 @Inject
 constructor(
     private val dataStore: DataStore<SettingsProto>,
+    private val settingsMapper: SettingsMapper,
 ) {
-  val settings: Flow<Settings> = dataStore.data.map(::toSettings)
-
-  private fun toSettings(
-      settings: SettingsProto,
-  ): Settings =
-      Settings(currencyCode = settings.currencyCode, agreedToTerms = settings.agreedToTerms)
+  val settings: Flow<Settings> = dataStore.data.map(settingsMapper::map)
 
   suspend fun setCurrencyCode(
       code: String,
@@ -37,6 +33,6 @@ constructor(
       dataStore.updateData { transform(it) }
     } catch (cancellation: CancellationException) {
       throw cancellation
-    } catch (_: Throwable,) {}
+    } catch (_: Throwable) {}
   }
 }

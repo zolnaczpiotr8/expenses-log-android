@@ -5,55 +5,43 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
-import kotlinx.collections.immutable.ImmutableList
-import kotlinx.collections.immutable.persistentListOf
-import kotlinx.collections.immutable.toPersistentList
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.data.SettingsRepository
-
-private const val STOP_SHARING_COROUTINE_DELAY = 5_000L
+import zolnaczpiotr8.com.github.expenses.log.ui.common.CoroutineConfig
 
 @HiltViewModel
 class SettingsViewModel
 @Inject
 constructor(
     private val settingsRepository: SettingsRepository,
+    private val coroutineDispatcher: CoroutineDispatcher,
 ) : ViewModel() {
 
   val currentCurrency: StateFlow<String> =
-      settingsRepository.settings
-          .map { it.currencyCode }
-          .distinctUntilChanged()
-          .stateIn(
-              scope = viewModelScope,
-              started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
-              initialValue = "",
-          )
-  val availableCurrencies: StateFlow<ImmutableList<String>> =
-      flow<ImmutableList<String>> {
-            val codes =
-                Currency.getAvailableCurrencies()
-                    .map(Currency::getCurrencyCode)
-                    .sorted()
-                    .toList()
-                    .toPersistentList()
+      settingsRepository.currencyCodeOrEmpty.stateIn(
+          scope = viewModelScope,
+          started = SharingStarted.WhileSubscribed(CoroutineConfig.STOP_SHARING_TIMEOUT_MS),
+          initialValue = "",
+      )
+  val availableCurrencies: StateFlow<List<String>> =
+      flow {
+            val codes = Currency.getAvailableCurrencies().map(Currency::getCurrencyCode).sorted()
             emit(codes)
           }
           .stateIn(
               scope = viewModelScope,
-              started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
-              initialValue = persistentListOf(),
+              started = SharingStarted.WhileSubscribed(CoroutineConfig.STOP_SHARING_TIMEOUT_MS),
+              initialValue = emptyList(),
           )
 
   fun onCurrencyClick(
       code: String,
   ) {
-    viewModelScope.launch { settingsRepository.setCurrencyCode(code) }
+    viewModelScope.launch(coroutineDispatcher) { settingsRepository.setCurrencyCode(code) }
   }
 }
