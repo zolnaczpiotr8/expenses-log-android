@@ -1,13 +1,13 @@
 package zolnaczpiotr8.com.github.expenses.log.database.entities.category
 
-import android.icu.math.BigDecimal
 import androidx.room.ColumnInfo
+import java.util.UUID
 
 data class CategoryTotalEntity(
-    val uuid: String,
+    val uuid: UUID,
     val title: String,
     @ColumnInfo(
         name = "total_amount",
     )
-    val totalAmount: BigDecimal,
+    val totalAmount: Double,
 )

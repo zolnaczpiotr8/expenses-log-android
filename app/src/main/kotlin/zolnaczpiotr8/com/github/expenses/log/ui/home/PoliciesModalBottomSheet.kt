@@ -1,7 +1,6 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.SheetState
@@ -18,17 +17,16 @@ import androidx.compose.ui.semantics.collectionItemInfo
 import androidx.compose.ui.semantics.semantics
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
-import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
+import zolnaczpiotr8.com.github.expenses.log.ui.components.Measurements
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PoliciesModalBottomSheet(
     state: SheetState = rememberModalBottomSheetState(),
     onPrivacyPolicyClick: () -> Unit = {},
     onTermsOfServiceClick: () -> Unit = {},
 ) {
+  val scope = rememberCoroutineScope()
   if (state.isVisible) {
-    val scope = rememberCoroutineScope()
     ModalBottomSheet(
         modifier =
             Modifier.semantics {
@@ -44,10 +42,10 @@ fun PoliciesModalBottomSheet(
       Text(
           modifier =
               Modifier.padding(
-                      start = IncrementalPaddings.x4,
+                      start = Measurements.ListItem.startPadding,
                   )
                   .padding(
-                      vertical = IncrementalPaddings.x3,
+                      vertical = Measurements.ListItem.verticalPadding,
                   ),
           text = stringResource(R.string.policies),
           style = MaterialTheme.typography.titleLarge,

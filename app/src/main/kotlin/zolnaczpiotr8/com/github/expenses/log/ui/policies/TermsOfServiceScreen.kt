@@ -9,13 +9,11 @@ import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.NonRestartableComposable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
@@ -24,9 +22,9 @@ import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 
-@OptIn(ExperimentalMaterial3Api::class)
+private const val PIOTR_ZOLNACZ = "Piotr Żołnacz"
+
 @Composable
-@NonRestartableComposable
 fun TermsOfServiceScreen(
     onGoBackClick: () -> Unit = {},
 ) {
@@ -50,60 +48,67 @@ fun TermsOfServiceScreen(
             Modifier.padding(paddingValues)
                 .padding(Margins.compact)
                 .verticalScroll(rememberScrollState()),
-        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4)) {
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_about_title),
-              body = stringResource(R.string.terms_of_service_about_body),
-          )
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_use_title),
-              body = stringResource(R.string.terms_of_service_use_body),
-          )
-          PolicySection(
-              title = stringResource(R.string.policy_your_data_stays_with_you_title),
-              body = stringResource(R.string.terms_of_service_your_data_stays_with_you_body),
-          )
+        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
+    ) {
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_about_title),
+          body = stringResource(R.string.terms_of_service_about_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_use_title),
+          body = stringResource(R.string.terms_of_service_use_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.policy_your_data_stays_with_you_title),
+          body = stringResource(R.string.terms_of_service_your_data_stays_with_you_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_intellectual_property_title),
-              body = stringResource(R.string.terms_of_service_intellectual_property_body),
-              footer = "Piotr Żołnacz")
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_intellectual_property_title),
+          body = stringResource(R.string.terms_of_service_intellectual_property_body),
+          footer = PIOTR_ZOLNACZ,
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_disclaimer_of_warranties_title),
-              body = stringResource(R.string.terms_of_service_disclaimer_of_warranties_body),
-          )
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_disclaimer_of_warranties_title),
+          body = stringResource(R.string.terms_of_service_disclaimer_of_warranties_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_limitation_of_liability_title),
-              body = stringResource(R.string.terms_of_service_limitation_of_liability_body),
-          )
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_limitation_of_liability_title),
+          body = stringResource(R.string.terms_of_service_limitation_of_liability_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_termination_title),
-              body = stringResource(R.string.terms_of_service_termination_body))
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_termination_title),
+          body = stringResource(R.string.terms_of_service_termination_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_governing_law_title),
-              body = stringResource(R.string.terms_of_service_governing_law_body))
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_governing_law_title),
+          body = stringResource(R.string.terms_of_service_governing_law_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.terms_of_service_changes_title),
-              body = stringResource(R.string.terms_of_service_changes_body))
+      PolicySection(
+          title = stringResource(R.string.terms_of_service_changes_title),
+          body = stringResource(R.string.terms_of_service_changes_body),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.policy_contact_information_title),
-              body = stringResource(R.string.terms_of_service_contact_information_body),
-              footer = eMail())
+      PolicySection(
+          title = stringResource(R.string.policy_contact_information_title),
+          body = stringResource(R.string.terms_of_service_contact_information_body),
+          footer = eMail(),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.policy_effective_date_title),
-              body = stringResource(R.string.terms_of_service_effective_date_body),
-              footer = "2025-08-01")
+      PolicySection(
+          title = stringResource(R.string.policy_effective_date_title),
+          body = stringResource(R.string.terms_of_service_effective_date_body),
+          footer = rememberEffectiveDate(),
+      )
 
-          Spacer(
-              Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
-          )
-        }
+      Spacer(
+          Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
+      )
+    }
   }
 }

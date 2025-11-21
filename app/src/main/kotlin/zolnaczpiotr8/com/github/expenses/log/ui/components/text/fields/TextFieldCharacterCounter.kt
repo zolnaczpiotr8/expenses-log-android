@@ -7,8 +7,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
 import zolnaczpiotr8.com.github.expenses.log.R
 
@@ -33,7 +33,7 @@ fun TextFieldCharacterCounter(
       horizontalArrangement = Arrangement.End,
   ) {
     Text(
-        modifier = Modifier.clearAndSetSemantics {},
+        modifier = Modifier.semantics { hideFromAccessibility() },
         text =
             stringResource(
                 R.string.character_counter_text,

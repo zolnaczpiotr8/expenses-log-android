@@ -1,6 +1,6 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.home
 
-import androidx.compose.animation.AnimatedVisibility
+import android.icu.text.DateFormat
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -9,19 +9,20 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan
 import androidx.compose.foundation.lazy.staggeredgrid.items
 import androidx.compose.material3.BottomSheetScaffold
 import androidx.compose.material3.CenterAlignedTopAppBar
-import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -38,36 +39,35 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.semantics.CollectionInfo
-import androidx.compose.ui.semantics.CollectionItemInfo
-import androidx.compose.ui.semantics.clearAndSetSemantics
-import androidx.compose.ui.semantics.collectionInfo
-import androidx.compose.ui.semantics.collectionItemInfo
 import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.semantics.hideFromAccessibility
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.testTag
 import androidx.compose.ui.unit.Dp
-import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import kotlinx.collections.immutable.ImmutableList
+import java.time.LocalDate
+import java.util.Calendar
+import java.util.UUID
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
-import zolnaczpiotr8.com.github.expenses.log.model.Categories
-import zolnaczpiotr8.com.github.expenses.log.model.Category
+import zolnaczpiotr8.com.github.expenses.log.model.CategoriesSummary
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
+import zolnaczpiotr8.com.github.expenses.log.model.Expense
+import zolnaczpiotr8.com.github.expenses.log.ui.components.Measurements
+import zolnaczpiotr8.com.github.expenses.log.ui.home.view.model.HomeViewModel
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 
 @Composable
 fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel(),
-    onNewCategoryClick: () -> Unit = {},
-    onNewExpenseClick: (String?) -> Unit = {},
-    onSettingsClick: () -> Unit = {},
-    onPrivacyPolicyClick: () -> Unit = {},
-    onTermsOfServiceClick: () -> Unit = {}
+    onNewCategoryClick: () -> Unit,
+    onNewExpenseClick: (String?) -> Unit,
+    onSettingsClick: () -> Unit,
+    onPrivacyPolicyClick: () -> Unit,
+    onTermsOfServiceClick: () -> Unit,
 ) {
-  val categories by viewModel.categories.collectAsStateWithLifecycle()
+  val categories by viewModel.categoriesSummary.collectAsStateWithLifecycle()
   val showEmptyCategoriesFilter by viewModel.showEmptyCategoriesFilter.collectAsStateWithLifecycle()
   val dateFilter by viewModel.dateFilter.collectAsStateWithLifecycle()
   val expenses by viewModel.expenses.collectAsStateWithLifecycle()
@@ -77,7 +77,7 @@ fun HomeScreen(
       showEmptyCategoriesFilter = showEmptyCategoriesFilter,
       dateFilter = dateFilter,
       onShowEmptyCategoriesFilterClick = viewModel::onShowEmptyCategoriesFilterClick,
-      categories = categories,
+      categoriesSummary = categories,
       expenses = expenses,
       agreedToTerms = agreedToTerms,
       onAgreeToTermsClick = viewModel::onAgreeToTermsClick,
@@ -87,31 +87,33 @@ fun HomeScreen(
       onNewExpenseClick = onNewExpenseClick,
       onSettingsClick = onSettingsClick,
       onPrivacyPolicyClick = onPrivacyPolicyClick,
-      onTermsOfServiceClick = onTermsOfServiceClick)
+      onTermsOfServiceClick = onTermsOfServiceClick,
+  )
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
     dateFilter: DateFilter = DateFilter.Any,
     onDateFilterClick: (DateFilter) -> Unit = {},
     showEmptyCategoriesFilter: Boolean = false,
     onShowEmptyCategoriesFilterClick: (Boolean) -> Unit = {},
-    categories: Categories?,
-    expenses: ImmutableList<ExpenseItem>,
-    agreedToTerms: Boolean,
-    onAgreeToTermsClick: () -> Unit,
-    onExpenseDeleteClicked: (String) -> Unit = {},
-    onCategoryDeleteClicked: (Category) -> Unit = {},
+    categoriesSummary: CategoriesSummary? = null,
+    expenses: Map<LocalDate, List<Expense>> = emptyMap(),
+    agreedToTerms: Boolean = false,
+    onAgreeToTermsClick: () -> Unit = {},
+    onExpenseDeleteClicked: (UUID) -> Unit = {},
+    onCategoryDeleteClicked: (UUID) -> Unit = {},
     onNewCategoryClick: () -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
     onSettingsClick: () -> Unit = {},
     onPrivacyPolicyClick: () -> Unit = {},
-    onTermsOfServiceClick: () -> Unit = {}
+    onTermsOfServiceClick: () -> Unit = {},
 ) {
   if (agreedToTerms.not()) {
     FirstLaunchAgreementDialog(
-        onTermsOfServiceClick = onTermsOfServiceClick, onAgreeClick = onAgreeToTermsClick)
+        onTermsOfServiceClick = onTermsOfServiceClick,
+        onAgreeClick = onAgreeToTermsClick,
+    )
   }
 
   val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
@@ -121,93 +123,58 @@ fun HomeScreen(
       scaffoldState = scaffoldState,
       modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
       sheetContent = {
-        AnimatedVisibility(expenses.isNotEmpty()) {
+        if (expenses.isNotEmpty()) {
           Text(
               modifier =
                   Modifier.semantics { heading() }
                       .padding(
-                          start = IncrementalPaddings.x4,
+                          start = Measurements.ListItem.startPadding,
                       )
                       .padding(
-                          vertical = IncrementalPaddings.x3,
+                          vertical = Measurements.ListItem.verticalPadding,
                       ),
               text = stringResource(R.string.expenses_title),
               style = MaterialTheme.typography.titleLarge,
           )
-        }
-        LazyColumn(
-            verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
-            modifier =
-                Modifier.semantics {
-                  collectionInfo =
-                      CollectionInfo(
-                          rowCount = expenses.size,
-                          columnCount = 1,
+          LazyColumn(
+              verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
+          ) {
+            expenses.forEach { (date, expenses) ->
+              stickyHeader(
+                  key = date,
+                  content = {
+                    Column {
+                      ListItem(
+                          modifier = Modifier.semantics { heading() }.animateItem(),
+                          headlineContent = { Text(relativeFormat(date)) },
                       )
-                },
-        ) {
-          expenses.forEachIndexed { index, expenseItem ->
-            when (expenseItem) {
-              is ExpenseItem.Header ->
-                  stickyHeader(
-                      contentType = expenseItem.contentType,
-                      key = expenseItem.date.toString(),
-                      content = {
-                        ListItem(
-                            modifier =
-                                Modifier.semantics {
-                                      heading()
-                                      collectionItemInfo =
-                                          CollectionItemInfo(
-                                              rowSpan = 1,
-                                              columnSpan = 1,
-                                              columnIndex = 1,
-                                              rowIndex = index,
-                                          )
-                                    }
-                                    .animateItem(),
-                            headlineContent = { Text(expenseItem.date.toString()) },
-                        )
-                      },
-                  )
-              is ExpenseItem.Expense ->
-                  item(
-                      contentType = expenseItem.contentType,
-                      key = expenseItem.uuid,
-                  ) {
-                    val dialogVisibilityState = rememberSaveable { mutableStateOf(false) }
+                      HorizontalDivider()
+                    }
+                  },
+              )
 
-                    ExpenseListItem(
-                        modifier =
-                            Modifier.semantics {
-                                  collectionItemInfo =
-                                      CollectionItemInfo(
-                                          rowSpan = 1,
-                                          columnSpan = 1,
-                                          columnIndex = 1,
-                                          rowIndex = index,
-                                      )
-                                }
-                                .animateItem(),
-                        expense = expenseItem,
-                        onDeleteClick = {
-                          dialogVisibilityState.value = true
-                          true
-                        },
-                    )
+              items(items = expenses, key = Expense::uuid) { expense ->
+                val dialogVisibilityState = rememberSaveable { mutableStateOf(false) }
 
-                    DeleteDialog(
-                        isVisible = dialogVisibilityState.value,
-                        onHide = { dialogVisibilityState.value = false },
-                        text = stringResource(R.string.delete_expense_text),
-                        onDeleteClick = { onExpenseDeleteClicked(expenseItem.uuid) },
-                    )
-                  }
+                ExpenseListItem(
+                    modifier = Modifier.animateItem(),
+                    expense = expense,
+                    onDeleteClick = {
+                      dialogVisibilityState.value = true
+                      true
+                    },
+                )
+
+                DeleteDialog(
+                    isVisible = dialogVisibilityState.value,
+                    onHide = { dialogVisibilityState.value = false },
+                    text = stringResource(R.string.delete_expense_text),
+                    onDeleteClick = { onExpenseDeleteClicked(expense.uuid) },
+                )
+              }
             }
-          }
 
-          item {
-            AnimatedVisibility(expenses.isNotEmpty()) {
+            item {
               Spacer(
                   Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
               )
@@ -218,10 +185,9 @@ fun HomeScreen(
       topBar = {
         CenterAlignedTopAppBar(
             title = {
-              val applicationName = stringResource(R.string.application_label)
               Text(
-                  text = applicationName,
-                  modifier = Modifier.clearAndSetSemantics { testTag = applicationName },
+                  text = stringResource(R.string.application_label),
+                  modifier = Modifier.semantics { hideFromAccessibility() },
               )
             },
             actions = {
@@ -238,12 +204,14 @@ fun HomeScreen(
                     scope.launch { scaffoldState.bottomSheetState.expand() }
                   },
                   onSettingsClick = onSettingsClick,
-                  onPoliciesClick = { scope.launch { policiesSheetState.show() } })
+                  onPoliciesClick = { scope.launch { policiesSheetState.show() } },
+              )
 
               PoliciesModalBottomSheet(
                   state = policiesSheetState,
                   onPrivacyPolicyClick = onPrivacyPolicyClick,
-                  onTermsOfServiceClick = onTermsOfServiceClick)
+                  onTermsOfServiceClick = onTermsOfServiceClick,
+              )
             },
             scrollBehavior = scrollBehavior,
         )
@@ -305,11 +273,11 @@ fun HomeScreen(
         Spacer(
             Modifier.height(IncrementalPaddings.x3),
         )
-        Crossfade(categories?.categories?.isNotEmpty() == true) {
+        Crossfade(categoriesSummary?.categories?.isNotEmpty() == true) {
           if (it) {
             Categories(
                 onCategoryDeleteClicked = onCategoryDeleteClicked,
-                categories = categories,
+                categoriesSummary = categoriesSummary,
                 bottomPadding = paddingValues.calculateBottomPadding(),
                 onNewExpenseClick = onNewExpenseClick,
             )
@@ -323,14 +291,23 @@ fun HomeScreen(
 }
 
 @Composable
-private fun NoExpenses(
+private fun relativeFormat(localDate: LocalDate): String =
+    remember(localDate) {
+      val date =
+          Calendar.Builder()
+              .setDate(localDate.year, localDate.monthValue.dec(), localDate.dayOfMonth)
+              .build()
+              .time
+      DateFormat.getDateInstance(DateFormat.RELATIVE_LONG).format(date)
+    }
+
+@Composable
+fun NoExpenses(
     modifier: Modifier = Modifier,
 ) {
-  Box(
-      modifier = modifier.fillMaxWidth().fillMaxHeight(0.5F),
-      contentAlignment = Alignment.Center,
-  ) {
+  Box(modifier.fillMaxSize()) {
     Text(
+        modifier = modifier.align(Alignment.Center),
         text = stringResource(R.string.no_expenses_title),
         style = MaterialTheme.typography.titleMedium,
     )
@@ -341,14 +318,14 @@ private fun NoExpenses(
 private fun Categories(
     modifier: Modifier = Modifier,
     bottomPadding: Dp,
-    categories: Categories?,
-    onCategoryDeleteClicked: (Category) -> Unit = {},
+    categoriesSummary: CategoriesSummary?,
+    onCategoryDeleteClicked: (UUID) -> Unit = {},
     onNewExpenseClick: (String?) -> Unit = {},
 ) {
-  if (categories == null) {
+  val scope = rememberCoroutineScope()
+  if (categoriesSummary == null) {
     return
   }
-  val scope = rememberCoroutineScope()
   LazyVerticalStaggeredGrid(
       columns = StaggeredGridCells.Adaptive(expenseCategoryCardWidth),
       verticalItemSpacing = IncrementalPaddings.x1,
@@ -366,7 +343,9 @@ private fun Categories(
     }
     item {
       val totalAmount =
-          remember(categories.totalAmount) { categories.totalAmount.toFormattedString() }
+          remember(categoriesSummary.totalAmount) {
+            categoriesSummary.totalAmount.toFormattedString()
+          }
       Text(
           text = totalAmount,
           style = MaterialTheme.typography.bodyMedium,
@@ -389,7 +368,7 @@ private fun Categories(
       )
     }
     items(
-        items = categories.categories,
+        items = categoriesSummary.categories,
         key = { category -> category.uuid },
     ) { category ->
       val menuState = rememberCategoryMenuSheetState(category.title)
@@ -410,7 +389,7 @@ private fun Categories(
           isVisible = deleteDialogVisibility.value,
           onHide = { deleteDialogVisibility.value = false },
           text = stringResource(R.string.delete_expense_category_text),
-          onDeleteClick = { onCategoryDeleteClicked(category) },
+          onDeleteClick = { onCategoryDeleteClicked(category.uuid) },
       )
     }
 

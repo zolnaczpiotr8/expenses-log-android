@@ -51,7 +51,7 @@ fun DeleteDialog(
         )
       },
       dismissButton = {
-        DeleteDialogDismissButton(
+        DialogDismissButton(
             onClick = onHide,
         )
       },

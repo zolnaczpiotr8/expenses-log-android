@@ -1,13 +1,12 @@
 package zolnaczpiotr8.com.github.expenses.log.database.entities.expense
 
-import android.icu.math.BigDecimal
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import kotlin.time.ExperimentalTime
-import kotlin.time.Instant
+import java.time.Instant
+import java.util.UUID
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
 
 private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
@@ -32,11 +31,10 @@ private const val CATEGORY_UUID_COLUMN_NAME = "category_uuid"
         ],
 )
 data class ExpenseEntity
-@OptIn(ExperimentalTime::class)
 constructor(
-    @PrimaryKey val uuid: String,
+    @PrimaryKey val uuid: UUID,
     val title: String?,
-    val amount: BigDecimal,
+    val amount: Double,
     @ColumnInfo(
         name = CATEGORY_UUID_COLUMN_NAME,
     )

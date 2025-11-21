@@ -1,16 +1,13 @@
 package zolnaczpiotr8.com.github.expenses.log.database.entities.expense
 
-import android.icu.math.BigDecimal
 import androidx.room.ColumnInfo
-import kotlin.time.ExperimentalTime
-import kotlin.time.Instant
+import java.time.Instant
+import java.util.UUID
 
-data class ExpenseWithCategoryEntity
-@OptIn(ExperimentalTime::class)
-constructor(
+data class ExpenseWithCategoryEntity(
     val title: String?,
-    val uuid: String,
-    val amount: BigDecimal,
+    val uuid: UUID,
+    val amount: Double,
     @ColumnInfo(
         name = "category_title",
     )

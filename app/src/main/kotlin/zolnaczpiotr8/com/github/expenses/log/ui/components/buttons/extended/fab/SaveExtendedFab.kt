@@ -12,7 +12,7 @@ import zolnaczpiotr8.com.github.expenses.log.R
 @Composable
 fun SaveExtendedFab(
     expanded: Boolean = false,
-    onClick: () -> Unit,
+    onClick: () -> Unit = {},
 ) {
   ExtendedFloatingActionButton(
       expanded = expanded,

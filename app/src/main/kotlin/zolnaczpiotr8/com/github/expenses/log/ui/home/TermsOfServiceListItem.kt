@@ -20,7 +20,7 @@ fun TermsOfServiceListItem(
       modifier =
           modifier.clickable(
               onClick = onClick,
-              onClickLabel = stringResource(R.string.terms_of_service),
+              onClickLabel = stringResource(R.string.navigate_action_label),
           ),
       leadingContent = {
         Icon(

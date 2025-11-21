@@ -1,20 +1,17 @@
 package zolnaczpiotr8.com.github.expenses.log.database.converters
 
 import androidx.room.TypeConverter
-import kotlin.time.ExperimentalTime
-import kotlin.time.Instant
+import java.time.Instant
 
 class InstantConverter {
 
-  @OptIn(ExperimentalTime::class)
   @TypeConverter
   fun toInstant(
-      milliSeconds: Long?,
-  ): Instant? = milliSeconds?.let(Instant::fromEpochMilliseconds)
+      seconds: Long?,
+  ): Instant? = seconds?.let(Instant::ofEpochSecond)
 
-  @OptIn(ExperimentalTime::class)
   @TypeConverter
   fun fromInstant(
       instant: Instant?,
-  ): Long? = instant?.let(Instant::toEpochMilliseconds)
+  ): Long? = instant?.epochSecond
 }

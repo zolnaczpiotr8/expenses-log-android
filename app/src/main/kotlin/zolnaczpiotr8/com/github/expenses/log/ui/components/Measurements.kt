@@ -9,4 +9,11 @@ object Measurements {
     val height = 56.dp
     val padding = IncrementalPaddings.x4
   }
+
+  object ListItem {
+
+    val startPadding = IncrementalPaddings.x4
+
+    val verticalPadding = IncrementalPaddings.x2
+  }
 }

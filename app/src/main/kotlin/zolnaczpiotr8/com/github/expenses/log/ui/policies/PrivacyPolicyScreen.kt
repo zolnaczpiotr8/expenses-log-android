@@ -9,13 +9,11 @@ import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.NonRestartableComposable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
@@ -24,9 +22,7 @@ import zolnaczpiotr8.com.github.expenses.log.ui.components.buttons.icon.buttons.
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-@NonRestartableComposable
 fun PrivacyPolicyScreen(
     onGoBackClick: () -> Unit = {},
 ) {
@@ -50,41 +46,51 @@ fun PrivacyPolicyScreen(
             Modifier.padding(paddingValues)
                 .padding(Margins.compact)
                 .verticalScroll(rememberScrollState()),
-        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4)) {
-          PolicySection(
-              title = stringResource(R.string.policy_your_data_stays_with_you_title),
-              body = stringResource(R.string.privacy_policy_your_data_stays_with_you_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_local_only_data_storage_title),
-              body = stringResource(R.string.privacy_policy_local_only_data_storage_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_no_third_party_services_title),
-              body = stringResource(R.string.privacy_policy_no_third_party_services_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_data_control_and_deletion_title),
-              body = stringResource(R.string.privacy_policy_data_control_and_deletion_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_children_privacy_title),
-              body = stringResource(R.string.privacy_policy_children_privacy_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_your_rights_title),
-              body = stringResource(R.string.privacy_policy_your_rights_body))
-          PolicySection(
-              title = stringResource(R.string.privacy_policy_changes_title),
-              body = stringResource(R.string.privacy_policy_changes_body))
-          PolicySection(
-              title = stringResource(R.string.policy_contact_information_title),
-              body = stringResource(R.string.privacy_policy_contact_information_body),
-              footer = eMail())
+        verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x4),
+    ) {
+      PolicySection(
+          title = stringResource(R.string.policy_your_data_stays_with_you_title),
+          body = stringResource(R.string.privacy_policy_your_data_stays_with_you_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_local_only_data_storage_title),
+          body = stringResource(R.string.privacy_policy_local_only_data_storage_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_no_third_party_services_title),
+          body = stringResource(R.string.privacy_policy_no_third_party_services_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_data_control_and_deletion_title),
+          body = stringResource(R.string.privacy_policy_data_control_and_deletion_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_children_privacy_title),
+          body = stringResource(R.string.privacy_policy_children_privacy_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_your_rights_title),
+          body = stringResource(R.string.privacy_policy_your_rights_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.privacy_policy_changes_title),
+          body = stringResource(R.string.privacy_policy_changes_body),
+      )
+      PolicySection(
+          title = stringResource(R.string.policy_contact_information_title),
+          body = stringResource(R.string.privacy_policy_contact_information_body),
+          footer = eMail(),
+      )
 
-          PolicySection(
-              title = stringResource(R.string.policy_effective_date_title),
-              body = stringResource(R.string.privacy_policy_effective_date_body),
-              footer = "2025-08-01")
+      PolicySection(
+          title = stringResource(R.string.policy_effective_date_title),
+          body = stringResource(R.string.privacy_policy_effective_date_body),
+          footer = rememberEffectiveDate(),
+      )
 
-          Spacer(
-              Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
-          )
-        }
+      Spacer(
+          Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
+      )
+    }
   }
 }

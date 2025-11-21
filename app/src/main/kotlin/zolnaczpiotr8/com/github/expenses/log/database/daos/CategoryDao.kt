@@ -4,6 +4,8 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Transaction
+import java.util.UUID
 import kotlinx.coroutines.flow.Flow
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryTotalEntity
@@ -22,19 +24,20 @@ interface CategoryDao {
 
   @Query(
       """
-        SELECT category.uuid AS uuid,
+        SELECT MIN(category.uuid) AS uuid,
         category.title AS title,
-        SUM(ifnull(expense.amount,0)) AS total_amount
+        TOTAL(expense.amount) AS total_amount
         FROM category 
         JOIN date_filter_time_stamp
         LEFT JOIN expense
         ON expense.category_uuid = category.uuid
-        AND CAST(expense.created/1000 AS INT) BETWEEN 
+        AND expense.created BETWEEN 
             date_filter_time_stamp.start AND 
             date_filter_time_stamp.finish
         LEFT JOIN show_empty_categories
-        GROUP BY category.uuid, category.title
-        HAVING SUM(ifnull(expense.amount,0)) + MIN(ifnull(show_empty_categories.value, 0)) > 0
+        GROUP BY category.title
+        HAVING ifnull(MAX(expense.amount), 0) > 0
+            OR ifnull(MIN(show_empty_categories.value), 0) > 0
         ORDER BY category.title
     """,
   )
@@ -48,7 +51,8 @@ interface CategoryDao {
   @Query(
       "DELETE from category WHERE uuid = :uuid",
   )
+  @Transaction
   suspend fun delete(
-      uuid: String,
+      uuid: UUID,
   )
 }

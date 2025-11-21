@@ -68,7 +68,12 @@
 		न उपयोग्यन्ते। मया सहितः अन्यः कश्चित् अपि तव अनुप्रयोगस्य उपयोगं वा
 		दत्तांशं प्राप्नोति न।</string>
 	<string name="privacy_policy_data_control_and_deletion_title">दत्तांशनियन्त्रणं च विलोपनम्</string>
-	<string name="privacy_policy_data_control_and_deletion_body">यः सूचना</string>
+	<string name="privacy_policy_data_control_and_deletion_body">भवतः प्रविष्टसूचनायां पूर्णनियन्त्रणं अस्ति।
+		भवान्
+		यदा काङ्क्षति तदा दत्तांशं लोपयितुं शक्नोति—अप्लिकेशनं निष्कास्य अथवा
+		तस्य सञ्चयस्थानं शुद्ध्वा।
+		यतः किञ्चित् बाह्यरूपेण न सञ्चितं तस्मात्
+		अन्ये उपायाः न आवश्यकाः।ा</string>
 	<string name="privacy_policy_children_privacy_title">बालानां गोपनीयता</string>
 	<string name="privacy_policy_children_privacy_body">एषः अनुप्रयोगः सर्वेषां उपयोगकर्तॄणां कृते
 		सुरक्षितः अस्ति, त्रयोदशवर्षात् अधः बालान् अपि सम्मिल्य। न कापि

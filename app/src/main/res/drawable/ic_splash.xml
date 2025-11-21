@@ -17,7 +17,7 @@
 				android:fillAlpha="0" android:fillColor="#9E9E9E"
 				android:fillType="nonZero" android:pathData="M172,260h88v16h-88z" />
 			<path android:name="frame" android:fillAlpha="0"
-				android:fillType="nonZero" android:fillColor="@color/light_primary"
+				android:fillColor="@color/light_primary" android:fillType="nonZero"
 				android:pathData="M279.9,139.9v152.3c0,6.6 -5.4,12 -12,12H164.1c-6.6,0 -12,-5.4 -12,-12V188v-0.1L168,168l19.1,-24l12.9,-16.1h7.9h59.9C274.5,127.9 279.9,133.3 279.9,139.9zM264,288V144h-56.1v44H168v100H264z" />
 			<path android:name="first_line"
 				android:fillColor="@color/light_primary"
@@ -38,7 +38,7 @@
 			<set>
 				<objectAnimator
 					android:duration="@integer/splash_screen_duration"
-					android:startOffset="0" android:propertyName="fillAlpha"
+					android:propertyName="fillAlpha" android:startOffset="0"
 					android:valueFrom="0.2" android:valueTo="1.0"
 					android:valueType="floatType" />
 			</set>
@@ -48,7 +48,7 @@
 		<aapt:attr name="android:animation">
 			<objectAnimator
 				android:duration="@integer/splash_screen_duration"
-				android:startOffset="0" android:propertyName="fillAlpha"
+				android:propertyName="fillAlpha" android:startOffset="0"
 				android:valueFrom="0.0" android:valueTo="0.2"
 				android:valueType="floatType" />
 		</aapt:attr>
@@ -57,7 +57,7 @@
 		<aapt:attr name="android:animation">
 			<objectAnimator
 				android:duration="@integer/splash_screen_duration"
-				android:startOffset="0" android:propertyName="fillAlpha"
+				android:propertyName="fillAlpha" android:startOffset="0"
 				android:valueFrom="0.0" android:valueTo="0.2"
 				android:valueType="floatType" />
 		</aapt:attr>
@@ -66,7 +66,7 @@
 		<aapt:attr name="android:animation">
 			<objectAnimator
 				android:duration="@integer/splash_screen_duration"
-				android:startOffset="0" android:propertyName="fillAlpha"
+				android:propertyName="fillAlpha" android:startOffset="0"
 				android:valueFrom="0.0" android:valueTo="0.2"
 				android:valueType="floatType" />
 		</aapt:attr>
@@ -75,7 +75,7 @@
 		<aapt:attr name="android:animation">
 			<objectAnimator
 				android:duration="@integer/splash_screen_duration"
-				android:startOffset="0" android:propertyName="fillAlpha"
+				android:propertyName="fillAlpha" android:startOffset="0"
 				android:valueFrom="0.0" android:valueTo="0.2"
 				android:valueType="floatType" />
 		</aapt:attr>

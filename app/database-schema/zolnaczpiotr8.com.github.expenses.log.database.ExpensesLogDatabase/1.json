@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "1877affc0d1cbc73acbb3d7c3547a220",
+    "identityHash": "f294961f6f2eb3569c790248359a5c93",
     "entities": [
       {
         "tableName": "category",
@@ -166,12 +166,12 @@
     "views": [
       {
         "viewName": "date_filter_time_stamp",
-        "createSql": "CREATE VIEW `${VIEW_NAME}` AS SELECT (\n                CASE title\n                    WHEN 'Year' THEN unixepoch('now', 'start of year')\n                    WHEN 'Custom' THEN unixepoch(CAST(date_filter.start/1000 AS INT), 'unixepoch', 'start of day')\n                    WHEN 'Any' THEN 0\n                    ELSE unixepoch('now', 'start of month')\n                END\n            ) as start, \n            (\n                CASE title\n                    WHEN 'Year' THEN unixepoch('now', 'start of year', '+1 years', '-1 seconds')\n                    WHEN 'Custom' THEN unixepoch(CAST(date_filter.finish/1000 AS INT), 'unixepoch','start of day' ,'+1 days', '-1 seconds')\n                    WHEN 'Any' THEN 9223372036854775807\n                    ELSE unixepoch('now', 'start of month', '+1 months', '-1 seconds')\n                END\n            ) as finish \n            FROM date_filter\n         UNION   \n         SELECT unixepoch('now', 'start of month') as start,\n            unixepoch('now', 'start of month', '+1 months', '-1 seconds') as finish \n         FROM (\n            SELECT COUNT(id) as date_filters_count\n            FROM date_filter\n        ) \n        WHERE date_filters_count == 0"
+        "createSql": "CREATE VIEW `${VIEW_NAME}` AS SELECT (\n                CASE title\n                    WHEN 'Year' THEN unixepoch('now', 'start of year')\n                    WHEN 'Custom' THEN unixepoch(date_filter.start, 'unixepoch', 'start of day')\n                    WHEN 'Any' THEN 0\n                    ELSE unixepoch('now', 'start of month')\n                END\n            ) as start, \n            (\n                CASE title\n                    WHEN 'Year' THEN unixepoch('now', 'start of year', '+1 years', '-1 seconds')\n                    WHEN 'Custom' THEN unixepoch(date_filter.finish, 'unixepoch','start of day' ,'+1 days', '-1 seconds')\n                    WHEN 'Any' THEN 9223372036854775807\n                    ELSE unixepoch('now', 'start of month', '+1 months', '-1 seconds')\n                END\n            ) as finish \n            FROM date_filter\n         UNION   \n         SELECT unixepoch('now', 'start of month') as start,\n            unixepoch('now', 'start of month', '+1 months', '-1 seconds') as finish \n         FROM (\n            SELECT COUNT(id) as date_filters_count\n            FROM date_filter\n        ) \n        WHERE date_filters_count == 0"
       }
     ],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1877affc0d1cbc73acbb3d7c3547a220')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f294961f6f2eb3569c790248359a5c93')"
     ]
   }
 }

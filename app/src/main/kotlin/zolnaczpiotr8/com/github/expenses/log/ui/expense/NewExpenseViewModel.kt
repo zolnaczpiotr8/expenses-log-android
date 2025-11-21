@@ -1,26 +1,21 @@
 package zolnaczpiotr8.com.github.expenses.log.ui.expense
 
-import android.icu.math.BigDecimal
 import android.icu.util.Currency
 import android.icu.util.ULocale
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
-import kotlinx.collections.immutable.ImmutableList
-import kotlinx.collections.immutable.persistentListOf
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
-import zolnaczpiotr8.com.github.expenses.log.data.CategoriesRepository
-import zolnaczpiotr8.com.github.expenses.log.data.ExpensesRepository
 import zolnaczpiotr8.com.github.expenses.log.data.SettingsRepository
-
-private const val STOP_SHARING_COROUTINE_DELAY = 5_000L
+import zolnaczpiotr8.com.github.expenses.log.data.categories.CategoriesRepository
+import zolnaczpiotr8.com.github.expenses.log.data.expenses.ExpensesRepository
+import zolnaczpiotr8.com.github.expenses.log.ui.common.CoroutineConfig
 
 @HiltViewModel
 class NewExpenseViewModel
@@ -29,43 +24,42 @@ constructor(
     private val settingsRepository: SettingsRepository,
     private val categoriesRepository: CategoriesRepository,
     private val expensesRepository: ExpensesRepository,
+    private val coroutineDispatcher: CoroutineDispatcher,
 ) : ViewModel() {
 
-  val categoriesTitles: StateFlow<ImmutableList<String>> =
+  val categoriesTitles: StateFlow<List<String>> =
       categoriesRepository
           .categoriesTitles()
-          .distinctUntilChanged()
           .catch {}
           .stateIn(
               scope = viewModelScope,
-              started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
-              initialValue = persistentListOf(),
+              started = SharingStarted.WhileSubscribed(CoroutineConfig.STOP_SHARING_TIMEOUT_MS),
+              initialValue = emptyList(),
           )
 
   val currencyCode: StateFlow<String> =
-      settingsRepository.settings
-          .map { it.currencyCode }
-          .distinctUntilChanged()
-          .stateIn(
-              scope = viewModelScope,
-              started = SharingStarted.WhileSubscribed(STOP_SHARING_COROUTINE_DELAY),
-              initialValue = "",
-          )
+      settingsRepository.currencyCodeOrEmpty.stateIn(
+          scope = viewModelScope,
+          started = SharingStarted.WhileSubscribed(CoroutineConfig.STOP_SHARING_TIMEOUT_MS),
+          initialValue = "",
+      )
 
   fun save(
-      title: String,
-      amount: BigDecimal,
+      title: CharSequence,
+      amount: Double,
       category: String,
       currencyCode: String,
   ) {
     if (currencyCode.isEmpty()) {
       val currency = Currency.getInstance(ULocale.getDefault())
-      viewModelScope.launch { settingsRepository.setCurrencyCode(currency.currencyCode) }
+      viewModelScope.launch(coroutineDispatcher) {
+        settingsRepository.setCurrencyCode(currency.currencyCode)
+      }
     }
-    viewModelScope.launch {
+    viewModelScope.launch(coroutineDispatcher) {
       categoriesRepository.create(category)
       expensesRepository.create(
-          title = title.takeUnless { it.isBlank() },
+          title = title.toString().takeUnless(String::isBlank),
           amount = amount,
           category = category,
       )

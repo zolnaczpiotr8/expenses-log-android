@@ -8,7 +8,7 @@ import zolnaczpiotr8.com.github.expenses.log.R
 
 @Composable
 fun GoBackIconButton(
-    onClick: () -> Unit = {},
+    onClick: () -> Unit,
 ) {
   IconButtonWithTooltip(
       imageVector = Icons.AutoMirrored.Default.ArrowBack,
