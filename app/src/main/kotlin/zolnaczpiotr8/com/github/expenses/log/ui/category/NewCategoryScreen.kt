@@ -32,7 +32,7 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 
 @Composable
-fun NewCategoryScreen(
+internal fun NewCategoryScreen(
     viewModel: NewCategoryViewModel = hiltViewModel(),
     onGoBackClick: () -> Unit = {},
 ) {

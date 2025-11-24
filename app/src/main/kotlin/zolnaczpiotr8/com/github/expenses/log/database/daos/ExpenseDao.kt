@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.Flow
 import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseWithCategoryEntity
 
 @Dao
-interface ExpenseDao {
+internal interface ExpenseDao {
 
   @Query(
       """

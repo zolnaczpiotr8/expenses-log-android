@@ -18,14 +18,6 @@ composeCompiler {
 
 room { schemaDirectory("database-schema") }
 
-tasks.withType<JavaCompile>().configureEach {
-  options.compilerArgs.addAll(
-      listOf(
-          "-Xlint:all",
-      ),
-  )
-}
-
 kotlin {
   jvmToolchain(21)
   compilerOptions {
@@ -161,10 +153,6 @@ android {
 
   lint {
     disable.add("UnusedAttribute") // workaround for android:enableOnBackInvokedCallback="true"
-    disable.add(
-        "GradleDependency"
-    ) // workaround for clashing dependencies in newest jetpack compose BOM, TODO: remove it before
-    // release
     warningsAsErrors = true
     checkAllWarnings = true
     abortOnError = true
@@ -182,7 +170,6 @@ baselineProfile {
 dependencies {
   implementation(libs.kotlinx.serialization)
 
-  implementation(libs.androidx.activity.compose)
   implementation(libs.androidx.profile.installer)
   implementation(libs.androidx.splash.screen)
 

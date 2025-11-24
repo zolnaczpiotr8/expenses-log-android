@@ -51,6 +51,7 @@ import java.util.UUID
 import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.R
 import zolnaczpiotr8.com.github.expenses.log.model.CategoriesSummary
+import zolnaczpiotr8.com.github.expenses.log.model.Category
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
 import zolnaczpiotr8.com.github.expenses.log.model.Expense
 import zolnaczpiotr8.com.github.expenses.log.ui.components.Measurements
@@ -59,7 +60,7 @@ import zolnaczpiotr8.com.github.expenses.log.ui.spacing.IncrementalPaddings
 import zolnaczpiotr8.com.github.expenses.log.ui.spacing.Margins
 
 @Composable
-fun HomeScreen(
+internal fun HomeScreen(
     viewModel: HomeViewModel = hiltViewModel(),
     onNewCategoryClick: () -> Unit,
     onNewExpenseClick: (String?) -> Unit,
@@ -369,7 +370,7 @@ private fun Categories(
     }
     items(
         items = categoriesSummary.categories,
-        key = { category -> category.uuid },
+        key = Category::uuid,
     ) { category ->
       val menuState = rememberCategoryMenuSheetState(category.title)
       CategoryCard(

@@ -9,7 +9,7 @@ import kotlinx.coroutines.launch
 import zolnaczpiotr8.com.github.expenses.log.data.categories.CategoriesRepository
 
 @HiltViewModel
-class NewCategoryViewModel
+internal class NewCategoryViewModel
 @Inject
 constructor(
     private val categoriesRepository: CategoriesRepository,

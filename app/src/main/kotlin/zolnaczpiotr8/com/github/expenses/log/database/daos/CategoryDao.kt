@@ -11,7 +11,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.category.Category
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryTotalEntity
 
 @Dao
-interface CategoryDao {
+internal interface CategoryDao {
 
   @Query(
       """

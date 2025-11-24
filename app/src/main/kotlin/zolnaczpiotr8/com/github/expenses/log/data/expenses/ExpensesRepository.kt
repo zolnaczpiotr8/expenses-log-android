@@ -10,7 +10,7 @@ import zolnaczpiotr8.com.github.expenses.log.data.SettingsRepository
 import zolnaczpiotr8.com.github.expenses.log.database.daos.ExpenseDao
 import zolnaczpiotr8.com.github.expenses.log.model.Expense
 
-class ExpensesRepository
+internal class ExpensesRepository
 @Inject
 constructor(
     private val expenseDao: ExpenseDao,

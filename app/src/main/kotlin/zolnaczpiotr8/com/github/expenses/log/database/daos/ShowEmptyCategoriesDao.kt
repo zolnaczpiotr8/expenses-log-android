@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.Flow
 import zolnaczpiotr8.com.github.expenses.log.database.entities.ShowEmptyCategoriesEntity
 
 @Dao
-interface ShowEmptyCategoriesDao {
+internal interface ShowEmptyCategoriesDao {
 
   @Query(
       """

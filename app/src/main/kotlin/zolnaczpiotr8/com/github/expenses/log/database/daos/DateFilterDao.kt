@@ -8,7 +8,7 @@ import kotlinx.coroutines.flow.Flow
 import zolnaczpiotr8.com.github.expenses.log.database.entities.date.filter.DateFilterEntity
 
 @Dao
-interface DateFilterDao {
+internal interface DateFilterDao {
 
   @Query(
       """
