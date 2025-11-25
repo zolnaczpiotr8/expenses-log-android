@@ -46,7 +46,7 @@
 		tou.</string>
 	<string name="currency_code_item_label">kòd lajan: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Kantite karaktè: %d. Limit karaktè: %d</string>
+		tools:ignore="PluralsCandidate">Kantite karaktè: %1$d. Limit karaktè:%2$d</string>
 	<string name="privacy_policy">Règleman sou vi prive</string>
 	<string name="policy_your_data_stays_with_you_title">Done ou rete avèk ou</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nou respekte vi prive ou. Aplikasyon sa a fonksyone

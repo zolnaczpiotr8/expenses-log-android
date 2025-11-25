@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">刪除該類別也會一併移除所有屬於該類別的支出。</string>
 	<string name="currency_code_item_label">貨幣代碼: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">字元數：%d。字元限制：%d</string>
+		tools:ignore="PluralsCandidate">字元數：%1$d。字元限制：%2$d</string>
 	<string name="privacy_policy">隱私政策</string>
 	<string name="policy_your_data_stays_with_you_title">您的資料始終屬於您</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">我們尊重您的隱私。此應用程式完全離線運作，不收集或分享任何資料。本政策適用於全球所有用戶，包括所有年齡層的兒童。我們不收集、存儲、傳輸或分享任何個人或非個人資訊。該應用程式完全離線運作。所有功能均可在無網路連線的情況下使用，且資料絕不會被存取或傳送至任何地方。</string>

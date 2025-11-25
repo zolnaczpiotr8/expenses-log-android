@@ -46,7 +46,7 @@
 		súvisiace výdavky.</string>
 	<string name="currency_code_item_label">kód meny: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Počet znakov: %d. Limit znakov: %d</string>
+		tools:ignore="PluralsCandidate">Počet znakov: %1$d. Limit znakov:%2$d</string>
 	<string name="privacy_policy">Zásady ochrany osobných údajov</string>
 	<string name="policy_your_data_stays_with_you_title">Vaše údaje zostávajú u vás</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Rešpektujeme vaše súkromie. Táto aplikácia funguje

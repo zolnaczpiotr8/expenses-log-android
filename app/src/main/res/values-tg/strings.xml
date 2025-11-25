@@ -47,7 +47,7 @@
 		низ ҳазф мекунад.</string>
 	<string name="currency_code_item_label">рамзи асъор: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Миқдори ҳарфҳо: %d. Ҳадди ҳарфҳо: %d</string>
+		tools:ignore="PluralsCandidate">Миқдори ҳарфҳо: %1$d. Ҳадди ҳарфҳо:%2$d</string>
 	<string name="privacy_policy">Сиёсати махфият</string>
 	<string name="policy_your_data_stays_with_you_title">Маълумоти шумо бо шумо мемонад</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мо ба махфиятии шумо эҳтиром мегузорем. Ин барнома

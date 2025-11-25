@@ -46,7 +46,7 @@
 		despesas a ela associadas.</string>
 	<string name="currency_code_item_label">código da moeda: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Contagem de caracteres: %d. Limite de caracteres: %d</string>
+		tools:ignore="PluralsCandidate">Contagem de caracteres: %1$d. Limite de caracteres:%2$d</string>
 	<string name="privacy_policy">Política de Privacidade</string>
 	<string name="policy_your_data_stays_with_you_title">Seus dados ficam com você</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respeitamos a sua privacidade. Este aplicativo

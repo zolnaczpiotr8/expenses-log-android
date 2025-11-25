@@ -47,7 +47,7 @@
 		costas a bhaineann léi.</string>
 	<string name="currency_code_item_label">cód airgeadais: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Líon carachtar: %d. Teorainn charachtar: %d</string>
+		tools:ignore="PluralsCandidate">Líon carachtar: %1$d. Teorainn charachtar:%2$d</string>
 	<string name="privacy_policy">Polasaí Príobháideachta</string>
 	<string name="policy_your_data_stays_with_you_title">Fanann do shonraí leat</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tá meas againn ar do phríobháideacht. Oibríonn an

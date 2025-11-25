@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">การลบหมวดหมู่จะลบค่าใช้จ่ายทั้งหมดที่เกี่ยวข้องกับหมวดหมู่นั้นด้วย</string>
 	<string name="currency_code_item_label">รหัสสกุลเงิน: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">จำนวนอักขระ: %d. ขีดจำกัดอักขระ: %d</string>
+		tools:ignore="PluralsCandidate">จำนวนอักขระ: %1$d. ขีดจำกัดอักขระ:%2$d</string>
 	<string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
 	<string name="policy_your_data_stays_with_you_title">ข้อมูลของคุณยังคงอยู่กับคุณ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">เราเคารพความเป็นส่วนตัวของคุณ

@@ -46,7 +46,7 @@
 		tutte le spese ad essa associate.</string>
 	<string name="currency_code_item_label">codice valuta: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Conteggio caratteri: %d. Limite di caratteri: %d</string>
+		tools:ignore="PluralsCandidate">Conteggio caratteri: %1$d. Limite di caratteri:%2$d</string>
 	<string name="privacy_policy">Politica sulla privacy</string>
 	<string name="policy_your_data_stays_with_you_title">I tuoi dati restano con te</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Rispettiamo la tua privacy. Questa app funziona

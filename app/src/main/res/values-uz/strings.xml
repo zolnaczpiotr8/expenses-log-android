@@ -46,7 +46,7 @@
 		xarajatlarni ham o‘chiradi.</string>
 	<string name="currency_code_item_label">valyuta kodi: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Belgilar soni: %d. Belgilar cheklovi: %d</string>
+		tools:ignore="PluralsCandidate">Belgilar soni: %1$d. Belgilar cheklovi:%2$d</string>
 	<string name="privacy_policy">Maxfiylik siyosati</string>
 	<string name="policy_your_data_stays_with_you_title">Ma’lumotlaringiz siz bilan qoladi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Biz sizning maxfiyligingizni hurmat qilamiz. Ilova

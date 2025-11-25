@@ -46,7 +46,7 @@
 		dy’t dêrby hearre fuortsmite.</string>
 	<string name="currency_code_item_label">faluta koade: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Tekenantal: %d. Tekenlimyt: %d</string>
+		tools:ignore="PluralsCandidate">Tekenantal: %1$d. Tekenlimyt:%2$d</string>
 	<string name="privacy_policy">Privacybelied</string>
 	<string name="policy_your_data_stays_with_you_title">Jo gegevens bliuwe by jo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Wy respektearje jo privacy. Dizze app wurket

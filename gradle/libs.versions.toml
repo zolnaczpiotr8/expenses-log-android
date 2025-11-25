@@ -1,5 +1,6 @@
 [versions]
 target-sdk = "36"
+ndk = "29.0.14206865"
 android-gradle = "8.13.1"
 kotlin = "2.2.21"
 kotlinx-serialization = "1.9.0"

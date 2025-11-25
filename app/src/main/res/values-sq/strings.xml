@@ -47,7 +47,7 @@
 		gjitha shpenzimet që i përkasin asaj.</string>
 	<string name="currency_code_item_label">kodi i monedhës: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Numri i karaktereve: %d. Kufiri i karaktereve: %d</string>
+		tools:ignore="PluralsCandidate">Numri i karaktereve: %1$d. Kufiri i karaktereve:%2$d</string>
 	<string name="privacy_policy">Politika e Privatësisë</string>
 	<string name="policy_your_data_stays_with_you_title">Të dhënat tuaja qëndrojnë me ju</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ne respektojmë privatësinë tuaj. Ky aplikacion

@@ -46,7 +46,7 @@
 		is eltávolítja.</string>
 	<string name="currency_code_item_label">pénznemkód: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Karakterek száma: %d. Karakterkorlát: %d</string>
+		tools:ignore="PluralsCandidate">Karakterek száma: %1$d. Karakterkorlát:%2$d</string>
 	<string name="privacy_policy">Adatvédelmi irányelvek</string>
 	<string name="policy_your_data_stays_with_you_title">Az adataid nálad maradnak</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tiszteletben tartjuk az Ön magánéletét. Ez az

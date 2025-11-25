@@ -46,7 +46,7 @@
 		якія да яе належаць.</string>
 	<string name="currency_code_item_label">код валюты: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Колькасць знакаў: %d. Ліміт знакаў: %d</string>
+		tools:ignore="PluralsCandidate">Колькасць знакаў: %1$d. Ліміт знакаў:%2$d</string>
 	<string name="privacy_policy">Палітыка канфідэнцыяльнасці</string>
 	<string name="policy_your_data_stays_with_you_title">Вашы даныя застаюцца з вамі</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мы паважаем вашу прыватнасць. Гэта прыкладанне

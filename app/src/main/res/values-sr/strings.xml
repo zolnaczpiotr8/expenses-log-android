@@ -46,7 +46,7 @@
 		koji joj pripadaju.</string>
 	<string name="currency_code_item_label">код валуте: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Број карактера: %d. Ограничење карактера: %d</string>
+		tools:ignore="PluralsCandidate">Број карактера: %1$d. Ограничење карактера:%2$d</string>
 	<string name="privacy_policy">Политика приватности</string>
 	<string name="policy_your_data_stays_with_you_title">Ваши подаци остају код вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Poštujemo vašu privatnost. Ova aplikacija

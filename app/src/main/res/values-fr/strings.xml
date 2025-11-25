@@ -47,7 +47,7 @@
 		la suppression de toutes les dépenses qui y sont associées.</string>
 	<string name="currency_code_item_label">code monétaire: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Nombre de caractères : %d. Limite de caractères : %d</string>
+		tools:ignore="PluralsCandidate">Nombre de caractères : %1$d. Limite de caractères :%2$d</string>
 	<string name="privacy_policy">Politique de confidentialité</string>
 	<string name="policy_your_data_stays_with_you_title">Vos données restent avec vous</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nous respectons votre vie privée. Cette application

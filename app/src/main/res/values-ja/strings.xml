@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">カテゴリを削除すると、それに属するすべての支出も削除されます。</string>
 	<string name="currency_code_item_label">通貨コード: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">文字数：%d。文字数制限：%d</string>
+		tools:ignore="PluralsCandidate">文字数：%1$d。文字数制限：%2$d</string>
 	<string name="privacy_policy">プライバシーポリシー</string>
 	<string name="policy_your_data_stays_with_you_title">あなたのデータはあなたのもとに留まります</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">私たちはあなたのプライバシーを尊重します。このアプリは完全にオフラインで動作し、データを収集または共有しません。このポリシーは、全世界のすべてのユーザー、すべての年齢の子供を含みます。私たちは個人情報や非個人情報を収集、保存、送信、共有</string>

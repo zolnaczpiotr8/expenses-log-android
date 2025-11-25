@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">የክፍል ማጥፋት ከእሱ ጋር የተያያዙ ሁሉንም ወጪዎች እንዲወገዱ ያደርጋል።</string>
 	<string name="currency_code_item_label">የገንዘብ ኮድ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">የቁምፊ ብዛት፡ %d። የቁምፊ ገደብ፡ %d</string>
+		tools:ignore="PluralsCandidate">የቁምፊ ብዛት፡ %1$d። የቁምፊ ገደብ፡%2$d</string>
 	<string name="privacy_policy">የግል መረጃ ፖሊሲ</string>
 	<string name="policy_your_data_stays_with_you_title">ውሂብዎ ከእርስዎ ጋር ይቀራል</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">እኛ የግል መረጃዎን እንከብራለን። ይህ መተግበሪያ በሙሉ ከመስመር ውጭ ይሰራል

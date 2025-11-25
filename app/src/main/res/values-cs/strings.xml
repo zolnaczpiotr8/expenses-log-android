@@ -46,7 +46,7 @@
 		nákladů k ní patřících.</string>
 	<string name="currency_code_item_label">kód měny: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Počet znaků: %d. Limit znaků: %d</string>
+		tools:ignore="PluralsCandidate">Počet znaků: %1$d. Limit znaků:%2$d</string>
 	<string name="privacy_policy">Zásady ochrany osobních údajů</string>
 	<string name="policy_your_data_stays_with_you_title">Vaše data zůstávají u vás</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respektujeme vaše soukromí. Tato aplikace funguje

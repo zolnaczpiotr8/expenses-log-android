@@ -46,7 +46,7 @@
 		uitgawes wat daaraan behoort, verwyder.</string>
 	<string name="currency_code_item_label">geldeenheidkode: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Karaktertelling: %d. Karakterlimiet: %d</string>
+		tools:ignore="PluralsCandidate">Karaktertelling: %1$d. Karakterlimiet:%2$d</string>
 	<string name="privacy_policy">Privaatheidsbeleid</string>
 	<string name="policy_your_data_stays_with_you_title">Jou data bly by jou</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ons respekteer jou privaatheid. Hierdie app werk

@@ -46,7 +46,7 @@
 		যাবে।</string>
 	<string name="currency_code_item_label">মুদ্রার কোড: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">অক্ষরের সংখ্যা: %d। অক্ষরের সীমা: %d</string>
+		tools:ignore="PluralsCandidate">অক্ষরের সংখ্যা: %1$d। অক্ষরের সীমা:%2$d</string>
 	<string name="privacy_policy">গোপনীয়তা নীতি</string>
 	<string name="policy_your_data_stays_with_you_title">আপনার ডেটা আপনার সাথে থাকে</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">আমরা আপনার গোপনীয়তাকে সম্মান করি। এই অ্যাপটি

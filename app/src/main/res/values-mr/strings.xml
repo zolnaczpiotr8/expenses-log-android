@@ -46,7 +46,7 @@
 		हटवले जातील.</string>
 	<string name="currency_code_item_label">चलन कोड: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">अक्षरांची संख्या: %d. अक्षर मर्यादा: %d</string>
+		tools:ignore="PluralsCandidate">अक्षरांची संख्या: %1$d. अक्षर मर्यादा:%2$d</string>
 	<string name="privacy_policy">गोपनीयता धोरण</string>
 	<string name="policy_your_data_stays_with_you_title">तुमचा डेटा तुमच्याजवळ राहतो</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">आम्ही तुमच्या गोपनीयतेचा आदर करतो. हे अ‍ॅप पूर्णपणे

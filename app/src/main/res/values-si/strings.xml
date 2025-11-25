@@ -46,7 +46,7 @@
 		දැමේ.</string>
 	<string name="currency_code_item_label">මුදල් කේතය: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">අකුරු ගණන: %d. අකුරු සීමාව: %d</string>
+		tools:ignore="PluralsCandidate">අකුරු ගණන: %1$d. අකුරු සීමාව:%2$d</string>
 	<string name="privacy_policy">පෞද්ගලිකතා ප්‍රතිපත්තිය</string>
 	<string name="policy_your_data_stays_with_you_title">ඔබේ දත්ත ඔබ සමඟ රැඳී සිටී</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">අපි ඔබගේ පෞද්ගලිකත්වයට ගරු කරනවා. මෙම යෙදුම

@@ -46,7 +46,7 @@
 		ചെലവുകളും ഇല്ലാതാക്കപ്പെടും.</string>
 	<string name="currency_code_item_label">കറൻസി കോഡ്: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">അക്ഷരങ്ങളുടെ എണ്ണം: %d. അക്ഷര പരിധി: %d</string>
+		tools:ignore="PluralsCandidate">അക്ഷരങ്ങളുടെ എണ്ണം: %1$d. അക്ഷര പരിധി:%2$d</string>
 	<string name="privacy_policy">സ്വകാര്യത നയം</string>
 	<string name="policy_your_data_stays_with_you_title">നിങ്ങളുടെ ഡേറ്റ നിങ്ങളുടെ കൂടെയാണ്</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ഞങ്ങൾ നിങ്ങളുടെ സ്വകാര്യതയ്ക്ക് ബഹുമാനിക്കുന്നു. ഈ

@@ -46,7 +46,7 @@
 		расходы.</string>
 	<string name="currency_code_item_label">код валюты: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Количество символов: %d. Лимит символов: %d</string>
+		tools:ignore="PluralsCandidate">Количество символов: %1$d. Лимит символов:%2$d</string>
 	<string name="privacy_policy">Политика конфиденциальности</string>
 	<string name="policy_your_data_stays_with_you_title">Ваши данные остаются у вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Мы уважаем вашу конфиденциальность. Это приложение

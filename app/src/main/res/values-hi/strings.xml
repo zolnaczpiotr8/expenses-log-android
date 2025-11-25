@@ -46,7 +46,7 @@
 		जाएंगे।</string>
 	<string name="currency_code_item_label">मुद्रा कोड: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">अक्षरों की संख्या: %d. अक्षर सीमा: %d</string>
+		tools:ignore="PluralsCandidate">अक्षरों की संख्या: %1$d. अक्षर सीमा:%2$d</string>
 	<string name="privacy_policy">गोपनीयता नीति</string>
 	<string name="policy_your_data_stays_with_you_title">आपका डेटा आपके साथ रहता है</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">हम आपकी गोपनीयता का सम्मान करते हैं। यह ऐप पूरी तरह

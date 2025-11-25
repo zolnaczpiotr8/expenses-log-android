@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">ការលុបប្រភេទនឹងលុបចោលការចំណាយទាំងអស់ដែលជាប់ពាក់ព័ន្ធនឹងវាផងដែរ។</string>
 	<string name="currency_code_item_label">កូដរូបិយប័ណ្ណ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">ចំនួនអក្សរ៖ %d។ កំណត់អក្សរ៖ %d</string>
+		tools:ignore="PluralsCandidate">ចំនួនអក្សរ៖ %1$d។ កំណត់អក្សរ៖%2$d</string>
 	<string name="privacy_policy">នយោបាយភាពឯកជន</string>
 	<string name="policy_your_data_stays_with_you_title">ទិន្នន័យរបស់អ្នកនៅជាមួយអ្នក</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">យើងគោរពភាពឯកជនរបស់អ្នក។

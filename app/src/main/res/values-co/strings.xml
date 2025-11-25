@@ -46,7 +46,7 @@
 		ci appartenenu.</string>
 	<string name="currency_code_item_label">codice valuta: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Conte di caratteri: %d. Limitu di caratteri: %d</string>
+		tools:ignore="PluralsCandidate">Conte di caratteri: %1$d. Limitu di caratteri:%2$d</string>
 	<string name="privacy_policy">Pulitica di privacy</string>
 	<string name="policy_your_data_stays_with_you_title">I vostri dati restanu cun voi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectemu a vostra privacy. Questa app funziona

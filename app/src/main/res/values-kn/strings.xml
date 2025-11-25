@@ -46,7 +46,7 @@
 		ಖರ್ಚುಗಳನ್ನು ಸಹ ಅಳಿಸಲಾಗುತ್ತದೆ.</string>
 	<string name="currency_code_item_label">ಕರೆನ್ಸಿ ಕೋಡ್: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ: %d. ಅಕ್ಷರ ಮಿತಿಯು: %d</string>
+		tools:ignore="PluralsCandidate">ಅಕ್ಷರಗಳ ಸಂಖ್ಯೆ: %1$d. ಅಕ್ಷರ ಮಿತಿಯು:%2$d</string>
 	<string name="privacy_policy">ಗೌಪ್ಯತೆ ನೀತಿ</string>
 	<string name="policy_your_data_stays_with_you_title">ನಿಮ್ಮ ಡೇಟಾ ನಿಮ್ಮೊಂದಿಗೆ ಇರುತ್ತದೆ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ನಾವು ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ಈ ಅಪ್ಲಿಕೇಶನ್

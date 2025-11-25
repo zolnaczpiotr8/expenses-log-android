@@ -46,7 +46,7 @@
 		разходи, свързани с нея.</string>
 	<string name="currency_code_item_label">валутен код: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Брой знаци: %d. Лимит на знаците: %d</string>
+		tools:ignore="PluralsCandidate">Брой знаци: %1$d. Лимит на знаците:%2$d</string>
 	<string name="privacy_policy">Политика за поверителност</string>
 	<string name="policy_your_data_stays_with_you_title">Вашите данни остават при вас</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ние уважаваме вашата поверителност. Това приложение

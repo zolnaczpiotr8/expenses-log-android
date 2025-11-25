@@ -46,7 +46,7 @@
 		kuuluvat kulut.</string>
 	<string name="currency_code_item_label">valuuttakoodi: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Merkkimäärä: %d. Merkkiraja: %d</string>
+		tools:ignore="PluralsCandidate">Merkkimäärä: %1$d. Merkkiraja:%2$d</string>
 	<string name="privacy_policy">Tietosuojakäytäntö</string>
 	<string name="policy_your_data_stays_with_you_title">Tietosi pysyvät sinun hallussasi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kunnioitamme yksityisyyttäsi. Tämä sovellus toimii

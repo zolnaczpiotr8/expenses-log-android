@@ -46,7 +46,7 @@
 		բոլոր ծախսերը։</string>
 	<string name="currency_code_item_label">արժույթի կոդ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Նիշերի քանակը՝ %d։ Նիշերի սահմանը՝ %d</string>
+		tools:ignore="PluralsCandidate">Նիշերի քանակը՝ %1$d։ Նիշերի սահմանը՝%2$d</string>
 	<string name="privacy_policy">Գաղտնիության քաղաքականություն</string>
 	<string name="policy_your_data_stays_with_you_title">Ձեր տվյալները մնում են ձեզ հետ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Մենք հարգում ենք ձեր գաղտնիությունը։ Այս հավելվածը

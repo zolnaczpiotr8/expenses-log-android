@@ -46,7 +46,8 @@
 		செலவுகளும் நீக்கப்படும்.</string>
 	<string name="currency_code_item_label">பணம் குறியீடு: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">எழுத்துக்களின் எண்ணிக்கை: %d. எழுத்துக்களின் வரம்பு: %d</string>
+		tools:ignore="PluralsCandidate">எழுத்துக்களின் எண்ணிக்கை: %1$d. எழுத்துக்களின்
+		வரம்பு:%2$d</string>
 	<string name="privacy_policy">தனியுரிமைக் கொள்கை</string>
 	<string name="policy_your_data_stays_with_you_title">உங்கள் தரவுகள் உங்களுடன் தங்கும்</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம். இந்த

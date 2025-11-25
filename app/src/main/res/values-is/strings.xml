@@ -46,7 +46,7 @@
 		sem tilheyra honum.</string>
 	<string name="currency_code_item_label">gjaldmiðill kóði: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Fjöldi stafa: %d. Stafatakmörk: %d</string>
+		tools:ignore="PluralsCandidate">Fjöldi stafa: %1$d. Stafatakmörk:%2$d</string>
 	<string name="privacy_policy">Persónuverndarstefna</string>
 	<string name="policy_your_data_stays_with_you_title">Gögnin þín verða hjá þér</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Við virðum friðhelgi þína. Þessi app virkar

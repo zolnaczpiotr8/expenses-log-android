@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">删除该类别将同时删除属于该类别的所有支出。</string>
 	<string name="currency_code_item_label">货币代码: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">字符数：%d。字符限制：%d</string>
+		tools:ignore="PluralsCandidate">字符数：%1$d。字符限制：%2$d</string>
 	<string name="privacy_policy">隐私政策</string>
 	<string name="policy_your_data_stays_with_you_title">您的数据始终属于您</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">我们尊重您的隐私。本应用完全离线运行，不收集或分享任何数据。本政策适用于全球所有用户，包括所有年龄段的儿童。我们不收集、存储、传输或分享任何个人或非个人信息。该应用完全离线运行。所有功能均可在无互联网连接的情况下使用，且数据绝不会被访问或发送到任何地方。</string>

@@ -32,6 +32,7 @@ kotlin {
 screenshotTests { imageDifferenceThreshold = 0.0001f }
 
 android {
+  ndkVersion = libs.versions.ndk.get()
   experimentalProperties["android.experimental.enableScreenshotTest"] = true
 
   buildFeatures { compose = true }

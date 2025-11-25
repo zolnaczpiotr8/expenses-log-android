@@ -46,7 +46,7 @@
 		થશે.</string>
 	<string name="currency_code_item_label">ચલણ કોડ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">અક્ષરોની સંખ્યા: %d. અક્ષર મર્યાદા: %d</string>
+		tools:ignore="PluralsCandidate">અક્ષરોની સંખ્યા: %1$d. અક્ષર મર્યાદા:%2$d</string>
 	<string name="privacy_policy">ગોપનીયતા નીતિ</string>
 	<string name="policy_your_data_stays_with_you_title">તમારું ડેટા તમારા સાથે રહે છે</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">અમે તમારી પ્રાઇવસીનો માન રાખીએ છીએ. આ એપ્લિકેશન

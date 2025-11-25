@@ -46,7 +46,7 @@
 		sigiyalen la bɔ.</string>
 	<string name="currency_code_item_label">sigi koodo: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Kanji kɔrɔbɔ: %d. Kanji bɛɛya: %d</string>
+		tools:ignore="PluralsCandidate">Kanji kɔrɔbɔ: %1$d. Kanji bɛɛya:%2$d</string>
 	<string name="privacy_policy">Politiki ka kɔnɔ</string>
 	<string name="policy_your_data_stays_with_you_title">Donu ka segin ye i ye</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">An bɛ bamanakan kɔrɔw ka a fɛ. App kɔrɔw ye kelen
