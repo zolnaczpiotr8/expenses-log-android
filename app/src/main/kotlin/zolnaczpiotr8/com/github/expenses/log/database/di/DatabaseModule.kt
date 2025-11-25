@@ -12,7 +12,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.ExpensesLogDatabase
 
 @Module
 @InstallIn(SingletonComponent::class)
-object DatabaseModule {
+internal object DatabaseModule {
 
   @Provides
   @Singleton

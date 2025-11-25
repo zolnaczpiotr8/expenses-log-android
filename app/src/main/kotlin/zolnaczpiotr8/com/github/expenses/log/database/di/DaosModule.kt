@@ -12,7 +12,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.daos.ShowEmptyCategoriesDa
 
 @Module
 @InstallIn(SingletonComponent::class)
-object DaosModule {
+internal object DaosModule {
 
   @Provides
   fun provideShowEmptyCategoriesDao(

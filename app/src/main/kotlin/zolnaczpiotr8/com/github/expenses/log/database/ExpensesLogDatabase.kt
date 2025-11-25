@@ -30,7 +30,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.entities.expense.ExpenseEn
         ],
 )
 @TypeConverters(InstantConverter::class, UuidConverter::class)
-abstract class ExpensesLogDatabase : RoomDatabase() {
+internal abstract class ExpensesLogDatabase : RoomDatabase() {
 
   abstract fun categoryDao(): CategoryDao
 

@@ -25,7 +25,7 @@ import zolnaczpiotr8.com.github.expenses.log.model.Expense
 import zolnaczpiotr8.com.github.expenses.log.ui.common.CoroutineConfig
 
 @HiltViewModel
-class HomeViewModel
+internal class HomeViewModel
 @Inject
 constructor(
     private val categoriesRepository: CategoriesRepository,

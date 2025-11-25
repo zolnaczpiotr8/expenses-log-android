@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.map
 import zolnaczpiotr8.com.github.expenses.log.database.daos.DateFilterDao
 import zolnaczpiotr8.com.github.expenses.log.model.DateFilter
 
-class DateFilterRepository
+internal class DateFilterRepository
 @Inject
 constructor(
     private val dateFilterDao: DateFilterDao,

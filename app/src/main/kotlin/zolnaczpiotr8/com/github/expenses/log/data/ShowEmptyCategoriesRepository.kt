@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.map
 import zolnaczpiotr8.com.github.expenses.log.database.daos.ShowEmptyCategoriesDao
 import zolnaczpiotr8.com.github.expenses.log.database.entities.ShowEmptyCategoriesEntity
 
-class ShowEmptyCategoriesRepository
+internal class ShowEmptyCategoriesRepository
 @Inject
 constructor(
     private val showEmptyCategoriesDao: ShowEmptyCategoriesDao,

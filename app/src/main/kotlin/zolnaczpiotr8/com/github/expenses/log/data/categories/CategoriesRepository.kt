@@ -10,7 +10,7 @@ import zolnaczpiotr8.com.github.expenses.log.database.daos.CategoryDao
 import zolnaczpiotr8.com.github.expenses.log.database.entities.category.CategoryEntity
 import zolnaczpiotr8.com.github.expenses.log.model.CategoriesSummary
 
-class CategoriesRepository
+internal class CategoriesRepository
 @Inject
 constructor(
     private val settingsRepository: SettingsRepository,

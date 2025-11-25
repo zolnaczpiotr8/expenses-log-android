@@ -18,7 +18,7 @@ import zolnaczpiotr8.com.github.expenses.log.data.expenses.ExpensesRepository
 import zolnaczpiotr8.com.github.expenses.log.ui.common.CoroutineConfig
 
 @HiltViewModel
-class NewExpenseViewModel
+internal class NewExpenseViewModel
 @Inject
 constructor(
     private val settingsRepository: SettingsRepository,
