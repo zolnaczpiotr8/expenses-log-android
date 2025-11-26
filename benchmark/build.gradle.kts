@@ -5,19 +5,31 @@ plugins {
 }
 
 android {
+  ndkVersion = libs.versions.ndk.get()
   compileSdk = libs.versions.target.sdk.get().toInt()
   namespace = "zolnaczpiotr8.com.github.expenses.log.benchmark"
 
   defaultConfig {
     minSdk = 28
-    testInstrumentationRunner = "androidx.benchmark.junit4.AndroidBenchmarkRunner"
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
 
   targetProjectPath = projects.app.path
   experimentalProperties["android.experimental.self-instrumenting"] = true
+
+  lint {
+    warningsAsErrors = true
+    checkAllWarnings = true
+    abortOnError = true
+    ignoreWarnings = false
+    ignoreTestSources = false
+    checkTestSources = true
+  }
 }
 
-dependencies {
-  implementation(libs.androidx.benchmark.macro)
-  implementation(libs.androidx.benchmark.junit4)
+kotlin {
+  jvmToolchain(21)
+  compilerOptions { allWarningsAsErrors.set(true) }
 }
+
+dependencies { implementation(libs.androidx.benchmark.macro) }
