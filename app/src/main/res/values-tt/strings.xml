@@ -46,7 +46,7 @@
 		да юк итәчәк.</string>
 	<string name="currency_code_item_label">валюта коды: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Символлар саны: %d. Символлар лимиты: %d</string>
+		tools:ignore="PluralsCandidate">Символлар саны: %1$d. Символлар лимиты:%2$d</string>
 	<string name="privacy_policy">Яшеренлек сәясәте</string>
 	<string name="policy_your_data_stays_with_you_title">Мәгълүматларыгыз сезнең белән кала</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Без сезнең хосусыйлыгыгызны хөрмәт итәбез. Әлеге

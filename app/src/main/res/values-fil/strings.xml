@@ -46,7 +46,7 @@
 		lahat ng gastusin na kabilang dito.</string>
 	<string name="currency_code_item_label">code ng pera: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Bilang ng mga karakter: %d. Limitasyon sa karakter: %d</string>
+		tools:ignore="PluralsCandidate">Bilang ng mga karakter: %1$d. Limitasyon sa karakter:%2$d</string>
 	<string name="privacy_policy">Patakaran sa Privacy</string>
 	<string name="policy_your_data_stays_with_you_title">Ang iyong datos ay nananatili sa iyo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nirerespeto namin ang iyong privacy. Ang app na ito

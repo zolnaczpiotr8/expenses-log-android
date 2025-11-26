@@ -46,7 +46,7 @@
 		les despeses que hi pertanyen.</string>
 	<string name="currency_code_item_label">codi de moneda: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Recompte de caràcters: %d. Límite de caràcters: %d</string>
+		tools:ignore="PluralsCandidate">Recompte de caràcters: %1$d. Límite de caràcters:%2$d</string>
 	<string name="privacy_policy">Política de privacitat</string>
 	<string name="policy_your_data_stays_with_you_title">Les teves dades es queden amb tu</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectem la teva privadesa. Aquesta aplicació

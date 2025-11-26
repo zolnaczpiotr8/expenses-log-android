@@ -47,7 +47,7 @@
 		l-ispejjeż kollha li jappartjenu għaliha.</string>
 	<string name="currency_code_item_label">kodiċi tal-munita: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Għadd ta’ karattri: %d. Limitu tal-karattri: %d</string>
+		tools:ignore="PluralsCandidate">Għadd ta’ karattri: %1$d. Limitu tal-karattri:%2$d</string>
 	<string name="privacy_policy">Politika dwar il-Privatezza</string>
 	<string name="policy_your_data_stays_with_you_title">Id-dejta tiegħek tibqa’ miegħek</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Nirrispettaw il-privatezza tiegħek. Din l-app

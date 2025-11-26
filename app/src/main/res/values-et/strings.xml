@@ -47,7 +47,7 @@
 		seotud kulud.</string>
 	<string name="currency_code_item_label">valuutakood: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Märkide arv: %d. Märkide piirang: %d</string>
+		tools:ignore="PluralsCandidate">Märkide arv: %1$d. Märkide piirang:%2$d</string>
 	<string name="privacy_policy">Privaatsuspoliitika</string>
 	<string name="policy_your_data_stays_with_you_title">Teie andmed jäävad teiega</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Me austame teie privaatsust. See rakendus töötab

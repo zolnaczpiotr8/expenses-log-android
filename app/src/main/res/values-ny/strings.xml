@@ -47,7 +47,7 @@
 		zili m’gululo.</string>
 	<string name="currency_code_item_label">chizindikiro cha ndalama: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Chiwerengero cha zilembo: %d. Malire a zilembo: %d</string>
+		tools:ignore="PluralsCandidate">Chiwerengero cha zilembo: %1$d. Malire a zilembo:%2$d</string>
 	<string name="privacy_policy">Ndondomeko ya Zinsinsi</string>
 	<string name="policy_your_data_stays_with_you_title">Zidziwitso zanu zimasungidwa nanu</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Timakupemphani ufulu wanu. Pulogalamu iyi imagwira

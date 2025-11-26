@@ -46,7 +46,7 @@
 		устах болно.</string>
 	<string name="currency_code_item_label">валютын код: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Тэмдэгтийн тоо: %d. Тэмдэгтийн хязгаар: %d</string>
+		tools:ignore="PluralsCandidate">Тэмдэгтийн тоо: %1$d. Тэмдэгтийн хязгаар:%2$d</string>
 	<string name="privacy_policy">Нууцлалын бодлого</string>
 	<string name="policy_your_data_stays_with_you_title">Таны өгөгдөл таны хамт үлдэнэ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Бид таны хувийн нууцыг хүндэтгэдэг. Энэхүү

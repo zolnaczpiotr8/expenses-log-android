@@ -46,7 +46,7 @@
 		కూడా తొలగించబడతాయి.</string>
 	<string name="currency_code_item_label">కరెన్సీ కోడ్: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">అక్షరాల సంఖ్య: %d. అక్షర పరిమితి: %d</string>
+		tools:ignore="PluralsCandidate">అక్షరాల సంఖ్య: %1$d. అక్షర పరిమితి:%2$d</string>
 	<string name="privacy_policy">గోప్యతా విధానం</string>
 	<string name="policy_your_data_stays_with_you_title">మీ డేటా మీతోనే ఉంటుంది</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">మేము మీ గోప్యతను గౌరవిస్తున్నాము. ఈ యాప్ పూర్తిగా

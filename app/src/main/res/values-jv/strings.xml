@@ -46,7 +46,7 @@
 		kagolong ing kategori kasebut.</string>
 	<string name="currency_code_item_label">kode mata uang: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Cacah karakter: %d. Watesan karakter: %d</string>
+		tools:ignore="PluralsCandidate">Cacah karakter: %1$d. Watesan karakter:%2$d</string>
 	<string name="privacy_policy">Kabijakan Privasi</string>
 	<string name="policy_your_data_stays_with_you_title">Data sampeyan tetep karo sampeyan</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Kita ngajeni privasi panjenengan. Aplikasi iki bisa

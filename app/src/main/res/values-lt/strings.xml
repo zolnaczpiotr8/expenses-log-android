@@ -46,7 +46,7 @@
 		susijusios išlaidos.</string>
 	<string name="currency_code_item_label">valiutos kodas: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Simbolių skaičius: %d. Simbolių riba: %d</string>
+		tools:ignore="PluralsCandidate">Simbolių skaičius: %1$d. Simbolių riba:%2$d</string>
 	<string name="privacy_policy">Privatumo politika</string>
 	<string name="policy_your_data_stays_with_you_title">Jūsų duomenys lieka pas jus</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Gerbiame jūsų privatumą. Ši programa veikia

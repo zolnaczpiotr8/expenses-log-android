@@ -46,7 +46,7 @@
 		ere ezabatuko ditu.</string>
 	<string name="currency_code_item_label">moneta kodea: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Karaktere kopurua: %d. Karaktere muga: %d</string>
+		tools:ignore="PluralsCandidate">Karaktere kopurua: %1$d. Karaktere muga:%2$d</string>
 	<string name="privacy_policy">Pribatutasun politika</string>
 	<string name="policy_your_data_stays_with_you_title">Zure datuak zurekin geratzen dira</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Zure pribatutasuna errespetatzen dugu. Aplikazio

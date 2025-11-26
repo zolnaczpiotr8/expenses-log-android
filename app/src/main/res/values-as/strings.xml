@@ -46,7 +46,7 @@
 		মচি পেলোৱা হ’ব।</string>
 	<string name="currency_code_item_label">মুদ্ৰা সংকেত: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">অক্ষৰৰ সংখ্যা: %d। অক্ষৰৰ সীমা: %d</string>
+		tools:ignore="PluralsCandidate">অক্ষৰৰ সংখ্যা: %1$d। অক্ষৰৰ সীমা:%2$d</string>
 	<string name="privacy_policy">গোপনীয়তা নীতি</string>
 	<string name="policy_your_data_stays_with_you_title">আপোনাৰ তথ্য আপোনাৰ সৈতে থাকে</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">আমি আপোনাৰ গোপনীয়তাৰ সন্মান কৰোঁ। এই এপ্লিকেশ্বনটো

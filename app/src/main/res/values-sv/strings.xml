@@ -46,7 +46,7 @@
 		utgifter som hör till den.</string>
 	<string name="currency_code_item_label">valutakod: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Teckenantal: %d. Teckengräns: %d</string>
+		tools:ignore="PluralsCandidate">Teckenantal: %1$d. Teckengräns:%2$d</string>
 	<string name="privacy_policy">Integritetspolicy</string>
 	<string name="policy_your_data_stays_with_you_title">Dina uppgifter stannar hos dig</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Vi respekterar din integritet. Denna app fungerar

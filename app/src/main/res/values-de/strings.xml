@@ -47,7 +47,7 @@
 		dazugehörigen Ausgaben.</string>
 	<string name="currency_code_item_label">Währungscode: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Anzahl der Zeichen: %d. Zeichenlimit: %d</string>
+		tools:ignore="PluralsCandidate">Anzahl der Zeichen: %1$d. Zeichenlimit:%2$d</string>
 	<string name="privacy_policy">Datenschutzerklärung</string>
 	<string name="policy_your_data_stays_with_you_title">Ihre Daten bleiben bei Ihnen</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Wir respektieren Ihre Privatsphäre. Diese App

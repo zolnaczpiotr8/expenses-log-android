@@ -46,7 +46,7 @@
 		cheltuielile aferente.</string>
 	<string name="currency_code_item_label">cod valută: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Număr de caractere: %d. Limită de caractere: %d</string>
+		tools:ignore="PluralsCandidate">Număr de caractere: %1$d. Limită de caractere:%2$d</string>
 	<string name="privacy_policy">Politica de confidențialitate</string>
 	<string name="policy_your_data_stays_with_you_title">Datele tale rămân cu tine</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Respectăm confidențialitatea dvs. Această aplicație

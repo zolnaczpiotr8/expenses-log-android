@@ -46,7 +46,7 @@
 		ყველა ხარჯს.</string>
 	<string name="currency_code_item_label">ვალუტის კოდი: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">სიმბოლოების რაოდენობა: %d. სიმბოლოების ზღვარი: %d</string>
+		tools:ignore="PluralsCandidate">სიმბოლოების რაოდენობა: %1$d. სიმბოლოების ზღვარი:%2$d</string>
 	<string name="privacy_policy">კონფიდენციალურობის პოლიტიკა</string>
 	<string name="policy_your_data_stays_with_you_title">თქვენი მონაცემები რჩება თქვენთან</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ჩვენ ვაფასებთ თქვენს კონფიდენციალურობას. ეს

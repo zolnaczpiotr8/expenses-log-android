@@ -46,7 +46,7 @@
 		kiuj apartenas al ĝi.</string>
 	<string name="currency_code_item_label">valuto-kodo: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Signokvanto: %d. Signolimo: %d</string>
+		tools:ignore="PluralsCandidate">Signokvanto: %1$d. Signolimo:%2$d</string>
 	<string name="privacy_policy">Privateca Politiko</string>
 	<string name="policy_your_data_stays_with_you_title">Viaj datumoj restas kun vi</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ni respektas vian privatecon. Ĉi tiu aplikaĵo

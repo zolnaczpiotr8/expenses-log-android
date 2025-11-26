@@ -46,7 +46,7 @@
 		نیز می‌شود.</string>
 	<string name="currency_code_item_label">کد ارز: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">تعداد نویسه‌ها: %d. محدودیت نویسه: %d</string>
+		tools:ignore="PluralsCandidate">تعداد نویسه‌ها: %1$d. محدودیت نویسه:%2$d</string>
 	<string name="privacy_policy">سیاست حفظ حریم خصوصی</string>
 	<string name="policy_your_data_stays_with_you_title">داده‌های شما پیش شما می‌ماند</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ما به حریم خصوصی شما احترام می‌گذاریم. این برنامه

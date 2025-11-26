@@ -46,7 +46,7 @@
 		لرې کړي.</string>
 	<string name="currency_code_item_label">د اسعارو کوډ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">د تورو شمېر: %d. د تورو حد: %d</string>
+		tools:ignore="PluralsCandidate">د تورو شمېر: %1$d. د تورو حد:%2$d</string>
 	<string name="privacy_policy">د محرمیت پالیسۍ</string>
 	<string name="policy_your_data_stays_with_you_title">ستاسو معلومات له تاسو سره پاتې کیږي</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">موږ ستاسو محرمیت ته درناوی کوو. دا ایپ په بشپړ ډول

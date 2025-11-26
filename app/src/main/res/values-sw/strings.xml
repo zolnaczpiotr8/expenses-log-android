@@ -46,7 +46,7 @@
 		zinazohusiana nayo.</string>
 	<string name="currency_code_item_label">msimbo wa sarafu: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Idadi ya herufi: %d. Kiwango cha juu cha herufi: %d</string>
+		tools:ignore="PluralsCandidate">Idadi ya herufi: %1$d. Kiwango cha juu cha herufi:%2$d</string>
 	<string name="privacy_policy">Sera ya Faragha</string>
 	<string name="policy_your_data_stays_with_you_title">Data yako inakaa nawe</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Tunaheshimu faragha yako. Programu hii inafanya

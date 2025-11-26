@@ -143,6 +143,7 @@ fun HomeScreen(
             expenses.forEach { (date, expenses) ->
               stickyHeader(
                   key = date,
+                  contentType = ExpensesContentType.Header,
                   content = {
                     Column {
                       ListItem(
@@ -154,7 +155,11 @@ fun HomeScreen(
                   },
               )
 
-              items(items = expenses, key = Expense::uuid) { expense ->
+              items(
+                  items = expenses,
+                  key = Expense::uuid,
+                  contentType = { ExpensesContentType.Expense },
+              ) { expense ->
                 val dialogVisibilityState = rememberSaveable { mutableStateOf(false) }
 
                 ExpenseListItem(
@@ -333,16 +338,14 @@ private fun Categories(
       horizontalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
       modifier = modifier.fillMaxHeight(),
   ) {
-    item(
-        span = StaggeredGridItemSpan.FullLine,
-    ) {
+    item(span = StaggeredGridItemSpan.FullLine, contentType = CategoriesContentType.Text) {
       Text(
           modifier = Modifier.semantics { heading() },
           text = stringResource(R.string.total_amount_title),
           style = MaterialTheme.typography.titleMedium,
       )
     }
-    item {
+    item(contentType = CategoriesContentType.Text) {
       val totalAmount =
           remember(categoriesSummary.totalAmount) {
             categoriesSummary.totalAmount.toFormattedString()
@@ -352,16 +355,12 @@ private fun Categories(
           style = MaterialTheme.typography.bodyMedium,
       )
     }
-    item(
-        span = StaggeredGridItemSpan.FullLine,
-    ) {
+    item(span = StaggeredGridItemSpan.FullLine, contentType = CategoriesContentType.Spacer) {
       Spacer(
           Modifier.height(IncrementalPaddings.x3),
       )
     }
-    item(
-        span = StaggeredGridItemSpan.FullLine,
-    ) {
+    item(span = StaggeredGridItemSpan.FullLine, contentType = CategoriesContentType.Text) {
       Text(
           modifier = Modifier.semantics { heading() },
           text = stringResource(R.string.expenses_categories_title),
@@ -371,6 +370,7 @@ private fun Categories(
     items(
         items = categoriesSummary.categories,
         key = Category::uuid,
+        contentType = { CategoriesContentType.Category },
     ) { category ->
       val menuState = rememberCategoryMenuSheetState(category.title)
       CategoryCard(
@@ -394,9 +394,7 @@ private fun Categories(
       )
     }
 
-    item(
-        span = StaggeredGridItemSpan.FullLine,
-    ) {
+    item(span = StaggeredGridItemSpan.FullLine, contentType = CategoriesContentType.Spacer) {
       Spacer(
           Modifier.height(bottomPadding),
       )

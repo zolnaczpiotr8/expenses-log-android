@@ -46,7 +46,7 @@
 		troškove koji joj pripadaju.</string>
 	<string name="currency_code_item_label">kod valute: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Broj znakova: %d. Ograničenje znakova: %d</string>
+		tools:ignore="PluralsCandidate">Broj znakova: %1$d. Ograničenje znakova:%2$d</string>
 	<string name="privacy_policy">Pravila o privatnosti</string>
 	<string name="policy_your_data_stays_with_you_title">Vaši podaci ostaju s vama</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Poštujemo vašu privatnost. Ova aplikacija

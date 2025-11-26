@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">카테고리를 삭제하면 해당 카테고리에 속한 모든 지출도 삭제됩니다.</string>
 	<string name="currency_code_item_label">통화 코드: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">문자 수: %d. 문자 제한: %d</string>
+		tools:ignore="PluralsCandidate">문자 수: %1$d. 문자 제한:%2$d</string>
 	<string name="privacy_policy">개인정보 처리방침</string>
 	<string name="policy_your_data_stays_with_you_title">귀하의 데이터는 귀하와 함께 있습니다</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">우리는 귀하의 프라이버시를 존중합니다. 이 앱은 완전히 오프라인으로 작동하며 어떠한 데이터도

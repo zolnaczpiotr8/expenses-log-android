@@ -46,7 +46,7 @@
 		жояды.</string>
 	<string name="currency_code_item_label">валюта коды: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Таңбалар саны: %d. Таңбалар шегі: %d</string>
+		tools:ignore="PluralsCandidate">Таңбалар саны: %1$d. Таңбалар шегі:%2$d</string>
 	<string name="privacy_policy">Құпиялық саясаты</string>
 	<string name="policy_your_data_stays_with_you_title">Сіздің деректеріңіз сізде қалады</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Біз сіздің жеке деректеріңіздің құпиялығын

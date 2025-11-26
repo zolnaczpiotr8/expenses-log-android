@@ -47,7 +47,7 @@
 		ဆက်စပ်နေသော အသုံးစရိတ်အားလုံးလည်း ဖယ်ရှားသွားမည်ဖြစ်သည်။</string>
 	<string name="currency_code_item_label">ငွေကြေးကုဒ်: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">အက္ခရာအရေအတွက်: %d။ အက္ခရာကန့်သတ်ချက်: %d</string>
+		tools:ignore="PluralsCandidate">အက္ခရာအရေအတွက်: %1$d။ အက္ခရာကန့်သတ်ချက်:%2$d</string>
 	<string name="privacy_policy">ပုဂ္ဂလိကရေးမူဝါဒ</string>
 	<string name="policy_your_data_stays_with_you_title">သင့်ဒေတာသည် သင့်နှင့်အတူရှိသည်</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ကျွန်ုပ်တို့သည်

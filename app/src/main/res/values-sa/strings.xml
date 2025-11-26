@@ -46,7 +46,7 @@
 		विलोप्यन्ते।</string>
 	<string name="currency_code_item_label">मुद्रा संकेतः: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">अक्षरगणना: %d। अक्षरसীমा: %d</string>
+		tools:ignore="PluralsCandidate">अक्षरगणना: %1$d। अक्षरसীমा:%2$d</string>
 	<string name="privacy_policy">गोपनीयता निति</string>
 	<string name="policy_your_data_stays_with_you_title">तव दत्तांशाः तव सङ्गं स्थास्यन्ति</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">वयं भवतः गोपनीयतां सम्मानयामः। अयं अनुप्रयोगः

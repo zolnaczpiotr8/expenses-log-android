@@ -46,7 +46,7 @@
 		ਹਟਾਈਆਂ ਜਾਣਗੀਆਂ।</string>
 	<string name="currency_code_item_label">ਕਰੰਸੀ ਕੋਡ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">ਅੱਖਰ ਗਿਣਤੀ: %d। ਅੱਖਰ ਸੀਮਾ: %d</string>
+		tools:ignore="PluralsCandidate">ਅੱਖਰ ਗਿਣਤੀ: %1$d। ਅੱਖਰ ਸੀਮਾ:%2$d</string>
 	<string name="privacy_policy">ਪਰਦੇਦਾਰੀ ਨੀਤੀ</string>
 	<string name="policy_your_data_stays_with_you_title">ਤੁਹਾਡੇ ਡੇਟਾ ਤੁਹਾਡੇ ਕੋਲ ਰਹਿੰਦੇ ਹਨ</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">ਅਸੀਂ ਤੁਹਾਡੀ ਗੋਪਨੀਯਤਾ ਦਾ ਸਤਿਕਾਰ ਕਰਦੇ ਹਾਂ। ਇਹ ਐਪ ਪੂਰੀ

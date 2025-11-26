@@ -46,7 +46,7 @@
 		gasto nga naapil niini.</string>
 	<string name="currency_code_item_label">kodigo sa kwarta: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Gidaghanon sa karakter: %d. Limit sa karakter: %d</string>
+		tools:ignore="PluralsCandidate">Gidaghanon sa karakter: %1$d. Limit sa karakter:%2$d</string>
 	<string name="privacy_policy">Palisiya sa Privacy</string>
 	<string name="policy_your_data_stays_with_you_title">Ang imong datos nagpabilin uban nimo</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Girespeto namo ang imong pribasiya. Kini nga app

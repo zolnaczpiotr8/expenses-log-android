@@ -45,7 +45,7 @@
 	<string name="delete_expense_category_text">מחיקת הקטגוריה תסיר גם את כל ההוצאות הקשורות אליה.</string>
 	<string name="currency_code_item_label">קוד מטבע: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">מספר תווים: %d. מגבלת תווים: %d</string>
+		tools:ignore="PluralsCandidate">מספר תווים: %1$d. מגבלת תווים:%2$d</string>
 	<string name="privacy_policy">מדיניות פרטיות</string>
 	<string name="policy_your_data_stays_with_you_title">הנתונים שלך נשארים איתך</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">אנו מכבדים את פרטיותך. האפליקציה פועלת באופן מלא לא

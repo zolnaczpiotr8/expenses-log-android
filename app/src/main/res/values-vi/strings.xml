@@ -46,7 +46,7 @@
 		phí thuộc về nó.</string>
 	<string name="currency_code_item_label">mã tiền tệ: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Số ký tự: %d. Giới hạn ký tự: %d</string>
+		tools:ignore="PluralsCandidate">Số ký tự: %1$d. Giới hạn ký tự:%2$d</string>
 	<string name="privacy_policy">Chính sách bảo mật</string>
 	<string name="policy_your_data_stays_with_you_title">Dữ liệu của bạn vẫn thuộc về bạn</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Chúng tôi tôn trọng quyền riêng tư của bạn. Ứng

@@ -46,7 +46,7 @@
 		їй належать.</string>
 	<string name="currency_code_item_label">код валюти: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Кількість символів: %d. Обмеження символів: %d</string>
+		tools:ignore="PluralsCandidate">Кількість символів: %1$d. Обмеження символів:%2$d</string>
 	<string name="privacy_policy">Політика конфіденційності</string>
 	<string name="policy_your_data_stays_with_you_title">Ваші дані залишаються з вами</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Ми поважаємо вашу конфіденційність. Цей додаток

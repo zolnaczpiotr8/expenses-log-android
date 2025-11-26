@@ -46,7 +46,7 @@
 		τις σχετικές δαπάνες.</string>
 	<string name="currency_code_item_label">κωδικός νομίσματος: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Αριθμός χαρακτήρων: %d. Όριο χαρακτήρων: %d</string>
+		tools:ignore="PluralsCandidate">Αριθμός χαρακτήρων: %1$d. Όριο χαρακτήρων:%2$d</string>
 	<string name="privacy_policy">Πολιτική Απορρήτου</string>
 	<string name="policy_your_data_stays_with_you_title">Τα δεδομένα σας μένουν μαζί σας</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Σεβόμαστε το απόρρητό σας. Αυτή η εφαρμογή

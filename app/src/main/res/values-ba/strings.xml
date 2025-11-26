@@ -46,7 +46,7 @@
 		юйасаҡ.</string>
 	<string name="currency_code_item_label">валютала коды: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Символдар һаны: %d. Символдар лимиты: %d</string>
+		tools:ignore="PluralsCandidate">Символдар һаны: %1$d. Символдар лимиты:%2$d</string>
 	<string name="privacy_policy">Ҡулланыусы мәғлүмәттәр сәйәсәте</string>
 	<string name="policy_your_data_stays_with_you_title">Һеҙҙең мәғлүмәт һеҙҙең менән ҡала</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Беҙ һеҙҙең шәхси мәғлүмәттәрегеҙҙе хөрмәт итәбеҙ.

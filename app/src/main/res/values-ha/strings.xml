@@ -47,7 +47,7 @@
 		alaƙa da shi.</string>
 	<string name="currency_code_item_label">lambar kudin: %s</string>
 	<string name="character_count_and_limit_label"
-		tools:ignore="PluralsCandidate">Yawan haruffa: %d. Iyakokin haruffa: %d</string>
+		tools:ignore="PluralsCandidate">Yawan haruffa: %1$d. Iyakokin haruffa:%2$d</string>
 	<string name="privacy_policy">Manufar Sirri</string>
 	<string name="policy_your_data_stays_with_you_title">Bayananka suna tare da kai</string>
 	<string name="privacy_policy_your_data_stays_with_you_body">Muna girmama sirrinka. Wannan manhaja tana aiki
