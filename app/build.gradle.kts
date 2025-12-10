@@ -119,7 +119,6 @@ android {
       add("sv")
       add("tg")
       add("ta")
-      add("tt")
       add("te")
       add("th")
       add("tr")

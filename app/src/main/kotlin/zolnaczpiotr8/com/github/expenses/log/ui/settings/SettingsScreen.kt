@@ -3,10 +3,15 @@ package zolnaczpiotr8.com.github.expenses.log.ui.settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeContent
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -81,6 +86,7 @@ fun SettingsScreen(
         modifier =
             Modifier.padding(paddingValues)
                 .padding(Margins.compact)
+                .windowInsetsPadding(WindowInsets.safeContent.only(WindowInsetsSides.Horizontal))
                 .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(IncrementalPaddings.x1),
     ) {

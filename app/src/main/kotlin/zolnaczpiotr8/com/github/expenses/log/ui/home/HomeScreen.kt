@@ -8,12 +8,16 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.WindowInsetsSides
+import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.systemBars
+import androidx.compose.foundation.layout.safeContent
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
@@ -122,7 +126,11 @@ fun HomeScreen(
   val scope = rememberCoroutineScope()
   BottomSheetScaffold(
       scaffoldState = scaffoldState,
-      modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
+      modifier =
+          // TODO: check later (on newer material 3 version) if this workaround with insets is sill
+          // needed
+          Modifier.nestedScroll(scrollBehavior.nestedScrollConnection)
+              .windowInsetsPadding(WindowInsets.safeContent.only(WindowInsetsSides.Bottom)),
       sheetContent = {
         if (expenses.isNotEmpty()) {
           Text(
@@ -182,7 +190,7 @@ fun HomeScreen(
 
             item {
               Spacer(
-                  Modifier.windowInsetsBottomHeight(WindowInsets.systemBars),
+                  Modifier.windowInsetsBottomHeight(WindowInsets.safeContent),
               )
             }
           }
@@ -224,10 +232,11 @@ fun HomeScreen(
       },
   ) { paddingValues ->
     Column(
-        Modifier.fillMaxHeight(),
+        Modifier.windowInsetsPadding(WindowInsets.safeContent.only(WindowInsetsSides.Horizontal))
+            .fillMaxHeight(),
     ) {
       Column(
-          Modifier.padding(Margins.compact),
+          Modifier.padding(Margins.compact).consumeWindowInsets(Margins.compact),
           verticalArrangement =
               Arrangement.spacedBy(
                   IncrementalPaddings.x1,
