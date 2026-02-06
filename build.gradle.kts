@@ -4,7 +4,6 @@ import kotlin.io.path.Path
 
 plugins {
   alias(libs.plugins.spotless)
-
   alias(libs.plugins.android.application) apply false
   alias(libs.plugins.android.test) apply false
   alias(libs.plugins.kotlin.jvm) apply false
