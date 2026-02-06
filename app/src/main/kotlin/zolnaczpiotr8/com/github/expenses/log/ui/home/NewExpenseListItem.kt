@@ -2,7 +2,7 @@ package zolnaczpiotr8.com.github.expenses.log.ui.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ShoppingCart
+import androidx.compose.material.icons.filled.PostAdd
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.Text
@@ -24,7 +24,7 @@ fun NewExpenseListItem(
           ),
       leadingContent = {
         Icon(
-            imageVector = Icons.Default.ShoppingCart,
+            imageVector = Icons.Default.PostAdd,
             contentDescription = null,
         )
       },

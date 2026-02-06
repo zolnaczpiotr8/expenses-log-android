@@ -13,8 +13,8 @@
 	<string name="title_label">Titre</string>
 	<string name="expenses_title">Dépenses</string>
 	<string name="settings">Paramètres</string>
-	<string name="save_error_message">Impossible d’enregistrer en raison d’une saisie
-		invalide.</string>
+	<string name="save_error_message">Impossible d’enregistrer : certaines informations
+		sont incorrectes</string>
 	<string name="go_back_button_description">Revenir</string>
 	<string name="required_text_field_error_label">Erreur</string>
 	<string name="new_expense">Nouvelle Dépense</string>
@@ -43,8 +43,8 @@
 	<string name="expense_created_message">Dépense créée</string>
 	<string name="category_created_message">Catégorie créée</string>
 	<string name="delete_expense_text">La dépense sera supprimée définitivement.</string>
-	<string name="delete_expense_category_text">La suppression de la catégorie entraînera également
-		la suppression de toutes les dépenses qui y sont associées.</string>
+	<string name="delete_expense_category_text">Supprimer cette catégorie supprimera également
+		toutes les dépenses associées.</string>
 	<string name="currency_code_item_label">code monétaire: %s</string>
 	<string name="character_count_and_limit_label"
 		tools:ignore="PluralsCandidate">Nombre de caractères : %1$d. Limite de caractères :%2$d</string>
